@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-037-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-035-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000134-036-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Franz Leschnitzer</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000134-036-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-samek-franz-leschnitzer-0 </idno>
+            <idno subtype="transkribus" type="ID">437408</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000134" type="collection">Paul Amadeus Pisk ca. Karl Kraus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000134-036-000-facs001" xml:id="D_000134-036-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000134-036-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/> 
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51"/> 
+               </address>
+               <date when-iso="1930-10-16">16. Oktober 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38984">Herrn | Franz Leschnitzer | bei Schneider</persName>
+               <address>
+                  <street corresp="#63673">Rosenheimerstrasse 11</street>
+                  <settlement ref="#168">Berlin W.30</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Dr. Pisk.</note>
+               <note type="dictation">Dr.S/Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-10-16">16. Oktober 1930
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000134-036-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000134-036-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" when-iso="2021-09-13" status="draft">created XML Document</change>
+         <change resp="#LU" when-iso="2021-09-13" status="draft">Replaced Text with Transcription
+                of Transkribus Document 437408. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2022-02-12"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2022-02-12"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2022-02-12"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-02-12" who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2022-02-12"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000134-036-000-facs001">
+      <surfaceGrp xml:id="D_000134-036-000-facs001-l001">
+         <surface xml:id="D_000134-036-000-facs001-l001-p001" type="recto">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558407/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000134-036-000-facs001-l001-p002" type="verso">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558408/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000134-036-000_p001" n="1" facs="#D_000134-036-000-facs001-l001-p001"/>
+         <p xml:id="uuid_2cee6976-f623-45c7-82c6-f8bdefc3199e">
+            <lb xml:id="uuid_48aaf9e3-2a3f-47e8-bff0-d2ed1aa9265a"/>Sehr geehrter Herr <rs
+               type="person" ref="#38984">Leschnitzer</rs>! </p>
+         <p xml:id="uuid_7e668c92-8e40-4558-9b7c-8f8019d89904">
+            <lb xml:id="uuid_b495f344-27ca-42c7-90de-a63aa747a3a2"/>Ich danke für Ihre freundliche
+               Bemühung<lb xml:id="uuid_28ffe335-2b11-4857-a1c4-d82a330e4393"/>und bestätige
+            wunschgemäss die Uebersendung zweier Briefe,<lb
+               xml:id="uuid_34d4084d-b883-43ac-bbea-587175d1cf0a"/>diverser Zeitungsausschnitte. Bei
+            dieser Gelegenheit möchte ich<lb xml:id="uuid_d91283e8-fde8-40dc-a209-9341f66d97cc"/>Sie
+            um folgendes bitten. Es wurde mir auf Ihre Veranlassung<lb
+               xml:id="uuid_28fb5578-1bbb-4351-aa71-81a860fd5491"/>vom Verlag „<rs
+               type="institution" ref="#63963">Die Aktion</rs>“ ein Buch „<rs type="work"
+               ref="#63966" subtype="pmb">Leo Trotzki, die permanente<lb
+                  xml:id="uuid_bb61340e-a0f5-4b52-a1fc-f872a9f1f47e"/>Revolution</rs>“ zum Preise
+            von Mark 2.– übersendet, doch macht mir<lb
+               xml:id="uuid_86f978cd-d95e-4ef7-902a-ff5122e89a70"/>die Zahlung mittels einer
+            beigelegten Zahlkarte in Oesterreich <lb
+               xml:id="uuid_92fbb139-74eb-4f53-bdba-d7ed861980b1"/>Schwierigkeiten. Ich wäre Ihnen
+            sehr verbunden, wenn Sie den<lb xml:id="uuid_76e395a1-f843-461c-ab9a-a6b7396a0e06"
+            />Betrag von Mark 2.– bezahlten und ich werde Ihnen denselben<lb
+               xml:id="uuid_d775138d-5f26-4c72-bdf5-d609b167c0b0"/>bei Gelegenheit zurückstellen.
+            Eventuell werde ich bei einer<lb xml:id="uuid_df10efb6-ea31-441b-9258-0d4b73cbdf27"
+            />nächsten Geldsendung an Herrn <rs type="person" ref="#38969">Dr. Laserstein</rs>
+            diesen Betrag an<lb xml:id="uuid_5b389543-61ef-4738-bb71-5317646a7298"/>Sie
+            mitsenden.</p>
+         <p xml:id="uuid_6cfcfbe2-48c8-4306-883d-f54f1019f748">
+            <lb xml:id="uuid_8cf18559-cc7a-4bea-9345-52f480c48b27"/>Mit besten Grüssen<pb
+               xml:id="D_000134-036-000_p002" n="2" facs="#D_000134-036-000-facs001-l001-p002"/></p>
+         <p xml:id="uuid_b2bca960-da7c-4d95-a361-f8a9b0bb1f7b">
+            <lb xml:id="uuid_984a5b6d-a2da-4201-a682-2f1b685f08e8"/><note type="paratext"
+               resp="law-firm">Betr. <rs type="person" ref="#11988">Kraus</rs> – Dr. <rs
+                  type="person" ref="#39325">Pisk</rs>
+               <lb xml:id="uuid_a773c5a2-0bb1-4de9-b1ec-03251f60b81c"/>exp. 16.10.1930.</note></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-080-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-078-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000193-079-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Robert Herrmann (Brünn)</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000193-079-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4807</idno>
+            <idno subtype="transkribus" type="ID">376042</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000193" type="collection">Karl
+                    Kraus ca. Sozialdemokrat (Prag)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000193-079-000-facs001" xml:id="D_000193-079-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000193-079-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#52780"/>
+                  <settlement ref="#64"/>
+               </address>
+               <date when-iso="1936-02-13">13. Februar 1936</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#51582">Herrn | Dr. Robert Herrmann, | Advokat</persName>
+               <address>
+                  <street corresp="#51759">Masarykstr. 25/27</street>
+                  <settlement ref="#833">Brünn</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Sozialdemokrat</note>
+               <note type="dictation">Dr.Sa/Ma.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1936-02-13">13. Februar 1936
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000193-079-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000193-079-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-08-18" who="#JK"/>
+         <change type="typography" when-iso="2021-08-18" who="#JK"/>
+         <change type="references" when-iso="2021-08-18" who="#JK"/>
+         <change type="structure" when-iso="2021-08-18" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-06" who="#JK"/>
+         <change when-iso="2020-10-12T07:56:29.816Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-12T08:31:06.58Z" who="#IB">Replaced Text with Transcription of
+                Transkribus Document 376042. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000193-079-000-facs001">
+      <surfaceGrp xml:id="D_000193-079-000-facs001-l001">
+         <surface type="recto" xml:id="D_000193-079-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545275/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545277/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000193-079-000_p001"
+             facs="#D_000193-079-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_657337c5-7376-4059-bd55-3ce9a7e75a75">
+            <lb xml:id="uuid_9ff8faef-279e-40f9-bcb3-f995d383f955"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/51582" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_5281bc2e-741f-487d-8317-631543b385d2">
+            <lb xml:id="uuid_45e0483e-cfb5-444a-aa9c-fea846249e10"/>Es wird vielleicht für Sie
+                zu etwaigen Verwendung<lb xml:id="uuid_95abe38d-acab-41e1-a94d-13d9089f3817"/>bei
+                der Hauptverhandlung vom 18. Februar 1936 von Interesse<lb xml:id="uuid_d97f9eab-0043-40ae-86cc-dec7c53d8d9d"/>sein, dass der <rs ref="#37540" type="institution">Prager Sozialdemokrat</rs> sich einer zweiten<lb xml:id="uuid_8d66b13b-f9c6-448c-bc6a-edcfa0cdce04"/>Beleidigung gegen <rs ref="#11988" type="person">Herrn Kraus</rs> schuldig gemacht hat, deretwegen<lb xml:id="uuid_11e33f2b-49db-47e5-8a08-7f603682977b"/>eine Privatanklage erhoben
+                worden ist. Unter Anderem ist<lb xml:id="uuid_019db67a-da77-4d04-8cca-c3d1e70ac916"/>behauptet worden, dass von einigen europäischen Geistern,<lb xml:id="uuid_c78f3394-b85d-42c7-a951-e185664e4acf"/>zu denen auch <rs ref="#11988" type="person">Herr Kraus</rs> gehört, traurige Beispiele des<lb xml:id="uuid_298a30ce-b06f-421a-b01d-1b21a2c1d051"/>moralischen Verfalles
+                hinterlassen werden. Der <rs ref="#37540" type="institution">Sozialdemokrat</rs>
+            <lb xml:id="uuid_1376eb5f-8663-47a8-8456-8903e75b0fcb"/>hat diese Beleidigungen in
+                der <rs ref="#57588" type="work" subtype="pmb">Nummer vom 30. Januar 1936</rs>
+            <lb xml:id="uuid_bfab5113-f91d-47cb-8540-da711102caeb"/>zurückgezogen, eine Busse
+                und die Kosten bezahlt. Die Erklärung<lb xml:id="uuid_b6509602-0d6e-4e38-a466-f50df5d8b939"/>dürften Sie auch in der <rs ref="#57591" type="work" subtype="pmb">gleichen Nummer der Brünner Zeitung<lb xml:id="uuid_ba9d33ed-f853-4872-80f8-dbda555607b2"/>„Der Volksfreund“</rs>
+                finden, da, wie <rs ref="#11988" type="person">Herr Kraus</rs> weiss, <rs ref="#57410" type="work" subtype="pmb">diese<lb xml:id="uuid_07f5068f-41be-453e-899c-8cb6ad3a969c"/>Zeitung</rs> bis auf den
+                Titel den gleichen Inhalt hat wie der<lb xml:id="uuid_7ef22126-d5ae-4b63-9e98-4faac1e42ba6"/><rs ref="#56392" type="work" subtype="pmb">Sozialdemokrat</rs>. </p>
+         <p xml:id="uuid_8665ad99-4aea-4672-b226-25c4937a475b">
+            <lb xml:id="uuid_4dfd354a-7617-4e67-a21f-63574c59be37"/>Mit vorzüglicher
+                    kollegialer<lb xml:id="uuid_43dfd248-b728-4b67-8594-c17f45fe8f6e"/>Hochachtung
+            </p>
+      </body>
+   </text>
+</TEI>

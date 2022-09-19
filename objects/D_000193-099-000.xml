@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000193-099-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-098-000.xml"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-100-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Johann Turnovsky</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000193-099-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4827 </idno>
+            <idno type="ID" subtype="transkribus">376060</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000193">Karl
+                    Kraus ca. Sozialdemokrat (Prag)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000193-099-000-wit01" facs="#D_000193-099-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000193-099-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHN">Durchschlag mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#52780"/>
+                  <settlement ref="#64"/>
+               </address>
+               <date when-iso="1936-04-28">28. April 1936</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#43593">Herrn | Dr. Johann Turnovsky, Advokat</persName>
+               <address>
+                  <street corresp="#51737">Vodickova 33</street>
+                  <settlement ref="#652">Prag II.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Sozialdemokrat</note>
+               <note type="dictation">Dr.S/Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date type="sortDate" when-iso="1936-04-28" subtype="produced">28. April 1936
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote xml:id="D_000193-099-000-hand01"
+                      source="#D_000193-099-000-wit01"
+                      scribeRef="#11988"
+                      medium="red-ink"
+                      cert="low"
+                      resp="#JK"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000193-099-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000193-099-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-08-19" who="#JK"/>
+         <change type="typography" when-iso="2021-08-19" who="#JK"/>
+         <change type="references" when-iso="2021-08-19" who="#JK"/>
+         <change type="structure" when-iso="2021-08-19" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-06" who="#JK"/>
+         <change when-iso="2020-10-12T07:56:29.816Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-12T08:31:06.58Z" who="#IB">Replaced Text with Transcription of
+                Transkribus Document 376060. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000193-099-000-facs001">
+      <surfaceGrp xml:id="D_000193-099-000-facs001-l001">
+         <surface xml:id="D_000193-099-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545334/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000193-099-000-facs001-l002">
+         <surface xml:id="D_000193-099-000-facs001-l002-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545335/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000193-099-000-facs001-l002-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545336/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000193-099-000-facs001-l003">
+         <surface xml:id="D_000193-099-000-facs001-l003-p003" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545337/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000193-099-000-facs001-l003-p004" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545338/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000193-099-000-facs001-l004">
+         <surface xml:id="D_000193-099-000-facs001-l004-p005" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545339/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000193-099-000-facs001-l004-p006" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545340/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000193-099-000-facs001-l005">
+         <surface xml:id="D_000193-099-000-facs001-l005-p007" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545341/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000193-099-000-facs001-l005-p008" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545342/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545343/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545344/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545345/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545346/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545347/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545348/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545349/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545350/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545351/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545352/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545353/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545354/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545355/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545356/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545357/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545358/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545359/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545360/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545361/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545362/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545363/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545364/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545365/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545366/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000193-099-000_p001"
+             facs="#D_000193-099-000-facs001-l002-p001"
+             n="1"/>
+         <p xml:id="uuid_8046aaed-13ff-43c1-9658-a19badd7110e">
+            <lb xml:id="uuid_9c84cea3-dc39-4501-88d2-3ac6f8382130"/>Sehr geehrter <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/43593">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_2d7f97bc-eaed-4cfc-91f0-42b653caeb52">
+            <lb xml:id="uuid_1e2d6a89-35b3-4919-80af-34cd715f0095"/>Mit bestem Dank auch von
+                seiten des <rs type="person" ref="#11988">Herrn<lb xml:id="uuid_952668d2-7e91-4fc2-b73d-90901216a433"/>K.</rs> bestätige ich
+                den Empfang Ihrer freundlichen <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-096-000"
+                subtype="legal-doc">Briefe vom 22.</rs>,<lb xml:id="uuid_f12e1075-960f-4fed-b958-fc1518e6e8ee"/><rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-097-000"
+                subtype="legal-doc">23.</rs> und <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-098-000"
+                subtype="legal-doc">24. April 1936</rs>. Ich beantworte diese Briefe zusammenfassend<lb xml:id="uuid_282ce4e3-b1cd-4c20-bc4b-dab8eaa0fd72"/>nach den folgenden
+                Gesichtspunkten: </p>
+         <p xml:id="uuid_7dbe487c-1b16-4b69-a330-6371916c3f29">
+            <lb xml:id="uuid_eb569203-f930-41be-9b6f-357f07810742"/>1.) <hi rend="underlined">Berichtigungen</hi>. <rs type="person" ref="#11988">Herr K.</rs> schliesst sich
+                der Ansicht an, dass<lb xml:id="uuid_97416778-d0f4-4aef-8c4d-923a93d5dcf1"/>gegen
+                das ‚<rs type="institution" ref="#29259">Prager Tagblatt</rs>‘ die
+                Berichtigungsklage aussichtslos<lb xml:id="uuid_88a85b4e-b37f-4b0c-aa80-b7c1333a5f26"/>ist und wird diesen Fall in
+                der Weise erledigen, dass er diesem<lb xml:id="uuid_6c4a74b7-c1a7-44ae-a2e5-8b28b757d0f9"/><rs type="institution" ref="#29259">Blatt</rs> einen Brief schreiben lässt, der die Niederträchtigkeit
+                    der<lb xml:id="uuid_b104eec0-519a-4e8c-9812-69b87b9b33ad"/>Verweigerung der
+                Berichtigung bei der Aufnahme einer <rs type="work" ref="#57623" subtype="pmb">offensicht<lb xml:id="uuid_5fd3cc27-339d-4c67-a3b8-972b8fd84925" break="no"/>lich falschen Notiz</rs> darstellt. </p>
+         <p xml:id="uuid_9f403cfa-4fb4-4e1d-8843-b70abfc8d408">
+            <lb xml:id="uuid_a641e945-9154-44f3-869b-c64ba1b312f9"/>An die ‚<rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/29194">Prager
+                    Presse</rs>‘ könnte die <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-094-000"
+                subtype="legal-doc">Berichti<lb xml:id="uuid_2c0ee38c-1a8e-4edd-ba13-d597b0f60703" break="no"/>gung</rs> vielleicht ohne den ersten Absatz noch einmal gesendet wer<lb xml:id="uuid_c07e0175-3392-4592-ba88-e567c54b68c3" break="no"/>den, mit einem
+                Begleitbrief, ungefähr des folgenden Wortlautes,<lb xml:id="uuid_8cdcc4c6-d5de-451e-a2f4-961b77b12b23"/>den ich vorschlage und in
+                welchem <rs type="person" ref="#38976">Herrn Laurin</rs> die Möglichkeit<lb xml:id="uuid_3af10c85-17b6-4bf1-ad69-e081bdcfd82f"/>gegeben wird, auch den
+                letzten Satz auszulassen, wenn er diesen<lb xml:id="uuid_28287401-56c3-4286-abde-eebd5c3d7be2"/>Satz nicht als dem Gesetz
+                entsprechend erachtet: </p>
+         <p xml:id="uuid_53180936-75d0-4067-ade4-d18bdb749ae6">
+            <lb xml:id="uuid_eb4a8d87-7040-4038-9d4e-04c4aa5837a6"/>„<rs type="person" ref="#38976">Hochgeehrter Herr</rs>! Ich danke Ihnen für Ihre freundliche<lb xml:id="uuid_1e342839-ba17-4cd7-9d6a-642631876876"/>Absicht, aber ich könnte
+                beim besten Willen, gegen einen <rs type="work" ref="#57629" subtype="pmb">Artikel</rs>,<lb xml:id="uuid_9a6b24ca-574b-4527-8c26-e8c7b1459139"/>der mit
+                dem Schein der Richtigkeit in jedem Wort und zwischen<lb xml:id="uuid_fb84560c-2212-4c57-b83f-133e2021b40b"/>den Worten von Unwahrheiten
+                strotzt, keine andere Berichtigung<lb xml:id="uuid_57cad591-c527-4e3a-8c29-9d4b77e372a9"/>oder Entgegnung verfassen.
+                Da Sie die Berichtigung der Stelle<lb xml:id="uuid_a4bac6d7-3639-4ff5-b59e-e4a6b7ff985c"/>von der Beendigung
+                beanstanden, so schicke ich die Berichtigung<lb xml:id="uuid_09a2e610-2b34-4056-86d1-26718e7f03c9"/>ohne diese. Ich wäre auch
+                damit einverstanden, dass Sie den<lb xml:id="uuid_3eeffb2d-5c54-473a-8093-81091b3dcd39"/>letzten Satz, obwohl ich auf
+                diesen Wert lege, weglassen, wobei<lb xml:id="uuid_8da7ea4c-24c8-47dd-9a3c-55c5cf2b4a97"/>ich Ihnen mitteilen möchte,
+                dass die <rs type="institution" ref="#37415">LIDOVE NOVINY</rs> die Berichti- <pb xml:id="D_000193-099-000_p002"
+                facs="#D_000193-099-000-facs001-l002-p002"
+                n="2"/>
+            <lb xml:id="uuid_7073194e-f819-4f57-a5b7-487d9bd7e74e"/>gung vollständig
+                gebracht hat. Mit vorzüglicher Hochachtung.“ </p>
+         <p xml:id="uuid_d7345e29-bafc-4f98-a00c-9e4f647ada1b">
+            <lb xml:id="uuid_16d5f36e-e3c2-47ce-a912-97db7d9899b8"/>In der Berichtigung an den
+                    ‚<rs type="institution" ref="#37540">Sozialdemokrat</rs>‘<lb xml:id="uuid_3937c09a-ffd5-4330-9999-55cd34cb0903"/>könnte vielleicht zur
+                Verdeutlichung des Grundes des Freispruches<lb xml:id="uuid_893a9f4c-0434-4cf9-958b-e3de10531d36"/>der letzte Satz in der
+                folgenden Weise geändert werden: </p>
+         <p xml:id="uuid_4ed4136a-a8e8-45a6-bf77-096269d7dc4a">
+            <lb xml:id="uuid_de919f07-d192-4a5c-841b-cdfac388a0b1"/>„Wahr ist vielmehr, dass <rs type="person" ref="#38644">Dr. Strauss</rs> lediglich aus dem<lb xml:id="uuid_d831d7ab-0133-4137-9fdb-00cd8df4867b"/>formalen Grund
+                freigesprochen wurde, weil sich der Privatkläger<lb xml:id="uuid_5a142910-139a-48b0-b6e4-9a8079e745ce"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs> in einem zweiten
+                von ihm gegen den gleichen <rs type="person" ref="#38644">An<lb xml:id="uuid_c3066d40-8e85-4af6-9b2e-a4eccbf9214a" break="no"/>geklagten</rs> angestrengten Prozess, in welchem sich dieser zur<lb xml:id="uuid_76004ffa-bbfa-4a70-9f20-fe0d3ee18480"/>Veröffentlichung einer
+                Ehrenerklärung wegen ähnlicher Beleidi<lb xml:id="uuid_236e038c-fc2b-450c-9226-a49003158479" break="no"/>gungen, zur
+                Bezahlung der Verfahrens- und Anwaltsspesen und<lb xml:id="uuid_78d1c389-9752-4f4b-9eed-83fbfc25a9c1"/>zu einer Busse zu Gunsten
+                der Arbeitslosen der Hauptstadt<lb xml:id="uuid_64deab16-6b37-4ae1-91b1-9091c3096de2"/><rs type="place" ref="#652">Prag</rs> verpflichtete, die Weiterverfolgung der im ersten Prozess<lb xml:id="uuid_8ba51e64-25b3-4106-b280-fda20ebd7085"/>unter Anklage gestellten
+                Beleidigungen nicht vorbehalten hat.“ </p>
+         <p xml:id="uuid_3afac6e2-ec88-4c8e-bec5-ccf8f2b37c95">
+            <lb xml:id="uuid_d349bf82-c231-48bd-9025-06123012db95"/><rs type="person" ref="#11988">Herr K.</rs> gibt auch zu bedenken, ob es nicht<lb xml:id="uuid_67316fee-9fd2-4369-a527-0a07e261ead4"/>möglich wäre, mit der Klage
+                auf <hi rend="underlined">Widerruf</hi> gegen den ‚<rs type="institution" ref="#37540">Sozialdemokrat</rs>‘<lb xml:id="uuid_b0151b0e-9ad1-4345-843a-e6c1f3a22782"/>vorzugehen, und erbittet
+                sich Ihre Meinungsäusserung. Ich selbst<lb xml:id="uuid_471cc13e-2b0a-4435-b9c1-676c1aede29c"/>halte diese Klage nicht für
+                ausgeschlossen. Allerdings ist es schwer,<lb xml:id="uuid_9a3fbddb-bf67-4cb9-b594-f3509dc8bb84"/>den Zusammenhang zwischen
+                dem <rs type="work" ref="#57616" subtype="pmb">Bericht</rs> und einer
+                    Beeinträchtigung<lb xml:id="uuid_8438ae3c-c0a9-4b95-a64b-ff7dfd057591"/>des
+                Erwerbes oder Fortkommens logisch herzustellen. Zu erwägen<lb xml:id="uuid_c76e48c5-f54a-45aa-8809-b81dec2c2f91"/>wäre auch, ob dieser <rs type="work" ref="#57616" subtype="pmb">Prozessbericht</rs> nicht zum Gegenstand
+                    einer<lb xml:id="uuid_bc4d0796-445f-4eb4-8f47-0a23470f9e66"/>neuen
+                Ehrenbeleidigungsklage gemacht werden kann, denn die Behauptung,<lb xml:id="uuid_652e06a5-0f41-41bd-a8ca-fdc07157b5e1"/><rs type="person" ref="#11988">Kraus</rs> habe gegen das österreichische Proletariat und seine
+                    helden<lb xml:id="uuid_702108a4-605e-4540-8f0f-ccefd451e4aa" break="no"/>haften
+                Schutzbündler Stellung genommen, war in dem <rs type="work" ref="#56397" subtype="pmb">Artikel vom<lb xml:id="uuid_4821aef5-9a7b-41b4-a506-e65a2679f470"/>10. August 1934</rs> nicht enthalten und stellt eine ganz neue Beleidigung<lb xml:id="uuid_76dd7205-1f1a-4e2d-8328-5d72ed9ba78c"/>dar. Eventuell könnte sogar
+                die Wiederholung der früheren Beleidi<lb xml:id="uuid_6a94f7b4-cd00-4770-ac72-52b32c00eb07" break="no"/>gungen im
+                Zusammenhang mit der falschen Behauptung, <rs type="person" ref="#38644">Dr.
+                    Strauss</rs> sei<lb xml:id="uuid_5e4eed48-af34-4b8e-b5da-3110eb1680cd"/>von der
+                gegen ihn erhobenen Anklage <hi rend="underlined">vollinhaltlich</hi>
+                    freigesprochen<lb xml:id="uuid_cc9edd5b-a6ea-4638-8869-b2fc95eebadc"/>worden,
+                womit offenbar zum Ausdruck gebracht werden soll, dass er<lb xml:id="uuid_085a2433-b727-473f-92ef-ef6540b5e0aa"/>die Wahrheit der
+                Beleidigungen erwiesen habe, als neue Beleidigung<lb xml:id="uuid_3716c2bd-3821-4b75-af00-738327c1b20e"/>aufgefasst werden. Auch
+                darüber erbitte ich mir Ihre geschätzte<lb xml:id="uuid_72a71e25-a1ff-447e-b9e0-06b39a1fe15e"/>Meinungsäusserung. </p>
+         <p xml:id="uuid_ccc6f9d4-0c3b-4006-8dac-f4dd382c1dce">
+            <lb xml:id="uuid_67e8c3d1-ed1f-4deb-a267-6b5e42a41056"/>In der Berichtigung für den
+                    ‚<rs type="institution" ref="#29728">Tagesboten</rs>‘<lb xml:id="uuid_c5ae4020-8fa8-4b18-b4b0-3028477af53b"/>möchte ich vorschlagen,
+                gleich den ersten Absatz auszulassen, weil <pb xml:id="D_000193-099-000_p003"
+                facs="#D_000193-099-000-facs001-l003-p003"
+                n="3"/>
+            <lb xml:id="uuid_39f4212f-5b1e-458b-8ba6-63b09f6a9604"/>es mir wirklich bedenklich
+                erscheint, das Wort „beendet“ zum<lb xml:id="uuid_ad9bb57b-064b-4d54-9bdc-afb923de948c"/>Gegenstand einer
+                Berichtigung zu machen, wenn später ausdrücklich<lb xml:id="uuid_af7bb479-9afb-4b6f-a3ba-43e1de305705"/>mitgeteilt wird, dass eine
+                Nichtigkeitsbeschwerde erhoben wurde,<lb xml:id="uuid_2645d663-c037-4f12-89d6-7a581808d53f"/>so dass auch dem simplern
+                Leser klar werden kann, dass es sich nur<lb xml:id="uuid_c6d1e0e6-8341-4ce0-ac3e-f80a127c5e22"/>um eine Beendigung in der
+                ersten Instanz gehandelt hat. Für die<lb xml:id="uuid_f1c9248f-b399-41fd-8cf3-18bbb862db65"/>beiden anderen Punkte der
+                vorgeschlagenen Berichtigung möchte ich<lb xml:id="uuid_1653efd9-2c4e-4d28-9791-7836033feb0d"/>im Einvernehmen mit <rs type="person" ref="#11988">Herrn K.</rs> kleine Aenderungen vorschlagen, die<lb xml:id="uuid_1cdf0259-fa35-4667-959e-8ca84c7c8aee"/>ich auf den von Ihnen
+                eingesendeten Entwürfen verzeichnet habe.<lb xml:id="uuid_ef76116f-8df3-428d-ae15-4f2934d8c99c"/>Ich sende Ihnen sämtliche
+                Berichtigungen wieder zurück und bitte<lb xml:id="uuid_e014d1a6-cedc-493c-885c-2b71d3b3334b"/>Sie, sehr geehrter <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/43593">Herr Kollege</rs>,
+                sie mir gelegentlich wieder ein<lb xml:id="uuid_d165faed-993a-492b-a8cf-4409bddd9bae" break="no"/>zusenden, damit
+                ich sie meinem Akt anschliessen kann. </p>
+         <p xml:id="uuid_c94f3225-b453-4bc6-8f01-7b6341cd5c4c">
+            <lb xml:id="uuid_d3c91fe2-3bad-4aeb-a6b8-666b8494c859"/>2.) <hi rend="underlined">Nichtigkeitsbeschwerde</hi>. Zu dieser sind <rs type="person" ref="#11988">Herrn K.</rs> und auch mir<lb xml:id="uuid_04f85dfc-ab29-461a-bbb2-cbdeb9fd5add"/>einige verwendbare Argumente
+                eingefallen, die ich Ihnen mitteile,<lb xml:id="uuid_db835116-f619-4963-b42f-fc6b15341f4d"/>wobei die Auswahl
+                selbstverständlich Ihnen überlassen bleibt.<lb xml:id="uuid_33ce4cd5-dfdd-44eb-833c-c729b2e8095b"/>Da ich nicht weiss, wie Sie
+                Ihre Nichtigkeitsbeschwerde aufbauen<lb xml:id="uuid_673a7546-8db1-4454-9b95-a86657dc6a8f"/>werden, bringe ich sie ohne
+                jede Ordnung vor, wie sie mir gerade<lb xml:id="uuid_6ec9b840-f22d-48f4-881f-4e253cb60722"/>einfallen. </p>
+         <p xml:id="uuid_b0c9c6e5-d727-4074-9db7-0e666c32bbd6">
+            <lb xml:id="uuid_d22f33df-c2ea-4952-b181-48ccb62cced4"/>Der <rs type="law" ref="">§
+                    18</rs> kann nicht auf den verantwortlichen<lb xml:id="uuid_7e5b645f-0f80-4c5f-874c-a32771cd14c7"/>Redakteur bezogen werden,
+                sondern nur auf den wirklichen Täter.<lb xml:id="uuid_b1568590-5506-43a5-bfc1-ff0ce4fb21a1"/>Er sagt ausdrücklich, dass
+                er nur bei einer strafbaren Handlung<lb xml:id="uuid_93d80fd3-f1a1-47ed-b1cd-69e1e0c4c334"/>in Betracht kommt, die nach
+                diesem Gesetz (Ehrenschutzgesetz)<lb xml:id="uuid_37c69e07-039e-4447-a2ca-649e56d37365"/>zu behandeln ist. Im <rs type="law" ref="">§ 23 des Gesetzes</rs> heisst es ausdrücklich,<lb xml:id="uuid_db4c75b6-f5df-4848-b8b9-b8b514b66ef0"/>dass die allgemeinen
+                Bestimmungen mit den in diesem Abschnitt<lb xml:id="uuid_18d27757-43f5-4b9f-84a6-7265b22d6f3b"/>angeführten Abweichungen im
+                Verfahren über eine Privatanklage<lb xml:id="uuid_9b9484da-41d3-4609-98a3-6b54293825fb"/>wegen Uebertretung der
+                Vernachlässigung der pflichtgemässen Sorg<lb xml:id="uuid_d1865581-51ac-4ae5-a485-fbbb7c4b647c" break="no"/>falt bei der
+                Herausgabe einer Druckschrift, durch deren Inhalt<lb xml:id="uuid_8edac77d-92c2-4c19-947c-6b6affe4f48e"/>ein Vergehen <hi rend="underlined">nach diesem Gesetz</hi> begangen wurde, zur Anwendung<lb xml:id="uuid_3fe0fbf3-a3d7-4496-99ec-9b6485950cbe"/>kommen sollen. Der <rs type="law" ref="">§ 18</rs> gehört nicht zu den allgemeinen Bestim<lb xml:id="uuid_6e0d9b93-c0f2-4477-8563-0ecb63540867" break="no"/>mungen dieses
+                Abschnittes, nicht zu den Verfahrensbestimmungen, <pb xml:id="D_000193-099-000_p004"
+                facs="#D_000193-099-000-facs001-l003-p004"
+                n="4"/>
+            <lb xml:id="uuid_08ca4499-010a-4585-8c96-4a650406159a"/>sondern ist eine
+                materiellrechtliche Bestimmung, ist also auf<lb xml:id="uuid_b9a08c59-b688-4c60-ab86-36b9782f9c1b"/>den verantwortlichen
+                Redakteur nicht anwendbar. Die Berufung auf<lb xml:id="uuid_2d5362ce-71e6-4db1-b5f9-16e5cadaf4c3"/>die Bestimmung des <rs type="law" ref="">§ 6, Absatz 5</rs> ist abwegig. Der Richter selbst<lb xml:id="uuid_1c57fd34-7074-4845-a2cc-571ccbf12f03"/>gibt zu, dass es sich nicht
+                um einen eigentlichen Strafausschlies<lb xml:id="uuid_fc447bcd-2d14-4fce-9b3e-e01d1db26f57" break="no"/>sungsgrund
+                handelt. Er nimmt aber an, dass das Erlöschen des Ver<lb xml:id="uuid_7c29bc6d-ddcd-41d1-a8ce-ba802889227d" break="no"/>folgungsrechtes
+                gegenüber dem Täter durch die Unterlassung des<lb xml:id="uuid_79cd9254-b11a-49ba-b962-1dea409db92a"/>Vorbehalts „a contrario“(?)
+                die Verfolgung des angeklagten verant<lb xml:id="uuid_62a67c20-b451-469f-8612-57e40a90a736" break="no"/>wortlichen
+                Redakteurs unzulässig mache, was als Strafausschliessungs<lb xml:id="uuid_4169addb-645e-4ac5-8510-8749f8ca1e29" break="no"/>grund angesehen
+                werden müsse. Diese Argumentation könnte jedoch<lb xml:id="uuid_64cabd82-026c-4ae7-b5b3-d9cf4a6f2597"/>nur dann stattfinden, wenn
+                der Täter mitgeklagt wäre und schon nach<lb xml:id="uuid_d1a02975-8c71-4f37-ba77-ba3ca412492f" break="no"/>gewiesen wäre,
+                dass beide Artikel von <hi rend="underlined">demselben Täter</hi> herrühren.<lb xml:id="uuid_ca2330ef-9aa4-4248-9301-4992360ade16"/>(Wie denn, wenn zwei
+                verschiedene Täter vorhanden wären?) Hier aber,<lb xml:id="uuid_da8ac956-1c26-4798-86c3-53455fa25c7a"/>wo dies nicht feststeht,
+                musste der Strafausschliessungsgrund<lb xml:id="uuid_c019ff10-b6a0-4bed-bf3a-48fea937f446"/>respektive der Hemmungsgrund
+                für die Weiterverfolgung dem <rs type="person" ref="#38644">verant<lb xml:id="uuid_803301bf-ffc1-4969-83c7-92368e0b18d1" break="no"/>wortlichen
+                    Redakteur</rs> originär und nicht erst abgeleitet zustehen,<lb xml:id="uuid_47a12069-64aa-4f4f-8bd3-d8abf46c323d"/>was eben, wie oben
+                dargestellt wurde, nicht der Fall ist. </p>
+         <p xml:id="uuid_41830e67-cfcd-4ddb-8c9c-58b78b870802">
+            <lb xml:id="uuid_5f78a614-af14-4cf6-b3f9-7e5a230b0560"/>Nicht nur die Ueberschrift
+                zum <rs type="law" ref="">§ 18 „Gegen<lb xml:id="uuid_8f007cad-09bc-4738-ba8e-50ba7d521c19" break="no"/>seitige
+                    Klagen“</rs> lässt darauf schliessen, dass der Gesetzgeber die<lb xml:id="uuid_2ad137fd-f56a-4244-ac98-5b187a57eaeb" break="no"/>sen Paragraphen
+                nur bei gegenseitigen Beleidigungen Anwendung fin<lb xml:id="uuid_c2f8269a-4b0e-40de-b11c-7e90dd125ba4" break="no"/>den lassen
+                wollte, sondern auch die Textierung. Die Worte „<quote xml:id="uuid_5a8ca6e1-66c1-4d16-8c38-1f49264c04f1" source="">… so<lb xml:id="uuid_9d09c1d5-2025-48bf-81cb-e7935ecef704"/>kann die eine Partei die
+                    andere Partei wegen einer anderen der<lb xml:id="uuid_a446a926-040e-4e44-ad53-39cdee632cbe" break="no"/>artigen
+                    strafbaren Handlung …</quote>“ setzen doch offenbar, dem Titel<lb xml:id="uuid_e48042a2-b642-4802-b5d3-9d026b8c6513"/>gemäss, Gegenseitigkeit
+                voraus und sind unverständlich, wenn sie<lb xml:id="uuid_f00688b8-8aad-4f38-86da-5fc5d24941dc"/>auf den Fall angewendet
+                werden, dass dieselbe Partei dieselbe ande<lb xml:id="uuid_874aee5c-b9c9-4374-96fd-505a6ddd31f4" break="no"/>re Partei wegen
+                einer anderen derartigen strafbaren Handlung ver<lb xml:id="uuid_78997ea4-1a22-466f-9a9a-3615860f276e" break="no"/>folgen will, denn
+                für diesen Fall ist schon die Bestimmung des <rs type="law"
+                ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1873&amp;page=465&amp;size=45">§ 57<lb xml:id="uuid_65cac902-2cc3-4c1e-9e85-43882624cd32"/>St.P.O.</rs>
+                vorhanden, wo der Angeklagte die Aeusserung verlangen muss.<lb xml:id="uuid_fa2be388-9578-4eda-87bc-2dfd63ee025d"/>Vorgesorgt soll offenbar für
+                den Fall werden, dass der Beschuldigte<lb xml:id="uuid_6ac66a5d-34ae-443c-82b1-4414f1b6fc54"/>sich bereitwillig in einen
+                Vergleich einlässt, mit der Mentalre- <pb xml:id="D_000193-099-000_p005"
+                facs="#D_000193-099-000-facs001-l004-p005"
+                n="5"/>
+            <lb xml:id="uuid_abc47dbb-6acc-4206-917f-37767c6a7e58"/>servation, vom Privatkläger
+                Verzeihung zu erlangen und ihn dann<lb xml:id="uuid_72b90e0c-61b2-4942-9296-810d8a5dc755"/>wegen einer ihm bekannten
+                Beleidigung bestrafen zu lassen. (Siehe<lb xml:id="uuid_a752dcfb-d2b0-4d21-bf28-53f5cccf6a3e"/>das Wort „Entweichen“ im
+                Motivenbericht!) Als Ueberraschungsmoment<lb xml:id="uuid_47b4bb49-313d-4233-b7bd-6d86388504bc"/>wäre zu verwenden, dass
+                sogar die Definition des <rs type="person" ref="#57574">Erstrichters</rs>
+            <lb xml:id="uuid_fbd447d8-f29d-4df7-9cf4-f7d4ce6a7239"/>selbst über den Begriff des
+                Vergleiches im Ehrenbeleidigungspro<lb xml:id="uuid_256b0857-dcbb-4b9c-890f-756a94ad28a0" break="no"/>zess, so abwegig
+                sie an und für sich ist und so sehr sie sich be<lb xml:id="uuid_66eda3b4-2357-4292-a798-8e683b966b39" break="no"/>müht, das
+                Gegenteil zu beweisen, geradezu beweist, dass es sich um<lb xml:id="uuid_b64c0834-bfd5-48a1-a820-2fe7e0e25e1e"/>gegenseitige Beleidigungen
+                handeln muss. Denn der Vergleich bei<lb xml:id="uuid_b722c01a-68db-419f-ba40-e21edaa7ad92"/>einseitiger Beleidigung, bei
+                welcher der Privatkläger auf die Be<lb xml:id="uuid_beee3295-8898-44b9-a514-ca183475f2ba" break="no"/>strafung des
+                Angeklagten durch das Gericht verzichtet, sondern sie<lb xml:id="uuid_29a192b9-1274-4e79-b7cb-bd8e36f11e1e"/>im eigenen Wirkungskreis in
+                Form einer Busse, einer Ehrenerklärung<lb xml:id="uuid_0401d778-3391-49a5-a540-741709260ec6"/>und Kostenzahlung auferlegt,
+                bedeutet nicht „<quote xml:id="uuid_688e1f68-6302-4432-836b-d78de2f22a14"
+                   source="#D_000193-096-000">ein gegenseitiges<lb xml:id="uuid_851e21d4-f408-4a80-b8c6-7c832fcfc7fa"/>Nachgeben, eine
+                    gegenseitige Ausgleichung des gestörten Gleichge<lb xml:id="uuid_aec14f52-9b2f-4624-a2fd-f1a3b0b1fd9c" break="no"/>wichtes
+                    zwischen den Parteien, eine Erneuerung des gegenseitigen<lb xml:id="uuid_4a472ecd-0906-45d9-967d-b2fc25fccf6c"/>ruhigen
+                    gesellschaftlichen Zusammenlebens, der gegenseitigen Wert<lb xml:id="uuid_1783c410-8b00-40b7-8091-0c7d16267d07" break="no"/>schätzung und
+                    Achtung</quote>“. (Die ganze komische Sentimentalität, be<lb xml:id="uuid_de5c8e5d-c27b-4572-8478-ca8324f1da6f" break="no"/>sonders die
+                Stelle mit dem „<quote xml:id="uuid_d41917f8-2743-4ae5-8325-e3217a9e4aa5"
+                   source="#D_000193-096-000">Schatten zwischen den Parteien</quote>“ müsste<lb xml:id="uuid_847b36d6-bcc6-4d37-bb21-14a0244ca653"/>erörtert werden.)
+                Hauptsächlich hat sich der Richter durch die<lb xml:id="uuid_2817166f-e8cb-4570-b068-1a71410d6d55"/>Anwendung des Plurals
+                gefangen. Denn dies ist nur bei gegenseiti<lb xml:id="uuid_cec59e76-31b4-45f3-af33-7e81c7e3305c" break="no"/>gen Beleidigungen
+                der Fall oder denkbar, bei welchen sich beide<lb xml:id="uuid_6abc0723-f351-4377-9413-41e14da8e942"/>Beleidigten und Beleidiger
+                ausgleichen. Bei Fällen, wie in dem<lb xml:id="uuid_c952066d-1020-4bb8-b175-bb79bed897ad"/>vorliegenden, tritt an
+                Stelle der Strafe die Busse, die Ehrener<lb xml:id="uuid_5d30edad-d828-4631-9171-803c6ac1cc74" break="no"/>klärung, aber von
+                einer Erneuerung eines gegenseitigen ruhigen<lb xml:id="uuid_67fb4ab2-750e-41cc-99c7-61867deda628"/>gesellschaftlichen
+                Zusammenlebens, der gegenseitigen Wertschätzung<lb xml:id="uuid_83c77931-2c11-4466-bade-26fb71bcd3fc"/>und Achtung kann natürlich
+                (bei publizistisch-politischen Fällen)<lb xml:id="uuid_2e05f902-ecc1-4c5e-9fa8-4116e4586013"/>keine Rede sein. Der beste
+                Beweis dafür ist der <rs type="work" ref="#57616" subtype="pmb">Bericht des<lb xml:id="uuid_3b017c9b-033d-4424-a336-14d0d82fb5c4"/>‚Sozialdemokrat‘</rs>
+                über den Verlauf der Verhandlung, der vielleicht<lb xml:id="uuid_b5c5cf6b-c711-46fc-b4c3-70461b436afb"/>am besten dem <rs type="institution" ref="#56254">Oberstgerichte</rs> vorgelegt wird, und aus dem
+                zur Ge- <pb xml:id="D_000193-099-000_p006"
+                facs="#D_000193-099-000-facs001-l004-p006"
+                n="6"/>
+            <lb xml:id="uuid_3faefd81-b0a5-4581-aff2-1cc818e4ab12"/>nüge bewiesen
+                wird, wie wenig Eindruck die sentimentale Erklärung<lb xml:id="uuid_5e880a2d-485f-4f92-a223-6fa8fdd0c2cb"/>des <rs type="institution" ref="#36822">Gerichtes erster Instanz</rs> auf den <rs type="person" ref="#38644">Angeklagten</rs> gemacht hat. Die<lb xml:id="uuid_43f42554-c59e-4cf4-800f-20146b2a8a70"/>ganze Begründung ist ein
+                Residuum aus dem Gedankengang, den eine<lb xml:id="uuid_54578c52-a0eb-4645-a8ee-e2c34460ad79"/><note type="marginal" hand="#D_000193-099-000-hand01" rend="">x</note>richtige Interpretation des
+                Gesetzes, die auf Gegenseitigkeit,<lb xml:id="uuid_a85a27fc-b326-4e47-9b7c-e552f965c119"/>mit sich bringt. Denn nur
+                aus der richtigen Interpretation des<lb xml:id="uuid_12f3a12c-4e66-4757-8f47-58f523815647"/>Gesetzes heraus kann ein
+                Richter sagen, dass bloss über den aus<lb xml:id="uuid_91d49842-9836-419d-89ba-c463f0bb4cec" break="no"/>drücklichen
+                Wunsch der Parteien, durch den Vorbehalt eine Ausnahme<lb xml:id="uuid_ab060175-a5e7-45a2-808c-ee726099403f"/>erfolgen könnte, oder dass
+                die einzige Ausnahme, welche das Ge<lb xml:id="uuid_1ee92479-2aa8-457f-8453-86e70dd8d395" break="no"/>setz für Fälle
+                statuiert, in welchen einer der Streitparteien die<lb xml:id="uuid_941ad851-5f1f-4667-bcd3-8e16ac236556"/>strafbare Handlung oder die
+                Person des Schuldigen noch nicht be<lb xml:id="uuid_748732c3-484f-40a3-8b0d-47d61cbb6925" break="no"/>kannt ist, auf
+                andere Fälle nicht ausgedehnt werden könne. Wo<lb xml:id="uuid_ea1fd9bf-a322-41d3-a619-8197db9be1e2"/>anders als bei gegenseitigen
+                Beleidigungen könnte der Fall eintre<lb xml:id="uuid_75540803-777e-499a-a905-61dfe386e2a5" break="no"/>ten, dass
+                unabhängig von der Beklagten- oder Klägerrolle, also von<lb xml:id="uuid_81cda0ea-31ea-4263-8810-93a83d7d35ed"/>der Parteienrolle, den
+                Parteien ein Vorbehalt zustünde. Wie sollte<lb xml:id="uuid_386d9c05-bb89-45c9-83cd-df7cd4befce1"/>denn dem einseitig Beklagten
+                ein Einfluss auf den Vorbehalt zu<lb xml:id="uuid_44fc207a-398c-40df-bdeb-6449e0986a41" break="no"/>stehen? Für die
+                gegenteilige Auffassung: dass es sich um zwei<lb xml:id="uuid_101d7359-e493-4cee-bfae-b5f9de7fc53b"/>Klagen desselben Klägers
+                handelt, ist diese Interpretation absurd,<lb xml:id="uuid_0262e54a-7e34-4de5-b67a-51880510c749"/>ja unmöglich, wie überhaupt
+                die ganze Begründung. Nur zwei, die<lb xml:id="uuid_9338acb8-cec1-4393-8a63-81729587fa27"/>einander geklagt haben,
+                können so erfüllt von der Moral der richter<lb xml:id="uuid_d5e7f00f-0094-49a8-8aad-674e5fe2695c" break="no"/>lichen Begründung
+                und so versöhnt auseinandergehen (und vielleicht<lb xml:id="uuid_0e6a8a13-5bd8-4f6d-966f-92efbfc5e887"/>auch streitende
+                Nachbarsleute). Man müsste vielleicht auch darauf<lb xml:id="uuid_5c609a3f-a995-48cb-8c87-187448ff5f81"/>hinweisen, dass die trockene
+                Ehrenerklärung des Blattes, mit der<lb xml:id="uuid_c452a27c-5ab1-423d-9c2d-7f671bcd0004"/>man sich begnügt hat und die
+                vorgelegt werden kann, nicht die<lb xml:id="uuid_7e46e1a2-7a6d-48f2-bd7b-69530fad56aa"/>Sprache von Sentimentalität
+                enthält, wie sie in der moralischen<lb xml:id="uuid_c53fd3b2-169c-4026-b0dc-6c719a097dde"/>Auseinandersetzung des
+                Erstrichters zum Vorschein kommt. Bei einer<lb xml:id="uuid_9ea210eb-cf56-4fcf-bb70-524e6e9053d7"/>solchen moralischen
+                Auffassung dürfte es überhaupt keinen „Vorbe<lb xml:id="uuid_4c09af49-44cf-45e0-ac01-f61c6fdadc8e" break="no"/>halt“ geben. Dass
+                es einen solchen Vorbehalt geben kann, zeigt, dass<lb xml:id="uuid_76a6940b-4552-4ffa-b312-e71d7a371bc2"/>es sich bei einem Vergleich
+                in Ehrenbeleidigungsprozessen nicht um<lb xml:id="uuid_e12ca012-ddac-4c05-bbf4-59a9b0f3ab95"/>ein Sentiment, sondern um
+                eine rein praktische Austragung handelt. <pb xml:id="D_000193-099-000_p007"
+                facs="#D_000193-099-000-facs001-l005-p007"
+                n="7"/>
+            <lb xml:id="uuid_ce0fdc7e-0268-4e25-87b4-2b1173df0603"/>Es sollte vielleicht auch
+                darauf hingewiesen werden, dass in<lb xml:id="uuid_6657e65f-7e7a-4c0a-8567-7e6c649a6bd8"/>der <rs type="work" ref="#57659" subtype="pmb">Erklärung, die der ‚<rs type="institution" ref="#37540">Sozialdemokrat</rs>‘ am 27. Januar 1936 abge<lb xml:id="uuid_6ae078fa-68a1-430e-8b65-a5380e4a483a" break="no"/><note type="marginal" hand="#D_000193-099-000-hand01" rend="">x</note>geben
+                    hat</rs>, er nur die in der ausdrücklich bezeichneten <rs type="work" ref="#57514" subtype="pmb">Nummer 279<lb xml:id="uuid_8e3ba9d0-ed64-4754-aa7f-3cd6268ef58e"/>der Zeitung vom 30.
+                    November 1935</rs> aufgestellten beleidigenden<lb xml:id="uuid_776cb373-6cb3-463d-a3ca-98ce75012204"/><rs type="work" ref="#57516" subtype="pmb">Behauptungen über <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs></rs>
+                zurückzieht. Es ist implicite darin<lb xml:id="uuid_38609460-7d45-4ef0-9161-6d0244ea5c39"/>gelegen, dass die anderen
+                beleidigenden Behauptungen in den<lb xml:id="uuid_3406e1f5-237e-416e-8f51-63574d88b357"/>früheren <rs type="work" ref="#56397" subtype="pmb">inkriminierten Artikel vom 10. August 1934</rs> nicht
+                    zurück<lb xml:id="uuid_d04a3f0c-ad61-40f2-8e99-b64f0e2a9283" break="no"/>gezogen, nicht in den Vergleich einbezogen wurden und daher Ge<lb xml:id="uuid_36e26e1a-c002-4529-897c-8daef600f6ee" break="no"/>genstand weiterer
+                Verfolgung sein können und sollen. Das war<lb xml:id="uuid_e06adb56-a1f9-469f-affd-398e58d571ce"/>wohl auch die Ansicht des
+                    <rs type="person" ref="#38644">Angeklagten</rs>, der sich nach Abschluss<lb xml:id="uuid_bf0c11cd-5658-4903-84c5-068974e410e6"/>das Vergleiches durch
+                Mittelspersonen um einen Vergleich auch<lb xml:id="uuid_098d4cf8-130a-4464-9df5-d1a36652728a"/>in dieser Sache beworben hat
+                und der auf die gerichtliche Ge<lb xml:id="uuid_2807a0bb-0ba6-404b-b5e7-a262623f7f58" break="no"/>legenheit
+                verwiesen wurde, dort diesen Vergleich zu erlangen.<lb xml:id="uuid_fa70ef50-8c81-4c29-b747-140c547af8a1"/>Die Definition des
+                Vergleiches als ein gegenseitiges Nachgeben,<lb xml:id="uuid_1f448af3-62c0-4aa2-84c6-a73ed87e2ea6"/>als eine gegenseitige
+                Ausgleichung des gestörten Gleichgewichtes<lb xml:id="uuid_f3f92df6-2782-4248-9e65-78c07c3dfb2b"/>zwischen den Parteien, eine
+                Erneuerung des gegenseitigen ruhigen<lb xml:id="uuid_64990f88-d2f7-4ce1-905a-f0535745f219"/>gesellschaftlichen
+                Zusammenlebens, der gegenseitigen Wertschätzung<lb xml:id="uuid_c66c51ef-dfb5-447f-bf5e-6ab88dd59a78"/>und Achtung hat <rs type="person" ref="#11988">Herrn K.</rs> geradezu bestürzt, da sie ihn
+                    sozusagen<lb xml:id="uuid_7eaac0ae-ed50-400d-be63-3ab00f2ec2b8"/>seelisch
+                verpflichten sollte, mit dem ‚<rs type="institution" ref="#37540">Sozialdemokrat</rs>‘ in diese<lb xml:id="uuid_74bacfe8-e8af-480d-a4ca-8def29daa0f1"/>gemeinsame Stimmung zu
+                kommen, die auf keiner Seite vorliegt.<lb xml:id="uuid_fa5e3760-a01e-4b47-9825-06a9fb0c4fb5"/>Höchstens könnte von einem
+                Nachgeben, von nichts anderem Psychi<lb xml:id="uuid_b23dd281-ea32-44e0-9b56-7e00089da1b7" break="no"/>schen, insoferne
+                die Rede sein, als eine Strafe mit Busse und<lb xml:id="uuid_381dbc91-fd0c-4e25-9fcd-4ef5958adbe9"/>sachlichem Widerruf
+                vertauscht wird. Sie werden sich vielleicht<lb xml:id="uuid_dceacdc2-a33d-43a4-b186-3370e863db44"/>auch noch erinnern können,
+                dass bei der letzten Verhandlung, auf<lb xml:id="uuid_50923a2c-57d5-4896-aa97-aa3cea820457"/>die Frage des <rs type="person" ref="#57574">Richters</rs>, ob eine Ehrenerklärung von seiten
+                    des<lb xml:id="uuid_583a2ba5-cacc-473b-abe0-a56684b90d35"/>‚<rs type="institution" ref="#37540">Sozialdemokrat</rs>‘ abgegeben werden könnte,
+                diese abgelehnt wurde,<lb xml:id="uuid_53d265ee-fda1-43b7-8ce4-494ac0d65824"/>mit
+                der Begründung, die frühere Ehrenerklärung sei abgedruckt und<lb xml:id="uuid_0e66407a-269d-477d-afe8-09a017ceccdd"/>bei dieser Gelegenheit
+                verspottet worden; der <rs type="institution" ref="#56254">Oberste
+                    Gerichtshof</rs>
+            <lb xml:id="uuid_63af5871-d4ac-4d40-abbf-7daf7991c34a"/>habe
+                dies für unfair erklärt. Darauf hat der <rs type="person" ref="#57574">Verhandlungsleiter</rs>
+            <pb xml:id="D_000193-099-000_p008"
+                facs="#D_000193-099-000-facs001-l005-p008"
+                n="8"/>
+            <lb xml:id="uuid_de47a8ea-6dfb-4287-8895-2356470e736b"/>gesagt, dies sei nicht
+                richtig, der <rs type="institution" ref="#56254">Oberste Gerichtshof</rs> habe
+                    bloss<lb xml:id="uuid_1f704807-2ff9-4f81-a917-f6da1730f144"/>gesagt, dass, wenn
+                vereinbart werde, eine Ehrenerklärung in einem<lb xml:id="uuid_31cb8fe2-8951-448d-aaf0-b8507aa95ac3"/>bestimmten Blatt
+                abzudrucken, es unfair sei, diese Erklärung auch<lb xml:id="uuid_4a424364-2b26-4fa6-92d0-a67c5a6d34ac"/>in anderen Blättern
+                abzudrucken. Der <rs type="person" ref="#57574">Richter</rs> selbst hat gar
+                    nichts<lb xml:id="uuid_796ffad8-d62b-4914-a76a-0cdac8eaf7c4"/>daran gefunden,
+                dass eine Ehrenerklärung vom Empfänger derselben<lb xml:id="uuid_de4c412a-f594-4925-b08d-090a78752576"/>besprochen und das Verhalten
+                der Gegenseite einer abfälligen Kritik<lb xml:id="uuid_3136660f-70e6-44ad-80a8-4d50a101d744"/>unterzogen werde. Er musste
+                aber bei seinen Begriffen von einem<lb xml:id="uuid_a6c22e52-9720-4a64-a45b-93c82413c6f8"/><note type="marginal" hand="#D_000193-099-000-hand01" rend="">x</note>Vergleich ein derartiges
+                Verhalten ablehnen, das ja wirklich bei<lb xml:id="uuid_427e43f5-064a-4711-b054-7448165c1733"/>einer Versöhnungsaktion
+                (nach gegenseitiger Beleidigung) unstatt<lb xml:id="uuid_f8c5343b-1ea0-4a40-8a89-fa1bd352766b" break="no"/>haft wäre. </p>
+         <p xml:id="uuid_6c90d4c0-333d-49c4-9311-bb879ec3c7ef">
+            <lb xml:id="uuid_8232f5f9-a8b4-4639-9c85-83409e96c06b"/>Ich hoffe, dass Sie noch
+                rechtzeitig in den<lb xml:id="uuid_102286ac-b423-4ead-a5ea-9c8d07ad37a5"/>Besitz des
+                Briefes gelangen und manches aus ihm verwenden können. </p>
+         <p xml:id="uuid_5f5dd90e-f258-4a57-9754-2a5ddc43cd07">
+            <lb xml:id="uuid_569bb0f7-6cfe-4d1e-a67b-5f8418566983"/>Bei dieser Gelegenheit
+                übersende ich Ihnen<lb xml:id="uuid_7211b309-be13-4867-a595-673af2733dc8"/>auch den
+                    <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-084-000"
+                subtype="legal-doc">Durchschlag des vorbereitenden Schriftsatzes, den <rs type="person" ref="#11988">Herr K.</rs>
+               <lb xml:id="uuid_43868acc-87a2-43fc-938c-747efd4afe30"/>und ich in dem Prozess
+                    gegen die Brünner Arbeiterzeitung verfasst<lb xml:id="uuid_530a21b8-854e-491d-81de-29e2a6bda519"/>haben</rs> und der Sie
+                sicherlich sehr interessieren wird. </p>
+         <p xml:id="uuid_8ace6b65-66c9-44bb-bafb-12decfcf03fb">
+            <lb xml:id="uuid_5f7dbdce-3bf6-4c18-a29f-ea60da68f971"/>Ich möchte Ihnen noch
+                mitteilen, dass Sie<lb xml:id="uuid_fcb1801b-7fd9-4e97-9404-783b5300cf17"/><rs type="person" ref="#11988">Herr K.</rs> gestern abend telephonisch angerufen
+                hat, wovon Sie wahr<lb xml:id="uuid_a67c8584-2cb6-49d3-b7e3-2c59d029d95e" break="no"/>scheinlich unterrichtet sind, lediglich um Ihnen mitzuteilen, dass<lb xml:id="uuid_7317a3f4-63e5-452a-9774-d5158423a06b"/>er am 29. und 30. April 1936
+                in <rs type="place" ref="#833">Brünn</rs> sein wird, wo Sie eventuell<lb xml:id="uuid_0375b22a-37b5-4a9d-bd7d-95939158d623"/>Gelegenheit hätten, mit ihm
+                persönlich zu sprechen. Ich glaube aber,<lb xml:id="uuid_c6ae98ef-924a-4178-9ef5-ae4f48b413de"/>dass dies nicht notwendig
+                sein wird. </p>
+         <p xml:id="uuid_c389148b-77d5-4698-ada3-c76750e3de30">
+            <lb xml:id="uuid_acf54772-6b0e-4d0c-b461-4005950c348d"/>Indem ich Sie herzlichst
+                grüsse und auch die<lb xml:id="uuid_289422fe-0323-411b-92c5-c1c7bb442558"/>besten
+                Grüsse des <rs type="person" ref="#11988">Herrn K.</rs> übermittle, zeichne ich mit
+                    vorzüglicher<lb xml:id="uuid_1e75a947-c87b-4d4c-877d-049d0f7ff405"/>kollegialer
+                Hochachtung </p>
+         <p xml:id="uuid_a6f01083-e564-4960-b32d-390c80933888">
+            <lb xml:id="uuid_9e258568-b79e-46b1-bf92-a0510de579fd"/>Ihr ergebener </p>
+         <p xml:id="uuid_c696ada4-7712-446c-a528-5a97dc0a1e91">
+            <lb xml:id="uuid_2bfb21c6-f5bd-438c-8f95-8dddded26ab4"/>4 Beilagen.<lb xml:id="uuid_ec3abfc8-2435-4ab1-b4e6-a179434fbf00"/>Express. Rekommandiert. </p>
+      </body>
+   </text>
+</TEI>

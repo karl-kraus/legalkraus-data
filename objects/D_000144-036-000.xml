@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-037-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-035-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000144-036-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Gerhard und Richard Frankfurter an Samek</title>
+            <editor ref="#LK">Lena Kovacic</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000144-036-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3923</idno>
+            <idno subtype="transkribus" type="ID">275938</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000144" type="collection">Karl
+                    Kraus ca. S. Fischer Verlag (Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000144-036-000-facs001" xml:id="D_000144-036-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000144-036-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-07-24">24. Juli 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#51574"/>
+               <address>
+                  <street corresp="#59724">Nikolsburger Platz 2 </street>
+                  <settlement ref="#168">BERLIN</settlement>
+               </address>
+               <date when-iso="1931-07-24">24.7.31</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Rechtsanwalt Dr. Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I</settlement>
+               </address>
+               <date when-iso="1931-07-27">27. JULI 1931</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">FGr.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000144-036-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000144-036-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-08T14:16:09.685Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-08T14:28:44.913Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 275938. </change>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-10-20"
+                 who="#LK"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-10-20"
+                 who="#LK"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-10-20"
+                 who="#LK"/>
+         <change status="draft" type="structure" when-iso="2021-10-20" who="#LK"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000144-036-000-facs001">
+      <surfaceGrp xml:id="D_000144-036-000-facs001-l001">
+         <surface type="recto" xml:id="D_000144-036-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541909/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000144-036-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541910/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000144-036-000-facs001-l002">
+         <surface type="recto" xml:id="D_000144-036-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541911/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000144-036-000-facs001-l002-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541912/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+         <facsimile ana="further-witnesses">
+            <surface>
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541913/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface>
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541914/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface>
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541915/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface>
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541916/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface>
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541917/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface>
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541918/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000144-036-000_p001"
+             facs="#D_000144-036-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_bed966b7-6e11-4882-b529-8d551da8f62a">
+            <lb xml:id="uuid_dcdfd7df-5c3c-4019-bed4-9b3407f0fa05"/>Sehr geehrter Herr <rs ref="#38909" type="person">Kollege</rs>, </p>
+         <p xml:id="uuid_8ad262e2-f9d3-4b95-a92e-d3e909240166">
+            <lb xml:id="uuid_ff9f64e2-5f92-4706-9d15-b228f73c3e23"/>in Sachen <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29639" type="institution">Fischer</rs> /
+                    <rs ref="#11988" type="person">Kraus</rs> bemerke ich zu<lb xml:id="uuid_2e603ea9-4ec9-4615-a23c-eba2594db551"/>Ihrem <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-027-000"
+                type="work"
+                subtype="legal-doc">Brief</rs> vom 18.6. folgendes: </p>
+         <p xml:id="uuid_9bdf81d3-8950-4dd0-909f-40353bf91af6">
+            <lb xml:id="uuid_8f92376c-e027-4f62-8ace-757b0f934e72"/>Der Umfang des Bandes mit ca.
+            400 Seiten<lb xml:id="uuid_552a7fb5-0468-48d9-90b1-b7d59c647a62"/>war in einem <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-039-000" type="work"
+               subtype="legal-doc">Brief</rs> meiner <rs ref="#29639" type="institution"
+               >Mandantin</rs> vom 17.7.28 an Herrn<lb
+               xml:id="uuid_367c9583-c501-49a5-b77a-f3d1ec7a4c5f"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> vorgesehen.
+            Die Ueberschreitung dieses ungefähren<lb
+               xml:id="uuid_1ff4fcc7-7b1c-4fa0-8148-49a04396c85f"/>Umfanges um einen nicht allzu
+            grossen Prozentsatz würde<lb xml:id="uuid_b8aa9096-f309-4b06-b7ac-7b26d14a3736"/>man
+            schliesslich noch in Kauf nehmen können, aber ein Mehr<lb
+               xml:id="uuid_f8da84ce-a5bc-4f68-badd-00b835d5a1e1"/>von 200 Seiten erscheint meiner
+               <rs ref="#29639" type="institution">Mandantin</rs> als eine bedroh<lb break="no"
+               xml:id="uuid_4cd6abf6-4774-42c2-8558-08b72f7679ba"/>liche Gefahr für die
+            Einzelausgaben. Dass die künstleri<lb break="no"
+               xml:id="uuid_0c24fad6-2be0-497e-9882-7ff32e5b70d6"/>schen Gesichtspunkte nicht auch
+            bei einem Umfang von<lb xml:id="uuid_910022b0-d9fe-4407-9a4a-91e39baeb62c"/>400 Seiten
+            zur Geltung kommen können, trifft nach der<lb
+               xml:id="uuid_7f80999a-31eb-43ef-9b28-f340708b0950"/>Ueberzeugung meiner <rs
+               ref="#29639" type="institution">Mandantin</rs> nicht zu; im Gegenteil, der<lb
+               xml:id="uuid_01521297-d831-4dca-a686-46bd142dc801"/>künstlerische Gesichtspunkt würde
+            durch einen so ungewöhn<lb break="no" xml:id="uuid_3f2f82c6-f58b-49de-b5c8-6ade9ec6f080"
+            />lich starken Auswahlband von 600 Seiten leiden müssen.<lb
+               xml:id="uuid_f880cd0d-595a-4b7d-87ec-47ad10f4f84e"/>Meine <rs ref="#29639"
+               type="institution">Mandantin</rs> kann also von ihrem Standpunkt nicht ab<lb
+               xml:id="uuid_e4d8be2c-be14-409e-a36b-8d44864c7b56" break="no"/>gehen. </p>
+         <p xml:id="uuid_202aec30-9e6b-4d85-b569-de2d62941378">
+            <lb xml:id="uuid_e9e1ab02-8f8a-468d-bd96-dd83e58bc316"/>Ihre Erwähnung, dass das
+            Manuskript des <rs ref="#60281" type="work" subtype="pmb">Auswahl<lb break="no"
+                  xml:id="uuid_9ca76939-b6c6-4b3e-b7f6-c6d2621ef004"/>bandes</rs> meiner <rs
+               ref="#29639" type="institution">Mandantin</rs> vorgelegen hat, ist mir nicht<pb
+               xml:id="D_000144-036-000_p002" facs="#D_000144-036-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_7587d227-e705-49ec-b85c-712e0c5df169"/>recht verständlich. Die Vorlage
+            dieses Manuskripts hat<lb xml:id="uuid_b4c77c53-7c18-4518-89f0-0a6e3f0c211e"/>doch
+            gerade die Feststellung erbracht, dass der <rs ref="#60281" type="work" subtype="pmb"
+                  >Auswahl<lb break="no" xml:id="uuid_d66321c6-4251-4ce0-9390-8695e30c2bca"
+               />band</rs> so umfangreich sein würde, dass er in Wahrheit<lb
+               xml:id="uuid_8126df9b-c8f8-4023-b5c4-34a6d32eded6"/>als Auswahlband nicht mehr
+            bezeichnet werden kann und weit<lb xml:id="uuid_f27fc8cb-35b3-4b85-bc52-48faaf2eb16e"
+            />über das hinausgeht, was meine <rs ref="#29639" type="institution">Mandantin</rs> für
+            möglich er<lb break="no" xml:id="uuid_b7b60235-9a28-4f7c-b234-f62a69a3b4ec"/>achtet. </p>
+         <p xml:id="uuid_69a32987-f378-4d10-ab6b-3e7d3dc6bab4">
+            <lb xml:id="uuid_8dc08f53-1880-42b6-8431-a71f0801ff8f"/>Was die Frage der Uebertragung
+            der Urheber- und<lb xml:id="uuid_3ac5af56-ae9f-4444-9f46-fb8c8cabf8f5"/>Verlagsrechte
+            anlangt, so ist meine <rs ref="#29639" type="institution">Mandantin</rs>, wie schon<lb
+               xml:id="uuid_a3da910b-a755-4c6e-8c50-8f1c63f3bdf7"/>mitgeteilt, bereit, diese Rechte
+            für den <rs ref="#60281" type="work" subtype="pmb">Auswahlband</rs> Herrn<lb
+               xml:id="uuid_eb646890-2891-4023-ad25-8573a11de2e4"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> auf seine
+            Lebenszeit, mindestens aber auf 10 Jahre,<lb
+               xml:id="uuid_03708477-f4e8-4972-86b2-7fa727043424"/>zu überlassen. Sache des
+            Verlegers ist es, bei Aufstellung<lb xml:id="uuid_b6bb2cc6-f887-439a-a28d-8d2efe502c68"
+            />des Verlagsplans für die Dauer von 10 Jahren sich mit der<lb
+               xml:id="uuid_139c0b0b-66d0-4377-8693-3eac2018b1ea"/>Auflagenzahl so einzurichten,
+            dass er bei Ablauf der zehn<lb break="no"
+               xml:id="uuid_73fc496e-2092-46f5-8d2a-10f1394dca24"/>jährigen Verlagsfrist keine
+            wesentlichen Bestände übrig<lb xml:id="uuid_f2c8e75f-8fc7-4ae1-a06e-4a330b7b6bc2"/>hält.
+            Darüber hinaus Rechte zu vergeben, für die technisch<lb
+               xml:id="uuid_9b436036-ae6e-4c56-a203-b36a9b9c5949"/>keine Notwendigkeit besteht,
+            würde zu weit gehen. Ich glau<lb break="no"
+               xml:id="uuid_31c50e80-622f-4981-91c2-83269c25793e"/>be, daß sich der <rs ref="#37062"
+               type="institution">Schroll-Verlag</rs> diesem Standpunkt ohne wei<lb break="no"
+               xml:id="uuid_77157736-e443-4e27-ab52-58fcb361009f"/>teres anschliessen wird, sodass
+            über diesen Punkt eine Eini<lb break="no"
+               xml:id="uuid_e8680d0b-dbec-4115-8075-e198e7553f37"/>gung ohne weiteres gegeben sein
+            wird.</p>
+         <p xml:id="uuid_eb302150-18a5-4132-b907-cbdc0030cc0b">
+            <lb xml:id="uuid_40970ef5-0b4b-4aa1-8dba-73e8deffe773"/>Der Standpunkt, dass die
+            Herausgabe dieses <rs ref="#60281" type="work" subtype="pmb">Sammel-<lb 
+                  xml:id="uuid_7a49afe4-21f8-4504-9af0-5dc86f4c6a39"/>Buches</rs> im gegenwärtigen
+            Zeitpunkt ungeeignet ist, wird <pb xml:id="D_000144-036-000_p003"
+               facs="D_000144-036-000-facs001-l002-p003" n="3"/>
+            <lb xml:id="uuid_85db681d-4337-4a26-9c5f-8048ecb949bd"/>nicht nur von meiner <rs
+               ref="#29639" type="institution">Mandantin</rs> eingenommen, sondern dürfte<lb
+               xml:id="uuid_d4dbf3d7-9d74-40a0-b9de-e40a77a8bacc"/>der allgemein vertretene sein.
+            Indessen ist diese Frage<lb xml:id="uuid_d4976364-df14-47cb-8fbc-cc21bf92172f"
+            />unerheblich, weil hierin ja Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+               type="person">Kraus</rs> für seine Meinung<lb
+               xml:id="uuid_20b671ea-1069-4460-a116-eccca857fd19"/>die Vorhand gelassen werden soll. </p>
+         <p xml:id="uuid_985672f3-b5d3-410f-a262-86ef307449e9">
+            <lb xml:id="uuid_c3d83ffc-d278-4206-9f05-35d208d49032"/>Hochachtungsvoll<lb xml:id="uuid_e01747ec-4130-436b-a83c-933b5ecec7a0"/><rs ref="#51574" type="person">Frankfurter</rs>
+            <lb xml:id="uuid_db6d860e-ec33-4b97-a5b9-5c08a71cdc52"/>Rechtsanwalt </p>
+         <pb xml:id="D_000144-036-000_p004"
+            facs="#D_000144-036-000-facs001-l002-p004"
+             n="4"/>
+         <p xml:id="uuid_1553ccea-48c6-4133-a1b5-5b6368d5e24d">
+            <lb xml:id="uuid_e305609f-b378-454d-add8-fcda8cbd3713"/><note type="paratext"
+               resp="law-firm"><rs type="person" ref="#11988">Kraus</rs> – <rs type="work"
+                  ref="#60281" subtype="pmb">Altenberg Auswahl</rs>
+               <lb xml:id="uuid_f3383a0d-f1ec-456f-9a68-77643ef1a645"/>27. JULI 1931</note></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-001-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000070-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Heinrich Fischer an Verlag Die Fackel</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000070-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-heinrich-fischer-verlag-die-fackel-0 </idno>
+            <idno subtype="transkribus" type="ID">209538</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000070" type="collection">Alfred Kerr ca. Karl Kraus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000070-002-000-facs001" xml:id="D_000070-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000070-002-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSU">Typoskript mit handschriftlichen Überarbeitungen</objectType>
+                     <objectType source="D_000070-002-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP">Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38133">Heinrich Fischer</persName>
+               <address>
+                  <street corresp="#52608">4a Am Schiffbauerdamm</street>
+                  <settlement ref="#168">Berlin NW 6</settlement>
+               </address>
+               <date when-iso="1928-09-14">14. September 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#43724">Titl. | Die Fackel</orgName>
+               <address>
+                  <street corresp="#50496">Hintere Zollamtstr. 3</street>
+                  <settlement ref="#53">Wien III.</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1928-09-14">14. September 1928
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote xml:id="D_000070-002-000-hand01"
+                      source="#D_000070-002-000-wit01"
+                      scribeRef="#38133"
+                      medium="black-ink"
+                      cert="high"
+                      resp="#JK"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000070-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000070-002-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" status="draft" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" status="draft" when-iso="2021-09-13">Replaced Text with Transcription
+                of Transkribus Document 209538. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2022-01-07"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-01-07" who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2022-01-07"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2022-01-07"
+                 who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2022-01-07"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000070-002-000-facs001">
+      <surfaceGrp xml:id="D_000070-002-000-facs001-l001">
+         <surface type="recto" xml:id="D_000070-002-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552984/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000070-002-000_p001"
+             facs="#D_000070-002-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_68480c52-1aa4-4c9b-bf37-13162bafa6a6">
+            <lb xml:id="uuid_6b2c238e-938c-4b7c-ac86-3a75ef06d6d5"/>Sehr geehrte Herren! </p>
+         <p xml:id="uuid_fc36f5de-4642-4d9c-b5b3-75ebc7b19991">
+            <lb xml:id="uuid_1da665ab-6cec-4c92-8882-2126e79d43de"/>In der Angelegenheit des <rs
+               ref="#29329" type="institution">Berliner Tageblattes</rs>, bitte<subst
+               hand="#D_000070-002-000-hand01">
+               <del hand="#D_000070-002-000-hand01">n wir</del>
+               <add hand="#D_000070-002-000-hand01"> ich</add>
+            </subst>, Herrn<lb xml:id="uuid_370d8272-77b7-4911-b4c2-f4c954b15a85"/><rs ref="#11988"
+               type="person"><hi rend="spaced">Krau</hi>s</rs> mitzuteilen, dass die seiner Zeit
+            besprochenen Briefe an die Chef-<lb xml:id="uuid_363f5f8e-0da2-4e92-990c-cf0f0c695ce2"
+            />Redaktion abgeschickt wurden. Ebenso hat das Telefongespräch stattgefunden,<lb
+               xml:id="uuid_6f109be6-8b57-4f7d-b1d6-6abb6867d5ae"/>allerdings nicht mit dem <rs
+               type="person">Herrn</rs> persönlich. Von einem <rs type="person">Angestellten</rs>
+            der <rs ref="#36926" type="institution">Berek-<lb
+                  xml:id="uuid_1c91254a-0e03-4af2-bbfe-a8fe5b393d6a"/>Plakat-Gesellschaft</rs> wurde
+            mir inoffiziell mitgeteilt, dass Herr <rs ref="#11910" type="person"><hi rend="spaced"
+                  >Ker</hi>r</rs> bei<lb xml:id="uuid_ae761d95-a81e-42a0-ae1b-a7590b5a3c51"/>dem
+            Dir. <rs ref="#62985" type="person"><hi rend="spaced">Keise</hi>r</rs> dieser <rs
+               ref="#36926" type="institution">Gesellschaft</rs> persönlich angerufen habe und ge<lb
+               break="no" xml:id="uuid_c3d4679b-f1f6-41f6-877c-9260aa57dfd5"/>fordert habe: das
+            Plakat muss sofort verschwinden. Das geschah einen Tag nach<lb break="no"
+               xml:id="uuid_e0e02724-9dc9-49e1-a752-8ca26c352082"/>dem es bereits verschwunden war.
+            Die <rs ref="#36926" type="institution">Berek</rs> ist nun, wie ich annehme, wegen<lb
+               xml:id="uuid_1b73983f-4cae-4aa4-8840-885858a1ca06"/>künftiger Aufträge in einem
+            Dilemma, so dass es vielleicht gut wäre, ihr noch<lb
+               xml:id="uuid_b5c723ab-7204-4bc0-96f8-67ce26be4019"/>einen Auftrag zu geben, um die
+            Intervention des genannten <rs ref="#11910" type="person">Herrn</rs> zu fassen.<lb
+               xml:id="uuid_87bd3981-f184-45bb-b4a8-e7b8112d72af"/>Allerdings wäre es vielleicht
+            glücklicher, wenn dieser neue Auftrag nicht von<lb
+               xml:id="uuid_6346b26f-1fd8-474e-a2d1-f916f45fccbf"/>mir, sondern direkt vom <rs
+               ref="#43724" type="institution">Verlag</rs> ausginge. </p>
+         <p xml:id="uuid_57d3b7f5-1c5b-41d6-b5aa-59d11d012131">
+            <lb xml:id="uuid_13f9b74f-809d-4992-91d6-49c8a98f094f"/>Ich erbitte darüber Ihre
+                Nachricht und zeichne<lb xml:id="uuid_cb65ceeb-57b1-412d-acb0-228b741c47d1"/>mit
+                vorzüglicher Hochachtung<lb xml:id="uuid_b8cc7260-3778-45d7-a762-6bb6c83a0028"/><rs ref="#37011" type="institution">Theater am Schiffbauerdamm</rs>
+            <lb xml:id="uuid_3d388270-1bbc-4d9f-adf0-b34fbfdb25dc"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/38133" type="person">Heinrich
+                    Fischer</rs>
+         </p>
+         <p xml:id="uuid_0a2bf8a8-d479-466c-8752-039f138fb924">
+            <lb xml:id="uuid_56724b16-3574-4d1f-bd8a-1bc68c290bb2"/><note hand="#D_000070-002-000-hand01">P.S. Soeben kam Ihr Brief mit <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-001-000.xml"
+                   type="work"
+                   subtype="legal-doc">Beilage</rs>
+               <lb xml:id="uuid_b9dbbcee-c1a8-4b5c-8377-dcbe0bff08b3"/>(<rs ref="#38969" type="person">Dr. Laserstein</rs>), den ich nach Rücksprache mit<lb xml:id="uuid_10e7c464-8822-49da-af55-676588c8973e"/>Herrn <rs ref="#37761" type="person">Aufricht</rs> beantworten werde.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

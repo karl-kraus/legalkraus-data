@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-034-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-032-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000070-033-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Botho Laserstein an Samek</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000070-033-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+               https://www.kraus.wienbibliothek.at/content/brief-ra-botho-laserstein-samek-3 </idno>
+            <idno subtype="transkribus" type="ID">213315</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000070" type="collection">Alfred
+               Kerr ca. Karl Kraus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000070-033-000-facs001" xml:id="D_000070-033-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000070-033-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSN">Typoskript mit
+                        handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38969">Dr. jur. Botho Laserstein | RECHTSANWALT</persName>
+               <address>
+                  <street corresp="#51751">LANDSBERGER ALLEE 55</street>
+                  <settlement ref="#168">BERLIN NO 18</settlement>
+               </address>
+               <date when-iso="1929-03-04">4. März 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Rechtsanwalt Dr. Oscar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I</settlement>
+               </address>
+               <date when-iso="1929-03-05">5. MRZ. 1929</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-03-04">4. März 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote xml:id="D_000070-033-000-hand01" source="#D_000070-033-000-wit01"
+               scribeRef="#11988" medium="pencil" cert="high" resp="#JK"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000070-033-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000070-033-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" status="draft" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" status="draft" when-iso="2021-09-13">Replaced Text with Transcription of
+            Transkribus Document 213315. </change>
+         <change status="draft" type="header_facsimile" when-iso="2022-01-14" who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-01-14" who="#AR"/>
+         <change status="draft" type="references" when-iso="2022-01-14" who="#AR"/>
+         <change status="draft" type="typography" when-iso="2022-01-14" who="#AR"/>
+         <change status="draft" type="intertexts" when-iso="2022-01-14" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000070-033-000-facs001">
+      <surfaceGrp xml:id="D_000070-033-000-facs001-l001">
+         <surface type="recto" xml:id="D_000070-033-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553188/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000070-033-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553189/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000070-033-000_p001"
+             facs="#D_000070-033-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_e85f48e9-b0b4-4e99-9940-58ec8e42858c">
+            <lb xml:id="uuid_40ece092-851b-466a-b464-08b944939dc8"/>Sehr geehrter <rs ref="#38909" type="person">Herr Kollege</rs>, </p>
+         <p xml:id="uuid_4090b02e-93b1-413a-8fa2-575f11533a5b">
+            <lb xml:id="uuid_0f991cad-9d23-48c5-a3ab-43d805c435b2"/>auf Ihr frdl. <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-031-000.xml"
+                type="work"
+                subtype="legal-doc">Schreiben vom 1. d.Ms.</rs> teile ich Ihnen<lb xml:id="uuid_58778ec2-d8bb-4d5a-bed3-c48d9576b0d2"/>folgendes mit: </p>
+         <p xml:id="uuid_a8b04123-e884-4f28-925a-aed6c8fab6ea">
+            <lb xml:id="uuid_b82c8012-1ee9-42da-9495-bb2f520df38c"/>Es ist bisher nur das eine <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-011-000.xml" type="work"
+               subtype="legal-doc">Urteil</rs> in der einstweiligen<lb
+               xml:id="uuid_bf45ed07-ea0d-4d07-82cb-2cbb6668f551"/>Verfügung ergangen, das ich Ihnen
+            seinerzeit zur Kenntnis<lb break="no" xml:id="uuid_822ce1d0-5adb-4ec4-9a0a-a05fca6dd65e"
+            />nahme übersandte und von dem Herr <rs ref="#11988" type="person">Kraus</rs> meines
+            Wissens Ab<lb break="no" xml:id="uuid_9c2bd119-e7ae-40a2-af9a-305dd3288603"/>schrift
+            besitzt. Dieses <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-011-000.xml"
+               type="work" subtype="legal-doc">Urteil</rs> entspricht der einstweiligen<lb
+               xml:id="uuid_168bb8ee-2b3f-47fc-92ac-61c522fb0969"/>Verfügung. Danach gilt das Verbot
+            für sämtliche Gedichte des<lb xml:id="uuid_b500cbda-7cca-4dcf-98f8-0ec953347912"/>Herrn
+               <rs ref="#11910" type="person">Kerr</rs>, gleichgültig wann sie veröffentlicht sind. </p>
+         <p xml:id="uuid_b009d6cd-97f9-437d-bdfa-69565a601e38">
+            <lb xml:id="uuid_a468e9a2-b20b-478a-b04e-5676617ea6a4"/>In Beantwortung der 2. Frage
+                teile ich mit, daß bei Ver<lb break="no" xml:id="uuid_073feaec-b12a-44d6-a507-f66749423fcd"/>hängung der Strafe in jedem
+                Fall zu untersuchen ist, ob die<lb xml:id="uuid_31e8e562-e408-449a-abd1-4b05a7170b85"/>Veröffentlichung gegen das
+                Gesetz verstösst. </p>
+         <p xml:id="uuid_fb649f96-c621-4fa2-b0ee-db4233c57513">
+            <lb xml:id="uuid_4ffdaebb-a534-46f3-a802-f23df75bd886"/>In der Prozesssache habe ich
+                mich vorsorglich als Anwalt<lb xml:id="uuid_f6dc38b3-623a-466a-adba-ab4d7d5c0f55"/>des Herr <rs ref="#11988" type="person">Kraus</rs> gemeldet, werde aber
+                wunschgemäß vor dem Termin<lb xml:id="uuid_2a9f833d-87ad-49bf-82fc-f2d29a9d38bb"/>erklären, daß ich nicht auftrete und Kontumaz ergehen lasse. </p>
+         <p xml:id="uuid_735cbaa6-6b47-440e-b6a4-9774cc07ea5a">
+            <lb xml:id="uuid_2f06ef65-6496-4c25-9972-4dd6e3e84674"/>Bezüglich des Ablehnungsgesuches
+            habe ich mir folgendes<lb xml:id="uuid_242af629-796c-4dd0-95d0-d826b9348b57"/>überlegt: </p>
+         <p xml:id="uuid_e41458c0-7de3-4be4-8d16-79711285c73b">
+            <lb xml:id="uuid_6c05c7a8-4ec1-49a5-81e0-76f5b04905ba"/>Es erscheint mir nicht angängig,
+            zunächst die <rs ref="#62987" type="institution">Kammer</rs> abzu-<pb
+               xml:id="D_000070-033-000_p002" facs="#D_000070-033-000-facs001-l001-p002" n="2"/><lb
+               xml:id="uuid_ab86386b-0548-44c8-a6b7-70c9faef72eb"/>lehnen und falls wir Erfolg
+            haben, nicht aufzutreten, denn<lb xml:id="uuid_d7bf545a-80a7-4060-8fb6-0aa2a7f3bcfb"
+            />dann wissen wir ja nicht, was für eine Entscheidung die neue<lb
+               xml:id="uuid_f80283cb-7fbd-48ea-82c2-0e6a99bbd23e"/><rs type="institution"
+               >Kammer</rs> fällt. Andererseits müssen wir wegen der hohen Kosten<lb break="no"
+               xml:id="uuid_361d6e7e-142d-4d51-aae3-5cefadfe6b9b"/>gefahr Versäumnisurteil ergehen
+            lassen. Nach Erfolg des Ab<lb break="no"
+               xml:id="uuid_78cae811-bda3-4c61-9d50-4482c3a5d550"/>lehnungsgesuches könnten wir uns
+            nicht plötzlich kontumazieren<lb xml:id="uuid_cfba31d8-200c-491f-8c1d-81fac055db4a"
+            />lassen und auch nicht die <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-022-000.xml" type="work"
+               subtype="legal-doc">Erklärung</rs> des Herrn <rs ref="#11988" type="person"
+               >Kraus</rs> abgeben,<lb xml:id="uuid_c6b129ba-a965-4294-b6a9-e2cb644961b9"/>da diese
+            dann ja völlig den Sinn verloren haben würde. </p>
+         <p xml:id="uuid_bb0d6145-905e-4e8c-94f9-1fa5ec7cbc3f">
+            <lb xml:id="uuid_5e50a1c4-d528-489c-a918-2d514c72c3a4"/>Ich reiche Ihnen in der Anlage
+            die <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-022-000.xml" type="work"
+               subtype="legal-doc">Erklärung</rs> des Herrn <rs ref="#11988" type="person"
+               >Kraus</rs>
+            <lb xml:id="uuid_dadf4e20-5e0f-4ca2-95a8-cdd182f7bf46"/>mit der Bitte zurück, die <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-022-000.xml" type="work"
+               subtype="legal-doc">Erklärung</rs> direkt in einem Kuvert<lb
+               xml:id="uuid_95602c92-9d21-4015-8fd3-a5cd15bccf96"/>aus <rs ref="#50" type="place"
+               >Wien</rs>
+            <hi rend="underlined" hand="#D_000070-033-000-hand01">an das <rs ref="#36832" type="institution">Landgericht
+                  I</rs>
+               <rs ref="#62994" subtype="address" type="place">BERLIN C 2, Grunerstr. 1</rs>,
+               ein</hi><lb break="no" xml:id="uuid_6ac20cc0-01d1-4970-97a9-c67d303c5a49"/>zusenden,
+            als habe sie der Mandant selbst abgesandt. </p>
+         <p xml:id="uuid_b5dbf35e-ee87-42ae-b498-4f6784983797">
+            <lb xml:id="uuid_fc262a91-ec7a-4e24-b206-4862293ef7b1"/>In der Anlage überreiche ich
+            Ihnen nochmals das <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-011-000.xml"
+               type="work" subtype="legal-doc">Original<lb break="no"
+                  xml:id="uuid_af128521-e75f-4490-8bcd-9f8670a37171"/>urteil</rs> in Sachen <rs
+               ref="#11910" type="person">Kerr</rs> ./. <rs ref="#11988" type="person">Kraus</rs>
+            mit der Bitte, dieses mir<lb xml:id="uuid_21901622-56d3-4f74-8531-debee4a37fbc"
+            />baldmöglichst zurückzusenden. </p>
+         <p xml:id="uuid_dc36b393-22a8-4bb3-af34-85e1798f877e">
+            <lb xml:id="uuid_d16dd852-4559-4458-9fb5-896f7fa84aab"/>Mit koll. Hochachtung<lb xml:id="uuid_af5a65fe-77ab-492e-9735-b25221f75c58"/><rs ref="#38969" type="person">Dr. Laserstein</rs>
+            <lb xml:id="uuid_0b0029d0-92d6-4a84-9983-9427ac463a58"/>Rechtsanwalt </p>
+         <p xml:id="uuid_51cdf1d5-fcdc-4c92-bfb6-588e230cf193">
+            <lb xml:id="uuid_cf85949d-97b3-4545-9904-fc3338f945e3"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#11910" type="person">Kerr</rs> II.<lb xml:id="uuid_b9022273-09d5-430b-a4cd-d4ac09d3cb35"/>5. MRZ. 1929 </note>
+         </p>
+      </body>
+   </text>
+</TEI>

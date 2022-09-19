@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000143-005-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000143-003-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000143-004-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Frankfurter Künstlertheater [Intendant Hans Meissner] an Verlag Die Fackel</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000143-004-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/3877</idno>
+            <idno subtype="transkribus" type="ID">275855</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000143" type="collection">Karl Kraus
+               ca. Frankfurter Künstlertheater</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000143-004-000-facs001" xml:id="D_000143-004-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000143-004-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHN">Durchschlag mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#37121">Frankfurter Künstlertheater | für Rhein und Main G.m.b.H.</orgName>
+               <address>
+                  <street corresp="#54286">Schöne Aussicht 16</street>
+                  <settlement ref="#146">Frankfurt a.M.</settlement>
+               </address>
+               <date when-iso="1930-04-12">12. April 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#43724">den | Verlag „Die Fackel“</orgName>
+               <address>
+                  <street corresp="#50496">Hintere Zollamtsstraße 3 </street>
+                  <settlement ref="#53">Wien III.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-04-12">12. April 1930</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000143-004-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000143-004-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+         <handNotes>
+            <handNote cert="low"
+               medium="pencil"
+               resp="#IL"
+               scribeRef="#43584"
+               source="#D_000143-004-000-wit01"
+               xml:id="D_000143-004-000-hand01"/>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-04-22" who="#JK"/>
+         <change type="typography" when-iso="2021-04-22" who="#JK"/>
+         <change type="references" when-iso="2021-04-22" who="#JK"/>
+         <change type="structure" when-iso="2021-04-22" who="#JK"/>
+         <change when-iso="2020-10-08T14:14:24.392Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T14:15:38.835Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 275855. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000143-004-000-facs001">
+      <surfaceGrp xml:id="D_000143-004-000-facs001-l001">
+         <surface type="recto" xml:id="D_000143-004-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541764/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000143-004-000_p001"
+             facs="#D_000143-004-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_1645b734-6232-4b01-a0fa-d615436876bc">
+            <lb xml:id="uuid_7c8183a1-9f23-4a2d-8493-4af79a531ad4"/><note
+               hand="#D_000143-004-000-hand01">Kopie</note>
+         </p>
+         <p xml:id="uuid_e135e223-6639-430f-9206-f90fea995e45">
+            <lb xml:id="uuid_64152c05-9e57-4b1b-89ad-b9c35725dab0"/>Sehr geehrte Herren! </p>
+         <p xml:id="uuid_42d9bdc7-5493-4e4c-88a7-941bc0faebbb">
+            <lb xml:id="uuid_a9b87a1a-4803-4538-afbd-bbc14bfbd8f8"/>Sie erhalten von uns heute das
+            richtige <rs ref="#54289" type="work" subtype="pmb">Programmheft<lb
+                  xml:id="uuid_2ceafa56-e0fc-4db9-83d0-94223dbebff1"/>Nr.6</rs>, nicht <rs
+               ref="#54276" type="work" subtype="pmb">Nr.8</rs>, zur Feststellung der Kritik über
+               „<rs ref="#53397" type="work" subtype="pmb">Die Un<lb break="no"
+                  xml:id="uuid_dc0c1610-8b0e-4693-814f-aa6d043b284c"/>überwindlichen</rs>“.
+            Inzwischen haben wir festgestellt, daß <rs ref="#54278" type="person">S.N.</rs>
+            <lb xml:id="uuid_5dea32f6-6f7f-4cfa-8f07-f6120916c60f"/>Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Krauss</rs>, den
+            Herausgeber der „<rs ref="#41244" type="work" subtype="pmb">Fackel</rs>“ gemeint hat.
+               Wir<lb xml:id="uuid_6393c112-caef-47a8-af18-a4dcece9b796"/>werden entsprechend eine
+            Richtigstellung in unserem nächsten<lb
+               xml:id="uuid_46b207ff-e4a7-42d9-a535-1ff2618c03ac"/>Programmheft bringen und es Ihnen
+            zusenden. Ich hoffe, daß die<lb xml:id="uuid_ba2e713f-c6fa-47f4-8b34-9ef8d8341195"
+            />Lösung Ihren Interessen entspricht und Sie befriedigt. </p>
+         <p xml:id="uuid_42ef8fd6-d04a-4c70-b2ee-f9c951685468">
+            <lb xml:id="uuid_94566975-2247-446a-9374-09d191feee33"/>Mit freundlichen
+                    Empfehlungen<lb xml:id="uuid_ca0c4661-e72f-43a6-a2a0-1b28df932afc"/>Der
+                    Intendant<lb xml:id="uuid_445b8fd9-f8e7-4fdb-998c-a22fda093574"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/39113" type="person">Hans Meissner</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

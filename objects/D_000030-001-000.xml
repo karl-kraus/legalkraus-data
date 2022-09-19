@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000030-002-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000029-023-002.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000030-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Otto Tramer [Abiturient aus Mährisch-Ostrau] an Kraus</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000030-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/1953</idno>
+            <idno subtype="transkribus" type="ID">186508</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000030" type="collection">Karl Kraus
+               ca. Otto Tramer</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000030-001-000-facs001" xml:id="D_000030-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000030-001-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL"
+                        >Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" notBefore-iso="1925-06-09">9. Juni 1925</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#43594">Otto Tramer, Abiturient der | Deutschen Staatsrealschule </persName>
+               <address>
+                  <street corresp="#52170">Milicgasse 3</street>
+                  <settlement ref="#41075">Mähr. Ostrau</settlement>
+               </address>
+               <date when-iso="1925-06-09">9. Juni 1925</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#11988"/>
+               <address>
+                  <street corresp="#"/>
+                  <settlement ref="#50"/>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000030-001-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000030-001-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2022-01-11" who="#IL"/>
+         <change type="structure" when-iso="2020-11-18" who="#IL"/>
+         <change type="references" when-iso="2020-11-22" who="#IL"/>
+         <change type="typography" when-iso="2022-01-11" who="#IL"/>
+         <change when-iso="2020-02-06T09:52:24.27Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-06T09:53:33.793Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-06T09:53:34.768Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-06T09:53:35.977Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-06T09:53:37.241Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 186508. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000030-001-000-facs001">
+      <surfaceGrp xml:id="D_000030-001-000-facs001-l001">
+         <surface type="recto" xml:id="D_000030-001-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked" source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548050/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000030-001-000-facs001-l001-p002">
+            
+            <graphic ana="status:checked" source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548051/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek"
+            url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548052/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek"
+            url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548053/full/full/0/default.jpg"/>
+         
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <p xml:id="uuid_06116d8d-248a-4693-91d4-857c98bc0d40">
+            <pb xml:id="D_000030-001-000_p001" facs="#D_000030-001-000-facs001-l001-p001" n="1"/>
+            <lb xml:id="uuid_e8737f73-6f93-487d-a566-886cdc61659c"/><hi rend="underlined"><hi
+                  rend="spaced">Abschrift</hi></hi>. </p>
+         <p xml:id="uuid_bde007b8-5fd6-4b5a-ad4b-7523b30c9342">
+            <lb xml:id="uuid_fd354153-3bf1-40d0-9588-bf8e2dac3ade"/>Geehrter <rs ref="#11988"
+               type="person">Herr</rs>! </p>
+         <p xml:id="uuid_8584d00d-a60d-4b01-98e9-ca67fb48d382">
+            <lb xml:id="uuid_c3215375-09ac-4f6d-9d4a-634d11042987"/>Im <rs
+               ref="https://fackel.oeaw.ac.at/f/686,0u1" type="work" subtype="fackel">Maiheft der
+               „Fackel“</rs> veröffent<lb break="no"
+               xml:id="uuid_ea98de2d-bd62-4b79-b6e8-fbdd77fcaa0b"/>lichen Sie folgende Zeilen eines
+               <rs ref="#52123" type="work" subtype="pmb">Artikels</rs> aus der<lb
+               xml:id="uuid_6e28aacd-e085-4a3f-9b64-f77d5ee270eb"/>grössten deutschen <rs
+               ref="#52120" type="work" subtype="pmb">Musikzeitschrift</rs>:<lb
+               xml:id="uuid_41cd4dd9-81c3-4706-99b1-2af4b7340e9b"/>„<quote
+               source="https://fackel.oeaw.ac.at/f/686,026"
+               xml:id="uuid_986c7189-c41e-477e-8e9c-39be0e9ed949">Man hat bei einigen amerikanischen
+                  Gesell<lb break="no" xml:id="uuid_a9f12324-6c50-4988-bb9b-f6603a1921a3"/>schaften
+               Versuche dieser Art Filmmusik ge<lb break="no"
+                  xml:id="uuid_58007c64-b946-4300-ac70-137f0b0589e2"/>macht; es ist vorzüglich eine
+               Aufgabe Deutsch<lb break="no" xml:id="uuid_14d51c3b-f7b0-4225-9f2f-866bdd2aa449"
+               />lands, diese ersten unzulänglichen Proben,<lb
+                  xml:id="uuid_f2f9e3ca-4a8d-485c-965c-2a8b9f935cfa"/>die sich mit den süsslichsten
+               Mitteln begnüg<lb break="no" xml:id="uuid_b69cce8a-5c5f-4b27-820f-7e05f0f0c296"/>ten,
+               auszubauen und gemäss dem ernsteren Cha<lb break="no"
+                  xml:id="uuid_8e263a2f-cfd7-44dd-bb74-5ba9c8a5ff18"/>racter unserer Filme zu
+               vertiefen.</quote>“ </p>
+         <p xml:id="uuid_57b99825-490e-40e8-b409-805181ab5cfa">
+            <lb xml:id="uuid_0af1b4c1-9f94-474d-b3bd-373ae5d375d9"/>Da ich ein eifriger Leser der
+               „<rs ref="#52120" type="work" subtype="pmb">Musik</rs>“<lb
+               xml:id="uuid_4a202d04-f18f-4d6c-b698-adbd22c61dad"/>bin und diese hervorragende
+            Zeitschrift, die ja so<lb break="no" xml:id="uuid_f10c0505-e8b2-44c2-8a53-142c19219ee2"
+            />gar von Ihnen als die grösste anerkannt wurde, – wo<lb break="no"
+               xml:id="uuid_08a7b50f-6a7f-4e37-83b7-b504b13ddccc"/>rauf sich <rs ref="#43647"
+               type="person">B. Schuster</rs> allerdings nichts einbilden kann –<lb
+               xml:id="uuid_438856e0-3d45-4db5-9761-2b8d5f03ff57"/>beziehe, ist es mir nicht schwer
+            gefallen, festzu<lb break="no" xml:id="uuid_6b8d2e5e-4e94-41bb-bc29-80816d0cc1b0"
+            />stellen, dass diese Zeilen dem <rs ref="#52121" type="work" subtype="pmb">Heft V
+               Jahrgang XVII<lb xml:id="uuid_3bdaf037-7a78-4ad2-aede-553e3b77e062"/>der „Musik“</rs>
+            entnommen worden sind, in welchem <rs ref="#52096" type="person">G. Ba<lb break="no"
+                  xml:id="uuid_5166bdbd-469c-4f38-9eab-7d36152db38f"/>gier</rs> über „<rs
+               ref="#52123" type="work" subtype="pmb">Musikalische Probleme des Films</rs>“
+            spricht.</p>
+         <p xml:id="uuid_dabfdaa0-2908-4701-adfa-6c2b28fef9b4"><lb
+               xml:id="uuid_c6a5a8bb-5036-4d54-877f-ff1bd2278ad9"/>Dass Sie diesen <rs ref="#52123"
+               type="work" subtype="pmb">Artikel</rs> nicht verstanden<lb
+               xml:id="uuid_618f2a9d-1ab5-49d1-8382-f219553b609f"/>haben, wundert mich ja garnicht
+            und davon war ich<lb xml:id="uuid_756d7814-ac22-4016-b32a-96c309aed8a7"/>überzeugt, als
+            ich den Titel las, unter welchem die<lb
+               xml:id="uuid_d8560785-6f79-43db-a46a-c5de530ebcf9"/>oben angeführten Zeilen
+            veröffentlicht waren, denn<lb xml:id="uuid_b67c1858-bdbd-415a-b5e2-fcdbcfc54e79"/>für
+            Ihr musikalisches Verständnis ist es egal, ob<lb
+               xml:id="uuid_5d0487f4-4e75-4b69-858b-8a96614b9757"/>Sie die Tannhäuser-Ouverture –
+            sie ist von <rs ref="#13024" type="person">Richard<lb
+                  xml:id="uuid_4dbc3ab3-17ba-4813-9e76-dd3d29efedaa"/>Wagner</rs>, Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> – im Kino
+            oder ob Sie sie unter <rs ref="#12630" type="person">Fr.<lb
+                  xml:id="uuid_dc05a518-144e-449c-835d-9baee391db29"/>Schalk</rs> mit den
+            Philharmonikern hören. </p>
+         <p xml:id="uuid_37fec1dc-8b58-43b0-ae95-05de90a3ad68">
+            <lb xml:id="uuid_91425a41-c3e5-4c33-a2fb-ae0191e44489"/>Ich will mich deshalb über den
+               <rs ref="#52123" type="work" subtype="pmb"><rs ref="#52096" type="person"
+                  >Bagier</rs>’<lb xml:id="uuid_f83b66d3-88be-4fc8-bde6-f08afce5830d"/>schen
+               Artikel</rs>, um Sie nicht in Verlegenheit zu bringen,<lb
+               xml:id="uuid_25b6e63f-109f-4a2b-be6d-73b690a477ea"/>nicht weiter auslassen. Aber
+            eines möchte ich Sie fra<lb break="no"
+               xml:id="uuid_9f676928-c1f9-4a0c-8f02-3ad5f86fa54c"/>gen: Wem sagen Sie denn das
+            alles, was Sie bisher<lb xml:id="uuid_88beae5f-4145-4b9a-8271-a11c6f99a1be"/>in der „<rs
+               ref="#41244" type="work" subtype="pmb">Fackel</rs>“ und in Ihren übrigen Werken
+               zusammen<lb break="no" xml:id="uuid_6144b87c-a39a-42d7-acfd-ec8ba3761913"/>geschmiert
+            haben? Ihre Zeitschrift erscheint jetzt<lb
+               xml:id="uuid_51677967-808e-4bd1-b554-1d509ef7af95"/>schon solange und trotz der
+            Schimpfereien haben Sie<lb xml:id="uuid_02662d1f-0013-4810-9631-2198c4811d4a"/>nicht
+            einmal den Schmierblättern etwas anhaben können,<lb
+               xml:id="uuid_09e0bf7b-1e12-4c52-aa07-fce76e79c7f1"/>viel weniger Zeitungen vom Range
+            einer „<rs ref="#36374" type="work" subtype="pmb">Neuen Freien<lb
+                  xml:id="uuid_f62bc7b3-92d7-4425-93bb-b27657d90b00"/>Presse</rs>“, in der <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/2167" type="person">Felix Salten</rs>
+            hoffentlich noch lange sei<lb break="no"
+               xml:id="uuid_c9d3a92a-c844-47f8-bc0c-8a3bb1576264"/>ne Recensionen schreiben wird,
+            auch wenn Sie darüber<lb xml:id="uuid_69e14e35-b8f2-42c0-b26f-0d39694e6e1a"/>zerspringen
+            sollten, was ich aber nicht wünsche, da<lb
+               xml:id="uuid_c6108fa2-569a-4057-b2e0-6fab51f53aad"/>wir sonst zwei von Ihrer Sorte
+            hätten – oder der<lb xml:id="uuid_95862b3c-f83e-4c7c-b079-512ade022c24"/>„<rs
+               ref="#52120" type="work" subtype="pmb">Musik</rs>“, die auch weiter die führende
+               Musikzeitschrift<lb xml:id="uuid_39b56d6e-cdbb-42e1-8f10-a8e54975a5bc"/>bleibt. </p>
+         <p xml:id="uuid_aa3e5f88-177f-475f-9090-1ef94a06e3df">
+            <lb xml:id="uuid_da36c4b3-036f-409d-89c6-4b103c020bc4"/>Wenn man Ihre <rs ref="#41244"
+               type="work" subtype="pmb">Fackel</rs> liest, sehr ge<lb
+               xml:id="uuid_30001b95-8552-4a31-b856-5f610922a262" break="no"/>ehrter Herr, denkt man
+            sich unwillkürlich: Schade,<lb xml:id="uuid_549557aa-1522-4007-9375-b11f845fc556"/>dass
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+            nicht zur Zeit <rs ref="#11377" type="person">Gustav Freytags</rs> gelebt<lb
+               xml:id="uuid_7cce6bed-8c17-4a63-b640-ffe531946dcf"/>hat, er hätte eine hervorragende
+            Vorlage für den<lb xml:id="uuid_2d673023-8eea-4463-95db-eed1243f7caa"/>„Schmock“ in
+            seinen „<rs type="work" subtype="pmb" ref="#31729">Journalisten</rs>“ gehabt. Macht<lb
+               xml:id="uuid_318c089c-f885-4909-8731-ee0836d9662e"/>nichts: Ihnen ist ja von anderer
+            Seite ein herrliches<lb xml:id="uuid_d1c568a4-b869-4706-84d5-f03ff8f957ec"/>Denkmal
+            gesetzt worden. Sie besser zu charakterisieren,<lb
+               xml:id="uuid_d5c2447e-24c1-453d-b915-70cbfe4bb582"/>als es Herr <rs ref="#12800"
+               type="person">Slezak</rs>, den ich wegen seiner<lb
+               xml:id="uuid_641d0b06-3835-4f22-9f85-df50a3a71d3e"/>wunderschönen Tenorstimme, Herr
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> –
+               gerade<lb xml:id="uuid_66a52fd8-1884-42bc-af72-6369ff5cb135"/>wegen der Tenorstimme –
+            sehr verehre, getan hat, ist<lb xml:id="uuid_a1d39e72-2bec-4b92-9ab9-1326717c7e86"
+            />schwer möglich. Wenn er Sie einen „<quote
+               xml:id="uuid_dfff4992-5ba4-4d7e-968d-01e4b9a8df16">galligen, unfrohen,<lb
+                  xml:id="uuid_a970a6b6-5a27-4a41-8f3c-a478118dc42e"/>alles verneinenden armen
+               Teufel</quote>“ nennt, so ist mir das<lb
+               xml:id="uuid_6910f693-64f6-444e-87b2-fb3c52db7ffe"/>aus dem Herzen gesprochen, ich es
+            mir nicht habe besser<lb xml:id="uuid_f37fbed9-c372-436b-b4c7-2aa09f67a3e5"/>vorstellen
+            können. </p>
+         <p xml:id="uuid_61913ecf-9ccd-4aea-9643-e70a6aec8d7f">
+            <pb xml:id="D_000030-001-000_p002" facs="#D_000030-001-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_08026adf-763c-4a08-b729-75266144ddf1"/>Ich wünsche Ihnen weiter
+            dieselbe Er<lb break="no" xml:id="uuid_c18dc118-879d-414b-a05c-943b597f8518"
+            />folglosigkeit, die Ihr Werk bis jetzt krönt und<lb
+               xml:id="uuid_3ce54c29-0421-40dc-8e71-13dae5f9f361"/>was die Hauptsache ist, dieselben
+            Anhänger, die<lb xml:id="uuid_7cab21ec-27b0-4099-ad43-08bb2e8a343b"/>Sie bis ietzt
+            hatten, nämlich Leute, welche nichts<lb
+               xml:id="uuid_cf96d5af-94af-470e-83fb-c082a6dabc98"/>anderes können, als auf alles das
+            zu stänkern, wo<lb break="no" xml:id="uuid_40d53c70-55f8-43a1-a159-a9a7d25e6b97"/>von
+            sie nichts verstehen und die es durch hohle<lb
+               xml:id="uuid_d0f91e7c-14a3-481b-be51-b4bb6907f7ea"/>Phrasendrescherei und Schimpferei
+            verbergen wollen,<lb xml:id="uuid_12372b11-03a5-4f85-abb8-820ba68d4cac"/>dass sie
+            überflüssig auf der Welt sind.</p>
+         <p xml:id="uuid_4a247913-2f1d-4e5b-985f-4eb9fe9766e8"><lb
+               xml:id="uuid_da6fe97a-11a1-4a28-9c2e-223697d07e36"/>Ich schliesse ein Frankocouvert
+            bei, da<lb xml:id="uuid_f3aa93cf-ff1d-4a40-8f42-92e856407e7f"/>mit ich eine Antwort von
+            Ihnen erhalte und erwarte,<lb xml:id="uuid_2a1925f3-f0b9-4e44-a326-38d921dd8aee"/>dass
+            ich den gewünschten Zweck erreichen werde. </p>
+         <p xml:id="uuid_286283e0-5fa8-4109-b4d4-34210a226074">
+            <lb xml:id="uuid_92ac4b59-3f38-4142-bf11-e3e23cbe78fa"/>Achtungsvoll<lb
+               xml:id="uuid_d852fa07-9ad2-452f-8a09-7848c4ab2925"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/43594" type="person">Otto Tramer</rs> m.p. </p>
+         <p xml:id="uuid_909113b7-4338-43f6-9b71-ecefd8a9d711">
+            <lb xml:id="uuid_716eda52-b22d-421d-b005-50808d8d2aa2"/><note resp="law-firm"
+               type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs>
+               <lb xml:id="uuid_d505995b-a6a0-460f-85db-584321d6876f"/><rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/43594" type="person">Tramer</rs></note>
+         </p>
+      </body>
+   </text>
+</TEI>

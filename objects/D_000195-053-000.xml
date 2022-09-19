@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-054-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-052-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000195-053-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Johann Turnovsky</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000195-053-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4977</idno>
+            <idno subtype="transkribus" type="ID">387806</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000195" type="collection">Karl
+                    Kraus ca. Aufruf</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000195-053-000-facs001" xml:id="D_000195-053-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000195-053-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#52780"/>
+                  <settlement ref="#64"/>
+               </address>
+               <date when-iso="1936-12-07">7. Dezember 1936</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#43593">Herrn | Dr. Johann Turnovsky, | Advokat</persName>
+               <address>
+                  <street corresp="#51737">Vodickova 33</street>
+                  <settlement ref="#652">Prag II.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Aufruf</note>
+               <note type="dictation">Dr.S/Fa</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1936-12-07">7. Dezember 1936
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000195-053-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000195-053-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-09-28" who="#JK"/>
+         <change type="typography" when-iso="2021-09-28" who="#JK"/>
+         <change type="references" when-iso="2021-09-28" who="#JK"/>
+         <change type="structure" when-iso="2021-09-28" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-07" who="#JK"/>
+         <change when-iso="2020-10-12T09:39:34.422Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-12T09:51:02.028Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 387806. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2546615/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <facsimile xml:id="D_000195-053-000-facs001">
+      <surfaceGrp xml:id="D_000195-053-000-facs001-l001">
+         <surface type="recto" xml:id="D_000195-053-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2546617/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000195-053-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2546618/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000195-053-000_p001"
+             facs="#D_000195-053-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_94f46ba0-4713-46c3-ba28-50cc2fbcb381">
+            <lb xml:id="uuid_6833013d-4847-4181-9c8e-326fcd8650cc"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43593" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_71c24e27-fead-40ef-860f-2a38853154b0">
+            <lb xml:id="uuid_604a3aa8-5148-4805-8839-93c4d92525f3"/>Ich bestätige mit bestem
+                Dank den Empfang<lb xml:id="uuid_6608bc4d-9e2f-4bd9-abaa-62b284584711"/>Ihres
+                freundlichen <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-052-000"
+                type="work"
+                subtype="legal-doc">Schreibens vom 5. Dezember 1936</rs>. Die
+                    beiden<lb xml:id="uuid_fe0ddb99-6ebe-4eb3-99bf-a1508283271b"/>Vollmachten habe
+                ich zur Unterfertigung Herrn Kommerzialrat<lb xml:id="uuid_aba1c30f-5d85-4766-8190-18a7e09dffd0"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/38934" type="person">Josef Kraus</rs>
+                eingesendet, mit der Weisung, sie Ihnen direkt<lb xml:id="uuid_6f9c492d-2354-4d52-a3ff-8de550dc1f9b"/>zurückzuschicken. </p>
+         <p xml:id="uuid_7a7dd9f5-9def-4963-bd43-3681fa6c18f0">
+            <lb xml:id="uuid_97b60037-6c79-40d5-83f1-c94d51d4bb9f"/>Dass Sie von der Trauerfeier
+                erst nach<lb break="no" xml:id="uuid_eb14cf78-3691-4e7a-8dc1-451cf729b95b"/>träglich
+                Kenntnis erhalten haben, tut mir furchtbar leid. Ich<lb xml:id="uuid_be13d397-ff33-43b8-88a3-72edf17a8ebd"/>bitte Sie, diesen
+                unangenehmen Vorfall zu entschuldigen. Es<lb xml:id="uuid_2ceba2ca-8cd0-4884-9180-d4c5e8f71c6e"/>wurden von der <rs ref="#50728" type="institution">Buchhandlung Lanyi</rs> aus an alle Bekannten
+                    Ein<lb break="no" xml:id="uuid_f521e7da-a37c-4bfa-bd49-a7d741905f2d"/>ladungen
+                hinausgeschickt. Leider ist die Einladung an Sie<lb xml:id="uuid_c16c106d-61db-4302-aedb-8c168ec33630"/>offenbar verloren gegangen.
+                Um etwas Gleiches in Zukunft zu<lb xml:id="uuid_c60396c7-5416-45fa-b50c-9c9a16eadc44"/>vermeiden, werde ich Sie
+                auch selbst in Zukunft von allen Ver<lb break="no" xml:id="uuid_a375d84d-98b3-45e9-8509-6698ce721550"/>anstaltungen verständigen. </p>
+         <p xml:id="uuid_afbf0d77-909d-4dae-9fed-04fc35a0ca81">
+            <lb xml:id="uuid_1daa14e7-dcd4-4887-b87e-e316eb59a22d"/>Ich bin mit dem Ausdruck
+                    vorzüglicher<lb xml:id="uuid_ddc97b87-86ea-4d7b-94af-e3c020816a11"/>kollegialer
+                Hochachtung und mit den besten Grüssen </p>
+         <p xml:id="uuid_3f22f37d-eaec-4a16-b6eb-545f3770aea8">
+            <lb xml:id="uuid_c16b9eb9-5cc6-46f0-832b-c1f47f1df533"/>Ihr ergebener </p>
+         <pb xml:id="D_000195-053-000_p002"
+             facs="#D_000195-053-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_9b242102-1ec7-4a17-9640-1e5a8239bdc8">
+            <lb xml:id="uuid_45d394d9-2aa2-4b1a-9abb-cb04eede5027"/><note resp="law-firm"
+               type="paratext">Betr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  type="person">Kraus</rs> – <rs ref="#37264" type="institution">Aufruf</rs><lb
+                  xml:id="uuid_ac6197a0-4303-472f-b442-4198392dc538"/>exp. 7.12.1936.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

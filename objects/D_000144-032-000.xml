@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-033-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-031-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000144-032-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Anton Schroll Verlag für Kunst und Literatur an Samek</title>
+            <editor ref="#LK">Lena Kovacic</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000144-032-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3919</idno>
+            <idno subtype="transkribus" type="ID">275933</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000144" type="collection">Karl
+                    Kraus ca. S. Fischer Verlag (Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <ab type="stamp">
+                  <stamp source="#37062" xml:id="uuid_05715d80-cd09-4a99-b95d-c2563971d4a1"/>
+               </ab>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000144-032-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness facs="#D_000144-032-000-facs001" xml:id="D_000144-032-000-wit01"/>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-07-03">3. Juli 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#29750">ANTON SCHROLL &amp; CO. GES.M.B.H.</orgName>
+               <address>
+                  <street corresp="#39599">GRABEN 29</street>
+                  <settlement ref="#51">WIEN</settlement>
+               </address>
+               <date when-iso="1931-07-03">3. Juli 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51">Wien. I</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Sch/G/R</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000144-032-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000144-032-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-08T14:16:09.685Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-08T14:28:44.913Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 275933. </change>
+         <change type="intertexts" when-iso="2021-10-20" who="#LK"/>
+         <change type="typography" when-iso="2021-10-20" who="#LK"/>
+         <change type="references" when-iso="2021-10-20" who="#LK"/>
+         <change type="structure" when-iso="2021-10-20" who="#LK"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000144-032-000-facs001">
+      <surfaceGrp xml:id="D_000144-032-000-facs001-l001">
+         <surface type="recto" xml:id="D_000144-032-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541893/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000144-032-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541894/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000144-032-000_p001"
+             facs="#D_000144-032-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_2539929d-fce5-4355-a2eb-9fca720e948d">
+            <lb xml:id="uuid_729d477d-0947-40c8-93ff-e709b23743d5"/>Sehr geehrter Herr <rs ref="#38909" type="person">Doktor</rs>, </p>
+         <p xml:id="uuid_08ce51de-a943-4580-b34c-d3eb8636df2b">
+            <lb xml:id="uuid_e734dac9-031f-4381-a227-491f5ec6a18a"/>wir erhielten heute eine <rs
+               type="work" subtype="legal-doc">Karte</rs> folgenden Inhaltes vom <rs ref="#29750"
+               type="institution">Verlag<lb xml:id="uuid_532369eb-afeb-4c35-8e52-40d64658ddcf"
+               />Erich Reiss</rs>: </p>
+         <p xml:id="uuid_37a4ae88-8332-4461-bfea-05856668be74">
+            <lb xml:id="uuid_99ece377-c813-463c-9785-2b54ea7e070e"/>„<quote source=""
+               xml:id="uuid_0a4a5284-5431-4219-ae17-2a92e7407cf6">In Beantwortung Ihres <rs
+                  type="work">Schreibens</rs> vom 20. v.M. teilen wir<lb
+                  xml:id="uuid_6e255152-7476-492c-b79d-29cfab17e1e5"/>Ihnen mit, dass die
+               Verlagsrechte der seinerzeit bei uns<lb
+                  xml:id="uuid_63280f79-4936-4f3f-b620-4725fb78db97"/>erschienenen ‚<rs ref="#59796"
+                  type="work" subtype="pmb">Bilderbögen des kleinen Lebens von Peter<lb
+                     xml:id="uuid_aa027dee-8781-4a69-bad8-ece38e1d78a9"/>Altenberg</rs>‘ an die <rs
+                  ref="#2147" type="person">Altenberg</rs>’schen <rs type="institution" ref="#37190"
+                  >Erben</rs> zurückgefallen<lb xml:id="uuid_77e7a61c-60fa-48c3-90f4-e23433636c56"
+               />sind, wir also über dieselben nicht mehr zu verfügen haben.</quote>“ </p>
+         <p xml:id="uuid_f08c9950-fdda-40e5-a0a3-dadf2b601760">
+            <lb xml:id="uuid_e3ef9cdb-f787-4887-a601-3d2e18e19251"/>Die Angelegenheit des Buches
+                    „<rs ref="#59796" type="work" subtype="pmb">Bilderbögen des kleinen Lebens</rs>“
+                    ist<lb xml:id="uuid_97f3fbdb-d6c6-42b1-a00f-8fdb28bd5477"/>damit wohl
+                vollständig in Ordnung. </p>
+         <p xml:id="uuid_7c947551-488d-40cc-b7f2-e5964c154736">
+            <lb xml:id="uuid_d317b8b6-142d-4b07-a598-5757ee0fd4ed"/>Haben Sie schon Nachricht vom
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29639" type="institution">Verlag S.
+               Fischer</rs>? Vielleicht<lb xml:id="uuid_5db9617f-527b-4b20-923c-6a545820d9c2"
+            />könnten wir unabhängig davon einmal über den von uns vorgelegten <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-017-000" type="work"
+               subtype="legal-doc">Ver<lb break="no"
+                  xml:id="uuid_113f44bf-2bc6-4cca-b7de-38093853921a"/>tragsentwurf</rs> sprechen, um
+            ihn so ins Reine zu bringen, dass die Unter<lb break="no"
+               xml:id="uuid_abc63ee2-1fa9-4747-9eff-84deb95d0544"/>zeichnung sofort nach Eintreffen
+            der Nachricht von <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29639" type="institution"
+               >Fischer</rs> erfolgen<lb xml:id="uuid_dc75c30b-4a73-4b46-9b3c-d33baaa04426"
+            />kann.</p>
+         <p xml:id="uuid_1dc40a6b-5607-4988-a725-3268016ff7e4">
+            <lb xml:id="uuid_56e61a84-bee0-41aa-ad32-0b807af8abc7"/>In vorzüglicher
+                    Hochachtung<lb xml:id="uuid_3313927f-6bae-4323-ac23-c30369577f88"/>[<rs type="person">Unterschrift</rs>] </p>
+         <pb xml:id="D_000144-032-000_p002"
+             facs="#D_000144-032-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_e841d892-adca-4dd5-863f-da6c5a572853">
+            <lb xml:id="uuid_3b7fee79-fbca-4a44-b1a9-6e9d9466d56c"/><note type="paratext"
+               resp="law-firm"><rs type="person" ref="#11988">Kraus</rs>
+               <lb xml:id="uuid_b116b00a-6bda-46fc-86da-c598362c864b"/><rs type="work" ref="#60281"
+                  subtype="pmb">Altenberg Auswahl</rs>
+               <lb xml:id="uuid_2993ea0b-ff39-4dce-b177-fb1d896bbcea"/>3. JULI 1931</note></p>
+      </body>
+   </text>
+</TEI>

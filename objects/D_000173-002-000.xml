@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-001-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000173-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Deutsches Theater Prag an Kraus</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000173-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/4267</idno>
+            <idno subtype="transkribus" type="ID">312378</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000173" type="collection"
+               >Briefwechsel zwischen dem Verlag Die Fackel, dem Verlag Universal Edition und dem
+               Deutschen Theater Prag bezüglich Aufführungen von Offenbachstücken in der Kraus’schen
+               Bearbeitung und Verlagsproblemen</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000173-002-000-facs001" xml:id="D_000173-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000173-002-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T"
+                        >Typoskript</objectType>
+                  </ab>
+                                    <ab type="materiality">
+                     <objectType source="D_000173-002-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP">Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#55400">Die Direktion | des Deutschen Theaters Prag</persName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#652">Prag XII.</settlement>
+               </address>
+               <date when-iso="1932-01-11">11. Januar 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn | Karl Kraus</persName>
+               <address>
+                  <street corresp="#52608">Schiffbauerdamm | Hotel Hermes</street>
+                  <settlement ref="#168">Berlin</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Dir.V/No</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-01-11">11. Januar 1932
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000173-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000173-002-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-05-07" who="#JK"/>
+         <change type="typography" when-iso="2021-05-07" who="#JK"/>
+         <change type="references" when-iso="2021-05-07" who="#JK"/>
+         <change type="structure" when-iso="2021-05-07" who="#JK"/>
+         <change when-iso="2020-03-10T12:11:35.592Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 312378. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000173-002-000-facs001">
+      <surfaceGrp xml:id="D_000173-002-000-facs001-l001">
+         <surface type="recto" xml:id="D_000173-002-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543358/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000173-002-000_p001"
+             facs="#D_000173-002-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_28cb5ab3-1659-4ced-99f7-2256101018a8">
+            <lb xml:id="uuid_65ad2b66-99c4-47e5-83e3-e09e726cb075"/><hi rend="spaced">Abschrift</hi>
+         </p>
+         <p xml:id="uuid_ee4a9d19-d0c1-4681-b09f-b73f21202b77">
+            <lb xml:id="uuid_48a27646-23bc-41ef-b477-ce3d6c7fd577"/>Sehr verehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herr Kraus</rs>, </p>
+         <p xml:id="uuid_f6347975-1002-4ae2-a159-144aab5e247a">
+            <lb xml:id="uuid_d0bba801-e085-4104-b5d0-4bb0b430eb4f"/>wie Ihnen vielleicht
+                mitgeteilt worden sein<lb xml:id="uuid_b02a0f26-ee64-44d7-afb3-67b15e8c86ad"/>dürfte, beabsichtige ich am 14. Februar Ihre<lb xml:id="uuid_d9b1bd77-3c16-41e0-b889-5857c01761c7"/>„<rs ref="#55390" type="work" subtype="pmb"><hi rend="underlined">Madame l’Archiduc</hi></rs>“<lb xml:id="uuid_5745264c-47bd-4937-8289-24ca35db0728"/>in <rs ref="#652" type="place">Prag</rs> zur Erstaufführung zu bringen. </p>
+         <p xml:id="uuid_aa758967-b836-49ce-95a8-341e5fe72780">
+            <lb xml:id="uuid_5ef97e37-96e8-4e7b-aa47-65449cae8ec0"/>Es wäre mir und unserem
+                Publikum ein ganz<lb xml:id="uuid_c5bf0a59-f77a-4ff8-a5f0-86521125b8f8"/>außerordentliches Vergnügen, Sie bei dieser Gelegenheit in<lb xml:id="uuid_ee96fcf2-7cc9-41f8-9748-6a5c35722b97"/>unserem deutschen Theater
+                begrüßen zu können, und ich wäre<lb xml:id="uuid_657a17ae-9330-4582-94c7-5fa72fb55ffd"/>Ihnen auch dankbar, wenn es
+                Ihnen möglich wäre, schon bei<lb xml:id="uuid_91e16a43-15ee-422d-ac9f-7233618ba426"/>den letzten Proben anwesend zu sein und uns durch ihre<lb xml:id="uuid_bca15c86-cc9f-4e77-a5ce-c13d5284cfc3"/>künstlerische Einflußnahme
+                an die Hand zu gehen. </p>
+         <p xml:id="uuid_b43fc59c-1d74-4264-952d-6553f1d17718">
+            <lb xml:id="uuid_be7947ee-3381-47d1-9e75-795e9cbe24f4"/>Darf ich Sie bitten, mir auf
+                meine Einladung<lb xml:id="uuid_1dad8cef-cbef-4c23-837b-c971475e992c"/>ehestens
+                einen Bescheid zukommen zu lassen. </p>
+         <p xml:id="uuid_d51b8461-b0a5-44e1-8495-b8a52e58a8df">
+            <lb xml:id="uuid_7056fb2f-be87-4f10-9d90-22712780426b"/>Ich begrüße Sie mit dem
+                Ausdrucke vorzüglicher<lb xml:id="uuid_887839b2-b14c-49a4-8aeb-4542a5f2eb8e"/>Hochachtung als Ihr </p>
+         <p xml:id="uuid_3c664b06-a8db-4776-a336-7a7aee85e2f4">
+            <lb xml:id="uuid_76b41741-bc03-4f51-b915-cd5cff1a1a37"/>sehr ergebener<lb xml:id="uuid_db9df5d4-878c-49b8-8f63-9af4b35dcdef"/><rs ref="#55400" type="person">Robert Volkner</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

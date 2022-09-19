@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-044-001.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-043-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000173-044-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Verlag Die Fackel an Universal-Edition</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000173-044-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4309</idno>
+            <idno subtype="transkribus" type="ID">312420</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000173" type="collection">Briefwechsel zwischen dem Verlag Die Fackel, dem Verlag Universal Edition und
+                    dem Deutschen Theater Prag bezüglich Aufführungen von Offenbachstücken in der
+                    Kraus’schen Bearbeitung und Verlagsproblemen</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000173-044-000-facs001" xml:id="D_000173-044-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000173-044-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#43724">VERLAG „DIE FACKEL“</orgName>
+               <address>
+                  <street corresp="#50496">HINTERE ZOLLAMTSSTR. 3</street>
+                  <settlement ref="#53">WIEN, III.</settlement>
+               </address>
+               <date when-iso="1932-04-04">4. April 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="https://pmb.acdh.oeaw.ac.at/entity/36971">die | Universal-Edition
+                        A.G. </orgName>
+               <address>
+                  <street corresp="#56742"/>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-04-04">4. April 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000173-044-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000173-044-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-12-09" who="#JK"/>
+         <change type="typography" when-iso="2021-12-09" who="#JK"/>
+         <change type="references" when-iso="2021-12-09" who="#JK"/>
+         <change type="structure" when-iso="2021-12-09" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-09" who="#JK"/>
+         <change when-iso="2020-10-09T14:08:56.498Z" who="#IB">created by API</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000173-044-000-facs001">
+      <surfaceGrp xml:id="D_000173-044-000-facs001-l001">
+         <surface type="recto" xml:id="D_000173-044-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543510/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000173-044-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543512/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000173-044-000-facs001-l002">
+         <surface type="recto" xml:id="D_000173-044-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543514/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000173-044-000-facs001-l002-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543516/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000173-044-000-facs001-l003">
+         <surface type="recto" xml:id="D_000173-044-000-facs001-l003-p005">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543518/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000173-044-000-facs001-l003-p006">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543520/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000173-044-000-facs001-l004">
+         <surface type="recto" xml:id="D_000173-044-000-facs001-l004-p007">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543522/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000173-044-000-facs001-l004-p008">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543524/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000173-044-000_p001"
+             facs="#D_000173-044-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_5b1f120c-dd93-4c10-81e4-dbceff9bf081">
+            <lb xml:id="uuid_b2ffb41f-6eb9-4ea7-af56-fdb4f9accb21"/><note resp="law-firm" type="paratext">eingelangt 5. April 32</note>
+         </p>
+         <p xml:id="uuid_540eb2ca-d2c1-4433-a473-db24dd60222f">
+            <lb xml:id="uuid_572871b0-c694-475d-9107-38534061ffe1"/>Sehr geehrte Herren! </p>
+         <p xml:id="uuid_5101465b-6b7c-4714-96f8-f9eeb49ec7c4">
+            <lb xml:id="uuid_43685e0e-5554-4e8c-913e-c0e8276ce745"/>Wir sind leider, entgegen
+                unserer Eröffnung vom 29. März, ge<lb break="no" xml:id="uuid_2588c048-cb59-40fd-a95b-39832a82a03b"/>nötigt, noch einmal ein
+                Schreiben an Sie gelangen zu lassen, weil wir<lb xml:id="uuid_f0d6382d-3687-4c9c-89ad-feaa13b98ce1"/>es unmöglich hinnehmen
+                können, daß der von uns gekennzeichnete Versuch<lb xml:id="uuid_a9df227b-183a-48e9-81ca-bbb537f54ec5"/>der Dummacherei sich nun
+                nicht mehr auf die Verteidigung beschränkt,<lb xml:id="uuid_f5bbd66e-91a4-4a5e-aaf9-fab36e93c0b9"/>sondern zur Anklage
+                übergeht, wie <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-041-000"
+                type="work"
+                subtype="legal-doc">Ihre an unseren Rechtsvertreter am<lb xml:id="uuid_dff3da81-1bbe-4130-a59a-f6827f95d226"/>29. März gesandte
+                    Anschrift</rs> beweist. Allerdings war sie vor dem Ein<lb break="no" xml:id="uuid_e2100d82-0ab5-44bc-8a21-25070cd28f61"/>langen unseres letzten,
+                leider nun doch nicht letzten, <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-039-000"
+                type="work"
+                subtype="legal-doc">Schreibens</rs> ver<lb break="no" xml:id="uuid_bbee07f8-2544-4041-89b9-bf742e1e23da"/>faßt. Da wir aber nicht
+                wissen, ob Sie nicht trotz dessen Klarlegung<lb xml:id="uuid_998b1431-4c52-4b9f-80e7-6fa48e9cca75"/>und also nach wie vor den
+                Anspruch erheben, daß ihnen in der Angelegen<lb break="no" xml:id="uuid_18f029d3-e135-490e-96f5-f5090343aa7d"/>heit des Gesangstextdruckes
+                nach gröblicher Verfehlung auch moralisch<lb xml:id="uuid_2a2d0d4b-e73a-49aa-b305-dabc7fbffdeb"/>Kleingeld herauskommt, und
+                weil wir nicht gewillt sind, zu dulden, daß<lb xml:id="uuid_de6d677e-fc0e-46bf-b1a0-8a237c3f0247"/>auch nur in Ihren
+                Geschäftspapieren uns berührende Unwahrheiten beste<lb break="no" xml:id="uuid_c3c130f1-7a01-4a05-b8e4-944cb6da319b"/>hen bleiben, so müssen wir
+                Sie, so schwer uns dieses neue Opfer an<lb xml:id="uuid_bc67e6e5-5821-4c1a-8a22-f3c57004fc20"/>Zeit und Arbeit fällt, im
+                Tatsächlichen eines bessern belehren. </p>
+         <p xml:id="uuid_1560c522-ea95-4a78-91ef-8f029b2b6115">
+                <lb xml:id="uuid_58699751-3c0b-4a93-ba57-3b09806180fb"/>Sie haben sich erlaubt, vor
+                unsern <rs ref="#38909" type="person">Rechtsanwalt</rs>, also auch<lb
+                    xml:id="uuid_d50c0024-7f31-42dd-945e-1a470177c2c5"/>vor Herrn <rs ref="#11988"
+                    type="person">Karl Kraus</rs> mit dem Entschluß hinzutreten, irgendetwas „<quote
+                    source="#D_000173-041-000" xml:id="uuid_bd304c0e-4143-4b43-bc87-952c616a3539"
+                        >fest<lb break="no" xml:id="uuid_0ca260e9-4636-492f-9808-de521fb4ad1e"
+                    />legen</quote>“ zu wollen, wiewohl in der ganzen Entwicklung der Dinge, die<lb
+                    xml:id="uuid_77a51ae6-9a55-4c9f-9238-3e5e437b351c"/>zwischen ihm und Ihnen
+                spielen, vom ersten Tage an nichts festzulegen<lb
+                    xml:id="uuid_e698bab1-8995-40f7-85fd-0d874fd28556"/>ist als Ihr schwankendes
+                Verhalten: ein einziger Mißbrauch des Ver<lb break="no"
+                    xml:id="uuid_c1dc01e3-bb0c-4c17-ac2c-18fbb4838e92"/>trauens, durch den es Ihnen
+                gelungen ist, einem <rs ref="#11988" type="person">Autor</rs> seine geistige<lb
+                    xml:id="uuid_3e7843dd-7b6f-4b69-a387-0e51ae0deec7"/>Arbeit wegzunehmen und in
+                einer Art zu verwalten und zu verwenden, von<lb
+                    xml:id="uuid_515ee712-4606-4369-bef5-5954cd9e8574"/>der Sie sehr wohl wissen,
+                daß sie das diametrale Gegenteil der Voraus<lb break="no"
+                    xml:id="uuid_55ce7b97-0349-4e67-bbbe-75d784a7df9b"/>setzung bedeutet, unter der
+                er sich herbeigelassen hat, sie Ihnen zu<lb
+                    xml:id="uuid_844364cb-e89c-42bd-8329-c2297872cf25"/> übergeben. Sie haben nicht
+                allein durch eine verschwiegene Vertrags<lb break="no"
+                    xml:id="uuid_1cd59e56-f537-4c42-8ff4-11d2d367d7e4"/>verletzung die Verhunzung
+                dieser Arbeit durch die Theaterpraxis ermög<lb break="no"
+                    xml:id="uuid_49d1b585-9c7c-4b8a-b530-583f85a3d0a8"/>licht, sondern auch vorher
+                schon im eigensten Wirkungskreise <del>wenig<lb
+                        xml:id="uuid_e6c3b6d3-cf32-4ce7-a347-8bcb3d515a5e" break="no"/>stens</del>
+                (bei <rs ref="#55390" type="work" subtype="pmb">Madame l’Archiduc</rs>) durch
+                Leichtfertigkeit eine Grundlage für<lb
+                    xml:id="uuid_ab4b34c2-b3ad-465e-9ab4-fe1b6a4710d6"/>den Theatergebrauch
+                entstehen lassen, die der <rs ref="#11988" type="person">Autor</rs> fast in keiner
+                    ihm<lb xml:id="uuid_35c4353e-57aa-4838-afec-017e0ac21f49"/>wie an sich
+                wesentlichen Stelle: als identisch mit seinem Werke anse<lb break="no"
+                    xml:id="uuid_03dd22c4-4933-4790-995f-ce33b2eebc3f"/>hen kann und die
+                nachweislich fast in jeder solchen Stelle nicht nur<lb
+                    xml:id="uuid_8191d941-1874-4ecc-b684-054ef034ab84"/>dem sprachlichen und eben
+                deshalb auch musikalischen Wert (auf den es<lb
+                    xml:id="uuid_741b5533-2981-4f8a-8d7d-758cf0338189"/>ihm hier ankommt) Abbruch
+                tut, sondern auch die rein theatermäßige, <pb xml:id="D_000173-044-000_p002"
+                    facs="#D_000173-044-000-facs001-l001-p002" n="2"/>
+                <lb xml:id="uuid_34b0da4e-312d-4ca5-b5a4-3470c1580c5f"/>musikdramatische Wirkung
+                schwer beeinträchtigt – <hi rend="underlined">selbst dann</hi>, wenn man<lb
+                    xml:id="uuid_a1e6a81f-1372-4b72-9142-176bbfe9a412"/>auf die schöne Gewißheit
+                rechnet, daß in der Oper der Text ohnehin<lb
+                    xml:id="uuid_df90cdcb-68f4-4c0d-a5c8-94a358d9b5fb"/>nicht verstanden wird. (Da
+                es trotzdem auf den Ausdruck ankommt und<lb
+                    xml:id="uuid_69d760ea-7027-4de6-8eb9-080637fadd72"/>es durchaus nicht
+                gleichgültig ist, ob der Hörer den Sinn der richti<lb break="no"
+                    xml:id="uuid_7d728b11-7a64-4645-be84-c80ee120ad3b"/>gen a-Laute am Schluß einer
+                Crescendo-Szene nicht versteht oder den<lb
+                    xml:id="uuid_df4ec436-3d44-4e58-a7bf-a893c62791cd"/>der mechanisch übernommenen
+                i-Verse vom Anfang, die ein Chor eben<lb
+                    xml:id="uuid_63a687ab-c877-4e54-a9d8-5c588574f10a"/>nicht herausbringen kann).
+                Wir machen Sie gleich darauf aufmerksam, daß<lb
+                    xml:id="uuid_2312ea42-8479-4260-bf42-0155e4a3a328"/>Ihre Hoffnung (24. März), es
+                würde wenigstens nach der Wiener Radioauf<lb break="no"
+                    xml:id="uuid_f4e8f9f2-939e-479b-8ada-764fa32a6a73"/>führung der <rs ref="#55390"
+                    type="work" subtype="pmb">Madame l’Archiduc</rs>, die ja von Herrn <rs
+                    ref="#11988" type="person">Karl Kraus</rs> geleitet<lb
+                    xml:id="uuid_54790d3e-8ab5-43f6-b131-e95eb9a82ddf"/>wurde, ein durchaus
+                authentisches Material als Grundlage für weitere<lb
+                    xml:id="uuid_e7963c2c-898e-4e45-bf76-30fcac288729"/>Aufführungen hergestellt
+                sein, trügerisch ist und daß „<quote source="#D_000173-043-000"
+                    xml:id="uuid_6ad0ee70-ba15-432d-9cac-1d8e1f4bae91">die ganz genaue<lb
+                        xml:id="uuid_34cb54a2-3615-43af-aef4-417e7c24d49b"/>Vergleichung des
+                    Notentextes (dieser Aufführung) mit dem gedruckten<lb
+                        xml:id="uuid_db5e6af7-2ff6-4341-8659-18dc1ce6d93d"/>Textbuch</quote>“, die
+                Sie am 1. April verheißen, noch immer Abweichungen er<lb break="no"
+                    xml:id="uuid_5074289b-74c4-4697-a3d4-3e0c42973451"/>kennen lassen wird. Aus dem
+                einfachen Grunde, weil es technisch und<lb
+                    xml:id="uuid_77e8ccdf-96b9-4576-8926-a904789a3f06"/>physisch unmöglich war, in
+                der Generalprobe, als noch eine ganz wesent<lb break="no"
+                    xml:id="uuid_fcf687a7-9db7-4475-b339-3dbaf985ebb6"/>liche Vergröberung entdeckt
+                wurde, Korrektur und Fachstudium durch So<lb break="no"
+                    xml:id="uuid_c71bc65c-b2bd-49af-97f6-b52eae3d1638"/>listen und Ensemble zu
+                verlangen, nachdem schon die Korrektur der an<lb break="no"
+                    xml:id="uuid_fc339f5d-ef9e-4134-983b-c737a8c8800f"/>deren Vergröberungen und
+                Verflachungen, die Ihr unbewachter <rs type="person">Abschrei<lb break="no"
+                        xml:id="uuid_027c557a-b9fa-491d-b5ed-1a4796e0de2b"/>ber</rs> geleistet
+                hatte, bei allen Beteiligten hinreichend Mühe, Nerven<lb break="no"
+                    xml:id="uuid_8d2c0ab9-d680-4a64-857f-15240cdc6350"/>pein und auch Verwirrung mit
+                sich gebracht hat. Ganz ebenso und natür<lb break="no"
+                    xml:id="uuid_e932e59c-d04e-475c-b12b-c4311a58476a"/>lich in weit höherem Maße
+                dürfte Ihre am 1. April <del>[¿¿¿ ¿¿¿ letzten]<lb
+                        xml:id="uuid_412c88b5-002a-42fd-bd2c-cf9a9d62d391"/>[¿¿¿ ¿¿¿ ¿¿¿]</del>
+                ausgesprochene Erwartung, in <rs ref="#49970" type="place">Essen</rs> werde nun<lb
+                    break="no" xml:id="uuid_289954a8-4c9c-4d13-8f1e-c40049ddc6a1"/>mehr der richtige
+                Notentext „<quote source="#D_000173-043-000"
+                    xml:id="uuid_c33bcb6d-2827-4168-809b-518d1639a26e">verwendet</quote>“ werden
+                (weil er dorthin<lb xml:id="uuid_3e1ca86c-73eb-48d0-8d08-d8e00bc50b5f"/>„<quote
+                    source="#D_000173-043-000" xml:id="uuid_3004ca39-85bb-4a1f-a753-380bb9d8b330"
+                    >geht</quote>“), entweder einem naiven Optimismus entspringen, mit dem Sie
+                    sich<lb xml:id="uuid_992e2eae-169e-4a32-8623-e56c72deffea"/>selbst hineinlegen
+                wollen, oder abermals der Absicht der Dummacherei,<lb
+                    xml:id="uuid_6f1312c7-3c54-472e-b6ad-a6dc70ec7eab"/>weil doch wohl kein Theater
+                sich dazu hergeben wird, eine Aufführung,<lb
+                    xml:id="uuid_04b24abb-fa45-468b-9c19-de53b5505c12"/>deren Text in dem
+                natürlichen Glauben an seine Authentizität erworben<lb
+                    xml:id="uuid_377730ab-a7dd-4ee5-bdbc-5d5bc76a50ef"/>wurde, mit allen Chören
+                umzustudieren. Wir legen jedenfalls fest, daß<lb
+                    xml:id="uuid_29bf619a-38fd-438b-aa53-58cb1426ec3c"/>diese Aufführung, daß
+                sämtliche Aufführungen der <rs ref="#55390" type="work" subtype="pmb">Madame
+                    l’Archiduc</rs> in<lb xml:id="uuid_e0c88e44-f435-4c64-9911-87c2f93d3bce"/><rs
+                    ref="#49970" type="place">Essen</rs> bisher zwar unter dem Namen <rs
+                    ref="#11988" type="person">Karl Kraus</rs> vor sich gegangen sind,<lb
+                    xml:id="uuid_a85d850a-27e6-4ef4-bc89-4a76cfdcd303"/>aber mit einem Text, den er,
+                ganz abgesehen von den willkürlichen Ein<lb break="no"
+                    xml:id="uuid_bea7147e-8671-4223-8393-7cda71fa6c33"/>griffen der Direktion, nur
+                in groben Umrissen als den seinen zu erken<lb break="no"
+                    xml:id="uuid_2219f27b-2ce3-49c9-9e43-b4337e6c4b5d"/>nen vermag, und daß eben nur
+                dort, wo er selbst die greulichen Abwei<lb break="no"
+                    xml:id="uuid_9c21566e-7009-443d-aba9-691a9482b82c"/>chungen konstatieren konnte
+                (wie in <rs ref="#652" type="place">Prag</rs> und <rs ref="#50" type="place"
+                    >Wien</rs>), eine Wiederher<lb break="no"
+                    xml:id="uuid_5c98dd11-b81a-4a73-bdae-5d0771c6f345"/>stellung im großen Ganzen
+                mit Müh und Not ermöglicht wurde, keineswegs<lb
+                    xml:id="uuid_4dadb281-761a-4ad6-8a82-81e0875ffc6d"/>in allem, weil es eben
+                unmöglich war, die Mitwirkenden durchaus zu<lb
+                    xml:id="uuid_8f14456c-554e-4571-a532-63e83f806748"/>einem Neustudium zu zwingen,
+                und weil man froh sein mußte, die Verwir<lb break="no"
+                    xml:id="uuid_c1df6a55-9e9a-4529-8b4b-070c6b252295"/>rung, die sich auf den
+                Proben durch Rückfälle ergab, nicht zu vermehren<lb
+                    xml:id="uuid_629a754a-cbf9-4c98-96b8-88023ee65da8"/>und so gut es ging, von der
+                Aufführung fernzuhalten. </p>
+         <pb xml:id="D_000173-044-000_p003"
+             facs="#D_000173-044-000-facs001-l002-p003"
+             n="3"/>
+         <p xml:id="uuid_d55c49ad-cc9f-4015-9b54-71feaba5cc0e">
+                <lb xml:id="uuid_d2475d1d-8fe9-4a8f-ab1f-655d9f3d2f13"/>was nun die Veröffentlichung
+                des Gesangstextes im Buchdruck<lb xml:id="uuid_baceb548-3f40-4475-b9e8-20dbe97cb4e0"
+                />anlangt, die den Gegenstand Ihres <rs
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-041-000" type="work"
+                    subtype="legal-doc">Schreibens vom 29. März</rs> bildet, so be<lb break="no"
+                    xml:id="uuid_481a851a-30f4-4f05-8592-1d50c6a0c0e9"/>lieben Sie, statt sich für
+                die Absurdität dieser publizistischen Über<lb break="no"
+                    xml:id="uuid_3080c47c-7da6-48ae-b153-89757ad4c7ae"/>raschung eines <rs
+                    ref="#11988" type="person">Autors</rs>, für das Übersehen seines
+                    selbstverständlichen<lb xml:id="uuid_6deea543-d468-46b8-bd5f-6481cb655a0a"
+                />Wunsches nach Korrektur von Fehlern und für die Produzierung neuer Feh<lb
+                    break="no" xml:id="uuid_e20f9a04-a143-455f-85e7-78afa5eb6169"/>ler zu
+                entschuldigen – so belieben Sie, der <del>bloßen</del> Einsicht, daß Sie<lb
+                    xml:id="uuid_4fcf083b-be3c-4214-b970-23e710ea7f5f"/>willkürlich und fehlerhalt
+                gehandelt haben, eine Beschwerde vorzuziehen,<lb
+                    xml:id="uuid_f35ca31d-a36b-4272-acc4-f9f0b0c9ad33"/>daß man Sie gezwungen habe,
+                ein Druckfehlerverzeichnis erscheinen zu las<lb break="no"
+                    xml:id="uuid_db9253a3-ce44-4a37-87e8-c0807c9ce871"/>sen (das nicht nur die alten
+                Fehler, sondern auch die durch sie bewirk<lb break="no"
+                    xml:id="uuid_b28a62c7-7e70-45cf-8f33-54a504048a95"/>ten korrigiert!). Diese
+                Beschwerde, grotesk als solche gegenüber der Pein<lb
+                    xml:id="uuid_a0887154-7b6e-481d-9b4a-777041a2db66"/>und Mühe, die Sie dem
+                überraschten <rs ref="#11988" type="person">Autor</rs>
+                <del>des Gesangstextes</del> aufgeladen<lb
+                    xml:id="uuid_e00444da-2369-453a-ad4e-7a089fc4f152"/>haben, ist unsinnig von A
+                bis Z. Sie „<quote source="#D_000173-041-000"
+                    xml:id="uuid_4184f7ab-8cae-416d-a950-5eaa70143c73">möchten zu der Angelegenheit
+                        be<lb break="no" xml:id="uuid_004ad167-314d-42e0-9ede-a95907b01033"/>merken</quote>“, daß eine Anfrage beim <rs ref="#62299" type="institution">Verlag R.
+                    Lányi</rs>, der das Textbuch im<lb
+                    xml:id="uuid_9984f9a9-de81-4bf7-b603-46de4b225c97"/>Jahre 1927 herausgegeben
+                hat, „<quote source="#D_000173-041-000"
+                    xml:id="uuid_b7b98d02-a9d2-4fc8-a036-b4e91b55c0a2">ergab, daß ein
+                        Druckfehlerverzeichnis<lb xml:id="uuid_027b0d25-e7c9-47bc-8cd5-871bbff0848a"
+                    />niemals angefertigt wurde</quote>“. Diese Anfrage, die offenbar <hi
+                    rend="underlined">nach</hi> Ihrer Her<lb break="no"
+                    xml:id="uuid_92f3a1b2-968f-4f30-9e4c-41b8be436a93"/>ausgabe stattgefunden hat –
+                denn sonst würden Sie ja zugeben, daß Sie an<lb
+                    xml:id="uuid_424b3152-665c-45e0-bef3-0b661a4be95f"/>ein solches Bedürfnis
+                gedacht und es wissentlich unterlassen hatten, bei<lb
+                    xml:id="uuid_3c412618-2c0b-4e87-bbc6-55db177c1237"/>der maßgebenderen Stelle
+                anzufragen –, hätten Sie sich ersparen können,<lb
+                    xml:id="uuid_897944be-6737-44d3-bfdf-d9d41a32a759"/>und Sie haben sie sich wohl
+                auch erspart, da der <rs ref="#62299" type="institution">Verlag R. Lányi</rs>
+                    erklärt,<lb xml:id="uuid_70a0b16f-bd9c-4d18-bb71-42a0ff3326db"/>er habe niemals
+                eine solche Anfrage von Ihnen vernommen. Sie war jeden<lb break="no"
+                    xml:id="uuid_a96aba19-7aa2-4db2-9a95-ec06febbfcc9"/>falls schon aus dem Gründe
+                überflüssig, weil ein Blick in das Textbuch,<lb
+                    xml:id="uuid_51db16a6-ab52-4bb8-9ccf-2d26d8194150"/>von dem Sie ja eine ganze
+                Anzahl besitzen, Sie dahin informieren konnte,<lb
+                    xml:id="uuid_c0286228-5787-424f-8ea4-a5590e797c68"/>daß tatsächlich kein
+                Fehlerverzeichnis beiliegt. Das ist nun einmal<lb
+                    xml:id="uuid_00b17516-dbe8-42f1-a5bb-4a9c137e757d"/>nicht zu leugnen. Aber Ihr
+                guter Glaube, den Sie offenbar heranziehen<lb
+                    xml:id="uuid_f5455992-5042-45e9-b30a-f509388dd35c"/>wollen, stützt sich auf
+                    „<quote source="#D_000173-041-000"
+                    xml:id="uuid_9c837c48-dc5b-47a6-9cb9-2b3c6b9d3d09">andere Fälle, wie zum
+                    Beispiel das Textbuch von<lb xml:id="uuid_5972fafa-2c7c-4fdc-b49f-984fd0789072"
+                        /><rs ref="#56707" type="work" subtype="pmb">Perichole</rs></quote>“, dem, wie Sie wähnen, „<quote source="#D_000173-041-000"
+                    xml:id="uuid_15845582-c153-4566-95fb-671bb8590042">bald nach Erscheinen der
+                    ersten Aufla<lb break="no" xml:id="uuid_f3272a7e-6c39-4d9b-8500-8c93177dddd4"
+                    />ge</quote>“ ein solches Druckfehlerverzeichnis eingelegt wurde. Ihr Irrtum
+                    oder<lb xml:id="uuid_481522e3-7762-4e14-afe3-06581acad89b"/>Trugschluß liegt
+                darin, daß in solchen Fällen und speziell in diesem<lb
+                    xml:id="uuid_404f7725-3711-4185-b810-a2c01aeeef1b"/>Falle es nicht „<quote
+                    source="#D_000173-041-000" xml:id="uuid_8e4d7e77-c46b-4959-912e-4af9aea1304b"
+                    >bald nach Erscheinen</quote>“, sondern <hi rend="underlined">mit</hi> dem
+                Erscheinen ge<lb break="no" xml:id="uuid_d350d885-34c9-4924-abaa-e614d8293667"
+                />schah, weil es sonst gar keinen Sinn gehabt hätte. Der „<rs ref="#56707"
+                    type="work" subtype="pmb">Perichole</rs>“ war<lb
+                    xml:id="uuid_b63d346f-b126-4ffa-a86b-0e9060557812"/>ein Verzeichnis der nach dem
+                Druck der einzelnen Bogen bemerkten Fehler<lb
+                    xml:id="uuid_6699c8cd-40cd-45fc-9909-f7bb924feb19"/><hi rend="underlined"
+                    >beigelegt</hi>; später bemerkte wurden in der <rs ref="#41244" type="work"
+                    subtype="pmb">Fackel</rs> korrigiert, mit der man<lb
+                    xml:id="uuid_196247df-9e87-4800-a4a6-aa70b8f268ba"/>sich ja an die Käufer des
+                Buches „<rs ref="#56707" type="work" subtype="pmb">Perichole</rs>“ wenden konnte,
+                während man<lb xml:id="uuid_39e3de21-16bc-47d3-8ba3-283940e00248"/>ihnen ein
+                nachträglich erscheinendes Verzeichnis nicht hätte zustellen<lb
+                    xml:id="uuid_70275e8a-4a0a-48a0-ab12-3582497d0fdb"/>können. Bei <rs ref="#55390"
+                    type="work" subtype="pmb">Madame l’Archiduc</rs> wurde <hi rend="underlined"
+                    >nach</hi> Erscheinen eine ganze Reihe<lb
+                    xml:id="uuid_8adb10cc-52c3-47ee-a10e-d524bfd2060c"/>von Fehlern bemerkt, die,
+                als man sie bemerkte, in den nachfolgenden<lb
+                    xml:id="uuid_b07a2427-fdda-45c3-9648-ca50980d7b1b"/>Heften der <rs ref="#41244"
+                    type="work" subtype="pmb">Fackel</rs> wegen notwendigen Wegbleibens der Rubrik
+                nicht korri- <pb xml:id="D_000173-044-000_p004"
+                    facs="#D_000173-044-000-facs001-l002-p004" n="4"/>
+                <lb xml:id="uuid_67a6c1a9-cfba-4869-bde0-c059fcddf781"/>giert wurden und deren
+                Korrektur einer zweiten Auflage vorbehalten blieb,<lb
+                    xml:id="uuid_d326bfb2-fcd3-413e-8c2a-ad0652a707d2"/>die dann leider nicht
+                erschienen ist. Daß die erste Gelegenheit eines<lb
+                    xml:id="uuid_8b8332a0-ba49-4888-8f7d-34ff7fd8dcb8"/>Wiederdrucks zu der
+                Beseitigung dieser Fehler (wenngleich nur für die<lb
+                    xml:id="uuid_90bd1e71-6c7b-4813-bfc8-f77597a43c14"/>Verse) benützt worden wäre,
+                versteht sich so von selbst, daß ein Zwei<lb break="no"
+                    xml:id="uuid_2d50ac57-ecb9-4203-ab68-5030591b1fdf"/>fel – insbesondere bei
+                Kenntnis der Drucksorgfalt des <rs ref="#11988" type="person">Autors</rs> – nicht<lb
+                    xml:id="uuid_657c6bfd-cac8-46a0-90a0-ad2ecc0e2957"/>ernst zu nehmen wäre. Nun
+                belieben Sie aber Ihr Recht, von dem Verlangen<lb
+                    xml:id="uuid_49f229dd-ec82-49b8-9513-2a29992487ae"/>des <rs ref="#11988"
+                    type="person">Autors</rs> nach einer solchen Korrektur überraschter zu sein als
+                er von<lb xml:id="uuid_5a4e2d33-3b55-4f57-ab7e-7f40b8685beb"/>dem Druck, der hinter
+                seinem Rücken geschah – nun belieben Sie diesen<lb
+                    xml:id="uuid_c24a0818-ccaf-4f0c-92d9-7a319faf3510"/>komischen Anspruch in einem
+                Vorhalt auszudrücken, von dessen Unwiderleg<lb break="no"
+                    xml:id="uuid_abdfb6d7-3cc6-4db1-9f66-2a5d1beeecbc"/>barkeit Sie sich offenbar
+                eine zermalmende Wirkung versprechen. Die von<lb
+                    xml:id="uuid_a76b94c7-574f-48c7-8192-bae87adb6943"/>Ihnen festgelegte Tatsache,
+                daß die „<rs ref="#55390" type="work" subtype="pmb">Madame l’Archiduc</rs>“ „<quote
+                    source="#D_000173-041-000" xml:id="uuid_49fbc710-def6-413b-ab31-78d2b4bd8013">
+                    seit fünf Jahren</quote>“ –<lb
+                    xml:id="uuid_d333dc50-955e-4e00-a033-eb0eb7c60f35"/>es sind nur 4½ – „<quote
+                    source="#D_000173-041-000" xml:id="uuid_0354d5ed-220f-4ab6-9513-bdc0a7b5e796">im
+                    Handel ist, ohne daß ein Druckfehlerverzeichnis<lb
+                        xml:id="uuid_6df1a6f3-697b-4c56-a44e-d77cc72d7c87"/>existiert</quote>“, läßt
+                sich noch übertrumpfen. „<quote source="#D_000173-041-000"
+                    xml:id="uuid_22abc32f-d981-4eb6-950f-576c716b1995">Ja</quote>“, steigern Sie,
+                    „<quote source="#D_000173-041-000"
+                    xml:id="uuid_119883c7-5c34-4989-b593-d959ea23cfab">während<lb
+                        xml:id="uuid_f3dc491d-834e-41ae-a9a0-8c7b7c3d3234"/>Sie (der <rs
+                        ref="#38909" type="person">Rechtsanwalt</rs>) uns am Samstag den 26. März
+                    damit gedroht haben,<lb xml:id="uuid_5dc1bcab-fc97-49c8-b142-213a12a69daf"/>daß
+                        <rs ref="#11988" type="person">Herr Kraus</rs>, obwohl zu diesem Zeitpunkt
+                    die Seite mit der Widmung,<lb xml:id="uuid_d3080da2-78f5-41e1-bf0c-9e2315bd8b3e"
+                    />durch welche er ‚<quote source=""
+                        xml:id="uuid_273fff67-d530-4074-8334-43124437f64d">seine literarische Ehre
+                        besudelt</quote>‘ glaubte, herausge<lb break="no"
+                        xml:id="uuid_64120246-c4fa-468e-ba3f-771910a57308"/>schnitten und der Fehler
+                    im Originalcouplet durch Überkleben beseitigt<lb
+                        xml:id="uuid_d2b12c92-9a15-4103-8522-5b6cb52d3c8d"/>war, gegen das Textbuch
+                        ‚<rs ref="#55390" type="work" subtype="pmb">Archiduc</rs>‘ öffentlich,
+                    eventuell durch Plakat,<lb xml:id="uuid_e642a03b-6330-4565-9298-3fd955c432d7"
+                    />protestieren würde, kann man <hi rend="underlined">heute am 29. März</hi> noch
+                    bei <rs ref="#20707" type="person">Lányi</rs> die Text<lb break="no"
+                        xml:id="uuid_518ab921-3a9b-4c07-89a8-13b83190dd67"/>bücher der ersten
+                    Auflage, nach der unser Textbuch photographiert wurde,<lb
+                        xml:id="uuid_a44ff13c-5da7-4956-bffd-b81ff9f38750"/>ohne
+                    Druckfehlerverzeichnis kaufen</quote>“. Wie wahr ist das! Ja, und vielleicht<lb
+                    xml:id="uuid_d3152c70-b3df-4751-9f6f-5e6cb711ab87"/>noch nach ein paar Monaten,
+                da tatsächlich nicht der Auftrag gegeben wur<lb break="no"
+                    xml:id="uuid_6d61652e-8083-4b36-b9a8-84e550887dfb"/>de, ein Verzeichnis in die
+                alten Bücher zu legen. Es ist so wahr,<lb
+                    xml:id="uuid_5ed82a3e-8551-49eb-b708-ce15cf49d287"/>wie Ihre Behauptung unwahr
+                ist, daß unser <rs ref="#38909" type="person">Rechtsanwalt</rs> von der Besude<lb
+                    break="no" xml:id="uuid_1b5ee269-cbfc-4725-9e23-541ab9441ae6"/>lung der
+                literarischen Ehre im Zusammenhang mit der Widmung gesprochen<lb
+                    xml:id="uuid_3477af6e-0e7e-42be-a2b4-010a6fe83b05"/>hat. Er hat die Worte, die
+                er aufrechthält, als richtige Bezeichnung der<lb
+                    xml:id="uuid_83d0f720-ee03-4b0e-a7e0-057fd7c104c3"/>ganzen, hinter dem Rücken
+                des <rs ref="#11988" type="person">Autors</rs> erfolgten Ausgabe gebraucht; die<lb
+                    xml:id="uuid_8aaef09d-85f5-4704-a5f5-f16f39f97345"/>Aufnahme der Widmung ist an
+                und für sich bloß ein Unsinn. Wie die ganze<lb
+                    xml:id="uuid_0d309ad7-8baa-4ca8-9975-fb3213b63619"/>Argumentation mit dem
+                Druckfehlerverzeichnis: da es doch einleuchtend<lb
+                    xml:id="uuid_8d9257b1-b53f-4134-9ef9-78caf494f273"/>sein muß, daß <hi
+                    rend="underlined">selbst wenn</hi> ein solches existiert hätte und von Ihnen
+                    be<lb break="no" xml:id="uuid_0f24562b-b3a7-4b02-adb6-16c0d64a7773"
+                />rücksichtigt worden wäre, Sie doch die Durchführung im neuen Druck dem<lb
+                    xml:id="uuid_9d82a300-faed-4128-bdcd-c79d47123cf4"/><rs ref="#11988"
+                    type="person">Autor</rs> hätten überlassen müssen, der ja vielleicht auch noch
+                über dieses<lb xml:id="uuid_cdc013d1-a3ff-4681-bb25-d2a333d2db6b"/>Verzeichnis
+                hinaus Fehler zu korrigieren wünschte. Was hat aber das „<quote
+                    source="#D_000173-041-000" xml:id="uuid_d3230ab2-b54d-4430-9d47-e8142b442a4d"
+                        >Ver<lb break="no" xml:id="uuid_6ecc35a7-a9a6-47fd-ae6e-88ea6e8ae166"
+                    />zeichnis</quote>“, das Sie vermissen, vollends mit den Fehlern zu schaffen,
+                    die<lb xml:id="uuid_443c17ed-fe76-481b-b544-e05f96462e64"/>Sie neu dazugetan
+                haben und gerade dadurch, daß Sie den alten Text<lb
+                    xml:id="uuid_74cdb25c-16a3-4311-a7c6-7a9db9d384b9"/> „<quote
+                    source="#D_000173-041-000" xml:id="uuid_4de55b06-3d2c-46ac-a513-5b7f90302740"
+                    >photographieren</quote>“ ließen? Abgesehen davon, daß diese Methode, die Sie<lb
+                    xml:id="uuid_ff090a8d-37c1-4dfd-857e-90559f943020"/>aus wirtschaftlichen Gründen
+                wählten und die der <rs ref="#11988" type="person">Autor</rs> niemals zugelas<lb
+                    break="no" xml:id="uuid_dc7b9f26-552c-42f9-8e54-a1dab8129ecd"/>sen hätte, zwar
+                gegen neue <hi rend="underlined">Satzfehler</hi> schützte, aber die alten konser<lb
+                    break="no" xml:id="uuid_6571bf47-dbd0-4b58-a993-f704c0a55e09"/>viert, sind doch
+                dank der Druck<hi rend="underlined">anordnung</hi>, die Sie selbst sich
+                    vorzunehmen<lb xml:id="uuid_decb62b3-745c-4733-bca7-d877471b09be"/>erlaubt
+                haben, jene graphischen Unsinnigkeiten entstanden, die eben durch <pb
+                    xml:id="D_000173-044-000_p005" facs="#D_000173-044-000-facs001-l003-p005" n="5"/>
+                <lb xml:id="uuid_76b2b16a-cb00-4176-b6a5-337586a59518"/>das Fehlerverzeichnis
+                korrigiert werden mußten, wie die Aufnahme von Pro<lb break="no"
+                    xml:id="uuid_f759d53d-bffc-4c37-8dc5-dc0cd017260b"/>sateilen, die Verunstaltung
+                der Pendants in den Chören der Kellner und<lb
+                    xml:id="uuid_ddfb90e2-bf71-498e-bf2f-7db6c9888d7d"/>Mädchen, eine falsche
+                Zusammenziehung, eine fehlende Szenenbezeichnung,<lb
+                    xml:id="uuid_c4ff4bbc-e3bf-4033-af01-c4b57930baf3"/>Belassung eines Sternes ohne
+                Fußnote u. dgl. Anstatt sich dafür zu entschul<lb break="no"
+                    xml:id="uuid_e5bff9da-bc6a-4851-84e0-45754e0621f5"/>digen oder doch wenigstens
+                froh zu sein, daß man Ihnen den Mißdruck nicht kon<lb break="no"
+                    xml:id="uuid_a53d6a09-359b-44a1-83fd-a92617f15b2f"/>fisziert hat, haben Sie
+                nicht nur auf Beschleunigung einer aus geschäftli<lb break="no"
+                    xml:id="uuid_af4e93f5-85ca-491b-a813-593590e61177"/>cher und entgegen aller
+                künstlerischen Raison erfolgten Herausgabe ge<lb break="no"
+                    xml:id="uuid_7c461ca2-f155-4f81-b81e-a56e1edbc839"/>drängt, sondern machen dem
+                    <rs ref="#11988" type="person">Autor</rs> noch <hi rend="underlined"
+                    >Vorwürfe</hi>! Das Äußerste an naivem Wa<lb break="no"
+                    xml:id="uuid_d4ceaa6f-9171-4dd1-9a8e-752de6ea994e"/>gemut erreichen diese in dem
+                Nachweis: „<quote source="#D_000173-041-000"
+                    xml:id="uuid_0da338cc-7418-4519-b554-e2ec9cce51c9"><hi rend="underlined">Aber
+                        auch</hi></quote>“ beim Versand an die<lb xml:id="uuid_af6536ce-bdff-4243-abc9-c9d486885a58"
+                />Bühnen, bei der Vorbereitung der Aufführungen in <rs ref="#652" type="place"
+                    >Prag</rs>, <hi rend="underlined"><rs ref="#49970" type="place">Essen</rs></hi>
+                und <rs ref="#50" type="place">Wien</rs>
+                <lb xml:id="uuid_5cff73fe-a3ac-4407-8804-715e3da2b440"/>„<quote
+                    source="#D_000173-041-000" xml:id="uuid_aca488f3-1630-4f88-9593-421bf21324a4"
+                        ><hi rend="underlined">wurde uns niemals mit einem einzigen Wort von Fehlern
+                        im Textbuch Nachricht<lb xml:id="uuid_dcbfbaa0-df52-4426-bb90-8706660f113d"
+                        />gegeben</hi></quote>“; weshalb Sie die Bühnen nie entsprechend „<quote
+                    source="#D_000173-041-000" xml:id="uuid_90111812-7303-4e3c-9118-efa73b418c23">
+                    instruieren konnten</quote>“:<lb
+                    xml:id="uuid_def1adea-95b8-46d4-ab8c-89824de9f4eb"/>„<quote
+                    source="#D_000173-041-000" xml:id="uuid_4b668ff1-24aa-4642-b96b-d4dc5392d30f"
+                    >erst am Tage vor einer Radioübertragung</quote>“ bekamen Sie das Verzeichnis.
+                    Sie<lb xml:id="uuid_07277e7c-9d65-481e-b5cc-4d5dcc44a48a"/>konnten keine
+                Vorkehrungen treffen! Wenn das <rs
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-041-000" type="work"
+                    subtype="legal-doc">Schreiben</rs>, das diese Be<lb break="no"
+                    xml:id="uuid_4bc06afb-27cc-4270-beaf-603d1f259014"/>schwerde enthält, nicht
+                schon am 29. März geschrieben wäre, müßten wir<lb
+                    xml:id="uuid_66639a71-7c19-4cbd-bee3-a61430bfb517"/>rein glauben, daß es wie das
+                    <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-043-000" type="work"
+                    subtype="legal-doc">nächste</rs> vom 1. April datiert ist. Man hat Sie<lb
+                    xml:id="uuid_a0985bfb-f3c6-4d2a-adca-25250a8ad5a9"/>also niemals – speziell für
+                    <rs ref="#49970" type="place">Essen</rs>, denn in <rs ref="#652" type="place"
+                    >Prag</rs> und <rs ref="#50" type="place">Wien</rs> konnte ja <rs type="person"
+                    ref="#11988">Herr<lb xml:id="uuid_1416ec84-4f95-4e26-b51d-4d40c14edd36"
+                    />Kraus</rs> persönlich eingreifen – darauf aufmerksam gemacht, daß die
+                    Sänger<lb xml:id="uuid_5c3669e1-024a-4afb-bdee-4daea474e2c2"/>statt eines
+                Strichpunktes einen Doppelpunkt und statt eines Kommas einen<lb
+                    xml:id="uuid_1be94fee-8954-47c3-aaf4-b210e4234a3c"/>Punkt zu singen haben. Wir
+                möchten da der Aufforderung des Erzherzogs, der<lb
+                    xml:id="uuid_51cbbc0b-d64d-4868-bbad-db596c654e5e"/>ja durch Sie weit mehr
+                alteriert wurde, folgen: „<quote source="#55390"
+                    xml:id="uuid_0d7907a0-f6e8-423c-a956-9214c9cdf0df">Treten wir in Ihre Phan<lb
+                        break="no" xml:id="uuid_36ee63b9-c765-4bf5-b84b-aa8a3b713000"/>tasie ein,
+                    ohne anzuklopfen</quote>“. Man hat Sie und die Theater nicht darauf<lb
+                    xml:id="uuid_51e3d005-9f35-471d-95fd-1e85d986bf86"/>aufmerksam gemacht, daß in
+                Ihrer Gesangstextausgabe die Bezeichnung „<quote source="#55390"
+                    xml:id="uuid_10a8287a-b5c4-40a3-bc82-207c90be9f72">Drit<lb break="no"
+                        xml:id="uuid_0f1d5302-b39e-41aa-8a1d-5326c1376dfd"/>te Szene</quote>“ und
+                ein Zwischenraum fehlen werden, während ein Sternchen ent<lb break="no"
+                    xml:id="uuid_762492e9-59bb-4e7a-83e4-d20aa1ec2b25"/>behrlich ist. Aber zum Glück
+                steht wenigstens die Ergänzung der Verse vom<lb
+                    xml:id="uuid_99dff0b7-d899-43dd-b024-de1d91cfdad1"/>Chateau de Castelardo in der
+                Partitur, aus der sie in das Druckfehlerver<lb break="no"
+                    xml:id="uuid_9e44567e-1dec-4109-b61a-532a81b5efa4"/>zeichnis übernommen wurde,
+                zum Glück wissen die Darsteller der Kellner<lb
+                    xml:id="uuid_3363e1c4-6fc3-4c56-9703-f54354be2189"/>ohnedies, daß sie ihre
+                Schürzen – gleich den Mädchen – zu lösen und abzu<lb break="no"
+                    xml:id="uuid_ddcb97d1-e629-4f06-b18d-83dab34c5a06"/>legen und nicht bloß sich
+                abzuwenden haben. Daß die Korrektur der alten<lb
+                    xml:id="uuid_2a3f334e-b277-4841-8c16-ac1cb3aff53f"/>und der neu entstandenen
+                Fehler hauptsächlich für den <hi rend="underlined">Leser</hi> und nicht für<lb
+                    xml:id="uuid_adcd9bc6-7a7a-47ce-b986-8f3bc96736fe"/>den Hörer und Zuschauer
+                bestimmt ist, dürften Sie schon aufgefaßt haben.<lb
+                    xml:id="uuid_1248cd41-638f-4b66-9742-53df9f950a6e"/>Doch Sie könnten nunmehr
+                einwenden: „He, was ist’s aber mit der Korrektur<lb
+                    xml:id="uuid_82d735b7-b808-49ee-a849-d52a5bf2d3c7"/>der drei Stellen: „das“,
+                „Offizier!“ und „Kopf“? Sie sind in unser Bühnen<lb break="no"
+                    xml:id="uuid_d2afc59e-5aae-4c10-872d-198133f46407"/>exemplar, welches die
+                Vorlage für das Ihre war, eingetragen worden wie<lb
+                    xml:id="uuid_b435de90-4c21-42cb-888c-797528596bf2"/>etliche Dialogkorrekturen,
+                auf die Sie ganz bestimmt aufmerksam gemacht<lb
+                    xml:id="uuid_4847993e-5f6b-4587-aa8a-85f3e75449ab"/>wurden und deren Weitergabe
+                an die Bühnen Sie ebenso unterlassen haben wie<lb
+                    xml:id="uuid_6f6cb59f-4495-47c0-8309-77581cbc7c4a"/>die der vielfachen
+                Streichungen. Hätte Herr <rs ref="#11988" type="person">Karl Kraus</rs> es selbst
+                    unter<lb break="no" xml:id="uuid_c81040d7-2aed-4e13-aca0-c88df889fdf1"/>lassen,
+                die drei Druckfehler, die auch für den Sprecher in Betracht <pb
+                    xml:id="D_000173-044-000_p006" facs="#D_000173-044-000-facs001-l003-p006" n="6"/>
+                <lb xml:id="uuid_1bfff16a-e223-4335-9b77-ffe9bdac6bb8"/>kommen, Ihnen mitzuteilen,
+                so würde das nicht das geringste an seinem<lb
+                    xml:id="uuid_8d315745-3ab8-462f-be4d-8bdc95a7b5d5"/>wesentlichen Interesse
+                ändern, sie für den <hi rend="underlined">Leser</hi> zu korrigieren. Sie,<lb
+                    xml:id="uuid_0cd6ac16-784d-4dad-89f1-e6f65b714c1a"/>die nicht nur nicht den von
+                ihm eingerichteten Buchtext mit den sze<lb break="no"
+                    xml:id="uuid_9fc752c0-c45a-43c2-82d0-80138e408c87"/>nisch so wichtigen
+                Änderungen an die Bühnen abgegeben (und dadurch die<lb
+                    xml:id="uuid_8949a5a8-356e-41f6-858e-52ce7a1f1f8e"/>Kölner Affäre verschuldet)
+                haben; Sie, die den Bühnen einen Notentext<lb
+                    xml:id="uuid_08d6cc2b-6fbf-4912-9573-f8f42755b195"/>lieferten, in dem kaum ein
+                Sprachwert unverletzt geblieben ist, halten<lb
+                    xml:id="uuid_0b2a18c3-0365-4f65-b31b-efad924d0a25"/>Herrn <rs ref="#11988"
+                    type="person">Karl Kraus</rs> vor, daß er nicht rechtzeitig dafür gesorgt habe,
+                    daß<lb xml:id="uuid_c70a3d2d-eefa-43aa-bb2e-ee4bf585c0d2"/>die Sänger nicht
+                Interpunktionen singen, die er in einem Neudruck kor<lb break="no"
+                    xml:id="uuid_9d5132e6-54e4-43e1-a6bf-ddfc7df2dd72"/>rigieren wollte, und daß sie
+                auch von den Fehlern „<quote source="#D_000173-041-000"
+                    xml:id="uuid_47db72c3-6089-4fb6-aff7-e832b315f2a1">instruiert</quote>“
+                    würden,<lb xml:id="uuid_1d8e4859-7e31-4a6b-a21f-7b2aff3a4463"/>die durch diesen
+                erst entstehen werden und bis dahin nicht vorhanden<lb
+                    xml:id="uuid_dc9ecb8d-8b69-4258-8907-56b49894cd07"/>waren. Diese übergroße
+                Gewissenhaftigkeit, die wohl eine Satire auf die<lb
+                    xml:id="uuid_24d9b2e1-af04-4695-9fe1-3b4c7053f7a8"/>Sorgfalt des <rs
+                    ref="#11988" type="person">Autors</rs> bedeuten soll, steht, nachdem Sie deren
+                    Versagen<lb xml:id="uuid_0324c58b-e0fc-40df-8b22-3c12e4a70b5b"/>exemplarisch
+                bewiesen haben, die Sendung durchaus an: „<quote source="#D_000173-041-000"
+                    xml:id="uuid_e13fc11a-6a53-445c-98d5-d55c4a696ff8">Wir wollten die<lb break="no"
+                        xml:id="uuid_2409db34-9f4d-488e-bad4-dd5b9116214e"/>sen Sachverhalt <hi
+                        rend="underlined">jedenfalls festlegen</hi></quote>“. Es entspricht ihr aber auch die<lb
+                    xml:id="uuid_a7eb33e0-0f36-4e40-8751-d8d840d627fc"/>Korrektheit, mit der Sie
+                    „<quote source="#D_000173-041-000"
+                    xml:id="uuid_f833f198-53bc-4fcd-a0a8-0335d067ed54">in diesem Zusammenhange noch
+                    hinzufügen</quote>“, daß<lb xml:id="uuid_a530eb06-9504-412f-ba92-9bceb349e32a"
+                />die Forderung nach Einlage des Verzeichnisses Ihnen „<quote
+                    source="#D_000173-041-000" xml:id="uuid_4aa87c13-3afd-4a8d-9ab7-cdfb191f2f16"
+                    >erst 24 Stunden<lb xml:id="uuid_e9a6aedf-5887-4b28-b6c4-29b24b45c26b"/><hi
+                        rend="underlined">nach Abschluß des Vertrages über das Textbuch</hi>,
+                    welcher am Freitag, den<lb xml:id="uuid_0bd9b4cc-b72b-45f1-9726-0c3bb8c922f3"
+                    />25. März vormittags <hi rend="underlined">zwischen uns abgeschlossen
+                        wurde</hi> und in dem als ein<lb break="no"
+                        xml:id="uuid_21451ab9-1ff4-4018-91c9-7028b65a33f2"/>zige Korrektur die
+                    Korrektur im Originalcouplet verlangt wurde, erho<lb break="no"
+                        xml:id="uuid_41baff7a-9331-4451-bbbe-39e0cc986fe9"/>ben wurde</quote>“. Man
+                wäre versucht, die Eröffnung, daß <hi rend="underlined">der Vertrag über das<lb
+                        xml:id="uuid_46e433b4-46d1-4731-869f-ef5d5dcf5bd8"/>Textbuch erst nach
+                    dessen Erscheinen abgeschlossen</hi> wurde, ein Geständ<lb break="no"
+                    xml:id="uuid_f3f17dfe-0365-4867-8111-2a50580147ac"/>nis zu nennen, was ja ganz
+                und gar der Auffassung des Herrn <rs ref="#11988" type="person">Karl Kraus</rs>
+                <lb xml:id="uuid_b700e303-f65f-44de-9c5d-dd974109dc5d"/>entspräche, das <hi
+                    rend="underlined">vorher</hi> zwischen ihm und Ihnen <hi rend="underlined">kein
+                    Vertrag</hi> über ein<lb xml:id="uuid_f7e69931-cf54-4745-9481-6d16facd8331"
+                />solches Textbuch abgeschlossen wurde. Unser <rs ref="#38909" type="person"
+                    >Rechtsanwalt</rs> zieht aber,<lb
+                    xml:id="uuid_f167dcd8-f7c2-4aa9-889c-8d416db10e73"/>wiewohl er das Geständnis
+                keineswegs verkennt, es vor, sie eine Drei<lb break="no"
+                    xml:id="uuid_0c8489e5-2dd8-4692-aa5e-dbe2a272d345"/>stigkeit zu nennen. Herr <rs
+                    ref="#11988" type="person">Karl Kraus</rs> pflichtet ihm darin bei und ist<lb
+                    xml:id="uuid_df9449b4-3843-4d4c-8e7e-88afd016ae58"/>auch bereit, diese
+                Kennzeichnung zu verstärken und sich danach vor je<lb break="no"
+                    xml:id="uuid_48686922-78bd-45d0-b1a6-ceba2e9e2fa2"/>dem Forum eines Beweises für
+                die Berechtigung solcher Ansicht zu unter<lb break="no"
+                    xml:id="uuid_af8cc4e2-96ad-40b2-8e5a-4d3af83e11e2"/>ziehen. Es ist ja richtig,
+                daß Sie, im Gefühle der Rechtswidrigkeit<lb
+                    xml:id="uuid_e9c1dba6-e349-4667-a105-3758e3914c7a"/>dieser Herausgabe, es am 25.
+                März vormittags sehr ernst und dringlich<lb
+                    xml:id="uuid_d6585d02-d80a-46e8-b0ca-15828e3e18a8"/>mit der Frage meinten, ob
+                nach der Korrektur des einzigen Fehlers, der<lb
+                    xml:id="uuid_ab934d9e-a9d0-47b5-99c5-5014cb263333"/><rs ref="#11988"
+                    type="person">Herrn Kraus</rs> damals in Erinnerung war, die Auslieferung
+                gestattet werde.<lb xml:id="uuid_f11ec7c1-23dc-48aa-a8d8-d5eb3d42e20b"/><rs
+                    ref="#11988" type="person">Herr Kraus</rs> hatte bis dahin bloß telephonisch von
+                der vollzogenen Tat<lb break="no" xml:id="uuid_949859b1-36e1-4109-9e85-670e8e7aed87"
+                />sache erfahren, und sein <rs ref="#38909" type="person">Rechtsvertreter</rs> kam
+                Ihnen mit der Zusage auf<lb xml:id="uuid_62151410-3935-42a7-9b70-e17e4aaca0a1"/>das
+                Loyalste entgegen. Als <rs ref="#11988" type="person">Herr Kraus</rs> nach ein paar
+                Stunden des unmög<lb break="no" xml:id="uuid_afd1c749-2789-463c-9b27-9002b28bd0fd"
+                />lichen Druckes ansichtig wurde, war es ihm klar, daß er die Zusage nun<lb
+                    xml:id="uuid_cd884021-b026-4054-b5b4-90af8aa7e312"/>leider nicht mehr
+                zurückziehen, in diesem Punkte <hi rend="underlined">Ihre</hi> Loyalität nicht<lb
+                    xml:id="uuid_8586c26c-a54b-4feb-85fd-ca0646faa479"/>ansprechen konnte, aber auf
+                einem Fehlerverzeichnis bestehen mußte.<lb
+                    xml:id="uuid_94e710c5-b56d-40f7-bbd2-ab89a2f00db9"/>Nachdem Sie dieses zwar
+                zugesagt, aber das selbstverständliche Verlan<lb break="no"
+                    xml:id="uuid_51e026ff-64a3-4f7c-ae62-99f8fcab7e51"/>gen nach kurzem Aufenthalt
+                der Ausgabe abgelohnt hatten, <pb xml:id="D_000173-044-000_p007"
+                    facs="#D_000173-044-000-facs001-l004-p007" n="7"/>
+                <lb xml:id="uuid_21d7500e-6336-43ec-8af1-3861cecad4ef"/>erwidern Sie nun das Ihnen
+                am Telephon bewiesene Entgegenkommen des<lb
+                    xml:id="uuid_b592fbde-35ba-42b4-a229-6bfeb2722d6e"/><rs ref="#38909"
+                    type="person">Anwalts</rs> mit der Festlegung, daß es ein <hi rend="underlined"
+                    >Vertragsabschluß</hi> gewesen sei,<lb
+                    xml:id="uuid_5e84f6b7-3d6d-453b-b691-c0b320439f41"/>der schon durch den Wunsch
+                nach dem Druckfehlerverzeichnis verletzt<lb
+                    xml:id="uuid_f6ec512b-b258-4056-b8a8-589e758cacb6"/>wurde. Diese Festlegung, die
+                in Wahrheit eine solche durch Ausnützung<lb
+                    xml:id="uuid_83984ded-08b4-4914-bd8f-48939d4fa59a"/>einer Gefälligkeit und eines
+                Notstandes ist – der überrumpelte <rs ref="#11988" type="person">Autor</rs>
+                <lb xml:id="uuid_cd025c34-115a-4b24-8fc7-88cbef1ae1a6"/>hätte auf Ihr Verlangen
+                damals statt zu schlafen auf der Stelle das<lb
+                    xml:id="uuid_cca0fedd-6706-47c0-a669-58d987391e8a"/>Druckfehlerverzeichnis
+                zusammenstellen sollen und er hat erst die näch<lb break="no"
+                    xml:id="uuid_5b04298f-0fe9-4adf-98b0-8f751ee4d9c5"/>ste Arbeitsnacht daran
+                gewendet –, diese Festlegung auf einen „Vertrag“,<lb
+                    xml:id="uuid_5d2b7930-b9f6-4878-8079-f058e3cdde70"/>der vorher nicht
+                zustandegekommen war, nennen wir, mit unserem <rs ref="#38909" type="person"
+                    >Anwalt</rs>,<lb xml:id="uuid_92851ee2-7f29-435e-a379-e02684a94d36"/>eine
+                Dreistigkeit. Sie ist ein Verhalten, dessen moralische Basis ge<lb break="no"
+                    xml:id="uuid_665283c1-3859-4c82-81ae-7365080144c6"/>genüber der Mühe, die Sie
+                allen Beteiligten auferlegt haben, keines<lb break="no"
+                    xml:id="uuid_8c069ed2-a8e4-4ec1-90af-7cc7c47f9d1e"/>wegs jene ist, auf der Herr
+                    <rs ref="#11988" type="person">Karl Kraus</rs> die Verwalter seiner künstleri<lb
+                    break="no" xml:id="uuid_a89f41dc-d4d8-4685-8711-9f1e7e8fe338"/>schen Arbeit
+                vermutet hat. </p>
+         <p xml:id="uuid_72c0c61b-a1ae-452c-8cfe-dafdc4a548d5">
+                <lb xml:id="uuid_05574154-cbd4-4d21-8349-ab3b316b8192"/>Ganz in Widerspruch zu der
+                Unbefangenheit, mit der Sie am<lb xml:id="uuid_5822edbc-bcf5-48c7-8b47-0019d1055190"
+                />29. März diese Festlegung vorgenommen haben, steht nun eine <rs
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-042-000" type="work"
+                    subtype="legal-doc">Äußerung<lb
+                        xml:id="uuid_8e27efdc-f221-4697-84a1-640726895277"/>Ihres Herrn <rs
+                        ref="#38370" type="person">Dr. H.</rs> vom nächsten Tage</rs>, als er <rs
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-039-000" type="work"
+                    subtype="legal-doc">unser Schreiben</rs> bereits<lb
+                    xml:id="uuid_18a78619-27dd-4370-9fea-a518aea2e9db"/>in Händen hatte, Herr <rs
+                    ref="#38370" type="person">Dr. H.</rs> hat das Bedürfnis, sich gegen den Ver<lb
+                    break="no" xml:id="uuid_a42ce0b2-d016-4cf1-8fbd-aee9575a8250"/>dacht zu wehren,
+                daß er der Verüber oder Mitwirkende einer Täuschung<lb
+                    xml:id="uuid_5e2e7e0a-ab49-47ad-8797-d422bcf17861"/>sei und des Versuches fähig,
+                    „<quote source="#D_000173-042-000"
+                    xml:id="uuid_ddbdcd4a-0f5c-45ae-9c3c-04dd20a7c9a9">unter Aufrechterhaltung einer
+                        unerwünsch<lb break="no" xml:id="uuid_9028b811-5f19-4452-95a9-ae1215d92baa"
+                    />ten Vertragstreue</quote>“ den Vertrieb künstlerischen Gutes „<quote
+                    source="#D_000173-042-000" xml:id="uuid_f6bfeab1-878f-4537-b200-902e94aa46a1"
+                    >unter dessen<lb xml:id="uuid_d5de57b0-20eb-4ccf-bc72-e0d7514f4448"/>Preisgabe
+                    zu betätigen</quote>“. Herr <rs ref="#38370" type="person">Dr. H.</rs> hat das
+                Bedürfnis, in einem Ge<lb break="no"
+                    xml:id="uuid_9ed0871e-b0da-4d80-aef4-de6eaee7a84a"/>spräch solchen Verdacht zu
+                zerstreuen, als einer, „<quote source="#D_000173-042-000"
+                    xml:id="uuid_84b3ee77-f7b2-4163-b505-b4a8f5d2c4b7">der froh und stolz<lb
+                        xml:id="uuid_935a640e-0b7b-4beb-b24e-379b8f86f152"/>darauf ist, sich für das
+                    Werk des Herrn <rs ref="#11988" type="person">Karl Kraus</rs> einsetzen zu
+                        dür<lb break="no" xml:id="uuid_12999a8c-8e2c-4fdb-887a-3b4331bc29e0"
+                    />fen</quote>“. Dieses Bedürfnis läßt sich nachfühlen, aber nicht
+                    befriedigen.<lb xml:id="uuid_5ff3d7a9-0730-4ee1-8e30-0298467717b6"/>Herr <rs
+                    ref="#11988" type="person">Karl Kraus</rs> legt weder Wert darauf, daß jemand
+                froh und stolz ist,<lb xml:id="uuid_f19306ba-b456-4ff3-a8eb-47539067ff25"/>sich für
+                sein Werk einsetzen zu dürfen, noch daß er es tut. Aber er<lb
+                    xml:id="uuid_9d2ecd28-4273-49d9-9f28-233dc3e152d7"/>findet, daß es jedem zur
+                Ehre gereiche, wenn er für seine Überzeugung<lb
+                    xml:id="uuid_2ea6cc9d-0704-4ea3-826a-05f8b2bfc8bf"/>oder für seine Sympathie
+                sich offen und gar mit einem Opfer einsetzt,<lb
+                    xml:id="uuid_f524dcbb-1756-4edb-a9be-7b1089286fc4"/>und er verlangt als <rs
+                    ref="#11988" type="person">Autor</rs> eines Werkes, daß wenn jemand
+                    vertragsmäßig<lb xml:id="uuid_52bd730f-f9da-4619-8954-7613f37bdfe4"
+                />verpflichtet ist, sich für dieses einzusetzen, er seinen Vertrag er<lb break="no"
+                    xml:id="uuid_98211914-edb2-4f23-8a4f-b4979060d705"/>fülle. Hat er, nach Ansicht
+                des <rs ref="#11988" type="person">Herrn Kraus</rs>, das Werk preisgegeben, so<lb
+                    xml:id="uuid_66718c8a-8247-41d3-8d45-d5fd285eb101"/>läßt sich der Verdacht einer
+                unerwünschten Vertragstreue, die den wei<lb break="no"
+                    xml:id="uuid_c0a46ed5-e243-4cab-bf48-de624f8d3c2d"/>teren Einsatz unter
+                Preisgabe des Werkes betätigt, am leichtesten so<lb
+                    xml:id="uuid_3296d8e6-3540-4582-92e3-3168af3582e7"/>zerstreuen, daß der Partner
+                den Vertrag preisgibt. Vor dieser klaren<lb
+                    xml:id="uuid_fbe73686-c972-4686-bc52-a5ed4054b93f"/>Angelegenheit einer
+                künstlerischen und rechtlichen Sache tritt das<lb
+                    xml:id="uuid_1f702819-c371-4dc0-995d-6dcb0e8bb3fb"/>psychologische Problem der
+                Person, so berücksichtigenswert es sein mag,<lb
+                    xml:id="uuid_2fb3018c-e183-4a5b-937d-361176c4bb28"/>erheblich zurück, und es
+                könnte erst wieder in den Vordergrund treten, <pb xml:id="D_000173-044-000_p008"
+                    facs="#D_000173-044-000-facs001-l004-p008" n="8"/>
+                <lb xml:id="uuid_adf6bc06-a762-4ace-af88-e84e9581fa24"/>wenn die Sache zur
+                Zufriedenheit dessen, den sie betrifft, erledigt ist. Es<lb
+                    xml:id="uuid_b041db5c-3da9-48c6-8b35-3d785a756082"/>ist keineswegs Aufgabe des
+                Herrn <rs ref="#11988" type="person">Karl Kraus</rs>, zu untersuchen, ob die
+                    Person,<lb xml:id="uuid_b993ab0a-f3dc-4c81-b2e9-e10364d6d0f5"/>die ein
+                Verständnis für ihre private Gesinnung oder ihr privates Di<lb break="no"
+                    xml:id="uuid_3af7a4f1-7f3e-4cc9-a6f8-13f4e6964634"/>lemma anspricht, identisch
+                ist mit jener, die mit dem gleichen Namen<lb
+                    xml:id="uuid_767382bc-0a1b-46f2-a899-255872201872"/>alle die Handlungen oder
+                Unterlassungen vertreten hat, die er als Be<lb break="no"
+                    xml:id="uuid_66d15c37-356f-458d-a3bf-0eea360fe556"/>einträchtigungen seiner
+                Sache empfindet, und noch die offensive Haltung<lb
+                    xml:id="uuid_6c20d086-6aae-4c35-84e3-f97fed8a98f1"/>des <rs
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-043-000" type="work"
+                    subtype="legal-doc">Schreibens an seinen <rs ref="#38909" type="person"
+                        >Rechtsanwalt</rs></rs> eingenommen hat. Er kann auch<lb
+                    xml:id="uuid_6cf36e0b-2a00-4264-9e76-69deff48fc8e"/>nicht untersuchen, ob die
+                diesem <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-043-000" type="work"
+                    subtype="legal-doc">Schreiben</rs> unmittelbar folgende Erklä<lb break="no"
+                    xml:id="uuid_4eab77ba-8a62-40c9-81d4-5970ab3e180a"/>rung, der <rs ref="#38370"
+                    type="person">Verfasser</rs> habe – wie er „<quote source="#D_000173-042-000"
+                    xml:id="uuid_167943d2-d615-43bb-a1f5-e24975de0be5">offen zugibt</quote>“ –
+                    „<quote source="#D_000173-042-000"
+                    xml:id="uuid_e4783006-0e1b-4c32-bf07-cb9f76b326a0">nicht immer mit je<lb
+                        break="no" xml:id="uuid_8af6085c-af37-4f20-b9b7-279cd13eba87"/>ner
+                    Gewissenhaftigkeit alles erledigt, wie sie gerade bei Ihrem Werk<lb
+                        xml:id="uuid_9feff162-6e01-47f4-a176-f650b4de60b1"/>geboten gewesen
+                    wäre</quote>“, eine Privathandlung ist oder der Willensmeinung<lb
+                    xml:id="uuid_6f53ab88-8903-4b97-b30d-6b2d5cfa9e99"/>des Unternehmens entspricht,
+                mit dem er den Vertrag geschlossen hat<lb
+                    xml:id="uuid_ef591811-6cbc-4ffd-9f9e-4b7af04f696d"/>und das mit der gleichen
+                Unterschrift ein solches Geständnis niemals<lb
+                    xml:id="uuid_1e1938ea-949d-4cab-b5e7-3aaffe4f3450"/>abgelegt hat. Was das
+                psychologische Problem anlangt, so wäre gewiß<lb
+                    xml:id="uuid_59db1753-1a33-4499-a26c-184867389547"/>eine Situation vorstellbar,
+                die ein menschliches Begreifen ermöglicht,<lb
+                    xml:id="uuid_e5b45267-aaf8-4905-87cd-cc02450aa53d"/>wenngleich sie auch Umstände
+                zutage fördern könnte, durch die eine Ex<lb break="no"
+                    xml:id="uuid_ea3ea2fd-fc36-464d-ad0f-809908b23e93"/>kulpierung im
+                Gegenständlichen als individuelle Belastung erschiene.<lb
+                    xml:id="uuid_3f88ca35-69fb-4666-8796-db83e7421f6e"/>Herr <rs ref="#11988"
+                    type="person">Karl Kraus</rs> kann, so gern er es vermeidet, Unschuldigen
+                    eine<lb xml:id="uuid_1766d375-338a-44aa-bb6d-0c30a683a493"/>Schuld zu geben, der
+                Untersuchung, wer an dem Unrecht und Ungemach,<lb
+                    xml:id="uuid_e44be384-72a8-4e18-862d-ead7124a03df"/>das ihn betroffen hat,
+                Schuld trage, nicht nähertreten. Er hat sich nur<lb
+                    xml:id="uuid_56362321-9e15-40a7-9fd9-61494f1e865d"/>dagegen zu wehren und
+                lediglich den Vertragspartner, welche Person im<lb break="no"
+                    xml:id="uuid_9cf7a18e-15c1-4e91-af8f-460968913f42"/>mer dessen Handlungen
+                vertritt, als solchen verantwortlich zu ma<lb break="no"
+                    xml:id="uuid_67c0ffc6-ead8-4c2c-a550-400894a83b62"/>chen. Er empfindet die
+                Fortdauer der Verbindung mit diesem als unerträg<lb break="no"
+                    xml:id="uuid_9060aafd-4e67-453f-8f61-a6c06f06e490"/>lich und deren Lösung als
+                die geringste und selbstverständlichste Gut<lb break="no"
+                    xml:id="uuid_bb56edde-be33-40ec-944c-5bd25087d3e9"/>machung des Schadens und der
+                Störung, die er bisher durch sie erlitten<lb
+                    xml:id="uuid_8a8d4131-a7e9-46d3-b081-377b9d8af740"/>hat. Die <add>korrekte
+                    Durchführung des Vertrages als </add> Erfüllung der alternativen Forderung, die
+                er gestellt hat,<lb xml:id="uuid_36be6ff7-7e07-44bf-9184-5ba3d15ece98"/>müßte er als
+                eine Befriedigung im juristischen Sinne, keineswegs würde er<lb
+                    xml:id="uuid_522b100a-6ac4-4d35-949e-a3b3368c45ed"/>sie als eine solche im
+                moralischen Sinne gelten lassen. Was ihm übrig<lb
+                    xml:id="uuid_d456830b-0056-409f-a94b-4f954ff09953"/>bliebe, ist die Festlegung
+                seiner Ansicht, daß er den Versuch und das<lb
+                    xml:id="uuid_34fa5d27-35ef-4e60-a21f-b30286e7394c"/>Gelingen des Versuchs, sich
+                an ein ihm lästiges Vertragsverhältnis zu<lb
+                    xml:id="uuid_caaaffc1-11ca-4288-a374-ecd34942d70b"/>klammern, für unsittlich
+                hält, und die Festlegung seines Empfindens<lb
+                    xml:id="uuid_c22c790f-c27e-4ab3-9b71-7281be963451"/>der Unerträglichkeit, daß
+                ein Vertrieb, der sich der Übernahme seines<lb
+                    xml:id="uuid_92fefa12-a129-45d3-9748-cc1c5149d4b6"/>geistigen Gutes unwürdig
+                gezeigt hat, es weiterhin verwaltet. </p>
+         <p xml:id="uuid_bdeb391d-fabf-44cf-bab3-610bf71f4b10">
+            <lb xml:id="uuid_818184b3-0741-4482-bf0f-235931e7b32f"/>Mit vorzüglicher
+                    Hochachtung<lb xml:id="uuid_04d03a86-ada8-4cc2-b949-b22b8a3445f1"/>[<rs type="person">Unterschrift</rs>] </p>
+      </body>
+   </text>
+</TEI>

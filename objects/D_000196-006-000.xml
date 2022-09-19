@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-007-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-005-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000196-006-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Robert Herrmann an Samek</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000196-006-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4992</idno>
+            <idno subtype="transkribus" type="ID">400508</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000196" type="collection">Karl
+                    Kraus ca. Arbeiter-Zeitung (Brünn)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000196-006-000-facs001" xml:id="D_000196-006-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000196-006-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#51582">Dr. ROBERT HERRMANN</persName>
+               <address>
+                  <street corresp="#51759">MASARYKSTRASSE 25/27</street>
+                  <settlement ref="#833">BRÜNN</settlement>
+               </address>
+               <date when-iso="1934-10-30">30. Oktober 1934</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Wohlgeboren Herrn | Dr. Oskar Samek </persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse Nr. 18</street>
+                  <settlement ref="#65">Wien XIV.</settlement>
+               </address>
+               <date when-iso="1934-10-31">31. OKT. 1934</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Dr.G/b</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1934-10-30">30. Oktober 1934
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000196-006-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000196-006-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-12T09:52:56.545Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-12T11:11:24.132Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 400508. </change>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-09-19"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-09-19"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-09-19"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-09-19" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000196-006-000-facs001">
+      <surfaceGrp xml:id="D_000196-006-000-facs001-l001">
+         <surface type="recto" xml:id="D_000196-006-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2546661/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000196-006-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2546662/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000196-006-000_p001"
+             facs="#D_000196-006-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_583a1d18-537d-4bc1-954d-7a3b05c0ad15">
+            <lb xml:id="uuid_0b0d3f12-8d06-4fb6-b958-9183a9f95aff"/>Sehr geehrter <rs ref="#38909" type="person">Herr Kollege</rs>. </p>
+         <p xml:id="uuid_1f68a27a-5851-443f-a10f-6c5daf04ae21">
+            <lb xml:id="uuid_66856f08-23f1-49cc-9c85-78573a68d077"/>Zufolge des mir von Herrn
+                    <rs ref="#43593" type="person">Dr. Turnovsky</rs>
+            <lb xml:id="uuid_f0cda5ce-6b0e-4197-aff9-84db29e24bcf"/>erteilten Auftrages
+                übermittle ich Ihnen die beiden Nummern<lb xml:id="uuid_7fd4e216-1053-41b2-8748-f9c29dd785e8"/>der hier erscheinenden <rs ref="#41202" type="work" subtype="pmb">Arbeiterzeitung</rs> vom <rs ref="#58924" type="work" subtype="pmb">1.</rs> und <rs ref="#58926" type="work" subtype="pmb">8. Septem<lb break="no" xml:id="uuid_35c946e5-0ac0-4322-8d24-ca2e25b510aa"/>ber</rs> d.J. </p>
+         <p xml:id="uuid_22f583b7-d916-49d9-b0a8-4d4c7c30545d">
+            <lb xml:id="uuid_153bbace-00ae-46c7-9f36-41fff57f5172"/>Mit vorzüglicher Hochachtung<lb
+               xml:id="uuid_46819a39-869a-45d3-add2-b2ccd1b0eef3"/><rs type="person" ref="#51582"
+               >Dr. Herrmann</rs>
+         </p>
+         <p xml:id="uuid_d108c05e-127d-405f-8f15-a256134aae06">
+            <lb xml:id="uuid_e638713d-67b5-47b8-8c64-aa9c061dcfcd"/>2 Beilagen<lb
+               xml:id="uuid_7914904a-7c7d-451f-869a-c3b88b559bc9"/>recom.</p>
+         <p xml:id="uuid_f8587245-ec99-4dc8-bffc-3dabb56d2131">
+            <pb xml:id="D_000196-006-000_p002"
+                facs="#D_000196-006-000-facs001-l001-p002"
+                n="2"/>
+         </p>
+         <p xml:id="uuid_2387091b-c60b-443b-872e-a8f2bb43535a">
+            <lb xml:id="uuid_1da7a966-0929-4543-96ae-898e659c396c"/><note resp="law-firm"
+               type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#29644"
+                  type="institution">Arbeiter Zeitung</rs>
+               <lb xml:id="uuid_436c62da-d828-43d6-abf5-9b3e394e7342"/>31. OKT. 1934</note></p>
+      </body>
+   </text>
+</TEI>

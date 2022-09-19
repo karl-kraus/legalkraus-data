@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-026-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-024-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000196-025-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Robert Herrmann an Samek</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000196-025-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/5011</idno>
+            <idno subtype="transkribus" type="ID">400535</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000196" type="collection">Karl
+                    Kraus ca. Arbeiter-Zeitung (Brünn)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000196-025-000-facs001" xml:id="D_000196-025-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000196-025-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#51582">Dr. ROBERT HERRMANN</persName>
+               <address>
+                  <street corresp="#51759">MASARYKSTRASSE 25/27</street>
+                  <settlement ref="#833">BRÜNN</settlement>
+               </address>
+               <date when-iso="1935-04-08">8. April 1935</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Wohlgeboren Herrn | Dr. Oskar Samek, Rechtsanwalt </persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse 18</street>
+                  <settlement ref="#65">Wien XIV.</settlement>
+               </address>
+               <date when-iso="1935-04-09">9. APR. 1935</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Arbeiterzeitung. </note>
+               <note type="dictation">DrG/K</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1935-04-08">8. April 1935</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000196-025-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000196-025-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-12T09:52:56.545Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-12T11:11:24.132Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 400535. </change>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-09-24"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-09-24"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-09-24"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-09-24" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000196-025-000-facs001">
+      <surfaceGrp xml:id="D_000196-025-000-facs001-l001">
+         <surface type="recto" xml:id="D_000196-025-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2546747/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000196-025-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2546748/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000196-025-000_p001"
+             facs="#D_000196-025-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_59d8ab50-6ad6-492c-9201-cc1980db0242">
+            <lb xml:id="uuid_e62522ce-2ca7-4423-9d26-0c34b63cbc7f"/>Sehr geehrter <rs ref="#38909" type="person">Herr Kollege</rs>. </p>
+         <p xml:id="uuid_6db12c38-605f-48c6-ad98-e250c0ffd8a4">
+            <lb xml:id="uuid_33c63547-7031-44ee-9a78-98d44695e7c0"/>Herr <rs ref="#43653"
+               type="person">Schramek</rs> ist zu der für den 5. d.M.<lb
+               xml:id="uuid_7008b5a8-be83-42fb-a31c-a3f38aa15ddf"/>anberaumt gewesenen Einvernahme
+            wiederum nicht erschienen. An sei<lb break="no"
+               xml:id="uuid_e862f113-100c-4de8-8dc4-4e3a1a958928"/>ner Stelle kam sein Anwalt <rs
+               ref="#59206" type="person">Dr. Ečer</rs>, der seinen <rs ref="#43653" type="person"
+               >Klienten</rs> mit<lb xml:id="uuid_b022fed3-74ab-4741-a936-a83aae8e5152"/>einer
+            neuerlichen schweren Erkrankung entschuldigte. </p>
+         <p xml:id="uuid_94861016-1e9e-415e-a613-26e88426dbcf">
+            <lb xml:id="uuid_c8b62f31-bcfc-4a94-9603-869386ecf17b"/>Ein heute zu Kontrollzwecken
+                bei der<lb xml:id="uuid_dfe3e31d-5331-489a-928d-5567282a1616"/><rs ref="#37099" type="institution">Ersten Prager Krankenversicherungsanstalt</rs>, bei welcher
+                    der<lb xml:id="uuid_57da5360-8f73-4222-99f0-b178ca81c868"/><rs ref="#43653" type="person">Beschuldigte</rs> angestellt ist, von meiner Kanzlei in
+                    entsprechender<lb xml:id="uuid_1e7bf7c7-0d1d-40d7-bbd1-d3aab81dd7c4"/>Form
+                vorgenommener Anruf ergab, dass <rs ref="#43653" type="person">Schramek</rs>
+                tatsächlich seit<lb xml:id="uuid_f278afd0-ffee-4f14-a2fb-0ebd00b810e6"/>vielen
+                Monaten nicht mehr Dienst zu machen scheint. Die <rs type="person">Beamtin</rs>
+            <lb xml:id="uuid_3fb9e78e-50c0-4c40-8c9e-b1fba24026c1"/>der genannten <rs ref="#37099" type="institution">Anstalt</rs>, welche die Auskünfte gab,
+                erklärte, dass,<lb xml:id="uuid_6c9a5fde-fd04-42eb-ae82-ab053cd2d55f"/>soweit sie
+                informiert sei, <rs ref="#43653" type="person">Schramek</rs> an einer schweren
+                    Nieren<lb break="no" xml:id="uuid_07d75ec2-0f47-41f4-bf80-4d39ac05d5f4"/>erkrankung leide, die ihn ans Bett oder zumindest ans Haus fessle,<lb xml:id="uuid_882ec05d-752e-4559-87f3-d402a65854a7"/>dass er seit vielen Monaten
+                keinerlei Arbeiten mehr verrichte,<lb xml:id="uuid_4b6c025d-93e2-4409-8e18-bd55ca5f27cd"/>obwohl er nach wie vor im
+                Beamtenstatus der <rs ref="#37099" type="institution">Krankenversicherungs<lb break="no" xml:id="uuid_96189005-8f9e-46c1-8758-88df35dfe2f9"/>anstalt</rs>
+                geführt werde. </p>
+         <p xml:id="uuid_263197bf-0a0d-4ed2-b9d2-b10f5a8efb61">
+            <lb xml:id="uuid_0dda8137-79a2-47c4-aec8-0c11737715df"/>Da die Sache sich schon
+                äusserst lange<lb xml:id="uuid_d6c485e5-4720-4f75-b1cc-f172cf315039"/>schleppt,
+                möchte ich, falls Sie damit einverstanden sind, eine<lb xml:id="uuid_a6593dfe-b250-4bc8-989d-dee372b3db8a"/>Eingabe beim <rs type="person">Untersuchungsrichter</rs> überreichen, in der ich ver<lb break="no" xml:id="uuid_54dd7c48-5c9a-45f3-8ff9-a1a00d953350"/>lange, dass <rs ref="#43653" type="person">Schramek</rs> entweder durch die <rs type="institution">Rettungsgesellschaft</rs> zu<lb xml:id="uuid_550b8a96-dcb7-43a6-a1eb-7bc58fc4ac9d"/><rs ref="#36818" type="institution">Gericht</rs> gebracht und dort einvernommen werde oder aber
+                    dass<lb xml:id="uuid_e2291277-8ad7-4dbd-ac85-dbdcc1bf7005"/>sich der <rs type="person">Untersuchungsrichter</rs> in die Wohnung des <rs ref="#43653" type="person">Beschuldigten</rs>
+            <pb xml:id="D_000196-025-000_p002"
+                facs="#D_000196-025-000-facs001-l001-p002"
+                n="2"/>
+            <lb xml:id="uuid_cf236f4f-2821-402e-91c4-efb04b46369a"/>begibt, um dort die
+                Einvernahme <rs ref="#43653" type="person">Schrameks</rs> vorzunehmen. </p>
+         <p xml:id="uuid_13d801c8-5eff-4525-8082-624cb2aa3516">
+            <lb xml:id="uuid_052d7642-842d-4172-9b2e-d600ddfa21e4"/>Ich erbitte mir Ihre
+                freundliche Stellungnahme<lb xml:id="uuid_bc7d8c4c-e3db-4b3c-970f-0b8fd6cba0e5"/>und
+                zeichne </p>
+         <p xml:id="uuid_0c0a9711-cf53-47cb-933d-ef1a329c8144">
+            <lb xml:id="uuid_5a691505-19c1-4890-afbd-0184254958c3"/>mit kollegialer Hochachtung<lb
+               xml:id="uuid_d3d1fdae-d8a8-4b21-8050-927f46ed1fba"/>ergebener<lb
+               xml:id="uuid_77442384-5888-4dac-ba73-abf5d2e9f897"/><rs ref="#51582" type="person"
+               >Dr. Herrmann</rs>
+         </p>
+         <p xml:id="uuid_38baa263-1731-480a-9ed1-dfc941c86f5c">
+            <lb xml:id="uuid_758b53ea-71b6-4a6c-885f-8e1d643b136f"/><note resp="law-firm"
+               type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#29644"
+                  type="institution">Arb.Ztg.</rs>
+               <lb xml:id="uuid_5767ff9d-1a73-404d-a3a2-5c6183dba0c0"/>9. APR. 1935</note></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000090-003-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000090-001-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000090-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Redaktion des Bücherwurm, Einhorn Verlag (verantw. Red. Walter
+               Weichardt)</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000090-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/2863</idno>
+            <idno subtype="transkribus" type="ID">231002</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000090" type="collection">Karl Kraus
+               ca. Einhorn-Verlag</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000090-002-000-facs001" xml:id="D_000090-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000090-002-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL"
+                        >Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-12-23">23. Dezember 1927</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909">Oskar Samek</persName>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51">Wien</settlement>
+               </address>
+               <date when-iso="1927-12-23">23. Dezember 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#37093">Redaktion des Bücherwurm, Einhorn Verlag (verantw. Red. Walter
+                  Weichardt)</orgName>
+               <address>
+                  <street corresp="#53690">Langestrasse 28</street>
+                  <settlement ref="#864">Leipzig</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Einhorn-Verlag</note>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000090-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000090-002-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2021-04-12" who="#IL"/>
+         <change type="structure" when-iso="2021-04-11" who="#IL"/>
+         <change type="references" when-iso="2021-04-12" who="#IL"/>
+         <change type="typography" when-iso="2021-04-12" who="#IL"/>
+         <change type="intertexts" when-iso="2021-04-12" who="#IL"/>
+         <change when-iso="2020-10-08T11:47:38.364Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T11:48:14.559Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 231002. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000090-002-000-facs001">
+      <surfaceGrp xml:id="D_000090-002-000-facs001-l001">
+         <surface xml:id="D_000090-002-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554416/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000090-002-000-facs001-l001-p002" type="verso">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554418/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000090-002-000_p001" facs="#D_000090-002-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_53aa828a-88d0-463e-a18a-ff7a7a5adb3e">
+            <lb xml:id="uuid_a7e70081-afba-43c3-8da1-730f945cbc77"/>Mit <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000090-001-000" type="work"
+               subtype="legal-doc">Schreiben</rs> vom 21./7.1927 haben Sie sich<lb
+               xml:id="uuid_afb1a2e1-d892-4c4e-8856-11c84c53e2e0"/>verpflichtet den Druckfehler in
+            dem von Ihnen nachgedruckten Ge<lb break="no"
+               xml:id="uuid_43c6c1be-ddc2-4bd2-a4d3-4a8a62ae564c"/>dicht des Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>: „<rs
+               ref="#53644" type="work" subtype="pmb">Alle Vögel sind schon da</rs>“ im <rs
+               ref="#53687" type="work" subtype="pmb">Septem<lb break="no"
+                  xml:id="uuid_d1032d44-6e6e-40ee-bb47-d32051225f37"/>ber Heft</rs> zu berichtigen.
+            Da dies bisher nicht geschehen ist, wie<lb break="no"
+               xml:id="uuid_9d8f4a2e-f263-46a1-a2a6-a77859b7e56c"/>derhole ich im Vollmachtsnamen
+            des Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+               Kraus</rs> die Aufforde<lb break="no"
+               xml:id="uuid_5efa23a0-e1f5-42a8-87f2-3297e883791c"/>rung, im nächsten Hefte eine
+            Berichtigung erscheinen zu lassen,<lb xml:id="uuid_6e07fa53-35c2-48cc-91c0-3fd369a61e71"
+            />dass nach dem ersten Vers der vierten Strophe des Gedichtes von<lb
+               xml:id="uuid_3d2dc70b-3014-4135-a78d-3972cdeafff1"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> „<rs
+               ref="#53644" type="work" subtype="pmb">Alle Vögel sind schon da</rs>“ kein Komma,
+            sondern ein<lb xml:id="uuid_536cf534-e595-450b-a20c-a18e330fdf49"/>Punkt zu stehen hat
+            und diese Strophe daher richtig lautet:</p>
+         <p xml:id="uuid_f92705c8-9afd-4b3d-9c94-180f17db65fe"><lb
+               xml:id="uuid_04b2ca76-32a0-40e1-9cd5-eb967f2d0ecd"/><quote source="#53644"
+               xml:id="uuid_95300970-533f-4420-8025-4033895766f0">Wie laut wird alles, was da
+                  schweigt.<lb xml:id="uuid_9b891e65-da2a-4a6f-a0ea-1e8eae7fb16d"/>Nun bin ich schon
+               im frühsten Alter.<lb xml:id="uuid_4f961a65-b871-43fd-a467-55d936e455f9"/>Da wird die
+               Stille rings zum Psalter,<lb xml:id="uuid_6043f24a-2d67-45ad-9a71-9319098dc0dc"/>zu
+               dem des Nachbars Junge geigt.</quote>
+         </p>
+         <p xml:id="uuid_469e7ac4-3875-45af-97cb-46f39df582f6">
+            <lb xml:id="uuid_c317a9a4-488c-4d61-bed9-1e12c5f4a692"/>Ich zeichne<lb
+               xml:id="uuid_a87ce335-3330-441c-978a-b2ea22066ce1"/>hochachtungsvoll </p>
+         <p xml:id="uuid_3adad7c5-a6bc-4bd7-ab89-d8211acc1792">
+            <lb xml:id="uuid_fe8c6615-8f71-404f-a838-088dcfe28757"/>Rekommandiert. </p>
+         <pb xml:id="D_000090-002-000_p002" facs="#D_000090-002-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_dabb205c-99aa-4c4d-a5ab-2a0a100997ff">
+            <lb xml:id="uuid_0a7046b9-89ac-4a8d-a0bb-70378b400f44"/><note resp="law-firm"
+               type="paratext">Betr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  type="person">Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37093"
+                  type="institution">Einhorn-Verlag</rs>
+               <lb xml:id="uuid_3fa270fe-cf73-4fc2-bd2f-945715e65029"/>exp. am 23. Dez.
+            1927.</note></p>
+      </body>
+   </text>
+</TEI>

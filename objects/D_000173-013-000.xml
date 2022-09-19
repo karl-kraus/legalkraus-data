@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-014-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-012-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000173-013-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Verlag Die Fackel an Deutsches Theater Prag</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000173-013-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4278</idno>
+            <idno subtype="transkribus" type="ID">312389</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000173" type="collection">Briefwechsel zwischen dem Verlag Die Fackel, dem Verlag Universal Edition und
+                    dem Deutschen Theater Prag bezüglich Aufführungen von Offenbachstücken in der
+                    Kraus’schen Bearbeitung und Verlagsproblemen</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000173-013-000-facs001" xml:id="D_000173-013-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000173-013-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+                  <ab type="materiality">
+                     <objectType source="D_000173-013-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP">Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#43724"/>
+               <address>
+                  <street corresp="#50496"/>
+                  <settlement ref="#53"/>
+               </address>
+               <date when-iso="1932-02-16">16. Februar 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/55400">die Direktion des |
+                        Deutschen Theaters</persName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#652">Prag</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-02-16">16. Februar 1932
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000173-013-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000173-013-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-12-07" who="#JK"/>
+         <change type="typography" when-iso="2021-12-07" who="#JK"/>
+         <change type="references" when-iso="2021-12-07" who="#JK"/>
+         <change type="structure" when-iso="2021-12-07" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-07" who="#JK"/>
+         <change when-iso="2020-10-09T14:02:55.775Z" who="#IB">created by API</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000173-013-000-facs001">
+      <surfaceGrp xml:id="D_000173-013-000-facs001-l001">
+         <surface type="recto" xml:id="D_000173-013-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543385/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface></surfaceGrp>
+      <surfaceGrp xml:id="D_000173-013-000-facs001-l002">
+         <surface type="recto" xml:id="D_000173-013-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543387/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000173-013-000-facs001-l003">
+         <surface type="recto" xml:id="D_000173-013-000-facs001-l003-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543389/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface></surfaceGrp>
+      <surfaceGrp xml:id="D_000173-013-000-facs001-l004">
+         <surface type="recto" xml:id="D_000173-013-000-facs001-l004-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543391/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000173-013-000_p001"
+             facs="#D_000173-013-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_64ddccd6-f46d-4265-9895-393c8ca71f39">
+            <lb xml:id="uuid_0db98f4f-876c-4eda-941f-e903996b573a"/><note resp="law-firm" type="paratext">Ablegen <rs ref="#43724" type="institution">Verlag der
+                        Fackel</rs></note>
+         </p>
+         <p xml:id="uuid_5b99b69a-2121-4526-8d24-7eec9fc93572">
+            <lb xml:id="uuid_c122f296-ff26-4145-8a9a-3022382ace28"/>Sehr geehrte Herren! </p>
+         <p xml:id="uuid_666e21b5-99f5-4731-b5d0-b1adcc355996">
+            <lb xml:id="uuid_14099bfe-17be-413c-89e4-f4a6ddd04f6f"/>Die Eindrücke von den Proben
+            zusammenfassend, möchte <rs ref="#11988" type="person">Herr<lb
+                  xml:id="uuid_8ccb0050-e5ef-4024-b09c-d781d0fa72fb"/>Kraus</rs> Ihnen sagen, daß
+            ihm Ihr Versprechen einer „<quote source="#D_000183-008-000"
+               xml:id="uuid_9416fc1c-baf1-4fe3-b91c-09ec338db88f">sorgfältigsten Ein<lb break="no"
+                  xml:id="uuid_f84c6271-dd95-4ad5-9965-9474cc968016"/>studierung und zwar tunlichst
+               im Sinne der von <rs ref="#11988" type="person">Herrn Kraus</rs> inaugu<lb break="no"
+                  xml:id="uuid_649d630c-f332-4c76-8c24-132cef0e249d"/>rierten <rs ref="#9131"
+                  type="person">Offenbach</rs>-Renaissance</quote>“ insoweit erfüllt scheint, als er
+               zwar<lb xml:id="uuid_61d775a2-33fd-475a-9069-353270bb4420"/>im Sinn jener <rs
+               ref="#9131" type="person">Offenbach</rs>-Renaissance vorfand. Freilich dazu den
+               guten<lb xml:id="uuid_95ad2bd6-78f9-4d2a-be7a-f76450859428"/>Willen, zu manchem schon
+            erreichten Guten auch die empfohlenen Ver<lb break="no"
+               xml:id="uuid_a93c53c6-7139-47e2-a240-67347cc36623"/>besserungen und Veränderungen
+            dort vorzunehmen, wo eben ein Wider<lb break="no"
+               xml:id="uuid_312ba40c-df1a-4099-878c-2ea6896372af"/>spruch zwischen der Inszenierung
+            und dem Gedanken der <rs ref="#9131" type="person">Offenbach</rs>-Re<lb break="no"
+               xml:id="uuid_47f0a825-b314-496c-93fb-0dbad0c3acfd"/>naissance auffiele, der auch den
+            befürchteten Widerspruch zu der Zi<lb break="no"
+               xml:id="uuid_401e10cb-1844-4ed9-bd65-8181a006fbe9"/>tierung im <rs type="work"
+               subtype="pmb">Programmheft</rs> ergeben würde. Das Gesehene und Gehörte –<lb
+               xml:id="uuid_e61d642d-2436-44b0-b507-44e23e33457b"/>vor allem jedoch das Gesehene –
+            ließ Ihren Wunsch vom 11. Januar, daß<lb
+               xml:id="uuid_2e128851-cff7-49d5-8ec6-3768f4abdb59"/><rs ref="#11988" type="person"
+               >Herr Kraus</rs> dem <rs type="institution">Theater</rs> „<quote
+               source="#D_000173-002-000" xml:id="uuid_440fc136-8a89-43f7-b470-f9271bf6be8a">durch
+               künstlerische Einflußnahme an die Hand<lb
+                  xml:id="uuid_ba794d2e-478c-477a-b259-4889c6d79953"/>gehe</quote>“, begreiflich
+            scheinen. Was ihm aber an Ort und Stelle weniger<lb
+               xml:id="uuid_5eaf61e0-a0fe-445b-822a-c69af0a3439c"/>begreiflich schien, war das
+            Ansinnen, die Leistung auch dort gutzu<lb break="no"
+               xml:id="uuid_76791c52-9886-42de-8ce0-f7469046e5b2"/>heißen, ja durch Erscheinen bei
+            der Erstaufführung zu verantworten, wo<lb
+               xml:id="uuid_31482c29-142f-45f3-881d-a159860c0917"/>sich der künstlerischen
+            Einflußnahme deutlich und zugestandenermaßen<lb
+               xml:id="uuid_7594ac84-8bc4-4163-8b1d-9dbb1448cfa4"/>eine außerkünstlerische Erwägung
+            entgegenstellte. Rechtlich liegt die<lb
+               xml:id="uuid_f229ea04-766b-4ffc-8998-1ae836495500"/>Sache nun allerdings so, daß der
+               <rs ref="#11988" type="person">Autor</rs> nach dem vorhandenen Vertrag<lb
+               xml:id="uuid_d4cfe1c1-1638-4f52-a4e2-a38375b36167"/>mit dem <rs ref="#36971"
+               type="institution">Verlage</rs> keinen andern geistigen Anspruch hat als den auf
+               die<lb xml:id="uuid_6fff898e-0585-429a-aee9-6c9c9af693d7"/>Unversehrtheit der
+            Quantität des von ihm für die Aufführung eingerich<lb break="no"
+               xml:id="uuid_3a4cf653-4820-4dd5-89f6-1bf1e46f0fab"/>teten Textes. Wenn ihm aber ein
+            künstlerischer Einfluß durch prakti<lb break="no"
+               xml:id="uuid_29cf941e-9e1a-4b70-aa6d-25f74081cb18"/>sche Mitarbeit eingeräumt wird,
+            so könnte, wenn schon hieraus kein<lb xml:id="uuid_0a8abed8-7519-472c-aa70-56c9447d4115"
+            />rechtlicher Anspruch abzuleiten wäre, füglich doch eine Anerkennung<lb
+               xml:id="uuid_97838aa9-621a-4aee-b230-38d69327e7b1"/>dessen, was ihm als Verletzung
+            des künstlerischen Gutes erscheint,<lb
+               xml:id="uuid_271a1b4d-4add-4513-867b-c962df7554e8"/>von ihm nicht zu verlangen und
+            nicht zu erwarten sein. Eine solche Ver<lb break="no"
+               xml:id="uuid_3510e1fc-d7f4-47ad-885f-cf9d31fbd2e9"/>letzung scheint ihm hauptsächlich
+            durch die „bühnenbildnerische“ Ge<lb break="no"
+               xml:id="uuid_ca6fe56e-3774-458c-b57d-ed6a5310295a"/>staltung bewirkt wie durch jene
+            bloß im Bereich des neuen Operetten<lb break="no"
+               xml:id="uuid_9e5ba21a-de94-4375-808d-1596a99e8892"/>unfugs möglichen Tanzbewegungen,
+            die die musikalischen und sprachli<lb break="no"
+               xml:id="uuid_394ce19e-e82a-4b9e-9a01-55bc9098ba8f"/>chen Werte gleichermaßen
+            alterieren. Tanzen hat in „<rs ref="#55390" type="work" subtype="pmb">Madame
+               l’Archiduc</rs>“<lb xml:id="uuid_0952efe2-def3-4db9-b268-9e9c388415e8"/>nur Raum, wo
+            es sinngemäß und organisch der Handlung entspricht: buch- <pb
+               xml:id="D_000173-013-000_p002" facs="#D_000173-013-000-facs001-l002-p002" n="2"/>
+            <lb xml:id="uuid_281dd4c4-db0b-419d-8fdf-16f2efec7fd0"/>stäblich also im Finale des 2.
+            Aktes, wenn der närrische Hof sich auf<lb
+               xml:id="uuid_82c4db6d-f3f7-43ae-bf85-a8e85ea132b2"/>eine Tanzreise, fast auf eine
+            Springprozession begibt. Der Abschluß der<lb
+               xml:id="uuid_be62c969-1035-414a-a0b5-9e1f7f85c023"/>Szene mit einem regelrechten
+            Cancan, wie es eigentlich gedacht ist, oder<lb
+               xml:id="uuid_2b2f055c-1fa8-4f7a-b780-d935b938a856"/>doch mit Springen und Hüpfen,
+               <add>käme</add> dem Wesentlichen der Sphäre ungleich nä<lb break="no"
+               xml:id="uuid_47a4deba-f015-490e-a977-2f2cb82c2b02"/>her als die dekorative
+            Herablassung der Krone <add>(in dem sonst ganz entsprechendem Ahnensaal)</add>. Außerdem
+            tritt der Tanz<lb xml:id="uuid_8077f8bb-d17f-41ff-906a-f64d3e92c74c"/>noch während des
+            Gesanges der Marietta, („<quote source="#55390"
+               xml:id="uuid_6b5a72e3-015a-4419-9c92-e189332a502b">… man tanzt in der
+               Rund</quote>“)<lb xml:id="uuid_804f27fa-e981-4818-949b-5fdfc9cb3900"/>tatsächlich in
+            seine Rechte. Keineswegs jedoch mit dem Beineschlenkern<lb
+               xml:id="uuid_0d288b49-a15c-42ee-8110-44f7f0bf61f4"/>des Fortunato und der kleinen
+            Soldaten, sei es beim Entree sei es beim<lb
+               xml:id="uuid_fd15e666-d00f-4eb2-a9f8-881868827623"/>Chor des III. Akts. Für
+            Girl-Übungen ist weder diese Musik noch diese<lb
+               xml:id="uuid_4b6ddf7d-958b-430d-8b8d-8c801e3a2dea"/>Versübersetzung geschaffen
+            worden, und jegliche Verbindung des Begriffes<lb
+               xml:id="uuid_498b311f-73e9-420c-a995-715333dde4f4"/>der „kleinen Soldaten“ mit
+            solchem Unwesen heutigen Amüsiertheaters wird<lb
+               xml:id="uuid_0212217f-43c9-4b9a-940d-5e043b726b10"/>abgelehnt. Die zum Glück
+            aufgegebene Idee, zu Beginn die kleinen Solda<lb break="no"
+               xml:id="uuid_d7c36cae-bc2e-42c9-9815-0780c6202068"/>ten vor dem Publikum defilieren
+            zu lassen, wäre wirksamer zu einem Auf<lb break="no"
+               xml:id="uuid_daa75655-2d22-4f4a-9c46-5087b7d6673a"/>tritt durchs Parkett zu steigern
+            gewesen, wie es dem Usus bei <rs ref="#12504" type="person">Reinhardt</rs>
+            <lb xml:id="uuid_1c4439e0-07be-493d-a827-7f50d61feee8"/>entspricht. Noch bessere
+            Restaurateure, wie etwa der vorbildliche<lb
+               xml:id="uuid_6f6f8d03-82cc-4d57-8fc8-c570154e518f"/><rs ref="#62203" type="person"
+               >Steinmeier</rs>, würden auf der Suche nach dem Zeitgemäßen und zugleich Zug<lb
+               break="no" xml:id="uuid_9a677823-d384-4076-a1ba-5e2018a0d530"/>kräftigen auch den
+            Gedanken nicht verschmähen, jene dem Publikum beider<lb
+               xml:id="uuid_52e23242-cef5-46de-b588-60351fb267ec"/>Geschlechter auf den Schoß setzen
+            zu lassen. Es ist möglich, daß ein<lb xml:id="uuid_1fabd171-b435-4be8-944b-5abad16ad681"
+            />Theater nach den vorhandenen Verträgen auch mit <rs ref="#9131" type="person"
+               >Offenbach</rs> und seinem<lb xml:id="uuid_1eea7144-9934-4e76-bc12-2fef62ac1f03"
+            />deutschen Textautor solche Schlager zu verbinden berechtigt wäre. Aber<lb
+               xml:id="uuid_b2914f2a-69ac-4e14-8862-80dd119e5f25"/>niemals könnte auch die
+            Anerkennung erzielt werden, daß damit die von<lb
+               xml:id="uuid_51a87b3c-5d6f-4127-a597-5581f9081a76"/><rs ref="#11988" type="person"
+               >Herrn Kraus</rs> inaugurierte <rs ref="#9131" type="person"
+            >Offenbach</rs>-Renaissance ins Werk gesetzt sei.<lb
+               xml:id="uuid_70eca3c9-70db-49d8-a8e0-3fc742c3a894"/>Ebensowenig wäre solche
+            Anerkennung für szenische Einfälle zu erreichen<lb
+               xml:id="uuid_ec9365e2-cf9f-4911-9c46-0b890fa275ef"/>wie die Flankierung sämtlicher
+            Bilder durch Schildwachhäuschen, die Ver<lb break="no"
+               xml:id="uuid_017c3c1e-a0da-495b-8832-5ee604c3f18e"/>quickung sämtlicher szenischen
+            Gelegenheiten mit dem Motiv der Herzen<lb
+               xml:id="uuid_487446ce-36c6-448c-a8de-001f13b857a7"/>und Herzchen, und dergleichen
+            Überflüssigkeit einer Symbolisierung, wel<lb break="no"
+               xml:id="uuid_19e5a417-c12e-49e6-8d21-0420ea197bf5"/>che wieder in groteskem
+            Widerspruch zu der Überflüssigkeit jener Reali<lb break="no"
+               xml:id="uuid_cda3810d-a2b0-4841-ae6d-30a75c281608"/>sierung steht, die dem Wirtshaus
+            die numerierten Hotelzimmertüren auf<lb break="no"
+               xml:id="uuid_c333c11b-e1c3-42be-8bd4-b31f5f47b2ba"/>gesetzt hat – mit dem hingemalten
+            Stiefel, der ablenkt und geradezu<lb xml:id="uuid_081f377f-7a3c-42ff-a143-f23b4a95524e"
+            />ein Hemmschuh der primärsten Theaterwirkung werden könnte. Der <rs ref="#11988"
+               type="person">Autor</rs>
+            <lb xml:id="uuid_1323fa09-d146-4ec0-a8cf-fb13a00bb1aa"/>des deutschen Textes, welcher zu
+            solchem Unfug keinerlei Handhabe bie<lb break="no"
+               xml:id="uuid_ee837883-42b4-4799-b993-a85232493bf2"/>tet, weist grundsätzlich darauf
+            hin, daß solche szenische Willkür im<lb
+               xml:id="uuid_53f3b472-cf43-4018-97ff-6f44afc94c53"/>dritten Akt zur Streichung der
+            Stelle „<quote xml:id="uuid_192e901c-c652-40fa-908c-7fa8f5d007d4" source="">unter den
+               Bäumen</quote>“ geführt hat,<lb xml:id="uuid_72d7a19a-5376-463e-975b-92e947a59850"
+            />weil eben in einem Park, der ein Kasernhof ist, keine Bäume vorgesehen<lb
+               xml:id="uuid_1bbae879-4f5a-4416-a5d2-c9b518fd52f9"/>sind, und er möchte Sie fragen,
+            was man unternommen hätte, wenn das Mo<lb break="no"
+               xml:id="uuid_a5d1f818-1790-417b-b0de-15d3a592f55e"/>tiv der Bäume in gebundener
+            Sprache vorkäme. Er verwahrt sich dagegen, <pb xml:id="D_000173-013-000_p003"
+               facs="#D_000173-013-000-facs001-l003-p003" n="3"/>
+            <lb xml:id="uuid_67a2a08f-3687-4b2d-bc9e-f20628d778f7"/>daß die Freizügigkeit der
+            dekorativen Phantasie den Text, an den sie sich<lb
+               xml:id="uuid_5fe4d857-984e-4e5e-987d-bacbe5ed47d5"/>zu halten hätte, behindert. Er
+            spricht die Erwartung aus, daß Ihre Zusa<lb break="no"
+               xml:id="uuid_aea9efc5-940e-4f96-99ce-81cb72d4c7b4"/>ge, solchen Unfug, soweit er als
+            noch abstellbar erkannt wurde, abzustel<lb break="no"
+               xml:id="uuid_1c3169fe-8faf-4ea6-be27-2fa4a9b9f5b0"/>len, schon in der Erstaufführung,
+            der er nicht persönlich beiwohnen kann,<lb
+               xml:id="uuid_cc85e4e3-3bed-4037-bc8d-b50a00670147"/>erfüllt sein wird. Es handelt
+            sich ihm keinesfalls darum, gegen die Kon<lb break="no"
+               xml:id="uuid_1fc9d6b2-32e8-47f2-b5ff-567949d3b78a"/>zessionen, die
+            eingestandenermaßen einem angeblichen „Geschmack“ der Ge<lb break="no"
+               xml:id="uuid_a63a3351-be9e-4d13-9ae2-c3275f590a8d"/>genwart gemacht werden sollen,
+            einen angeblichen „Geschmack von 1875“ zu<lb
+               xml:id="uuid_fdf1bafb-e954-48e8-9c99-60ceda8dc231"/>verteidigen. Wären damals die
+            Inszenierungen nach einem Geschmack von 1875<lb
+               xml:id="uuid_55d8565e-b352-4679-8b15-0be6109ee089"/>erfolgt, so wären sie heute
+            veraltet. Aber sie sind damals bloß in einer<lb
+               xml:id="uuid_58ddae84-119d-4b3f-84fe-dfb1b686f8c2"/>besseren Einsicht erfolgt, als
+            sie das heutige Theater hat: in das Wesen<lb
+               xml:id="uuid_dec2b494-65b8-49a5-aed6-7e3fc66a246c"/>des Theaters und in die
+            Zeitentrücktheit des Wesens der Operette. Alles<lb
+               xml:id="uuid_49b91863-65f1-410e-8ac2-347cb440aa68"/>Zeitgebundene, ob es nun der
+            Gegenwart angehört oder einer dem Gedächtnis<lb
+               xml:id="uuid_864b243c-cd9f-4e4b-86e8-9f7159327538"/>erreichbaren Vergangenheit, das
+            verstandesmäßig Kontrollierbare, hat von<lb
+               xml:id="uuid_df9d4e3b-379d-4e84-90c6-24dbca7f8098"/>der Szene der Operette entfernt
+            zu werden, wie jener Bart des Minister<lb break="no"
+               xml:id="uuid_a97a07a9-ad56-44f7-bdef-71605c600b34"/>darstellers, der gewiß eher aus
+            dem Jahr 1875 stammt und ganz so wenig<lb
+               xml:id="uuid_fb3e4e78-5e51-4119-be68-99d455f3b261"/>mit „<rs ref="#55390" type="work"
+               subtype="pmb">Madame l’Archiduc</rs>“ und dem Begriff der Operette zu schaffen hat
+               wie<lb xml:id="uuid_bdc864ab-30d0-4811-a8d6-de3000fcb28f"/>die Herzkaserne mit
+            Kakteen als Kasernhofblüte, wie der Pavillon der Grä<lb break="no"
+               xml:id="uuid_2903b955-f6ed-454d-a090-b5181dcab187"/>fin und alles was sich der
+            Bühnenbildner unter dem vorgeschriebenen her<lb break="no"
+               xml:id="uuid_418e5c3d-d6f0-4ef5-a050-b02402b9162b"/>zoglichen Park vorgestellt hat
+            (und was der <rs ref="#11988" type="person">Textautor</rs>, dem das <rs ref="#55390"
+               type="work" subtype="pmb">Werk</rs> ja<lb
+               xml:id="uuid_b1064f7f-300e-4385-8cd9-5c1cd2bb8bc2"/>auch einigermaßen bekannt ist,
+            sofort als eine Kreuzung aus <rs ref="#168" type="place">Tempelhof</rs> und<lb
+               xml:id="uuid_60f79cf8-f1ff-41ff-91b2-1539c85f4a6e"/><rs ref="#48771" type="place"
+               >Tunis</rs> agnoszieren konnte). Dies Gesehene mag auf anderem Gebiet oder in<lb
+               xml:id="uuid_2cd3cc30-7009-45c6-8bb9-7ef5ac3087c2"/>einem anderen Stück
+            außerordentlich wertvoll sein, mit <rs ref="#9131" type="person">Offenbach</rs> und <rs
+               ref="#55390" type="work" subtype="pmb">Ma<lb break="no"
+                  xml:id="uuid_34787bb0-7836-4481-890d-502a555a1f87"/>dame l’Archiduc</rs> hat es
+            nichts zu schaffen, und es steht auch in sichtba<lb break="no"
+               xml:id="uuid_8f68b48b-b1d0-4e62-96b6-4aa6ce980fab"/>rem Widerspruch zu den Kostümen,
+            die der Vorstellung eines uns hinreichend<lb
+               xml:id="uuid_d10e0514-a2c3-4cb4-843c-8813b13b7dfa"/>entrückten Zeitalters durchaus
+            gerecht werden. <rs ref="#11988" type="person">Herr Kraus</rs>, der den ebenso<lb
+               xml:id="uuid_56a028f3-b1af-4617-add9-7daca455d6f6"/>sichtbaren Widerspruch zu <rs
+               ref="#9131" type="person">Offenbach</rs> und den in Ihrem Programm zitierten<lb
+               xml:id="uuid_8b271009-7bb8-47ed-835e-592933fedec5"/>Leitsätzen noch schmerzlicher
+            empfindet, zweifelt nicht, daß der <rs ref="#43540" type="person">Regisseur</rs>
+            <lb xml:id="uuid_2e258d57-90db-40ce-b3e9-71a68b02b633"/>allen ihm dargelegten
+            Intentionen gerecht werden und keine dahingehende<lb
+               xml:id="uuid_8705eda3-4f7b-4906-b3d4-39c1028fd24e"/>Zusage unerfüllt lassen wird. Es
+            handelt sich um die Unkenntlichmachung<lb
+               xml:id="uuid_7fbd3d06-926c-4fd6-9f96-a2389dcb65eb"/>alles allzu spielerisch
+            Naturgetreuen wie allzu spielerisch Symbolisie<lb break="no"
+               xml:id="uuid_423f4dc5-6107-4d67-a43b-d5f6306c3cfd"/>renden, kurz alles
+            Kunstgewerblichen, das der Entfaltung echten Bühnen<lb break="no"
+               xml:id="uuid_b37ac114-0028-49ec-9fe5-19b594238fac"/>lebens hier wie seit Jahrzehnten
+            (nicht 1875, aber 1895) im Wege steht. </p>
+         <p xml:id="uuid_0b0942e0-012a-4335-85e4-dca578d03c58">
+            <lb xml:id="uuid_bef42ea0-6ab8-4533-bf54-2fbe47505905"/>Was dessen eigenste
+            Möglichkeiten bei der Prager Aufführung be<lb break="no"
+               xml:id="uuid_d90638e4-a17f-4254-a32d-b8c951b55c76"/>trifft, so war gewiß manches
+            anzuerkennen, das sich bei Ausführung der<lb
+               xml:id="uuid_926f4299-c372-48d7-8b22-6e25ea13a797"/>empfohlenen Korrekturen durchaus
+            bewähren wird. Leider war es ja <rs ref="#11988" type="person">Herrn K.</rs>
+            <lb xml:id="uuid_ef1dd176-02a9-4b02-8cfd-b71c9643ded4"/>nicht möglich, den damals
+            erkrankten <rs type="person">Darsteller</rs> des Erzherzogs zu beur<lb break="no"
+               xml:id="uuid_e1472ca5-f7fa-45b3-90b2-cf8920949c83"/>teilen, und bloß möglich, ihm die
+            Rolle vorzusprechen. Doch wäre noch ein<lb break="no"
+               xml:id="uuid_a5a539ef-8295-4997-8618-7e21aee96c8e"/>mal darauf hinzuweisen, daß es
+            sich hier um keinen Thaddädl-Typus handelt,<lb
+               xml:id="uuid_04daaaf7-957b-4954-aed1-8eea10916842"/>wie er etwa einem an <rs
+               ref="#10181" type="person">Herrn Tautenheyn</rs> geschulten Publikumsgeschmack ent<lb
+               break="no" xml:id="uuid_7758663b-bf6f-4a4b-9656-be9b23a5f02a"/>sprechen könnte,
+            sondern um einen „Charakterkomiker“, dessen burleskes <pb xml:id="D_000173-013-000_p004"
+               facs="#D_000173-013-000-facs001-l004-p004" n="4"/>
+            <lb xml:id="uuid_10ddd870-e063-4dde-91fa-94f50a2588fd"/>Tun des tragischen Beisatzes
+            nicht entbehrt, wie ihn ja der Ausbruch<lb
+               xml:id="uuid_d67248db-70a3-4451-abfa-0225507ba555"/>seiner Liebesraserei und der ihm
+            folgende Niederbruch deutlich bekun<lb break="no"
+               xml:id="uuid_486b24c9-5daf-459f-8c97-691ed0e35394"/>den. </p>
+         <p xml:id="uuid_94d8a00b-4eb8-4c10-b82a-8a46bb34f236">
+            <lb xml:id="uuid_8dcc7875-18ad-4630-9abb-dd25b1c57c6e"/>Mit allem Dank des <rs ref="#11988" type="person">Herrn Kraus</rs> für die Mühe, die schon vor<lb xml:id="uuid_be4b79af-0b49-4d90-a7a8-42716e35ea6d"/>seinem Eintreffen
+                aufgewendet wurde, für die der gemeinsamen Arbeit und<lb xml:id="uuid_840a532b-b6bf-41cc-b20f-18a51e45fbfb"/>für den unbezweifelbaren
+                guten Willen, auch allen Anforderungen, die<lb xml:id="uuid_2f05516a-11e6-4cb4-b302-47f50d75eea8"/>sich unabweislich ergaben,
+                noch gerecht zu werden, zeichnen wir </p>
+         <p xml:id="uuid_8713198d-226e-4234-843e-62be3340fa42">
+            <lb xml:id="uuid_42557fa5-6bdf-40d1-8fb7-293244768433"/>in vorzüglicher Hochachtung
+            </p>
+      </body>
+   </text>
+</TEI>

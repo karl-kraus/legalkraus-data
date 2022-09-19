@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-004-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-002-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000173-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Curt Wollram an Kraus</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000173-003-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4268</idno>
+            <idno subtype="transkribus" type="ID">312379</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000173" type="collection">Briefwechsel zwischen dem Verlag Die Fackel, dem Verlag Universal Edition und
+                    dem Deutschen Theater Prag bezüglich Aufführungen von Offenbachstücken in der
+                    Kraus’schen Bearbeitung und Verlagsproblemen</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000173-003-000-facs001" xml:id="D_000173-003-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000173-003-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>                  
+                  <ab type="materiality">
+                     <objectType source="D_000173-003-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP">Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/43540">Curt Wollram</persName>
+               <address>
+                  <street corresp="#55409">Koperníkova 63 | (Villa Kleovka)</street>
+                  <settlement ref="#652">Prag XII</settlement>
+               </address>
+               <date when-iso="1932-01-12">12. Januar 32</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn Karl Kraus</persName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#168">Berlin</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-01-12">12. Januar 1932
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000173-003-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000173-003-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-05-07" who="#JK"/>
+         <change type="typography" when-iso="2021-05-07" who="#JK"/>
+         <change type="references" when-iso="2021-05-07" who="#JK"/>
+         <change type="structure" when-iso="2021-05-07" who="#JK"/>
+         <change when-iso="2020-03-10T12:11:41.012Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 312379. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000173-003-000-facs001">
+      <surfaceGrp xml:id="D_000173-003-000-facs001-l001">
+         <surface type="recto" xml:id="D_000173-003-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543360/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000173-003-000_p001"
+             facs="#D_000173-003-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_9a763df2-f8bb-44fd-aee7-6cf6a035fb44">
+            <lb xml:id="uuid_11f09612-746f-4aca-90d7-d1dd2e9c17ed"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herr Kraus</rs>! </p>
+         <p xml:id="uuid_87b5431f-dbb2-447e-90b8-31fbdc65fd9e">
+            <lb xml:id="uuid_1bdf8eaa-1f76-4d0b-84c8-2aeb64d918a6"/>Durch ein <rs type="work">Schreiben der „<rs ref="https://pmb.acdh.oeaw.ac.at/entity/36971" type="institution">Universal-Edition</rs>“</rs> an<lb xml:id="uuid_3d430a15-1427-47b8-bab6-298dfca32b03"/>meine Direktion erfahre ich
+                Ihre Anschrift. </p>
+         <p xml:id="uuid_5f57740e-2106-4ba3-92a3-7f18c18a5aa4">
+            <lb xml:id="uuid_5660a3a2-c94e-4218-8605-d16e36907aef"/>Als Regisseur der Operette
+                    „<rs ref="#55390" type="work" subtype="pmb">Madame l’Archiduc</rs>“<lb xml:id="uuid_261436de-3f87-46bc-8797-bf89ad06d00d"/>erlaube ich mir die Anfrage,
+                ob Sie für die Aufführung<lb xml:id="uuid_c740988c-10a5-4001-ae9c-2852a10d977e"/>besondere Wünsche haben, für deren Mitteilung ich Ihnen<lb xml:id="uuid_4420d10a-31f1-4f59-9201-598a5d5dae62"/>sehr dankbar wäre. </p>
+         <p xml:id="uuid_b4e53cb6-b9d6-4922-a1ef-df77aea65a5a">
+            <lb xml:id="uuid_7f7e1749-605a-4b1d-ae88-6a791371cc07"/>Um dem hiesigen Publikum
+                eine besondere Freude<lb xml:id="uuid_76e265f5-411a-49a5-be22-1acf6b87da89"/>zu
+                bereiten, wäre es vielleicht nett, wenn Sie aus Ihrem<lb xml:id="uuid_2ad07878-cbf2-43d7-837c-10d2893d092b"/><hi rend="underlined">reichen</hi> Quell noch einige Strofen aktueller oder lokaler<lb xml:id="uuid_391a9324-d7db-46c0-b748-bc72ac56abd7"/>Art zur Verfügung stellen
+                würden. </p>
+         <p xml:id="uuid_b0c604be-be75-46e8-9042-8e342210f5eb">
+            <lb xml:id="uuid_ef590f25-be7c-4a24-8936-1eef43d18097"/>Es soll dies natürlich nur
+                ein Vorschlag sein,<lb xml:id="uuid_1163ffef-9d7d-4316-a599-d307b4e0152c"/>und muß
+                ich es vollkommen Ihren Intentionen und Wünschen<lb xml:id="uuid_3cade3d7-f0ec-48ab-b80f-643a87420dd6"/> überlassen. </p>
+         <p xml:id="uuid_ef196404-cb06-458c-8b26-dfb3540a05fa">
+            <lb xml:id="uuid_503759bc-27ea-40c5-9b97-0bde0914f563"/>Vielleicht interessiert es
+                Sie, daß „<rs ref="#55407" type="work" subtype="pmb">Madame Fa<lb break="no" xml:id="uuid_df872a05-ff11-448f-9d6f-ebad4a9d4f2f"/>vart</rs>“ kürzlich hier
+                nur ein schwacher Erfolg war. Einen<lb xml:id="uuid_f4047808-3924-489e-a38c-a084b0698c6d"/>umso größeren Erfolg
+                verspreche ich mir von Ihrer Bearbei<lb break="no" xml:id="uuid_79170599-d670-493f-8605-8e7f1749fb82"/>tung, besonders da das
+                Interesse für Sie persönlich hier<lb xml:id="uuid_40b04167-600d-46c0-a3df-f7ab032d144d"/>sehr stark ist. </p>
+         <p xml:id="uuid_9e2538bd-8829-4f38-bf04-51ce19b1f81e">
+            <lb xml:id="uuid_bc2dbf35-0d9c-48c4-8f70-e273faa38ea6"/>Mit der Versicherung, daß
+                ich meine ganze Kraft<lb xml:id="uuid_a8c37ac2-de7c-4341-a72c-80e41f5d2b09"/>und
+                Liebe Ihrem Werke widmen will, bin ich </p>
+         <p xml:id="uuid_5977153b-a437-414d-986b-b253e90490d0">
+            <lb xml:id="uuid_1cb1bafd-75c8-473f-a335-e7cca80fb679"/>in Ergebenheit<lb xml:id="uuid_ee32b86a-4dd4-4181-94c4-dec8ae52637a"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/43540" type="person">Curt Wollram</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

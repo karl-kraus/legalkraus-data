@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-003-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-001-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000078-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Oswald Richter an Samek</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000078-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/2729</idno>
+            <idno subtype="transkribus" type="ID">249781</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000078" type="collection">Karl Kraus
+               ca. Volkskampf</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000078-002-000-facs001" xml:id="D_000078-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000078-002-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T"
+                        >Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#39293">Oswald Richter</persName>
+               <address>
+                  <street corresp="#52181">Operngasse 2</street>
+                  <settlement ref="#51">Wien, I.</settlement>
+               </address>
+               <date when-iso="1927-02-01">1. Feber 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Oskar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien, I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-02-01">1. Februar 1927</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000078-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000078-002-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2021-03-31" who="#IL"/>
+         <change type="structure" when-iso="2021-03-22" who="#IL"/>
+         <change type="references" when-iso="2021-03-22" who="#IL"/>
+         <change type="typography" when-iso="2021-03-31" who="#IL"/>
+         <change type="intertexts" when-iso="2021-03-29" who="#IL"/>
+         <change when-iso="2020-10-07T15:08:40.016Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-07T15:12:07.605Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 249781. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000078-002-000-facs001">
+      <surfaceGrp xml:id="D_000078-002-000-facs001-l001">
+         <surface xml:id="D_000078-002-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553881/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000078-002-000-facs001-l001-p002" type="verso">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553883/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <p xml:id="uuid_bf16ce1b-74d5-4286-bf01-a69c77c713f7"> </p>
+         <p xml:id="uuid_1dc9ee65-3056-4a4b-a23d-1ec529c9ea77">
+            <lb xml:id="uuid_e73a70ca-f06b-4555-bed2-5ceb3efd86f9"/>Sehr geehrter Herr <rs
+               type="person" ref="#38909">Kollege</rs>! </p>
+         <p xml:id="uuid_d4396672-3f33-4d0b-9a61-5631fdca609f">
+            <lb xml:id="uuid_90f9924a-5917-4855-bbe7-0647d47b7935"/>In der <rs ref="#53443"
+               type="work" subtype="pmb">Nummer 5</rs> des seit kurzem erscheinenden „<rs
+               ref="#53441" type="work" subtype="pmb">Volks<lb break="no"
+                  xml:id="uuid_f4b266a9-8ebf-4e2c-b935-a2687b3c4f3f"/>kampf</rs>“ ist auf der
+            Titelseite als Inhalt angegeben „<quote
+               source="https://legalkraus.acdh.oeaw.ac.at/id/D_000078-001-000"
+               xml:id="uuid_9db73b56-a205-41d2-a9d8-35d9d79a4260">Periodischer ,Leh<lb break="no"
+                  xml:id="uuid_499049cf-e0e3-41e2-b54c-e95c64cc9884"/>mann‘, 1. Teil: Die
+               Pressebanditen in <rs ref="#50" type="place">Wien</rs></quote>“ und im Innern des <rs
+               ref="#53441" type="work" subtype="pmb">Blattes</rs>
+            <lb xml:id="uuid_ebfa86f4-289d-4077-bcbe-6334bcfd1456"/>der abschriftlich beiliegende
+               <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-003-000" type="work"
+               subtype="legal-doc">Artikel</rs> enthalten. </p>
+         <p xml:id="uuid_9f595079-1794-4224-9a4a-dcfa6eb3a936">
+            <lb xml:id="uuid_cf1994e8-7d44-4850-b9ae-7e22a3cd0188"/>Ich habe von Herrn Abgeordneten
+               <rs ref="#37781" type="person">Austerlitz</rs> den Auftrag,<lb
+               xml:id="uuid_10c751b5-9280-4821-a4a7-2aadffa254c6"/>für ihn, der darin auch genannt
+            ist, die Klage einzubringen und glaube<lb
+               xml:id="uuid_10567806-ecf5-4340-b18c-4267d63a6155"/>im öffentlichen Interesse zu
+            handeln, wenn ich Ihnen diesen <rs ref="#53446" type="work" subtype="pmb">Artikel</rs>,
+               zwecks<lb xml:id="uuid_043d4f69-9828-4969-9627-ccad368e58f0"/>eventueller Verfolgung
+            namens Ihres <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+               >Klienten</rs>, zur Kenntnis bringe, ebenso<lb
+               xml:id="uuid_40642ca7-8663-470a-987c-6ed8d22f6879"/>wie ich auch die übrigen
+            Beteiligten verständige. </p>
+         <p xml:id="uuid_d72f058c-1225-45ff-a107-e9cb9ad15437">
+            <lb xml:id="uuid_fd3079e7-b3c5-43fe-ad97-1f494ea0fedd"/>In kollegialer Hochachtung<lb
+               xml:id="uuid_1009ac0b-c2f5-4251-97af-910f211e6d69"/><rs ref="#39293" type="person"
+               >Richter</rs>
+         </p>
+         <p xml:id="uuid_2ef96351-8ab4-43c4-99aa-35b1501f4f64"><lb
+               xml:id="uuid_2c3a3d13-065c-4efc-8680-e972481d9c7e"/><rs type="work"
+               subtype="legal-doc" ref="https://legalkraus.acdh.oeaw.ac.at/id/D_000078-001-000">1
+               Beilage</rs>.</p>
+      </body>
+   </text>
+</TEI>

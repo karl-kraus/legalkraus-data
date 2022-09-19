@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000198-002-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000197-003-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000198-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Kleinkunstbühne des Bundes junger Autoren Österreich „Die
+                    Stachelbeere“</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000198-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/5248</idno>
+            <idno subtype="transkribus" type="ID">417516</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000198" type="collection">Korrespondenz Samek – Kleinkunstbühne Stachelbeere</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000198-001-000-facs001" xml:id="D_000198-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000198-001-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHU">Durchschlag mit handschriftlichen Überarbeitungen</objectType>
+                     <objectType source="D_000198-001-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP">Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1936-05-31">31. Mai 1935</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote cert="high"
+                      medium="grey-pencil"
+                      resp="#IL"
+                      scribeRef="#11988"
+                      source="#D_000198-001-000-wit01"
+                      xml:id="D_000198-001-000-hand01"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000198-001-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000198-001-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1935-05-31">31. Mai 1935</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#52780"/> 
+                  <settlement ref="#64"/> 
+               </address>
+               <date when-iso="1935-05-31">31. Mai 1935</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#37039">die | Kleinkunstbühne des Bundes junger Autoren
+                        Oesterreichs | „Die Stachelbeere“</orgName>
+               <address>
+                  <street corresp="#61866">Rathausplatz 4</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – „Die Stachelbeere“</note>
+               <note type="dictation">Dr.S/Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000198-001-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000198-001-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-11-30" who="#IL"/>
+         <change type="structure" when-iso="2021-11-18" who="#IL"/>
+         <change type="references" when-iso="2021-11-22" who="#IL"/>
+         <change type="typography" when-iso="2021-11-29" who="#IL"/>
+         <change when-iso="2020-10-12T12:11:59.159Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-12T12:34:18.813Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 417516. </change>
+         <change when-iso="2020-10-12T13:10:41.622Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 417516. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000198-001-000-facs001">
+      <surfaceGrp xml:id="D_000198-001-000-facs001-l001">
+         <surface type="recto" xml:id="D_000198-001-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2594321/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000198-001-000-facs001-l002">
+         <surface type="recto" xml:id="D_000198-001-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2594323/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000198-001-000-facs001-l003">
+         <surface type="recto" xml:id="D_000198-001-000-facs001-l003-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2594325/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000198-001-000_p001"
+             facs="#D_000198-001-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_c9469d1d-083b-499c-9b94-3fb74ab06eea">
+            <lb xml:id="uuid_295ca895-bf8e-4c95-9e40-295956626cc2"/><add
+               hand="#D_000198-001-000-hand01D_000198-001-000-hand01">1)</add></p>
+         <p xml:id="uuid_72549458-b266-4e55-a1ce-0de89fb4d94a">
+            <lb xml:id="uuid_430febc5-1933-4c93-b58e-98fea985dda9"/><note
+               source="https://fackel.oeaw.ac.at/f/912,012" type="intertext">31. Mai 1935<del
+                  hand="#D_000198-001-000-hand01D_000198-001-000-hand01">.</del></note></p>
+            <p xml:id="uuid_c4b04467-76ee-4026-b909-84b30f9a572a">
+               <lb xml:id="uuid_6ec1a806-0990-4743-8007-19c40b0eb7ac"/><del
+                  hand="#D_000198-001-000-hand01D_000198-001-000-hand01">Dr.S/Fa.</del> Betrifft:
+                  <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> – „<rs
+                  type="institution" ref="#37039">Die Stachelbeere</rs>“.</p>
+            <p xml:id="uuid_08b921ad-b7dd-497b-965c-0e8067dbbb31">
+            <lb xml:id="uuid_8dc12492-d159-48c5-a60d-3bef7d8f44f6"/><note type="intertext"
+               source="https://fackel.oeaw.ac.at/f/912,012">An die<lb
+                  xml:id="uuid_9ff54516-0006-466b-a6be-c59ae6cb2659"/>Kleinkunstbühne des Bundes
+               junger Autoren Oesterreichs<lb xml:id="uuid_7f6b690a-b912-4a7c-b09c-f3e7af2b412d"
+                  />„<rs type="institution" ref="#37039">Die Stachelbeere</rs>“ </note></p>
+         <note type="intertext" source="https://fackel.oeaw.ac.at/f/912,012">
+            <p xml:id="uuid_a2e9169f-7b51-4345-876d-330afe73d2ed">
+               <lb xml:id="uuid_18c7f80b-2467-4f03-a8f7-83a7140e55dc"/><rs type="place" ref="#51"
+                  >Wien I.</rs>
+               <del hand="#D_000198-001-000-hand01D_000198-001-000-hand01">,<lb
+                     xml:id="uuid_63ad206d-aa13-4393-9618-13c61ecb9c4e"/><rs type="place"
+                     subtype="address" ref="#61866">Rathausplatz 4</rs>.</del></p>
+         </note>
+            <p xml:id="uuid_60627cc2-191d-419c-bb20-1baa6ae5f006"><note type="intertext"
+               source="https://fackel.oeaw.ac.at/f/912,012">
+               <lb xml:id="uuid_2e4f83cf-0b02-47f2-874c-f0bb0650bff7"/>Als Rechtsanwalt des Herrn
+                  <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+               <lb xml:id="uuid_72da2623-02d3-48fe-8be9-1ca78d4e1037"/>habe ich Ihnen das Folgende
+                  mitzuteilen:<lb xml:id="uuid_30b1b60d-0db2-409b-a9df-a797c2301ea8"/>Sie führen,
+               wovon ich mich persönlich<lb xml:id="uuid_84a0a5cf-4f61-471d-b6b0-7d18e5b25222"
+               />überzeugt habe, eine dreiaktige Operette unter dem Titel<lb
+                  xml:id="uuid_4393b4c2-17f3-418e-beb1-3f0a9d681f36"/>„<rs ref="#61844" type="work"
+                  subtype="pmb">Der Walzerkavalier</rs>“ auf, worin Sie im letzten Akt, der in<lb
+                  xml:id="uuid_ef1fce2c-7fff-4b88-8521-97ea40eb9be1"/>einem Orte „Canossa“ vor einem
+               Hotel „Zur schönen Aussicht“<lb xml:id="uuid_3e5115d3-8300-440a-b80e-68923aa0e4cd"
+               />spielt, eine Reihe von Personen namentlich anführen, deren<lb
+                  xml:id="uuid_6eb6abff-6d8d-49c5-b956-8e2ddb8780a3"/>Charakter offensichtlich das
+               Stigma der spekulativen Unter<lb break="no"
+                  xml:id="uuid_f7c480a7-8e44-4e35-8c56-730e7fc1224a"/>werfung unter ein herrschendes
+               Regime, vornehmlich das des<lb xml:id="uuid_08a07b6c-1aae-42ee-b062-af440ef2dd61"
+               />Dritten Reiches, aufgedrückt wird. Eine Verbindung der<lb
+                  xml:id="uuid_271470e0-7466-44fe-a82f-cdb2f1be1c7c"/>Person meines <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Mandanten</rs> mit
+               dieser anrüchigen Sphäre wird inso<lb break="no"
+                  xml:id="uuid_67f84988-9e49-4f9f-ad63-5e7e1e48cfdb"/>ferne hergestellt, als es in
+               jenem Canossa auch ein Hotel<lb xml:id="uuid_e51660ad-4c0d-4945-a5ad-9a6333c48383"
+               />„Zum goldenen Kreuz“ gibt, wodurch offenbar auf eine spekulative<lb
+                  xml:id="uuid_4e45f394-0d38-412b-8231-32bc11b2d136"/>Unterwerfung unter eine
+               angebliche österreichische Gewalt<lb break="no"
+                  xml:id="uuid_1832e59f-0145-4dbd-ab01-9e5c0c88be4c"/>herrschaft angespielt werden
+               soll. Es liegt mir natürlich voll<lb break="no"
+                  xml:id="uuid_a216ce1b-c675-4814-b067-8afe406b8462"/>kommen ferne, mich auf diesem
+               Wege mit Ihnen über die Unbill<lb xml:id="uuid_d5e55c5a-5d73-4c93-a433-cf2198bf2160"
+               />solch gleichstellender Fiktion auseinanderzusetzen, der ja<lb
+                  xml:id="uuid_41b86e94-3728-4d93-a485-58aeebfec380"/>schon die Möglichkeit
+               widerspricht, sie in Tagen schwersten<lb
+                  xml:id="uuid_943ff4e5-1fe3-4c67-9a61-e0364c3959e5"/>Abwehrkampfes der einen gegen
+               die andere Sphäre unbehindert<lb xml:id="uuid_58ed406f-d348-4173-ac19-1b8a4edee3dd"
+               />vorzuführen. Nicht minder ferne liegt es mir, Sie auf diesem<lb
+                  xml:id="uuid_e031bfcc-12cf-4acb-abcf-22e3ac668ebc"/>Wege von der Unmöglichkeit
+               einer Charakteristik überzeugen zu <pb xml:id="D_000198-001-000_p002"
+                  facs="#D_000198-001-000-facs001-l002-p002" n="2"/>
+               <lb xml:id="uuid_3c5c0851-5296-43a1-af2d-6fa4eb302046"/>wollen, zu der Sie sich
+               offenbar in etwas simpler Auffassung<lb
+                  xml:id="uuid_9925213b-e06a-40d2-ae34-bd1e0e436f81"/>der Wirksamkeit meines <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Mandanten</rs>,
+               vielleicht verführt von dem<lb xml:id="uuid_e3c1bd83-f936-463b-a4ee-ec762c39d347"
+               />Beispiel einer anderen „<rs ref="#37039" type="institution">Kleinkunstbühne</rs>“,
+               angeregt fühlten,<lb xml:id="uuid_d358feb5-9122-4b5a-8ce7-c2daa6a68049"/>welches
+               leider juristisch nicht fassbar war. Wie immer Sie<lb
+                  xml:id="uuid_111d0e51-05be-4486-89e0-ec3ed09ec926"/> über die mit einem Bereich
+               des Terrors und der Spekulation<lb xml:id="uuid_cc0dc03b-53bc-4afd-98b1-5e5f7a81d99a"
+               />verglichene Sphäre denken und in Zeiten der Notwehr dieser<lb
+                  xml:id="uuid_803a016c-7951-4021-9483-2baf256ab7db"/>gegen jenen sich betätigen
+               mögen, wesentlich wird in jedem<lb xml:id="uuid_91c28967-5180-45aa-97af-c69ee4fdeff5"
+               />Falle der Umstand sein, dass die Einreihung meines <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Mandanten</rs>
+               <lb xml:id="uuid_575fae7d-0b09-438d-a1e2-70f66715ade3"/>in den Umkreis Ihrer
+               satirischen Betrachtung</note>
+            <note type="intertext" source="https://fackel.oeaw.ac.at/f/912,013">sich als eine dem<lb
+                  xml:id="uuid_57f72f2a-d145-4ca3-8655-22447081a245"/>Sachverhalt widersprechende
+               Schmähung und Verspottung qualifi<lb break="no"
+                  xml:id="uuid_cfa9e389-5a7a-4d51-ba77-e51e550ced9e"/>ziert. Ihre Darstellung,
+               wonach heute „<quote source="#61844"
+                  xml:id="uuid_3f22e284-96a2-482b-b8d5-4739bde93b31">jeder, der auf sein<lb
+                     xml:id="uuid_1017d5ab-f722-4689-9a7c-8d1a45700bb8"/>Renommee hält</quote>“ nach
+               Canossa gehe und dass jeder, der es auf<lb break="no"
+                  xml:id="uuid_b614e190-ac50-4453-af8f-79cf9abb29c9"/>sucht, „<quote source="#61844"
+                  xml:id="uuid_89690368-3466-4ccf-80c8-801ca0325f77">gut gefahren</quote>“ sei,
+               schliesst offenbar den Vorwurf in<lb
+                  xml:id="uuid_3a95eafa-eedc-4980-b993-3d18b21364fc"/>sich, dass mein <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Mandant</rs>, den
+               Sie, wenn schon nicht im Hotel<lb xml:id="uuid_1f047ca7-9f74-4f64-a827-39c719649685"
+               />„Zur schönen Aussicht“, so doch in dem „Zum goldenen Kreuz“<lb
+                  xml:id="uuid_a7ba3d08-9c8a-44e2-9c99-27ecbd3d4d22"/>wohnen lassen, seine
+               literarische Tätigkeit aus unlauterem,<lb
+                  xml:id="uuid_9c40c4b2-9c12-4d37-89eb-a47338a88e0a"/>streberischem oder in irgend
+               einer Art gewinnsüchtigem Motiv<lb xml:id="uuid_68a5549a-6e0c-45c3-8f79-86b689d87758"
+               />einem vermeintlich klerikalen, jedenfalls aber seiner ver<lb break="no"
+                  xml:id="uuid_d3e43b5c-137d-4ca0-b0a9-b708748e87f9"/>meintlich liberalen früheren
+               Haltung widersprechenden „Kurs“,<lb
+                  xml:id="uuid_772e04bc-55ce-4c02-ab9e-cb2586eaec2c"/>Diktat oder Gewissenszwang
+               angepasst habe. Dazu kommt, dass<lb
+                  xml:id="uuid_cb2b8449-1c0c-42fa-a731-51b0f04c113a"/>die Worte, Herr <rs
+                  ref="#13094" type="person">Franz Werfel</rs> wohne im Hotel zum goldenen Kreuz,<lb
+                  xml:id="uuid_8017d7ae-6cd1-4b86-9362-4d4017edb0e3"/>„<quote source="#61844"
+                  xml:id="uuid_fc6992d3-3fca-4c53-9a9d-f765757283aa">im selben Stockwerk wie Herr
+                     <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+                     Kraus</rs></quote>“, ihn in eine besonde<lb break="no"
+                  xml:id="uuid_c61ea2e0-735d-41f9-9c6e-4c01f6a6ba0e"/>re Verbindung mit einer
+               öffentlichen Persönlichkeit bringen, die<lb
+                  xml:id="uuid_6bbf5270-fd9c-40bc-8162-c77eb3465036"/>er aus besonderen Gründen,
+               deren Erörterung der gerichtlichen<lb
+                  xml:id="uuid_ee3c6508-397f-4b22-b305-c23f1631c8c2"/>Gelegenheit vorbehalten
+               bliebe, als herabsetzend empfindet.<lb
+                  xml:id="uuid_4774f810-386d-40d7-bcfa-854b10bd955b"/>Ich nehme nicht an, dass Sie
+               diese gerichtliche Gelegenheit<lb xml:id="uuid_f4b00122-cd40-4f6f-a9bc-5c4745c6a22c"
+               />trotz einem (derzeit erheblich reduzierten) Reklamewert herbei<lb break="no"
+                  xml:id="uuid_f94ed14a-49c7-4239-adcb-a6d7abc44a39"/>wünschen werden, und fordere
+               Sie auf, die Einreihung des Namens<lb
+                  xml:id="uuid_e389b5f4-ba03-47d8-a2f8-177ccd961ddb"/>des Herrn <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> (wie
+               auch einer blossen Andeutung) in das<lb
+                  xml:id="uuid_0a63fbc0-4f11-4a66-afdf-f5b4b9b46f4c"/>von Ihnen gekennzeichnete
+               Milieu von dem Tage des Empfanges<lb
+                  xml:id="uuid_98465683-a92c-496b-a351-ec4bc626ba91"/>dieses Schreibens, also vom 2.
+               Juni 1935 angefangen, zu unter- <pb xml:id="D_000198-001-000_p003"
+                  facs="#D_000198-001-000-facs001-l003-p003" n="3"/>
+               <lb xml:id="uuid_e1957a68-a75a-492f-9c8a-c03955c40875"/>lassen, widrigenfalls gegen
+                  <rs ref="#37039" type="institution">Direktion</rs>, Spielleitung und Autor<lb
+                  xml:id="uuid_560283ce-250b-40d0-8b80-893cd3dc7842"/>die Klage eingebracht würde.
+               Eine Ehrenerklärung für die bis<lb break="no"
+                  xml:id="uuid_4d368958-a69c-4e54-b4b8-a25ff63be043"/>herige beleidigende Nennung
+               des Namens wird nicht verlangt, da<lb break="no"
+                  xml:id="uuid_2a060dd1-b199-488b-87e0-9cdf2a1a7196"/>gegen binnen fünf Tagen der
+               Erlag eines Sühnebetrages von S 50.–<lb
+                  xml:id="uuid_d966c8dc-a033-4809-b47b-3cabc255d1ec"/>zu Gunsten des <rs
+                  ref="#56719" type="person">Dollfuss</rs>-Werkes und die Bezahlung der in meiner<lb
+                  xml:id="uuid_6cf6a062-e6ac-4929-968a-eea218a4829b"/><rs ref="#52930"
+                  type="institution">Kanzlei</rs> aufgelaufenen Kosten von <del
+                  hand="#D_000198-001-000-hand01D_000198-001-000-hand01">S 25.64.</del></note></p>
+            <p xml:id="uuid_ec37933b-df3e-42fe-8ef3-6b1873916af7"><note type="intertext"
+               source="https://fackel.oeaw.ac.at/f/912,013">
+               <lb xml:id="uuid_0b69d7e1-f18d-4802-819a-bed0d0042adb"/>Ich zeichne<lb
+                  xml:id="uuid_b75aa4ca-777a-4bdb-a6e3-be9e2dacade3"/>hochachtungsvoll</note>
+         </p>
+            <p xml:id="uuid_aac70222-521d-4245-9266-c8f9b482cec9">
+               <lb xml:id="uuid_d00b46a7-9dba-48ba-b12c-1b103be30a61"/>Rekommandiert. </p>
+         
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000073-001-001.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000072-020-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000073-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Liesl Spielmann an Kraus</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000073-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2688</idno>
+            <idno subtype="transkribus" type="ID">222084</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000073" type="collection">Korrespondenz mit Liesl Spielmann betr. eines Artikels in Die Stunde</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000073-001-000-facs001" xml:id="D_000073-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000073-001-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.M">Manuskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#43620"/>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref=""/>
+               </address>
+               <date when-iso="1925-04-18">18. April 1925</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#11988">Herrn | Karl Kraus</persName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#54"/>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1925-04-18">18. April 1925</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000073-001-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000073-001-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header-facsimile"
+                 when-iso="2022-01-17"
+                 who="#JK"
+                 status="draft"/>
+         <change type="intertexts"
+                 when-iso="2021-10-20"
+                 who="#JK"
+                 status="draft"/>
+         <change type="typography"
+                 when-iso="2021-10-20"
+                 who="#JK"
+                 status="draft"/>
+         <change type="references"
+                 when-iso="2021-10-20"
+                 who="#JK"
+                 status="draft"/>
+         <change type="structure" when-iso="2021-10-20" who="#JK" status="draft"/>
+         <change when-iso="2020-10-07T14:33:36.241Z" who="#IB" status="draft">created by
+                API</change>
+         <change when-iso="2020-10-07T14:34:26.948Z" who="#IB" status="draft">Replaced Text with
+                Transcription of Transkribus Document 222084. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000073-001-000-facs001">
+      <surfaceGrp xml:id="D_000073-001-000-facs001-l001">
+         <surface type="recto" xml:id="D_000073-001-000-facs001-l001-p001">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553662/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000073-001-000-facs001-l001-p002">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553663/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000073-001-000-facs001-l002">
+         <surface type="recto" xml:id="D_000073-001-000-facs001-l002-p003">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553666/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000073-001-000-facs001-l002-p004">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553667/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000073-001-000_p001"
+             facs="#D_000073-001-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_2042b262-75b4-45f6-8ddd-de70f57c479b">
+            <lb xml:id="uuid_23b0236d-ad9d-43a5-8390-20f2097db74f"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herr Kraus</rs>! </p>
+         <p xml:id="uuid_9998d0d9-4937-4c86-a7f5-09403a1c361e">
+            <lb xml:id="uuid_d5c2241e-e939-496f-ad14-b38b4262e680"/>Für die beispiellose
+                    Skrupel<lb break="no" xml:id="uuid_39d81243-d17e-4761-8dd2-982bf9fb81a2"/>losigkeit und Lügenhaftigkeit der<lb xml:id="uuid_7b142984-4eb9-4811-912f-52c661bf7541"/>Presse ist der <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000073-002-000"
+                type="work"
+                subtype="legal-doc">beiliegende Artikel</rs>
+            <lb xml:id="uuid_77f5dfa4-d9d0-43d2-8707-a8d213f61b66"/>ein Schulbeispiel. Dass eine
+                    Zeitung<lb xml:id="uuid_7e8efb1c-d463-4f90-ad75-a54aa8a43060"/>nicht davor
+                zurückschreckt, einen<lb xml:id="uuid_787b1f11-8215-4844-bba0-8e8922a8acb5"/>Toten,
+                dessen Leichnam zu bergen<lb xml:id="uuid_b9565c2b-dc47-4865-bebb-441fa6b89064"/>bis
+                heute nicht möglich war,<lb xml:id="uuid_5ebe8c0d-0a2e-4d01-b50b-9a823ee4294c"/>zur
+                Zielscheibe einer schmutzigen<lb xml:id="uuid_22a087b0-1b31-4248-8c9d-48087db1884d"/>Sensation zu machen, übersteigt<lb xml:id="uuid_5727c41e-8f7c-4ab8-afab-428f393f706f"/>wohl alle Begriffe von
+                    Takt<lb break="no" xml:id="uuid_5d16bf60-8937-4593-a868-122c64ee3e59"/>und
+                Geschmacklosigkeit. </p>
+         <pb xml:id="D_000073-001-000_p002"
+             facs="#D_000073-001-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_6f1d5329-043b-456f-8bce-b1210d5a86d6">
+            <lb xml:id="uuid_ca2a3441-7358-4ef7-a5f7-4d5d400f2f6b"/>Ich wäre Ihnen sehr dank<lb break="no" xml:id="uuid_7d38e642-ab63-4619-8905-3bdc253b694b"/>bar, wenn Sie mir
+                    Gelegenheit<lb xml:id="uuid_df306e90-c599-46ec-bf1e-e1a027f7b0c2"/>geben würden,
+                Ihnen als dem<lb xml:id="uuid_1112d0b9-4b94-49fa-b3e6-b061234613a1"/>wahrsten und
+                    leidenschaftlichsten<lb xml:id="uuid_1ee18eae-5cbd-4c90-8a3f-c74b211e2319"/>Vertreter aller Menschenrechte,<lb xml:id="uuid_14be8f46-e3a9-4813-86e2-13b61c85b219"/>den Fall vorzutragen. Es
+                    wäre<lb xml:id="uuid_3305ce73-c2be-4391-bc48-575ca4d32d9a"/>die einzige
+                Möglichkeit, einen<lb xml:id="uuid_31216d0f-11d5-4b41-989f-4a5ed221a547"/>Toten, der
+                Sie, geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herr<lb xml:id="uuid_0169263b-f8a5-4dc8-a985-b73863090b9a"/>Kraus</rs>,
+                ungemein geschätzt und<lb xml:id="uuid_d33a3299-6f25-4a00-b62a-7202daafdca6"/>verehrt hat, vor der Presskanaille<lb xml:id="uuid_92f914c3-1def-4f61-bb7e-fd5392940eeb"/>zu schützen. </p>
+         <p xml:id="uuid_eb889397-583b-42d4-bc81-cb7f2f3c677d">
+            <lb xml:id="uuid_f5be9133-7715-48a6-9908-7b5604aa289f"/>Ihre ergebene<lb xml:id="uuid_04423afe-208a-4b62-82cc-1af8c44d4a1f"/><rs ref="#43620" type="person">Lisl Spielmann</rs>
+            <lb xml:id="uuid_f6375ef1-efec-41c0-8603-55f35281e836"/><rs ref="#52832" subtype="address" type="place">Wien XVI., Koppstr. 3</rs>. </p>
+         <p xml:id="uuid_e5e763da-056b-46fe-beda-02569d0f2aab">
+            <lb xml:id="uuid_080dbebe-d3d7-4608-88cc-92cdd9bf8829"/><rs ref="#50" type="place">Wien</rs>, 18. April 1925. </p>
+      </body>
+   </text>
+</TEI>

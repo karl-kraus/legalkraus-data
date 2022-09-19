@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000099-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-002-000.xml"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-004-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Völkischer Beobachter (verantw. Red. Wilhelm Weiss)</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000099-003-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2975 </idno>
+            <idno type="ID" subtype="transkribus">423598</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000099">Karl
+                    Kraus ca. Völkischer Beobachter (München)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000099-003-000-wit01" facs="#D_000099-003-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000099-003-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1928-03-13">13. März 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38133">den | verantwortlichen Schriftleiter des Völkischen
+                        Beobachter | Bayernausgabe | Wilhelm Weiss</persName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#45258">München</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <note type="subject">Kraus – Völkischer Beobachter</note>
+            <note type="dictation">Dr.S./Fa.</note>
+         </correspDesc>
+         <creation>
+            <date type="sortDate" when-iso="1928-03-13" subtype="produced">13. März 1928</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000099-003-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000099-003-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-03-03" who="#JK"/>
+         <change type="typography" when-iso="2021-03-03" who="#JK"/>
+         <change type="references" when-iso="2021-03-03" who="#JK"/>
+         <change type="structure" when-iso="2021-03-03" who="#JK"/>
+         <change when-iso="2020-10-08T12:31:37.625Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T12:35:03.916Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 423598. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000099-003-000-facs001">
+      <surfaceGrp xml:id="D_000099-003-000-facs001-l001">
+         <surface xml:id="D_000099-003-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554845/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554847/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+         
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000099-003-000_p001"
+             facs="#D_000099-003-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_2b5bee2d-7a55-41f9-8a9e-de1deb60e56c">
+            <lb xml:id="uuid_3a3e5633-9c15-4e8f-864e-bd2e8398c946"/>In rechtsfreundlicher Vertretung
+            des Herrn<lb xml:id="uuid_13e3e185-1901-4d1c-90f6-7ed8c6f7302a"/><rs type="person"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs> verlange ich gemäss
+               <rs type="law" ref="">§ 11 des Gesetzes über die Presse<lb
+                  xml:id="uuid_9c4b7e91-2b70-4ea3-9efe-c3f97b970808"/>vom 7. Mai 1874</rs> die
+            Aufnahme folgender Berichtigung der in Ihrer Nummer<lb
+               xml:id="uuid_6747ed2c-edf8-4522-b661-c896336a667e"/>vom <rs type="work" ref="#53033"
+               subtype="pmb">3. März 1928, 53. Ausgabe, 41. Jahrgang</rs> in dem Artikel <rs
+               type="work" ref="#53035" subtype="pmb">„<hi rend="spaced"><hi rend="underlined"
+                     >Eine</hi><lb xml:id="uuid_1cafc2c0-b0fd-4312-acac-9e7571273903"/><hi
+                     rend="underlined">skandalöse Erstaufführung in <rs type="place" ref="#45258"
+                        >München</rs></hi></hi>“<lb
+                  xml:id="uuid_386a4ab5-6fbd-44a7-a134-e8a7aa60a6b6"/>„<hi rend="spaced">Die
+                  Verhöhnung des Soldatentodes durch<lb
+                     xml:id="uuid_39d513f3-7f10-4eeb-92a2-444ce1c7c763"/>den Juden <rs type="person"
+                     ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs> – Wir fordern
+                     Verbot<lb xml:id="uuid_c39485c7-5dde-43da-8488-e3c5943d54b5"/>der Aufführung im
+                     <rs type="institution" ref="#47085">Schauspielhaus</rs></hi>“</rs> mitge<lb
+               xml:id="uuid_213d7bc0-d1aa-487a-a789-7018c3629428" break="no"/>teilten meinen <rs
+               type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Mandanten</rs>
+            betreffenden unrichtigen Tatsachen. </p>
+         <p xml:id="uuid_c4911b9b-9e92-4317-9bcb-0d54a52f25de">
+            <lb xml:id="uuid_a0cc14d1-d647-4f46-80e8-2d74f3930c11"/>Sie schreiben: „<quote
+               xml:id="uuid_d229dd6c-018e-4a02-9a1b-fbe6e133b33f" source="#53035">Eine tuberkulöse
+               Krankenschwester erzählt, wie<lb xml:id="uuid_59912543-75ee-417f-a3b8-4499112c73bb"
+               />sie von den Offizieren im Felde ‚angesteckt‘ worden sei</quote>“. Diese Be<lb
+               xml:id="uuid_f7e0202d-ecf0-428a-b782-7acaa87aa510" break="no"/>hauptung ist unwahr.
+            Wahr ist, dass im „<rs type="work" ref="#50712" subtype="pmb">Traumstück</rs>“ eine
+               tuberkulöse<lb xml:id="uuid_81470543-e185-48b6-a17f-9c8555c61dc6"/>Krankenschwester
+            überhaupt nicht vorkommt, wahr ist, dass ein tuberku<lb
+               xml:id="uuid_ac4a37b9-4130-4b85-b2b0-e3b7c884d562" break="no"/>löses Kind in einem
+            Vers über das Schicksal seiner Schwester, die im<lb
+               xml:id="uuid_aa51d976-8618-4981-8fee-867dacaccb34"/>Felde war, berichtet. Sie
+            schreiben ferner: „<quote xml:id="uuid_3d7087d8-24af-4011-8087-01ab0ee23bf3"
+               source="#53035">Eine Hure tanzt mit Etap<lb
+                  xml:id="uuid_77e93c9e-65f1-4b9b-9dc6-0282d2bb631b" break="no"/>penschweinen und
+               einbeinigen Soldaten</quote>“. Es ist unwahr, dass eine der<lb
+               xml:id="uuid_08167da1-8c6f-46e2-a3d8-98be8f862863" break="no"/>artige Szene im <rs
+               type="work" ref="#50712" subtype="pmb">Traumstück</rs> überhaupt vorkommt. </p>
+      </body>
+   </text>
+</TEI>

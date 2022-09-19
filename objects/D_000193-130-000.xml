@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-131-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-129-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000193-130-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Prager Tagblatt (verantw. Red. Harry Klepetar)</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000193-130-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4858</idno>
+            <idno subtype="transkribus" type="ID">376095</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000193" type="collection">Karl
+                    Kraus ca. Sozialdemokrat (Prag)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000193-130-000-facs001" xml:id="D_000193-130-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000193-130-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHN">Durchschlag mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#52780"/>
+                  <settlement ref="#64"/>
+               </address>
+               <date when-iso="1936-05-23">23. Mai 1936</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38605">den verantwortlichen Redakteur des | „Prager Tagblatt“ |
+                        Herrn Dr. Harry Klepetař</persName>
+               <address>
+                  <street corresp="#57686">Panská 12</street>
+                  <settlement ref="#652">Prag II.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1936-05-23">23. Mai 1936</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote cert="medium"
+                      medium="pencil"
+                      resp="#JK"
+                      scribeRef="#43584"
+                      source="#D_000193-130-000-wit01"
+                      xml:id="D_000193-130-000-hand01"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000193-130-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000193-130-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-08-26" who="#JK"/>
+         <change type="typography" when-iso="2021-08-26" who="#JK"/>
+         <change type="references" when-iso="2021-08-26" who="#JK"/>
+         <change type="structure" when-iso="2021-08-26" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-06" who="#JK"/>
+         <change when-iso="2020-10-12T07:56:29.816Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-12T08:31:06.58Z" who="#IB">Replaced Text with Transcription of
+                Transkribus Document 376095. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000193-130-000-facs001">
+      <surfaceGrp xml:id="D_000193-130-000-facs001-l001">
+         <surface type="recto" xml:id="D_000193-130-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545591/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000193-130-000-facs001-l002">
+         <surface type="recto" xml:id="D_000193-130-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545593/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000193-130-000-facs001-l003">
+         <surface type="recto" xml:id="D_000193-130-000-facs001-l003-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545595/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000193-130-000-facs001-l004">
+         <surface type="recto" xml:id="D_000193-130-000-facs001-l004-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545597/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545599/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545601/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545603/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545605/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            <pb xml:id="D_000193-130-000_p001" facs="#D_000193-130-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_fd74f040-c8d4-47af-9fa5-9278ee29b0af">
+                <lb xml:id="uuid_3251216a-0109-47b0-8719-2da5c89bcb4a"/><note
+                    hand="#D_000193-130-000-hand01">Briefpapier Dr. Samek</note>
+            </p>
+            <p xml:id="uuid_3691f3e3-a26d-480d-8952-47da9c06e9fd">
+                <lb xml:id="uuid_74e7fec3-be41-48e8-86be-14151b78093f"/>Sehr geehrter <rs
+                    ref="#38605" type="person">Herr</rs>! </p>
+            <p xml:id="uuid_ed718294-91fa-479d-a66c-7ebecc1ccc89">
+                <lb xml:id="uuid_47391a32-bb87-4a00-b40e-7806654de531"/>Der Zeitersparnis wegen
+                wende ich mich an Stelle des<lb xml:id="uuid_76aad4c5-8f2a-4bac-9dfe-6d576d3cab19"
+                />Herrn Dr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43593" type="person">Johann
+                    Turnovsky</rs> in <rs ref="#652" type="place">Prag</rs> als der ständige Wiener
+                    Anwalt<lb xml:id="uuid_5c57a3f1-491b-4b94-9819-f8a57050bccb"/>des Herrn <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>,
+                Herausgebers der ‚<rs ref="#41244" type="work" subtype="pmb">Fackel</rs>‘, an Sie,
+                um Sie<lb xml:id="uuid_13a58fdd-a921-424d-baaa-8c3aa7e54665"/>über die Irrtümer in
+                Ihrer <rs ref="#57789" type="work" subtype="pmb">Veröffentlichung vom 17. Mai</rs>
+                    aufzu<lb break="no" xml:id="uuid_81f8a295-4b67-4190-9a66-d91ed49976ea"/>klären.
+                Gewiß waren Sie „<quote source="#57791"
+                    xml:id="uuid_2a0a8579-6885-4076-b2ed-69be90662970">durch keine preßgesetzliche
+                    Norm gezwun<lb break="no" xml:id="uuid_9c8bb07f-39a8-443a-86b4-3a762d604510"
+                    />gen</quote>“, die Ihnen eingesandte <rs
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-119-000" type="work"
+                    subtype="legal-doc">Erklärung</rs> zu drucken, da es sich ja<lb
+                    xml:id="uuid_8878e736-48d1-4aac-998b-6c0f3451cbbe"/>um keine Berichtigung nach
+                    <rs ref="" type="law">§ 11</rs> gehandelt hat und handeln konnte.<lb
+                    xml:id="uuid_9e47c913-9de9-40c8-bd8e-070aa4d620bd"/>Nicht einmal eine
+                strafgesetzliche Norm, nämlich die des <rs ref="" type="law">Para<lb break="no"
+                        xml:id="uuid_0c034ac8-e9af-43d1-ba3f-e758a3269d66"/>graphen gegen
+                    Ehrenbeleidigung</rs>, hat Sie zur Veröffentlichung ge<lb break="no"
+                    xml:id="uuid_5a428309-146f-4b3f-b489-db3fc0424c12"/>zwungen, wenn Sie eine Klage
+                gemäß diesem Gesetz riskieren woll<lb break="no"
+                    xml:id="uuid_c2de329e-4cc9-49e8-bf89-76e2d50c9fb4"/>ten. Da Sie nicht gezwungen
+                waren, so waren Sie auch zunächst be<lb break="no"
+                    xml:id="uuid_6af6aa53-0fe8-4a9c-8bc4-efb426c9f4d9"/>rechtigt, eine Stelle
+                auszulassen, wenngleich Sie zur Orientie<lb break="no"
+                    xml:id="uuid_7e532b79-67bb-4273-aa90-09355c8a7279"/>rung des Lesers nach dem
+                Bekenntnis dieser Auslassung vielleicht<lb
+                    xml:id="uuid_0b433f68-126c-41a2-a6d0-c1c96f65047f"/>durch Punkte oder Striche,
+                die dem Fragment voranzusetzen waren,<lb
+                    xml:id="uuid_6efa1229-53c6-4bff-a954-14803f9e3639"/>dem „<quote source=""
+                    xml:id="uuid_c9976930-ee02-4487-b1a3-09815c9ebbc3">Anschein</quote>“ hätten
+                begegnen sollen, als ob innerhalb des Ge<lb break="no"
+                    xml:id="uuid_1ef04712-7789-440b-a8c3-0d5206593a1b"/>druckten etwas gestrichen
+                wäre. Durch keine preßgesetzliche Norm<lb
+                    xml:id="uuid_500eefc1-d324-4820-8ab4-e07166dc89af"/>waren Sie aber vor allem
+                gezwungen, die <rs ref="#57682" type="work" subtype="pmb">Berichtigung des Herrn<lb
+                        xml:id="uuid_2c4ecdb5-5cd3-401b-94f8-4c30050b507e"/><rs ref="#43638"
+                        type="person">Dr. Schwelb</rs></rs> zu drucken, welche geradezu das
+                Schulbeispiel der Ge<lb break="no"
+                    xml:id="uuid_1420bb20-d2b9-482d-927d-07beeb3cbab9"/>setzwidrigkeit vorstellt.
+                Richtig ist, daß Sie sie drucken <hi rend="underlined">wollten</hi>
+                <lb xml:id="uuid_57effc4c-b430-4fea-941b-6ab602b70871"/>und ohne besondere
+                juridische Erwägung gedruckt haben, um Herrn<lb
+                    xml:id="uuid_6864a7a8-4b80-4d05-ba62-001548666aea"/><rs ref="#43638"
+                    type="person">Dr. Schwelb</rs>, wie schon mit dem Bericht, den er durch das
+                    Tsche<lb break="no" xml:id="uuid_1c33ae05-89b3-443d-bb45-c97db5946409"
+                />choslowakische Preßbüro versenden ließ, noch einmal und umso mehr<lb
+                    xml:id="uuid_e8ec6ef0-e9ee-44e5-aef2-412827c0b2f6"/>Gelegenheit zu geben, die
+                Version, sein <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                    >Klient</rs> sei nach einem<lb
+                    xml:id="uuid_dd47527c-0a94-4f5f-a1cf-076b2ff124cc"/>Wahrheitsbeweis und nicht
+                wegen einer Formalität, die er zuhilfe<lb break="no"
+                    xml:id="uuid_a5463082-714e-4390-be40-df6fcb1785f8"/>nahm, freigesprochen worden,
+                in Umlauf zu bringen. Ja, Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                    type="person">Karl<lb xml:id="uuid_bfd326a3-48b8-40d4-bf6b-ba859a0e4ce2"
+                    />Kraus</rs> vermutet, daß Sie <hi rend="underlined">seine</hi>
+                <rs type="work" subtype="legal-doc">Berichtigung</rs>, die zwar die Wahr<lb
+                    break="no" xml:id="uuid_ed64020c-6977-4dcb-be5b-b2c8ef49330c"/>heit sagte, aber
+                eine, die sich nicht dem <rs ref="" type="law">§ 11</rs> anpassen ließ,<lb
+                    xml:id="uuid_b44e3be7-ff2a-430b-9392-667cb654ddbf"/>nach ursprünglicher
+                Ablehnung gebracht haben, weil Herr <rs ref="#43638" type="person">Dr. Schwelb</rs>
+                <lb xml:id="uuid_39de2a6b-813d-4851-852f-dcfb02a17f12"/>diese Gelegenheit zu jenem
+                Zweck besonders geeignet fand. Daß Sie<lb
+                    xml:id="uuid_60de6b28-e3bd-46be-8b32-691adc5a68ac"/>die <rs ref="#57682"
+                    type="work" subtype="pmb">Gegenberichtigung</rs> nicht mit dem Zusatz versahen,
+                Sie seien<lb xml:id="uuid_23afe7d3-473c-4de5-a3b9-1ef92ce17b73"/>durch keine
+                preßgesetzliche Norm zur Veröffentlichung gezwungen,<lb
+                    xml:id="uuid_fb51ce90-d6ee-4b68-806d-404a837ef52b"/>mit einem Zusatz, den Sie
+                doch zweimal dem Abdruck wahren Sach<lb break="no"
+                    xml:id="uuid_b7cef570-8781-41ec-a5aa-223c5a92dbbb"/>verhalts nicht erspart
+                haben, war vielleicht ein Regiefehler. Die <pb xml:id="D_000193-130-000_p002"
+                    facs="#D_000193-130-000-facs001-l002-p002" n="2"/>
+                <lb xml:id="uuid_73d5bed3-4159-4b4e-966e-33acd3348ebf"/>Auslassung der einleitenden
+                Sätze der Ihnen zuletzt gesandten Er<lb break="no"
+                    xml:id="uuid_64dd62e3-732a-4fbf-9252-b998f9d2bd88"/>klärung beweist vollends,
+                daß nicht Respekt vor einer angeblichen<lb
+                    xml:id="uuid_13ebbcf0-8138-45d9-9801-846f9cb1c78f"/>Norm, sondern die
+                Bereitwilligkeit, dem Plan des ‚<rs ref="#37540" type="institution"
+                    >Sozialdemokrat</rs>‘<lb xml:id="uuid_8d5fd8cb-e8cd-415e-8cba-9c177e645e85"/>und
+                seines Vertreters beizustehen, den Beweggrund Ihres Druckens<lb
+                    xml:id="uuid_b6cc2d77-7f54-45cf-9cbd-8c80acc9b8e9"/>wie Nachdruckens gebildet
+                hat. Das gehört freilich in das Gebiet<lb
+                    xml:id="uuid_56e7d20b-9390-4a68-85b1-35c99daa2a4b"/>Ihrer redaktionellen
+                Erwägungen wie gewiß auch der Umstand, daß<lb
+                    xml:id="uuid_e88b32fc-ca12-4031-91ca-3c61fdc94857"/>Sie von keinem der vielen
+                erfolgreichen Prozesse, die mein <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                    type="person">Klient</rs>
+                <lb xml:id="uuid_b6206ad8-8c72-4cf6-91cb-f4caf3f102dd"/>in <rs ref="#652"
+                    type="place">Prag</rs> geführt hat, Notiz genommen haben, etwa von der
+                    Verurtei<lb break="no" xml:id="uuid_330a79b4-6c81-4eb2-a1dd-f7c154d53daa"/>lung
+                des Herrn <rs ref="#43638" type="person">Dr. Schwelb</rs> selbst wegen einer
+                    unqualifizierbaren<lb xml:id="uuid_42724293-38a0-45c2-902b-17f9209ed7b9"
+                />Beschimpfung meines <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                    type="person">Klienten</rs> zu drei Tagen Arrests mit einem Fast<lb break="no"
+                    xml:id="uuid_c95d7e96-8117-4d80-8079-0892bbe7bfcd"/>tag, wenngleich bedingt, so
+                doch interessant. Aber daß Sie so be<lb break="no"
+                    xml:id="uuid_72ff22eb-edad-44fe-9006-bd0d82973f56"/>reitwillig unrichtige Notiz
+                nahmen von einem für meinen <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                    type="person">Klienten</rs>
+                <lb xml:id="uuid_8354a38f-8305-4a26-a1fe-380b4f15f8bc"/>schlechten Ausgang und sich
+                mit allen Mitteln wehren, dessen Ur<lb break="no"
+                    xml:id="uuid_b75e92fa-4085-4050-90b7-1429abbee90f"/>sache klarzustellen, steht
+                doch in starkem Widerspruch zu der<lb
+                    xml:id="uuid_74a1eaf8-217e-47f7-b3b2-d164ce807956"/>Hochachtung, die Sie ihm
+                noch zu einer Zeit entgegenbrachten, da<lb
+                    xml:id="uuid_b5d525ab-b0d2-4e38-990b-63543ba5d3c4"/>Sie längst wußten, daß sie
+                nicht auf Gegenseitigkeit beruhe. Nun<lb break="no"
+                    xml:id="uuid_9e2af0b0-ab0b-4c64-94ba-bf8f829fc51c"/>mehr machen Sie sich nichts
+                daraus den sensationelleren Teil der<lb
+                    xml:id="uuid_59626a4e-9d09-4ec8-9f56-b34be1610d35"/>„Erklärung“ auf sich zu
+                nehmen, wiewohl darin, juristisch be<lb break="no"
+                    xml:id="uuid_ad9d3bee-8a40-4c7c-93f0-a1e3632f4e1c"/>trachtet, „<quote
+                    source="#57791" xml:id="uuid_1942e429-7b99-4dee-8d92-010ceb5d2883">Beleidigungen
+                    dritter Personen</quote>“ enthalten sind, wie<lb
+                    xml:id="uuid_25b9a898-e719-4564-b272-73f93765268e"/><rs ref="#12504"
+                    type="person">Reinhardts</rs>, <rs ref="#11715" type="person">Hitlers</rs>, <rs
+                    ref="#24444" type="person">Schobers</rs>, <rs ref="#37843" type="person"
+                    >Bekessys</rs> und vor allem der Führer<lb
+                    xml:id="uuid_9fea1784-a254-4640-99c6-48d7feb75cfe"/>der österreichischen
+                Sozialdemokratie. Aber zur Veröffentlichung<lb
+                    xml:id="uuid_902277f5-7d73-41b2-a4f3-4804356d91f0"/>„<quote source="#57791"
+                    xml:id="uuid_158c70d5-80b6-43c2-9ce7-b4540dbfd693">jener Stellen, die dritten
+                    Personen den Anlaß zu einer Ehrenbe<lb break="no"
+                        xml:id="uuid_dd4e5e08-8a8f-4213-858c-f6d5b287c0ec"/>leidigungsklage gegen
+                    das ‚<rs ref="#29259" type="institution">Prager Tagblatt</rs>‘ geben könnten</quote>“, füh<lb break="no" xml:id="uuid_3e6564a9-a567-460e-9bd7-0f5cc627a70e"/>len
+                Sie sich weder gezwungen noch geneigt. Es kommt nur eine ein<lb break="no"
+                    xml:id="uuid_5dd8ef2b-5c33-4b8d-8ab4-2356a2f8c675"/>zige Stelle in Betracht und
+                eine einzige dritte Person, welcher<lb
+                    xml:id="uuid_31d2cd1f-8bb8-448e-9caa-f456ab8dbfa7"/>die Stelle wohl unerwünscht
+                wäre, aber nie den Anlaß zu einer<lb
+                    xml:id="uuid_82f26884-6083-494b-a827-da9c7e968889"/>Ehrenbeleidigungsklage gegen
+                Sie bieten könnte: Herr <rs ref="#43638" type="person">Dr. Schwelb</rs>.<lb
+                    xml:id="uuid_71d9752c-a8e8-4ec5-bf5e-eebc80b0eb88"/>Ich garantiere Ihnen mit
+                meiner strafrechtlichen Erfahrung, daß<lb
+                    xml:id="uuid_60354667-b1f9-4efe-8478-b0ace9815a11"/>Sie nicht den geringsten
+                Grund haben, eine Verfolgung von dieser<lb
+                    xml:id="uuid_8d994c71-0c59-4b7e-8445-e13f65295bcc"/>Seite wegen Abdrucks jener
+                Stelle zu befürchten. Denn „<quote source=""
+                    xml:id="uuid_cd5d43b0-a42c-4907-8bb0-881384b53733">der durch<lb
+                        xml:id="uuid_880ae8aa-2d88-4d34-bf34-24811bda6fe5"/>die <rs type="work"
+                        subtype="pmb">Berichtigung</rs> des Herrn <rs ref="#43638" type="person">Dr.
+                        Schwelb</rs>
+                    <hi rend="underlined">bewirkte An<lb break="no"
+                            xml:id="uuid_45d26617-ff68-4f29-aea2-ebcfd3e2ac9d"/>schein</hi></quote>“
+                ist objektiv keine Beleidigung, und wenn er selbst stär<lb break="no"
+                    xml:id="uuid_8ca5eede-397f-47ff-ad78-e5284f1bbecb"/>ker bezeichnet und auf seine
+                Absicht zurückgeführt wäre, mit dem<lb
+                    xml:id="uuid_a3bb964a-a46f-4674-a479-85ca926d029c"/>ganzen aktenmäßigen
+                Sachverhalt, mit dem wir Ihnen erforderlichen<lb break="no"
+                    xml:id="uuid_3a3851b8-10ab-4b3d-9a52-99748a4d8e82"/>falls als Zeugen zur
+                Verfügung stünden, nachweisbar. Der ‚<rs ref="#37540" type="institution">Sozial<lb
+                        break="no" xml:id="uuid_e99d0e01-9b36-4a44-ae76-3c0393d9ed25"
+                />demokrat</rs>‘ hat zwar dem groß angekündigten Wahrheitsbeweis, den er<lb
+                    xml:id="uuid_d20e1c6c-5a56-4a98-91a9-b2a30e26d826"/>führen wollte, den übel
+                angewandten <rs ref="" type="law">§ 18</rs> vorgezogen, aber daß er,<lb
+                    xml:id="uuid_9d7a47e4-1066-46a6-abf7-6d3a54cd4cc3"/>über die Berichte und
+                Berichtigungen, die er Ihnen zumutet, hinaus<lb
+                    xml:id="uuid_92475ebb-a449-407f-bd39-4ee312777bf4"/>noch Lust hätte, mit solcher
+                Ausflucht in einer hoffnungslosen<lb
+                    xml:id="uuid_305560c8-fa7f-4573-b8a4-a84f9601d49b"/>Gerichtsverhandlung zu
+                renommieren, ist unvorstellbar. Ich zweifle <pb xml:id="D_000193-130-000_p003"
+                    facs="#D_000193-130-000-facs001-l003-p003" n="3"/>
+                <lb xml:id="uuid_47973070-c4a4-4aab-afbd-768187883489"/>nicht, daß Sie das genau so
+                gut wissen wie wir, aber Sie geben dem<lb
+                    xml:id="uuid_90e86e92-4a3c-45a3-8fb8-87c69d97bbd2"/>„<quote source=""
+                    xml:id="uuid_6e8ef067-88ad-4697-8d8c-60fe56b703da">Anschein</quote>“ Raum, als
+                ob Sie eine Klage des Herrn <rs ref="#43638" type="person">Dr. Schwelb</rs> mehr<lb
+                    xml:id="uuid_425730db-78d9-455a-b2f8-05179d9aad30"/>fürchten müßten als eine des
+                Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+                    Kraus</rs>. Stünden Sie wirk<lb break="no"
+                    xml:id="uuid_19967dc5-d6f8-4358-b590-337c8b731b86"/>lich vor dieser Wahl, so
+                gebe ich Ihnen als Jurist zu bedenken,<lb
+                    xml:id="uuid_4c398846-f430-49bd-8b73-533f136b1118"/>daß die Stelle, die Sie
+                ausgelassen haben, von keiner Instanz als<lb
+                    xml:id="uuid_75f63535-6b45-4448-958a-a3f14f38b49b"/>Beleidigung erkannt würde,
+                weit eher schon die Auslassung, nämlich<lb
+                    xml:id="uuid_d28ee9a1-f144-47f7-b6dd-4072f61b9ba4"/>als die Tatsache, daß Sie
+                sich – und dies allein war ein Grund,<lb
+                    xml:id="uuid_0d03762c-7f13-4c03-8f01-9f4dc2f8ccf4"/>die durchaus ungesetzliche
+                Berichtigung abzulehnen – die Version<lb
+                    xml:id="uuid_b876b958-5491-4d71-8737-076da33031cb"/>zu eigen gemacht und
+                verbreitet haben, als ob irgendeine Spur von<lb
+                    xml:id="uuid_0e54a17e-ab6e-4022-94a4-217ae2e47980"/>Beweis zum Freispruch des
+                    ‚<rs ref="#37540" type="institution">Sozialdemokrat</rs>‘ auch nur das
+                    Geringste<lb xml:id="uuid_aed5a693-6c42-4d1f-ae99-e7f3dd454a27"/>beigetragen
+                hätte. Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+                    Kraus</rs> mag erklären und Sie erklären<lb
+                    xml:id="uuid_6654bb97-9b5e-4e74-9854-a982bafb81d0"/>lassen, wie er zur
+                Prozeßmaterie steht – daß im „<quote source=""
+                    xml:id="uuid_1ec3a2e2-0a66-4158-87b9-0aab480fd707">Materiellen</quote>“ gegen<lb
+                    xml:id="uuid_c04cc889-0ef4-47a5-953f-719e8fa20055"/>ihn entschieden wurde, soll
+                nicht mehr aus der Vorstellung Ihrer<lb
+                    xml:id="uuid_c7e5c0df-2f67-44ff-b295-00ba0d35beb2"/>Leser entfernt werden. Hätte
+                nach Bericht und Berichtigung noch<lb
+                    xml:id="uuid_e4a505bd-b094-473c-8e69-370a89640f4d"/>ein Zweifel bestanden, ob
+                die Vorbringung solcher Unwahrhaftigkeit<lb
+                    xml:id="uuid_8d40dabc-d51e-476b-adf6-ea207ac71d0d"/>eine Beleidigung wäre, so
+                kann er nach Ihrer Auslassung nicht<lb
+                    xml:id="uuid_be5e614e-3b8c-467b-abbb-61289a6cce15"/>mehr bestehen; denn wenn der
+                    „<quote source="" xml:id="uuid_74d24e11-d920-4487-ab05-4f9df9f198f0"
+                    >Anschein</quote>“ Herrn <rs ref="#43638" type="person">Dr. Schwelb</rs>
+                    belei<lb break="no" xml:id="uuid_5c87a72b-0a86-4277-b586-ff5b3fe20cef"/>digt, so
+                beleidigt dessen Inhalt <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                    type="person">Herrn Kraus</rs> umsomehr, und durch<lb
+                    xml:id="uuid_8fd146c8-cd8f-47c5-bd8a-86acba6ea94f"/>die Streichung der Wahrheit
+                tun Sie zum dritten Mal dar, daß Sie<lb
+                    xml:id="uuid_3c18ef24-3aee-44ef-bbdd-e73b5e55f72d"/>der Tendenz der Vernebelung
+                zu Hilfe kommen. Ich aber stelle zum<lb
+                    xml:id="uuid_729ffc30-19b5-4317-b17a-eb03c8b0bd13"/>letzten Mal die Sache vor
+                Ihr publizistisches Gewissen und forde<lb break="no"
+                    xml:id="uuid_a29fc77a-af5d-4388-a990-da57c3b6c9a6"/>re Sie auf, die Anerkennung
+                der Wahrheit, die sich gegenüber der<lb
+                    xml:id="uuid_9851d5fa-710a-43ae-9558-79418cc0975d"/>Technik des Tonfalls
+                wirklich durch keine preßgesetzliche Norm<lb
+                    xml:id="uuid_49c6b89b-0225-442d-a291-82a3dfc8c0da"/>erzwingen ließe, aus freiem
+                Willen vorzunehmen. </p>
+            <p xml:id="uuid_86fbdecd-8e74-4407-8e7d-37a396a5ba7d">
+                <lb xml:id="uuid_1bbb28b4-dcd0-4a1a-b8f9-8c32a738eec7"/>Mit vorzüglicher Hochachtung </p>
+            <p xml:id="uuid_6150e0dc-6ca7-4778-8eec-e98a6b1b87ee">
+                <lb xml:id="uuid_92a6f81b-9ed8-4623-975f-4fa229c9c59d"/><note
+                    hand="#D_000193-130-000-hand01">rek.</note>
+            </p>
+            <pb xml:id="D_000193-130-000_p004" facs="#D_000193-130-000-facs001-l004-p004" n="4"/>
+            <p xml:id="uuid_2abb7b3a-4ea2-4d20-bd93-1a22dd2955ee">
+                <lb xml:id="uuid_6bc6fed4-9639-49f6-bd49-dc64877e60dd"/><hi rend="underlined"><rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+                    und das österreichische Regime</hi>
+            </p>
+            <p xml:id="uuid_dd862cc8-5008-4908-afb3-e5e5306637c3">
+                <lb xml:id="uuid_90398c7c-90fa-46e0-b64b-0879134b8269"/>Zu der in der <rs
+                    ref="#57789" type="work" subtype="pmb">Nr. vom 17. Mai</rs>
+                <rs ref="#57791" type="work" subtype="pmb">unter diesem Titel veröffent<lb
+                        break="no" xml:id="uuid_93985b25-dda1-4bb6-8c4f-09c9bc521940"/>lichten
+                    Erklärung</rs> teilen wir ergänzend mit: </p>
+            <p xml:id="uuid_e98fc6fa-ddeb-4426-8756-b57084eded58">
+                <lb xml:id="uuid_90c91309-2356-4573-9f79-81e5d0c131fd"/>Wir haben in der <rs
+                    ref="#57678" type="work" subtype="pmb">Nummer 105 vom 5. Mai 1936</rs> eine<lb
+                    xml:id="uuid_7515c00b-0065-483b-9126-fbf64354c5be"/><rs ref="#57682" type="work"
+                    subtype="pmb">„Presseberichtigung“ des Herrn <rs ref="#43638" type="person">Dr.
+                        Schwelb</rs></rs> als rechtsfreund<lb break="no"
+                    xml:id="uuid_82679d3e-d04a-4f76-844d-cd75fe0f84a9"/>lichen Vertreters des
+                verantwortlichen Redakteurs des<lb
+                    xml:id="uuid_79b012d7-b841-49e5-91bd-2d0f2bd558d3"/>‚<rs ref="#37540"
+                    type="institution">Sozialdemokrat</rs>‘, Dr. <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/38644" type="person">Emil Strauss</rs>,
+                veröffentlicht. Diese<lb xml:id="uuid_0f4d15b6-40fc-470c-a6c1-1f2b19498e3e"/>„<rs
+                    ref="#57682" type="work" subtype="pmb">Presseberichtigung</rs>“ richtet sich
+                gegen die unter dem Titel<lb xml:id="uuid_9abf9b94-649f-4b6e-9854-4a94939844a9"
+                    />„<rs ref="#57684" type="work" subtype="pmb">Prozess <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+                    – ‚<rs ref="#37540" type="institution">Sozialdemokrat</rs>‘</rs>“ im <rs
+                    ref="#57680" type="work" subtype="pmb">‚Prager Tagblatt‘<lb
+                        xml:id="uuid_b4e17eeb-c5fc-4f12-85bb-aa012835a0c2"/>vom 1. Mai 1936, Nr.
+                    103</rs>, veröffentlichte Nachricht. Wir ha<lb break="no"
+                    xml:id="uuid_44bc31f7-0e52-47e9-a1d4-891d8722db6d"/>ben uns überzeugt, daß die
+                Behauptung des Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                    type="person">Karl Kraus</rs>
+                <lb xml:id="uuid_5b54fee4-0ffc-47ad-b6df-b424a33350cf"/>wahr ist, der <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/38644" type="person">verantwortliche
+                    Redakteur des ‚<rs ref="#37540" type="institution">Sozialdemokrat</rs>‘</rs>
+                <lb xml:id="uuid_b595ec70-1b2b-4071-bb1e-777a34b241d2"/>sei aus einem <hi
+                    rend="underlined">formalen</hi> Grunde freigesprochen worden, und daß<lb
+                    xml:id="uuid_b4bf57cd-0409-4d1a-97a0-1a1d93a6ffff"/>der „<quote source="#57682"
+                    xml:id="uuid_d6fca18c-e374-40f2-b1dd-8f56e029d0c9">Grund des <hi
+                        rend="underlined">materiellen</hi> Strafrechtes</quote>“, auf den sich
+                    Herr<lb xml:id="uuid_01c7d04b-e25c-4e9e-9af9-72c961ff70e4"/><rs ref="#43638"
+                    type="person">Dr. Schwelb</rs> beruft (<rs ref="" type="law">§ 18 des
+                    Ehrenschutzgesetzes</rs>), eben die<lb
+                    xml:id="uuid_cc7055ee-ed2d-43b2-a6fc-132f43b7ef84"/>Unterlassung der Formalität
+                bedeutet, sich bei der Annahme<lb xml:id="uuid_10fe7adf-41e9-45a6-bd2c-ef31e00b07ad"
+                />einer Ehrenerklärung in einem anderen Prozeß die Verfolgung<lb
+                    xml:id="uuid_2f3371db-d09a-4275-88c4-10b33f94e9da"/>für das schwebende Verfahren
+                vorzubehalten. Wir haben uns<lb xml:id="uuid_cb72be9f-ed61-4991-8fc7-e0cf8af5f45a"
+                />überzeugt, daß der durch die Berichtigung des Herrn <rs ref="#43638" type="person"
+                    >Dr. Schwelb</rs>
+                <lb xml:id="uuid_1dd0930e-5a24-4698-b811-e38a1411aee8"/>bewirkte Anschein, als ob
+                der Wahrheitsbeweis, der allerdings<lb
+                    xml:id="uuid_13a63889-ebaa-4046-8d32-849c58bc20c0"/>„<quote source="#57682"
+                    xml:id="uuid_52da2f61-aa12-4459-bc28-afcfbfd5ad42"><hi rend="underlined"
+                        >angetreten</hi></quote>“ wurde, auch tatsächlich erbracht worden wäre
+                    und<lb xml:id="uuid_8c6971b4-b347-408f-a4c1-f13d3713bc77"/>als ob dies zu dem
+                Freispruch irgend etwas beigetragen hätte,<lb
+                    xml:id="uuid_f8453912-e6a4-40ef-8057-83bd1171c6cf"/>dem Sachverhalt
+                widerspricht.</p>
+          <p xml:id="uuid_b9fe2024-9c92-40f6-a2bb-da222c20c858"><lb/><note hand="#D_000193-130-000-hand01"
+                >rek.</note></p>
+        </body>
+   </text>
+</TEI>

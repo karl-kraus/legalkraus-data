@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000092-015-001.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000092-014-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000092-015-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Postkarte RA Heinrich Folgar-Deinhardstein an Samek</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000092-015-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2895</idno>
+            <idno subtype="transkribus" type="ID">231139</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000092" type="collection">Karl
+                    Kraus ca. Reichspost</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000092-015-000-facs001" xml:id="D_000092-015-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000092-015-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1928-01-10">10. Januar
+                    1928</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#50662">Heinrich Foglar-Deinhardstein</persName>
+               <address>
+                  <street corresp="#40492"/>
+                  <settlement ref="#51">Wien</settlement>
+               </address>
+               <date when-iso="1928-01-10">10. Jänner 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#38909">Wohlgeboren | Herrn Dr. Oskar Samek, | Rechtsanwalt</orgName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000092-015-000-wit01">Postkarte</term>
+            </keywords>
+            <classCode source="D_000092-015-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.PKT">D.K.PKT</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2021-04-15" who="#IL"/>
+         <change type="structure" when-iso="2021-04-12" who="#IL"/>
+         <change type="references" when-iso="2021-04-14" who="#IL"/>
+         <change type="typography" when-iso="2021-04-13" who="#IL"/>
+         <change type="intertexts" when-iso="2021-04-14" who="#IL"/>
+         <change when-iso="2020-07-17T07:42:56.247Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 231139. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000092-015-000-facs001">
+      <surfaceGrp xml:id="D_000092-015-000-facs001-l001">
+         <surface xml:id="D_000092-015-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554556/full/full/0/default.jpg"/>
+         </surface>
+         <surface xml:id="D_000092-015-000-facs001-l001-p002" type="verso">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554557/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000092-015-000_p001"
+             facs="#D_000092-015-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_498b881e-36d5-409b-ae2c-daabf5469d52">
+            <note resp="law-firm" type="paratext">
+               <lb xml:id="uuid_27152c7a-c257-462d-bdf3-f3c649e995e2"/>11. Jan 1928<lb
+                  xml:id="uuid_35add2f8-99a6-461d-bf6d-d68cafcadda1"/><rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> –<lb
+                  xml:id="uuid_02c4d3d1-453b-40d5-b45d-87db37d5eeef"/><rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/40703" type="person"
+               >Schiffleitner</rs></note></p>
+         <pb xml:id="D_000092-015-000_p002"
+             facs="#D_000092-015-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_75da211c-8a30-4549-80fd-337081b74447">
+            <lb xml:id="uuid_8eaf4439-dcf6-4650-aa6f-290e5b9cd05e"/>Sehr geehrter Herr <rs
+               type="person" ref="#38909">Kollege</rs>! </p>
+         <p xml:id="uuid_0b0215f0-95fe-47c6-bdc6-018a5eb589ba">
+            <lb xml:id="uuid_3c7791ea-63a0-4960-93d0-01b5ac2aabc7"/>In der Angelegenheit <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/40703" type="person">Schiffleitner</rs> –<lb
+               xml:id="uuid_22ec826f-13ed-4322-9fd1-ace414d622bd"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> bestätige ich
+            den Empfang eines Kosten<lb break="no"
+               xml:id="uuid_568d268a-066c-4cd6-86ff-e4dd974ae515"/>betrages von S 158.85. </p>
+         <p xml:id="uuid_f9af90e5-213f-4b18-a226-69c7af185023">
+            <lb xml:id="uuid_205fa5d7-205d-401d-be3c-2c8d6cf6626b"/>Mit kollegialer Hochachtung<lb
+               xml:id="uuid_102bcd49-2f4b-448d-9be7-87fca598b7ec"/><rs type="person" ref="#50662"
+               >Deinhardstein</rs></p>
+      </body>
+   </text>
+</TEI>

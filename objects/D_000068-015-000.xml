@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-016-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-014-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000068-015-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Justizrat Viktor Fraenkl an Samek</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000068-015-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2518</idno>
+            <idno subtype="transkribus" type="ID">203499</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000068" type="collection">Karl
+                    Kraus ca. Alfred Kerr</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000068-015-000-facs001" xml:id="D_000068-015-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000068-015-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38141">Justizrat | Victor Fraenkl </persName>
+               <address>
+                  <street corresp="#362">Potsdamer Strasse 86 b</street>
+                  <settlement ref="#168">Berlin W.57</settlement>
+               </address>
+               <date when-iso="1927-05-15">15. Mai 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn Rechtsanwalt Dr. O. Samek</persName>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#50">Wien</settlement>
+               </address>
+               <date when-iso="1927-05-16">16. Mai 1927</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-05-15">15. Mai 1927</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000068-015-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000068-015-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2021-03-10"
+                 who="#IL"/>
+         <change status="draft" type="structure" when-iso="2021-03-03" who="#IL"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-03-10"
+                 who="#IL"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-03-10"
+                 who="#IL"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-03-10"
+                 who="#IL"/>
+         <change status="draft" when-iso="2020-03-10T12:16:55.985Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 203499. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2021-11-30"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-11-30"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000068-015-000-facs001">
+      <surfaceGrp xml:id="D_000068-015-000-facs001-l001">
+         <surface type="recto" xml:id="D_000068-015-000-facs001-l001-p001">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552151/full/full/0/default.jpg"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-015-000-facs001-l001-p002">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552152/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000068-015-000_p001"
+             facs="#D_000068-015-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_e2907152-e16c-49f6-8bf2-f816e302fae2">
+            <lb xml:id="uuid_07adb7aa-9f9c-4ee6-9ccd-3b56b4ee4c81"/>Sehr geehrter <rs ref="#38909" type="person">Herr College</rs>, </p>
+         <p xml:id="uuid_931cfc73-b502-4638-bdf3-0418a6f7d068">
+            <lb xml:id="uuid_3dda6c6e-e863-44f3-98db-5b455c5bf125"/>in der Privatklagesache <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> gegen
+                    <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11910" type="person">Kerr</rs>
+                beeile ich mich, Ihnen<lb xml:id="uuid_3b878e98-1d4c-4f3e-8d2b-a8eba9d0d3c5"/>auf
+                Ihre heute eingetroffene <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-014-000"
+                type="work"
+                subtype="legal-doc">Zuschrift</rs> zu erwidern, dass eine<lb xml:id="uuid_abe7d001-b08d-4c53-bf61-c9216edf2c91"/>Befristung nicht vorliegt.
+                Ich habe dem <rs ref="#36362" type="institution">Gericht</rs> bereits am 5.<lb xml:id="uuid_c195ce13-57e9-4dc4-9051-bd5f7f8b417b"/>Mai mitgeteilt, ich würde
+                mich voraussichtlich noch schriftlich<lb xml:id="uuid_a88d01ec-257a-4a2a-860b-716181bb1de0"/>äussern. Das hindert das <rs ref="#36362" type="institution">Gericht</rs> aber nicht, schon vorher einen<lb xml:id="uuid_783c5674-4c02-41e7-a82b-daac1c5e76cd"/>Beschluss über die Eröffnung
+                des Hauptverfahrens zu erlassen. </p>
+         <p xml:id="uuid_aa226073-4b7c-44db-a325-7417f00f4ad7">
+            <lb xml:id="uuid_b24170fb-ede6-459c-b9fd-e0b629a7b901"/>Den gegnerischen <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-010-000.xml"
+                type="work"
+                subtype="legal-doc">Schriftsatz</rs> füge ich wieder bei, da ich<lb xml:id="uuid_63921780-e3db-4e15-9295-5564b11fbf8d"/>noch ein Exemplar habe. </p>
+         <p xml:id="uuid_4cef96cc-6fc9-44ab-9ad9-652244f26b02">
+            <lb xml:id="uuid_54cf64e2-e2b8-4a5e-a434-0daf7b1f68aa"/>Mit kollegialem Gruss<lb xml:id="uuid_88473b0a-ae80-45a1-823a-b5c580773876"/>Ihr<lb xml:id="uuid_bb51e20f-670c-413e-8f0e-eff1a62dcfdf"/><rs ref="#38141" type="person">Victor Fraenkl</rs>
+         </p>
+         <pb xml:id="D_000068-015-000_p002"
+             facs="#D_000068-015-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_367a3650-5d00-4bb4-8d72-9c9886415e35">
+               <lb xml:id="uuid_cc2db990-2240-4321-bf44-65646916e1b0"/><note resp="law-firm" type="paratext"><rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> – <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11910" type="person">Kerr</rs>
+               <lb xml:id="uuid_6794ca31-a1d2-48e1-b2c2-2871c4cd847f"/>6. Mai 1927</note>
+         </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000187-005-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000187-003-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000187-004-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Johann Turnovsky an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000187-004-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4504</idno>
+            <idno subtype="transkribus" type="ID">362662</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000187" type="collection">Karl
+                    Kraus ca. Der Aufruf (Prag)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000187-004-000-facs001" xml:id="D_000187-004-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000187-004-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSU">Typoskript mit handschriftlichen Überarbeitungen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#43593">JUDr. JOHANN TURNOVSKY | Advokat</persName>
+               <address>
+                  <street corresp="#51737">Vodičkova 33</street>
+                  <settlement ref="#652">PRAG II.</settlement>
+               </address>
+               <date when-iso="1933-11-20">20.XI.1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/38909">P.T. | Herrn Dr. Oskar
+                        Samek, Advokat</persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse 18</street>
+                  <settlement ref="#64">Wien – XIV.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1933-11-20">20. November 1933
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote cert="high"
+                      medium="black-ink"
+                      resp="#JK"
+                      scribeRef="#43593"
+                      source="#D_000187-004-000-wit01"
+                      xml:id="D_000187-004-000-hand01"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000187-004-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000187-004-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-06-14" who="#JK"/>
+         <change type="typography" when-iso="2021-06-14" who="#JK"/>
+         <change type="references" when-iso="2021-06-14" who="#JK"/>
+         <change type="structure" when-iso="2021-06-14" who="#JK"/>
+         <change when-iso="2020-10-10T05:49:46.024Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-10T10:27:23.071Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 362662. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000187-004-000-facs001">
+      <surfaceGrp xml:id="D_000187-004-000-facs001-l001">
+         <surface xml:id="D_000187-004-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544315/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000187-004-000-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544316/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000187-004-000_p001"
+             facs="#D_000187-004-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_49a2fb5d-8070-4d59-892a-276adb6a3c6b">
+            <lb xml:id="uuid_aa4ea7e7-3cff-48c3-a3a8-03db78f37db0"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38909" type="person">Herr Doktor</rs>. </p>
+         <p xml:id="uuid_6da66b89-7bad-4984-8bfd-c030ac7b6ab9">
+            <lb xml:id="uuid_45fb93d5-82b3-4033-a554-d2f5bdceaba8"/>Ich bestätige den Empfang
+                Ihrer gesch.<lb xml:id="uuid_d00625a8-01dc-41ce-9f50-dcc287b92781"/><rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000187-003-000"
+                type="work"
+                subtype="legal-doc">Zuschrift vom 17. l.M.</rs> in Angelegenheit des Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl<lb xml:id="uuid_9712314a-a54f-4bac-867b-04cabb6b9630"/>Kraus</rs> ca: ‚<rs ref="https://pmb.acdh.oeaw.ac.at/entity/37264" type="institution">Aufruf</rs>‘
+                und bemerke, dass ich in dieser Ange<lb break="no" xml:id="uuid_cf0b51c1-30c8-4c02-b45c-304933c4ce94"/>legenheit von Ihnen bereits
+                zwei nichtunterfertigte <rs type="work">Briefe<lb xml:id="uuid_2a191144-ebe7-45eb-bf7c-e19a99d5d9f5"/>vom 11.</rs> und <rs type="work">14. l.M.</rs> erhalten habe, die ich meritorisch<lb xml:id="uuid_ad4a5cbf-4052-4ca8-bd36-07beb06a21a5"/>mit meinem <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000187-002-000"
+                type="work"
+                subtype="legal-doc">Schreiben vom 15. l.M.</rs> beantwortet habe. </p>
+         <p xml:id="uuid_2679f7ff-a922-43b0-a9ad-ad06792c5444">
+            <lb xml:id="uuid_9ed0d627-a042-44f2-b067-f210087d91e0"/>Da ich nicht weiss, ob dieser
+               <rs type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000187-002-000">Brief</rs> an<lb
+               break="no" xml:id="uuid_827d993f-2303-4097-b1a3-d2130391e1e5"/>gekommen ist, gestatte
+            ich mir, Ihnen die Rechtslage nach<lb xml:id="uuid_fc6d9402-fbd7-4762-a478-aede10c7d726"
+            />dem čsl. Urheberrecht zu erläutern. Das Zitierrecht ist<lb
+               xml:id="uuid_02e7e874-2789-4cd6-b8f6-2ac29e84c504"/>nach unserem Gesetze im <rs
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=484&amp;size=45"
+               type="law">§ 23 Zahl. 2</rs> geregelt. </p>
+         <p xml:id="uuid_a4238c6a-6e6b-4cdf-883d-b13e27b8552f">
+            <lb xml:id="uuid_e6391312-e6b3-4efb-b6f7-4b742861cabc"/>Nach diesem bedeutet <subst
+               hand="#D_000187-004-000-hand01">
+               <del hand="#D_000187-004-000-hand01">,dass</del>
+               <add hand="#D_000187-004-000-hand01">es</add>
+            </subst> es kein<add hand="#D_000187-004-000-hand01">en</add> Eingriff in die Urheber<lb
+               break="no" xml:id="uuid_dee43d18-2d48-4d8c-ae57-6fa3eb55d261"/>rechte, wenn einzelne
+            Stellen oder Teile eines herausge<lb break="no"
+               xml:id="uuid_8c9be30e-7707-4f03-8ca8-caccc616e004"/>gebenen Werkes ohne Aenderung
+            ihres Sinnes wörtlich<lb xml:id="uuid_b9429934-8a07-4366-ba35-072df89ba949"/>zitiert
+            werden, wobei allerdings der Autor oder die benützte<lb
+               xml:id="uuid_af2b1796-e0ca-4019-87db-aa555e6db2ac"/>Quelle angeführt erscheinen
+            müssen. Auch ich glaube, dass<lb xml:id="uuid_b06eb5c4-cf86-44be-995b-cc8dd369a0c5"/>es
+            sich im Falle der Verwendung des <rs type="work" subtype="pmb"
+               ref="https://fackel.oeaw.ac.at/f/888,004">Gedichtes</rs> als<lb
+               xml:id="uuid_f2fc9fca-20a7-4398-9112-e879f004a89e"/>Einleitung zu einem Artikel, der
+            sich mit dem Autor dieses<lb xml:id="uuid_6b3c1fcf-ac50-4522-9bc2-220d9a04d4c4"
+            />Gedichtes befasst, nicht um ein Zitat im Sinne der eben<lb break="no"
+               xml:id="uuid_b269d945-481d-4ff7-a3be-0e743e85989b"/>erwähnten Bestimmung handeln
+            kann. Das <rs ref="https://fackel.oeaw.ac.at/f/888,004" type="work" subtype="fackel"
+               >Gedicht</rs> wurde<lb xml:id="uuid_6be0f9b2-ee29-469c-be90-58ed46897abb"/>nicht dazu
+            angeführt, um den Inhalt des betreffenden <rs type="work" subtype="pmb" ref="#55910"
+                  >Ar<lb break="no" xml:id="uuid_53bb54c5-e852-4b45-8dc7-a620cbdbdbca"/>tikels</rs>
+            von <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43586" type="person">Verneau</rs>
+            klarzustellen, die Stellungnahme des<lb
+               xml:id="uuid_372289da-affd-4744-9a68-5253a6c1c50e"/><rs type="person"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/43586">Autors</rs> zu begründen, Gegenstand
+            der Kritik oder Polemik<lb xml:id="uuid_6030f13a-176f-46ac-a873-6464e62d62dd"/>mit dem
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Dichter</rs> zu
+            bilden. Gemäss <rs
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=484&amp;size=45"
+               type="law">§ 24 Zahl 2</rs> unseres <pb xml:id="D_000187-004-000_p002"
+               facs="#D_000187-004-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_58c5c7fc-eb55-4e33-8a38-eb4fd63cef91"/>Gesetzes über das Urheberrecht
+            ist es verboten, ohne Ein<lb break="no"
+               xml:id="uuid_013c2078-16ac-493b-af1d-b5d67710da84"/>willigung des Autors
+            Romanfeuilletons, Novellen und Ge<lb break="no"
+               xml:id="uuid_7ac1532d-3b2c-4dce-8275-c2bbe75461ce"/>dichte, sowie Abhandlungen,
+            belletristischen, wissen<lb break="no"
+               xml:id="uuid_738cf95e-0855-4d25-80f5-5dfd04fc0726"/>schaftlichen, technischen oder
+            künstlerischen Inhaltes,<lb xml:id="uuid_4be3a4f9-4796-436e-a0e8-6b93cff915b9"/>welche
+            in Zeitungen oder in periodischen Zeitschriften<lb
+               xml:id="uuid_9e04e5ba-03f3-4fbd-a8e9-3923df278460"/>erschienen sind, abzudrucken,
+            wenn der Autor hiezu nicht<lb xml:id="uuid_f0b4f94e-3a18-4259-bdf6-096b1a6b12db"/>seine
+            Einwilligung erteilt hat. Dies ist auch dann der Fall,<lb
+               xml:id="uuid_5da9241f-6756-4b4b-8921-d515ead5a43a"/>wenn in der betreffenden Zeitung
+            oder Zeitschrift die Klausel<lb xml:id="uuid_d8b24aa6-d3a9-4810-a1e9-73e01a28cfc3"
+            />„Nachdruck verboten“ nicht beigesetzt war. </p>
+         <p xml:id="uuid_7436c844-7314-4b66-a147-48855ab320f5">
+            <lb xml:id="uuid_ea978b12-9b5b-4a1a-abf1-f8da01e2fc07"/>Deswegen glaube ich, dass
+                der Nachdruck des <rs ref="https://fackel.oeaw.ac.at/f/888,004"
+                type="work"
+                subtype="fackel">Gedichtes</rs>
+            <lb xml:id="uuid_1cbe7101-3993-40ad-bf84-cb06bf0561a9"/>unstatthaft ist und dass <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herr Kraus</rs>
+                berechtigt ist, den<lb xml:id="uuid_5ebe055a-2707-431b-a667-f4c34ace4a27"/>Sühnebetrag zu Gunsten des <rs ref="#55913" type="institution">Flüchtlingskomites</rs> zu begehren. </p>
+         <p xml:id="uuid_486ee44c-c955-4ee9-9ee3-b7c0ef8a260d">
+            <lb xml:id="uuid_0b00415d-5bfc-40ab-8bdb-3a5e9aaa4ed4"/>Was nun die Berichtigung
+                anbelangt, so gilt bei<lb xml:id="uuid_d9eda8d0-95a2-4270-89a9-8cfe6b28fab2"/>uns
+                nunmehr der <rs ref="" type="law">§ 11 der Pressenovelle aus dem Jahre 1933</rs>.<lb xml:id="uuid_e37395bf-f6ac-483a-b3fa-db7a50892c1a"/>Dieser Paragraf ist dem <rs ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45"
+                type="law">§ 19 des alten Pressegesetzes</rs> nach<lb break="no" xml:id="uuid_f050bbab-eb8d-4b7a-8517-5e38f04eef37"/>gebildet. Es handelt sich
+                allerdings um keine berichtigungs<lb break="no" xml:id="uuid_6646a09d-8540-4f03-8dce-3ce10c65e91a"/>fähige Mitteilung, sondern
+                um die fehlerhafte Zitierung<lb xml:id="uuid_534641d7-ea09-4f20-b506-fd5dcb4676f4"/>eines Gedichtes, sodass es fraglich sein könnte, ob die<lb xml:id="uuid_f685fc7d-7466-400b-8b2e-b85704d401ad"/>Richtigstellung des
+                fehlerhaft wiedergegebenen Textes nach<lb xml:id="uuid_c0936767-09be-44b3-b59c-1a168eec75d4"/><rs ref="" type="law">§ 11
+                    der Pressgesetz-Novelle</rs> verlangt werden kann.<lb xml:id="uuid_08088729-3152-4a3d-9f98-9e95886ac116"/>Trotzdem glaube ich, dass
+                man versuchen kann, die Rich<lb break="no" xml:id="uuid_dc303655-b922-4994-aeb0-57faddc25054"/>tigstellung zu begehren und
+                dass sie vom „<rs ref="https://pmb.acdh.oeaw.ac.at/entity/37264" type="institution">AUFRUF</rs>“ nicht<lb xml:id="uuid_553ef274-d0a9-48b6-93fb-d62142356076"/>verweigert werden wird, zumal sich der <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37889" type="person">verantwortliche<lb xml:id="uuid_f436acf6-71f9-4ccf-8e15-96f3cc6fbbe6"/>Redakteur</rs>, welcher
+                Jurist und Advokat ist, sicherlich kei<lb break="no" xml:id="uuid_4d33e5cd-27d8-43bf-9460-8925a3bf9982"/>nem Verfahren wird aussetzen
+                wollen. </p>
+         <p xml:id="uuid_b09165b4-ccd2-4474-8b49-2229fbe7e956">
+            <lb xml:id="uuid_24d1c6fc-88eb-4bd5-98b7-4ecebbc4b038"/>Wollen Sie mir daher evtl.
+                telefonisch mitteilen,<lb xml:id="uuid_8b453e42-ac25-4620-bf86-65ea235a6d72"/>ob ich
+                jetzt die Briefe versenden soll, damit die Angelegen<lb break="no" xml:id="uuid_928191ed-2aa7-4100-a045-5f34a749ad45"/>heit nicht zu lange liegen
+                bleibt. </p>
+         <p xml:id="uuid_95d51954-fcff-4762-97a6-29b00279c118">
+            <lb xml:id="uuid_9b6ed192-d779-411c-8c70-be43bc86ea37"/>Mit vorzüglicher Hochachtung
+               ergebener:<lb xml:id="uuid_765b79f1-21ea-40aa-9d7f-9810bc577145"/><rs ref="#43593"
+               type="person">Dr. Turnovsky</rs>
+         </p>
+         <p xml:id="uuid_2681f84d-6508-4359-aba4-458184cc7ccf">
+            <lb xml:id="uuid_eeb6dd96-6540-41c0-988b-0218b50fc4a3"/><note resp="law-firm" type="paratext">21. NOV. 1933</note>
+         </p>
+      </body>
+   </text>
+</TEI>

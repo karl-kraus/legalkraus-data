@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000131-004-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000131-002-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000131-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Botho Laserstein</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000131-003-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3632</idno>
+            <idno subtype="transkribus" type="ID">411875</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000131" type="collection">Karl
+                    Kraus ca. Tagebuch</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000131-003-000-facs001" xml:id="D_000131-003-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000131-003-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1929-06-13">13. Juni 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38969">Herrn | Dr. Botho Laserstein, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#51751">Landsberger Allee Nr. 55</street>
+                  <settlement ref="#168">Berlin N.O. 18</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Tagebuch</note>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-06-13">13. Juni 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000131-003-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000131-003-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-19" who="#JK"/>
+         <change type="typography" when-iso="2021-11-19" who="#JK"/>
+         <change type="references" when-iso="2021-11-19" who="#JK"/>
+         <change type="structure" when-iso="2021-11-19" who="#JK"/>
+         <change when-iso="2020-10-08T13:36:44.67Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T13:37:37.38Z" who="#IB">Replaced Text with Transcription of
+                Transkribus Document 411875. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000131-003-000-facs001">
+      <surfaceGrp xml:id="D_000131-003-000-facs001-l001">
+         <surface type="recto" xml:id="D_000131-003-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558061/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000131-003-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558062/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000131-003-000_p001"
+             facs="#D_000131-003-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_61b3b1b9-fe39-44dc-8f87-9afbcbc806d4">
+            <lb xml:id="uuid_e7161578-0687-43ec-b9e7-0b96a77a46d2"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38969" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_9b9bdfc8-2053-431d-b4dc-4c960582d639">
+            <lb xml:id="uuid_ca9e1f86-4ba6-4087-932f-fea3a6516218"/>Im <rs ref="#53557" type="work"
+               subtype="pmb">„Tagebuch“ vom 11. Mai 1929</rs> erschien<lb
+               xml:id="uuid_4f5c5c66-413f-47c3-8891-18d146ae2300"/>auf Seite 789 ein Artikel von <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/38886" type="person">Peter Scher</rs> „<rs
+               ref="#53552" type="work" subtype="pmb">Offenbachiade</rs>“ den<lb
+               xml:id="uuid_dc46b608-606f-4ced-9aea-aa7208f67562"/>ich im Vollmachtsnamen des Herrn
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> am
+            25. Mai 1929<lb xml:id="uuid_46686eb2-4734-4b8f-b337-7dfb7d31ca43"/>berichtigt habe. <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herr Kraus</rs> lässt
+            Sie bitten, nachzusehen, ob diese<lb xml:id="uuid_c03016cf-5cb2-435c-abec-ac32f26847d6"
+               /><rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000131-002-000" type="work"
+               subtype="legal-doc">Berichtigung</rs> unterdessen erschienen ist und wenn möglich mir
+               ein<lb xml:id="uuid_1c17b476-8c8c-4443-838c-710fd2a66bd2"/>Exemplar mit der
+            Berichtigung einzusenden. </p>
+         <p xml:id="uuid_80cd55c9-dbba-422d-8071-9b10ac9e1688">
+            <lb xml:id="uuid_d8ec6cf3-90ac-452a-b58a-3c8512576fb7"/>Mit bestem Danke und
+                vorzüglicher kollegialer<lb xml:id="uuid_8be06ecb-1732-405d-b975-46fb672b14f6"/>Hochachtung </p>
+         <pb xml:id="D_000131-003-000_p002"
+             facs="#D_000131-003-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_3dbe55a1-20c2-4b1b-a7a7-3f04d6d67119">
+            <lb xml:id="uuid_15373a36-7caa-4c70-9199-280f3cef133f"/><note resp="law-firm"
+               type="paratext">Betr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  type="person">Kraus</rs> – <rs ref="#37544" type="institution">Tagebuch</rs><lb
+                  xml:id="uuid_f46cfad4-893f-4a49-a4f1-45ffacede73e"/>exp. am 13.6.1929.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

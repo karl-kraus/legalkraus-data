@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-023-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-021-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000035-022-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Konzertdirektion Gutmann (Hugo Knepler)</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000035-022-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2044</idno>
+            <idno subtype="transkribus" type="ID">191014</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000035" type="collection">Straf-
+                    und Exekutionsverfahren Karl Kraus ca. Anton Kuh</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000035-022-000-facs001" xml:id="D_000035-022-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000035-022-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1928-12-22">22. Dezember 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#19464">die | Konzertdirektion Guttmann | Inhaber Hugo
+                        Knepler</persName>
+               <address>
+                  <street corresp="#52568">Lothringerstrasse 20</street>
+                  <settlement ref="#53">Wien III.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Kuh</note>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1928-12-22">22. Dezember 1928
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000035-022-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000035-022-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-18" who="#JK"/>
+         <change type="typography" when-iso="2021-10-18" who="#JK"/>
+         <change type="references" when-iso="2021-10-18" who="#JK"/>
+         <change type="structure" when-iso="2021-10-18" who="#JK"/>
+         <change when-iso="2020-02-10T13:28:33.043Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-10T14:01:24.124Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T14:01:25.587Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T14:01:26.818Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 191014. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000035-022-000-facs001">
+      <surfaceGrp xml:id="D_000035-022-000-facs001-l001">
+         <surface type="recto" xml:id="D_000035-022-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548581/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000035-022-000-facs001-l001-p002">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548582/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000035-022-000-facs001-l002">
+         <surface type="recto" xml:id="D_000035-022-000-facs001-l002-p003">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548583/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000035-022-000_p001"
+             facs="#D_000035-022-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_37257ded-a00c-4f35-b622-845d9d2752c6">
+            <lb xml:id="uuid_7cf6315b-7cfe-43e0-b27b-ff550d67c5c5"/>Zu Ihrem <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-021-000" type="work"
+               subtype="legal-doc">Schreiben vom 17. Dezember 1928</rs>
+            <lb xml:id="uuid_b92acfa9-9901-4369-b0b2-338bd42d6221"/>teile ich Ihnen mit, dass
+            sämtliche Exekutionsbewilligungen auf<lb
+               xml:id="uuid_7161622f-441d-47ec-b61c-16d52fd6a62f"/>den Betrag von S 527.09 samt
+            Anhang lauten. Derzeit besteht die<lb xml:id="uuid_f824500d-3b99-4f6a-a145-c97ad8b762bd"
+            />Schuld des <rs ref="#8363" type="person">Herrn Kuh</rs> in folgender Höhe zu Recht:<lb
+               xml:id="uuid_baed01c8-6af2-4fec-b78d-ed22c9d53480"/>Ursprüngliche Kosten des
+            Strafverfahrens S 527.09<lb xml:id="uuid_c2d10b0e-6c34-4876-a438-0ee8ae2d8def"/>und S
+               11.20<lb xml:id="uuid_eb0a3144-73fb-4cd6-b695-8a7faba63ef4"/>Kosten der
+            Exekutionsbewilligung vom 6.2.1928 S 28.54<lb
+               xml:id="uuid_cab9c5ec-9957-4214-9364-238d37dfd729"/>Kosten der Exekutionsbewilligung
+            vom 6.2.1928 (Fahrnis<lb break="no" xml:id="uuid_ea25a1b8-5d1e-4cf0-9da7-242b456b5ba6"
+            />exekution 3.84<lb xml:id="uuid_f9a96525-71f5-403f-8233-116a4f830a85"/>Kosten der
+            Exekutionsbewilligung vom 17.3.1928 S 21.58<lb
+               xml:id="uuid_7c563f12-eb1c-4f7b-a30e-7accbca22cfb"/>Kosten der Exekutionsbewilligung
+            vom 31.10.1928 S 23.54<lb xml:id="uuid_61805fce-4fa4-477f-b66d-b9bb1dde535f"/>S
+               615.79<lb xml:id="uuid_14c8af9c-4bb3-4022-bc03-1775fd5e2e5c"/>abzüglich der von Ihnen
+            geleisteten Zahlung von S 157.–<lb xml:id="uuid_7cab7a01-ae30-4ed3-91b8-5b8ac7662032"
+            />verbleibt eine Restschuld von S 458.79 </p>
+         <p xml:id="uuid_9a071136-b5e7-4825-834b-a4a1705a55a2">
+            <lb xml:id="uuid_550390ba-e5d4-48b4-8afa-a83ea3ee3078"/>Ich nehme zur Kenntnis, dass
+                Sie von <rs ref="#8363" type="person">Herrn<lb xml:id="uuid_c2a7c217-e3cf-4cb6-bb6e-46ff9ebe0c57"/>Kuh</rs> die Anweisung
+                erhalten haben, mir den Reinertrag seiner<lb xml:id="uuid_fde2e5b9-272e-417e-908b-d18d5cf05594"/>Januar Vorlesung à Konto
+                seiner Schuld zu überweisen, behalte mir<lb xml:id="uuid_536df65b-e086-4c67-a720-eefd35822681"/>aber jedenfalls sämtliche
+                Rechte auch aus der jetzigen Forderungs<lb break="no" xml:id="uuid_e51ee8d0-b38d-46fc-b133-f060425723c4"/>exekution vor. </p>
+         <p xml:id="uuid_ae0c9d58-8ad7-433d-9b8f-b0844a0d4134">
+            <lb xml:id="uuid_074087b0-da3e-4575-9813-9a2addfd6098"/>In vorzüglicher Hochachtung </p>
+         <p xml:id="uuid_bd943941-7c73-46b4-b7b7-77bf4ee1f96e">
+            <lb xml:id="uuid_b2863134-a681-4f67-84ba-e989743c161e"/>Rekommandiert </p>
+         <pb xml:id="D_000035-022-000_p002"
+             facs="#D_000035-022-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_dee30bc2-f01c-4752-9774-398dc51378dd">
+            <lb xml:id="uuid_b992a483-58e4-44d9-ab3d-109ceb25f2b1"/><note resp="law-firm" type="paratext">Betr. <rs ref="#11988" type="person">Kraus</rs> – <rs ref="#8363" type="person">Kuh</rs>
+               <lb xml:id="uuid_da8f3b7f-3150-4a05-bc3d-052e1c907f90"/>exp. am 22.12.1928.
+                </note>
+         </p>
+      </body>
+   </text>
+</TEI>

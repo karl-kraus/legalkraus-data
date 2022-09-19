@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-083-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-081-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000068-082-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Die Stunde (verantw. Red. Marc Siegelberg)</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000068-082-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-samek-die-stunde-verantw-red-marc-siegelberg-1 </idno>
+            <idno subtype="transkribus" type="ID">207923</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000068" type="collection">Karl
+                    Kraus ca. Alfred Kerr</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000068-082-000-facs001" xml:id="D_000068-082-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000068-082-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51"/> 
+               </address>
+               <date when-iso="1928-02-07">7. Feber 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38745">den | verantwortlichen Redakteur der „Stunde“ | Dr.
+                        Marc Siegelberg</persName>
+               <address>
+                  <street corresp="#50643">Canisiusgasse 8/10</street>
+                  <settlement ref="#59">Wien, IX.</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Dr.Sa/Sp</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1928-02-07">7. Februar 1928
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000068-082-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000068-082-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" status="draft" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" status="draft" when-iso="2021-09-13">Replaced Text with Transcription
+                of Transkribus Document 207923. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2022-01-06"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-01-06" who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2022-01-06"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2022-01-06"
+                 who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2022-01-06"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000068-082-000-facs001">
+      <surfaceGrp xml:id="D_000068-082-000-facs001-l001">
+         <surface type="recto" xml:id="D_000068-082-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552927/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000068-082-000-facs001-l002">
+         <surface type="recto" xml:id="D_000068-082-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552918/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-082-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552924/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552927/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000068-082-000_p001"
+             facs="#D_000068-082-000-facs001-l002-p002"
+             n="1"/>
+         <p xml:id="uuid_abb0a2d8-7adf-473a-a9bf-ec7555fe7697">
+            <lb xml:id="uuid_d47d94d2-4b39-44da-80d7-b1c5259c6f34"/>Im Vollmachtsnamen des Herrn <rs
+               ref="#11988" type="person">Karl Kraus</rs> ver<lb break="no"
+               xml:id="uuid_1d4d35a8-4c2f-4846-861c-dafb69b003dd"/>lange ich die Aufnahme der
+            Berichtigung der in Ihrer <rs ref="#62927" type="work" subtype="pmb">Nummer<lb
+                  xml:id="uuid_c582d366-1c25-4206-9e24-861e2e058871"/>vom 5. Feber 1928</rs> auf
+            Seite 3 in dem Artikel „<rs ref="#62929" type="work" subtype="pmb">Der Prozess<lb
+                  xml:id="uuid_6d29b44d-015e-4542-880a-2496c223f762"/><rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11910" type="person">Alfred Kerr</rs> –
+                  <rs ref="#11988" type="person">Karl Kraus</rs></rs>“ mitgeteilten, meinen <rs
+               ref="#11988" type="person">Mandanten</rs>
+            <lb xml:id="uuid_7c6a4e42-2641-4edd-ac27-343173be314c"/>betreffenden Tatsache gemäss <rs
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45"
+               type="law">§ 23 Pressgesetz</rs>. </p>
+         <p xml:id="uuid_3bebbc84-dc57-44b3-a79b-0a5fcf3cbb14">
+            <lb xml:id="uuid_bdbee6ea-0419-45a6-98b3-61ee99922c21"/>Es ist unrichtig, dass
+                Schriftsätze im Um<lb break="no" xml:id="uuid_c937fa3c-5043-4bc0-b724-45999c85d410"/>fange von 30–100 Seiten verlesen wurden. Richtig ist viel<lb break="no" xml:id="uuid_ff443254-5ed4-4a04-98c4-fb9f5cf0a2ad"/>mehr, dass keine
+                Schriftsätze verlesen wurden und die Ver<lb break="no" xml:id="uuid_06bc50ca-8091-49d4-b1aa-cc2b2a374a70"/>handlung nur 5 Minuten
+                gedauert hat. <pb xml:id="D_000068-082-000_p002"
+                facs="#D_000068-082-000-facs001-l002-p003"
+                n="2"/>
+         </p>
+         <p xml:id="uuid_16a551dc-842a-408a-812e-7019622b166f">
+            <lb xml:id="uuid_b28d3440-967a-4ea2-a459-6d52f551feea"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#11910" type="person">Kerr</rs></note>
+         </p>
+      </body>
+   </text>
+</TEI>

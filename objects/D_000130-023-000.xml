@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-024-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-022-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000130-023-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA E. Lion an Samek</title>
+            <editor ref="#SH">Susanna Hufsky</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000130-023-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3603</idno>
+            <idno subtype="transkribus" type="ID">399776</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000130" type="collection">Karl
+                    Kraus ca. Hamburger Nachrichten</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000130-023-000-facs001" xml:id="D_000130-023-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000130-023-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#51612">Dr. E. Lion</persName>
+               <address>
+                  <street corresp="#55816">Gänsemarkt 62</street>
+                  <settlement ref="#506">Hamburg 36</settlement>
+               </address>
+               <date when-iso="1929-09-14">14. Sept. 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Dr. Oskar Samek, | zu Händen seines
+                        Vertreters</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien, 1.</settlement>
+               </address>
+               <date when-iso="1929-09-16"/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus ./. Hamburger Nachrichten</note>
+               <note type="dictation">L.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-09-14">14. September
+                    1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000130-023-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000130-023-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-06-15T10:27:42.065Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 399776. </change>
+         <change type="structure" when-iso="2021-07-13" who="#SH"/>
+         <change type="references" when-iso="2021-07-13" who="#SH"/>
+         <change type="typography" when-iso="2021-07-13" who="#SH"/>
+         <change type="intertexts" when-iso="2021-07-13" who="#SH"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000130-023-000-facs001">
+      <surfaceGrp xml:id="D_000130-023-000-facs001-l001">
+         <surface xml:id="D_000130-023-000-facs001-l001-p001" type="recto">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557887/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000130-023-000-facs001-l001-p002" type="verso">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557888/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000130-023-000_p001"
+             facs="#D_000130-023-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_6f0e0488-6891-4fc7-b151-69e2d98c8458">
+            <lb xml:id="uuid_5fbf59cb-6fd4-4381-9e25-84602b284ac3"/>Sehr geehrter <rs type="person" ref="#38909">Herr Kollege!</rs>
+         </p>
+         <p xml:id="uuid_f8122dd9-ed8b-4bfa-9c30-c2e0d930713d">
+            <lb xml:id="uuid_a3c9f31a-fd9e-48f3-951d-c1200ae6617d"/>In der Angelegenheit wird
+                    prozessual<lb xml:id="uuid_2ee70359-1183-406c-830d-adae4d3513f8"/>nichts
+                versäumt, wenn sie bis Ende dieses Monats liegen<lb xml:id="uuid_034b3acd-3399-47ce-b17e-8bddaad74736"/>bleibt. In der Strafsache
+                ist die Antragsfrist durch recht<lb break="no" xml:id="uuid_36156533-3300-4409-a7a0-9c935ce70b34"/>zeitige Klageerhebung
+                gewahrt; in der Zivilsache kann ich den<lb xml:id="uuid_f73309e0-89ea-4d3f-abb7-76c2ce716acb"/>Termin vom 2. Oktober
+                vertagen, ohne dass dadurch Kosten ent<lb break="no" xml:id="uuid_813e5b8a-269f-44a1-ab03-38c9c09fd98e"/>stehen. Es empfiehlt sich
+                vielleicht für Sie, bei <rs ref="#11988" type="person">Herrn Kraus</rs>
+            <lb xml:id="uuid_bbe8d339-24ad-4914-bd8a-146a50130565"/>anzufragen, ob er
+                seinesteils die Sache bis Ende September<lb xml:id="uuid_f5037be9-bd79-4d04-a8ec-0c7fb3c90f2f"/>zurückzustellen bereit ist. </p>
+         <p xml:id="uuid_b4c279a4-aaef-42c0-96b2-67f367e98528">
+            <lb xml:id="uuid_783defc9-86bb-4936-a00b-140c9b0b13b0"/>Mit kolleg. Hochachtung </p>
+         <p xml:id="uuid_4d5ee959-1f28-438f-92b7-e345d5e96502">
+            <lb xml:id="uuid_f10b87ea-c703-4b22-aefd-b5ab270bd7d8"/><rs ref="#51612" type="person"
+               >Dr. Lion</rs></p>
+         <pb xml:id="D_000130-023-000_p002"
+             facs="#D_000130-023-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_e3550514-44f4-4916-8485-e45edb57c1c1">
+            <lb xml:id="uuid_c652d4d0-b5d1-40b1-a0e9-9e99ed502b2c"/><note resp="law-firm"
+               type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37346"
+                  type="institution">Hamburger<lb xml:id="uuid_b5e8a03e-f64f-4d0d-8ce5-1a8f528148ba"
+                  />Nachrichten</rs>
+               <lb xml:id="uuid_e59cf6ae-d0f7-46bd-b9cb-f4c022507395"/>16. SEP. 1929</note></p>
+      </body>
+   </text>
+</TEI>

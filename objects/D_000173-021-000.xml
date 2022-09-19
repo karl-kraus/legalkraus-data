@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-021-001.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-020-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000173-021-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Universal-Edition an Verlag Die Fackel</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000173-021-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4286</idno>
+            <idno subtype="transkribus" type="ID">312397</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000173" type="collection">Briefwechsel zwischen dem Verlag Die Fackel, dem Verlag Universal Edition und
+                    dem Deutschen Theater Prag bezüglich Aufführungen von Offenbachstücken in der
+                    Kraus’schen Bearbeitung und Verlagsproblemen</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000173-021-000-facs001" xml:id="D_000173-021-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000173-021-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+                  <ab type="materiality">
+                     <objectType source="D_000173-021-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP">Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="https://pmb.acdh.oeaw.ac.at/entity/36971"/>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#51">Wien</settlement>
+               </address>
+               <date when-iso="1932-03-02">2. März 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#43724">den | Verlag „Die Fackel“</orgName>
+               <address>
+                  <street corresp="#50496"/>
+                  <settlement ref="#53">Wien III.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Hei/Fi.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-03-02">2. März 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000173-021-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000173-021-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-12-07" who="#JK"/>
+         <change type="typography" when-iso="2021-12-07" who="#JK"/>
+         <change type="references" when-iso="2021-12-07" who="#JK"/>
+         <change type="structure" when-iso="2021-12-07" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-07" who="#JK"/>
+         <change when-iso="2020-10-09T14:13:11.835Z" who="#IB">created by API</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000173-021-000-facs001">
+      <surfaceGrp xml:id="D_000173-021-000-facs001-l001">
+         <surface type="recto" xml:id="D_000173-021-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543414/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000173-021-000_p001"
+             facs="#D_000173-021-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_8d46db0f-a981-461d-a154-272fbf86bd05">
+            <lb xml:id="uuid_e2f55cd8-587c-4fbc-ad77-ecdb49d0b6e9"/>Sehr geehrte Herren! </p>
+         <p xml:id="uuid_b170b649-7891-4ca1-a8be-d32d94233ca7">
+            <lb xml:id="uuid_da84c087-28b6-4404-918b-a69e8b0484b4"/>Selbstverständlich entsprechen
+            wir gerne Ihrem<lb xml:id="uuid_1d52b3ad-b48d-46d5-86aa-c6878dfd43eb"/>Wunsche und
+            senden Ihnen anbei die Kopien unserer <rs type="work">Briefe<lb
+                  xml:id="uuid_35c04d6a-20db-46c4-bb91-90d1650ca202"/>vom 27.</rs> und <rs
+               type="work">29. Februar</rs> an das <rs ref="#37080" type="institution">Deutsche
+               Landestheater in<lb xml:id="uuid_da943625-506f-4f99-baf4-67d52643444d"/><rs
+                  type="place" ref="#652">Prag</rs></rs>. </p>
+         <p xml:id="uuid_e6ba2ed6-3e6d-4830-aba7-4dd0f0038f27">
+            <lb xml:id="uuid_9c02c5dd-f9a7-4332-b6a6-85ccbc2303fe"/>Prinzipiell möchten wir nur noch
+            betonen, dass wir<lb xml:id="uuid_9c9a7442-fe1b-485f-a897-48c1676cacfc"
+            />selbstverständlich auch weiterhin in allen Fällen, in<lb
+               xml:id="uuid_b0d1db34-1b45-4f8b-b4b9-de4b8f41a1ed"/>welchen wir von Ihnen ersucht
+            werden, das geistige Recht<lb xml:id="uuid_76494b26-87f6-47f3-9c5a-e5c1f12f2f2a"/>des
+               <rs ref="#11988" type="person">Herrn Kraus</rs> zu verteidigen, Sie von der Art und
+               Weise<lb xml:id="uuid_4d8e8044-0b6c-4762-b286-5bde26641974"/>in der wir dies tun, auf
+            Ihren Wunsch in Kenntnis setzen<lb xml:id="uuid_999339ad-409b-484a-bbd7-27773c1a9a47"
+            />werden. Dass unsere Bemühung dabei weit über den rein<lb
+               xml:id="uuid_fcfe07df-5945-4fb7-a7d7-4ab9b1906ef3"/>rechtlichen Rahmen hinausgehen
+            wird, haben wir in unserem<lb xml:id="uuid_93582e56-38ef-4891-9d00-079cf9a85d17"/><rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-018-000" type="work"
+               subtype="legal-doc">letzten Brief</rs> schon betont. Der rein rechtliche Rahmen<lb
+               xml:id="uuid_2e99b129-567d-4388-8362-b4c265785a83"/>ist ja von Ihnen selbst in Ihrem
+               <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-013-000" type="work"
+               subtype="legal-doc">Brief vom 16. Februar<lb
+                  xml:id="uuid_2992b07f-4e2f-4cd7-8125-fc448df9f893"/>an das Deutsche Theater in
+               Prag</rs> dahingehend präzisiert<lb
+               xml:id="uuid_d005bebe-2001-4794-8c04-a7a8af0333c5"/>worden, dass der <rs ref="#11988"
+               type="person">Autor</rs> nach dem vorhandenen Vertrag keinen<lb
+               xml:id="uuid_53233df1-a2f3-4192-9a15-16431b2e0243"/>anderen geistigen Anspruch habe,
+            als den, auf die Unver<lb break="no" xml:id="uuid_91460587-e47f-4e9e-bc2a-31dc1e030a92"
+            />sehrtheit der Quantität des von ihm für die Aufführung<lb
+               xml:id="uuid_5e44dc15-c412-4413-8843-4dcf6c5214d5"/>eingerichteten Textes. Wir sehen
+            aber in der Verbindung<lb xml:id="uuid_52defaf5-2e84-4727-994e-42d2bb69098e"/>mit <rs
+               ref="#11988" type="person">Karl Kraus</rs> und seinen Texten zu <rs ref="#9131"
+               type="person">Offenbach</rs> keineswegs<lb
+               xml:id="uuid_075e7802-6e40-4f4e-96a6-51a23bc94004"/>nur ein geschäftliches
+            Ausbeutungsobjekt, dessen Ausbeutung<lb
+               xml:id="uuid_537607d1-82ee-44f6-b573-b1c2bb736481"/>also lediglich den Normen eines
+            abgeschlossenen Vertrages<lb xml:id="uuid_7d9e19b2-0381-4005-9656-f0aa85612b7d"
+            />zwischen <rs ref="#11988" type="person">Autor</rs> und <rs ref="#36971"
+               type="institution">Verlag</rs> unterliegt, sondern eine Aufgabe,<lb
+               xml:id="uuid_7bab7ad4-cf8c-44b8-bdc8-cc56dc8b419e"/>die weit über diesen engen Bezirk
+            hinausgeht und zu deren<lb xml:id="uuid_73902a8e-5e82-4d2f-911d-e8fd49d952a2"/>Erfüllung
+            der Unterzeichnete hofft, sich <rs ref="#11988" type="person">Herrn Kraus</rs> gegen<lb
+               break="no" xml:id="uuid_566dc7e4-ae72-4c10-bc4b-9d0c5a396175"/>über genügend
+            legitimiert zu haben. In diesem Sinne allein<lb
+               xml:id="uuid_63e89a0b-01d8-4df6-bf89-68f9c3216a34"/>und keineswegs den Buchstaben
+            unseres Vertrages nach wollen<lb xml:id="uuid_91217008-0a89-41e9-826c-81f49f8fe707"/>wir
+            bemüht bleiben im Rahmen des Möglichen <rs ref="#11988" type="person">Herrn Kraus</rs>
+               bei<lb xml:id="uuid_f947adee-ae1c-4cc1-a9c0-e94d09099add"/>der Durchsetzung seiner
+            künstlerischen und persönlichen<lb xml:id="uuid_8ea60128-0682-40e3-a968-b3ec6721a4fa"
+            />Forderungen an die Hand zu gehen. Nehmen Sie diese Erklärung<lb
+               xml:id="uuid_1adedef7-d979-423e-914f-c9a0116af477"/>bitte als Grundlage unserer
+            weiteren Zusammenarbeit und<lb xml:id="uuid_17993269-7ec2-40b3-9e12-7983ba418fb3"
+            />zugleich als Erklärung dafür, dass wir Ihren Vorschlag,<lb
+               xml:id="uuid_344d9f75-68aa-4007-9900-5343350e6404"/>auf den weiteren Vertrieb der <rs
+               ref="#9131" type="person">Offenbach</rs>-Bearbeitungen zu<lb
+               xml:id="uuid_cb1fa364-ad20-470d-a1b5-4c0d2c1d4fac"/>verzichten, nicht annehmen
+            können. </p>
+         <p xml:id="uuid_9bdf0811-f784-43be-903b-5affb511b790">
+            <lb xml:id="uuid_1ccc6432-1b83-4090-ab92-26cdf5fcd438"/>Mit vorzüglicher
+                    Hochachtung<lb xml:id="uuid_1e29d690-43bd-4f62-802e-bfe17ddd34b5"/>[<rs ref="#38370" type="person">Unterschrift</rs>] </p>
+      </body>
+   </text>
+</TEI>

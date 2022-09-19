@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-096-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-094-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000193-095-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Johann Turnovsky</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000193-095-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4823</idno>
+            <idno subtype="transkribus" type="ID">376056</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000193" type="collection">Karl
+                    Kraus ca. Sozialdemokrat (Prag)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000193-095-000-facs001" xml:id="D_000193-095-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000193-095-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#52780"/>
+                  <settlement ref="#64"/>
+               </address>
+               <date when-iso="1936-04-21">21. April 1936</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#43593">Herrn | Dr. Johann Turnovsky, Advokat</persName>
+               <address>
+                  <street corresp="#51737">Vodičkova 33</street>
+                  <settlement ref="#652">Prag II.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Sozialdemokrat</note>
+               <note type="dictation">Dr.Sa/Bl.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1936-04-21">21. April 1936
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000193-095-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000193-095-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-08-19" who="#JK"/>
+         <change type="typography" when-iso="2021-08-19" who="#JK"/>
+         <change type="references" when-iso="2021-08-19" who="#JK"/>
+         <change type="structure" when-iso="2021-08-19" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-06" who="#JK"/>
+         <change when-iso="2020-10-12T07:56:29.816Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-12T08:31:06.58Z" who="#IB">Replaced Text with Transcription of
+                Transkribus Document 376056. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000193-095-000-facs001">
+      <surfaceGrp xml:id="D_000193-095-000-facs001-l001">
+         <surface type="recto" xml:id="D_000193-095-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545306/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000193-095-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545307/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000193-095-000-facs001-l002">
+         <surface type="recto" xml:id="D_000193-095-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545308/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000193-095-000-facs001-l002-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545309/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545310/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545311/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545312/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545314/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545315/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545316/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000193-095-000_p001"
+             facs="#D_000193-095-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_6fada213-9216-4155-a7e9-468c39c4fd99">
+            <lb xml:id="uuid_671b1301-449d-47e7-bda7-417dc22dc4f0"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43593" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_ce54f044-b9ba-43e6-bcb0-5a02015f2055">
+            <lb xml:id="uuid_20f1af2a-a84f-458b-b0a9-2e118d9783b4"/>Von <rs ref="#11988" type="person">Herrn K.</rs> habe ich gehört, dass alle<lb xml:id="uuid_a76ea0d0-71ae-4748-800e-5926c31cc263"/>Argumente gegen die
+                missverständliche Auffassung des<lb xml:id="uuid_20e8ae81-2a0d-4392-ad34-6784dbba226e"/><rs ref="" type="law">§ 18
+                    Ehrenschutzgesetzes</rs> fruchtlos geblieben sind und<lb xml:id="uuid_45d2dfd6-1022-459e-ba15-10a2d218a563"/>der <rs ref="#38644" type="person">Angeklagte</rs> freigesprochen wurde. Es sind mir nach<lb break="no" xml:id="uuid_7357b67b-81b8-40de-89ca-9edd8b6a99db"/>träglich noch
+                einige Argumente eingefallen, die Sie<lb xml:id="uuid_935e72a0-d774-40b2-968d-d48c0b18c1ee"/>vielleicht bei der Berufung
+                verwenden können. – Wenn<lb xml:id="uuid_b10b2bb5-12c8-4233-b16a-7d0cd9f5a730"/>man
+                schon zur Auffassung dieser Gesetzesstelle in der<lb xml:id="uuid_032892a0-73a3-4a3f-9d99-5ca603e76a89"/>Richtung käme, dass bei
+                einem Vergleich der Privatklä<lb break="no" xml:id="uuid_30a4e491-7650-4c42-a5fd-be9609dbbdf2"/>ger gehindert sein soll,
+                Beleidigungen zu verfolgen,<lb xml:id="uuid_8861e6f3-cbf0-4d81-b3fc-c563d16527c8"/>wenn er sich dieses Recht nicht ausdrücklich vorbehal<lb break="no" xml:id="uuid_249ac76d-7748-4916-94f2-dc4fee868c2c"/>ten hat, so kann deren Sinn
+                doch nur der sein, dass die<lb xml:id="uuid_845869f5-8887-42f4-a8b2-73bca1d0fa02"/>Hinterhältigkeit eines Privatklägers ausgeschlossen<lb xml:id="uuid_81121fa2-6d5d-41d3-8248-f06638bdcf70"/>werden soll, in einer ihm
+                unangenehmen Sache einen Ver<lb break="no" xml:id="uuid_cbe351b0-2af5-4fb5-920a-d06ad3b8b222"/>gleich zu schliessen unter
+                der Mentalreservation, wegen<lb xml:id="uuid_1c37ccee-cd62-477b-8f20-8b1b5a1fc5f9"/>einer anderen Beleidigung den Angeklagten weiter zu<lb xml:id="uuid_06f9b94a-cbed-49ae-a0eb-791cbc0ad74f"/>verfolgen. Keinesfalls aber
+                könnte man doch eine bereits<lb xml:id="uuid_0e75a1ce-5abd-4d42-854d-4775ea4ccb35"/>anhängig gewordene Verfolgung unter diese Kategorie<lb xml:id="uuid_cc3948c7-e4e2-44b2-beb0-ef96c650c189"/>einreihen. Auch bezüglich
+                der Prozesskosten halte ich<lb xml:id="uuid_6f0ddf64-5023-4c55-bea3-6c4e2f0b1bf4"/>das Urteil für verfehlt. Wenn das <rs ref="#36848" type="institution">Gericht</rs>
+                auf dem Stand<lb break="no" xml:id="uuid_ff2833f8-5ed4-4d78-97e0-ce50c9d134b1"/>punkte steht, eine weitere Verfolgung einer bereits an<lb break="no" xml:id="uuid_6c6669a3-c3ad-43d1-9b5c-f14f2a8ec56c"/>hängigen Sache sei durch den
+                Vergleich ausgeschlossen, <pb xml:id="D_000193-095-000_p002"
+                facs="#D_000193-095-000-facs001-l001-p002"
+                n="2"/>
+            <lb xml:id="uuid_f1182c56-d837-44f1-bdf2-16afd585ab4a"/>so müsste es implizite auf
+                dem Standpunkte stehen, dass beide<lb xml:id="uuid_c5a8a7a5-0f81-48eb-8502-a54373f90775"/>Angelegenheiten durch den
+                Vergleich erledigt seien und könnte<lb xml:id="uuid_d9d4b655-d356-428b-ace1-9ca1c457d61a"/>dem <rs ref="#38644" type="person">Angeklagten</rs> bei Einstellung des Verfahrens keine Kosten<lb xml:id="uuid_1fe18090-82b7-4496-8e89-c3128e9103be"/>zusprechen oder höchstens
+                die Kosten der einen Verhandlung,<lb xml:id="uuid_ccf3ec3f-dfcb-41af-ab08-70c67caba04a"/>die deshalb notwendig
+                geworden war, weil der <rs ref="#11988" type="person">Privatkläger</rs> nicht<lb xml:id="uuid_04d001c5-adf0-4941-9ba3-5018e0263279"/>selbst die Einstellung
+                beantragt hat. </p>
+         <p xml:id="uuid_92ad6a13-4e35-4e56-a84b-62191c5ba304">
+            <lb xml:id="uuid_a80e5ef0-aec7-40d1-9e19-a985add085c5"/><rs ref="#11988" type="person"
+               >Herr K.</rs> hat mir ferner mitgeteilt, dass einige Berich<lb break="no"
+               xml:id="uuid_ad6cfbdc-0424-49b1-aa56-e95ac30bfdb7"/>tigungen wegen des
+            Prozessberichtes hinausgegeben sind, und dass<lb
+               xml:id="uuid_249f7e0f-520f-46df-a643-b0fdf3b584eb"/>er mit Ihnen schon besprochen
+            hat, für den Fall des Nichter<lb break="no"
+               xml:id="uuid_baf26af6-e9e0-4d47-885b-db640ca1bd47"/>scheinens Klagen einzubringen.
+            Ich erlaube mir zu diesen Klagen<lb xml:id="uuid_48f9b0e6-6e96-40e7-a513-d07313ed2350"
+            />den Vorschlag zu machen, nicht alle gleichzeitig einzubringen,<lb
+               xml:id="uuid_bb5e1ef5-a00e-468c-ac16-6c037a4b590c"/>um das Prozesskostenrisiko zu
+            vermindern, sondern vorläufig nur<lb xml:id="uuid_6b9fdae4-5b5d-4d97-ba4a-55f7f306ffe2"
+            />die gegen das <rs ref="#29259" type="institution">Prager Tagblatt</rs> und bezüglich
+            der übrigen Blätter<lb xml:id="uuid_c633673e-89ab-4877-8cae-0bee637382aa"/>zuzuwarten,
+            allerdings aber die subjektive Verjährungsfrist zu<lb
+               xml:id="uuid_056887b5-fd57-4da8-a268-b823074f38a7"/>wahren. Ich habe darüber
+            nachgedacht, welche Einwendungen die<lb
+               xml:id="uuid_e7ad7201-9f72-4964-b4a6-28f3db8207a0"/>Blätter dem Berichtigungsanspruch
+            entgegensetzen könnten. Dass<lb xml:id="uuid_932e993d-5584-48e3-b5fa-6f259a906d18"/>der
+            Bericht von einer Korrespondenz ausgegangen ist, kann ja<lb
+               xml:id="uuid_ba58978b-526d-4a67-81c0-5ae0ada63d8d"/>den Berichtigungsanspruch nicht
+            ausschliessen, denn es wäre ab<lb break="no"
+               xml:id="uuid_a96cc48f-5d55-46fc-95bf-db7f1df453e0"/>surd, sich von der
+            Berichtigungspflicht dadurch zu befreien,<lb
+               xml:id="uuid_2e7c936b-0a72-415b-9715-d926bfebff4c"/>dass man sich auf den unrichtigen
+            Bericht eines anderen beru<lb break="no"
+               xml:id="uuid_f19e92e5-df8f-4892-bb28-63eaca63fda3"/>fen darf. Eine ähnliche
+            Bestimmung, wie sie im „neuen österrei<lb break="no"
+               xml:id="uuid_feec209e-e93d-47b7-80bd-76d899d4e320"/>chischen Recht“ enthalten ist,
+            dass die Aufnahme der Berichti<lb break="no"
+               xml:id="uuid_b4bac63f-be1e-4416-a277-884add9da74e"/>gung verweigert werden kann, wenn
+            diese offenbar mutwillig wah<lb break="no"
+               xml:id="uuid_a322fa76-552f-40c5-9cfb-a993234dc32f"/>re Tatsachen bestreitet, wonach
+            es auch im Berichtigungsverfah<lb break="no"
+               xml:id="uuid_78377945-8d07-4ffe-8a89-1a8b7b12096c"/>ren quasi einen Wahrheitsbeweis
+            gibt, habe ich im tschechischen<lb xml:id="uuid_f8c82757-6006-4881-b140-9f5c387001bf"
+            />Recht nicht gefunden. In Österreich würde sich
+            dadurch der an<lb break="no" xml:id="uuid_6154e1c4-6dc8-4840-bb90-a69fb91b2fa5"/>genehme
+            Zufall ergeben, den Nachweis zu erbringen, dass bei der<lb
+               xml:id="uuid_461d7a8f-4514-455e-a130-669932707e62"/>Verhandlung überhaupt kein
+            Berichterstatter anwesend war, son<lb break="no"
+               xml:id="uuid_d14a81a1-5d21-4d1d-838e-ad8faf7153d4"/>dern dass der Bericht unbedingt
+            auf die Information des <rs ref="#43638" type="person">gegne<lb break="no"
+                  xml:id="uuid_ae5b68a5-8c35-4a87-811d-3953c740fdc0"/>rischen Anwaltes</rs>
+            zurückzuführen sein muss, was gewiss eine gro- <pb xml:id="D_000193-095-000_p003"
+               facs="#D_000193-095-000-facs001-l002-p003" n="3"/>
+            <lb xml:id="uuid_e441fbb6-131a-4c60-99be-a86b92fbbf42"/>teske Überraschung wäre. </p>
+         <p xml:id="uuid_8d6a6faa-c415-4fb5-97ea-2e4ebe166170">
+            <lb xml:id="uuid_76267dba-e670-4cc0-b380-bde000f9db90"/>Ich hoffe, dass es Ihnen
+                gelingen wird, in der<lb xml:id="uuid_ec4cd2ed-33f9-4393-a3bd-90a4211afb80"/><rs ref="#56254" type="institution">obersten Instanz</rs> die Absurdität der
+                Auffassung des <rs ref="" type="law">§ 18</rs>
+            <lb xml:id="uuid_2e819bfe-88a4-48a3-94cd-1926aff5c5f0"/>durch das Erstgericht
+                begreiflich zu machen, und dass wir<lb xml:id="uuid_ca9a15ee-25c1-4275-ab59-b40e039feabd"/>den Prozess in der zweiten
+                Instanz gewinnen worden. Wenn<lb xml:id="uuid_e9229ed8-41cc-4321-9fa0-12ed38e17d65"/>dies aber schon nicht der Fall sein sollte, so wird hof<lb break="no" xml:id="uuid_3eca770a-7dac-4a48-8936-ffaefdea9537"/>fentlich die Kostenfrage in
+                günstigeren Sinne gelöst<lb xml:id="uuid_e490ed97-9dad-4644-9892-20fece32e95b"/>werden. </p>
+         <p xml:id="uuid_4b801530-81b3-47fc-b1a4-2f4a16fcebe3">
+            <lb xml:id="uuid_8eb5a1da-49d6-4282-a6e9-0912adfd868b"/>Indem ich Ihnen die
+                herzlichsten Grüsse des<lb xml:id="uuid_1af63308-587b-49ba-93cd-a38d7f5fdbce"/><rs ref="#11988" type="person">Herrn K.</rs> übermittle und Sie auch persönlich
+                    herzlichst<lb xml:id="uuid_e7e73f12-fe37-4bfb-8306-13f3c924976b"/>grüsse, bin
+                ich mit vorzüglicher, </p>
+         <p xml:id="uuid_dd939ebe-3090-4cc9-a0ef-fb65e1b0b724">
+            <lb xml:id="uuid_91684f32-de97-4002-9e46-859bc9e7638a"/>kollegialer Hochachtung<lb xml:id="uuid_ab7cee87-9c41-4f1a-95b9-ac5e392fd826"/>Ihr ergebener </p>
+         <pb xml:id="D_000193-095-000_p004"
+             facs="#D_000193-095-000-facs001-l002-p004"
+             n="4"/>
+         <p xml:id="uuid_38be3038-d540-4faa-8dc5-26c85cba8f0e">
+            <lb xml:id="uuid_e59ff6f4-dd76-4f72-9073-cbe74dae5b28"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37540" type="institution">Sozialdemokrat</rs></note>
+         </p>
+      </body>
+   </text>
+</TEI>

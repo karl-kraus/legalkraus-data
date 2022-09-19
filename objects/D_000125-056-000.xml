@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-057-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-055-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000125-056-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Frankfurter Städtisches Schauspielhaus an Leipziger Komödienhaus</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000125-056-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3421</idno>
+            <idno subtype="transkribus" type="ID">280426</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000125" type="collection">Karl
+                    Kraus ca. Frankfurter Städtisches Schauspielhaus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000125-056-000-facs001" xml:id="D_000125-056-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000125-056-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSU">Typoskript mit handschriftlichen Überarbeitungen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#57004"/>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#146">FRANKFURT AM MAIN</settlement>
+               </address>
+               <date when-iso="1931-12-24">24. Dez. 31</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#37240">die | Direktion des Leipziger Komödienhauses</orgName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#864">Leipzig</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-12-24">24. Dezember 1931
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote cert="high"
+                      medium="black-ink"
+                      resp="#JK"
+                      scribeRef="#57004"
+                      source="#D_000125-056-000-wit01"
+                      xml:id="D_000125-056-000-hand01"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000125-056-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000125-056-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-07-26" who="#JK"/>
+         <change type="typography" when-iso="2021-07-26" who="#JK"/>
+         <change type="references" when-iso="2021-07-26" who="#JK"/>
+         <change type="structure" when-iso="2021-07-26" who="#JK"/>
+         <change resp="#IB" when-iso="2021-04-12T08:57:42.998Z">created by API</change>
+         <change resp="#IB" when-iso="2021-04-12T09:33:15.878Z">Replaced Text with Transcription
+                of Transkribus Document 280426. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000125-056-000-facs001">
+      <surfaceGrp xml:id="D_000125-056-000-facs001-l001">
+         <surface type="recto" xml:id="D_000125-056-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557034/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000125-056-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557035/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000125-056-000_p001"
+             facs="#D_000125-056-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_51e51c7e-4213-4270-9dbd-19f36e16658c">
+            <lb xml:id="uuid_a3ed6e0e-4e41-4f9b-b8d8-9337f80d4788"/>Sehr geehrte Herren, </p>
+         <p xml:id="uuid_998edfdc-9536-40b4-a05e-f76e25e80a41">
+            <lb xml:id="uuid_9527c910-ec6c-4905-82d7-58d5ffd2028f"/>Herr Intendant <rs ref="#38954" type="person">Dr. Kronacher</rs> erwägt für seine Spiel<lb break="no" xml:id="uuid_80409df0-91ab-4687-95c1-a6bb430aa2cc"/>planbildung für
+                die Aufführung von <rs ref="#11988" type="person">Karl Krauss</rs>’<lb xml:id="uuid_b657b781-cfa3-4749-a3bf-ca8cd64542a8"/>„<rs ref="#53397" type="work" subtype="pmb">Die Unwiderstehlichen</rs>“ ein Gastspiel mit Ihrem
+                    Ensem<lb break="no" xml:id="uuid_5521dde8-2898-41ae-ab0a-da0acbe18891"/>ble. </p>
+         <p xml:id="uuid_03db842a-0c86-4bd8-ad6b-9baf821b0695">
+            <lb xml:id="uuid_b08e3a62-d362-4f29-bc16-ab8c29d6c101"/>Wir bitten Sie zunächst, uns
+            einmal mitteilen zu wol<lb break="no" xml:id="uuid_50845207-d822-4fb6-9e48-d7212cc1779b"
+            />len, ob es Ihnen nach Ihrem Arbeitsplan möglich ist,<lb
+               xml:id="uuid_e0da1149-0b9e-420e-b238-b9d468e0d26f"/>in einem Gesamtgastspiel „<rs
+               ref="#53397" type="work" subtype="pmb">Die Unwiderstehlichen</rs>“ in<lb
+               xml:id="uuid_df1be7fe-eb99-447f-8e6a-2ef6429798dc"/><rs ref="#146" type="place"
+               >Frankfurt</rs> aufzuführen, welcher Termin in Frage käme<lb
+               xml:id="uuid_e03e837d-bd6b-4b55-b60f-307c00a49054"/>und wie hoch die Spesen von Ihnen
+            zu berechnen wären.<lb xml:id="uuid_8530e386-d8a7-474d-aed4-83291c45019d"/>Herr <rs
+               ref="#38954" type="person">Dr. Kronacher</rs> erinnert sich <subst
+               hand="#D_000125-056-000-hand01">
+               <del hand="#">ein</del>
+               <add hand="#">Ihr</add>
+            </subst>es Gastspiels in<lb xml:id="uuid_e09ba178-1e94-4938-a92c-3136e5715a81"/><rs
+               ref="#168" type="place">Berlin</rs> in diesem <rs type="work" subtype="pmb"
+               ref="#53397">Stück</rs> und bittet höflichst um Mittei<lb break="no"
+               xml:id="uuid_246a8877-fdf7-450e-8654-1173b8bec202"/>lung, wie Sie sich ein
+            entsprechendes Gesamtspiel in<lb xml:id="uuid_e3934cf5-46b4-45d4-8f3e-dc972b8793a1"/><rs
+               ref="#146" type="place">Frankfurt</rs> denken. </p>
+         <p xml:id="uuid_9ee295ea-9a19-4a2e-9acb-c2ca7c244873">
+            <lb xml:id="uuid_de81284b-2f34-4bc2-84a5-3e6ee93c3c9b"/>In vorzüglicher
+                    Hochachtung<lb xml:id="uuid_45d84d6a-eb30-44e3-a125-1e6bde4e2e57"/><rs ref="#57004" type="person">Ludwig Levi-Michel</rs>
+         </p>
+         <pb xml:id="D_000125-056-000_p002"
+             facs="#D_000125-056-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_74fbad74-903b-4182-a159-6958d6a95f1b">
+            <lb xml:id="uuid_4b68c7aa-f59e-494a-87f3-c1d5a2d54727"/><note resp="law-firm" type="paratext">26. MRZ. 1932.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

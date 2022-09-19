@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000120-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000120-001-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000120-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Postkarte Direktion der Kammerspiele München [RA Adolf Kaufmann] an Samek</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000120-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3309</idno>
+            <idno subtype="transkribus" type="ID">471997</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000120" type="collection">Korrespondenz mit den Kammerspielen München betr. eine Offenbach-Aufführung
+               </title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <ab type="stamp">
+                  <stamp source="#47085" xml:id="uuid_ac3c6be3-61ba-4c86-9add-8a784dcf3077"/>
+               </ab>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000120-002-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness facs="#D_000120-002-000-facs001" xml:id="D_000120-002-000-wit01"/>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-04-08">8. April 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#51597"/>
+               <address>
+                  <street corresp="#51755"/> 
+                  <settlement ref="#45258">München</settlement>
+               </address>
+               <date when-iso="1929-04-08">8. April 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Rechtsanwalt Dr. Otto Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Diverses</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000120-002-000-wit01">Postkarte</term>
+            </keywords>
+            <classCode source="D_000120-002-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.PKT">D.K.PKT</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="typography" when-iso="2021-07-19" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-07-14" who="#IL"/>
+         <change type="structure" when-iso="2021-07-05" who="#IL"/>
+         <change type="intertexts" when-iso="2021-07-05" who="#IL"/>
+         <change type="references" when-iso="2021-07-05" who="#IL"/>
+         <change when-iso="2020-10-08T13:04:04.168Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T13:04:49.133Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 471997. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000120-002-000-facs001">
+      <surfaceGrp xml:id="D_000120-002-000-facs001-l001">
+         <surface xml:id="D_000120-002-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556355/full/full/0/default.jpg"/>
+         </surface>
+         <surface xml:id="D_000120-002-000-facs001-l001-p002" type="verso">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556356/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000120-002-000_p001"
+             facs="#D_000120-002-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_88aaadb6-c93f-4803-be25-eb36749df6a2">
+            <lb xml:id="uuid_0c4fe5d3-f971-4a05-a060-83d365f5d10e"/><note type="intertext"
+               source="https://fackel.oeaw.ac.at/f/806,050">Hochgeehrter Herr <rs ref="#38909"
+                  type="person">Kollege</rs>, </note></p>
+         <note type="intertext" source="https://fackel.oeaw.ac.at/f/806,050">
+            <p xml:id="uuid_8a4fed6f-6cf3-4dc0-8506-9fead6a4c6c6">
+               <lb xml:id="uuid_d2da21e8-fb4a-441f-b26e-d10ccee11ac3"/>mit besonderem<lb
+                  xml:id="uuid_4560ae48-7d77-430f-95f2-940f25cae6b2"/>Dank bestätige ich Ihre <rs
+                  ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000120-001-000" type="work"
+                  subtype="legal-doc">Zuschrift</rs> vom 7. März<lb
+                  xml:id="uuid_97fcb6e6-b048-410f-ab38-d2728aa9fafd"/>1929. Ich habe das <rs
+                  ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000120-001-000" type="work"
+                  subtype="legal-doc">Schreiben</rs> natürlich Herrn<lb
+                  xml:id="uuid_220305d8-127c-4f52-a500-14095d34f6c1"/><rs ref="#16079" type="person"
+                  >Falckenberg</rs> zur Kenntnis gebracht. </p>
+         </note>
+         <p xml:id="uuid_cc0084d2-1ede-4d7a-9535-6ff9873dbd14"><note type="intertext"
+               source="https://fackel.oeaw.ac.at/f/806,050">
+               <lb xml:id="uuid_52023ddc-0429-4c01-8011-c2eeb7fbb312"/>In vorzüglicher kollegialer
+                  Hochachtung<lb xml:id="uuid_3fae137e-814f-4e43-bd1e-cb858c07c0df"/><rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/51597" type="person">Kaufmann</rs></note>
+         </p>
+         <p xml:id="uuid_beaed780-4f12-4442-b312-454cb7518bb6">
+            <lb xml:id="uuid_fa51c932-df0e-429e-96d6-7ce67f6ded60"/><note resp="law-firm"
+               type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs> – diverses<lb xml:id="uuid_75917469-b3a7-4113-9fce-a83db7abb1d4"/>10.
+               APR. 1929</note></p>
+      </body>
+   </text>
+</TEI>

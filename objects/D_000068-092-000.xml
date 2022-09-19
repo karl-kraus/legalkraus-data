@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-093-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-091-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000068-092-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Verlag Die Fackel an Justizrat Viktor Fraenkl</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000068-092-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-verlag-die-fackel-justizrat-viktor-fraenkl </idno>
+            <idno subtype="transkribus" type="ID">207936</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000068" type="collection">Karl
+                    Kraus ca. Alfred Kerr</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000068-092-000-facs001" xml:id="D_000068-092-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000068-092-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHU">Durchschlag mit handschriftlichen Überarbeitungen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#43724"/>
+               <address>
+                  <street corresp="#50496"/> 
+                  <settlement ref="#53"/> 
+               </address>
+               <date when-iso="1928-03-07">7. März 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38141">Wohlgeboren | Herrn Justizrat Victor Fraenkl</persName>
+               <address>
+                  <street corresp="#362">Potsdamerstrasse 86b</street>
+                  <settlement ref="#168">Berlin W 57</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1928-03-07">7. März 1928</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote cert="high"
+                      medium="pencil"
+                      resp="#AR"
+                      scribeRef="#11988"
+                      source="#D_000068-092-000-wit01"
+                      xml:id="D_000068-092-000-hand01"/>
+            <handNote cert="low"
+                      medium="black-ink"
+                      resp="#AR"
+                      scribeRef="#11988"
+                      source="#D_000068-092-000-wit01"
+                      xml:id="D_000068-092-000-hand02"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000068-092-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000068-092-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" status="draft" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" status="draft" when-iso="2021-09-13">Replaced Text with Transcription
+                of Transkribus Document 207936. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2022-01-07"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-01-07" who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2022-01-07"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2022-01-07"
+                 who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2022-01-07"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000068-092-000-facs001">
+      <surfaceGrp xml:id="D_000068-092-000-facs001-l001">
+         <surface type="recto" xml:id="D_000068-092-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552961/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-092-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552962/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552963/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552964/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552965/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552966/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000068-092-000_p001"
+             facs="#D_000068-092-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_97920234-a341-4b5d-b20c-7015c0c65839">
+            <lb xml:id="uuid_2d573d9b-4ae9-4016-9bc2-d74f2f274764"/>Geehrter <rs ref="#38141" type="person">Herr Justizrat</rs>! </p>
+         <p xml:id="uuid_55df090b-4830-40e0-bdb1-025720f1d7a5">
+            <lb xml:id="uuid_bf6ed275-63c1-4ce0-b4d7-7312d9714693"/>Im Auftrage des Herrn <rs ref="#11988" type="person">Kraus</rs> beantworten wir<lb xml:id="uuid_989800da-7cfc-43ef-820d-12f5e69dbb15"/>Ihr <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-091-000.xml"
+                type="work"
+                subtype="legal-doc">Schreiben vom 5. März</rs> an <rs ref="#38909" type="person">Dr. Samek</rs>, dessen Abschrift Sie Herrn<lb xml:id="uuid_78e11524-402a-4f38-83c8-9737c31eb807"/><rs ref="#11988" type="person">Kraus</rs> ohne ein Wort direkter Anrede eingesendet haben. Die
+                    Erledi<lb break="no" xml:id="uuid_75b2911f-a93c-4115-80d2-7b1c0e9e8474"/>gung
+                Ihres Kostenanspruches nebst einigen aufklärenden Worten wäre<lb xml:id="uuid_3032410c-219c-42d0-9736-5b48e3c690e7"/>ohnedies am heutigen Tage
+                durch Herrn <rs ref="#38909" type="person">Dr. Samek</rs> erfolgt, da Herr<lb xml:id="uuid_dd246698-8e12-4810-ac67-8d3c8ecbfde3"/><rs ref="#11988" type="person">Kraus</rs> Montag abends aus <rs ref="#45258" type="place">München</rs> zurückgekehrt ist. </p>
+         <p xml:id="uuid_27a23219-9b36-4b5d-8f16-c378b8c2a4f9">
+            <lb xml:id="uuid_32a48b1f-d249-42ce-95c6-ed2774a88e27"/>Zu Ihrem <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-091-000.xml"
+                type="work"
+                subtype="legal-doc">Schreiben vom 5. März</rs> ist zu sagen,<lb xml:id="uuid_38e989ab-394f-4226-83df-1ad7acf02b95"/>dass Sie keineswegs aus dem
+                gerichtlichen <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-090-000.xml"
+                type="work"
+                subtype="legal-doc">Beschluss</rs> erst ersehen<lb xml:id="uuid_2e442846-1c6e-478a-bcef-4da4b935adbf"/>haben, dass der unter
+                Vorbehalt geschlossene Vergleich nicht wider<lb break="no" xml:id="uuid_55bd8789-a0e2-4465-93c4-8d11065a620a"/>rufen wurde, sondern dass
+                Sie dies schon aus dem <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-086-000.xml"
+                type="work"
+                subtype="legal-doc">Ersuchen</rs> des Herrn<lb xml:id="uuid_290a04a8-c28d-441c-bc15-89020451c892"/><rs ref="#38909" type="person">Dr. Samek</rs> vom 20. Februar, den <rs ref="#38364" type="person">gegnerischen Vertreter</rs> nochmals auf<lb xml:id="uuid_ca1e79c5-f2a5-48a7-b5d1-b25eaa13e0ad"/>den bloss juristischen
+                Abschluss des Prozesses aufmerksam zu machen,<lb xml:id="uuid_86366cc3-7a6e-4bcd-9868-109964acd6ae"/>ersehen mussten. Diese
+                Tatsache machte auch eine Beantwortung Ihrer<lb xml:id="uuid_c384a225-71c9-4c59-97ea-3559a7d3e2f6"/>Schreiben vom 21. und 23.
+                Februar überflüssig, bis auf den Kostenpunkt<lb xml:id="uuid_97dad0ce-6759-4ace-97b4-232fea89bae0"/>der wegen Abwesenheit des
+                Herrn <rs ref="#11988" type="person">Kraus</rs> (so bedauerlich Ihnen diese<lb xml:id="uuid_87aa5dfa-ed9c-492c-9bde-405979fa272f"/>auch erscheinen mag), erst
+                jetzt erledigt werden konnte. </p>
+         <p xml:id="uuid_15c4f6bf-d49e-4565-a7ba-a423c163c957">
+            <lb xml:id="uuid_a3a2a9d6-cfcc-4507-8620-4aa76ec48f27"/>Es ist unrichtig, dass Herr <rs
+               ref="#11988" type="person">Kraus</rs> die lange<lb
+               xml:id="uuid_b92618aa-f941-43fa-9a90-a3345f89d9bd"/>Frist ungenützt verrinnen liess
+            was von Ihnen „<quote source="#D_000068-091-000.xml"
+               xml:id="uuid_c21a5edc-b19d-482e-900a-2578c779bc6f">nicht zu vertreten</quote>“<lb
+               xml:id="uuid_f060ef43-1c07-4f21-9cdb-cffc135545b4"/>sei. Wichtig ist, dass <hi
+               hand="#D_000068-092-000-hand01" rend="underlined">innerhalb</hi> der Frist die einzig
+               mögliche<lb xml:id="uuid_3741a464-b897-48b6-aa28-e1106f700c21"/>Konsequenz aus der
+            Zwangslage gezogen wurde, in die Herr <rs ref="#11988" type="person">Kraus</rs> als<lb
+               xml:id="uuid_25354aa1-7e62-4e8a-9773-5bf84509ca62"/>Kläger respektive Angeklagter
+            sich versetzt gefühlt hat, und aus<lb xml:id="uuid_32442568-bc8e-4615-a6df-8345f5b69c56"
+            />der <subst hand="#D_000068-092-000-hand01">
+               <del hand="#D_000068-092-000-hand01">(Erkenntnis, dass <hi
+                     hand="#D_000068-092-000-hand01" rend="underlined">die Sache</hi> von Ihnen
+                  nicht zu vertreten sei).</del>
+               <add hand="#D_000068-092-000-hand01">Wahrnehmung des Eindrucks, daß Sie die <hi
+                     rend="underlined">Sache</hi> als ganze nicht zu vertreten wünschen.</add>
+            </subst> In<lb xml:id="uuid_891aa6a8-1c35-47e8-bbc4-d26e49fefdc7"/>denkbar schonendster
+            Form hat Herr <rs ref="#38909" type="person">Dr. Samek</rs> diese Empfindung im<lb
+               xml:id="uuid_6791a610-272a-415d-bcb1-195b2d91341a"/><rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-084-000.xml" type="work"
+               subtype="legal-doc">Schreiben vom 17. Februar</rs> zum Ausdruck gebracht, gestützt
+            nicht so<lb xml:id="uuid_d4a8d6c4-98f1-491f-8371-28bac740db1d"/>sehr auf die Tatsache
+            des provisorischen Vergleiches, als auf die<lb
+               xml:id="uuid_e1fda0af-eed9-467a-b9e6-457db0af3667"/>Art, wie er herbeigeführt wurde,
+            worüber ein durchaus zuverlässiger<lb xml:id="uuid_84737206-5a20-4068-a959-166a224999aa"
+               /><rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-077-000.xml" type="work"
+               subtype="legal-doc">Bericht</rs> eines <rs ref="#38477" type="person"
+               >Ohrenzeugen</rs> der letzten Verhandlung vorliegt. Dieser<lb
+               xml:id="uuid_3cb2710b-24e3-4dfe-8b6a-c39b9f0dc9be"/><rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-077-000.xml" type="work"
+               subtype="legal-doc">Bericht</rs> bestätigt durchaus die Darstellung des <rs
+               ref="#62933" type="work" subtype="pmb">Gerichtssaalberichtes</rs>
+            <lb xml:id="uuid_29735b58-a5c5-45c6-a228-c0b1ba367f15"/>im „<rs ref="#58129" type="work"
+               subtype="pmb">Vorwärts</rs>“ auf den sich Herr <rs ref="#11988" type="person"
+               >Kraus</rs> und <rs ref="#38909" type="person">Dr. Samek</rs> sonst als Zei<lb
+               break="no" xml:id="uuid_b5469060-efa4-4dcf-a408-9bf37030f18f"/>tungsstimme
+            keinesfalls berufen hätten, der jedoch auch durch Ihr<lb
+               xml:id="uuid_be0b05e7-4e75-413d-b012-b00a1012e851"/>eigenes Wort im <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-076-000.xml" type="work"
+               subtype="legal-doc">Schreiben vom 2. Februar</rs>, wonach Sie die vergleichs<lb
+               break="no" xml:id="uuid_98a340d6-ec25-4e84-90af-f83b946ba628"/>weise Erledigung für
+            die „<quote source="#D_000068-076-000.xml"
+               xml:id="uuid_ea9aed9c-e76a-459f-baba-84c47ba9c7f8">gescheiteste</quote>“ erklärt
+            haben, <subst hand="#D_000068-092-000-hand01">
+               <del hand="#D_000068-092-000-hand01">verifiziert</del>
+               <add hand="#D_000068-092-000-hand01">beglaubigt</add>
+            </subst>
+            <lb xml:id="uuid_1f37a372-c051-4451-926b-e7b854c5a282"/>wurde. Herr <rs ref="#11988"
+               type="person">Kraus</rs> ist in Kenntnis der Tatsache, dass Sie dem Ver<lb break="no"
+               xml:id="uuid_48e00bb1-fd28-4af6-9b10-037cd969bf64"/>such des <rs ref="#38477"
+               type="person">gegnerischen Anwaltes</rs>, die Angelegenheit zu einem Literaten<lb
+               break="no" xml:id="uuid_7a4821b3-56a1-44a6-b740-66da65dccb36"/>gezänk zu degradieren,
+            mit dem sich ernste Gerichtsmänner gar nicht<lb
+               xml:id="uuid_80887dee-a1e5-4881-9e29-e5e8757c8511"/>zu befassen haben, zumindest
+            nicht entgegengetreten sind. Diese <pb xml:id="D_000068-092-000_p002"
+               facs="#D_000068-092-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_bdd3b307-f6d1-4eea-beb8-d7f995af19bc"/>Wahrnehmung steht im diametralen
+            Gegensatz zu den Erwartungen, die<lb xml:id="uuid_79874941-a492-409a-9379-a41886b74bcc"
+            />er an Ihre Eingeweihtheit in Angelegenheiten der „<rs ref="#41244" type="work"
+               subtype="pmb">Fackel</rs>“ knüpfen<lb
+               xml:id="uuid_cfccb8b5-fd51-45f4-a04b-af5a3287bf4a"/>konnte. Dieses passive und
+            bagatellisierende Verhalten wäre für die<lb
+               xml:id="uuid_a42dac72-e134-42d8-b566-14eed774e6c3"/>Weiterführung des Prozesses
+               <subst hand="#D_000068-092-000-hand01">
+               <del hand="#D_000068-092-000-hand01">keineswegs</del>
+               <add hand="#D_000068-092-000-hand01">gewiß nicht</add>
+            </subst> von Nutzen gewesen. </p>
+         <p xml:id="uuid_9f89f1d9-29d5-4046-aa53-cbc84fbfbce9">
+            <lb xml:id="uuid_12ae90bb-d437-4cd7-8173-2e7d835c5d14"/>In der Sache selbst erblickt
+            Herr <rs ref="#11988" type="person">Kraus</rs>
+            <lb xml:id="uuid_ea15d693-1de2-48ea-8672-c6e1473f7a7d"/>eine schwere Enttäuschung in dem
+            Umstande, dass Sie, wiewohl <rs ref="#38909" type="person">Dr.<lb
+                  xml:id="uuid_a82b0a16-3a0f-49d9-ab22-81276768ec5c"/>Samek</rs> in den Briefen vom
+            3. Jänner und 28. Februar 1927 auf die Mög<lb break="no"
+               xml:id="uuid_77c28e03-a164-4fd5-aa12-55445b2cfc36"/>lichkeit einer Widerklage
+            ausdrücklich aufmerksam gemacht und ge<lb break="no"
+               xml:id="uuid_27444e7c-bd83-4674-9b1e-cba216fbb0da"/>schrieben hat, dass die Klage nur
+            einzubringen sei, „<quote source="#D_000068-003-000.xml"
+               xml:id="uuid_ceb3d9e7-c711-4e39-b06d-9b20390958cf">wenn es sicher<lb
+                  xml:id="uuid_a8c1d85e-bf76-419d-a752-baee19b89765"/>ist, dass die Berliner
+               Gerichte zu einer Widerklage gegen Herrn<lb
+                  xml:id="uuid_a0eaf1c5-b49b-4c62-a849-2f9f87e54905"/><rs ref="#11988" type="person"
+                  >Kraus</rs> nicht zuständig sind</quote>“, die Klage eingebracht haben. Nach
+               Ein<lb break="no" xml:id="uuid_d21637a1-5ffa-43f7-83ae-0bfa19c7f02d"/>bringung der
+            Klage ist ihm die Widerklage dann doch erwachsen und<lb
+               xml:id="uuid_99198f07-918b-4ed5-ae54-1be12134cba5"/>Sie haben sie in einem Masse
+            ernst genommen, dass Sie auf der Basis<lb
+               xml:id="uuid_b9234d42-babb-4cb4-8095-843ecfe36a78"/>der Gleichwertigkeit auf
+            gegenseitige Zurückziehung eingingen.<lb
+               xml:id="uuid_a91a51e7-ceb2-429a-88c5-e66cec4d87ae"/>Um diesen Gewinn herbeizuführen,
+            hat es bestimmt nicht der Einbrin<lb break="no"
+               xml:id="uuid_cba4d56f-80e0-492e-af02-e6fabb8d6166"/>gung der Klage bedurft. Herr <rs
+               ref="#11988" type="person">Kraus</rs> glaubt nicht, dass ihm, da Sie<lb
+               xml:id="uuid_3fc0da6a-6abb-4112-ad85-d54a20c9ce00"/>sich juristisch getäuscht haben,
+            eine moralische Verpflichtung er<lb break="no"
+               xml:id="uuid_4431cd57-a0ff-4b8f-9db4-f1573cbbe8c3"/>wächst, Ihnen mehr als Ihre
+            Barauslagen zu ersetzen, in einer Sache,<lb
+               xml:id="uuid_00e06a61-b28f-49ee-b8b1-b57301da94a5"/>die er Ihnen anvertraut hat, weil
+            er aus Ihrer Beziehung zu seiner<lb xml:id="uuid_b2cfc7dc-dd9c-4f9c-b265-1e7811f85241"
+            />Arbeit auf eine persönliche Teilnahme in einem kulturpolitischen<lb
+               xml:id="uuid_1996d5fc-d9d2-4710-b540-0930dae2fcc5"/>Kampfe schliessen durfte. Er
+            überweist Ihnen den gewünschten Betrag<lb
+               xml:id="uuid_1a6e46f9-2285-415d-9e0d-c6338ae2936c"/>von 200 Mark, macht aber kein
+            Hehl daraus, dass er es für einen<lb xml:id="uuid_186fb6a9-dbdc-426b-bbb5-7b4b4412a1e6"
+            />würdigen und entsprechenden Abschluss der Angelegenheit erachten<lb
+               xml:id="uuid_e868e0c9-944b-4064-bdf6-1e51e29f36a0"/>würde, wenn Sie sich
+            entschlössen, die Summe, die nach Abzug der Bar<lb break="no"
+               xml:id="uuid_2de9b738-189a-4ace-b3ba-4d8de8177982"/>auslagen übrigbleibt, entweder
+            dem der Prozessmaterie gemässen Wohl<lb break="no"
+               xml:id="uuid_e7eca11e-3ed0-4973-a110-9e05df639547"/>fahrtswerk, der Unterstützung
+            Kriegsblinder, oder einem Ihrer Par<lb break="no"
+               xml:id="uuid_bbc5b19a-424f-4db7-b204-c3d13bbec010"/>teizwecke zuzuwenden oder etwa
+            auch zu Gunsten der Hinterbliebenen<lb
+               xml:id="uuid_80b36d96-1642-41fb-bf3e-53ac07c835de"/>des <rs type="person">90. Wiener
+               Polizeiopfers</rs>, für die Herr <rs ref="#11988" type="person">Kraus</rs>
+            gegenwärtig eine<lb xml:id="uuid_77bf5ce5-d272-4ce8-b731-14b7a1dc6065"/>Sammlung
+            veranstaltet, zu widmen. </p>
+         <p xml:id="uuid_f81f1636-27ab-4d74-918c-d20bde7ba7cb">
+            <lb xml:id="uuid_77b687d3-5170-4ed1-a965-5b7aca945fd3"/>Hochachtungsvoll </p>
+      </body>
+   </text>
+</TEI>

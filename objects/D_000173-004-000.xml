@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-005-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-003-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000173-004-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Verlag Die Fackel an Deutsches Theater Prag</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000173-004-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/4269</idno>
+            <idno subtype="transkribus" type="ID">312380</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000173" type="collection"
+               >Briefwechsel zwischen dem Verlag Die Fackel, dem Verlag Universal Edition und dem
+               Deutschen Theater Prag bezüglich Aufführungen von Offenbachstücken in der Kraus’schen
+               Bearbeitung und Verlagsproblemen</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000173-004-000-facs001" xml:id="D_000173-004-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000173-004-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL"
+                        >Durchschlag</objectType>
+                  </ab>
+                  
+                  <ab type="materiality">
+                     <objectType source="D_000173-004-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP">Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#43724">Verlag „Die Fackel“</orgName>
+               <address>
+                  <street corresp="#50496"/>
+                  <settlement ref="#53"/>
+               </address>
+               <date when-iso="1932-01-22">22. Januar 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/43540">die Direktion | des
+                        Deutschen Theaters</persName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#652">Prag XII</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-01-22">22. Januar 1932
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000173-004-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000173-004-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-12-07" who="#JK"/>
+         <change type="typography" when-iso="2021-12-07" who="#JK"/>
+         <change type="references" when-iso="2021-12-07" who="#JK"/>
+         <change type="structure" when-iso="2021-12-07" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-07" who="#JK"/>
+         <change when-iso="2020-10-09T14:15:19.701Z" who="#IB">created by API</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000173-004-000-facs001">
+      <surfaceGrp xml:id="D_000173-004-000-facs001-l001">
+         <surface type="recto" xml:id="D_000173-004-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543362/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface></surfaceGrp>
+      <surfaceGrp xml:id="D_000173-004-000-facs001-l002">
+         <surface type="recto" xml:id="D_000173-004-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543364/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000173-004-000_p001"
+             facs="#D_000173-004-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_286f5f11-1829-46d9-90bd-b2c2dc7247bb">
+            <lb xml:id="uuid_2a9b800e-2615-4434-a04b-49575a72e786"/>Hochgeehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43540" type="person">Herr</rs>! </p>
+         <p xml:id="uuid_ecd3918a-ac34-4038-ab33-10f2189b0a22">
+            <lb xml:id="uuid_c85c1ec5-10e0-4f11-b438-5fd3583f11a9"/>In Vertretung des Herrn <rs
+               ref="#11988" type="person">Karl Kraus</rs>, der noch verreist ist,<lb
+               xml:id="uuid_46162c6c-ce8e-4d12-9d9e-f45bbe466093"/>teilen wir Ihnen mit dessen
+            bestem Dank für Ihre freundliche <rs type="work" subtype="legal-doc"
+               ref="#D_000173-003-000.xml">Zuschrift</rs><lb
+               xml:id="uuid_baf6203c-d59b-4571-bfe1-b95a54016c76"/>das Folgende als Antwort mit:
+            Herrn <rs ref="#11988" type="person">Karl Kraus</rs> ist es nicht ganz klar,<lb
+               xml:id="uuid_7c0b1382-d176-483b-8477-58d313f70974"/>wie Sie sich seine künstlerische
+            Einflußnahme, mit der er Ihnen für die<lb
+               xml:id="uuid_ea0bea03-caa5-480d-b566-204209da9ea7"/>Aufführung der <rs ref="#55390"
+               type="work" subtype="pmb">Madame l’Archiduc</rs> an die Hand gehen soll,
+               vorstellen.<lb xml:id="uuid_a912f4d3-7ebd-4168-bfae-ff8358e1e39c"/>Sie fragen, ob es
+            möglich ist, daß er „<quote source="#D_000173-003-000.xml"
+               xml:id="uuid_be8776dc-b480-457c-838d-3c109cd63181">schon bei den letzten Proben an<lb
+                  break="no" xml:id="uuid_f3900d0b-7515-411b-bee2-3fab88d6ff34"/>wesend
+            sei</quote>“. Ein künstlerischer Einfluß wäre aber in diesem letzten<lb
+               xml:id="uuid_ac8051c2-6ef4-468e-82e7-c945db871c5c"/>Stadium kaum mehr geltend zu
+            machen, vielmehr wäre zu solchem Zwecke<lb
+               xml:id="uuid_e20ccba5-8dcd-4208-9b57-065c2b12031b"/>die Anwesenheit schon bei den
+            ersten Proben, das heißt beim Arrangement<lb
+               xml:id="uuid_ebaff21a-9e44-436c-ad4c-28ba293394b1"/>notwendig, da von diesem die
+            sprachliche Gestaltung wesentlich abhängen<lb
+               xml:id="uuid_4911d3ef-5106-427d-9f7a-41e1b06dd2ed"/>könnte. Sie gehen aber von dem
+            Wunsch aus, Herrn <rs ref="#11988" type="person">Karl Kraus</rs> bei der Premiere<lb
+               xml:id="uuid_ddf7ac46-6597-4997-b671-90ddcf94d787"/>anwesend zu sehen, und meinen
+            offenbar, daß kurz vorher sich die Ge<lb break="no"
+               xml:id="uuid_a5651d97-c3cf-4bde-b2e1-90fcc875f6db"/>staltung noch beeinflussen ließe.
+            Herr <rs ref="#11988" type="person">Karl Kraus</rs> bedauert, diese Mei<lb break="no"
+               xml:id="uuid_7e5fdac4-1c8e-40d9-a175-82968d789846"/>nung nicht teilen zu können, und
+            er ist nicht in der Lage, einer Auf<lb break="no"
+               xml:id="uuid_5160d60e-1fd6-4441-8ac4-dc1e093bfe42"/>führung offiziell beizuwohnen,
+            auf die er keinen Einfluß zu nehmen ver<lb break="no"
+               xml:id="uuid_2917bd2f-9d98-4e5c-8902-93fcbac872b9"/>mocht hat. Sie haben das <rs
+               ref="#55390" type="work" subtype="pmb">Werk</rs> von der <rs ref="#36971"
+               type="institution">Universal-Edition</rs> erworben und in<lb
+               xml:id="uuid_c6aeb5ec-eedf-4024-871a-b7ffa68f4664"/>dem Vertrag des <rs ref="#11988"
+               type="person">deutschen Textautors</rs> für dieses <rs ref="#55390" type="work"
+               subtype="pmb">Werk</rs> ist wohl der An<lb break="no"
+               xml:id="uuid_9dfac1c8-39dc-41b7-8f37-084040c644c0"/>spruch auf die äußere
+            Unversehrtheit des Textes, leider jedoch noch<lb
+               xml:id="uuid_391fc2bb-4993-4851-ba6a-5a2abf68d16e"/>nicht die Bedingung, daß der <rs
+               ref="#11988" type="person">Autor</rs> die Wortregie führe, enthalten. Er<lb
+               xml:id="uuid_3d511ab8-5cc3-471b-b25e-91d73e723101"/>zweifelt durchaus nicht an dem
+            redlichsten Willen des <rs ref="#37080" type="institution">Theaters</rs>, an das<lb
+               xml:id="uuid_ac19f124-67e3-40ee-99ce-46338ea129bf"/><rs ref="#55390" type="work"
+               subtype="pmb">Werk</rs> alle Kraft zu wenden, über die es verfügt, er muß aber nach
+               allen<lb xml:id="uuid_d0da6fac-cadd-45da-bb8b-f4e2b1abc207"/>Erfahrungen, die er mit
+               <rs ref="#9131" type="person">Offenbach</rs>-Aufführungen gemacht hat, daran zwei<lb
+               break="no" xml:id="uuid_85511598-3d2f-4df5-b23b-91963d085452"/>feln, daß heute welche
+            Bühne immer imstande ist, dem Stil, dessen Wie<lb break="no"
+               xml:id="uuid_2914e595-b2c5-4e75-862d-2d85542a63d1"/>dergewinnung seine Absicht und
+            das Motiv seiner Arbeit ist, ohne seine<lb
+               xml:id="uuid_63b2ac49-ca17-4546-85eb-d5270c221356"/>praktische Mitwirkung
+            nahezukommen. Darum vermeidet er es, offiziell<lb
+               xml:id="uuid_d65c1e45-85bd-46a2-96e1-c44f38e4733a"/>jeder Wiedergabe seiner
+            Bearbeitungen beizuwohnen, die ohne seine Wort<lb break="no"
+               xml:id="uuid_2385dd36-bc80-4afa-bb22-73028ce0d27a"/>regie erfolgt. Daß er zu deren
+            Ausübung eingeladen wird, scheitert zu<lb break="no"
+               xml:id="uuid_dec7950c-fe20-45ec-9d27-1defee879522"/>meist an den materiellen
+            Möglichkeiten des Theaters. Für <rs ref="#652" type="place">Prag</rs> und gera<lb
+               break="no" xml:id="uuid_0c753b79-a05d-4c3d-870c-f694a106f46d"/>de um seines <rs
+               ref="#55390" type="work" subtype="pmb">Lieblingswerkes</rs> willen würde er nun auf
+            jede materielle<lb xml:id="uuid_f8c71325-aab3-4f74-95ab-4aedb9cb296b"/>Entschädigung
+            verzichten und sich mit dem Ersatz der Reise- und Aufent<lb break="no"
+               xml:id="uuid_7966df69-3b91-44b7-af95-dcb9faa79d48"/>haltsspesen begnügen. Der
+            Aufenthalt ließe sich verkürzen, wenn der <rs type="person"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/43540">Re<lb break="no"
+                  xml:id="uuid_4af38e96-e271-4700-8db8-30a24d30194e"/>gisseur</rs> dem am 30. in <rs
+               ref="#50" type="place">Wien</rs> (Offenbach-Saal) stattfindenden Vortrag der<lb
+               xml:id="uuid_bb58fac7-ee6c-44a3-9ee2-7bad5fbcfb16"/><rs ref="#55390" type="work"
+               subtype="pmb">Madame l’Archiduc</rs> beiwohnte, von dem er immerhin manches
+               profitieren<lb xml:id="uuid_fb0947ff-4f80-4c9a-bd2f-d9d21d221c40"/>könnte. Die
+            Zumutung des <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43540" type="person"
+               >Regisseurs</rs>, daß Herr <rs ref="#11988" type="person">Karl Kraus</rs> ihm
+               schrift<lb break="no" xml:id="uuid_d0f6d75d-5629-4efb-8b8b-40ab6f6f1833"/>lich seine
+            Wünsche bekanntgebe – nebst der Ansicht, daß es „<quote source="#D_000173-003-000.xml"
+               xml:id="uuid_2769eadb-14f7-4190-97af-be1a0ca74c9f">vielleicht<lb
+                  xml:id="uuid_016302b1-143f-49cf-9d40-7c52d7b6dab6"/>nett wäre</quote>“, wenn er
+            für <rs ref="#652" type="place">Prag</rs> „<quote source="#D_000173-003-000.xml"
+               xml:id="uuid_7407d73f-2e18-459a-90ad-bb55eafca596">noch einige Strophen</quote>“
+            dichtete – muß Herr<lb xml:id="uuid_50505bd6-69d1-498a-87fd-d0342ae1cb0e"/><rs
+               ref="#11988" type="person">Karl Kraus</rs> ablehnen. Er macht kein Hehl daraus, daß
+            gerade diese <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-003-000.xml"
+               type="work" subtype="legal-doc">Zu<lb break="no"
+                  xml:id="uuid_ae7439cb-f1da-4dc0-b35f-ffc3453c13aa"/>schrift des <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/43540" type="person">Regisseurs</rs></rs>,
+            so gut gemeint sie sein mag und so wenig er an<lb
+               xml:id="uuid_672d9b9b-ad20-45c2-9326-28a187793acc"/>seinem redlichen Bestreben
+            zweifelt, ihn mit gewissen Besorgnissen für<lb
+               xml:id="uuid_aa71063c-0773-408e-bfc0-363c42003a83"/>die Aufführung der <rs
+               ref="#55390" type="work" subtype="pmb">Madame l’Archiduc</rs> erfüllt. Was die
+            Strophen anlangt,<lb xml:id="uuid_f60a3151-335e-4abe-9f37-119648c7339b"/>so steht deren
+            Zusetzung, die dem Gedanken der Operette ja entspricht,<lb
+               xml:id="uuid_8e6d2d28-cde0-4ae7-945f-5beeafaf0b75"/>nichts im Wege. Sie mögen von
+            einem anderen verfaßt werden, müßten aber<lb
+               xml:id="uuid_cb9c6cbf-5613-4223-af81-1b9e499d9c05"/>dem <rs type="person"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Autor</rs> des Buches vorgelegt und im
+            Fall der Gutheißung – ganz so wie<lb xml:id="uuid_c025a650-30e8-4a56-84b4-75398b494f16"
+            />jede Improvisation – schliesslich als nicht vom <rs type="person"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Autor</rs> stammend auf dem
+               Theaterzet<lb break="no" xml:id="uuid_5bf3b8a7-58b2-42aa-bd09-80714da97ea5"/>tel
+            angezeigt sein. Daß er einem aktuellen oder lokalen Bedürfnis zu<lb break="no"
+               xml:id="uuid_cbd933fa-af56-4d98-923e-dfcf8fb06625"/>liebe auf fremden Antrieb
+            irgendetwas schreiben sollte, ist natürlich<lb
+               xml:id="uuid_b3265cb6-d11b-4f72-a429-6173d0f090b4"/>undenkbar. Abschließend möchten
+            wir Ihnen sagen, daß Herr <rs ref="#11988" type="person">Karl Kraus</rs>
+            <pb xml:id="D_000173-004-000_p002" facs="#D_000173-004-000-facs001-l002-p002" n="2"/>
+            <lb xml:id="uuid_0abfef8c-9327-4746-879c-bbfe322c9a74"/>der Aufführung offiziell nur
+            beiwohnen könnte, wenn er sie gutheißt.<lb
+               xml:id="uuid_eacd10f1-8027-41c5-ac3c-34a98e38af0c"/>Solches vermöchte er aber nur,
+            wenn ihm rechtzeitig der Einfluß auf die<lb
+               xml:id="uuid_9858114b-dbf2-4a1c-8732-f87a97365152"/>sprachliche Gestaltung eingeräumt
+            würde. Jede Entstellung <rs ref="#9131" type="person">Offenbachs</rs> –<lb
+               xml:id="uuid_d7b9c962-ac97-459f-9640-c280ad3499f5"/>sei es durch die falsche
+            Erneuerung mit Hilfe eines fremden, sei es<lb
+               xml:id="uuid_43fbf32a-d970-4330-921e-1a9cf8429b18"/>durch Benützung seines eigenen
+            Textes – bestimmt ihn, das Werk durch<lb
+               xml:id="uuid_1bc3961a-2a09-479c-ad93-ddf7c1df7a75"/>Protest wie durch Vortrag in der
+            Stadt, in der sie sich vollzogen hat,<lb
+               xml:id="uuid_7f98d246-bf9b-4c5a-953d-353dc462f72c"/>zu rehabilitieren, um dem
+            Gedanken der <rs ref="#9131" type="person">Offenbach</rs>-Renaissance Genüge zu<lb
+               xml:id="uuid_a991c6ab-c887-417d-bc47-795f3b3e8375"/>tun. </p>
+         <p xml:id="uuid_5a91dbeb-d227-49c3-82f7-0b70216f1a63">
+            <lb xml:id="uuid_d3bbe7af-9318-4797-891a-211e0d96249b"/>Mit vorzüglicher Hochachtung
+            </p>
+      </body>
+   </text>
+</TEI>

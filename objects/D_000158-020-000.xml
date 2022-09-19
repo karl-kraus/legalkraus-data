@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000158-020-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000158-019-000.xml"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000158-021-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Cornelis Bronsgeest an Samek</title>
+            <editor ref="#SH">Susanna Hufsky</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000158-020-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4123 </idno>
+            <idno type="ID" subtype="transkribus">304902</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000158">Karl
+                    Kraus ca. Oper am Platz der Republik (Kroll-Oper, Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000158-020-000-wit01" facs="#D_000158-020-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000158-020-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38002">Cornelis Bronsgeest</persName>
+               <address>
+                  <street corresp="#"/> 
+                  <settlement ref="#168">Berlin</settlement>
+               </address>
+               <date when-iso="1931-07-13">13. Juli 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Rechtsanwalt Dr. Oskar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date when-iso="1931-07-16"/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Br./Me.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-07-13">13. Juli 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000158-020-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000158-020-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-10-08T15:28:44.009Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T15:32:04.577Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 304902. </change>
+         <change type="intertexts" when-iso="2021-07-25" who="#SH"/>
+         <change type="structure" when-iso="2021-07-25" who="#SH"/>
+         <change type="references" when-iso="2021-07-25" who="#SH"/>
+         <change type="typography" when-iso="2021-07-25" who="#SH"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000158-020-000-facs001">
+      <surfaceGrp xml:id="D_000158-020-000-facs001-l001">
+         <surface xml:id="D_000158-020-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542743/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000158-020-000-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542744/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000158-020-000_p001"
+             facs="#D_000158-020-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_9f9c3adb-6b67-431f-bbb1-f8546f2cc3d8">
+            <lb xml:id="uuid_d5867dbd-dec3-4cfc-be17-7b4305fef5f6"/>Sehr geehrter <rs type="person" ref="#38909">Herr Doktor</rs>! </p>
+         <p xml:id="uuid_ba7485ad-4506-41e7-8d7a-7315fcc7a06e">
+            <lb xml:id="uuid_a62b3ed2-d06c-4c99-ae6f-337dbdb837f3"/>Leider komme ich erst jetzt
+            dazu, Ihnen für die Zusendung des<lb xml:id="uuid_f38a9751-15ed-4ff2-9a17-6a269b759562"
+               /><rs type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000158-018-000"
+               subtype="legal-doc">Memorandums</rs> betr. Fall <rs type="person" ref="#39440"
+               >Curjel</rs> zu danken. Da ich soeben von den Ferien<lb
+               xml:id="uuid_0f82e3fe-65b7-4a3f-b42c-01d63b67887c"/>zurück bin, hatte ich noch keine
+            Gelegenheit, Herrn <rs type="person" ref="#38318">Generalintendanten<lb
+                  xml:id="uuid_d836162f-55d0-4aa9-8249-6d4a61de41b3"/><hi rend="spaced"
+               >Tietje</hi>n</rs> die Sache vorzulegen. Ich möchte es ihm auch nicht<lb
+               xml:id="uuid_9420400e-9fa6-40f6-a88c-2a808462dc15"/>per Post übersenden, sondern
+            möchte eine Gelegenheit abwarten, bei<lb
+               xml:id="uuid_d5903e87-a6d9-4d73-975d-2690c0dfde48"/>einer mündlichen Verhandlung ihm
+            das <rs type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000158-018-000"
+               subtype="legal-doc">Memorandum</rs> zu überreichen. Ich<lb
+               xml:id="uuid_0129af80-b6ba-43cc-abe5-117ad8f2b205"/>hoffe, Ihnen dann baldmöglichst
+            die Stellungnahme des <rs type="person" ref="#38318">Herrn General<lb
+                  xml:id="uuid_b010f8cf-94ae-40d9-812d-722658960836" break="no"/>Intendanten</rs>
+            bekannt geben zu können. </p>
+         <p xml:id="uuid_dd42ec81-7d3f-417d-b45d-f62511f73fa5">
+            <lb xml:id="uuid_deef95d8-bbc6-4943-96e9-820f09d734ab"/>Mit dem Ausdruck meiner
+            vorzüglichsten Hochachtung<lb xml:id="uuid_df72a64c-7ac1-464b-bf85-c420562be0bf"/>bin
+            ich Ihr ergebener<lb xml:id="uuid_b51a16ca-619f-483a-bbbe-2b34a1f18fde"/><rs
+               type="person" ref="#38002">Bronsgeest</rs>
+         </p>
+         <pb xml:id="D_000158-020-000_p002"
+             facs="#D_000158-020-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_2d96746a-43e5-4fcf-80ff-23e4f93bf098">
+            <lb xml:id="uuid_b4d7dbc8-30cf-40c6-a898-70fa80505d53"/><note type="paratext"
+               resp="law-firm"><rs type="person" ref="#11988">Kraus</rs> – <rs type="institution"
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/37183">Krolloper</rs>
+               <lb xml:id="uuid_80adae42-8407-409c-89da-fd4d163f21ae"/>16. Juli 1931</note></p>
+      </body>
+   </text>
+</TEI>

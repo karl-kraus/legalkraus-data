@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-007-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-005-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000142-006-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Th. Knaur Nachf. Verlag</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000142-006-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3845</idno>
+            <idno subtype="transkribus" type="ID">264355</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000142" type="collection">Karl
+                    Kraus ca. Th. Knaur Nachf. Verlag (Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000142-006-000-facs001" xml:id="D_000142-006-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000142-006-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHU">Typoskript mit handschriftlichen Überarbeitungen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-02-26">26. Februar 1930
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <keywords>
+            <term>Brief</term>
+         </keywords>
+         <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.K.BRF</classCode>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51"/> 
+               </address>
+               <date when-iso="1930-02-26">26. Februar 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#37752">die | Firma Th. Knaur Nachf. Verlag</orgName>
+               <address>
+                  <street corresp="#58126">Pragerstrasse 14</street>
+                  <settlement ref="#168">Berlin W 50</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Knaur-Verlag.</note>
+               <note type="dictation">Dr.S/Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <handNotes>
+            <handNote xml:id="D_000142-006-000-hand01"
+                      source="#D_000142-006-000-wit01"
+                      scribeRef="#38909"
+                      medium="black-pencil"
+                      cert="low"
+                      resp="#IL"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000142-006-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000142-006-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-09-02" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-09-02" who="#IL"/>
+         <change type="structure" when-iso="2021-07-27" who="#IL"/>
+         <change type="references" when-iso="2021-07-27" who="#IL"/>
+         <change type="typography" when-iso="2021-09-02" who="#IL"/>
+         <change when-iso="2020-10-08T14:10:23.912Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T14:13:35.266Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 264355. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000142-006-000-facs001">
+      <surfaceGrp xml:id="D_000142-006-000-facs001-l001">
+         <surface type="recto" xml:id="D_000142-006-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559128/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000142-006-000-facs001-l002">
+         <surface type="recto" xml:id="D_000142-006-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559130/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000142-006-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559131/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000142-006-000-facs001-l003">
+         <surface type="recto" xml:id="D_000142-006-000-facs001-l003-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559132/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000142-006-000-facs001-l003-p005">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559133/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      
+      <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559134/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+      
+      <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559135/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+      
+      <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559136/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+      
+      <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559137/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+      
+      <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559138/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+      
+      <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559139/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+      
+      <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559140/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+      
+      <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559141/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+      
+      <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559142/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+      
+      <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559143/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+      
+      <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559144/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+      
+      <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559145/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000142-006-000_p001"
+             facs="#D_000142-006-000-facs001-l002-p002"
+             n="1"/>
+         <p xml:id="uuid_dd55880d-252f-4338-9710-4f03251faee2">
+            <lb xml:id="uuid_d82384f3-bcb7-4415-945e-efd457cdc11e"/>Ihr <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-004-000" type="work"
+               subtype="legal-doc">Schreiben</rs> vom 12. ds. beantworte ich<lb
+               xml:id="uuid_e3027867-40f8-4b50-b488-4711a9a15f88"/>erst heute, <add
+               hand="#D_000142-006-000-hand01">etwa</add> weil Herr <rs ref="#11988" type="person"
+               >Kraus</rs> von einer Auslandsreise erst vor<lb
+               xml:id="uuid_4f7b3d41-21a8-47a2-9682-127bb1546e2f"/>wenigen Tagen zurückgekommen ist
+            und ich mit ihm wegen der<lb xml:id="uuid_85079863-8243-46f6-bdc5-44352d2d2f03"/>meiner
+            Information gerade entgegengesetzten Behauptung Ihres<lb
+               xml:id="uuid_e43c1d6f-9018-4e8f-8746-1f1e8f523874"/><rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-004-000" type="work"
+               subtype="legal-doc">Briefes</rs> noch einmal sprechen musste. Ich habe auch den
+               Zeugen<lb xml:id="uuid_b34887af-e494-42ee-b654-3bc51197f557"/>der Unterredung Ihres
+            Herrn <rs ref="#51570" type="person">Droener</rs> mit Herrn <rs ref="#11988"
+               type="person">Kraus</rs>, Herrn<lb xml:id="uuid_96e8d301-4776-4705-948b-367e3e2ada10"
+            />Direktor <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38133" type="person">Heinrich
+               Fischer</rs> über die beiden Gespräche befragt<lb
+               xml:id="uuid_a80b61e4-35eb-4c97-a3c2-78b211f8da1c"/>und auch er bestätigte mir
+            vollinhaltlich die mir erteilte<lb xml:id="uuid_c62c80f1-af15-4a0e-a300-5ab167153024"
+            />Information.</p>
+         <p xml:id="uuid_59742a31-ac5b-4aae-bf71-6b3b8c081fc2">
+            <lb xml:id="uuid_e796ddbc-a396-47f1-af7e-32668604d481"/>Es bleibt also dabei, dass der
+               Sachver<lb break="no" xml:id="uuid_accbfcf6-9f3f-49bc-8923-f3a7f6fbea1b"/>halt, wie
+            ich ihn in meinem <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-004-000"
+               type="work" subtype="legal-doc">Brief</rs> vom 5. Februar mitgeteilt<lb
+               xml:id="uuid_c9fd4017-0586-49c8-9656-596e8c945312"/>habe, richtig ist. Die zweite
+            Unterredung war gerade zu dem<lb xml:id="uuid_6c423cfe-a31d-4f52-bd6f-0f5c9d695143"
+            />Zweck bestimmt worden, damit Herr <rs ref="#51570" type="person">Droener</rs>
+            unterdessen mit<lb xml:id="uuid_8add1297-3819-443a-a887-dfd9d9ed63fc"/>seinen Sozien
+            sprechen könne und bei dieser zweiten Unterredung<lb
+               xml:id="uuid_1daed1e5-9570-47b8-a7ce-ff56da0251d8"/>brachte Herr <rs ref="#51570"
+               type="person">Droener</rs> die endgiltige zustimmende Antwort, das<lb
+               xml:id="uuid_a16a4a35-9ef2-4eb0-a913-baa928ffbddd"/>Resultat, das eben Herr <rs
+               ref="#11988" type="person">Kraus</rs> für diesen Tag verlangt hatte.<lb
+               xml:id="uuid_ab2939f2-937d-4922-a152-869de1221304"/>Herrn <rs ref="#51570"
+               type="person">Droener</rs> muss sein Gedächtnis im Stiche gelassen haben,<lb
+               xml:id="uuid_f4c3138a-8541-4362-a063-289348a8fce0"/>wenn er behauptet, dass beide
+            Unterredungen dem Wunsche ge<lb break="no"
+               xml:id="uuid_04168524-addc-4d9f-aed7-d7872261400d"/>widmet waren, Vorverhandlungen zu
+            führen, um erst späterhin <pb xml:id="D_000142-006-000_p002"
+               facs="#D_000142-006-000-facs001-l002-p003" n="2"/>
+            <lb xml:id="uuid_fcbcbdb4-d28b-44cf-81fd-df35d003e804"/>die Entscheidung der Sozien
+            einzuholen. Die zweite Unter<lb break="no"
+               xml:id="uuid_bc7e09e2-5f3b-4101-86cb-506d7eb4388c"/>redung hätte auch gar keinen Sinn
+            gehabt, wenn sie nicht die<lb xml:id="uuid_24e0d0a9-0663-448f-bb1b-629800880680"
+            />endgiltige Entscheidung zu bringen gehabt hätte. Keinesfalls<lb
+               xml:id="uuid_c05ac043-f6d3-4ae6-9d75-ab354ad98ca0"/>lag es in der Absicht des Herrn
+               <rs ref="#11988" type="person">Kraus</rs>, die vorjährige<lb
+               xml:id="uuid_9bd574f4-82f8-4cf2-b20f-27f057f8435f"/>Situation, die gleichfalls aus
+            zwei Gesprächen bestanden<lb xml:id="uuid_059b3035-46a6-4376-ab3c-a86d8e0d2d9d"/>hatte,
+            zu wiederholen und weiterzuschleppen. Der klare Unter<lb break="no"
+               xml:id="uuid_53dd85a8-bf10-4215-9a0e-0db116855cfc"/>schied gegen damals besteht eben
+            darin, dass das, was Herr<lb xml:id="uuid_d263a18b-7849-446c-8caa-9a5518ff2648"/><rs
+               ref="#51570" type="person">Droener</rs> jetzt anführt: Er hätte sich in der <hi
+               rend="underlined">zweiten</hi> Unterredung<lb
+               xml:id="uuid_85d0e417-df73-4e36-961f-e4c1b7ed55b4"/>auf eine noch nötige Rücksprache
+            mit den Sozien berufen, für<lb xml:id="uuid_4cfc7676-8b75-42f5-bce3-9b34aba226d8"/>das
+            zweite Gespräch vom Dezember 1928 zutrifft, keineswegs aber<lb
+               xml:id="uuid_85404ee0-67ec-4f41-b3d6-defa0c3be87a"/>für das jetzige zweite Gespräch,
+            in welches Herr <rs ref="#51570" type="person">Droener</rs> mit<lb
+               xml:id="uuid_934228be-d159-475b-a6b9-30edddf5e542"/>dem fertigen Resultat der „<quote
+               xml:id="uuid_01174eb8-6af1-451a-b231-8ca0fdae8cbc"
+               source="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-004-000">Rücksprache mit den
+               Sozien</quote>“ eintrat.<lb xml:id="uuid_78708ad2-c1a6-4220-8351-ef3ed5c135c6"
+            />Dieses Resultat, zustimmend oder ablehnend, war eben in der<lb
+               xml:id="uuid_410a255d-9f3e-42cf-98f1-ddc42acb496a"/>ersten jetzigen Unterredung
+            ausdrücklich verlangt, aus<lb break="no"
+               xml:id="uuid_76fa06c0-c3f8-45f6-bffc-4ac43440e64a"/>drücklich zugesagt worden und
+            wurde mit unüberbietbarer Deut<lb break="no"
+               xml:id="uuid_6b88afa2-84e3-498a-8a10-6d7d08e92cd0"/>lichkeit Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> in
+            Gegenwart des Herrn Direktor<lb xml:id="uuid_4863497a-dd13-4fd8-bb4f-0da3d20b4746"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/38133" type="person">Heinrich Fischer</rs>
+            überbracht. Herr <rs ref="#51570" type="person">Droener</rs> begann mit den Worten:<lb
+               xml:id="uuid_36e0eff4-9f97-40ca-8b77-7a564120e64b"/>„<q type="spoken" who="#51570"
+               >Also ich habe mir meine Sozien zusammengerufen, habe ihnen<lb
+                  xml:id="uuid_4f15ab7f-8751-47ea-86d6-5279ed4c0444"/>noch einmal das Exemplar
+               vorgelegt, habe darauf hingewiesen,<lb
+                  xml:id="uuid_0b9bfaf4-2589-45cb-89dd-e89b0c11fa81"/>dass ich Herrn <rs
+                  ref="#11988" type="person">Kraus</rs> jetzt die Entscheidung bringen müsse,
+                  habe<lb xml:id="uuid_ed1e5382-88e7-46ff-8006-227c1bd80e9c"/>hervorgehoben, es
+               handle sich ‚um das bedeutendste Werk der<lb
+                  xml:id="uuid_dbff9169-9d5d-42e2-803d-5d2ec6008fdc"/>letzten 50 Jahre, vielleicht
+               der letzten 100 Jahre, das brauche<lb
+                  xml:id="uuid_769d6e56-3e21-4a8c-96a6-8ccc39652723"/>ich nicht zu erörtern, das
+               steht fest, aber, was für uns ausser<lb break="no"
+                  xml:id="uuid_2907e1aa-0906-46fc-b199-7ad09cc581c0"/>dem wesentlich ist, ich halte
+               die Publikation auch für einen<lb xml:id="uuid_bce05bce-7016-4640-b044-1a1dbda1dea9"
+               />ausgesprochenen geschäftlichen Erfolg‘ und habe nunmehr meine<lb
+                  xml:id="uuid_ea93a15c-3d33-4694-b23e-30e8d3502ae9"/>Sozien um die Entscheidung
+               gefragt. Die Entscheidung lautet:<lb
+                  xml:id="uuid_a13a6e20-c30b-413c-9323-0939a508065a"/>Wir sind nicht in der Lage,
+               dieses <rs ref="#32544" type="work" subtype="pmb">Werk</rs> in unsere Standard<lb
+                  break="no" xml:id="uuid_710a60ed-f9c9-4b65-949a-7aa6c5d050de"/>Bibliothek zu
+               übernehmen, weil wir die Kontinuation haben und</q><pb xml:id="D_000142-006-000_p003"
+               facs="#D_000142-006-000-facs001-l003-p004" n="3"/>
+            <lb xml:id="uuid_859c79fd-1c79-429d-b88f-3fc5ad0a8acd"/><q type="spoken" who="#51570"
+               >weil unsere Sortimenter, die verpflichtet sind, unsere<lb
+                  xml:id="uuid_b76a567d-b3cd-46ae-8754-de0ccc21c0e4"/>Standardbücher abzunehmen,
+               wegen des exponierten Charakter<lb xml:id="uuid_f662aab9-f206-42fc-bbde-ad6f1342166c"
+               />dieser <rs ref="#32544" type="work" subtype="pmb">Publikation</rs> hinterdrein
+               rebellisch werden könnten,<lb xml:id="uuid_fb21dea6-3f69-4fa4-ad2a-79590d7628d2"
+               />aber wir sind entschlossen, das <rs ref="#32544" type="work" subtype="pmb"
+                  >Werk</rs> in den <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37752"
+                  type="institution">Knaur Verlag</rs><lb
+                  xml:id="uuid_9e3251ae-a426-43ee-89ea-22b794ba353f"/>zu übernehmen. Dies hat den
+               Nachteil der fehlenden Kontinua<lb break="no"
+                  xml:id="uuid_d3e4171b-1248-4cbf-88cf-0e311cd615e9"/>tion, aber wir drucken
+               trotzdem 100.000 Exemplare, die wir<lb
+                  xml:id="uuid_3d542e94-69c8-42b8-9777-1d0a8756c00b"/>sofort genau wie bei der
+               Standard-Bibliothek mit 10 Pfennig<lb
+                  xml:id="uuid_2658ff91-1659-4dac-b429-9efa792d0457"/>per Exemplar, d.i. 10.000 Mark
+               honorieren.</q>“ Auf die Frage<lb xml:id="uuid_bb68a1e0-b0b9-4917-8d56-c7e871bee272"
+            />des Herrn <rs ref="#11988" type="person">Kraus</rs>, welche Bücher im <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/37752" type="institution">Knaur Verlag</rs>
+            sonst er<lb break="no" xml:id="uuid_5f8c07ca-f1f3-464d-b868-79fcdefab1d1"/>scheinen,
+            erwiderte Herr <rs ref="#51570" type="person">Droener</rs>: „<q type="spoken"
+               who="#51570">Klassiker.</q>“ Er setzte<lb
+               xml:id="uuid_540d3cea-2200-4f91-b035-9352ca1def69"/>fort: „<q type="spoken"
+               who="#51570">Ausserdem übermittle ich Ihnen einen zweiten Antrag.<lb
+                  xml:id="uuid_fb59dc09-72a8-4423-b2eb-1f650ea17b62"/>Bei dem Gespräch mit meinen
+               Sozien war der <rs type="person">Leiter</rs> der<lb
+                  xml:id="uuid_2f5605e7-0563-4931-b175-e567ec2f5b3c"/><rs ref="#37144"
+                  type="institution">Gutenberggilde</rs> anwesend, der sich für das <rs ref="#32544"
+                  type="work" subtype="pmb">Buch</rs> ausserordent<lb break="no"
+                  xml:id="uuid_02612de5-83c4-44f0-82f3-1472bf4dc172"/>lich interessiert. Auf meine
+               Frage, ob er es kenne bejahte<lb xml:id="uuid_ee5a75c8-a024-4886-9494-0a1465cd3c67"
+               />er und bat mich, Ihnen den Antrag zu übermitteln, er wolle<lb
+                  xml:id="uuid_022e418c-a7df-4f65-bf07-6cfcbe984de7"/>30.000 Exemplare des <rs
+                  ref="#32544" type="work" subtype="pmb">Werkes</rs> übernehmen, die per Exemplar<lb
+                  xml:id="uuid_bf57fb0c-a043-4bf1-ae2d-99556ba32e9c"/>mit 30 Pfennig honoriert
+               werden. Wir bleiben bei der Be<lb break="no"
+                  xml:id="uuid_d8a1c0ed-942c-4220-a62f-dda027d925bd"/>dingung, dass ein erklärender
+               Index unserer Auflage beizu<lb break="no"
+                  xml:id="uuid_68592777-9e99-42ac-a8fc-59f63c37bc3c"/>schliessen ist. (auf das
+               Honorar für den Verfasser des<lb xml:id="uuid_6c7a9752-8ae9-4e59-9f3d-203a9ec1ce13"
+               />Index 800 bis 1.000 Mark soll es uns nicht ankommen), die<lb
+                  xml:id="uuid_e285c440-5f36-4b9e-ae01-75503df97d60"/><rs ref="#37144"
+                  type="institution">Gutenberggilde</rs> stellt im Gegenteil geradezu die
+                  Bedingung,<lb xml:id="uuid_1b2c1765-fc7a-49ee-9ac4-c39c066244b8"/>dass ihrer
+               Auflage kein Index beigeschlossen wird, weil sie<lb
+                  xml:id="uuid_5b61ab1b-297c-4d05-a490-3b9c93117a48"/>Wert darauf lege, das <rs
+                  ref="#32544" type="work" subtype="pmb">Werk</rs> in der vorhandenen Gestalt zu<lb
+                  xml:id="uuid_093d4e5d-f929-468b-9d30-18da2ab10a88"/>drucken.</q>“ </p>
+         <p xml:id="uuid_36525ec7-2cac-4869-bbec-092aac9b956e">
+            <lb xml:id="uuid_109e08c3-88eb-4767-aa14-05011da13214"/>Die Darstellung des Herrn
+                    <rs ref="#51570" type="person">Droener</rs> in<lb xml:id="uuid_4629a093-fa4b-4b7e-8c57-0f1c10f9028f"/>diesem Punkte, wonach er
+                später bei der <rs ref="#37144" type="institution">Gutenberggilde</rs> an<lb break="no" xml:id="uuid_02236984-dc39-404a-9191-2e828e1888e4"/>gefragt und einen
+                ablehnenden Bescheid erhalten hätte, ergäbe<lb xml:id="uuid_91d4853f-9da3-49e4-9819-29a82274016f"/>nur dann eine logische
+                Möglichkeit, wenn bei der Besprechung<lb xml:id="uuid_ef31533e-3e91-4765-bab1-a66ef091c856"/>nur die Verbindung mit der
+                    <rs ref="#37144" type="institution">Gutenberggilde</rs> angeregt worden <pb xml:id="D_000142-006-000_p004"
+                facs="#D_000142-006-000-facs001-l003-p005"
+                n="4"/>
+            <lb xml:id="uuid_51f8fae5-0f95-4121-8e7e-070ac51ddb58"/>wäre, sei es von Herrn
+                    <rs ref="#51570" type="person">Droener</rs> oder gar von Herrn <rs ref="#11988" type="person">Kraus</rs>, der aber<lb xml:id="uuid_de36cf33-84fb-4b3f-8b98-b1b6e9f87350"/>bis dahin von der Existenz
+                dieser Vereinigung keine Kenntnis<lb xml:id="uuid_cc747534-8e5c-4674-a84c-4e91d865ce64"/>hatte. Im Gegenteile hatte
+                er sich nach dem Gespräch infor<lb break="no" xml:id="uuid_2f47702e-a905-47ea-9020-732b8883a71d"/>miert und erfahren, dass die
+                Vereinigung eine solche sei,<lb xml:id="uuid_e30e41e2-5a5b-4bc1-9249-5d1bf3fc74d6"/>die den Gebrauch des auch hier gewahrten Rücktrittsrechtes<lb xml:id="uuid_285d9970-1975-4427-8406-16775dc53d37"/>nicht notwendig gemacht
+                hätte. Einen „<quote source="" xml:id="uuid_e820fe73-98bb-4acc-8790-bbd60accb507">ablehnenden Bescheid</quote>“<lb xml:id="uuid_9a6ed593-429b-4eb4-9732-84935febaed1"/>konnte Herr <rs ref="#51570" type="person">Droener</rs> von der <rs ref="#37144" type="institution">Gutenberggilde</rs> nicht erhalten<lb xml:id="uuid_59739747-8299-4728-99e8-48dffc88d78c"/>haben, da eine solche nur
+                auf eine Bewerbung durch Herrn<lb xml:id="uuid_988b66d8-07c8-4b83-a491-3edbf133e589"/><rs ref="#11988" type="person">Kraus</rs> hätte erfolgen können, während im
+                Gegenteile Herr<lb xml:id="uuid_4615ea9c-63d8-4333-90ab-aba097de0c47"/><rs ref="#51570" type="person">Droener</rs> den Antrag der <rs ref="#37144" type="institution">Gutenberggilde</rs> überbracht hatte. </p>
+         <p xml:id="uuid_96748045-175e-4fb0-b022-8f1b60ebffc8">
+            <lb xml:id="uuid_2aaa337c-b407-45c9-8dd8-806268ea6347"/>Ich zweifle loyalerweise
+                nicht, dass<lb xml:id="uuid_9b8c100e-13a7-419d-8e62-2364e8c54d6d"/>Herr <rs ref="#51570" type="person">Droener</rs> nunmehr sich an den Sachverhalt genau
+                    er<lb break="no" xml:id="uuid_548e772b-0915-4a95-b24b-6edcdbe294ae"/>innern und
+                zugeben wird, den <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-004-000"
+                type="work"
+                subtype="legal-doc">Brief</rs> vom 12.2. in einer Ge<lb break="no" xml:id="uuid_65a1e61e-a4d1-46c7-b5a1-5ecf202d481a"/>dächtnisstörung geschrieben
+                zu haben, und dass nunmehr kein<lb xml:id="uuid_bf382cf7-8cfc-40d3-aaac-4633e79233b7"/>Hindernis besteht, dass Sie
+                die beiden Verträge, deren Ein<lb break="no" xml:id="uuid_a294a3ee-35ac-4441-b713-4022e782b6c7"/>sendung unmittelbar nach
+                Rückkehr des Herrn <rs ref="#51570" type="person">Droener</rs> aus<lb xml:id="uuid_52ec10aa-4ad1-4bba-bee7-7916c8b0e031"/><rs ref="#168" type="place">München</rs> fest zugesagt war, an meine Adresse gelangen lassen.<lb xml:id="uuid_d033cf36-751c-4b45-bada-7ff90cd9e3ec"/>Sollte das binnen 8 Tagen
+                nicht der Fall sein, so bin ich<lb xml:id="uuid_bde5188f-5cca-4476-b8cd-3e617b074ff5"/>beauftragt, den Gerichtsweg
+                zu beschreiten. </p>
+         <p xml:id="uuid_85911664-94e8-428d-a2ea-0ec5b91784e0">
+            <lb xml:id="uuid_5a2e8467-7b7b-47b9-91f6-ddb8a81fc4b4"/>Hochachtungsvoll </p>
+         <p xml:id="uuid_f4508a55-6165-40d3-bdd0-5cbc6abb635f">
+            <lb xml:id="uuid_4f3fea6d-840b-4bae-9f1c-4feecde92def"/>Rekommandiert </p>
+         <p xml:id="uuid_400137fb-ffa7-4f44-a557-5994341508f9">
+            <lb xml:id="uuid_4b312398-aa71-4df6-b736-f1f2c0c34b55"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37752" type="institution">Knaur<lb xml:id="uuid_5c3b3686-eeb6-4276-ac2f-6267a6818456"/>Verlag</rs></note>
+         </p>
+      </body>
+   </text>
+</TEI>

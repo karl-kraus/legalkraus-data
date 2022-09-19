@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-029-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-027-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000189-028-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Johann Turnovsky</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000189-028-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4584</idno>
+            <idno subtype="transkribus" type="ID">367252</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000189" type="collection">Karl
+                    Kraus ca. Gegen-Angriff</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000189-028-000-facs001" xml:id="D_000189-028-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000189-028-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#52780"/>
+                  <settlement ref="#64"/>
+               </address>
+               <date when-iso="1934-01-23">23. Januar 1934</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#43593">Herrn | Dr. Johann Turnowsky, | Advocat</persName>
+               <address>
+                  <street corresp="#51737">Vodickova 33</street>
+                  <settlement ref="#652">Prag II.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Gegenangriff</note>
+               <note type="dictation">Dr.S/Fa</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1934-01-23">23. Januar 1934
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000189-028-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000189-028-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-06-28" who="#JK"/>
+         <change type="typography" when-iso="2021-06-28" who="#JK"/>
+         <change type="references" when-iso="2021-06-28" who="#JK"/>
+         <change type="structure" when-iso="2021-06-28" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-01" who="#JK"/>
+         <change when-iso="2020-10-11T08:21:20.32Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-11T12:19:12.647Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 367252. </change>
+         <change when-iso="2020-10-11T14:04:54.519Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 367252. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000189-028-000-facs001">
+      <surfaceGrp xml:id="D_000189-028-000-facs001-l001">
+         <surface type="recto" xml:id="D_000189-028-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544607/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000189-028-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544608/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000189-028-000-facs001-l002">
+         <surface type="recto" xml:id="D_000189-028-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544609/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000189-028-000-facs001-l002-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544610/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544611/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544612/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544613/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544614/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000189-028-000_p001"
+             facs="#D_000189-028-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_42841347-39d8-42bf-8332-f132c556e942">
+            <lb xml:id="uuid_69ecd8dc-a718-4b27-96f7-93bf52ce7122"/>Sehr geehrter <rs ref="#43593" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_f44fda5f-e3ef-47c4-8ff3-30116805715a">
+            <lb xml:id="uuid_4520c0a5-40ec-4431-b722-597a392183da"/>Es scheint, dass in der
+               Berichtigungssache<lb xml:id="uuid_e58cba1f-8a11-4e08-822e-fd6b5d7ca45a"/>immer neue
+            unvorhersehbare falsche Auffassungen der Richter<lb
+               xml:id="uuid_10c57e8e-6914-45f8-88b4-45f683f46ae7"/>zu verzeichnen sind. Nun kommt
+            eine neue Ansicht des<lb xml:id="uuid_3c9d201c-3050-4ab8-acc2-b117de59374a"/><rs
+               ref="#56241" type="person">Dr. Cervinka</rs> dazu, dass die Zitierung eines
+            Gedichtes, noch<lb xml:id="uuid_91e39ac7-69d0-43b2-966d-180a2f1253b7"/>dazu die falsche
+            Zitierung, keine den Autor betreffende<lb
+               xml:id="uuid_e63aadfc-d7c8-4404-b9a0-31d5a713fa80"/>Nachricht darstelle. Ich glaube,
+            dass diese Ansicht sofort<lb xml:id="uuid_a7bd7203-7a56-4bdd-a2e6-91eeb8471d7a"/>zu
+            widerlegen ist, wenn man sich die im <rs ref="#55935" type="work" subtype="pmb"
+               >Gegenangriff Nr. 19</rs>
+            <lb xml:id="uuid_22d176ff-9c1f-411c-9f73-00b23aa3f409"/>erfolgte Art der Zitierung
+            anschaut. Es heisst dort: „<quote source="#55937"
+               xml:id="uuid_99f52811-c9a8-4ef3-ac46-5fb209977491">Und<lb
+                  xml:id="uuid_c78f5930-232a-414c-b7ed-01a3ad154692"/>auf der letzten Seite besingt
+               er sein Schweigen:</quote>“ Es folgt<lb
+               xml:id="uuid_b69676e0-f91d-410e-b185-99e335eff442"/>nun der falsche Abdruck des <rs
+               ref="https://fackel.oeaw.ac.at/f/888,004" type="work" subtype="fackel"
+            >Gedichtes</rs>. Es ist klar und für<lb
+               xml:id="uuid_6ecab62e-58f0-4386-b517-1c4fa8e31f39"/>jeden, der nur zu lesen versteht,
+            liegt die Behauptung vor,<lb xml:id="uuid_3e4bf822-6cea-4691-b9c4-852a7cdd870b"/>dass
+            der nun zitierte Wortlaut des <rs ref="https://fackel.oeaw.ac.at/f/888,004" type="work"
+               subtype="fackel">Gedichtes</rs> richtig ist.<lb
+               xml:id="uuid_53bcbf9a-39f0-4cfb-a02a-7fab1ced489c"/>Dass es sich im gegenständlichen
+            Fall nur um einen Beistrich<lb xml:id="uuid_eeedab3c-14fc-4790-a2da-8c9d03521ff6"
+            />handelt, ist lediglich ein Quantitätsunterschied, denn der<lb
+               xml:id="uuid_3c8dc573-5608-4799-bb8b-45012740524d"/><rs type="person">Richter</rs>
+            müsste auch seine Ansicht aufrecht erhalten, wenn<lb
+               xml:id="uuid_55784272-a0b5-4acc-9cbe-021c1d34e6ac"/>ein ganz anderer Wortlaut als der
+            wirkliche als <rs ref="https://fackel.oeaw.ac.at/f/888,004" type="work" subtype="fackel"
+               >Gedicht</rs> des<lb xml:id="uuid_29568894-3530-4ed1-a83f-3272791689aa"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Autors</rs> zitiert
+            wird. Es wäre wirklich interessant<lb xml:id="uuid_3c38fa40-b786-40ea-9746-eb466bd7e96f"
+            />womit Herr <rs ref="#56241" type="person">Dr. Cervinka</rs> die Ansicht begründet,
+            dass die<lb xml:id="uuid_a8f84e12-acb6-4690-9768-d9a1d51ccce7"/>Zitierung des Gedichtes
+            keine den Autor betreffende Nach- <pb xml:id="D_000189-028-000_p002"
+               facs="#D_000189-028-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_f9c18b94-8cad-44d3-88fa-057293844dbe"/>richt darstelle, ich glaube, man
+            müsste den <rs type="person">Referenten</rs>
+            <lb xml:id="uuid_3abc4c02-73cd-4e4d-b4a9-bac0797a8841"/>besonders auf den Doppelpunkt
+            und das Anführungszeichen<lb xml:id="uuid_dd9a7e7d-b691-47c7-9369-6203a7be9dd3"/>bei der
+            Zitierung des <rs ref="https://fackel.oeaw.ac.at/f/888,004" type="work" subtype="fackel"
+               >Gedichtes</rs> stossen, um ihm seine<lb
+               xml:id="uuid_a3e3282f-16ad-4de3-ae69-9c41e65eeb31"/>falsche Meinung zu nehmen. </p>
+         <p xml:id="uuid_649105b0-0bee-4529-bd4f-7e3dcc6dc4f4">
+            <lb xml:id="uuid_189d2646-ab27-459f-8539-19d9494c35e8"/>Eigentlich habe ich diese
+            Einstellung der<lb xml:id="uuid_cb351eb3-6eec-4f58-958d-fe22307b017c"/>Richter niemals
+            befürchtet, sondern mehr, dass sie Bedenken<lb
+               xml:id="uuid_e88070fc-7e04-4e34-81d8-365668ce241d"/>haben würden, einen Druckfehler
+            berichtigen zu lassen, von<lb xml:id="uuid_b265479c-8f1b-4a09-a37a-a9abd0497fc7"/>dem
+            man unter Umständen sagen konnte, dass ein aufmerksamer<lb
+               xml:id="uuid_fd2d4f8c-6d8d-4f55-b60c-32a7e1734b30"/>Leser selbst daraufkommen könne,
+            dass es sich um einen<lb xml:id="uuid_912ad264-5ab1-4e2e-be46-ef2a461d1694"/>Druckfehler
+            handle. Auch in dieser Hinsicht glaube ich aber,<lb
+               xml:id="uuid_e300b3ad-f3bf-4d9b-b811-affd6c4c98a9"/>dass man eine Ansicht des <rs
+               type="person">Richters</rs> leicht widerlegen könnte<lb
+               xml:id="uuid_b837a21d-7303-4e9a-a0a5-41bec77a9681"/>durch einen vor kurzem im <rs
+               ref="#41507" type="work" subtype="pmb">Prager Tagblatt</rs> vorgekommenen<lb
+               xml:id="uuid_0a469867-dddb-4ea3-b1aa-c2bab15489e2"/>Druckfehler, der zeigt, dass es
+            sich auch hier nur um einen<lb xml:id="uuid_b58e1504-60b2-4ed3-a579-9da955b4aa8e"
+            />Quantitätsunterschied handelt. Im <rs ref="#56243" type="work" subtype="pmb">Prager
+               Tagblatt vom<lb xml:id="uuid_bae710ab-818b-4db7-a436-c46c8fb06f28"/>14. Januar
+               1934</rs> stand auf Seite 3 in einer <rs ref="#56245" type="work" subtype="pmb"
+               >Besprechung des<lb xml:id="uuid_e09239fe-5bca-4d05-8256-7d98545d93de"/>Buches von
+                  <rs ref="#12958" type="person">Tietze</rs> „<rs ref="#56249" type="work"
+                  subtype="pmb">Die Juden von Wien</rs>“</rs> der folgende Satz: </p>
+         <p xml:id="uuid_e0299c04-b845-47be-82a6-48ac425de18a">
+            <lb xml:id="uuid_0a9133ff-b590-43f5-8dea-2f0de84de736"/>„<quote source="#56245" xml:id="uuid_586d8171-f42f-4227-97a8-76f6c39f4302">Die ungeheure Mitschuld des
+                        Juden<lb break="no" xml:id="uuid_502a1b12-ef06-4f68-a240-566d4eda7b88"/>tums
+                    an Geist, Gesinnung und Erfolg der<lb xml:id="uuid_f9fc5274-8a37-4b39-9e39-1243233b9b1a"/>Presse hat <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> von
+                    dem assimilatorischen<lb xml:id="uuid_10865caa-c017-4d99-82c8-131f93a08d53"/>Standpunkt seiner ‚<rs ref="#56239" type="work" subtype="pmb">Krone für
+                        Zion</rs>‘ zu der hef<lb break="no" xml:id="uuid_1ca6acbf-5286-43c1-9c4e-a5a67b05d2ba"/>tigen Verdammung des
+                    Jüdischen geführt, die<lb xml:id="uuid_8bc15902-8f67-4fbc-b452-e28f66595f32"/>durch seine Ode ‚<rs ref="#56239" type="work" subtype="pmb">Krone für
+                        Zion</rs>‘ zu der hefti<lb break="no" xml:id="uuid_8a1cf0d2-2d4b-47df-a668-8225c5a99361"/>gen Verdammung des
+                    Jüdischen geführt, die<lb xml:id="uuid_c3606cc8-42ac-4c8c-9c76-11260fcfd214"/>durch seine Ode ‚<rs ref="https://fackel.oeaw.ac.at/f/423,058"
+                   type="work"
+                   subtype="fackel">Gebet an die Sonne von Gibeon</rs>‘<lb xml:id="uuid_c3c1c293-d06f-4402-8dd7-2b51b0fbd854"/>bebt.</quote>“ </p>
+         <p xml:id="uuid_bbb88257-a549-46f1-81eb-87290e46f04e">
+            <lb xml:id="uuid_1dbaf679-9b6c-49e5-9c43-3b2aa24c6d99"/>Dass dem <rs type="person"
+               >Setzer</rs> hier irgend etwas passiert<lb
+               xml:id="uuid_230c814e-b159-4cc0-b2d0-c28d4e45e859"/>ist, wird jeder Leser sofort
+            herausbekommen. Was ihm<lb xml:id="uuid_c744ec19-01d4-4af2-a3eb-9f1477cbb950"/>passiert
+            ist, aber nur der kundige Leser und auch dieser,<lb
+               xml:id="uuid_3911db5e-14e4-4d2c-bf97-77351bdc2375"/>der vielleicht nicht über alle
+            Werke <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>’
+            orientiert ist,<lb xml:id="uuid_c8d467ea-c9f0-44fc-a277-7d179e55bb38"/>wird als Wahrheit
+            hinnehmen, dass es eine Ode „<rs ref="#56239" type="work" subtype="pmb">Krone für<lb
+                  xml:id="uuid_200dac89-3fcf-413d-b789-86574db616ec"/>Zion</rs>“ gibt. Es liegt also
+            tatsächlich eine Behauptung in<lb xml:id="uuid_43cf484d-f916-46db-811f-0bb674807d23"
+            />dieser Hinsicht vor, wenn sie auch nicht ausdrücklich ist.<lb
+               xml:id="uuid_10571a07-d855-41c9-b7ab-86a11365727e"/>Es muss daher dem <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Autor</rs> das Recht
+            zustehen, zu berichtigen, <pb xml:id="D_000189-028-000_p003"
+               facs="#D_000189-028-000-facs001-l002-p003" n="3"/>
+            <lb xml:id="uuid_8657cbf3-34ac-442d-9542-c6e9283ca1e0"/>dass das Werk „<rs ref="#56239"
+               type="work" subtype="pmb">Krone für Zion</rs>“ keine Ode sondern eine<lb
+               xml:id="uuid_f037fc4a-d994-4d0b-b94e-652c21390181"/>Prosaschrift ist. Es geht aus
+            diesem Beispiel auch hervor,<lb xml:id="uuid_a8265638-87a9-4c95-ae71-f3e5b5059855"/>dass
+            eine Behauptung nicht nur in Form einer Behauptung<lb
+               xml:id="uuid_2bf2c821-e71f-4ba3-880e-0d2db74742a1"/>sondern durch eine nebensächliche
+            Beifügung aufgestellt<lb xml:id="uuid_7b6cf75d-bda2-42ae-866d-118565e1fddd"/>werden
+            kann. Wenn man nämlich zur Erkenntnis gekommen ist,<lb
+               xml:id="uuid_7a206158-400c-499a-be2c-e52f052e9e0b"/>dass die tatsächliche Behauptung
+            nicht an eine bestimmte<lb xml:id="uuid_c6e9c30a-cecf-4c23-83fb-f726e9f36af2"/>Form
+            gebunden ist, so wird man leicht einsehen, dass in der<lb
+               xml:id="uuid_888bd33d-f676-42d7-9f55-df62f0df29e8"/>Zitierung des <rs
+               ref="https://fackel.oeaw.ac.at/f/888,004" type="work" subtype="fackel">Gedichtes</rs>
+            eine tatsächliche Behauptung vor<lb break="no"
+               xml:id="uuid_b2b63dcc-71c0-4c0a-8319-252855c9a702"/>liegt und dass die Weglassung des
+            Beistriches nur ein<lb xml:id="uuid_0b5521cf-c01e-429a-9590-b8edca68775e"
+            />Quantitätsunterschied gegenüber einer Wortverstümmelung be<lb break="no"
+               xml:id="uuid_9176f5d7-ab79-47d8-8e5b-311aff4bd759"/>deutet. </p>
+         <p xml:id="uuid_aa0326e3-527c-4858-9204-378315d77760">
+            <lb xml:id="uuid_3643d0aa-2da7-4c27-8f76-916849240bcb"/>Was nun den von Herrn <rs
+               ref="#43610" type="person">Dr. Stein</rs> gemachten<lb
+               xml:id="uuid_c4b200df-37ce-4745-b67d-4735cc6ca479"/>Vorschlag, in der
+            Ehrenbeleidigungsangelegenheit betrifft,<lb
+               xml:id="uuid_0afbc338-045c-41ae-bddb-2ed2e8ebf6e2"/>so ist zwar der prinzipielle
+            Standpunkt, es widerspreche<lb xml:id="uuid_67b24332-300a-4557-ac92-a2536ea0b1b2"/>den
+            Grundsätzen seiner Partei auf eine Busse einzugehen,<lb
+               xml:id="uuid_ba17cd23-9e14-447f-b9bf-de4935116814"/>lächerlich. Nichtsdestoweniger
+            hat <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herr Kraus</rs>
+            Gründe, sich<lb xml:id="uuid_8a7b1b20-29fd-4d85-93d5-22f9e3716b27"/>mit der ein wenig
+            abzuändernden Erklärung und Bezahlung<lb
+               xml:id="uuid_1eb1de0d-5cc5-4124-b317-0d8b8862c6e7"/>der Kosten zu begnügen, unter der
+            Voraussetzung, dass die<lb xml:id="uuid_8bd2f115-bfa7-4af7-bbca-e518f5ae41d3"/>Erklärung
+            unter dem gleichen Titel veröffentlicht werde,<lb
+               xml:id="uuid_b90fa3e1-f342-4370-95fc-03a8fbdaf36e"/>wie seinerzeit der <rs
+               ref="#55937" type="work" subtype="pmb">beleidigende Artikel</rs> und dass der <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/43657" type="person">ver<lb break="no"
+                  xml:id="uuid_9894a41d-b001-4ef0-9115-c23a09fb28ba"/>antwortliche Redakteur</rs>
+            sich verpflichtet, zu der Erklärung,<lb
+               xml:id="uuid_54682c23-b81a-413c-8383-d948319299b4"/>zu der Berichtigung und auch zu
+            der etwa auf Grund der<lb xml:id="uuid_a5ac8a96-76a8-40e9-ac81-de9bde8fcdad"/>Beschwerde
+            zu veröffentlichenden <rs type="work" subtype="legal-doc">Berichtigung</rs> keinen
+               Zusatz<lb xml:id="uuid_45416303-ecba-487b-9d32-0f530319e075"/>zu machen, und auch
+            nicht in einer folgenden Nummer zur<lb
+               xml:id="uuid_3714ca95-b463-4347-99bd-42d7a5d6ce68"/>Materie der Ehrenerklärung einen
+            Artikel zu veröffentlichen.<lb xml:id="uuid_e80b3ea1-64d8-47f9-b0f8-124a94e4884a"/>Die
+            abzuändernde Erklärung hätte zu lauten: </p>
+         <p xml:id="uuid_69f5a6d2-c55d-4443-8439-1a16dc1f76c4">
+            <lb xml:id="uuid_104d5527-2053-4b0d-94c6-fba87cd338e5"/><hi rend="underlined">Erklärung.</hi>
+         </p>
+         <p xml:id="uuid_8a97cbcd-7805-468a-9065-2f4ed56db6cf">
+            <lb xml:id="uuid_5c8fb597-2a20-4c67-984b-cf0fcc138bf1"/>In <rs
+               ref="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/work/55935/detail" type="work"
+               subtype="pmb">Nr. 19 dieser Zeitschrift vom 26.XI.1933</rs>
+            <lb xml:id="uuid_ce20e9ce-76a0-4e1a-a8e5-86a06f4711be"/>wurde unter dem Titel „<rs
+               ref="#55937" type="work" subtype="pmb">Nachruf auf <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs></rs>“
+            ein Artikel <pb xml:id="D_000189-028-000_p004" facs="#D_000189-028-000-facs001-l002-p004"
+               n="4"/>
+            <lb xml:id="uuid_2837dca9-e383-48dd-b607-75111e055503"/>veröffentlicht, durch dessen
+            Inhalt Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+               Kraus</rs> be<lb break="no" xml:id="uuid_043651b1-a508-413e-8144-af08cbbed789"
+            />leidigt wurde und zwar insbesondere durch die Behauptung,<lb
+               xml:id="uuid_5020f9e1-d743-406b-851a-eac295b95ae2"/>„<quote source="#55937"
+               xml:id="uuid_357728ff-f370-47a6-ad8a-28b4afd5a886">er habe auch während des
+               Weltkrieges nicht gewünscht, dass<lb
+                  xml:id="uuid_85aeaf75-6785-4908-9c5b-85c1ab787dbb"/>man von ihm ein eigenes Wort
+               erwarte und erst, als der<lb xml:id="uuid_d2aa540f-0049-46b8-8b1e-2d35fac01bf1"
+               />Zusammenbruch der Mittelmächte entschieden war, habe sie<lb
+                  xml:id="uuid_6d9f6849-d0d0-428b-a401-fa1351aeeb3a"/>keiner so beredt verflucht wie
+               er</quote>“, er schweige auch „<quote source="#55937"
+               xml:id="uuid_3781f7b7-add2-44eb-9125-dc346dd42fdc">jetzt,<lb
+                  xml:id="uuid_0ca8f4d0-8050-4ce5-aee0-0899275560d6"/>weil er zu tief leide und auch
+               sonst Rücksicht zu nehmen<lb xml:id="uuid_8091193d-e4f9-47ab-af55-9c6c64d2f0db"
+               />habe</quote>“. Dieser <rs ref="#55937" type="work" subtype="pmb">Artikel</rs> wurde
+            ohne mein Wissen in Druck gegeben.<lb xml:id="uuid_b20454dc-34bb-40e2-9a88-df8fe1ddba22"
+            />Ich erkläre, dass diese Behauptungen, insoferne sie sich<lb
+               xml:id="uuid_30683844-b9f3-415c-9e2e-1c010fd11319"/>auf die Haltung des <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herrn Kraus</rs> während
+            des Weltkrieges be<lb break="no" xml:id="uuid_940d6ec1-557f-4c80-8be3-c46dc85ecb0d"
+            />ziehen, auf unrichtigen Informationen beruht haben und, inso<lb break="no"
+               xml:id="uuid_e3dae13b-e85b-4bdd-b05a-1ded1f06abd8"/>ferne sie auf sein Schweigen im
+            gegenwärtigen Zeitpunkte Be<lb break="no"
+               xml:id="uuid_c5575f8e-16c3-4b60-ae12-efcffa1f4fb3"/>zug nehmen, dass das angeführte
+            Motiv unrichtig ist. Ich<lb xml:id="uuid_c477f234-0b11-4cd0-9cdb-f8d080ca4228"
+            />widerrufe daher die Behauptungen, durch welche sich Herr<lb
+               xml:id="uuid_da768cf7-7a6b-4e86-a172-a0c832aca88f"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+            beleidigt gefühlt hat. </p>
+         <p xml:id="uuid_cc6352ba-70bb-4bf1-a29c-525be97ee568">
+            <lb xml:id="uuid_403810bb-6c91-427d-8c3d-06853beff793"/>Dr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43657" type="person">Marie
+                    Schnierer</rs>
+            <lb xml:id="uuid_41a992e8-2886-473c-ae25-9f8b312eb9b6"/>verantwortliche Redakteurin. </p>
+         <p xml:id="uuid_b2086f1e-3e39-4ad8-a32c-83a3760ecda6">
+            <lb xml:id="uuid_456cd87d-bb2c-4e07-8682-a446925f22b5"/>Sollte Herr <rs ref="#43610" type="person">Dr. Stein</rs> auf diesen Vergleich nicht eingehen,<lb xml:id="uuid_3bfcea06-c1d8-40dc-9841-d1a26f5a7862"/>so wäre die Angelegenheit
+                weiter zu führen. </p>
+         <p xml:id="uuid_fb0c8efe-4375-428e-abba-a5ba43aabf3c">
+            <lb xml:id="uuid_32814dd5-2173-4350-8548-835939a88ace"/>Ich habe Ihnen noch die
+                besten Grüsse<lb xml:id="uuid_17e7cb57-4fa9-43fb-a1e2-6792f9918e25"/>und den
+                besonderen Dank des <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herrn Kraus</rs> für Ihre Mühe zu<lb xml:id="uuid_b81a7fea-8673-43a6-b941-ec3bfe85a65f"/>übermitteln und bin mit dem
+                Ausdrucke vorzüglichster </p>
+         <p xml:id="uuid_5d627212-5b3d-46f2-923f-c371d9483b8b">
+            <lb xml:id="uuid_f092f6c1-59ef-4393-ae10-959e7a252c51"/>Hochachtung<lb xml:id="uuid_06aa4294-ef8d-4e47-b331-7c76ab88414c"/>Ihr ergebener </p>
+         <p xml:id="uuid_efe82ce1-a7fa-4183-b91f-2eecb172e068">
+            <lb xml:id="uuid_f8997200-5fb8-4fe7-8086-927641562dd1"/><note resp="law-firm"
+               type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs> – <rs ref="#37338" type="institution">Gegenangriff</rs><lb
+                  xml:id="uuid_a24bec99-2eae-4771-af2e-7e7997794683"/>23/I.34.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

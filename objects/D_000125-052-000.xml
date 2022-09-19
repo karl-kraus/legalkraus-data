@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-053-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-051-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000125-052-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Frankfurter Städtisches Schauspielhaus</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000125-052-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3417</idno>
+            <idno subtype="transkribus" type="ID">280418</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000125" type="collection">Karl
+                    Kraus ca. Frankfurter Städtisches Schauspielhaus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000125-052-000-facs001" xml:id="D_000125-052-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000125-052-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#50"/>
+               </address>
+               <date when-iso="1931-12-18">18. Dezember 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38954">die | Schauspielintendanz der städtischen Bühnen </persName>
+               <address>
+                  <street corresp="#56867">Kochstrasse Nr. 46</street>
+                  <settlement ref="#146">Frankfurt am Main.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Frankfurter | städt. Bühnen.</note>
+               <note type="dictation">Dr.S/Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-12-18">18. Dezember 1931
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000125-052-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000125-052-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-07-26" who="#JK"/>
+         <change type="typography" when-iso="2021-07-26" who="#JK"/>
+         <change type="references" when-iso="2021-07-26" who="#JK"/>
+         <change type="structure" when-iso="2021-07-26" who="#JK"/>
+         <change resp="#IB" when-iso="2021-04-12T08:57:33.713Z">created by API</change>
+         <change resp="#IB" when-iso="2021-04-12T09:33:15.878Z">Replaced Text with Transcription
+                of Transkribus Document 280418. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000125-052-000-facs001">
+      <surfaceGrp xml:id="D_000125-052-000-facs001-l001">
+         <surface type="recto" xml:id="D_000125-052-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557004/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000125-052-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557005/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557006/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557008/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557010/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557012/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000125-052-000_p001"
+             facs="#D_000125-052-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_b7e2e483-994b-409a-8dfa-afb3a4a80787">
+            <lb xml:id="uuid_2998b159-8a20-4c95-82bf-1630310e43bb"/>Sehr geehrter <rs ref="#38954" type="person">Herr Intendant</rs>! </p>
+         <p xml:id="uuid_2a346c38-c44a-45ab-8c66-f79ad2b7f82c">
+            <lb xml:id="uuid_554313a2-d2e6-4fb4-83c4-b66522a915a5"/>Auf Ihr <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-051-000"
+                type="work"
+                subtype="legal-doc">Schreiben vom 15. Dezember 1931</rs>
+            <lb xml:id="uuid_26266e81-5e10-4d53-9d63-e897d7dbdfcb"/>kann ich erst nach der
+                Rückkehr des <rs ref="#11988" type="person">Herrn Kraus</rs> aus <rs ref="#168" type="place">Berlin</rs>, wohin<lb xml:id="uuid_bae40689-9c8e-4a53-8df9-c2e0186aea60"/>er wegen abzuhaltende
+                Vorträge gereist ist, Antwort geben.<lb xml:id="uuid_4e135c85-e561-4174-8981-b50e0a037ca4"/>Ich muss aber schon jetzt
+                bemerken, dass die Aufführung durch ein<lb xml:id="uuid_1ddf0921-8913-4599-8055-6b4ef7edda94"/>Gastspiel-Ensemble gewiss
+                nicht die Möglichkeit gibt, das<lb xml:id="uuid_9197b238-ed9c-492a-b902-40d89a82a542"/><rs ref="#53397" type="work" subtype="pmb">Stück</rs> so oft zu spielen, als es der eventuelle Erfolg
+                    verlang<lb break="no" xml:id="uuid_60e207d9-7a31-4dc1-b812-d81b4fbb18d8"/>te und
+                ersuche Sie, um alle Entschliessungen des <rs ref="#11988" type="person">Herrn
+                    Kraus</rs>
+            <lb xml:id="uuid_b0803466-24d6-4aef-8fef-7a0fa9c27e22"/>vorbereiten zu
+                können, mir mitzuteilen, in welcher Art Sie<lb xml:id="uuid_8e5d5a7d-9e01-4a5f-b877-4110f35c4c7c"/>sich das Gesamtgastspiel des
+                    <rs ref="#37240" type="institution">Leipziger Komödienhauses</rs> vorstel<lb break="no" xml:id="uuid_69f077ae-396a-4fdd-a34a-ff7708ff77e5"/>len. </p>
+         <p xml:id="uuid_aea0c6b1-13e7-4c84-b594-240c0b8736a8">
+            <lb xml:id="uuid_42417b98-5030-47b3-ad22-746f0e30ee61"/>Mit vorzüglicher Hochachtung </p>
+         <pb xml:id="D_000125-052-000_p002"
+             facs="#D_000125-052-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_14e765ae-b15f-4930-86f4-f6bea51711be">
+            <lb xml:id="uuid_163b9280-a038-40e4-b920-77ce97585dad"/><note resp="law-firm" type="paratext">Betr. <rs ref="#11988" type="person">Kraus</rs> – <rs ref="#34987" type="institution">Frankfurter städt.<lb xml:id="uuid_fdcfe205-784d-4f06-a8f1-4048ae78fc1d"/>Bühnen</rs>
+               <lb xml:id="uuid_0dc5efd6-7cf8-4369-af8b-a9bebcb08769"/>exp. 18.12.1931. </note>
+         </p>
+      </body>
+   </text>
+</TEI>

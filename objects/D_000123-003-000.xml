@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000123-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-002-000.xml"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-004-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Fränkischer Kurier an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000123-003-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3357 </idno>
+            <idno type="ID" subtype="transkribus">472707</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000123">Karl
+                    Kraus ca. Fränkischer Kurier</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000123-003-000-wit01" facs="#D_000123-003-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000123-003-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#37336">Fränkischer Kurier</orgName>
+               <address>
+                  <street corresp="#53203">Rathausplatz 4</street>
+                  <settlement ref="#44172">Nürnberg</settlement>
+               </address>
+               <date when-iso="1929-05-04">4.5.29</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Dr. Oskar Samek | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien 1</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Ihre Nachricht vom 24. April.</note>
+               <note type="dictation">v.B./S.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date type="sortDate" when-iso="1929-05-04" subtype="produced">4. Mai 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000123-003-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000123-003-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-04-01" who="#JK"/>
+         <change type="typography" when-iso="2021-04-01" who="#JK"/>
+         <change type="references" when-iso="2021-04-01" who="#JK"/>
+         <change type="structure" when-iso="2021-04-01" who="#JK"/>
+         <change when-iso="2020-10-08T13:10:58.83Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T13:12:01.569Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 472707. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000123-003-000-facs001">
+      <surfaceGrp xml:id="D_000123-003-000-facs001-l001">
+         <surface xml:id="D_000123-003-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556551/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000123-003-000-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556553/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000123-003-000_p001"
+             facs="#D_000123-003-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_8f00a560-ae62-44f6-8908-2063673614e6">
+            <lb xml:id="uuid_f76707e4-65d7-45c8-9ec9-f4ce6cde247b"/>Abgesehen davon, dass Ihr
+                    <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-001-000"
+                subtype="legal-doc">Berichtigungsersuchen</rs>
+            <lb xml:id="uuid_db8f6c22-5df0-41ab-b753-e728a1aa48fc"/><hi rend="underlined">formell</hi> nicht den Bestimmungen des Pressegesetzes entspricht,<lb xml:id="uuid_a7f89521-fbf8-4d0e-9393-87397d6ed1ed"/>sehen wir uns hinsichtlich
+                seines Inhalts zu nachstehenden Be<lb xml:id="uuid_5e840ba1-b255-49a7-8d62-a116c02194b1" break="no"/>merkungen
+                veranlasst: </p>
+         <p xml:id="uuid_2f262481-615c-43ba-a5c5-9677f187f4c7">
+            <lb xml:id="uuid_6487a82d-4db5-403b-9210-2505b969fcea"/>Die 3 Punkte nach dem Wort
+                    „<quote xml:id="uuid_051b6421-0714-4ba2-8fa4-2a1a662d6d3b" source="#53537">zerrissen</quote>“ geben<lb xml:id="uuid_01ad8426-5ae7-4f86-bab7-dabd5e024355"/>nach dem deutschen Schriftgebrauch einwandfrei an, dass hier<lb xml:id="uuid_a1602740-28fa-410c-8449-fa0ef6495fee"/>einige Verse – als für
+                unsere Beweisführung belanglos – nicht<lb xml:id="uuid_9816f277-2f4a-42b0-bb57-a78826de42b9"/>zitiert sind. Jedermann ist
+                es freigestellt, ein Zitat in be<lb xml:id="uuid_33d26c26-83e8-4e28-b49f-076d58005838" break="no"/>liebiger Länge zu
+                verwenden, falls er Auslassungen durch Punkte<lb xml:id="uuid_39e4bfa7-f7dc-411d-b074-0caed2bcbea3"/>kennzeichnet. Es enthalten
+                unsere Verse somit keine Unrichtig<lb xml:id="uuid_7ba3c233-50a0-4dd5-8c83-bb16c7af4b40" break="no"/>keit; darum ist
+                eine Berichtigung nicht nötig. Hinsichtlich des<lb xml:id="uuid_ade3deed-15bd-420f-9cce-11ae88c39d44"/>von uns über die obszönen
+                Verse gemachten Wert-Urteils nehmen<lb xml:id="uuid_6ccaa1e3-72f0-46b9-9295-2042283a6aa1"/>Sie in Ihrer <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-001-000"
+                subtype="legal-doc">Berichtigungsaufforderung</rs> gar keine Stellung. Sie<lb xml:id="uuid_f3317b44-5a47-42b7-a5fb-a35bc47067f9"/>legen lediglich Wert darauf,
+                dass die Verse sich den vorher von<lb xml:id="uuid_af3fee44-f689-40a8-a244-365f5ab2a3e0"/>uns zitierten Versen <hi rend="underlined">nicht unmittelbar</hi> anschliessen. Abgesehen<lb xml:id="uuid_ec785320-dfa3-4a8c-9c1c-9e1561b65864"/>davon, dass diese irrige
+                Feststellung für die Beurteilung der gan<lb xml:id="uuid_a3372f02-86eb-41f7-8d89-f816664dd16c" break="no"/>zen Angelegenheit
+                absolut nebensächlich ist, entspricht auch die<lb xml:id="uuid_ffbec90a-521c-4b3a-9fed-11be20c5735f"/>Auslegung, die Sie dem Wort
+                    „<quote xml:id="uuid_64b00613-52e8-4af6-863a-1bd7cc265eb2"
+                   source="#D_000123-001-000">anreihen</quote>“ geben wollen, gar nicht dem <pb xml:id="D_000123-003-000_p002"
+                facs="#D_000123-003-000-facs001-l001-p002"
+                n="2"/>
+            <lb xml:id="uuid_ab84777b-9362-4ba9-925b-cc86bb2d1486"/>in Reichsdeutschland
+                üblichen Sprachgebrauch. So wird bei uns<lb xml:id="uuid_a1a2f25c-d46a-4fbc-9f94-1dbe1f2f9c1b"/>beispielsweise der Ausdruck
+                gebraucht „Der Angeklagte hat eine<lb xml:id="uuid_eccd84f0-eaa5-426a-9743-add45a259c9d"/>Reihe von Straftaten
+                begangen“ ohne dass damit zum Ausdruck ge<lb xml:id="uuid_0a325d8b-a9ed-4376-ae69-4f85e534f2f9" break="no"/>bracht sein soll,
+                dass sich die Straftaten unmittelbar aneinander<lb xml:id="uuid_20d9f64c-eff9-4fe2-8538-c28845ba6d26"/>anschliessen. Falls Sie nach
+                unserer Aufklärung, was wir anneh<lb xml:id="uuid_c3312ae7-2ad2-4479-b6ee-28efff68bb01" break="no"/>men müssen,
+                selbst feststellen, dass Ihr <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000123-001-000"
+                subtype="legal-doc">Berichtigungsersuchen</rs>
+            <lb xml:id="uuid_1dea14ee-0ce4-46ae-85dd-34e6f99f3dca"/>durchaus unberechtigt ist,
+                bedarf es einer Antwort Ihrerseits in<lb xml:id="uuid_65beaafa-abe2-4fdf-bde1-24594ac76356"/>der Angelegenheit nicht
+                mehr. Es liegt ja auch nicht im Inter<lb xml:id="uuid_31597dbf-4c52-4051-8254-48268e6f8de2" break="no"/>esse Ihres <rs type="person" ref="#11988">Mandanten</rs>, dass aus so kleinlichen und
+                inhaltlich abso<lb xml:id="uuid_0ec30782-0d5c-4e2b-92fd-0f1d47d2aa33" break="no"/>lut belanglosen, nur formalen Gründen eine sogenannte Berichtigung<lb xml:id="uuid_e61f2ec5-ded7-4014-addf-bde6ab0d4a9e"/>erfolgt, da sich an diese
+                unbedingt ein Kommentar unsererseits<lb xml:id="uuid_9324ec35-cefb-4246-a6bb-b08a5c4c5389"/>anknüpfen müsste, was Ihrem
+                    <rs type="person" ref="#11988">Mandanten</rs> nicht gleichgültig sein<lb xml:id="uuid_c7646999-4f3b-4bec-a159-c9166dff6299"/>kann. </p>
+         <p xml:id="uuid_c15b4c51-995c-4a1e-8204-af267dd91153">
+            <lb xml:id="uuid_f6f7810d-51b1-4b7e-8dce-0d9975f59381"/>Hochachtungsvoll<lb xml:id="uuid_2a121563-df19-48d1-9213-3478e133ada4"/>[<rs type="person">Unterschrift</rs>] ppa <rs type="person" ref="#53541">Weber</rs>
+         </p>
+         <p xml:id="uuid_9b43af76-fc52-4bf9-bc05-d54552afa3b7">
+            <lb xml:id="uuid_865f3b7b-2376-446a-ae20-a78dc8b2647e"/><note type="paratext" resp="law-firm"><rs type="person" ref="#11988">Kraus</rs> – <rs type="institution" ref="#37336">Fränkischer Kurier</rs>
+               <lb xml:id="uuid_18af20f1-aa04-47f4-bcb9-abde1c7cc7a6"/>II.<lb xml:id="uuid_1d84488a-f5cf-4e83-be06-b9e7c7163a2b"/>6. MAI 1929 </note>
+         </p>
+      </body>
+   </text>
+</TEI>

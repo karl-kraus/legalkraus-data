@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000202-002-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000202-001-000.xml"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000202-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Johann Turnovsky an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000202-002-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/</idno>
+            <idno type="ID" subtype="transkribus">417527</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000202">Karl
+                    Kraus ca. Ceské slovo</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000202-002-000-wit01" facs="#D_000202-002-000-facs001"/>
+            </listWit>
+            <msDesc>
+                <physDesc>
+                    <ab type="materiality">
+                        <objectType source="D_000195-046-000-wit01"
+                            ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSU"
+                            >Typoskript mit handschriftlichen Überarbeitungen</objectType>
+                    </ab>
+                </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+          <correspDesc>
+              <correspAction type="sent">
+                  <persName ref="#43593">JUDr. JOHANN TURNOVSKY</persName>
+                  <address>
+                      <street corresp="#51737">Vodičkova 33</street>
+                      <settlement ref="#652">Prag</settlement>
+                  </address>
+                  <date when-iso="1936-06-09">9.VI.1936</date>
+              </correspAction>
+              <correspAction type="received">
+                  <persName ref="https://pmb.acdh.oeaw.ac.at/entity/38909">P.T. | Herrn Dr. Oskar
+                      Samek</persName>
+                  <address>
+                      <street corresp="#52780">Reindorfgasse 18</street>
+                      <settlement ref="#64">Wien – XIV</settlement>
+                  </address>
+                  <date/>
+              </correspAction>
+              <noteGrp>
+                  <note type="subject">Karl Kraus – Varia</note>
+                  <note type="dictation"/>
+              </noteGrp>
+          </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1936-06-09">9. Juni 1936</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000202-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000202-002-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+          <handNotes>
+              <handNote cert="high"
+                  medium="black-ink"
+                  resp="#IL"
+                  scribeRef="#43593"
+                  source="#D_000195-046-000-wit01"
+                  xml:id="D_000195-046-000-hand01"/>
+          </handNotes>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-10-12T13:16:52.701Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-12T13:48:09.949Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 417527. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000202-002-000-facs001">
+      <surfaceGrp xml:id="D_000202-002-000-facs001-l001">
+         <surface xml:id="D_000202-002-000-facs001-l001-p001" type="recto">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2546594/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000202-002-000-facs001-l001-p002" type="verso">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2546595/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000202-002-000-facs001-l002">
+         <surface xml:id="D_000202-002-000-facs001-l002-p003" type="recto">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2546596/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000202-002-000-facs001-l002-p004" type="verso">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2546597/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000202-002-000-facs001-l003">
+         <surface xml:id="D_000202-002-000-facs001-l003-p005" type="recto">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2546598/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000202-002-000-facs001-l003-p006" type="verso">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2546599/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000202-002-000_p001"
+             facs="#D_000202-002-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_f1807bc2-4be8-4d65-bb8b-50be45b81e74">
+            <lb xml:id="uuid_91b55d97-082b-41f8-b09e-be1c2a01c395"/>Sehr geehrter <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38909">Herr Doktor</rs>. </p>
+         <p xml:id="uuid_71a4726d-0738-4307-90cc-53e09d54af68">
+            <lb xml:id="uuid_8e12c2fe-b3df-4ef4-8931-7e07dd0e07b8"/>Zu meinem <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-044-000"
+                subtype="legal-doc">gestrigen Berichte</rs> über die<lb xml:id="uuid_8d6e376d-9311-4219-b939-fabc4afdab68"/>Hauptverhandlung in Sachen
+                    „<rs type="institution" ref="#37264">AUFRUF</rs>“ <rs type="person" ref="#43586">Butschowitz</rs> – <rs type="person" ref="#37889">Bill</rs> hätte<lb xml:id="uuid_45d87f81-7fbc-40ca-b329-7e55e4b08423"/>ich noch mitzuteilen, dass
+                diesmal 2 Gerichtssaalberichterstat<lb xml:id="uuid_3a59465d-a7e9-4edf-b9cb-71d64af23fd6" break="no"/>ter anwesend
+                waren, die sich Notizen machten und deren einem<lb xml:id="uuid_db66388b-0b98-4f69-857a-ed075a87741c"/><rs type="person" ref="#37889">Dr. Bill</rs> seine Schriftsätze zeigte. Ich habe mich
+                    erkundigt,<lb xml:id="uuid_bca0b90b-4f57-4178-9374-a097ecdc4330"/>für welche
+                Blätter die betreffenden Berichterstatter arbeiten,<lb xml:id="uuid_c71a804f-8b7e-458e-aa85-4b9695c4d697"/>und erfuhr, dass einer für
+                das „<rs type="institution" ref="#37306">ČESKÉ SLOVO</rs>“, der andere für<lb xml:id="uuid_9d6de410-f0f0-42e2-8a79-3e60290006b3"/>die Sudetendeutsche Zeitung
+                    „<rs type="institution" ref="#59215">DIE ZEIT</rs>“ schreibt. Beide Herren<lb xml:id="uuid_c1400dee-5633-412d-a122-0c9d9f28ca53"/>sahen mir weniger nach
+                Germanen und Slaven, als nach Israeliten<lb xml:id="uuid_eaf2461f-77f8-4438-bda5-544bb73c3af2"/>aus. Ich habe mit ihnen
+                natürlich nicht gesprochen. </p>
+         <p xml:id="uuid_32ee5bd7-87f0-4df7-9eab-fe16c44671dd">
+            <lb xml:id="uuid_fc1b3840-b84d-4e47-a216-ccc20db5842d"/>Heute fand ich in der <rs type="work" ref="#59216" subtype="pmb">Morgenausgabe des<lb xml:id="uuid_4dea9624-6aaa-437a-bcbe-c4892050a16e"/>„České slovo“</rs> einen
+                    <rs type="work" ref="#59218" subtype="pmb">Bericht</rs>, dessen Uebersetzung ich
+                Ihnen ein<lb xml:id="uuid_53d0de52-b164-4224-9435-075cf8e1a723" break="no"/>sende.
+                In der <rs type="work" ref="#59220" subtype="pmb">ZEIT</rs> habe ich bisher keinen
+                Bericht gefunden. </p>
+         <p xml:id="uuid_b6e1d7c8-327d-408f-b5ab-611170e4f525">
+            <lb xml:id="uuid_ae0b59d5-7e1b-4cc7-85c0-f3f8db94db5e"/>Wie Sie aus dem <rs type="work" ref="#59218" subtype="pmb">Artikel des České Slovo</rs>
+            <lb xml:id="uuid_8d07d47b-cc0d-44a2-8602-57a357ede447"/>ersehen, ist der <rs type="person">Autor</rs> nicht viel gescheiter als <rs type="person" ref="#37889">Dr. Bill</rs>, aber<lb xml:id="uuid_9c51d9a3-c2b4-4681-9fec-6d6a39417ae3"/>offenbar nicht weniger
+                lumpig als dieser. Es scheint eine Ver<lb xml:id="uuid_5174fc5b-d796-41f3-a746-45c299bd9fb5" break="no"/>einbarung aller
+                Blätter zu bestehen, nach welcher <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herr K.</rs> zur<lb xml:id="uuid_cc44a6d9-6e0e-4dce-8a7d-43d290e6f017"/>Ueberreichung von
+                Presseklagen provoziert werden soll, gegen<lb xml:id="uuid_78a76319-b732-41a8-b611-e995383b76a3"/>welche dann gleichartige
+                Einwendungen erhoben werden sollen.<lb xml:id="uuid_ad90f045-307b-4f4a-9801-671fed88b7a9"/>Nämlich, dass <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herr K.</rs>
+                demokratische Schriftsteller vor das Gericht<lb xml:id="uuid_5d0784ed-e7d6-4446-94a0-51b71c5325ef"/>eines demokratischen Staates
+                bringt und unser Pressegesetz miss- <pb xml:id="D_000202-002-000_p002"
+                facs="#D_000202-002-000-facs001-l001-p002"
+                n="2"/>
+            <lb xml:id="uuid_3953e01e-85b2-48e9-bce6-86c458226cdf"/>braucht, selbst aber vor
+                Klagen seitens der von ihm Angegriffenen<lb xml:id="uuid_bc192e57-5470-46ed-92f1-5c60a64f0797"/>durch den Schutz, den ihm im
+                Prozessfalle die österreichischen<lb xml:id="uuid_278073ea-bac0-4c91-81cd-561de22f8122"/>Gerichte angedeihen liessen,
+                gefeit ist. Dass er unsere Demo<lb xml:id="uuid_f676297e-650d-41c6-a9a6-6505e62ed2fb" break="no"/>kratie und
+                unseren <rs type="person" ref="#4186">Präsidenten</rs> angegriffen und die
+                    tschechische<lb xml:id="uuid_a82bb37e-735f-48b6-b933-421142ef1d0e"/>Nation
+                geschmäht hat. </p>
+         <p xml:id="uuid_e2bb156c-a93b-4e44-95cc-3a06f2a26eec">
+            <lb xml:id="uuid_74bb3992-10f5-4e6b-9c0f-01e5141aa3b9"/>Alle diese Behauptungen
+                können natürlich<lb xml:id="uuid_5e343864-baa2-42b4-bdf2-a61781eeb50a"/>glatt
+                widerlegt werden, ich kann mich jedoch des Eindruckes<lb xml:id="uuid_63833fdf-e4b2-4097-a6eb-5afb7be85413"/>nicht erwehren, dass
+                derartige Behauptungen, selbst wenn sie<lb xml:id="uuid_b5810e22-0bcd-4dcb-9c44-f4d58958bfaf"/>von einem so
+                gerichtsnotorischen Trottel vorgebracht werden,<lb xml:id="uuid_1650e513-12cf-431c-8239-94c062a3e416"/>wie es <rs type="person" ref="#37889">Dr. Bill</rs> ist, auf das <rs type="institution" ref="#36822">Gericht</rs> irgendwie Eindruck machen.<lb xml:id="uuid_1ca52814-348f-4433-be4b-6191cd494043"/>Leider muss ich auch
+                zugeben, dass unsere Pressesenate der an<lb xml:id="uuid_d2b701c4-4d3b-4411-99c7-58b7550ad354"/>sie gestellten Aufgabe nicht
+                gewachsen sind und dass sich auch<lb xml:id="uuid_8a274db0-d59a-4c2e-9c23-1ce4cc5baac6"/>in Fällen, in denen keine
+                persönliche Abneigung oder Animosität<lb xml:id="uuid_83d7e177-92d3-4313-a890-793120d5b79c"/>der Richter gegen eine der
+                Parteien vorliegt, immer wieder zeigt,<lb xml:id="uuid_79fe7557-014f-477f-8ae0-6591ee62b140"/>dass das Ende eines
+                Pressprozesses überhaupt nicht abzusehen ist.<lb xml:id="uuid_278af1a2-185b-4bfe-8801-1a5a907a72af"/>Ich musste gestern 2 Stunden
+                auf die Verhandlung gegen <rs type="person" ref="#37889">Dr. Bill</rs>
+            <lb xml:id="uuid_6cb25c63-9a6d-427d-a876-86a0dc9ff59b"/>warten und war während
+                dieser Zeit als Zuhörer im Verhandlungs<lb xml:id="uuid_e70340a4-52fe-43c3-9be4-c1e599bdb555" break="no"/>saal anwesend. Es
+                wurden zwei politische Pressprozesse abgehan<lb xml:id="uuid_168f6690-5fc6-4705-acaa-4e864cacf1c7" break="no"/>delt, denen ein
+                ganz einfacher Tatbestand zugrundegelegt war.<lb xml:id="uuid_76fa5897-5f18-4802-bdd0-e1d8ab8cd10e"/>Ich habe mich bei den
+                Anwälten erkundigt, seit wann diese Prozes<lb xml:id="uuid_e066c180-3a23-4105-9fd1-9f4fec30bee0" break="no"/>se anhängig sind
+                und erfahren, dass beide schon mehr als zwei<lb xml:id="uuid_43e61c10-c942-43e3-b8c5-24bace3a2f0d"/>Jahre geführt werden. Darin
+                scheint mir die unverkennbare Ten<lb xml:id="uuid_1efae781-517e-4ba4-9ed2-a3b5a77c6eb7" break="no"/>denz des <rs type="institution" ref="#36822">Gerichtes</rs> festzustehen, die Parteien durch
+                    wiederholte<lb xml:id="uuid_1765205d-6d06-442d-bbba-5d4be76bb54e"/>Vertagungen
+                und durch ein Hinausziehen des Prozesses ins Unend<lb xml:id="uuid_42daa24d-b29b-463d-9654-0c8ee122bd70" break="no"/>liche mürbe zu
+                machen und sie zu einem Vergleiche zu zwingen.<lb xml:id="uuid_8c36cd1d-45c9-48ae-8edd-fc1dbf2d0535"/>Sie werden sich, wie das <rs type="institution" ref="#36822">Gericht</rs> gewiss nicht mit Unrecht
+                    annimmt,<lb xml:id="uuid_7ccb1a66-3775-4dd2-a424-47a57118dc07"/>zu einem
+                Vergleiche eher entschliessen, wenn die verhandelte An<lb xml:id="uuid_a3cb9434-c2db-477a-a030-96c9477a2f47" break="no"/>gelegenheit ihre
+                Aktualität verliert und das Interesse an einem <pb xml:id="D_000202-002-000_p003"
+                    facs="#D_000202-002-000-facs001-l002-p003"
+                n="3"/>
+            <lb xml:id="uuid_f214513d-c5da-4dce-97d8-8f8b4d7850b1"/>Urteile nicht mehr so
+                brennend ist, wie unmittelbar nach der<lb xml:id="uuid_566861f1-9592-4d79-b2cf-68b7ca0f09b5"/>Veröffentlichung des
+                betreffenden beleidigenden <rs type="work" ref="#59218" subtype="pmb">Artikels</rs>. </p>
+         <p xml:id="uuid_30d59f43-7e62-4531-915b-924a89b98dc7">
+            <lb xml:id="uuid_d958a96c-4710-47c8-bca2-02a22ea70790"/>Diese Tendenz scheint, wie
+                gesagt, allgemein vorzu<lb xml:id="uuid_d9e09f4d-176e-44b8-b615-96b80be7a14c" break="no"/>liegen und nicht nur gegen die Person des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn K.</rs> gerichtet<lb xml:id="uuid_c2a071d5-6c77-42f2-bf51-66e849d8eae3"/>zu sein. Dieser stehen
+                allerdings die Richter, wie ich heute<lb xml:id="uuid_7bb4b2eb-ee6c-459b-8f2f-d131bfbf1a09"/>auf Grund der gemachten
+                Erfahrung feststellen muss, vollkommen<lb xml:id="uuid_5314befa-111a-48d1-b9e9-992043564ae8"/>verständnislos gegenüber.
+                Ich habe mir gewiss alle Mühe gege<lb xml:id="uuid_87ca858e-21c9-439b-a6bd-2b71f5f17699" break="no"/>ben, den Richtern
+                einen Begriff davon zu machen, um wen es<lb xml:id="uuid_d4295c6b-d3d2-4ed0-a345-5dcd0d64f340"/>sich handelt und wie
+                niederträchtig die Angriffe der Journa<lb xml:id="uuid_1c27fa15-21be-409a-ae6d-aa61ac865ca8" break="no"/>listen sind.
+                Trotz diesen Bemühungen habe ich bisher nicht<lb xml:id="uuid_d5620190-0c6b-4e37-b7c0-7b8507bf1f44"/>konstatieren können, dass
+                die Richter auch nur eine Ahnung<lb xml:id="uuid_22d3468e-f8fc-41aa-8847-a785413bde81"/>von der Prozessmaterie haben
+                und ich glaube, dass in ihrer<lb xml:id="uuid_1b0d19a6-f992-4cf7-b871-e22263deaf4f"/>Vorstellung mit der Person des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn K.</rs> der Begriff des
+                    Anti<lb xml:id="uuid_d723ea78-7402-486f-8c8d-9ba553c287c8" break="no"/>demokraten und reaktionären Pamphletisten verknüpft ist, der<lb xml:id="uuid_8e6ce9fa-7b6b-4ac8-9006-3d00e99cee07"/>in seiner <rs type="work" ref="#41244" subtype="pmb">Zeitschrift</rs> Andere schmäht und sich deshalb
+                    gegen<lb xml:id="uuid_1c9fae42-3efc-4e20-b68b-0eea465aa24d"/>Schmähungen dieser
+                von ihm Angegriffenen nicht zu empfindlich<lb xml:id="uuid_70802de5-2332-481f-8730-8ed8efe6cea7"/>zeigen dürfte. Durch den
+                Umstand, dass „<rs type="work" ref="#41244" subtype="pmb">Die Fackel</rs>“
+                    deutsch<lb xml:id="uuid_c330468c-6283-4241-a352-093b40ab12f2"/>geschrieben ist
+                und ihrem Inhalte nach, selbst wenn sie tsche<lb xml:id="uuid_71018db0-93d4-4d59-9795-576e39d41018" break="no"/>chisch
+                geschrieben wäre oder ins Tschechische übersetzt werden<lb xml:id="uuid_850d1742-195f-4cd9-b78f-ea83daeeb89c"/>könnte, Leuten von dem
+                geistigen Niveau unserer Richter nicht<lb xml:id="uuid_1b252920-dda3-44bd-b10e-956e4b282d7f"/>zugänglich ist, wird es mir
+                ausserordentlich schwer gemacht,<lb xml:id="uuid_1f799e61-db5f-4bdc-aad5-12fe338ee7c6"/>diesen bei den Richtern
+                offenbar vorherrschenden Eindruck zu<lb xml:id="uuid_dc69042f-8fc5-443c-9b1e-6cb1eba94af1"/>beseitigen. Ich bin der
+                Ansicht, dass es doch dringend geboten<lb xml:id="uuid_e3c6841e-8c72-4fdb-bc64-5b0f39bb1df9"/>wäre, einmal einen Tschechen
+                mit klangvollem Namen als Zeugen<lb xml:id="uuid_53aaa071-4d14-4918-8c56-598a641c0ea2"/>auftreten zu lassen, etwa
+                    <rs type="person" ref="#38137">Otakar Fischer</rs>, <rs type="person" ref="#13216">Karel Čapek</rs>, <rs type="person" ref="#59182">Hora</rs>,
+                    oder<lb xml:id="uuid_62a6ede0-0484-4b34-9006-60fb08509858"/>sonst einen
+                bedeutenden Schriftsteller, der zwar von den Rich- <pb xml:id="D_000202-002-000_p004"
+                    facs="#D_000202-002-000-facs001-l002-p004"
+                n="4"/>
+            <lb xml:id="uuid_0a2fba54-6748-4524-b281-ae5251633814"/>tern
+                höchstwahrscheinlich auch nicht gelesen und verstanden<lb xml:id="uuid_a1466348-e52e-47b9-9b02-4ab9e3326e42"/>wird, vor dessen Berühmtheit
+                sie jedoch Respekt hätten. Wenn<lb xml:id="uuid_995173a1-a49d-473a-934c-606c5740fc4f"/>ein derartiger Mann einmal
+                für <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn
+                    Kraus</rs> Zeugenschaft ab<lb xml:id="uuid_a9d5d3b5-3fa4-4c3b-9a77-dd4099c9dfce" break="no"/>legen würde, dann wäre, wie ich glaube, das Vorurteil ein<lb xml:id="uuid_bc67c5b5-c3cb-44ab-985c-0cba34081595"/>für allemal behoben und die
+                Richter würden endlich daran ge<lb xml:id="uuid_900906fb-49cb-4600-9440-73b9d1b6f9df" break="no"/>hen, sich mit der
+                Prozessmaterie sachlich zu befassen und<lb xml:id="uuid_bc0081b3-56c6-4e44-aad2-372905eff347"/>über Behauptungen, die mit
+                der Prozessmaterie nichts zu tun<lb xml:id="uuid_606862cd-9af7-47c8-900d-8c98af18b494"/>haben, hinweg zu gehen. Ich
+                bin überzeugt, dass jeder der<lb xml:id="uuid_aeb7cb81-9dd4-4876-b9b2-4c6fb3ff84b2"/>genannten drei Schriftsteller, mag er nun dermalen zu <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn<lb xml:id="uuid_ac605194-edb2-4e84-83da-0e0ac46868c9"/>K.</rs> wie immer
+                stehen, die Haltlosigkeit der betreffenden Be<lb xml:id="uuid_9b7209a2-fb5d-4b77-aa42-fdefcbbf6617" break="no"/>hauptungen
+                bestätigen würde. Die Vorlage der betreffenden Ar<lb xml:id="uuid_224fc785-e16f-4b86-99b9-b61a73fcac78" break="no"/>tikel aus der <rs type="work" ref="#58362" subtype="pmb">Festschrift</rs>, aus dem „<rs type="work">Panorama</rs>“, etc. scheint mir<lb xml:id="uuid_12c0d2a6-2df5-41c5-a01d-de031a632ccd"/>hiezu deshalb nicht
+                auszureichen, weil die Richter diese Ar<lb xml:id="uuid_036a5e69-7101-43ea-9fbd-e678d2bb4452" break="no"/>tikel nicht lesen
+                und wenn sie sie lesen, nicht verstehen<lb xml:id="uuid_607f9b0a-8b28-4e5c-85fa-83eeb3d133e5"/>werden. </p>
+         <p xml:id="uuid_33e94b3c-75c7-4b3f-b7df-f68fef45b7c2">
+            <lb xml:id="uuid_32990530-7b8a-4286-bf15-514e7025f022"/>Es wird Ihnen, sehr geehrter
+                    <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38909">Herr
+                    Doktor</rs>,<lb xml:id="uuid_e4915d4f-dae6-4fb9-9949-3dbcc142a6d7"/>als Anwalt,
+                vielleicht merkwürdig erscheinen, dass ein Advokat<lb xml:id="uuid_798291cf-ebde-4148-a10e-6c6f82ff878f"/>über die Gerichte seines
+                Staates ein derartiges Urteil abgibt.<lb xml:id="uuid_54da415c-50b0-41fe-83f4-21fba010d8ae"/>Aber es ist nun einmal so,
+                eine Gruppe unserer Richter<lb xml:id="uuid_f607ad6f-38a0-4407-b71a-116a622acd38"/>ist unfähig, der Nachwuchs ist zwar ganz gut, gewissenhaft<lb xml:id="uuid_26669aff-2dbe-4ce4-bb69-d399623a433a"/>und auch hinreichend
+                geschult, aber die älteren Referenten, zu<lb xml:id="uuid_e0cf848e-bad6-4da2-b272-90b5497824d9"/>denen leider auch die
+                Mitglieder der Pressesenate mit ganz<lb xml:id="uuid_bcb88719-2322-48c7-a68a-e17223a0cc99"/>geringen Ausnahmen gehören,
+                taugen nichts. </p>
+         <p xml:id="uuid_f1a8473d-f262-481f-8d62-df2214db6b60">
+            <lb xml:id="uuid_316a3b30-dd71-4929-94c8-e4145e8924ae"/>Und deswegen habe ich bei
+                jeder neuen An<lb xml:id="uuid_ec6c0e21-2fe6-48b4-ac57-f9a26893522e" break="no"/>gelegenheit, welche ich für <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn K.</rs> zu behandeln habe,
+                    ein<lb xml:id="uuid_4b698877-91a4-405f-95f3-6aaa2eb16251"/>einigermassen banges
+                Gefühl. Ich selbst bin überzeugt, dass<lb xml:id="uuid_90f6b5b8-0399-458c-aecc-cdc0dc1dc56d"/>man gegen das Pressegesindel
+                vorgehen muss, trotzdem ich voraus<lb xml:id="uuid_a8664a31-f20e-4d39-87cb-f66a53180967" break="no"/>sehe, dass jeder
+                Fall einen neuen nach sich zieht und dass man <pb xml:id="D_000202-002-000_p005"
+                    facs="#D_000202-002-000-facs001-l003-p005"
+                n="5"/>
+            <lb xml:id="uuid_55656a62-f4a5-416d-8df3-a5c7bc6d86f8"/>zu keinem Ende gelangt. Wenn
+                dies auch wohl im Wesen der Sache<lb xml:id="uuid_298f2a2a-044a-4f38-8fd7-e5b2b695908f"/>liegt – eine Persönlichkeit
+                wie <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herr K.</rs>
+                wird immer wieder von<lb xml:id="uuid_88e90216-2e5d-4cce-a0a0-eb143858f72d"/>der
+                Journaille angekläfft werden – so verhindern die oben ge<lb xml:id="uuid_0f3be5aa-fa36-4ef7-8db9-5e3f7892415a" break="no"/>schilderten
+                Umstände den angestrebten Erfolg oder sie verzögern<lb xml:id="uuid_d9bc3159-0b6e-4368-9f49-5dcf5aa39a50"/>ihn wenigstens in einem
+                Masse, durch welches er vielleicht über<lb xml:id="uuid_89d296a6-ff7a-49ea-b9ba-9c57ce2a930b" break="no"/>haupt
+                problematisch wird. Und das ist es, was mir bei der Ver<lb xml:id="uuid_599eeeb9-a3fb-4947-91a7-35cc73dcb628" break="no"/>tretung des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn K.</rs>, die
+                ich als vornehmsten Zweig meiner Be<lb xml:id="uuid_b2b0d95c-aa69-4ec0-8ce4-6cc968c3836a" break="no"/>rufstätigkeit
+                ansehe und der ich mich gerne mit allen meinen<lb xml:id="uuid_29da1ca2-1dff-4921-aced-28954b7925b1"/>Kräften widme, Kummer und
+                Aufregungen bereitet, weil ich be<lb xml:id="uuid_1319e014-d8fc-4bf3-b8eb-03ebacc3ba00" break="no"/>fürchte, dass der
+                Verlauf der mir übertragenen Angelegenheiten<lb xml:id="uuid_f09fd2fc-1abf-4e2a-b860-3237f9677b75"/>auch <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn K.</rs> um seine Ruhe
+                bringt und stört. </p>
+         <p xml:id="uuid_e8a198de-119b-4c99-a888-4bd0326f44f9">
+            <lb xml:id="uuid_020508e0-a351-449d-b0b7-7eb01cc37a39"/>Von diesem Gesichtspunkte
+                aus steigen bei mir<lb xml:id="uuid_b5460656-6e7f-4f79-8ce4-d6ae19bdc946"/>Zweifel
+                darüber auf, ob man das Pressegesindel immer weiter ver<lb xml:id="uuid_dd77c0f9-5670-4914-9258-58c7ab5f8984" break="no"/>folgen soll oder
+                ob es nicht geboten wäre, es zu ignorieren. </p>
+         <p xml:id="uuid_d34ffd3e-addb-42d9-bb49-e23e65bf33fc">
+            <lb xml:id="uuid_bdf7c49d-df97-4158-9445-b6f8b49290f3"/>Ich bitte, mir mitzuteilen,
+                ob der <rs type="person">Autor des<lb xml:id="uuid_fc3e084f-a6ab-4ff1-837c-413e4776f918"/><rs type="work" ref="#59218" subtype="pmb">im „České Slovo“ erschienenen
+                Berichtes</rs></rs>, sowie der <rs type="person">verantwort<lb xml:id="uuid_c7ec9d5d-281f-4b9f-b475-fbc550959226" break="no"/>liche
+                    Redakteur</rs> geklagt werden sollen. Der <rs type="work" ref="#59218" subtype="pmb">Bericht</rs> bietet auch,<lb xml:id="uuid_9dc1c477-442a-4624-a0f7-1a65191782e6"/>wie Sie sehen werden, die
+                Möglichkeit für eine Presseberichti<lb xml:id="uuid_c8771449-f8f4-43c2-aa45-0564ceb1f828" break="no"/>gung. </p>
+         <p xml:id="uuid_851374c6-a876-4c56-be66-9869657fe8e4">
+            <lb xml:id="uuid_17b76703-33b4-4d36-a4fd-cb10801180d0"/>Ich möchte nur noch
+                bemerken, dass das <rs type="institution" ref="#37306">ČESKÉ<lb xml:id="uuid_83674098-e2ab-4e7a-8c0b-ba088c798f61"/>SLOVO</rs>, nämlich die
+                    <rs type="work" ref="#59216" subtype="pmb">Ausgabe</rs>, in welcher dieser <rs type="work" ref="#59218" subtype="pmb">Artikel</rs> erschienen<lb xml:id="uuid_1c8063bb-b53a-43b4-9fb6-a2f68d9c01f3"/>ist, administrativ mit der
+                Abendausgabe des <rs type="institution" ref="#37306">ČESKÉ SLOVO</rs>, deren<lb xml:id="uuid_432de232-fcd1-49f5-894a-7702d2efb5e5"/>Redakteur <rs type="person" ref="#51630">Jan Münzer</rs> ist, nichts zu tun hat. Trotzdem zweifle ich<lb xml:id="uuid_a97f071b-d564-4e40-a1d2-cd7cc9c77ab3"/>nicht daran, dass <rs type="person" ref="#51630">Münzer</rs> von dem <rs type="work" ref="#59218" subtype="pmb">Artikel</rs> noch vor der Veröffent<lb xml:id="uuid_56ef6905-c762-4849-89a2-cb951dbb1c4d" break="no"/>lichung wusste
+                und ich finde es trotz allem, was ich im Laufe <pb xml:id="D_000202-002-000_p006"
+                    facs="#D_000202-002-000-facs001-l003-p006"
+                n="6"/>
+            <lb xml:id="uuid_dcb0127c-e129-47cd-9b97-2c5470aaa918"/>des <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000192"
+                subtype="legal-doc">Prozesses <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">Melantrich</rs></rs> über diesen <rs type="person" ref="#51630">Herrn</rs>
+                und seinen Charak<lb xml:id="uuid_a1a3cf75-327b-4a97-a336-a988da7a081c" break="no"/>ter erfahren musste, unbegreiflich, dass er das Erscheinen<lb xml:id="uuid_6123515e-27b9-42bc-be69-c205d0513959"/>des <rs type="work" ref="#59218" subtype="pmb">Berichtes</rs> nicht inhibiert hat. Vielleicht
+                wollten die<lb xml:id="uuid_0a77b89f-334b-42c2-a49b-cdf886c2766a"/>Herren vom <rs type="institution" ref="#37306">ČESKÉ SLOVO</rs> für die Berufungsverhandlung im
+                    <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000192"
+                subtype="legal-doc">Melant<lb xml:id="uuid_711f23e5-1ac3-44b1-b149-6a8ae40abfda" break="no"/>richprozesse</rs> auf diese Art Stimmung machen. Ich hoffe,
+                    dass<lb xml:id="uuid_b5d127a1-efa0-4e4c-9a66-13b4285498da"/>ihnen dies nicht
+                gelingen wird. </p>
+         <p xml:id="uuid_1aee9afb-574c-4255-aa68-bce0a1513e6c">
+            <lb xml:id="uuid_581902b0-b4c2-4a62-ae01-f0b3674ed90e"/>Ich wäre Ihnen, sehr
+                geehrter <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38909">Herr
+                    Doktor</rs>,<lb xml:id="uuid_4cc69a03-820e-4664-b23a-3c0edf42a8ad"/>sehr
+                verbunden wenn Sie mir bald mitteilen wollten, ob es<lb xml:id="uuid_1c5adeb8-89ec-49fa-8055-a76ffd5561ff"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn K.</rs> wieder gut geht und
+                ihm meine herzlichsten Grüsse<lb xml:id="uuid_f163f149-d205-454f-bdf9-3b14d0556e30"/>bestellen wollten. </p>
+         <p xml:id="uuid_c0e401a2-b865-4ff2-af29-d5c69d240fcb">
+            <lb xml:id="uuid_16711a71-56d1-409d-bc9d-7a99ab0f0aad"/>Ich zeichne mit dem
+                Ausdrucke der vorzüglich<lb xml:id="uuid_5e6146ed-a6a1-4871-b624-654e08966458" break="no"/>sten Hochachtung und mit besten Grüssen </p>
+         <p xml:id="uuid_dbfa4d98-7621-4e25-8508-db5a4f59d3a6">
+                <lb xml:id="uuid_68ec8161-be1f-47e1-9f59-d31591dc8399"/>Ihr ergebener:<lb
+                    xml:id="uuid_7fc09e88-ea80-4ae6-b998-3eb18e092ead"/><rs type="person"
+                    ref="#43593">Dr. Turnovsky</rs>
+            </p>
+         <p xml:id="uuid_185d4d59-6fb8-460e-b4f2-3089aff6b2ec">
+                <lb xml:id="uuid_f4750725-48f7-43d4-814b-9ea4327cb67d"/><note type="paratext"
+                    resp="law-firm">10. JUNI 1936<lb
+                        xml:id="uuid_6d0745ee-fc00-43ea-83a1-376ce8193d4a"/><rs type="person"
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs>
+                    <lb xml:id="uuid_4ec28449-c177-4535-8f1b-892d40f1d780"/>Diverses</note></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-018-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-016-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000144-017-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Entwurf eines Vertrages zwischen Karl Kraus und Anton Schroll &amp; Co.
+                    G.m.b.H.</title>
+            <editor ref="#LK">Lena Kovacic</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000144-017-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3904</idno>
+            <idno subtype="transkribus" type="ID">275910</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000144" type="collection">Karl
+                    Kraus ca. S. Fischer Verlag (Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000144-017-000-facs001" xml:id="D_000144-017-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000144-017-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSU">Typoskript mit handschriftlichen Überarbeitungen</objectType>
+                     <objectType source="D_000144-017-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSN">Typoskript mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date notAfter-iso="1931-04-20" subtype="produced" type="sortDate">20. April
+                    1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote xml:id="D_000144-017-000-hand01"
+                      source="#D_000144-017-000-wit01"
+                      scribeRef="#"
+                      medium="black-ink"
+                      cert="low"
+                      resp="#JK"/>
+            <handNote xml:id="D_000144-017-000-hand02"
+                      source="#D_000144-017-000-wit01"
+                      scribeRef="#43584"
+                      medium="pencil"
+                      cert="low"
+                      resp="#JK"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000144-017-000-wit01">Entwurf (jur.)</term>
+            </keywords>
+            <classCode source="D_000144-017-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.ENW">D.J.ENW</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-08T14:16:09.685Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-08T14:28:44.913Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 275910. </change>
+         <change type="intertexts" when-iso="2021-10-20" who="#LK"/>
+         <change type="typography" when-iso="2021-10-20" who="#LK"/>
+         <change type="references" when-iso="2021-10-20" who="#LK"/>
+         <change type="structure" when-iso="2021-10-20" who="#LK"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000144-017-000-facs001">
+      <surfaceGrp xml:id="D_000144-017-000-facs001-l001">
+         <surface type="recto" xml:id="D_000144-017-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541835/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000144-017-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541836/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface></surfaceGrp>
+      <surfaceGrp xml:id="D_000144-017-000-facs001-l002">
+            <surface type="recto" xml:id="D_000144-017-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541837/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface></surfaceGrp>
+      
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000144-017-000_p001"
+             facs="#D_000144-017-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_33102409-6527-4f27-882a-4b4d19fa2c24">
+            <lb xml:id="uuid_238ad802-7ed1-4506-939b-768d357dce92"/>Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl <hi rend="spaced"
+                  >Krau</hi>s,</rs>
+         </p>
+         <p xml:id="uuid_b8a2353d-749f-4b67-b989-5d770641fc58">
+            <lb xml:id="uuid_4f07f7af-ac3f-4ea8-b7f6-c9f79c7ea9f7"/><rs ref="#50" type="place"><hi
+                  rend="spaced">Wie</hi>n</rs>. </p>
+         <p xml:id="uuid_07297df2-580f-44a8-a44d-7aa7aad5cd69">
+            <lb xml:id="uuid_e50304f1-c883-42e1-bc98-a1659c6e0a1f"/>Wir bestätigen, dass
+                zwischen Ihnen und uns folgende Verein<lb break="no" xml:id="uuid_808aa70a-5afe-47f0-bf2e-d526c4c8a74d"/>barungen getroffen wurden,
+                deren Rechtsverbindlichkeit wir zugleich<lb xml:id="uuid_32ec7137-d0a5-40b6-9a86-b8ab9906f89e"/>für unsere beiderseitigen
+                Rechtsnachfolger anerkennen und als deren<lb xml:id="uuid_d691a305-dcc1-493f-ad2a-dc20b71da36e"/>Erfüllungsort <rs ref="#50" type="place">Wien</rs> gilt. </p>
+         <p xml:id="uuid_b6373135-854d-4dd0-b5ac-93798c45313d">
+            <lb xml:id="uuid_4f13d911-d766-4551-ba40-7f620f466e94"/>1.) Sie übergeben uns und
+                wir übernehmen die von Ihnen ge<lb break="no" xml:id="uuid_24158148-c99a-4291-b116-4ed41c0f5cd3"/>machte und herausgegebene
+                    <rs ref="#60281" type="work" subtype="pmb">Auswahl</rs> aus den 12 Büchern von
+                    <rs ref="https://pmb.acdh.oeaw.ac.at/entity/2147" type="person">Peter Alten<lb break="no" xml:id="uuid_45a42f96-29a9-44bc-8b34-a65113838bad"/>berg</rs>,
+                die unter dem Titel </p>
+         <p xml:id="uuid_20a3619b-ef03-4a39-8018-ed9af688bef3">
+            <lb xml:id="uuid_2ee8e7b7-91e5-4145-ad0e-12c9ce45eff7"/><hi rend="underlined">Buch
+                    der Bücher <rs ref="#2147" type="person">Peter Altenbergs</rs></hi>
+         </p>
+         <p xml:id="uuid_ed0b63bb-7806-44b2-b23d-14cb72835a7a">
+            <lb xml:id="uuid_f8210a00-9832-4c6e-a8c7-3878790bd487"/>erscheinen soll und die mit
+                allen ihr anhaftenden Verlagsrechten in<lb xml:id="uuid_002f7c4f-a2d6-42ac-a49a-82f6b79ac995"/>unseren <rs ref="#37062" type="institution">Verlag</rs> übergeht. </p>
+         <p xml:id="uuid_a252e512-def0-4955-980d-26c7551e47a4">
+            <lb xml:id="uuid_335e5d43-f8c5-457f-bf5e-de7516f620d3"/>2.) Die Genehmigung zur
+            Herausgabe dieses <rs ref="#60281" type="work" subtype="pmb">Buches</rs> durch den<lb
+               xml:id="uuid_304db482-c76b-4dd0-8f08-2e84b022b420"/>Verl<subst
+               hand="#D_000144-017-000-hand01">
+               <del hand="#D_000144-017-000-hand01">a</del>
+               <add hand="#D_000144-017-000-hand01">e</add>
+            </subst>g<add hand="#D_000144-017-000-hand01">er</add>
+            <rs ref="https://pmb.acdh.oeaw.ac.at/entity/2147" type="person">Peter Altenbergs</rs>,
+               <add hand="#D_000144-017-000-hand01">d. Firma</add>
+            <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29639" type="institution">S. Fischer <add
+                  hand="#D_000144-017-000-hand01">Verlag</add>
+            </rs> in <rs ref="#168" type="place">Berlin</rs>, ist durch die bei<lb
+               xml:id="uuid_28961dc7-833a-4fd3-aeb8-1d6e3e8bd2f4"/>Ihrem Rechtsanwalt Herrn Dr. <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/38909" type="person">Oskar Samek</rs>
+            erliegende Korrespondenz<lb xml:id="uuid_f48ac5d1-8aa7-4c21-9dba-afe1e4d3c70e"
+            />gewährleistet. </p>
+         <p xml:id="uuid_0a71da59-fc8b-4145-8022-90cc812d96a3">
+            <lb xml:id="uuid_e729d45b-4999-4c35-a522-89bf712027cc"/>3.) Das <rs ref="#60281" type="work" subtype="pmb">Werk</rs> soll im Format der von <rs ref="https://pmb.acdh.oeaw.ac.at/entity/2147" type="person">Peter Altenberg</rs>
+                    selbst<lb xml:id="uuid_c5c332ce-1e21-4120-b467-720adb89cf2c"/>veröffentlichten
+                Auswahl erscheinen und einen Umfang von höchstens<lb xml:id="uuid_e27399f7-d084-4e54-aa37-ff9a30f4dbeb"/>650 Seiten haben. Als
+                Einleitung erscheint Ihr Gedicht „<rs ref="#59710" type="work" subtype="pmb">Peter
+                        Alten<lb break="no" xml:id="uuid_6e7b922e-b892-401c-bd90-5e759ec3d2c6"/>berg</rs>“, als Abschluss die <rs ref="#59713" type="work" subtype="pmb">Rede
+                    am Grabe des Dichters</rs>. Am Beginn des<lb xml:id="uuid_38137e89-cf0d-4eb5-a532-848937c4ff67"/><rs ref="#60281" type="work" subtype="pmb">Buches</rs> soll eine noch zu beschaffende Photographie <rs ref="https://pmb.acdh.oeaw.ac.at/entity/2147" type="person">Peter
+                    Altenberg</rs>s,<lb xml:id="uuid_85dc4115-38f1-4fb6-b6e8-fef0af23aabd"/>am
+                Schluss eine Aufnahme des von <rs ref="https://pmb.acdh.oeaw.ac.at/entity/3612" type="person">Adolf Loos</rs> herrührenden Grabsteines<lb xml:id="uuid_0c7aa3a6-7d87-48ec-8730-e7a60ae7fd3e"/>reproduziert werden. </p>
+         <p xml:id="uuid_7de6d127-60be-44fc-aed3-569af63dbefc">
+            <lb xml:id="uuid_21709a87-dab7-43fc-8ec5-918c53404fc9"/>4.) Das druckfertige
+                Manuskript haben wir bereits von Ihnen er<lb break="no" xml:id="uuid_c3336565-7d78-40a8-9b0a-6f1209fddf45"/>halten. Sie verpflichten
+                sich die Korrekturen jeweils umgehend zu<lb xml:id="uuid_f49df306-bf19-476e-b0be-dd6be0f53b45"/>erledigen, <add hand="#D_000144-017-000-hand01">(</add>sodass der Band spätestens <subst hand="#D_000144-017-000-hand01">
+               <del hand="#D_000144-017-000-hand01">im</del>
+               <add hand="#D_000144-017-000-hand01">Anfang</add>
+            </subst> September d.J. erscheinen<lb xml:id="uuid_8898d23b-3dfc-4eea-b5bd-9ff15608535c"/>kann.<add hand="#D_000144-017-000-hand01">)</add>
+            <add hand="#D_000144-017-000-hand01">(</add>Verfasserkorrekturen bis zur Höhe von
+                10% der Satzkosten trägt<lb xml:id="uuid_73946f75-6085-4f51-b5c7-330b9dde5e27"/>der
+                    <rs ref="#37062" type="institution">Verlag</rs>. Die Kosten, die eine
+                Ueberschreitung dieser Korrekturen<lb xml:id="uuid_f5156ede-9129-4bad-a2f1-ae26d58e1f66"/>sind, sind wir berechtigt
+                vom Honorar in Abzug zu bringen.<add hand="#D_000144-017-000-hand01">)</add>
+         </p>
+         <p xml:id="uuid_f56d49d2-a805-48fa-a101-15cd7e4fc642">
+            <lb xml:id="uuid_c95b0bd1-a68c-4641-9acf-ad337969a40d"/>5.) Die Bestimmung der
+                Auflagenhöhe sowie die Festsetzung und<lb xml:id="uuid_6b8052e2-a3fa-4e53-b13c-a24b7f9b8439"/>Veränderung des Ladenpreises
+                und alle übrigen geschäftlichen Massnah<lb break="no" xml:id="uuid_9fee1e4c-6936-4ee6-81d2-bbe62b92fb8c"/>men bleiben uns überlassen.
+                Die erste Auflage wird mit 6000 Exemplaren </p>
+         <pb xml:id="D_000144-017-000_p002"
+             facs="#D_000144-017-000-facs001-l001-p002"
+             n="2"/>
+         <pb xml:id="D_000144-017-000_p003"
+             facs="#D_000144-017-000-facs001-l002-p003"
+             n="3"/>
+         <p xml:id="uuid_f3faa057-4943-4535-91f3-9fb730cca5e0">
+            <lb xml:id="uuid_59797a9d-f8e7-4b1a-afe9-f03779a99e80"/>in Aussicht genommen. Wir
+                sind berechtigt für die üblichen Rezen<lb break="no" xml:id="uuid_5dbdb855-886f-4387-8fcf-2b5684fbb7d8"/>sions- und Freiexemplare
+                bezw. Defekte etc. einen Zuschuss bis zur<lb xml:id="uuid_a5771971-f993-44f9-8c81-baafe6a20498"/>Höhe von 10% der Auflage
+                honorarfrei herzustellen. Ein Nachweis<lb xml:id="uuid_d59c4ad0-9dfc-421f-82ba-be13af98c813"/>über die bestimmungsgemässe
+                Verwendung dieser Exemplare obliegt<lb xml:id="uuid_bab16ea8-4013-402d-98ff-a870e50dbb6b"/>uns nicht. </p>
+         <p xml:id="uuid_bb3b3b9b-82c7-479b-aa88-9cad61b49b91">
+            <lb xml:id="uuid_9e89536e-5522-47cf-8cdb-6e87e7c561a5"/>6.) Als Honorar erhält die <rs
+               ref="#37190" type="institution">Kinderschutz- und Rettungsgesell<lb break="no"
+                  xml:id="uuid_6badf90b-156d-4006-be2b-a9781320e84f"/>schaft</rs> in <rs
+               type="place" ref="#50">Wien</rs> (Präsident Graf <rs ref="#60196" type="person"
+               >Zedwitz</rs>) 10% vom Ladenpreis des bro<lb break="no"
+               xml:id="uuid_2ab4a0fd-2f2a-4eb1-b697-5238a4a10cbd"/>schierten Exemplares. <add
+               hand="#D_000144-017-000-hand01">Abrechnung erfolgt <del
+                  hand="#D_000144-017-000-hand01">jährlich im September</del></add> Sie verzichten
+            auf ein Honorar <add hand="#D_000144-017-000-hand01">für</add> d<subst
+               hand="#D_000144-017-000-hand01">
+               <del hand="#D_000144-017-000-hand01">er</del>
+               <add hand="#D_000144-017-000-hand01">ie</add>
+            </subst> Herausgeber<lb break="no" xml:id="uuid_32a6c79a-bf0f-4ca4-b173-ad20e298312f"
+               /><note type="marginal" hand="#D_000144-017-000-hand01" rend="marginLeft"
+            >?</note>arbeit. Von der ersten Auflage erhalten Sie <hi rend="underlined"
+               hand="#D_000144-017-000-hand01">25</hi> Freiexemplare, von je<lb
+               xml:id="uuid_c5e852f4-4b62-4cd3-978a-5cbf1ea50b2e" break="no"/>der weiteren Auflage
+            15 Exemplare.</p>
+         <p xml:id="uuid_455249db-e49a-4ab9-bbfe-61eed754147c">
+            <lb xml:id="uuid_b97da6a2-1bf3-43d5-884c-ad3660549157"/>7.) <subst
+               hand="#D_000144-017-000-hand02">
+               <del hand="#D_000144-017-000-hand02">Sie verpflichten sich</del>
+               <add hand="#D_000144-017-000-hand02">Es bleibt Ihnen überlassen</add>
+            </subst>, vor Veranstaltung einer neuen Auf<lb break="no"
+               xml:id="uuid_be1ea4bd-1596-4a2d-b154-eb7f2e050711"/>lage das <rs ref="#60281"
+               type="work" subtype="pmb">Werk</rs> einer Durchsicht zu unterziehen. Sollten Sie die
+               Durch<lb break="no" xml:id="uuid_a99788ea-1fe2-4ec3-8022-f2603066e567"/>sicht nicht
+            selbst übernehmen wollen oder durch Krankheit, Tod etc.<lb
+               xml:id="uuid_dbbaa905-4f8c-425d-a295-95399f1c5dd9"/>verhindert sein, so sind wir
+            berechtigt das <rs ref="#60281" type="work" subtype="pmb">Buch</rs> in der Form der<lb
+               xml:id="uuid_c4db8da9-8e69-4ba4-985e-ec405122eb80"/>letzten Auflage wieder zu
+            drucken.</p>
+         <p xml:id="uuid_b95a1455-d1df-4189-a893-9e077e31b39a">
+            <lb xml:id="uuid_80d1ec68-4447-4dad-aa19-d86dc8a9875b"/><del
+               hand="#D_000144-017-000-hand01">8.) Das Recht zur Veranstaltung fremdsprachiger
+                  Ausgaben,<lb xml:id="uuid_f67ee44d-cb2b-4407-9532-8e0840a89df3"/>vergeben wir im
+               Einverständnis mit Ihnen, bezw. d<subst hand="#D_000144-017-000-hand01">
+                  <del hand="#D_000144-017-000-hand01">em Verlag Peter</del>
+                  <add hand="#D_000144-017-000-hand01"> Firma</add>
+               </subst><lb xml:id="uuid_07f6bfc8-83e9-4714-9d27-8d50c196aa4c"/><del
+                  hand="#D_000144-017-000-hand01"><rs type="person"
+                     ref="https://pmb.acdh.oeaw.ac.at/entity/2147">Altenbergs</rs></del>
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29639" type="institution">S. Fischer <add
+                     hand="#D_000144-017-000-hand01">Verlag</add></rs> in <rs ref="#168"
+                  type="place">Berlin</rs>. Das dafür erzielte Autorisations<lb break="no"
+                  xml:id="uuid_e52f4d2f-2b01-4376-b0fc-8f058e3a60e8"/><note type="marginal"
+                  hand="#D_000144-017-000-hand01" rend="marginLeft">?</note>honorar wird in drei
+               gleiche Teile geteilt, von denen einen Teil<lb
+                  xml:id="uuid_3301296d-750e-4a3a-bb06-6eae423bfd0f"/>die <rs ref="#37190"
+                  type="institution">Kinderschutz- und Rettungsgesellschaft</rs>, den zweiten der
+                  <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29639" type="institution">Verlag<lb
+                     xml:id="uuid_20014c5a-2f7a-4c14-9097-8d183e14a50e"/>S. Fischer</rs> in <rs
+                  ref="#168" type="place">Berlin</rs> und den dritten wir erhalten.</del></p>
+         <p xml:id="uuid_b5dd84b8-bd85-441b-8df6-93b315836662"><lb
+               xml:id="uuid_1d9b52a3-42ce-44ef-b4c9-80c7a85aa274"/><rs ref="#37062"
+               type="institution">ANTON SCHROLL &amp; CO., GES.M.B.H.</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

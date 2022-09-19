@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-059-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-057-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000134-058-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Kraus</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and
+                        Cultural Heritage, Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital
+                        History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000134-058-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-samek-kraus-20 </idno>
+            <idno subtype="transkribus" type="ID">437885</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000134" type="collection">Paul Amadeus Pisk ca. Karl Kraus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000134-058-000-facs001" xml:id="D_000134-058-000-wit01"/>
+            </listWit>
+            <msDesc status="draft">
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000134-058-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/> 
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51"/> 
+               </address>
+               <date when-iso="1931-05-23">23. Mai 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#11988">Herrn | Karl Kraus</persName>
+               <address>
+                  <street corresp="#52608">Hotel Hermes. Schiffbauerdamm</street>
+                  <settlement ref="#168">Berlin</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Dr. Pisk.</note>
+               <note type="dictation">Dr.S/Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-05-23">23.
+                    Mai 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000134-058-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000134-058-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" when-iso="2021-09-13" status="draft">created XML Document</change>
+         <change resp="#LU" when-iso="2021-09-13" status="draft">Replaced Text with Transcription
+                of Transkribus Document 437885. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2022-03-04"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2022-03-04"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2022-03-04"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-03-04" who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2022-03-04"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000134-058-000-facs001">
+      <surfaceGrp xml:id="D_000134-058-000-facs001-l001">
+         <surface xml:id="D_000134-058-000-facs001-l001-p001" type="recto">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558591/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000134-058-000-facs001-l001-p002" type="verso">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558592/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000134-058-000_p001" facs="#D_000134-058-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_9b3fc23b-f833-48ab-9060-f733641435c6">
+            <lb xml:id="uuid_28bd8db3-5d32-4776-afda-ba9e3532fb0c"/>Sehr verehrter Herr <rs
+               type="person" ref="#11988">Kraus</rs>!</p>
+         <p xml:id="uuid_cdf89056-907f-4617-9d0f-d60d35ce74a6">
+            <lb xml:id="uuid_843d240e-8824-4414-9e7b-66a74538dac5"/>In der Anlage übersende ich
+            Ihnen die<lb xml:id="uuid_c1ad5a49-5f7f-4f79-b82f-03f3d4185f00"/>Durchschläge der beiden
+            besprochenen Eingaben. Ich bitte Sie,<lb
+               xml:id="uuid_8da1ea02-4fd0-4bf3-bec8-91aa4558e601"/>die Verzögerung zu entschuldigen,
+            die ihre Ursache in einem<lb xml:id="uuid_ac5407db-50d7-498d-808f-65842202e516"
+            />Uebermass des Kanzleibetriebes vor den Pfingstfeiertagen hatte,<lb
+               xml:id="uuid_c134c46f-1018-4271-b7d9-416e4431ca31"/>und auch in der schlechten
+            Stimmung, in der ich mich durch das<lb
+               xml:id="uuid_4aef3b83-cb2e-4646-91a6-4880ad79a911"/>föhnige Wetter und einigen
+            Angelegenheiten befinde. Ich bitte<lb xml:id="uuid_fc827afa-78e1-4301-84d7-4e9c810052af"
+            />Sie, gewünschte Ergänzungen oder Verbesserungen einzufügen und<lb
+               xml:id="uuid_f0f3dace-5635-4cec-9a37-7db9b89e4178"/>mir die verbesserten Eingaben
+            zurückzusenden oder mir mitzuteilen,<lb
+               xml:id="uuid_2b6dcfdd-0309-4f9f-95d9-8b89c2559727"/>dass sie unverändert abgehen
+            können.</p>
+         <p xml:id="uuid_0b2c9bb3-0640-49b4-98c3-2fb680a3fe17">
+            <lb xml:id="uuid_8176a0ba-5570-4c62-8d4b-7cca723b973b"/>Bei dieser Gelegenheit möchte
+            ich Ihnen<lb xml:id="uuid_0fff1984-eaf3-468d-addc-31dab9e441ae"/>berichten, dass der <rs
+               type="institution" ref="#29650">Tag</rs> gegen das <rs type="work"
+               subtype="legal-doc">Urteil</rs> in meiner Angelegen<lb
+               xml:id="uuid_49ac6cc5-2628-45c2-8e92-cf01c3be8c28" break="no"/>heit die Berufung
+            eingebracht hat. Sonst gibt es nichts Neues.</p>
+         <p xml:id="uuid_ee0575e9-15ec-42c9-bff3-d1b1d98ebebe">
+            <lb xml:id="uuid_9de8e66f-bf73-4ee1-aace-d834dde2f7d4"/>Mit vielen herzlichen Grüssen
+               und<lb xml:id="uuid_7ac66815-df83-469e-80fc-9260563da279"/>ergebenster Hochachtung<lb
+               xml:id="uuid_5ab277c0-feb8-4e05-a67f-398449c1a3b6"/>Ihr</p>
+         <p xml:id="uuid_5388f00f-9361-4513-ac7d-d759fc4a8bae">
+            <lb xml:id="uuid_4e01b871-2292-42ba-a544-d6e3f72129a5"/>2 Beilagen. <pb
+               xml:id="D_000134-058-000_p002" facs="#D_000134-058-000-facs001-l001-p002" n="2"/></p>
+         <p xml:id="uuid_6740c71c-b7fe-48c5-953c-81cba172ea70">
+            <lb xml:id="uuid_467bb8ed-5fe1-4db5-8110-3d09313f583e"/><note type="paratext"
+               resp="law-firm">Betr. <rs type="person" ref="#11988">Kraus</rs> – Dr. <rs
+                  type="person" ref="#39325">Pisk</rs>
+               <lb xml:id="uuid_75ff8215-6298-4d87-bc58-2f5e9c80474c"/>exp. 23.5.1931.</note></p>
+      </body>
+   </text>
+</TEI>

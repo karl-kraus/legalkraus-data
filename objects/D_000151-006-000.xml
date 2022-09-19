@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000151-007-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000151-005-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000151-006-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Artiphon-Record (Herrmann Eisner, Berlin) an Die Neue Truppe (Berlin)</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000151-006-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4060</idno>
+            <idno subtype="transkribus" type="ID">294006</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000151" type="collection">Karl
+                    Kraus ca. Die Neue Truppe (Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <ab type="stamp">
+                  <stamp source="#36920" xml:id="uuid_abd06d1a-b1ec-425e-89af-c52e3efb915f"/>
+               </ab>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000151-006-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness facs="#D_000151-006-000-facs001" xml:id="D_000151-006-000-wit01"/>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#36920">Artiphon-Record</orgName>
+               <address>
+                  <street corresp="#46598">BEUTHSTR. 1</street>
+                  <settlement ref="#168">BERLIN SW 19</settlement>
+               </address>
+               <date when-iso="1930-12-24">24. Dezember 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#37217">Titl. | „Die Neue Truppe“</orgName>
+               <address>
+                  <street corresp="#54733">Splittgerbergasse 1/2 II</street>
+                  <settlement ref="#168">Berlin S.14</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Oe/La. | L/W.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-12-24">24. Dezember 1930
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000151-006-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000151-006-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-04-23" who="#JK"/>
+         <change type="typography" when-iso="2021-04-23" who="#JK"/>
+         <change type="references" when-iso="2021-04-23" who="#JK"/>
+         <change type="structure" when-iso="2021-04-23" who="#JK"/>
+         <change when-iso="2020-10-08T15:19:45.946Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T15:20:37.556Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 294006. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000151-006-000-facs001">
+      <surfaceGrp xml:id="D_000151-006-000-facs001-l001">
+         <surface type="recto" xml:id="D_000151-006-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542483/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000151-006-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542484/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000151-006-000_p001"
+             facs="#D_000151-006-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_66174db3-4c2c-4cb0-a57c-7e67cb746a44">
+            <lb xml:id="uuid_822343c3-ee33-4278-85c4-25a215948768"/>Hiermit bestätigen wir
+                Ihnen, dass wir von den Aufnahmen <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl<lb xml:id="uuid_3cd056dc-2849-4ec4-a2e2-35790564feca"/>Kraus</rs> ab 1. November 1930 nachstehende Platten nur für Sie gepresst
+                    haben<lb xml:id="uuid_1b98deb6-f59b-49c0-9752-27b42f46c4b5"/>und zwar: </p>
+         <p xml:id="uuid_796e8f36-7583-4688-800b-0ba668c9e367">
+            <lb xml:id="uuid_d5860a44-2aae-47e2-8f8c-067e69399d01"/>am 12. November 1930 34
+                Stck. No.141/142<lb xml:id="uuid_8f26e3ed-c5b8-4d75-86c1-641a134b9f9e"/>17. November
+                1930 40 Stck. No. 158/159 u. 160/91 sort.<lb xml:id="uuid_ddfe444e-11a8-49a8-97a6-4cd96183575a"/>24. November 1930 41 Stck.
+                No. 158/159 u. 160/91 sort.<lb xml:id="uuid_a4525be0-5782-4876-a55b-b875ab7adc53"/>5. Dezember 1930 30 Stck. No. 158/159 u. 160/91 sort.<lb xml:id="uuid_24a37eb7-310c-4416-b0f0-350953a9fddf"/>12. Dezember 1930 30 Stck.
+                No. 143/144<lb xml:id="uuid_16dc7ad8-6308-4a11-9178-b2f525f19b4c"/>29 Stck. No.
+                158/159 </p>
+         <p xml:id="uuid_fc643227-798d-43dd-ae2f-f5073535ebda">
+            <lb xml:id="uuid_67a8dd87-3155-4ac9-95d3-18d964e35b36"/>Wir hoffen, Ihnen mit
+                unserer heutigen Mitteilung bestens ge<lb break="no" xml:id="uuid_b8b2a369-ac74-46ef-87ff-716b3f7f2bf0"/>dient zu haben und empfehlen
+                uns Ihnen </p>
+         <p xml:id="uuid_ce14e167-1b55-4a78-9679-fa2bfd87fa56">
+            <lb xml:id="uuid_e9268d5e-6fb9-46de-a11d-7de2acac7dcd"/>hochachtungsvoll<lb xml:id="uuid_54f66ffe-6dfb-40dc-8ea7-05dbdc288964"/>[<rs type="person">Unterschrift</rs>] </p>
+         <pb xml:id="D_000151-006-000_p002"
+             facs="#D_000151-006-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_81f9015a-de99-4ad4-90ac-67e313ae2ac5">
+            <lb xml:id="uuid_aa5d88d7-bcad-4100-8d12-b62ce5bb1371"/><note resp="law-firm"
+               type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs> – <rs ref="#37217" type="institution">Neue Truppe</rs><lb
+                  xml:id="uuid_a2f20de8-43f0-49a6-8084-4bdc1543e2d4"/>5. JAN. 1931</note>
+         </p>
+      </body>
+   </text>
+</TEI>

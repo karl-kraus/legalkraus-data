@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-017-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-015-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000068-016-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Heinrich Fischer</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000068-016-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2519</idno>
+            <idno subtype="transkribus" type="ID">203501</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000068" type="collection">Karl
+                    Kraus ca. Alfred Kerr</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000068-016-000-facs001" xml:id="D_000068-016-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000068-016-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51"/> 
+               </address>
+               <date when-iso="1927-05-21">21. Mai 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38133">Wohlgeboren | Herrn Heinrich Fischer</persName>
+               <address>
+                  <street corresp="#11">Deutsches Schauspielhaus</street>
+                  <settlement ref="#45258">München</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Kerr.</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-05-21">21. Mai 1927</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000068-016-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000068-016-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2021-03-10"
+                 who="#IL"/>
+         <change status="draft" type="structure" when-iso="2021-03-04" who="#IL"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-03-10"
+                 who="#IL"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-03-10"
+                 who="#IL"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-03-10"
+                 who="#IL"/>
+         <change status="draft" when-iso="2020-03-10T12:17:01.063Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 203501. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2021-11-30"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-11-30"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-11-30"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000068-016-000-facs001">
+      <surfaceGrp xml:id="D_000068-016-000-facs001-l001">
+         <surface type="recto" xml:id="D_000068-016-000-facs001-l001-p001">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552153/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000068-016-000-facs001-l002">
+         <surface type="recto" xml:id="D_000068-016-000-facs001-l002-p002">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552154/full/full/0/default.jpg"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-016-000-facs001-l002-p003">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552155/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000068-016-000_p001"
+             facs="#D_000068-016-000-facs001-l002-p002"
+             n="1"/>
+         <p xml:id="uuid_fce965e4-cb62-4da7-ab01-45c072cbef49">
+            <lb xml:id="uuid_8765c099-b63e-4fd1-85bb-f7624be28a10"/>Euer <rs ref="#38133" type="person">Wohlgeboren</rs>! </p>
+         <p xml:id="uuid_061ee3d5-ecf4-42d5-9958-b8b40458f12b">
+            <lb xml:id="uuid_369111ec-8bee-42e0-8fff-97e0aafec9cd"/>Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"><hi rend="spaced">Kraus</hi></rs> teilte mir mit, dass<lb
+               xml:id="uuid_8ad1e092-de55-48f7-8ec8-e490d5172538"/>Sie die Liebenswürdigkeit haben,
+            sich der Mühe zu unterziehen<lb xml:id="uuid_a2e44124-f81f-4de1-b8ca-6b27d8c2701e"
+            />weitere Kriegsgedichte des Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11910"
+               type="person"><hi rend="spaced">Kerr</hi></rs> aus dem „<rs ref="#53189" type="work"
+               subtype="pmb">Roten Tag</rs>“<lb xml:id="uuid_24428dd1-e140-433e-b63e-cbf4171aab12"
+            />und anderen Zeitungen herauszusuchen. Da für die Prozessführung<lb
+               xml:id="uuid_b758f64d-ec9f-4216-a802-2343325e0256"/>von Wichtigkeit ist auch den
+            Erscheinungstag dieser Gedichte<lb xml:id="uuid_649e4c8a-57f5-44dc-b17c-c449232c7714"
+            />dem <rs ref="#36362" type="institution">Gerichte</rs> bekanntzugeben, bitte ich Sie,
+            wenn nicht die Zeitungen<lb xml:id="uuid_8138d394-ddaa-44d3-b752-66134a17dbce"/>selbst
+            zur Verfügung gestellt werden können auf den Abschriften<lb
+               xml:id="uuid_e4f351e0-2621-4635-b69c-c65ed90c003f"/>den Erscheinungstag zu vermerken. </p>
+         <p xml:id="uuid_0f1de6a5-96b2-4adf-bb78-e26f4039287a">
+            <lb xml:id="uuid_f68f0e74-637a-4a53-a42d-969654ddd592"/>Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"><hi rend="spaced">Kraus</hi></rs> lässt Ihnen für Ihre<lb
+               xml:id="uuid_40c014dd-e8a7-4fc3-aac7-17588d230c32"/>Mühe herzlichst danken und Sie
+            grüssen. </p>
+         <p xml:id="uuid_65bd294f-69be-40bd-9c81-f4b8e857f0f4">
+            <lb xml:id="uuid_ebbbd051-6681-4b98-962b-317dbe7556fb"/>Ich zeichne<lb xml:id="uuid_ec38493c-c308-491d-ad44-947cdb7f0c8f"/>mit vorzüglicher Hochachtung </p>
+         <pb xml:id="D_000068-016-000_p002"
+             facs="#D_000068-016-000-facs001-l002-p003"
+             n="2"/>
+         <p xml:id="uuid_1baf1abb-9693-416b-b2ee-a79cc569ce7d">
+            <lb xml:id="uuid_c439a333-47bf-4540-8cb7-900ed17802b0"/><note resp="law-firm" type="paratext">Betr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11910" type="person">Kerr</rs>
+               <lb xml:id="uuid_7828fdc9-1101-4b41-b2e2-a85b58766d96"/>expediert am 21. Mai
+                    1927. </note>
+         </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000086-002-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000085-012-002.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000086-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Rote Fahne (verantw. Red. Friedrich Hexmann)</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000086-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/2817</idno>
+            <idno subtype="transkribus" type="ID">313925</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000086" type="collection">Karl Kraus
+               ca. Rote Fahne und Neues Wiener Journal</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000086-001-000-facs001" xml:id="D_000086-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000086-001-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHU"
+                        >Durchschlag mit handschriftlichen Überarbeitungen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-05-17">17. Mai 1927</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1927-05-17">17. Mai 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#87692">den | Verantwortlichen Redakteur der „Roten Fahne“ | F.
+                  Hexmann</persName>
+               <address>
+                  <street corresp="#52481">Pramergasse Nr. 6</street>
+                  <settlement ref="#59">Wien IX.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000086-001-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000086-001-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+         <handNotes>
+            <handNote xml:id="D_000086-001-000-hand01" source="#D_000086-001-000-wit01" scribeRef="#38909" medium="pencil" cert="high" resp="#JK"></handNote>
+            
+         </handNotes>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-10-08T11:43:21.79Z" who="#IB" status="draft">created by API</change>
+         <change when-iso="2020-10-08T11:43:40.223Z" who="#IB" status="draft">Replaced Text with
+            Transcription of Transkribus Document 313925. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000086-001-000-facs001">
+      <surfaceGrp xml:id="D_000086-001-000-facs001-l001">
+         <surface xml:id="D_000086-001-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554253/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000086-001-000-facs001-l001-p002" type="verso">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554255/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000086-001-000_p001" facs="#D_000086-001-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_c164ed98-bb40-4924-bb34-8f6b391eade7">
+            <lb xml:id="uuid_c7d90e77-e040-4ec9-9e34-19b34c874e78"/>Auf Grund des <rs type="law"
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45"
+               >§ 23 Pr.G.</rs> ersuche ich<lb xml:id="uuid_1b22e44e-2ffe-4ca7-bfa6-b86dbdff2055"
+            />Sie im Vollmachtsnamen des Herrn <rs type="person" ref="#11988"><hi rend="spaced">Karl
+                  Krau</hi>s</rs>, Herausgebers<lb
+               xml:id="uuid_b7085ba5-f771-4cb7-b8c5-9ac4762674c1"/>der <rs type="work" subtype="pmb"
+               ref="#41244">Fackel</rs>, um Aufnahme der folgenden Berichtigung der meinen<lb
+               xml:id="uuid_7a610105-80b6-418c-9e12-bbb7fa8b5ec0"/><rs type="person" ref="#11988"
+               >Mandanten</rs> betreffenden, in Ihrem am Freitag den 13. Mai 1927,<lb
+               xml:id="uuid_839b213b-a5a1-42a2-965a-caab31bc8feb"/><rs type="work" subtype="pmb"
+               ref="#87697">Nr. 112</rs>, Seite 2, unter dem Titel „<rs type="work" subtype="pmb"
+               ref="#87699"><hi rend="underlined">Eine Frechheit der ‚<rs type="institution"
+                     ref="#36916">Wipag</rs>‘</hi>.<lb
+                  xml:id="uuid_773882ec-175a-49bd-8f93-1b1825169060"/>Sie verweigert die
+               Plakatierung eines Aufrufes von <hi rend="spaced">Karl Krau</hi>s</rs>“<lb
+               xml:id="uuid_9ac8aa94-1c6f-4ce7-8ebe-fb9ed6762cbe"/>erschienenen Artikel behaupteten
+            Tatsachen, in der im Pressgesetz<lb xml:id="uuid_8f60eaef-7814-4ae9-9b0f-453a138dfd4d"
+            />vorgeschriebenen Weise:</p>
+         <p xml:id="uuid_4801a1ec-1f83-40d1-8e9a-fe7130b83383">
+            <lb xml:id="uuid_5ec4428b-3b77-435b-9c1b-7a3cd35852fb"/><note type="intertext"
+               source="https://fackel.oeaw.ac.at/f/781,047">Es ist unwahr, dass <rs type="person"
+                  ref="#11988"><hi rend="spaced">Karl Krau</hi>s</rs>,<lb
+                  xml:id="uuid_d1d62674-9866-4e19-ad5b-68023806d995"/>„<quote
+                  xml:id="uuid_59c0d4cf-387d-4d40-a3df-35d540e1657b" source="#87699">dem ganz
+                  fraglos durchdringende Scharfsichtigkeit in allen Dingen<lb
+                     xml:id="uuid_a4add728-8156-4676-b4b9-231c0fda99e4"/>literarischer und sonstiger
+                  Korruption zugesprochen werden muss,<lb
+                     xml:id="uuid_6eb9ef05-340c-4e4b-9fd5-cad35d990762"/>es seit einigen Jahren
+                  trotzdem für geraten hielt, der Sozialdemo<lb
+                     xml:id="uuid_414bd4d0-007b-4aae-bbe2-e255b415e869" break="no"/>kratischen
+                  Partei Gefolgschaft zu leisten.</quote>“ Wahr ist, dass<lb
+                  xml:id="uuid_2bf7d690-75fe-499b-a644-2771327f6738"/><rs type="person" ref="#11988"
+                     ><hi rend="spaced">Karl Krau</hi>s</rs> keiner Partei Gefolgschaft geleistet
+               hat und<lb xml:id="uuid_c0bf6e9a-c166-4096-935b-fb729a3619a7"/>leistet. Wahr ist,
+               dass er, soweit die Sozialdemokratische Partei<lb
+                  xml:id="uuid_dd4e2006-72df-4bf3-a044-c8ce63291897"/>gegen Krieg und Kriegsgewalt
+               Stellung nahm, diese Haltung anerkannt<lb
+                  xml:id="uuid_5732578a-3a24-467b-b996-5bfe98c022e7"/>hat. Wahr ist, dass er auf
+               wiederholte Einladungen der Sozialdemo-<pb xml:id="D_000086-001-000_p002"
+                  facs="#D_000086-001-000-facs001-l001-p002" n="2"/>
+               <lb xml:id="uuid_c94c3cf7-3afc-41d6-89fb-15fb6dafdc1e"/>kratischen <rs
+                  type="institution" ref="#37047">Kunststelle</rs>
+               <del hand="#D_000086-001-000-hand01">so</del>wie auch einzelner Arbeitervereine
+                  mit<lb xml:id="uuid_bb9785e4-ff77-430a-b64e-f0059a84742b"/>der grössten
+               Bereitwilligkeit und aus Zuneigung zur Arbeitersache<lb
+                  xml:id="uuid_b8a73a06-5fe7-4307-bd01-f97fc88c4e1e"/>Vorträge zu Gunsten von
+               Fürsorgezwecken der Arbeiterschaft gehal<lb
+                  xml:id="uuid_4e7fefb5-5b74-4ebd-b276-7272c21b3056" break="no"/>ten hat. <del
+                  hand="#D_000086-001-000-hand01">Wahr ist, dass er der <hi rend="underlined"
+                     >Arbeitersache</hi> Gefolgtschaft geleistet<lb
+                     xml:id="uuid_b8857b99-90b3-4f68-8d2e-fece4109ae68"/>hat und
+               leistet.</del></note></p>
+         <note type="intertext" source="https://fackel.oeaw.ac.at/f/781,047">
+            <p xml:id="uuid_99b40734-7d79-4089-be92-a7daf8a31c70"><lb
+                  xml:id="uuid_b2281756-813a-437f-bd24-c5b9566ff2ab"/>Sie schreiben: „<quote
+                  xml:id="uuid_63f6b063-3e6f-4203-b3be-9c339a60cffb" source="#87699">Nunmehr ist
+                     der<lb xml:id="uuid_bbf5d800-d2ed-41b3-983d-7abbf143be7e"/>Sozialdemokrat <rs
+                     type="person" ref="#11988"><hi rend="spaced">Karl Krau</hi>s</rs> mit der
+                     sozialdemokratischen<lb xml:id="uuid_bab014c6-df07-43cc-9da8-2cd7f66ba514"
+                     />‚<rs type="institution" ref="#36916">Wipag</rs>‘ zusammengestossen.</quote>“
+               Es ist unwahr, dass <rs type="person"><hi rend="spaced">Karl Krau</hi>s</rs><lb
+                  xml:id="uuid_810ddd05-e3c4-411b-958c-3ff11db68ac8"/>Sozialdemokrat ist oder war,
+               wahr ist, dass er keiner politischen<lb
+                  xml:id="uuid_fba7c63a-2dfb-45fa-9fd5-7aa681ce0522"/>Partei angehört und nie einer
+               solchen angehört hat.</p>
+         </note>
+         <p xml:id="uuid_182f71d4-7d29-47aa-9d00-5303153a7f44"><note type="intertext"
+               source="https://fackel.oeaw.ac.at/f/781,047">
+               <lb xml:id="uuid_eb3621fc-9eee-4ecf-85af-150e8a8a925f"/>Es ist unwahr, dass ihm
+               „</note><quote xml:id="uuid_60526645-5a33-4177-9486-88f91a761ce5" source="#87699"
+                  ><note type="intertext" source="https://fackel.oeaw.ac.at/f/781,047">die
+                     Sozialdemo<lb xml:id="uuid_e518e8b9-1216-4427-ac74-9c8e9db0d427" break="no"
+                  />kratie zwecks Unterzeichnung des <rs type="person" ref="#7574">Fritz
+                     Grünbaum</rs>-Aufrufes eifrig –<lb
+                     xml:id="uuid_e8788a42-808f-44d5-9b46-4b6a4f79f479"/>allerdings auch vergebens –
+                  nachgelaufen ist: <rs type="person" ref="#11988"><hi rend="spaced">Karl
+                     Krau</hi>s</rs><lb xml:id="uuid_3130b001-5b17-4930-b441-4ea21cd04fce"/>hatte
+                  die Selbstachtung,</note>
+               <note type="intertext" source="https://fackel.oeaw.ac.at/f/">diesen Aufruf nicht
+                  zu-unterschreiben …</note></quote><note type="intertext"
+               source="https://fackel.oeaw.ac.at/f/781,048">“<lb
+                  xml:id="uuid_7c744f8d-c392-45ac-a99e-a91cfaf09bff"/>Wahr ist, dass <del
+                  hand="#D_000086-001-000-hand01">Herr</del>
+               <rs type="person" ref="#11988"><hi rend="spaced">Karl Krau</hi>s</rs> nie
+               aufgefordert wurde,<lb xml:id="uuid_0ca5bf30-3932-4c2f-bf9f-976bae87ebb7"/><subst
+                  hand="#D_000086-001-000-hand01">
+                  <del hand="#D_000086-001-000-hand01">jenen</del>
+                  <add hand="#D_000086-001-000-hand01">diesen</add>
+               </subst> Aufruf zu unterschreiben<subst hand="#D_000086-001-000-hand01">
+                  <del hand="#D_000086-001-000-hand01">,</del>
+                  <add hand="#D_000086-001-000-hand01">.</add>
+               </subst> offenbar aus dem Grunde, weil man<lb/>der Verweigerung seiner Unterschrift
+               von Aufrufen sicher war.</note>
+         </p>
+         <p xml:id="uuid_5ddf69fa-43ff-4b97-842f-bc2271892472">
+            <lb xml:id="uuid_950b34a6-7bef-4b73-8cd4-94eec393f7c3"/><note type="paratext"
+               resp="law-firm"><rs type="person" ref="#11988">Kraus</rs> – <rs type="institution"
+                  ref="#36916">Wipag</rs> (<rs type="institution" ref="#37525">Rote
+               Fahne</rs>)</note>
+         </p>
+      </body>
+   </text>
+</TEI>

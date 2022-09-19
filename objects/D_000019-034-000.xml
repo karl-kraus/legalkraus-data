@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-035-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-033-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000019-034-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Franz Kornheisl (RA in Steyr) an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000019-034-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1780</idno>
+            <idno subtype="transkribus" type="ID">177784</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000019" type="collection">Karl
+                    Kraus ca. Fritz Kaufmann und Anton Kuh</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000019-034-000-facs001" xml:id="D_000019-034-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000019-034-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#59941">Dr. FRANZ KORNHEISL</persName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#16143">Steyr</settlement>
+               </address>
+               <date when-iso="1926-06-18">18. Juni 1926</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Dr. Oskar Samek, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#50493">Schottenring Nr. 14</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1926-06-18">18. Juni 1926</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote cert="low"
+                      medium="pencil"
+                      resp="#JK"
+                      scribeRef="#38909"
+                      source="#D_000019-034-000-wit01"
+                      xml:id="D_000019-034-000-hand01"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000019-034-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000019-034-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-11" who="#JK"/>
+         <change type="typography" when-iso="2021-10-11" who="#JK"/>
+         <change type="references" when-iso="2021-10-11" who="#JK"/>
+         <change type="structure" when-iso="2021-10-11" who="#JK"/>
+         <change when-iso="2020-02-05T11:49:15.14Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-05T12:12:49.953Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-05T12:12:51.479Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 177784. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000019-034-000-facs001">
+      <surfaceGrp xml:id="D_000019-034-000-facs001-l001">
+         <surface type="recto" xml:id="D_000019-034-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541227/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000019-034-000-facs001-l001-p002">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541228/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000019-034-000_p001"
+             facs="#D_000019-034-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_ea59c83f-9c69-47bd-9904-268144b9ec51">
+            <lb xml:id="uuid_38d86229-b745-4e15-9612-40babef160c1"/>Sehr geehrter <rs ref="#38909" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_84bdebf2-4f9c-4c8a-aff7-9a4f97aa0a74">
+            <lb xml:id="uuid_796d9390-fb91-4fc6-a176-4f475f2b9d25"/>Aus Zeitungsberichten habe ich
+            vor einiger Zeit<lb xml:id="uuid_ef215d6f-63b4-4111-8daf-842669ee1f69"/>ersehen, daß <rs
+               ref="#38909" type="person">Herr Kollege</rs> den Schriftsteller Herrn<lb
+               xml:id="uuid_9c1d3bb1-7f6a-484f-a481-0440b3f57ffe"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> in einem
+            Ehrenbeleidigungsprozesse gegen<lb xml:id="uuid_c802225d-790b-461e-94f1-8a6eb9147f14"
+            />die Redakteure <rs ref="#8363" type="person">Kuh</rs> und glaublich <rs ref="#50431"
+               type="person">Dr. Kaufmann</rs> vertreten<lb
+               xml:id="uuid_a66b30b6-7121-49bd-87da-f23fd3dbac1c"/>haben (betreffend „<quote
+               source="#51533" xml:id="uuid_c6902708-9930-4260-8adf-df3bf6e2e96d"
+               >Vortragsaffe</quote>“) und daß vor einiger<lb
+               xml:id="uuid_465a2f6e-c384-489e-aa62-785a2b2368ce"/>Zeit glaublich vor dem <rs
+               ref="#51229" type="person">LGR Fryda</rs> die Hauptverhandlung<lb
+               xml:id="uuid_68eb02aa-39fc-44d0-b233-1ed0b4ce2803"/>stattgefunden hat. </p>
+         <p xml:id="uuid_6e37045c-4107-4c98-932f-7dc51a800104">
+            <lb xml:id="uuid_c1cd4abf-7691-4519-bcbd-dd36d993c370"/>Da ich hier mit einer
+                ähnlichen Sache befaßt bin,<lb xml:id="uuid_398b302d-3baa-432a-b08a-79cbb40250d2"/>wäre ich Ihnen, sehr geehrter <rs ref="#38909" type="person">Herr Kollege</rs>,
+                sehr verbunden,<lb xml:id="uuid_c84671ba-50ed-4cb0-b6bd-60ed00d13768"/>wenn Sie mir
+                auf einen oder zwei Tage zur Einsicht die in<lb xml:id="uuid_e988da21-cdae-461a-a478-c6461d75773b"/>dieser Sache bereits
+                ergangenen gerichtlichen Entschei<lb break="no" xml:id="uuid_e9cb7124-3124-43d0-98f8-161b662ada2c"/>dungen, soweit sie in Ihren
+                Händen sind (insbesondere auch<lb xml:id="uuid_75b22361-e6db-46ee-9727-a7c42661d6fd"/>glaublich seinerzeit eine Entscheidung des <rs ref="#36842" type="institution">Landesgerichtes<lb xml:id="uuid_7dca95af-efb2-4413-84dd-e086bef97f5f"/>Wien</rs> wegen der sachlichen Zuständigkeit des <rs ref="#50491" type="institution">Bezirksge<lb break="no" xml:id="uuid_7fbb7b0c-cf56-4538-8677-4f803aeb203a"/>richtes</rs> und die <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-030-000"
+                type="work"
+                subtype="legal-doc">Entscheidung</rs> betreffend den <rs ref="#50431" type="person">verantwort<lb break="no" xml:id="uuid_4f9b7b18-b421-4dd9-a10d-ea4436a843da"/>lichen <hi hand="#D_000019-034-000-hand01" rend="underlined">Schriftleiter</hi></rs>,
+                der glaublich in einem Gerichtssaal<lb xml:id="uuid_ef2a82fe-17ed-49b2-bb62-41a63d4515fb"/>Berichte oder einem <rs ref="#51541" type="work" subtype="pmb">scheinbaren Gerichtssaal-Berichte</rs>
+                    die<lb xml:id="uuid_1d6ad0f8-f648-4b1b-816b-ad749cfa5d17"/>Beschimpfung
+                wiederholt hatte, soweit ich dies eben aus<lb xml:id="uuid_fadf4ff7-84ab-4e07-9a6c-d618f7f830a7"/>den Zeitungsberichten
+                beiläufig entnehmen konnte) über<lb break="no" xml:id="uuid_513f75d2-8e9e-4efa-ba08-535e09945e48"/>mitteln würden. </p>
+         <p xml:id="uuid_a89622f1-6132-4bf4-83fa-136fb879cc6e">
+            <lb xml:id="uuid_d44034f3-4d52-4179-890c-09d1bec1c1c0"/>Ich bleibe
+                selbstverständlich gerne zu irgend<lb xml:id="uuid_b43e40fe-b66b-4e3d-bef3-74be86b304ce"/>welchen kollegialen
+                Gegenleistungen auch meinerseits<lb xml:id="uuid_aad2cb0b-d409-4935-b5af-b10e12495050"/>bereit und zeichne, für Ihr
+                gefl. Entgegenkommen im Voraus<lb xml:id="uuid_3665d8eb-8542-46aa-b67c-ecb9a9f699d4"/>bestens dankend, </p>
+         <p xml:id="uuid_ef9032c1-2210-473b-aca4-49392ab0447a">
+            <lb xml:id="uuid_b705f33a-18be-45cd-954e-37eb8327e976"/>mit vorzüglicher
+                    Hochachtung<lb xml:id="uuid_46da6816-9207-47dc-8e06-53e87d4d4d4f"/>ergebener
+                    Kollege:<lb xml:id="uuid_516768f2-ca6e-4514-82d2-2e7428d5f053"/><rs ref="#51910" type="person">Kornheisl</rs>
+         </p>
+         <pb xml:id="D_000019-034-000_p002"
+             facs="#D_000019-034-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_2eb3e218-dedc-4512-8ccb-8025d1f695b9">
+            <lb xml:id="uuid_c0aa78ad-a87f-4c20-8066-7b25d36f30dd"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">Kraus</rs>
+               <lb xml:id="uuid_a3b36c50-14f0-48a5-8180-6c9f59c68f94"/><rs ref="#50431" type="person">Dr. Kaufmann</rs>
+               <lb xml:id="uuid_8b73a6d4-48eb-4085-9bdb-963c05a420f6"/>u. <rs ref="#8363" type="person">Kuh</rs>
+               <lb xml:id="uuid_2ab7ae40-f781-4cf4-a1e1-27be0ac375a3"/>21.VI.26 </note>
+         </p>
+      </body>
+   </text>
+</TEI>

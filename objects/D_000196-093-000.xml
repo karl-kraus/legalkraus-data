@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-094-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-092-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000196-093-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Johann Turnovsky</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000196-093-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/5079</idno>
+            <idno subtype="transkribus" type="ID">400674</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000196" type="collection">Karl
+                    Kraus ca. Arbeiter-Zeitung (Brünn)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000196-093-000-facs001" xml:id="D_000196-093-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000196-093-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#52780"/> 
+                  <settlement ref="#65"/> 
+               </address>
+               <date when-iso="1936-05-08">8. Mai 1936</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#43593">Herrn | Dr. Johann Turnovsky, | Advokat</persName>
+               <address>
+                  <street corresp="#51737">Vodickova 33</street>
+                  <settlement ref="#652">Prag II</settlement>
+               </address>
+               <date when-iso="1936-05-11"/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Arbeiter-|zeitung</note>
+               <note type="dictation">Dr.Sa/Ma.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1936-05-08">8. Mai 1936</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000196-093-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000196-093-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-12T09:52:56.545Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-12T11:11:24.132Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 400674. </change>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-10-20"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-10-20"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-10-20"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-10-20" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000196-093-000-facs001">
+      <surfaceGrp xml:id="D_000196-093-000-facs001-l001">
+         <surface type="recto" xml:id="D_000196-093-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593935/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000196-093-000-facs001-l002">
+         <surface type="recto" xml:id="D_000196-093-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593937/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000196-093-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593938/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593939/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593941/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000196-093-000_p001"
+             facs="#D_000196-093-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_7fc39192-9fd9-456e-9dc8-1bb0c468aab3">
+            <lb xml:id="uuid_7b7d39ef-0cdd-4d96-a3b3-2d3097b8686b"/>Sehr geehrter <rs ref="#43593" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_6fd97da7-b9ab-4a39-8ef4-24feb886e4b2">
+            <lb xml:id="uuid_0f73a57f-2e6a-403a-bb12-245abf4d8590"/>In dem in <rs ref="#833"
+               type="place">Brünn</rs> geführten <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000196" type="work" subtype="legal-doc"
+               >Prozess</rs> gegen<lb xml:id="uuid_1ffcbb5e-4096-4bc3-8e8b-f6035177a238"/>die <rs
+               ref="#29644" type="institution">Arbeiterzeitung</rs> legt Herr <rs ref="#51575"
+               type="person">Dr. Gallia</rs> und auch der<lb
+               xml:id="uuid_934fcbd4-7297-499c-a132-28f11183002f"/><rs ref="#60384" type="person"
+               >Richter</rs> Wert darauf, die Haltung des <rs ref="#11988" type="person">Herrn
+               K.</rs> gegen<lb break="no" xml:id="uuid_25af2a4d-65bc-4bbb-89b3-d7bd24dd604e"/>über
+            den dort zur Sprache gebrachten Fragen durch<lb
+               xml:id="uuid_789986fd-18aa-4374-85f4-375f37bbd645"/>einen Zeugenbeweis erhärtet zu
+            bekommen. Unter den<lb xml:id="uuid_d8bc8649-4272-4a7c-8d86-7cc02d435fa2"/>Personen, die
+            für einen solchen in Betracht kämen,<lb
+               xml:id="uuid_a9c0192a-0148-4290-91d8-ef1dbfd5c9e7"/>wäre ein Herr <rs ref="#57751"
+               type="person">Dr.med.phil. und jur. Richard<lb
+                  xml:id="uuid_7902f728-49db-494d-8c04-117c0ec1c638"/><hi rend="spaced"
+               >Lisk</hi>a</rs>, <rs ref="#57557" subtype="address" type="place">Prag XII., Fochova
+               2</rs>, zu nennen, der ein<lb xml:id="uuid_a1303f61-6e0e-4da8-beb9-c8d375d2250a"
+            />emeritierter Konsul des tschechoslowakischen Staates,<lb
+               xml:id="uuid_5e850190-cfce-4f5f-bac4-8e5c0551d3fc"/>seit jeher ein fanatischer
+            Anhänger des <rs ref="#11988" type="person">Herrn K.</rs>
+            <lb xml:id="uuid_455916be-c113-45cf-ade4-e5065d4f556b"/>und über sein ganzes Werk
+            orientiert ist. <rs ref="#11988" type="person">Herr K.</rs>
+            <lb xml:id="uuid_0c4cfa31-e453-4405-9693-c7c2c4e1bb5f"/>hat bei seinem letzten
+            Aufenthalt in <rs ref="#652" type="place">Prag</rs> diesen<lb
+               xml:id="uuid_7a63ffdd-f3e2-4d4a-8aeb-c874174b01e1"/><rs ref="#57751" type="person"
+               >Mann</rs> zufälligerweise getroffen, der wieder seine<lb
+               xml:id="uuid_b6d86aa9-5a0f-4ca9-a12e-dac2a18f60d1"/>grosse Anhänglichkeit und sein
+            Verständnis für das<lb xml:id="uuid_02aa9454-2a37-4f2f-93db-3b88e992f27b"/>Werk bekundet
+            hat. Objektiv genommen wäre also<lb xml:id="uuid_af8b19e9-7b3b-408a-99bf-569c60a5c0f8"
+            />dieser <rs ref="#57751" type="person">Zeuge</rs> in dem beabsichtigten Sinn gut
+               verwend<lb break="no" xml:id="uuid_52805676-cc8f-423a-b169-f7efe95b1079"/>bar. Es ist
+            aber zu befürchten, dass er vielleicht<lb
+               xml:id="uuid_fef8d5bd-6f72-4eca-b575-d017746777ab"/>in der Tschechoslowakei in
+            politischer Hinsicht in<lb xml:id="uuid_9b134560-e220-47a4-8121-c3ce33d5586a"
+            />Misskredit sein könnte, welcher Verdacht dadurch<lb
+               xml:id="uuid_c065b999-515d-4df4-9c06-a2a77d5a07e5"/>auftaucht, dass er seine
+            Konsularstellung aufge<lb break="no" xml:id="uuid_96c35ced-19f7-4e88-be6b-b5bcc1218c3f"
+            />geben oder verloren hat. Man könnte ihn dann nicht <pb xml:id="D_000196-093-000_p002"
+               facs="#D_000196-093-000-facs001-l002-p002" n="2"/>
+            <lb xml:id="uuid_2921f393-17ef-4020-aa1f-930d0385b327"/>als Zeugen führen, wenn seine
+            Aussage aus persön<lb break="no" xml:id="uuid_f0921585-f10c-4cbe-9c77-bbbc8f4f4836"
+            />lichen Gründen kein Gewicht hätte. Wenn es Ihnen nun<lb
+               xml:id="uuid_867d20c5-f395-4c65-af11-424a1fe87e49"/>möglich ist, über ihn näheres zu
+            erforschen, so<lb xml:id="uuid_b11387b0-f79f-40fb-a6e5-c6674dfcbb3d"/>wäre ich Ihnen
+            dankbar dafür, und würde unter Umstän<lb break="no"
+               xml:id="uuid_5c7c9a10-a2c3-4308-89f5-50f0616e4ea1"/>den vor einem Missgriff bewahrt
+            werden. </p>
+         <p xml:id="uuid_af918be0-34f4-469c-9263-0b13b6761f61">
+            <lb xml:id="uuid_8855e809-2abf-4ee9-91d3-e31321e3791b"/>Indem ich Ihnen im voraus
+                bestens danke<lb xml:id="uuid_727f7e02-1154-4c55-97b0-a179fc033d45"/>und Sie
+                herzlichst grüsse und auch die Grüsse des<lb xml:id="uuid_e494cd4f-ab13-43f4-8f21-c0ffccce1447"/><rs ref="#11988" type="person">Herrn K.</rs> übermittle, bin ich mit vorzüglicher<lb xml:id="uuid_a6124658-1c9b-464b-bf4a-8f3485d3c798"/>kollegialer Hochachtung </p>
+         <p xml:id="uuid_6e1396ee-94a0-4cb3-ac61-7eb1c775b24c">
+            <lb xml:id="uuid_1dfc35a0-2f73-4210-8d8a-ddebb057d734"/>Ihr ergebener </p>
+         <p xml:id="uuid_ce5730b9-e4b2-4ecd-9326-c983be5ba087">
+            <lb xml:id="uuid_052c5b62-be9f-4544-a9f8-48037ac4f1d3"/>N.S. <rs ref="#50" type="place">Wien</rs>, am 11. Mai 1936. </p>
+         <p xml:id="uuid_cb2cd981-fba8-4cdc-bd1c-f18b856e0a78">
+            <lb xml:id="uuid_95468b83-bd34-46d9-ad44-b6c93ed14ef0"/>Sehr geehrter <rs ref="#51575" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_6d885e3c-469a-429c-a3af-5ca9d65c5cae">
+            <lb xml:id="uuid_b35b48b8-6d5c-4d5e-9f38-820308963ff1"/>Falls Sie die Erklärung an das
+               ‚<rs ref="#29259" type="institution">Prager Tag<lb break="no"
+                  xml:id="uuid_b8ddead6-e8e8-4b37-909d-36cc1fb81253"/>blatt</rs>‘ einsenden wollen,
+            würde ich ungefähr den beiliegenden<lb
+               xml:id="uuid_f73de15e-12e3-4ec7-b498-b38d34ea37a7"/>Begleitbrief empfehlen. </p>
+         <p xml:id="uuid_7357f90d-6b67-41f6-a18e-f51539737e2b">
+            <lb xml:id="uuid_1948e655-12ee-4324-b10b-355fd25adc06"/>Herr <rs ref="#11988"
+               type="person">Kraus</rs> lässt Sie auch fragen, ob Sie<lb
+               xml:id="uuid_fd10ac9b-4a3f-4e5f-80a2-dae2f6d2c5f6"/>sich über die <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000193" type="work" subtype="legal-doc"
+               >Ehrenbeleidigungsklage</rs> gegen den ‚<rs ref="#37540" type="institution"
+               >Sozialdemokrat</rs>‘<lb xml:id="uuid_0e7c5fa5-5d46-44a5-8775-86c64c4af313"/>wegen
+            der berichtigten Stelle betreffend die „Haltung zu<lb
+               xml:id="uuid_c49e3b71-b363-4001-bf2f-d498baba0d93"/>den Arbeitern“ schlüssig geworden
+            sind, und ob man nicht<lb xml:id="uuid_4b182336-c15d-468c-81e9-ed96d7fbd839"/>Herrn <rs
+               ref="#43638" type="person">Dr. Schwelb</rs> als Berichterstatter verklagen könnte?<lb
+               xml:id="uuid_241b1752-b4dc-4c7f-b1d4-38727c66c814"/>Wenn es nicht zu kostspielig
+            wäre, würde es doch ein<lb xml:id="uuid_fb764daf-7a87-42c3-ba10-735272636a10"
+            />Schauspiel sondergleichen sein Herrn <rs ref="#43638" type="person">Dr. Schwelb</rs>
+               leugnen<lb xml:id="uuid_bc84966b-7a4b-4199-9453-b18ae941082e"/>zu lassen, dass er den
+               <rs ref="#57616" type="work" subtype="pmb">Bericht</rs> verfasst hat. Vielleicht<lb
+               xml:id="uuid_9b237274-0302-4d41-b2cf-eb8f1eb550a7"/>könnte man alle Redakteure als
+            Zeugen führen. Nach Ihrem<lb xml:id="uuid_53861600-ed54-4381-adde-bd2c1fd74a4b"/>Plan
+            gegen Herrn <rs ref="#38005" type="person">Dr. Brügel</rs> zu schliessen, scheint in
+               der<lb xml:id="uuid_85b5aecc-ac0a-476d-8d3e-744143d1b75b"/>Tschechoslowakei der
+            Zeugniszwang für Redakteure vorhanden<lb
+               xml:id="uuid_71404318-178f-4f38-9d3d-1f5a84236457"/>zu sein. </p>
+         <p xml:id="uuid_a4e0eaa7-867d-44bc-be17-89e1d641b0c3">
+            <lb xml:id="uuid_6cdd1c9d-4a67-489c-a5ac-bcb77969e678"/>Mit herzlichen Grüssen </p>
+         <p xml:id="uuid_f52a07c4-af92-4c0b-8afd-7a31c229b137">
+            <lb xml:id="uuid_f0a79d0d-41b7-4c60-bf2f-29aeae253d3d"/>Ihr ergebener <pb xml:id="D_000196-093-000_p003"
+                facs="#D_000196-093-000-facs001-l002-p003"
+                n="3"/>
+         </p>
+         <p xml:id="uuid_ab4c58c4-c5f7-47d2-9f2a-d2775ea9f958">
+            <lb xml:id="uuid_8abd06d8-b5df-4995-be25-bd0b50e37f84"/><note resp="law-firm"
+               type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#29644"
+                  type="institution">Arbeiterzeitung</rs> /<lb
+                  xml:id="uuid_0afff1a6-9cd7-4be2-9a77-692c857b1b8d"/>11.5.1936</note></p>
+      </body>
+   </text>
+</TEI>

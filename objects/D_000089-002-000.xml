@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000089-001-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000089-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Otto Nirenstein (Kunsthändler und Verleger)</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000089-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2848</idno>
+            <idno subtype="transkribus" type="ID">230891</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000089" type="collection">Karl
+                    Kraus ca. Der Weltspiegel</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000089-002-000-facs001" xml:id="D_000089-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000089-002-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-08-12">12. August 1927
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1927-08-12">12. August 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#21979">Wohlgeboren | Herrn Otto Nirenstein, | Kunsthändler und
+                        Verleger</persName>
+               <address>
+                  <street corresp="#1178">Mahlerstrasse Nr. 3</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Weltspiegel</note>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000089-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000089-002-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-25" who="#JK"/>
+         <change type="typography" when-iso="2021-10-25" who="#JK"/>
+         <change type="references" when-iso="2021-10-25" who="#JK"/>
+         <change type="structure" when-iso="2021-10-25" who="#JK"/>
+         <change when-iso="2020-10-08T11:46:00.376Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T11:47:17.4Z" who="#IB">Replaced Text with Transcription of
+                Transkribus Document 230891. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000089-002-000-facs001">
+      <surfaceGrp xml:id="D_000089-002-000-facs001-l001">
+         <surface type="recto" xml:id="D_000089-002-000-facs001-l001-p001">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554376/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000089-002-000-facs001-l001-p002">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554378/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000089-002-000-facs001-l002">
+         <surface type="recto" xml:id="D_000089-002-000-facs001-l002-p003">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554377/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000089-002-000_p001"
+             facs="#D_000089-002-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_6ea70c85-d002-42e0-afca-e50b3a2fa6a8">
+            <lb xml:id="uuid_41fe5085-7568-41f1-886c-e43b49b56ea9"/>In der <rs ref="#52906" type="work" subtype="pmb">Nummer 28 der Zeitschrift „Der Welt<lb break="no" xml:id="uuid_315a9b8d-69af-4bb5-9624-5abd44df7198"/>spiegel“</rs>,
+                erschienen in <rs ref="#168" type="place">Berlin</rs> am 10. Juli 1927, wurden auf
+                Seite 2<lb xml:id="uuid_8e2cfdea-09fb-42e4-9e1b-dcb15010b090"/>zwei
+                Photographieporträts meines Mandanten des Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl <hi rend="spaced">Kraus</hi></rs>
+            <lb xml:id="uuid_37874038-9e9c-4c53-9852-12b1b626fda6"/>veröffentlicht. Diese
+                Photographieporträts waren auf der <rs ref="#2147" type="person">Peter<lb xml:id="uuid_5f2a5338-41b1-40f2-a4b6-78ca4442f9b5"/>Altenberg</rs>
+                Ausstellung ausgestellt und konnten nur mit Ihrer Bei<lb break="no" xml:id="uuid_7ed28dd7-2e87-467a-8fff-bc2a0e774943"/>hilfe veröffentlicht worden
+                sein. Nach <rs ref="https://alex.onb.ac.at/cgi-content/alex?aid=sgb&amp;datum=1920&amp;page=1738&amp;size=45"
+                type="law">§ 45 Absatz 3 des Urheber<lb break="no" xml:id="uuid_7657cfb7-f75c-459c-8a7d-7d12e8b519f1"/>rechts Gesetzes</rs> ist
+                die Veröffentlichung eines Photographieporträts<lb xml:id="uuid_83d312de-4b4f-4300-82bc-bdb8fae25f18"/>ohne Zustimmung der
+                dargestellten Person eine Uebertretung. </p>
+         <p xml:id="uuid_98714e67-5ec6-4bca-80e3-2445a707f108">
+            <lb xml:id="uuid_b907a88d-5341-45a4-99d4-f283d6fae72a"/>Mein <rs ref="#11988"
+               type="person">Mandant</rs> hat mich beauftragt, gegen Sie<lb
+               xml:id="uuid_9203896d-6229-4598-a338-b98d289569a1"/>die Privatanklage wegen dieser
+            Uebertretung einzuleiten, wenn Sie<lb xml:id="uuid_d4c8c5a8-2dd3-47f4-a949-a9aeecf5f7c7"
+            />nicht binnen 3 Tagen mittels des beiliegenden <rs type="work" subtype="legal-doc"
+               >Erlagscheines</rs> eine<lb xml:id="uuid_26de435b-0a54-4ede-9777-ffc43aa5f556"/>S
+            300.– zu Gunsten der am 15. Juli 1927 Verletzten zu<lb
+               xml:id="uuid_900df5fe-7f3f-4e68-a6a9-1471c1effe23"/>meinen Händen erlegen, und die in
+            meiner <rs type="institution" ref="#52930">Kanzlei</rs> aufgelaufenen<lb
+               xml:id="uuid_4693a5c2-6cb2-4266-82e2-c0470df953c7"/>Kosten der Informationserteilung
+            und dieses Schreibens in der Höhe<lb xml:id="uuid_23fbd6de-c1a1-4066-99fc-d254860ca3e9"
+            />von S 15.– bezahlen. </p>
+         <p xml:id="uuid_4c7a9ce2-62bc-4dda-8bf0-b2c3262d71f6">
+            <lb xml:id="uuid_85682d87-67aa-499f-87e2-04fab402fbf7"/>Hochachtungsvoll </p>
+         <p xml:id="uuid_a668d893-5389-45e7-970b-6fbbcfd57804">
+            <lb xml:id="uuid_4420da13-f11d-4b4a-88b6-76ae12f2ae40"/><rs type="work"
+               subtype="legal-doc">1 Erlagschein</rs><lb
+               xml:id="uuid_89e976af-c373-4a6f-a1ba-d3ef16d5bb9b"/>Rekommandiert </p>
+         <pb xml:id="D_000089-002-000_p002"
+             facs="#D_000089-002-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_c1b72489-ba17-40f6-be74-ec3407241534">
+            <lb xml:id="uuid_f0f33ff3-9bbc-4ce3-816b-19efe6e0998d"/><note resp="law-firm" type="paratext">Betr. <rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37558" type="institution">Weltspiegel</rs>
+               <lb xml:id="uuid_d113e26c-c912-4539-a9d2-bf9f748979ff"/>exp. am 12. August 1927.
+                </note>
+         </p>
+      </body>
+   </text>
+</TEI>

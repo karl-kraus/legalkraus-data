@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-094-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-092-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000193-093-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Prager Tagblatt (verantw. Red. Harry Klepetar)</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000193-093-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4821</idno>
+            <idno subtype="transkribus" type="ID">376054</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000193" type="collection">Karl
+                    Kraus ca. Sozialdemokrat (Prag)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000193-093-000-facs001" xml:id="D_000193-093-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000193-093-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#52780"/>
+                  <settlement ref="#64"/>
+               </address>
+               <date when-iso="1936-04-16">16.IV.1936</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38605">den | verantwortlichen Redakteur des „Prager Tagblattes“
+                        Herrn Dr. Harry Klepetař </persName>
+               <address>
+                  <street corresp="#57686"/>
+                  <settlement ref="#652">Prag</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1936-04-16">16. April 1936
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000193-093-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000193-093-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-08-19" who="#JK"/>
+         <change type="typography" when-iso="2021-08-19" who="#JK"/>
+         <change type="references" when-iso="2021-08-19" who="#JK"/>
+         <change type="structure" when-iso="2021-08-19" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-06" who="#JK"/>
+         <change when-iso="2020-10-12T07:56:29.816Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-12T08:31:06.58Z" who="#IB">Replaced Text with Transcription of
+                Transkribus Document 376054. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000193-093-000-facs001">
+      <surfaceGrp xml:id="D_000193-093-000-facs001-l001">
+         <surface type="recto" xml:id="D_000193-093-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545298/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000193-093-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545300/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000193-093-000-facs001-l002">
+         <surface type="recto" xml:id="D_000193-093-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545302/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000193-093-000_p001"
+             facs="#D_000193-093-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_149dd4aa-8628-4720-bb7d-85655f7ff79c">
+            <lb xml:id="uuid_f26f4c72-6810-4e66-8e6f-9d14c82fc130"/>Abschrift. </p>
+         <p xml:id="uuid_aa34b1b7-5b72-4bc7-955a-8594e6c48213">
+            <lb xml:id="uuid_7084597e-c59c-4bda-b941-62842ad7986d"/>Als Rechtsanwalt des Herrn
+                    <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+                Kraus</rs>, Heraus<lb break="no" xml:id="uuid_e452b09d-f8a1-403b-8fdf-0099bda05e7b"/>gebers der Zeitschrift „<rs ref="#41244" type="work" subtype="pmb">Die
+                Fackel</rs>“ in <rs ref="#50" type="place">Wien</rs>, ersuche ich<lb xml:id="uuid_0a64af79-996c-485c-9102-9a8afe0b2d4e"/>im Sinne des <rs ref="" type="law">§ 11 der Pressgesetznovelle</rs> um die Veröffent<lb break="no" xml:id="uuid_0f814949-9723-4244-b7b0-1d7f0923886c"/>lichung der nachstehenden
+                Berichtigung. </p>
+         <p xml:id="uuid_b12ba2e8-f8a0-4dd2-bc7b-5fb979576c4d">
+            <lb xml:id="uuid_8cf3b184-3460-423f-8ab9-dad5ff2bef05"/>Hochachtungsvoll </p>
+         <p xml:id="uuid_827efa05-a7b2-45a2-95db-921fb8362eec">
+            <lb xml:id="uuid_3427b8fb-491d-4d84-b861-a3145ce2f7e5"/>Pressberichtigung </p>
+         <p xml:id="uuid_876f98fb-2160-49d1-9fc9-39f87fbe657e">
+            <lb xml:id="uuid_273fe16f-79a4-446b-a2ea-ec5642c42241"/>der in <rs ref="#57621" type="work" subtype="pmb">No. 90 des „Prager Tagblatt“ vom 16. April
+                    1936</rs>
+            <lb xml:id="uuid_ce1fc23b-dd4a-4665-926c-cb9e9a69b9dc"/>unter dem Titel
+                „<rs ref="#57623" type="work" subtype="pmb">Prozess <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+                    – ‚<rs ref="#37540" type="institution">Sozialdemokrat</rs>‘</rs>“<lb xml:id="uuid_492d3aa1-1b15-4e18-9aa4-33b7f392b4a9"/>veröffentlichten Nachricht. </p>
+         <p xml:id="uuid_7c30c030-385b-401d-9aff-b9c046f64be1">
+            <lb xml:id="uuid_e3a26809-28ac-410d-8053-b8887d9e8a47"/><hi rend="spaced">Es ist
+               unwah</hi>r, dass gestern<lb xml:id="uuid_5b09d708-6065-40b5-a378-b8ec5945c697"/>von
+            einem Senat des <rs ref="#36848" type="institution">Strafgerichtes in Prag</rs> unter
+            Vorsitz des<lb xml:id="uuid_69d215dc-d41b-4317-a8b2-47fb8bddd888"/><rs ref="#43597"
+               type="person">Obergerichtsrates Tisek</rs> ein Prozess <hi rend="underlined"
+               >beendet</hi> wurde, welchen der<lb
+               xml:id="uuid_17758c1d-d995-49e9-8a90-05eb3c7d5c1d"/>Eigentümer und Herausgeber der
+            Zeitschrift „<rs ref="#41244" type="work" subtype="pmb">Die Fackel</rs>“ in <rs
+               ref="#50" type="place">Wien</rs>
+            <lb xml:id="uuid_bfc3733a-937e-4628-b510-735cb07ab3c5"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> gegen
+            den verantwortlichen Redakteur der Zeitschrift<lb
+               xml:id="uuid_3962aa4a-701c-4e5d-811c-6501778800fa"/>„<rs ref="#37540"
+               type="institution">Sozialdemokrat</rs>“ in <rs ref="#652" type="place">Prag</rs>
+            Doktor <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38644" type="person">Emil
+               Strauss</rs> wegen des Inhaltes<lb xml:id="uuid_649927de-9311-43d8-9792-05c90d77f75a"
+            />eines <rs ref="#56397" type="work" subtype="pmb">Artikels vom 10. August 1934</rs>
+            anhängig gemacht hat, </p>
+         <p xml:id="uuid_e8dacac9-6d87-441c-9c8b-015aa525b653">
+            <lb xml:id="uuid_81637ce2-a1cc-41b1-b258-830dd8598e45"/><hi rend="spaced">wahr ist
+               vielmeh</hi>r, dass<lb xml:id="uuid_01f6f003-4ea4-4fd0-a9f5-c7a3ea9075c1"/>bei der am
+            15. April 1936 abgehaltenen Verhandlung der Prozess<lb
+               xml:id="uuid_919ca0d6-3d99-4850-abf0-56e9541ed17f"/>nicht beendet, sondern aus einem
+            formalen Grunde ein Urteil ge- <pb xml:id="D_000193-093-000_p002"
+               facs="#D_000193-093-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_f4403e8f-7788-4d37-875d-bbc276146b0c"/>fällt worden ist, gegen welches
+            die Nichtigkeitsbeschwerde ange<lb break="no"
+               xml:id="uuid_0750a036-dd94-44c1-a4fe-06eb2a9eb3af"/>meldet wurde. </p>
+         <p xml:id="uuid_d505f5fa-f17f-43be-85ac-9e2eff109e33">
+            <lb xml:id="uuid_fe11cd19-d904-4e1b-86b4-9acecc821187"/><hi rend="spaced">Es ist
+               unwah</hi>r, dass sich der <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+               type="person">Pri<lb break="no" xml:id="uuid_71c3ad16-bed6-491d-ad93-0279476c312e"
+               />vatkläger</rs>
+            <hi rend="underlined">insbesondere</hi> durch den Vorwurf, dass er sich dem<lb
+               xml:id="uuid_57ea5c2d-a11c-4c41-a047-e9da2ad9e72f"/> österreichischen Regime
+            gleichgeschaltet habe, beleidigt fühlte, </p>
+         <p xml:id="uuid_c2d0d866-2674-4a95-a192-62edec43505c">
+            <lb xml:id="uuid_c7fe4fb1-ec17-488c-806c-863ccb6ec406"/><hi rend="spaced">wahr ist
+               vielmeh</hi>r, dass er<lb xml:id="uuid_b0c2ddad-85e2-40d8-b812-703a27dfc935"/>in
+            gleichem Masse sowohl diese, als auch zahlreiche andere,<lb
+               xml:id="uuid_8e478678-b485-4280-8651-404636a630ec"/>dem wahren Sachverhalte
+            widersprechende Behauptungen für be<lb break="no"
+               xml:id="uuid_ee88a8e1-d001-458b-bc51-7e00a789e668"/>leidigend erachtet und deshalb
+            die Klage überreicht hat. </p>
+         <p xml:id="uuid_ab4ea806-6b30-40c5-950d-327656e2dbdb">
+            <lb xml:id="uuid_669171d6-f522-4c7c-8c52-31fa4b646433"/><hi rend="spaced">Es ist
+               unwah</hi>r, dass das <rs ref="#36848" type="institution">Gericht</rs>
+            <lb xml:id="uuid_bf814531-a7e7-4b95-bc85-81f9021ec60e"/>bei einer Reihe von
+            Hauptverhandlungen die von beiden Parteien<lb
+               xml:id="uuid_b914c9a3-5fa6-4d3f-a0d9-829a2523e7b4"/>angebotenen Beweise teilweise <hi
+               rend="underlined">durchgeführt</hi> hat, </p>
+         <p xml:id="uuid_212e21a9-1923-4a82-9130-80b1716b7570">
+            <lb xml:id="uuid_bf3449da-ae35-4880-ab93-59768b7f2cec"/><hi rend="spaced">wahr ist
+               vielmeh</hi>r, dass bei<lb xml:id="uuid_c44d9ba0-e2ca-4e60-986d-8d824c8304b6"/>den
+            Hauptverhandlungen nur die Beweise durch Verlesung des <rs ref="#56397" type="work"
+               subtype="pmb">inkri<lb break="no" xml:id="uuid_59853cc6-f9ce-44ac-9aaf-10c35e306c09"
+               />minierten Artikels</rs>, sowie <rs ref="#57412" type="work" subtype="pmb">eines am
+               28. April 1934 im „Sozialdemokrat“<lb
+                  xml:id="uuid_c6a27130-50c1-4fd1-ad28-71d3946d9d8c"/>erschienenen, dem <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Privatkläger</rs>
+               huldigenden Artikels</rs> angetreten worden<lb
+               xml:id="uuid_c5f351c6-d6fa-4d49-a819-3d2c51481ab4"/>sind und dass weder die
+            beantragten, noch diese Beweise bisher<lb
+               xml:id="uuid_0668d9a0-48da-4f61-b73f-4911335fbc00"/>Gegenstand der Beurteilung waren. </p>
+         <p xml:id="uuid_cbe3ec41-774a-4cab-820c-44f3b05e4026">
+            <lb xml:id="uuid_7743663a-ef8b-48b1-af15-8e6337a4b215"/><hi rend="spaced">Es ist
+               unwah</hi>r, dass bei der gestrigen<lb
+               xml:id="uuid_6bffa209-d1d1-4bb4-889b-c1c0394f2869"/>letzten Hauptverhandlung der <rs
+               ref="#43638" type="person">Verteidiger des Dr. <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/38644" type="person">Emil
+               Strauss</rs></rs>
+            <lb xml:id="uuid_0f1e023b-62a3-48d0-ac61-095c08001ca9"/>seine Ausführungen durch den
+            Hinweis auf den Umstand <hi rend="underlined">ergänzte</hi>,<lb
+               xml:id="uuid_b2ef211d-4e76-4fff-b989-40ab50a4fcfc"/>dass der <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Privatkläger</rs> bei
+               <hi rend="underlined">Erledigung</hi> eines anderen Prozesses<lb
+               xml:id="uuid_bd190438-34c2-4790-9dc3-0fc9102423ae"/>zwischen den gleichen Parteien
+            sich die Fortsetzung dieses<lb xml:id="uuid_6cc78fc7-cdfe-4341-9eaf-a2da5be68c2d"
+            />Prozesses überhaupt nicht vorbehalten und daher gemäss <rs ref="" type="law">§ 18<lb
+                  xml:id="uuid_39ea2508-a24a-40a5-adf1-f7c64d07c1dc"/>des Gesetzes über den Schutz
+               der Ehre</rs> das Klagerecht verloren<lb
+               xml:id="uuid_2b91f79a-8051-4441-8ceb-c3e3ee59e1f3"/>hat, </p>
+         <p xml:id="uuid_2c2a9275-1cb2-48dc-ab66-1ec24cf27ab9">
+            <lb xml:id="uuid_9607d47d-8107-45a4-bdcb-8416dcfeca3a"/><hi rend="spaced">wahr ist
+               vielmeh</hi>r, dass der<lb xml:id="uuid_ac80a825-8e89-40db-a13e-06377b65a81d"
+            />Verteidiger des Dr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38644" type="person"
+               >Emil Strauss</rs> schon vor der Verhandlung <pb xml:id="D_000193-093-000_p003"
+               facs="#D_000193-093-000-facs001-l002-p003" n="3"/>
+            <lb xml:id="uuid_be3352f4-f36f-4178-8480-b019cf6c6bf3"/>in einer schriftlichen, nach
+            fast zweijähriger Fortführung<lb xml:id="uuid_803296ff-44f2-4126-b6b4-2e4231ee7e8f"/>des
+            Prozesses überreichten Eingabe, auf die er bei der Ver<lb break="no"
+               xml:id="uuid_8748480c-102b-4355-8eaa-0dc80d396e88"/>handlung hinwies, zur
+            Verteidigung des <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38644" type="person"
+               >Angeklagten</rs> angeführt<lb xml:id="uuid_2f17d55b-c768-43bd-a7d6-11f40d0e5d2f"
+            />hat, der <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kläger</rs>
+            sei des Klagerechtes gemäss <rs ref="" type="law">§ 18 des Ehren<lb break="no"
+                  xml:id="uuid_c9d91c76-73f2-4bdd-9a35-d6ed8f86ee39"/>schutzgesetzes</rs> verlustig
+            geworden; und zwar, weil er sich<lb xml:id="uuid_6981241c-0f4b-4524-9f7c-c69b299f01ca"
+            />bei der Verhandlung in einem später vom <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Privatkläger</rs> gegen
+               den<lb xml:id="uuid_74bcbdb8-9020-44d3-9f5d-23848a6aa506"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/38644" type="person">Angeklagten</rs>
+            angestrengten Prozesse, in welchem sich der <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/38644" type="person">Ange<lb break="no"
+                  xml:id="uuid_344faeb4-63ff-4475-862e-38464fd2ad9d"/>klagte</rs> zur
+            Veröffentlichung des Widerrufes ähnlicher Beleidi<lb break="no"
+               xml:id="uuid_443f6303-9bcc-45e6-8366-cbb22bb007fb"/>gungen, zur Bezahlung der
+            Verfahrens – und Anwaltspesen und<lb xml:id="uuid_c9b994d3-2a5c-48ea-91b2-9f3e0a380ab0"
+            />zu einer Busse zu Gunsten der Arbeitslosen der Hauptstadt <rs ref="#652" type="place"
+               >Prag</rs>
+            <lb xml:id="uuid_7354b6c5-89df-44f4-89ed-973f6a989388"/>verpflichtete, die
+            Weiterverfolgung der im ersten Prozesse<lb
+               xml:id="uuid_b3bda0c4-14d2-4462-8cce-e0082ec268a4"/>unter Anklage gestellten
+            Beleidigungen nicht vorbehalten habe.<lb
+               xml:id="uuid_1e7ca3d7-995c-41a3-89eb-a2766ef7288f"/>Diesen Vorbehalt hat der <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/43593" type="person">Anwalt des <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Klägers</rs></rs> in
+            der Bestimmung<lb xml:id="uuid_8ecb623c-dd60-49db-af93-7b9500e070e2"/>des <rs ref=""
+               type="law">§ 18 des Ehrenschutzgesetzes</rs>, welcher sich ausdrücklich<lb
+               xml:id="uuid_154c57cf-8fa5-4ea4-af66-5a151308bded"/>und ausschliesslich auf „<quote
+               source="" xml:id="uuid_164db082-0c30-4d4a-b508-a1e0cca9b985">Gegenseitige
+               Klagen</quote>“ bezieht, nicht<lb xml:id="uuid_4958029a-3605-4dd5-ae30-7b70bce6ad4a"
+            />für begründet erachtet. </p>
+         <p xml:id="uuid_a91de985-5a24-4540-82ab-9bb403a18100">
+            <lb xml:id="uuid_6e8d12d5-003e-42a9-a48e-229957b8b154"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>.
+            </p>
+      </body>
+   </text>
+</TEI>

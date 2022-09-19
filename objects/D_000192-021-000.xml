@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000192-022-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000192-020-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000192-021-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Parteienaussage Karl Kraus (G.Z. 36/36)</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000192-021-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4728</idno>
+            <idno subtype="transkribus" type="ID">373055</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000192" type="collection">Karl
+                    Kraus ca. Verlag Melantrich (Prag)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000192-021-000-facs001" xml:id="D_000192-021-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000192-021-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHU">Durchschlag mit handschriftlichen Überarbeitungen</objectType>
+                     <objectType source="D_000192-021-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHN">Durchschlag mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1936-02-08">8. Februar 1936
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote cert="low"
+                      medium="red-pencil"
+                      resp="#IL"
+                      scribeRef="#38909"
+                      source="#D_000192-021-000-wit01"
+                      xml:id="D_000192-021-000-hand01"/>
+            <handNote cert="low"
+                      medium="pencil"
+                      resp="#IL"
+                      scribeRef="#38909"
+                      source="#D_000192-021-000-wit01"
+                      xml:id="D_000192-021-000-hand02"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000192-021-000-wit01">Bericht</term>
+            </keywords>
+            <classCode source="D_000192-021-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.BER">D.J.BER</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-11-30" who="#IL"/>
+         <change type="structure" when-iso="2021-11-18" who="#IL"/>
+         <change type="references" when-iso="2021-11-22" who="#IL"/>
+         <change type="typography" when-iso="2021-11-29" who="#IL"/>
+         <change when-iso="2020-10-12T07:51:03.789Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-12T07:55:31.088Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 373055. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000192-021-000-facs001">
+      <surfaceGrp xml:id="D_000192-021-000-facs001-l001">
+         <surface type="recto" xml:id="D_000192-021-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545202/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000192-021-000-facs001-l002">
+         <surface type="recto" xml:id="D_000192-021-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545204/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000192-021-000-facs001-l003">
+         <surface type="recto" xml:id="D_000192-021-000-facs001-l003-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545206/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000192-021-000-facs001-l004">
+         <surface type="recto" xml:id="D_000192-021-000-facs001-l004-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545208/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000192-021-000-facs001-l005">
+         <surface type="recto" xml:id="D_000192-021-000-facs001-l005-p005">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545210/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000192-021-000-facs001-l006">
+         <surface type="recto" xml:id="D_000192-021-000-facs001-l006-p006">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545212/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000192-021-000_p001"
+             facs="#D_000192-021-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_4b25aeca-efb4-4538-a82e-a7693e9a586a">
+                <lb xml:id="uuid_1e9e58f5-0d36-4406-b86d-63d1f91cb1e6"/><hi rend="underlined"
+                    >Abschrift</hi>.</p>
+         <p xml:id="uuid_ac14e85e-3cbd-4cdc-9381-cc61cf1ec522">
+                <lb xml:id="uuid_3c242dc7-4908-424c-92e8-3aa4b5765c35"/><hi rend="underlined">G.Z:
+                    Nc 36/36</hi><lb xml:id="uuid_a20a5fc3-7078-407b-a20f-021eceb50f5f"/>2 </p>
+         <p xml:id="uuid_ff30ee47-6da0-448e-a1b7-7a893bb827d6">
+            <lb xml:id="uuid_dbeb2519-8fdb-4216-adb1-4848eb927abe"/><hi rend="underlined">Parteienaussage <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> vom 8. Februar 1936.</hi>
+         </p>
+         <p xml:id="uuid_a0d36e60-381b-4f60-8884-569759ed5132">
+                <lb xml:id="uuid_beaec458-50f9-4a9d-b352-460a0e43e09c"/>Der Kläger <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl <hi
+                        rend="spaced">Krau</hi>s</rs>, 28.4.1874, kfl., Schriftsteller,<lb
+                    xml:id="uuid_7f78fa31-4544-497f-ada7-6c4acd5aea4d"/><rs ref="#52568"
+                    subtype="address" type="place">Wien 4., Lothringerstrasse 6</rs>, gibt nach WE.
+                und Vorhalt des <rs ref="" type="law">§ 376<lb
+                        xml:id="uuid_c595f1a1-6f96-4907-a487-6f63f14518ad"/>ZPO.</rs> vorl.
+                unbeeidet vernommen an: </p>
+         <p xml:id="uuid_ad9f66a3-c75f-49d3-b17f-a7adc27f73ce">
+                <lb xml:id="uuid_7c513623-2279-472e-91d2-71a7b5f5fa48"/>Ich bin Inhaber des <rs
+                    ref="#43724" type="institution">Verlages „Die Fackel“</rs>. Unmittelbar nach<lb
+                    xml:id="uuid_b1eb7579-6ec3-4d25-aced-ff6f042d2fa7"/>dem Umsturze in Deutschland
+                im Jänner 1933 fuhr ich zu Vortrags<lb break="no"
+                    xml:id="uuid_c0fbbfe3-ef0e-4749-9e21-ad3453c7c32c"/>zwecken nach <rs ref="#652"
+                    type="place">Prag</rs> und kam dort mit Herrn <rs ref="#51630" type="person"
+                    >Johann <hi rend="spaced">Münze</hi>r</rs>, der<lb
+                    xml:id="uuid_aead6ccb-cfc4-4bbf-bcbd-d24de591eb36"/>der Uebersetzer meiner Werke
+                ist, zusammen. Im Laufe des Gespräches<lb
+                    xml:id="uuid_89689f87-28fb-4664-aff0-52ecac809180"/>fragte er mich spontan, ob
+                ich nicht zufolge des politischen Um<lb break="no"
+                    xml:id="uuid_57c25a81-086e-4d81-9771-c7935b151392"/>sturzes in Deutschland und
+                wegen zu befürchtender übergreifender<lb
+                    xml:id="uuid_2e15d849-58a9-4c49-bb96-7679d5c1c1b4"/>Ereignisse in Oesterreich
+                Besorgnisse wegen meines Bücherbestandes<lb
+                    xml:id="uuid_3b204543-627e-4062-8178-0c0e49fd75ff"/>hätte. Ich erwiderte, dass
+                ich an diese Umstände eigentlich nicht<lb
+                    xml:id="uuid_bc250235-d87c-48d7-b34d-038c554b4694"/>gedacht hätte, denn genau so
+                müsste ich ja um die Möbel meiner<lb
+                    xml:id="uuid_b228450c-fe08-4b3e-89a4-a11ea0625867"/>Wohnung besorgt sein. <rs
+                    ref="#51630" type="person"><hi rend="spaced">Münze</hi>r</rs> machte mir nun den
+                    Vorschlag,<lb xml:id="uuid_756f66ff-ff99-4bdc-9a18-441bb38a224c"/><metamark
+                    function="marginal" hand="#D_000192-021-000-hand01" rend="marginLeft"/>ich
+                sollte meine Werke nach <rs ref="#652" type="place">Prag</rs> bringen, das <add
+                    hand="#D_000192-021-000-hand01">damals</add> allgemein als poli<lb break="no"
+                    xml:id="uuid_ee199ecc-6f57-4158-ba00-a1d3a8143eda"/><metamark
+                    function="marginal" hand="#D_000192-021-000-hand01" rend="marginLeft"/>tisches
+             <subst hand="#D_000192-021-000-hand01">
+                    <del hand="#D_000192-021-000-hand01">Trifugion</del>
+                    <add hand="#D_000192-021-000-hand01">Refugium</add>
+                </subst> gehalten wurde. Er, <rs ref="#51630" type="person"><hi rend="spaced"
+                        >Münze</hi>r</rs>, habe Gelegen<lb break="no"
+                    xml:id="uuid_8d216b58-27eb-4112-b421-d9e0ff29825c"/>heit, meine Werke beim
+                Verlag <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"><hi
+                        rend="spaced">Melantric</hi>h</rs>, dessen Namen<lb
+                    xml:id="uuid_4d655732-24c2-4f7b-b895-22d94227bf27"/>ich damals zum ersten Male
+                hörte, in Kommission unterzubringen, d[a]<lb
+                    xml:id="uuid_43e6dedc-e20c-47b1-be7b-2c7604da1714"/>er mit dem Verlage <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"><hi
+                        rend="spaced">Melantric</hi>h</rs> in ständiger Verbindung<lb
+                    xml:id="uuid_bf7d81c7-9f59-4244-92e7-1cfd56f0117c"/>sei, dort grossen Einfluss
+                habe. Ich hatte den Eindruck, dass er<lb
+                    xml:id="uuid_d4591eba-ec23-4470-9a99-3aeee5b04740"/>für den Verlag <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"
+                    >Melantrich</rs> vollkommen verfügungsberechtigt und der<lb
+                    xml:id="uuid_6535dfd4-3cf5-40b5-b977-c31d82ff619f"/>literarische Ratgeber dieses
+                    <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"
+                    >Verlages</rs> sei. Ich selbst kannte nie<lb break="no"
+                    xml:id="uuid_59891068-bc69-43ff-8004-85b538295c52"/>manden vom Verlage <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"
+                    >Melantrich</rs>, ich habe auch im Verlaufe des ganzen<lb
+                    xml:id="uuid_40f2f565-6d1c-4fee-8f1d-fe1f5d32093e"/>Kommissionsgeschäftes nur
+                mit <rs ref="#51630" type="person">Johann <hi rend="spaced">Münze</hi>r</rs>
+                gesprochen, mit<lb xml:id="uuid_d0438e19-c1e1-4dc8-bb1e-c1ce4ce6e525"/>anderen
+                Personen vom Verlage <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231"
+                    type="institution">Melantrich</rs> habe ich niemals gespro<lb break="no"
+                    xml:id="uuid_1910835a-059c-4f79-9366-a955dd0ce6d8"/>chen. <rs ref="#51630"
+                    type="person">Johann <hi rend="spaced">Münze</hi>r</rs> teilte mir den Plan mit,
+                Werke berühm<lb break="no" xml:id="uuid_a2971b36-9691-491b-9605-a4d24513b5e4"/>ter
+                europäischer Autoren in der Originalsprache in Generalkommis<lb break="no"
+                    xml:id="uuid_022408b7-4548-4878-9371-82ca64a572a8"/>sion des Verlages <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"
+                    >Melantrich</rs> zu nehmen. Mir gefiel diese Idee an<lb
+                    xml:id="uuid_bbf9b483-3344-4078-8e20-7dc7623ba7ce"/>und für sich, ich liess mich
+                nicht nur von dem Gedanken, meine<lb
+                    xml:id="uuid_12eead87-72de-4d02-ac76-d6ee84eab135"/>Werke in Sicherheit zu
+                bringen, leiten, sondern wurde insbeson<lb break="no"
+                    xml:id="uuid_7b6773b2-fcba-43a1-987d-e8f52a32055c"/>dere durch die Idee, meine
+                Werke in der Originalsprache unterzu<lb break="no"
+                    xml:id="uuid_de8b377b-803c-4d8d-b44a-2e580f949d7b"/>bringen und zwar in der
+                Sammlung europäischer Autoren, bewegen,<lb
+                    xml:id="uuid_94e97543-6a9b-4789-9f16-c5c8aa05d0c6"/>auf das Anbot <rs
+                    ref="#51630" type="person"><hi rend="spaced">Münzer</hi>s</rs> einzugehen. Ich
+                bemerke hiezu ins<lb break="no" xml:id="uuid_475569ac-cd55-4237-9317-9527bb6fd26a"
+                />besondere, dass ich es selbst gar nicht für möglich gehalten hätte,<lb
+                    xml:id="uuid_5bf0f5ee-219c-41c6-af6a-66a9ba571192"/>dass Werke in deutscher
+                Sprache bei einem cechischen Verlag in<lb
+                    xml:id="uuid_29a487bf-6d64-4ceb-af10-21c9489c4f02"/>Kommission untergebracht
+                würden. Hätte ich lediglich den Plan<lb
+                    xml:id="uuid_c741972d-75ef-45fb-b2ea-3c8dcd1e9b93"/>gehabt, meine Werke in
+                Sicherheit zu bringen, so hätte ich dazu<lb
+                    xml:id="uuid_7f998eaa-09be-43a0-93ff-afa6ddba629a"/>andere Möglichkeiten
+                ausnützen können und zwar insbesondere die<lb
+                    xml:id="uuid_13af2ef5-84d0-46d4-a238-2c502c4ce4dd"/>Hilfe von Bekannten im
+                Gebiete der Cechoslovakei und zwar sowohl <pb xml:id="D_000192-021-000_p002"
+                    facs="#D_000192-021-000-facs001-l002-p002" n="2"/>
+                <lb xml:id="uuid_67a26b82-ade2-4075-a48d-6bcbf8ecb8c0"/><metamark
+                    function="marginal" hand="#D_000192-021-000-hand01" rend="marginLeft"/>für
+                Einlagerungszwecke als auch für den Vertrieb. Ich führe noch<lb
+                    xml:id="uuid_8eab6b37-fb34-4355-9bf6-9c7473239f04"/><metamark
+                    function="marginal" hand="#D_000192-021-000-hand01" rend="marginLeft"/>an, dass
+                ein deutscher <rs type="institution" ref="#36912">Verlag</rs> in <rs ref="#652"
+                    type="place">Prag</rs>
+                <hi rend="spaced">Andr<subst hand="#D_000192-021-000-hand01">
+                        <del hand="#D_000192-021-000-hand01">o</del>
+                        <add hand="#D_000192-021-000-hand01">e</add>
+                    </subst></hi> sehr verärgert<lb
+                    xml:id="uuid_97279aa0-ca70-48b7-bd2e-3cc78e11d057"/>war, als er erfuhr, dass ich
+                meine Werke nicht ihm in Kommission<lb
+                    xml:id="uuid_bab431ee-4970-4fb8-be8f-a357c9e0fc00"/>gegeben habe, sondern dem
+                cechischen Verlage <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231"
+                    type="institution">Melantrich</rs>. Wenige<lb
+                    xml:id="uuid_f65880f1-2820-4259-9a89-8648ae69c81a"/>Tage nach dieser Unterredung
+                teilte mir <rs ref="#51630" type="person"><hi rend="spaced">Münze</hi>r</rs> noch
+                    während<lb xml:id="uuid_fd19e768-b480-453e-a58b-acd26eac3cf8"/>meiner
+                Anwesenheit in Prag mündlich mit, dass die Herren vom<lb
+                    xml:id="uuid_7bd040a5-78b3-461e-879e-f17534062cb9"/>Verlage <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"><hi
+                        rend="spaced">Melantric</hi>h</rs> über seine Idee begeistert seien und<lb
+                    xml:id="uuid_6cb15836-053a-47c8-8286-b6f8069af182"/>ihm auch überaus dankbar
+                seien, dass es zu diesem Geschäfte kommen<lb
+                    xml:id="uuid_dc3e117a-f6f7-48bd-b813-53be396acb5c"/><metamark
+                    function="marginal" hand="#D_000192-021-000-hand01" rend="marginLeft"/>solle.
+                Ich hörte nunmehr längere Zeit nichts, von <rs ref="#51630" type="person"><hi
+                        rend="spaced">Münze</hi>r</rs> und<lb
+                    xml:id="uuid_482e365f-8b88-410a-991f-02b4717f97b1"/>vom Verlage <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"><hi
+                        rend="spaced">Melantric</hi>h</rs>, erst bei meiner nächsten Anwe<lb
+                    break="no" xml:id="uuid_f8d96d81-b882-40ae-990f-3896bde7da9c"/>senheit in <rs
+                    ref="#652" type="place">Prag</rs> im Juni 1933, wie ich mich noch zu erinnern
+                    glaube<lb xml:id="uuid_8b0d5ef5-6f1d-4d7f-99ff-9e05e05efda6"/>teilte mir <rs
+                    ref="#51630" type="person"><hi rend="spaced">Münze</hi>r</rs> mit, dass
+                Verhandlungen im Zuge seien.<lb xml:id="uuid_be89c644-35d0-4762-a257-cf264f825639"
+                />Ich selbst habe nicht an den Verlag <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"
+                    >Melantrich</rs> geschrieben. </p>
+         <p xml:id="uuid_13133692-1bb4-46f5-bcd2-5dd0764f3d5f">
+                <lb xml:id="uuid_a176aa4e-fd12-4b44-b96d-0bf216ea1cab"/>Ich weilte im Dezember des
+                Jahres 1933 wieder in <rs ref="#652" type="place">Prag</rs>
+                <lb xml:id="uuid_ca112f47-7597-43a4-baab-c3cdac46bedb"/>und erhielt nach meiner
+                Rückkunft nach <rs ref="#50" type="place">Wien</rs> ein Schreiben des<lb
+                    xml:id="uuid_fec1c3ce-a59f-42f6-a3c9-c07d22966b54"/>Herrn <rs ref="#51630"
+                    type="person">Johann <hi rend="spaced">Münze</hi>r</rs> vom 19.12.1933, worin er
+                mich ersuchte,<lb xml:id="uuid_29989be2-073c-4f8a-b5f3-54aa401cdc54"
+                />beziehungsweise den <rs ref="#43724" type="institution">Verlag der Fackel</rs>,
+                ihm ein Verzeichnis meiner<lb xml:id="uuid_df730548-bd50-4695-8669-1ed03aaf9a87"
+                />Werke mit Angabe der Zahl der Exemplare und des Preises der ein<lb break="no"
+                    xml:id="uuid_1199efa8-a366-448a-b79b-40fe73f950d5"/>zelnen Exemplare
+                einzusenden, da der Verlag <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231"
+                    type="institution">Melantrich</rs> eine beson<lb break="no"
+                    xml:id="uuid_5f99a299-2a86-44c4-a0fc-d23678604155"/>dere Kommissionsabteilung
+                errichtet habe, welche den Zweck habe,<lb
+                    xml:id="uuid_70753dcf-9b12-4957-b397-d147acaddb14"/>Werke anderer Verleger zu
+                verkaufen. Der <rs ref="#43724" type="institution">Verlag „Die Fackel“</rs> über<lb
+                    xml:id="uuid_0b0ce071-328b-4896-a7e9-374b746e3a72"/>sandte daraufhin Herrn <rs
+                    ref="#51630" type="person"><hi rend="spaced">Münze</hi>r</rs> am 21. Dezember
+                1933 das<lb xml:id="uuid_b407b0f2-a91a-49e9-93fb-9fcc88843212"/>gewünschte
+                Verzeichnis. Der Verlag <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231"
+                    type="institution">Melantrich</rs> liess nichts von<lb
+                    xml:id="uuid_91820c94-b15c-47d1-91e3-cfe639e0124e"/>sich hören, der <rs
+                    ref="#43724" type="institution">Verlag „Die Fackel“</rs> schrieb daher an
+                    Herrn<lb xml:id="uuid_e7bbf07d-51a0-4929-84d0-5ea714e49990"/><rs ref="#51630"
+                    type="person"><hi rend="spaced">Münze</hi>r</rs> am 18. Jänner 1934, was mit der
+                Sache eigentlich sei.<lb xml:id="uuid_aac90636-67b2-4df5-a6e4-51840fc39afc"/>Diese
+                Urgenz war durch die Auflassung des Leipziger Kommissions<lb break="no"
+                    xml:id="uuid_e63bd954-162b-44b2-90a3-86406a38072c"/>lagers veranlasst worden. Am
+                5.2.1934 langte ein <rs type="work">Brief</rs> des Herrn<lb
+                    xml:id="uuid_9910f6d7-1fa2-47bf-b5e8-90ee7ecf4e88"/><rs ref="#51630"
+                    type="person"><hi rend="spaced">Münze</hi>r</rs> ein, worin er mir mitteilte,
+                dass der Verlag <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231"
+                    type="institution">Melan<lb break="no"
+                        xml:id="uuid_1abcb316-7b03-46bd-a12a-4b2264741eb1"/>trich</rs> zur
+                Uebernahme meiner Werke in Kommission bereit sei und<lb
+                    xml:id="uuid_4208306f-070a-44a5-b20a-7d13c98dcd37"/>würde die Uebernahme zu 50%
+                Rabatt in einigen Tagen erfolgen. Die<lb
+                    xml:id="uuid_cdfa91b8-20c7-4f64-b122-55234604eef1"/>weitere Entwicklung ergibt
+                sich aus der bereits beim Akte erlie<lb break="no"
+                    xml:id="uuid_bfa78441-f358-4733-bf09-f0a69e70758b"/>genden Korrespondenz. Am 9.
+                Februar 1934 langte ein <rs type="work">Schreiben</rs> des<lb
+                    xml:id="uuid_d8a7f4e8-7c54-433e-9c42-4d1d618676b1"/>Herrn <rs ref="#51630"
+                    type="person"><hi rend="spaced">Münze</hi>r</rs> ein, worin er mir mitteilte,
+                die Sache mit<lb xml:id="uuid_113fa764-27a6-411a-b185-da3db6409f22"/>dem Verlag sei
+                erledigt, die Sendung erfolge auf Kosten des Prager<lb
+                    xml:id="uuid_51c31754-0d0d-4c5f-af0f-673e53ce6c23"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution">Verlages</rs>.
+                Unter dieser Sendung war der Transport vom Leipziger <lb
+                    xml:id="uuid_096d6d7f-de77-4e7e-80d7-982d303a1fc7"/>Verleger <rs ref="#61661"
+                    type="person"><hi rend="spaced">Köhle</hi>r</rs> nach <rs ref="#652"
+                    type="place">Prag</rs> und von <rs ref="#50" type="place">Wien</rs> nach <rs
+                    ref="#652" type="place">Prag</rs>, welch<lb
+                    xml:id="uuid_94bfd7bb-2148-4bec-9503-9de2ca157514"/>letzterer bedeutend grösser
+                war, gemeint. Ich war immer der Auf<lb break="no"
+                    xml:id="uuid_533c5670-f204-4029-9041-05e2e2bac276"/>fassung, dass die
+                Vereinbarung, der Verlag <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231"
+                    type="institution">Melantrich</rs> zahle die<lb
+                    xml:id="uuid_5e72f6d3-977c-4223-8e90-6c69cf947ca0"/>Transportspesen, so
+                aufzufassen ist, dass der Verlag <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231"
+                    type="institution">Melantrich</rs>
+                <lb xml:id="uuid_fbc8603e-2ce6-4667-ba45-9bdd3dbc10c9"/>diese Transportkosten aus
+                eigenem trage, insbesondere deshalb,<lb
+                    xml:id="uuid_8168b8cd-12aa-4123-a9d2-3057092bcd58"/>weil der Leipziger
+                Kommissionär nur einen Rabatt von 47%, der <pb xml:id="D_000192-021-000_p003"
+                    facs="#D_000192-021-000-facs001-l003-p003" n="3"/>
+                <lb xml:id="uuid_16fa8747-ebf9-41e0-928f-88b61433d76e"/>Verlag <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"
+                    >Melantrich</rs> dagegen einen Rabatt von 50% erhielt. In dieser<lb
+                    xml:id="uuid_564f8b03-a499-4377-a0f0-38289c531886"/>Auffassung wurde ich durch
+                das erwähnte <rs type="work">Schreiben</rs> vom 9.2.1934<lb
+                    xml:id="uuid_3ded9dc1-9b82-4cca-8fa7-91e4a7730fcc"/>bestärkt. Als mir <rs
+                    ref="#51630" type="person"><hi rend="spaced">Münze</hi>r</rs> in der Folgezeit
+                mündlich mitteilte,<lb xml:id="uuid_d92b2d73-9713-4f6f-921b-33ae662847a9"/>er habe
+                sich nur schlecht ausgedrückt, er meinte, der Verlag <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution">Melan<lb
+                        break="no" xml:id="uuid_b51813db-94a5-4041-9297-280556c80186"/>trich</rs>
+                strecke nur einstweilen die Transportspesen vor, während sie<lb
+                    xml:id="uuid_bd82ce3f-0359-455e-86e0-0dd72f708ee5"/><del>mir</del> schliesslich
+                mir zur Last fallen sollten, habe ich eingewilligt,<lb
+                    xml:id="uuid_b2c1ac18-e638-4b32-aba4-7ffb45e5d741"/>dass <hi rend="underlined"
+                    >ich</hi> die Transportspesen trage und zwar sollten die Transport<lb break="no"
+                    xml:id="uuid_c0698590-45f0-4654-81f3-4ddc68cd7e56"/>spesen verrechnet werden. Es
+                war zwischen mir und <rs ref="#51630" type="person"><hi rend="spaced"
+                    >Münze</hi>r</rs> be<lb break="no"
+                    xml:id="uuid_52360901-781b-4941-88a4-8b14c1d507e9"/>sprochen, dass nur die alten
+                Hefte der Zeitschrift „<rs ref="#41244" type="work" subtype="pmb">Die
+                    Fackel</rs>“<lb xml:id="uuid_0e3d5a5c-5aff-4d13-9f3f-e614371177f7"/>unter das
+                erwähnte Kommissionsgeschäft mit 50% Rabatt fallen sollten<lb
+                    xml:id="uuid_ce31570b-95db-476b-935a-0c3724262076"/>während die aktuellen Hefte
+                der <rs ref="#41244" type="work" subtype="pmb">Fackel</rs> ausserhalb dieses
+                    Vertrages,<lb xml:id="uuid_6b3b0081-57da-41be-9744-4b8d8ed3fee5"/>wie in einem
+                normalen Sortiment vertrieben werden sollten. Kurz<lb
+                    xml:id="uuid_493fc1ef-618a-43a0-bc40-e79156577d19"/>darauf wurden tatsächlich
+                die Büchervorräte von <rs ref="#50" type="place">Wien</rs> und <rs ref="#864"
+                    type="place">Leipzig</rs>
+                <lb xml:id="uuid_3aa2246b-3194-438b-b97a-22d997f2205e"/>nach <rs ref="#652"
+                    type="place">Prag</rs> befördert und vom Verlag <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"
+                    >Melantrich</rs> übernommen. Im Gegen<lb break="no"
+                    xml:id="uuid_f080b2e0-b3ae-4668-adc7-88bf1c86b5da"/>satz zu der Vereinbarung,
+                dass die Abrechnung vierteljährlich er<lb break="no"
+                    xml:id="uuid_d213eb2d-1678-4770-a2ce-7e9f45104380"/>folgen solle, legte der
+                Verlag <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"
+                    >Melantrich</rs> keine Rechnung, erst nach<lb
+                    xml:id="uuid_ebde71b8-8c4d-4def-bc6c-522a4e4f2bd4"/>wiederholten Urgenzen
+                seitens des <rs ref="#43724" type="institution">Verlages „Die Fackel“</rs> und
+                    sei<lb break="no" xml:id="uuid_a6fdd772-42fa-4b2f-b970-4957d2eb5a69"/>tens Dris.
+                    <rs ref="#43593" type="person"><hi rend="spaced">Turnovsk</hi>y</rs> in <rs
+                    ref="#652" type="place">Prag</rs> erfolgte die Abrechnung.<lb
+                    xml:id="uuid_feb6d6aa-b18d-4627-8f85-16d8e7785418"/>Ich glaube, dass auch Dr.
+                    <rs ref="#38909" type="person"><hi rend="spaced">Same</hi>k</rs> auf Abrechnung
+                drängte. Die<lb xml:id="uuid_b344d752-ab40-4059-9e3f-583f4592d33d"/>Abrechnung
+                sollte in der Form erfolgen, dass der Saldo, der sich<lb
+                    xml:id="uuid_f6d96a14-a385-4b19-b4d7-2185ef82648f"/>zu meinen Gunsten aus der
+                vierteljährlichen Abrechnung ergab,<lb
+                    xml:id="uuid_cb490589-1e33-421f-9ea3-9f96752d7b05"/>durch die cechische
+                Nationalbank an mich überwiesen werde. </p>
+         <p xml:id="uuid_93dff492-799b-4215-953b-bb4e3bdd1a7c">
+                <lb xml:id="uuid_9c230bea-599d-4693-bd8d-fec89c6a0465"/>Für mich bestand kein
+                Zweifel, dass <rs ref="#51630" type="person">Johann <hi rend="spaced"
+                    >Münze</hi>r</rs>
+                <lb xml:id="uuid_7116da17-1dc2-4f91-b062-526beee86646"/>berechtigt sei, für den
+                Verlag <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"><hi
+                        rend="spaced">Melantric</hi>h</rs> rechtsverbind<lb break="no"
+                    xml:id="uuid_8a542dd9-06be-48c9-b9f8-62036513734c"/>liche Erklärungen abzugeben,
+                dies umsomehr, als der Verlag <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231"
+                    type="institution">Melan<lb break="no"
+                        xml:id="uuid_ae06c377-3861-4284-83b5-ee32541c94d8"/>trich</rs> alles
+                bestätigte und durchführte, was <rs ref="#51630" type="person"><hi rend="spaced"
+                        >Münze</hi>r</rs> vorge<lb break="no"
+                    xml:id="uuid_ceed1720-afb5-4091-99b5-3fdceb4d3413"/>schlagen und erklärt hatte,
+                jedoch mit einer einzigen Ausnahme,<lb
+                    xml:id="uuid_37ef6642-8954-45f3-ad32-8b8f5c9a93e3"/>als nämlich der Verlag <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"
+                    >Melantrich</rs> erklärte, einen Rabatt von 60%<lb
+                    xml:id="uuid_45a2585b-64e7-4bd3-aa0e-bedfb24098a7"/>an Stelle des 50%igen zu
+                verlangen und dass die Abmachungen des<lb
+                    xml:id="uuid_fa80f870-a391-46f8-b803-314c89fa78c5"/>Herrn <rs ref="#51630"
+                    type="person"><hi rend="spaced">Münze</hi>r</rs> den Verlag <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"><hi
+                        rend="spaced">Melantric</hi>h</rs> nichts angin<lb break="no"
+                    xml:id="uuid_b8c1d601-7cbf-4dc3-a57c-5af7f0b6790f"/>gen und er nicht berechtigt
+                sei, für den Verlag Erklärungen abzu<lb break="no"
+                    xml:id="uuid_2d4aa396-e42b-4394-b355-2d7f0e16a409"/>geben. Letzteres zeigt mir
+                der Verlag <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"
+                    >Melantrich</rs> mit <rs type="work">Schreiben</rs> vom<lb
+                    xml:id="uuid_0572d189-798c-4479-a4c3-2bfdff402af7"/>16. Juni 1934 an. Mit <rs
+                    type="work">Schreiben</rs> vom 3. Juli 1934 teile der Verlag<lb
+                    xml:id="uuid_dd946b6b-1738-43f0-9e06-d8b345534a68"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"
+                    >Melantrich</rs> mit, dass der Rabattsatz 50% betrage und die Kosten<lb
+                    xml:id="uuid_659b8d0a-a51f-450f-80ca-c4360793c832"/>des Transportes der <rs
+                    ref="#43724" type="institution">Verlag „Die Fackel“</rs> zu tragen habe. </p>
+         <p xml:id="uuid_5cd429c6-2da6-4edd-8ee6-56cf08488915">
+                <lb xml:id="uuid_ea343ac5-0389-4ac2-bcac-8df2e5d951e5"/>Als die Abrechnung nur
+                summarisch erfolgte und kein Geld<lb
+                    xml:id="uuid_375fa5db-73a0-4260-9fda-8f94eafa4b0d"/>überwiesen wurde, brachte
+                ich die Klage ein, woraufhin der Verlag<lb
+                    xml:id="uuid_313e35f9-dbc3-4563-a715-7265f26ec5d0"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"><hi
+                        rend="spaced">Melantric</hi>h</rs> das Kommissionsverhältnis mit der
+                    Begründung<lb xml:id="uuid_ed51a28a-de32-4201-baa1-3bb91c90e0e8"/>aufkündigte,
+                dass er mit einem Partner, der sich so verhalte, nichts<lb
+                    xml:id="uuid_f9aef00c-1c6e-4e85-a2dd-10b4edfed016"/>mehr zu tun haben wolle. </p>
+         <pb xml:id="D_000192-021-000_p004"
+             facs="#D_000192-021-000-facs001-l004-p004"
+             n="4"/>
+         <p xml:id="uuid_cb97e486-983c-4b5a-9283-0f1957ff421d">
+                <lb xml:id="uuid_c7564cce-0043-434d-ba75-a35953f1b0d8"/>Herr <rs ref="#51630"
+                    type="person"><hi rend="spaced">Münze</hi>r</rs> konnte niemals der Meinung
+                sein, dass<lb xml:id="uuid_6b6428e7-f8ee-4a92-ad2c-6d51b2e94561"/>auch die aktuellen
+                Hefte der Zeitschrift „<rs ref="#41244" type="work" subtype="pmb">Die Fackel</rs>“
+                unter den<lb xml:id="uuid_1563d4d7-9d90-481a-8fce-977b9d2322c8"/>50%igen Rabattsatz
+                fallen, da über diesen Punkt zwischen mir und<lb
+                    xml:id="uuid_de5cd24f-0b27-4745-ae92-8cd419a775df"/>ihm gesprochen wurde und ich
+                mich ausdrücklich dagegen verwehrte.</p>
+         <p xml:id="uuid_b2e34741-34e5-4295-86d2-c5a9fadd57d7">
+                <lb xml:id="uuid_54e3782c-c4d1-4ff4-a617-3ffaecd95052"/>Die Behauptung der <rs
+                    type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">beklagten
+                    Partei</rs>, ich hätte mich zufolge<lb
+                    xml:id="uuid_8ef0c264-a3bf-46df-b390-ca0983d85d5d"/>meiner bedrängten Lage und
+                in der Besorgnis, dass die Werke in<lb
+                    xml:id="uuid_34f5bdaa-792d-4a88-a17b-0b912b45747d"/>Deutschland und Oesterreich
+                beschlagnahmt würden, Hilfe suchend an<lb
+                    xml:id="uuid_12209317-3745-484b-a167-a1ff9c5b2eee"/>sie gewendet, damit sie mich
+                vor Schaden bewahre, ist vollständig<lb
+                    xml:id="uuid_af91431b-3773-4a78-8f3d-4ca65689d04f"/>unrichtig, ich behaupte in
+                diesem Zusammenhange, dass sowohl Herr<lb
+                    xml:id="uuid_6a5c03a7-9734-40b6-bdcb-598b9e715aac"/>Dr. <rs ref="#56400"
+                    type="person"><hi rend="spaced">Fuci</hi>k</rs> als auch Herr <rs ref="#51630"
+                    type="person"><hi rend="spaced">Münze</hi>r</rs> die Unwahrheit gespro<lb
+                    break="no" xml:id="uuid_32fbb164-a218-4736-b94e-295c4448b737"/>chen haben. Der
+                beste Beweis für die Richtigkeit meiner Behauptung<lb
+                    xml:id="uuid_75a4ecb5-65b7-4956-937e-72231565aee0"/>ist der, dass der Transport
+                des Kommissionslagers von <rs ref="#864" type="place">Leipzig</rs>, wie<lb
+                    xml:id="uuid_867e2cd4-59ef-498e-9b2d-c82f8fd8ed5b"/>auch von <rs ref="#50"
+                    type="place">Wien</rs> nach <rs ref="#652" type="place">Prag</rs> erst im März
+                1934 erfolgte, also nach mehr<lb xml:id="uuid_e62c8836-13e0-49ee-b8d5-1a519775db89"
+                />als einem Jahre nach dem Umsturze in Deutschland. Eine Beschlagnahme<lb
+                    xml:id="uuid_99d916f5-749c-4c16-a3b1-c6909537ce17"/>der Bücher in Deutschland
+                ist seitens deutscher Behörden niemals<lb
+                    xml:id="uuid_48bbd74c-950f-463a-bcc3-c4dea9a1c48b"/>verfügt worden, ebenso
+                drohte auch in Oesterreich keine Beschlag<lb break="no"
+                    xml:id="uuid_f2b8d27e-4648-4f2a-b3ad-a5438fe0cb89"/>nahme. Die Besorgnisse für
+                Oesterreich bezogen sich auf revolutio<lb break="no"
+                    xml:id="uuid_35197b61-5be2-4bac-8146-0855086b912e"/>näre Eingriffe seitens
+                nationalsozialistischer Kreise. Ich selbst<lb
+                    xml:id="uuid_08e1cb87-688c-407f-a9f8-7e720a01cbdd"/>habe aber verfügt, dass
+                meine Bücher weder nach Deutschland ausge<lb break="no"
+                    xml:id="uuid_5f94a357-513b-4e0f-a08e-3c8b1fc3959f"/>führt, noch das dortige
+                Kommissionslager abverkauft werde mit<lb
+                    xml:id="uuid_1fd39610-0c64-49e2-adeb-bd3097836b02"/><metamark
+                    function="marginal" hand="#D_000192-021-000-hand01" rend="marginLeft"/>einer
+                einzigen Ausnahme, einer <rs ref="#2412" type="person">Shakespeare</rs><rs
+                    ref="#53326" type="work" subtype="pmb">bearbeitung</rs>. Auch die<lb
+                    xml:id="uuid_95958ebf-c486-44d7-9fab-bba6b2df069a"/>Bezieher der <rs
+                    ref="#41244" type="work" subtype="pmb">Fackel</rs> haben die Zeitschrift über
+                meine Weisung nicht<lb xml:id="uuid_625f4864-f635-4fed-986f-1386fa7b8886"/>mehr
+                erhalten. </p>
+         <p xml:id="uuid_b712bbbb-4a3a-478f-bb5e-413ff7931ab0">
+                <lb xml:id="uuid_f4851c7a-1ce2-4909-9561-f378288f6a18"/>Von irgendeiner
+                Hilfeleistung seitens der <rs type="institution"
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231">beklagten Partei</rs><lb
+                    xml:id="uuid_7afa6318-26ea-4b30-b816-5bfe1db633e6"/>im Interesse der Rettung
+                meines Vermögens und im kulturellen Inte<lb break="no"
+                    xml:id="uuid_90c53edf-fa48-41e5-98b8-b6ed890ad342"/>resse kann nicht die Rede
+                sein. Wenn auch <rs ref="#51630" type="person"><hi rend="spaced">Münze</hi>r</rs>
+                mit seinem<lb xml:id="uuid_7c1b90c2-3785-4ea9-8d71-efe197d58808"/>Vorschlage
+                vermeinte, mir zu Hilfe zu kommen, was ich menschlich<lb
+                    xml:id="uuid_64baac13-9651-4358-9942-9fb53f6ae5bf"/>anerkenne und würdige, so
+                war das treibende Moment bei mir nicht<lb
+                    xml:id="uuid_792009eb-b205-4173-8a0e-c15535c77488"/>die Rettung meines
+                Bücherbestandes, der überhaupt nicht gefährdet<lb
+                    xml:id="uuid_6d233536-8f9d-4c79-a069-424b0f49385f"/>war, sondern lediglich das
+                Interesse, dass meine Bücher in die<lb
+                    xml:id="uuid_33c91c51-e32a-4517-9af1-cfbf6bb0f9e8"/>Sammlung europäischer
+                Autoren aufgenommen würden und schliesslich,<lb
+                    xml:id="uuid_ba99e5fb-643f-44bc-b7dd-2b1b26eff234"/>dass das Leipziger
+                Kommissionsverhältnis, das unhaltbar geworden<lb
+                    xml:id="uuid_79e00744-3f4e-4611-89f3-a22b3d2fb96e"/>war, durch ein neues ersetzt
+                werde. </p>
+         <p xml:id="uuid_43889402-916a-4d4a-80e2-7db9e23f1805">
+            <lb xml:id="uuid_05969ee8-0d27-4634-9be6-331da7d8fadb"/>Was über die Kündigung des
+                Kommissionsverhältnisses verein<lb break="no" xml:id="uuid_fa430fb8-c894-41be-9c0c-e0a292fc1555"/>bart wurde, ist mir nicht
+                erinnerlich, es wurde jedoch auch dies<lb xml:id="uuid_ad823c37-1efb-4475-a05e-876ed77903b8"/>schriftlich niedergelegt,
+                mündlich wurde über die Kündigung des<lb xml:id="uuid_b698fc24-23a1-4253-9c40-bee8af5ed4ae"/>Verhältnisses nichts
+                gesprochen. </p>
+         <p xml:id="uuid_d83cd0f9-8bf8-4831-b5f8-bc0e76f6b31a">
+                <lb xml:id="uuid_f9062537-ad18-4fd2-be50-ae11184dc2be"/>Da <rs ref="#51630"
+                    type="person"><hi rend="spaced">Münze</hi>r</rs> der aussenpolitische Redakteur
+                    „<rs ref="#56207" type="work" subtype="pmb">Cesko<lb
+                        xml:id="uuid_87f14631-ef76-4c49-9404-0672d29ccbfd"/>Slovo</rs>“ war, welche
+                Zeitung dem Verlag <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231"
+                    type="institution">Melantrich</rs> angegliedert ist,<lb
+                    xml:id="uuid_fff55914-9c12-43c9-b2fa-245a315d9022"/>wie er mir mitteilte, so
+                hatte ich kein Bedenken, in ihm tatsäch<lb break="no"
+                    xml:id="uuid_6efc199e-c5a4-4d44-9bc7-e1812fd44316"/>lich einen
+                vertretungsbefugten Beauftragten des Verlages <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"
+                    >Melantrich</rs>
+                <pb xml:id="D_000192-021-000_p005" facs="#D_000192-021-000-facs001-l005-p005" n="5"/>
+                <lb xml:id="uuid_6fc7e4e5-2af0-4432-b09d-30db7880256b"/>zu erblicken, umsomehr, wie
+                ich bereits angeführt habe, als seine<lb
+                    xml:id="uuid_b7079bf8-9c03-43f2-b889-db2637a892fb"/>Mitteilung mit jener
+                erwähnten Ausnahme vom Verlage <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231"
+                    type="institution">Melantrich</rs>
+                <lb xml:id="uuid_420dd686-7f52-42cb-9887-c91efafbda75"/>bestätigt wurden. </p>
+         <p xml:id="uuid_6b341a68-3f71-4b86-aa94-377a0544d59b">
+            <lb xml:id="uuid_406d89a0-e851-46d3-92c8-70f9f2dae678"/>Ich habe die Kündigung
+                seitens des Verlages <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution">Melantrich</rs> des<lb break="no" xml:id="uuid_d76de592-a690-40f1-b6bf-1048bb773710"/>halb nicht zur Kenntnis
+                nehmen können, weil sie zur Unzeit erfolgte<lb xml:id="uuid_04bf08e7-5ded-4db7-b2d5-e40507ca3aa1"/>und das
+                Kommissionsverhältnis <del>mindesten</del> für mich nur mit einem Ver<lb break="no" xml:id="uuid_fd44bddb-32b3-420a-8735-d16774133742"/>lust geendet hätte.
+                Insbesondere stehe ich auf dem Standpunkt, dass<lb xml:id="uuid_9be3178b-b8dd-429c-9ff2-89c6b2278784"/>das Kommissionsverhältnis
+                mindestens solange dauern müsste, bis<lb xml:id="uuid_a109441a-dc60-436c-b96f-21992f800d90"/>aus dem mir zufliessenden
+                Reingewinne die Transportkosten, mit de<lb break="no" xml:id="uuid_1535825f-64df-43a4-bcee-b922dae6e4fa"/>nen ich belastet wurde,
+                bezw. entgegenkommender Weise zugab, mich<lb xml:id="uuid_a3fa160e-5ee4-4f32-9541-65c83cba2d16"/>damit belasten zu lassen,
+                zur Gänze getilgt seien. </p>
+         <p xml:id="uuid_bf3d3740-8ba7-46d6-a34a-bc5355c34f0c">
+                <lb xml:id="uuid_daed2e24-4117-4fb0-a646-c5b9fa6ada92"/>Auch mit den Februarunruhen
+                im Jahre 1934 in <rs ref="#50" type="place">Wien</rs> hatte der<lb
+                    xml:id="uuid_882648b8-8a13-433d-94d8-97780c675ce5"/>Transport der Bücher nichts
+                zu tun, da der bezüglich Antrag des<lb
+                    xml:id="uuid_b6fe2234-bc73-41f5-8746-dfa02d6ed8ae"/><rs ref="#51630"
+                    type="person">Johann <hi rend="spaced">Münze</hi>r</rs> bereits am 5. Februar
+                1934 in <rs ref="#50" type="place">Wien</rs> einlangte,<lb
+                    xml:id="uuid_e027b640-33bb-473b-8b33-ad2003b8ebce"/>also zu einer Zeit, wo von
+                einer Panik jedenfalls nicht gesprochen<lb
+                    xml:id="uuid_5f80654a-1277-430f-a58b-ed7fd50ce115"/>werden konnte, weil die
+                Unruhen erst am 12. Februar 1934 aus<lb break="no"
+                    xml:id="uuid_1e94cb5b-f912-4577-a88f-51825db18a5b"/>brachen. </p>
+         <p xml:id="uuid_86d7e464-e638-418a-a80b-2e654226f9f3">
+                <lb xml:id="uuid_7281440e-5fd4-495e-9f4b-b2e1c543f8a0"/>Auf Befragen des
+                    Beklagtenvertreters:<lb xml:id="uuid_10fc435e-93ad-47d9-842d-d041444a304b"/>Ich
+                habe lediglich mit Herrn <rs ref="#51630" type="person"><hi rend="spaced"
+                    >Münze</hi>r</rs> verhandelt,<lb
+                    xml:id="uuid_0e2e667b-e516-4f34-94be-23e48825774a"/>sonst habe ich mit niemandem
+                von Seiten der <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231"
+                    >Beklagten</rs> gesprochen.<lb
+                    xml:id="uuid_b9c10a77-2270-4963-8470-30041c9fe101"/>Die Tatsache, dass die
+                aktuellen Hefte der <rs ref="#41244" type="work" subtype="pmb">Fackel</rs> nicht
+                unter den<lb xml:id="uuid_682cf590-e8a7-4eb4-8354-f15c86aa318f"/>Rabattsatz von 50%
+                fallen, wurde in der Korrespondenz dadurch zum<lb
+                    xml:id="uuid_98e64e34-aebc-4514-8f6d-26e21a83ce31"/>Ausdruck gebracht, dass nur
+                von „Büchern“ die Rede war. Ich be<lb break="no"
+                    xml:id="uuid_96369888-4a37-447a-bbfb-3285711b30dc"/>merke, dass jedoch unter dem
+                Begriffe „Bücher“ auch die alten<lb
+                    xml:id="uuid_96418be0-bb7f-4222-a8ea-08f317eb4d9e"/><rs ref="#41244" type="work"
+                    subtype="pmb">Fackel</rs>-Hefte eingeschlossen waren. Meiner Ansicht nach konnte
+                    nie<lb xml:id="uuid_96888afc-27c9-4de2-804b-aa1d528dfaa5"/>ein Zweifel daran
+                bestehen, dass die aktuellen Hefte der <rs ref="#41244" type="work" subtype="pmb"
+                    >Fackel</rs>
+                <lb xml:id="uuid_46ebc395-475b-44ae-9256-4f855e281bfc"/>nicht unter das
+                Kommissionsverhältnis fallen. Prof. Dr. <rs ref="#41669" type="person"><hi
+                        rend="spaced">Jara</hi>y</rs>
+                <lb xml:id="uuid_b7edf868-7b99-4e03-93fe-c180fc8f701e"/>erzählte mir auch, dass der
+                Verlag <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"
+                    >Melantrich</rs> meinen Standpunkt<lb
+                    xml:id="uuid_5a6ec8fc-af05-4455-8514-62b7a88f6290"/>ausdrücklich anerkannt habe.
+                Auch <rs ref="#51630" type="person"><hi rend="spaced">Münze</hi>r</rs> war dieser
+                Ansicht. </p>
+         <p xml:id="uuid_7d2302df-0e6b-4b07-b7d3-ec84b2e948d2">
+                <lb xml:id="uuid_fa91e092-ad5f-4fb3-83d8-e0fa369063e7"/>Es war vereinbart, dass von
+                den 50%, die auf mich fallen<lb xml:id="uuid_68d35cf5-7f0b-49e1-b4e1-7a1764a43e27"
+                />25% mir ausgezahlt werden wollten, während die restlichen 25% vom<lb
+                    xml:id="uuid_fdc5f825-d48c-406a-9fdc-ea99df62485a"/>Verlage <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"
+                    >Melantrich</rs> mit den Transportkosten verrechnet werden<lb
+                    xml:id="uuid_09ae33fa-9aae-4496-8b41-236c40971717"/>sollten. Dies wurde von der
+                    <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37231">beklagten
+                    Partei</rs> in der Korrespondenz<lb
+                    xml:id="uuid_c84bb1c4-27f2-4e74-9d03-f2e78fbcfba4"/>auch anerkannt. Von dem
+                Reingewinn, der aus dem Verkaufe der<lb
+                    xml:id="uuid_7cfeb173-0100-4e02-a0fb-4b39b1737a7f"/>aktuellen <rs ref="#41244"
+                    type="work" subtype="pmb">Fackel</rs>-Hefte auf mich entfallen sollte, durfte
+                    überhaupt<lb xml:id="uuid_2163669a-1f5f-4446-ae40-393c6affb17b"/>nichts auf
+                Transportspesen verrechnet werden, da dieser Verkauf<lb
+                    xml:id="uuid_22cdb1b1-db82-4370-8d4f-8978623edb97"/>der <rs ref="#41244"
+                    type="work" subtype="pmb">Fackel</rs>-Hefte mit dem Kommissionsvertrag überhaupt
+                nichts zu<lb xml:id="uuid_bfab9bd6-f18e-45f4-b5ca-174746389a87"/>tun hatte.
+                Hinsichtlich der aktuellen <rs ref="#41244" type="work" subtype="pmb"
+                >Fackel</rs>-Hefte war der<lb xml:id="uuid_70b8e3ea-6f58-4b68-a275-eeb58bce8e5a"
+                    /><rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"
+                    >Melantrich</rs>verlag nur Sortimenter wie jeder andere Buchhändler.<lb
+                    xml:id="uuid_444e316f-5962-4075-b353-19fc928b24ad"/>Ich wusste überhaupt nicht,
+                dass der <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"
+                    >Melantrich</rs>-Verlag einen<lb
+                    xml:id="uuid_dfea441e-1524-4bfe-9459-a76467369916"/>offenen Buchladen hatte. </p>
+         <pb xml:id="D_000192-021-000_p006"
+             facs="#D_000192-021-000-facs001-l006-p006"
+             n="6"/>
+         <p xml:id="uuid_79c39b4a-72d1-4bd4-ae00-1381ceb27452">
+                <lb xml:id="uuid_cc0a22de-5948-434b-bd0a-472913ff4232"/><rs ref="#51630"
+                    type="person"><hi rend="spaced">Münze</hi>r</rs> hat mich niemals aufmerksam
+                gemacht, dass er<lb xml:id="uuid_48dedadc-8009-485a-b5fc-3f9aeab333a2"/>lediglich
+                Vermittler sei und nicht Bevollmächtigter der <rs type="institution"
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231">beklagten<lb
+                        xml:id="uuid_0ee401ca-2596-48ff-8417-e1f48a38d2db"/>Partei</rs> und <hi
+                    hand="#D_000192-021-000-hand02" rend="underlined">zwar weder mündlich noch
+                    schriftlich</hi>; sein Verhalten<lb
+                    xml:id="uuid_24b6d184-0441-436b-8817-905b239c5d71"/>erweckte vielmehr den
+                Anschein und er sagte dies auch, dass er für<lb
+                    xml:id="uuid_8cfc2b86-de91-4d0b-9ebb-00219cd279b6"/>die <rs type="institution"
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37231">Beklagte</rs> handlungsberechtigt
+                sei. </p>
+         <p xml:id="uuid_167f036b-6729-497c-b4d3-8b62ff78ddcf">
+            <lb xml:id="uuid_d8fdbc31-d815-4edb-93c7-52f114773aab"/>V.g.g.<lb xml:id="uuid_89f91746-5169-4bd1-bd94-be301bc9edc5"/>Beide Teile legten
+                Kostennoten ein. </p>
+         <p xml:id="uuid_b7528fcb-822e-4d31-9484-985b9aff40a5">
+            <lb xml:id="uuid_11838085-b400-4896-8e50-4298731d6e98"/>Ende 11 Uhr 10<lb xml:id="uuid_6f5c0293-3cd3-4fa9-ab7f-1f12b3a8dc10"/>Dauer 5/2 Stunden<lb xml:id="uuid_6849d428-782b-48de-aaae-d689549cfe61"/>Stempel S 15.– je zur Hälfte
+                beigebracht. </p>
+         <p xml:id="uuid_e2ac3c82-ebfa-4a90-9c07-0e45b5843f3e">
+            <lb xml:id="uuid_3a5b9091-87e8-4a7d-b781-ad6a2d5b9a8a"/>Beide Teile ersuchen um
+                    Protokollsabschrift.<lb xml:id="uuid_709fb655-2d59-49a7-834b-2a0b03f18a68"/>Abschriftstempel per je S 3.– beigebracht. </p>
+         <p xml:id="uuid_6d99c94b-7a36-494e-a2c6-79f2f0e017ce">
+                <lb xml:id="uuid_14ff9145-2c10-46db-b107-9f6e7af481c2"/>Herr <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl <hi
+                        rend="spaced">Krau</hi>s</rs> erklärt anschliessend, dass er obige<lb
+                    xml:id="uuid_24f196c7-63e9-4c76-ad31-c807e61e89ed"/>Aussage vollinhaltlich
+                beeiden könne.</p>
+      </body>
+   </text>
+</TEI>

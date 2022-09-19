@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-017-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-015-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000010-016-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Richard Katscher an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000010-016-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1615</idno>
+            <idno subtype="transkribus" type="ID">380524</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000010" type="collection">Karl
+                    Kraus ca. Robert-Bühnen (Kammerspiele)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000010-016-000-facs001" xml:id="D_000010-016-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000010-016-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#50854">Dr. RICHARD KATSCHER</persName>
+               <address>
+                  <street corresp="#40827">Himmelpfortgasse 15</street>
+                  <settlement ref="#51">Wien, I.</settlement>
+               </address>
+               <date when-iso="1924-12-04">4. Dezember 1924</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Dr. Oskar Samek, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien, I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Kraus – Prof. Robert.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1924-12-04">4. Dezember 1924
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000010-016-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000010-016-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-04" who="#JK"/>
+         <change type="typography" when-iso="2021-10-04" who="#JK"/>
+         <change type="references" when-iso="2021-10-04" who="#JK"/>
+         <change type="structure" when-iso="2021-10-04" who="#JK"/>
+         <change when-iso="2020-02-04T11:24:19.409Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-04T11:30:29.752Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-04T11:30:31.67Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 380524. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000010-016-000-facs001">
+      <surfaceGrp xml:id="D_000010-016-000-facs001-l001">
+         <surface type="recto" xml:id="D_000010-016-000-facs001-l001-p001">
+            
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540367/full/full/0/default.jpg"/>
+         </surface>
+         <surface type="verso" xml:id="D_000010-016-000-facs001-l001-p002">
+            
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540368/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000010-016-000_p001"
+             facs="#D_000010-016-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_5836cb80-d0a3-4696-b30a-09ea65b03f26">
+            <lb xml:id="uuid_b93afd41-fa5f-4b55-9654-6c642f2d5db8"/>Sehr geehrter <rs ref="#38909" type="person">Herr Kollege</rs>, </p>
+         <p xml:id="uuid_2777707e-7ad3-4fb2-a7cf-e01c445c12ec">
+            <lb xml:id="uuid_c10b256d-a9ad-4eed-b78b-e350f4d50c1e"/>Ueber Ihr geschätztes <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-015-000"
+                type="work"
+                subtype="legal-doc">Schreiben vom 4. d.Mts.</rs> und über unsere telefoni<lb break="no" xml:id="uuid_5019a8bf-a583-4ff0-827a-dc24a6163662"/>sche Unterredung,
+                nehme ich zur Kenntnis, dass Sie morgen Vormittag<lb xml:id="uuid_0d5b55b3-713e-4518-85ac-6f67e3e037a8"/>noch das
+                Exekutionseinstellungsgesuch überreichen. </p>
+         <p xml:id="uuid_f142ee6d-8fdd-4833-be31-a15c13104047">
+            <lb xml:id="uuid_c3b69be4-9586-4469-a499-22c217e84786"/>Mit dem Ausdrucke vorzüglicher
+               kollegialer<lb xml:id="uuid_32890b75-5349-4c92-814a-0a4cb0ed152d"/>Hochachtung<lb
+               xml:id="uuid_20cbad6b-17eb-4a95-92c1-a9f7f590c14e"/><rs ref="#50854" type="person">R.
+               Katscher</rs>
+         </p>
+         <pb xml:id="D_000010-016-000_p002"
+             facs="#D_000010-016-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_c1f139af-4c99-42b1-988d-fe04200c48a2">
+            <lb xml:id="uuid_8bb36d5c-dc54-4068-a77a-4c983406bc34"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#12537" type="person">Robert</rs></note>
+         </p>
+      </body>
+   </text>
+</TEI>

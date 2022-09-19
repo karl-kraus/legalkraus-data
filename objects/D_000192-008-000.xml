@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000192-009-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000192-007-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000192-008-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Jan Münzer an Kraus</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000192-008-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4718</idno>
+            <idno subtype="transkribus" type="ID">373043</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000192" type="collection">Karl
+                    Kraus ca. Verlag Melantrich (Prag)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000192-008-000-facs001" xml:id="D_000192-008-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000192-008-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSU">Typoskript mit handschriftlichen Überarbeitungen</objectType>
+                     <objectType source="D_000192-008-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP">Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1934-06-14">14. Juni 1934</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#51630"/>
+               <address>
+                  <street corresp="#"/> 
+                  <settlement ref="#652">Praha</settlement>
+               </address>
+               <date when-iso="1934-06-14">14.6.34</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#11988"/>
+               <address>
+                  <street corresp="#52568"/> 
+                  <settlement ref="#51"/> 
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <handNotes>
+            <handNote cert="high"
+                      medium="black-ink"
+                      resp="#IL"
+                      scribeRef="#51630"
+                      source="#D_000192-008-000-wit01"
+                      xml:id="D_000192-008-000-hand01"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000192-008-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000192-008-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-11-30" who="#IL"/>
+         <change type="structure" when-iso="2021-11-18" who="#IL"/>
+         <change type="references" when-iso="2021-11-22" who="#IL"/>
+         <change type="typography" when-iso="2021-11-29" who="#IL"/>
+         <change when-iso="2020-10-12T07:51:03.789Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-12T07:55:31.088Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 373043. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000192-008-000-facs001">
+      <surfaceGrp xml:id="D_000192-008-000-facs001-l001">
+         <surface type="recto" xml:id="D_000192-008-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545138/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000192-008-000-facs001-l002">
+         <surface type="recto" xml:id="D_000192-008-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545140/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000192-008-000_p001"
+             facs="#D_000192-008-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_b6c738b9-727a-4aba-8db1-fdc6f233fa26">
+            <lb xml:id="uuid_afb238c7-aef2-4f1e-a677-22057317b86b"/>Sehr geehrter Herr <rs ref="#11988" type="person">Kraus</rs>, </p>
+         <p xml:id="uuid_bafb723a-ca8c-4ab1-9dcd-1fb6ce091d6a">
+            <lb xml:id="uuid_50aa3a7d-e864-4b5d-9523-7d6be8fcd02b"/>ich habe mich bei der
+                Zusammenkunft mit Herrn Prof. Dr. <rs ref="#41669" type="person">Jaray</rs> an
+                    eine<lb xml:id="uuid_79ddf90c-8555-4c90-8cfc-cd6b7ec0765b"/>unverzeihliche
+                Unterlassung erinnert. Sie haben mir den ersten Band<lb xml:id="uuid_5c8d8f69-6b28-4ee5-bd98-eb153f37feba"/>der Werke <rs ref="#2412" type="person">Shakespeares</rs> in Ihrer Bearbeitung geschickt und mich da<lb break="no" xml:id="uuid_cd372a37-0c6e-4334-928a-a34960044da8"/>mit in höchstem
+                Mass erfreut. Obwohl ich Ihnen sofort danken wollte,<lb xml:id="uuid_2cfaf550-e50f-4b21-ba33-ec3e4e995479"/>vergass ich es in den
+                bewegten Tagen, die bei mir nun schon einige<lb xml:id="uuid_52447107-b381-46ad-8a31-1556fb108a49"/>Wochen dauern. Vor kurzem
+                erinnerte ich mich plötzlich in der Nacht<lb xml:id="uuid_c91ca43b-1049-4927-b051-e1a6c407b6ea"/>daran und wäre beinahe
+                aufgestanden, um Ihnen sofort zu schreiben.<lb xml:id="uuid_1cc4d4db-f438-4630-b056-f11fdfcb4f4d"/>Leider tat ich es nicht,
+                denn früh hatte ich es wieder vergessen. Ich<lb xml:id="uuid_abab3a15-b499-424d-9eeb-5b9bc4f319a5"/>kann nichts anderes tun als
+                eingestehen, wie es sich verhält, und bit<lb break="no" xml:id="uuid_1085a36f-948c-4b37-9d92-6a7c5527771e"/>te Sie, mir als
+                erleichternden Umstand anzurechnen, dass ich in den<lb xml:id="uuid_98aab97f-7dd8-4585-8687-8be37d7c8399"/>letzten Wochen von einer
+                Arbeit zur andern eile. Für das schöne <rs ref="#61580" type="work" subtype="pmb">Buch</rs>
+            <lb xml:id="uuid_42dabf2e-ff75-413c-a2a9-9765cc9f18ce"/>und seine Widmung danke ich
+                Ihnen von Herzen. Das Gefühl, Ihre Sym<lb break="no" xml:id="uuid_f06e3504-223f-41a8-a64e-ada14f376f03"/>pathien zu besitzen, ist für
+                mich erhebend und jeder Beweis dieser<lb xml:id="uuid_e39db383-1d97-44d5-9918-15927284da01"/>Beziehung, welcher Art immer
+                er sei, erfreut mich mehr als vieles,<lb xml:id="uuid_94eec1b8-4d18-4626-8b5b-70aace731fbc"/>was die Welt zu bieten hat.
+                Meine Beziehung zu Ihnen ist unwandelbar.<lb xml:id="uuid_43e1bb23-037c-4805-bb46-ea114e938bee"/>Umso grösser ist meine
+                Freude, wenn ich sehe, dass Ihre Sympatie<lb xml:id="uuid_ccd068cd-ecb2-49db-8e97-6a96fc20f2ed"/>dauernd ist. </p>
+         <p xml:id="uuid_62dcb778-bf12-493f-80bc-2eeedccf544c">
+            <lb xml:id="uuid_4892e056-b5ed-45f6-8f69-38b81c665f69"/>Herr Prof. Dr. <rs ref="#41669"
+               type="person">Jaray</rs> hat in einem Gespräch über den <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution">Verlag</rs> einen
+               Um<lb break="no" xml:id="uuid_8897785c-2c73-4d33-80b6-77ffea036acc"/>stand erwähnt,
+            der mir Anlass zu einer Aufklärung<lb xml:id="uuid_2e382f44-c7e1-4529-8b21-e68554a519df"
+            />gibt. Herr Prof. Dr. <rs ref="#41669" type="person">J.</rs> wird Ihnen persönlich wohl
+            noch einiges zu die<lb break="no" xml:id="uuid_7c4cb742-e3f5-40ee-acce-3712e3869ff7"
+            />ser Sache sagen, ich möchte in Kürze nur konstatieren, dass weder<lb
+               xml:id="uuid_c8353530-26a9-44d2-a952-d9477b17579a"/>ich noch irgendjemand im prager
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution">Verlag</rs>
+            auch nur einen Augenblick<lb xml:id="uuid_640996fa-4900-4842-b9ab-d42f5c514da2"/>lang
+            die Sache so sah, als hätte der prager <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution">Verlag</rs> eine
+               mäzenati<lb break="no" xml:id="uuid_a7632e1c-0784-4bb4-8322-164f7a080f33"/>sche
+            Beziehung zu Ihnen. Sie haben, sehr geehrter Herr <rs ref="#11988" type="person"
+               >Kraus</rs>, vor dem<lb xml:id="uuid_35abac2b-2416-488c-bb7e-0d8f8dab12f7"/>Kriege
+            und während des Krieges, ebenso wie nach dem Kriege, bei<lb
+               xml:id="uuid_63d0ee36-ef93-487c-a70a-e6f6dfa5bc07"/>verschiedenen Gelegenheiten
+            öffentlich kundgetan, dass Sie die Sache<lb
+               xml:id="uuid_089c7081-6a74-4353-aca9-c8ef787149f9"/>unseres Volkes, namentlich
+            während es um seine Freiheit kämpfte, für<lb
+               xml:id="uuid_4e861dc4-5cdc-4af1-82df-f8bbc19a399e"/>eine gerechte Sache halten. Sie
+            haben fast als einziger Schriftstel-<pb xml:id="D_000192-008-000_p002"
+               facs="#D_000192-008-000-facs001-l002-p002" n="2"/>
+            <lb xml:id="uuid_0059f6a1-d34c-4ade-8128-97b8c455dd43"/>ler deutscher Sprache mit
+            Sympathie und Hochachtung von unserem<lb
+               xml:id="uuid_21960317-cf96-4622-9874-fc22b78927fa"/>Volke gesprochen, als fast <add
+               hand="#D_000192-008-000-hand01">alle</add> Ihre Landsleute, die öffentlich wirken,<lb
+               xml:id="uuid_c41ba81a-ddaa-48ba-8371-65e2e151d7be"/>in Wort und Schrift nur
+            Schmähungen oder Hass für uns übrig hatten.<lb
+               xml:id="uuid_9e114631-846c-4c06-a560-b518301559df"/>Dieser Sachverhalt war nicht nur
+            mir, sondern auch den Leitern des<lb xml:id="uuid_c1972e1b-75c1-4e30-af81-74c965c7adf5"
+            />prager <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution"
+               >Verlages</rs> bekannt, als ich den Vorschlag zum Transport der<lb
+               xml:id="uuid_bdd034b1-f7b7-4152-a65e-879291daf445"/>Bücher machte, und dieser
+            Sachverhalt war auch entscheidend für die<lb
+               xml:id="uuid_0b770da9-d7e3-4ee1-949d-21ac2a918730"/>Annahme des Vorschlages. Es kann
+            dabei also nur von Dankbarkeit und<lb xml:id="uuid_a2d842e7-c7b2-4169-ba36-fc32b6cdefd7"
+            />von einer Ehrung eines Mannes die Rede sein, der hier hoch geachtet<lb
+               xml:id="uuid_fac5a0c0-c37b-4e05-a5d1-5161ca9d9291"/>und bewundert wird, niemals aber
+            von Mäzena<add hand="#D_000192-008-000-hand01">ten</add>tum. </p>
+         <p xml:id="uuid_0b74f809-9c96-4db2-b792-1391878fac4d">
+            <lb xml:id="uuid_9f872de1-d4db-41e2-a11a-5f7e68927f8b"/>Diese Tatsachen spiegeln sich
+            freilich nicht in der geschäftlichen<lb
+               xml:id="uuid_93375e3a-691d-440d-8ac7-1ecc1187eaf6"/>Korrespondenz, die in dieser
+            Sache stattgefunden hat. Sie müssen je<lb break="no"
+               xml:id="uuid_efbf03be-7497-4d8b-9962-416f3fc98815"/>doch bedenken, dass der prager
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution">Verlag</rs> ein
+            Geschäftsunternehmen ist,<lb xml:id="uuid_d5df92d0-770e-4b8d-9049-41f285492783"/>dessen
+            Korrespondenz nicht mit dem gleichem Mass gemessen werden<lb
+               xml:id="uuid_b930105d-a5d8-4bd1-9556-c32be9c9a79b"/>darf wie z.B. die Korrespondenz
+            des <rs ref="#43724" type="institution">Verlages Die Fackel</rs>. Der prager<lb
+               xml:id="uuid_7ffa3e35-1042-4d32-96ec-207445184ef1"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution">Verlag</rs> schickt
+            täglich hundert und mehr Briefe in die Welt, für ei<lb break="no"
+               xml:id="uuid_9a041359-a43c-4b31-bc67-54fb9b4bff5a"/>nen Brief bleiben einige Minuten
+            Zeit, da ist es durchaus begreif<lb break="no"
+               xml:id="uuid_b8a6eab7-34f7-4408-9c8e-5e66c8934a90"/>lich, wenn die Briefe in kurzer
+            Fassung und gewissermassen beiläufig<lb
+               xml:id="uuid_d3041bca-8e85-4e49-9665-ce1433484d1d"/>stylisiert sind, wobei natürlich
+            mehr auf das Geschäftliche als auf<lb xml:id="uuid_b842856a-0eee-43a7-bc99-7985f1ecc008"
+            />alles übrige geachtet wird.</p>
+         <p xml:id="uuid_111cd226-476d-4b69-b798-a6a059dbcfe9">
+            <lb xml:id="uuid_51b01f5c-c3a1-4cef-8a80-fcf527346bb6"/>Damit ist, wie ich hoffe,
+                ein Sachverhalt aufgeklärt, der, wie ich ver<lb break="no" xml:id="uuid_6c28411e-e3d2-49b5-b847-805156fe16e6"/>mute, nur dadurch entstanden
+                ist, dass Sie diese technischen Umstände<lb xml:id="uuid_d5d63363-37c1-4894-9ea7-033d53cf3809"/>nicht genügend in Rechnung
+                gezogen haben und dass Sie andererseits<lb xml:id="uuid_bcaa0ede-5252-441c-ae13-6e3e0529af2a"/>bei dem <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution">Verlag</rs>
+                eine Auffassung der ganzen Sache voraussetzten,<lb xml:id="uuid_c486b267-ed3f-4ffc-9def-0220416b66d0"/>die durchaus nicht den
+                Tatsachen entspricht. </p>
+         <p xml:id="uuid_b5b6cd48-e0ab-4422-95eb-509f4a691f4c">
+            <lb xml:id="uuid_03a6bdfe-14fe-4dae-87f1-96b211026c5e"/>Ich hoffe, Sie bald wieder
+            einmal in <rs ref="#652" type="place">Prag</rs> sehen zu können. Von meiner<lb
+               xml:id="uuid_13cfe982-57d4-4bd3-91b2-66014e1dda7a"/><rs ref="#61584" type="person"
+               >Frau</rs> habe ich die herzlichsten Grüsse auszurichten. Ich selber ver<lb
+               break="no" xml:id="uuid_aac51d1f-afb1-42da-8e60-efe7878ec04f"/>bleibe <del
+               hand="#D_000192-008-000-hand01">verbleibe</del> mit dem Ausdruck meiner unwandelbaren
+               aller<lb break="no" xml:id="uuid_8f6d89c1-2c4f-47bf-ab23-79cbc776b3c5"/>grössten
+            Hochachtung und herzlichen Grüssen</p>
+         <p xml:id="uuid_a2639f3d-ff64-4a37-ae09-a2ddff0808e7">
+            <lb xml:id="uuid_e1573bae-c386-4185-abc0-3c06065766cf"/>Ihr <rs ref="#51630"
+               type="person">Jan Münzer</rs></p>
+      </body>
+   </text>
+</TEI>

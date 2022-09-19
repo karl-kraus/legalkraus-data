@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000150-002-001.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000150-001-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000150-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Das Kleine Blatt (verantw. Red. Johann Hirsch)</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                  Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000150-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4052</idno>
+            <idno subtype="transkribus" type="ID">293995</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000150" type="collection">Karl
+                    Kraus ca. Kleines Blatt</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000150-002-000-facs001" xml:id="D_000150-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000150-002-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-12-24">24. Dezember
+                    1930</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <keywords>
+            <term>Brief</term>
+         </keywords>
+         <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/">D.K.BRF</classCode>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51"/> 
+               </address>
+               <date when-iso="1930-12-24">24. Dezember 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#51583">den | verantwortlichen Redakteur des „Kleinen
+                        Blattes“ | Herrn Dr. Johann Hirsch </orgName>
+               <address>
+                  <street corresp="#46201">Rechte Wienzeile 97</street>
+                  <settlement ref="#55">Wien V.</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Kleines Blatt.</note>
+               <note type="dictation">Dr.S/Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000150-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000150-002-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-09-02" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-09-23" who="#IL"/>
+         <change type="structure" when-iso="2021-07-27" who="#IL"/>
+         <change type="references" when-iso="2021-07-27" who="#IL"/>
+         <change type="typography" when-iso="2021-09-23" who="#IL"/>
+         <change when-iso="2020-10-08T15:18:50.508Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T15:19:24.821Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 293995. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000150-002-000-facs001">
+      <surfaceGrp xml:id="D_000150-002-000-facs001-l001">
+         <surface type="recto" xml:id="D_000150-002-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542445/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000150-002-000-facs001-l002">
+         <surface type="recto" xml:id="D_000150-002-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542446/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000150-002-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542447/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      
+      <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542448/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000150-002-000_p001"
+             facs="#D_000150-002-000-facs001-l002-p002"
+             n="1"/>
+         <p xml:id="uuid_8ff5ff3f-0b9e-4910-a5c4-a6dd538ff336">
+            <lb xml:id="uuid_7f826394-2037-463b-903e-286c6652162f"/>Im Vollmachtsnamen des Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl <hi rend="spaced"
+                  >Krau</hi>s</rs>
+            <lb xml:id="uuid_92bd5220-cf29-4df2-aeb3-d223f823fdba"/>verlange ich die Aufnahme der
+            Berichtigung der in Ihrer <rs ref="#59201" type="work" subtype="pmb">Nummer<lb
+                  xml:id="uuid_dc90e815-27b1-43d4-9c23-9ec3f40b113a"/>334 vom 5. Dezember 1930</rs>
+            mitgeteilten meinen <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+               >Mandanten</rs> betreffen<lb break="no"
+               xml:id="uuid_650a15c0-7d56-49a3-8612-ffc66e1cfeac"/>den unrichtigen Tatsache gemäss
+               <rs
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45"
+               type="law">§ 23 Pr.G.</rs>
+         </p>
+         <p xml:id="uuid_a5b0d2d8-dabc-41ea-ab2d-9052f20954ac">
+            <lb xml:id="uuid_460017cb-ed81-4965-8069-e037dfa225e9"/>Sie schreiben: „… <quote
+               source="#59203" xml:id="uuid_59f3b1f9-a0ac-498a-9286-a26f84001646">führte der <rs
+                  ref="#38909" type="person">Verteidiger</rs>
+               <lb xml:id="uuid_e99ff7a8-2273-4639-8e17-9bd8a2ed81ed"/>… aus, dass er (<rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>)
+               keinen Namen genannt habe, so dass<lb
+                  xml:id="uuid_bf453c5c-3199-417b-bf15-8e708845a9a9"/>der <rs ref="#39325"
+                  type="person">Privatkläger</rs> die Ausdrücke nicht auf sich habe beziehen<lb
+                  xml:id="uuid_b269d4c7-fd7d-4d40-95b0-fc07e6b49f48"/>können.</quote>“ Dies ist
+            unwahr. Wahr ist, dass nach dem nunmehr vor<lb break="no"
+               xml:id="uuid_bd7a9420-afcc-4842-9eb4-fff28ff141f3"/>liegenden <rs type="work"
+               subtype="legal-doc" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-039-000"
+               >Protokoll</rs> der <rs ref="#38909" type="person">Verteidiger</rs> vorgebracht hat:
+               „<quote xml:id="uuid_fe56de25-302e-4fe3-b975-fe6883e66dbf"
+               source="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-039-000">Ich will<lb
+                  xml:id="uuid_3973c98c-d79a-4dc5-820a-aeddd02f62dc"/>nicht behaupten, dass der <rs
+                  ref="#39325" type="person">Privatankläger</rs> nicht gemeint war, es<lb
+                  xml:id="uuid_21af8d00-773b-41e8-8211-670bd4e2db11"/>konnte auch der <rs
+                  ref="#39325" type="person">Privatankläger</rs> sich getroffen fühlen. Er war<lb
+                  xml:id="uuid_fbe02096-e69c-4399-9b15-166cfe2a5228"/>aber nicht <hi
+                  rend="underlined">erkennbar</hi>.</quote>“ </p>
+         <p xml:id="uuid_a8b7c7af-2cb1-4059-a86f-d70ba63e14d6">
+            <lb xml:id="uuid_bad86b1c-5daf-4f1e-be9e-ac4418df337d"/>Rekommandiert mit
+                Rückschein. </p>
+         <pb xml:id="D_000150-002-000_p002"
+             facs="#D_000150-002-000-facs001-l002-p003"
+             n="2"/>
+         <p xml:id="uuid_732be326-23ae-46bb-bc2c-bd795f10df8b">
+            <lb xml:id="uuid_4b9070e8-fa53-4c5c-95ed-75f49a96c1b5"/><note resp="law-firm"
+               type="paratext">Betr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  type="person">Kraus</rs> – <rs ref="#37384" type="institution">Kleines Blatt</rs>
+               <lb xml:id="uuid_84218dda-f83d-4088-972f-42acd36fdc82"/>exp. 24.12.1930.</note></p>
+      </body>
+   </text>
+</TEI>

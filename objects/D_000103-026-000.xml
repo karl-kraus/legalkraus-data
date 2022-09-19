@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000103-026-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-025-000.xml"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-027-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Kanzlei Samek (T. Fantner) an Kraus</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000103-026-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3081 </idno>
+            <idno type="ID" subtype="transkribus">292190</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000103">Karl
+                    Kraus ca. Fränkischer Kurier</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000103-026-000-wit01" facs="#D_000103-026-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <accMat xml:id="D_000103-026-000-acc001" source="#D_000103-023-000">Abschrift
+                        eines Briefes Dris. Hirschberg vom 23. August 1928</accMat>
+                  <accMat xml:id="D_000103-026-000-acc002" source="#D_000103-024-000">Abschrift
+                        des Urteils des Amtsgerichtes Nürnberg</accMat>
+                  <ab type="materiality">
+                     <objectType source="D_000103-026-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#56355"/>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien, I.</settlement>
+               </address>
+               <date when-iso="1928-08-25">25. August 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#11988">Herrn | Karl Kraus</persName>
+               <address>
+                  <street corresp="#53243">Weisses Haus</street>
+                  <settlement ref="#168">Berlin</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Fränkischer | Kurier.</note>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date type="sortDate" when-iso="1928-08-25" subtype="produced">25. August 1928
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000103-026-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000103-026-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-03-17" who="#JK"/>
+         <change type="typography" when-iso="2021-03-17" who="#JK"/>
+         <change type="references" when-iso="2021-03-17" who="#JK"/>
+         <change type="structure" when-iso="2021-03-17" who="#JK"/>
+         <change when-iso="2020-07-21T12:53:38.319Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 292190. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555401/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555402/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+         
+      </surface>
+   </facsimile>
+   <facsimile xml:id="D_000103-026-000-facs001">
+      <surfaceGrp xml:id="D_000103-026-000-facs001-l001">
+         <surface xml:id="D_000103-026-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555403/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000103-026-000_p001"
+             facs="#D_000103-026-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_e614aab3-6a18-4dfa-a3da-7d9218353573">
+            <lb xml:id="uuid_caf7172f-2aa3-4279-8e2e-6cb665a2dd9b"/>Im Auftrage meines <rs
+               type="person" ref="#38909">Chefs</rs> übersende ich die<lb
+               xml:id="uuid_0d926582-310b-40b0-a3db-9ff7df76fb5b"/>Abschrift eines <rs type="work"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-023-000" subtype="legal-doc"
+               >Briefes Dris. <rs type="person" ref="#38381">Hirschberg</rs> vom 23. August
+               1928</rs> und des<lb xml:id="uuid_2539a462-73ef-4fa3-ab22-b512444f4473"/><rs
+               type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-024-000"
+               subtype="legal-doc">Urteils des Amtsgerichtes Nürnberg</rs>. Herr <rs type="person"
+               ref="#38909">Dr. Samek</rs> lässt um weitere<lb
+               xml:id="uuid_c8ea426b-0669-4803-b290-16205996cae0"/>Weisungen bitten. </p>
+         <p xml:id="uuid_c235e786-b6df-46a7-afe8-e4b8833b652c">
+            <lb xml:id="uuid_06b057fa-f10b-4d24-a9f0-6606b170d493"/>Mit ergebener Verehrung<lb xml:id="uuid_c240aad8-1ba6-4db5-ac66-67c0d35e7754"/><rs type="person" ref="#56355">T. Fantner</rs>
+         </p>
+         <p xml:id="uuid_cb28cdf7-d25c-4dbd-a900-3b8abb4f8274">
+            <lb xml:id="uuid_3fa54d3d-4faf-4e01-bbe6-7078ba1521bb"/>2 Beilagen. </p>
+      </body>
+   </text>
+</TEI>

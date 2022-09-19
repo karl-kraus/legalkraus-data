@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-047-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-045-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000112-046-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Telegramm RA Botho Laserstein an Verlag Die Fackel</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">
+               https://id.acdh.oeaw.ac.at/legalkraus/legalkraus/D_000112-046-000.xml </idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/3205</idno>
+            <idno subtype="transkribus" type="ID">241977</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000112" type="collection">Karl Kraus
+               ca. Theodor Wolff</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000112-046-000-facs001" xml:id="D_000112-046-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000112-046-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSN">Typoskript mit
+                        handschriftlichen Annotationen</objectType>
+                     <objectType source="D_000112-046-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP"
+                        >Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-01-27">27. Januar 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38969">Botho Laserstein</persName>
+               <address>
+                  <street corresp="#51751"/>
+                  <settlement ref="#168">berlin</settlement>
+               </address>
+               <date when-iso="1931-01-27">27.I.1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#43724">verlag fackel wien</orgName>
+               <address>
+                  <street corresp="#50496">Hintere Zollamtstr. 3</street>
+                  <settlement ref="#53"/>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000112-046-000-wit01">Telegramm</term>
+            </keywords>
+            <classCode source="D_000112-046-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.TGR">D.K.TGR</classCode>
+         </textClass>
+         <handNotes>
+            <handNote xml:id="D_000112-046-000-hand01" source="#D_000112-046-000-wit01"
+               scribeRef="#38969" medium="pencil" cert="low" resp="#JK"/>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="typography" when-iso="2021-06-24" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-06-24" who="#IL"/>
+         <change type="structure" when-iso="2021-05-25" who="#IL"/>
+         <change type="intertexts" when-iso="2021-06-21" who="#IL"/>
+         <change type="references" when-iso="2021-05-25" who="#IL"/>
+         <change when-iso="2020-07-22T07:33:58.915Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 241977. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000112-046-000-facs001">
+      <surfaceGrp xml:id="D_000112-046-000-facs001-l001">
+         <surface type="recto" xml:id="D_000112-046-000-facs001-l001-p001">
+            
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555926/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000112-046-000_p001"
+             facs="#D_000112-046-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_759e4b5e-1d2f-40be-8837-499f99a6d177">
+            <lb xml:id="uuid_743d19b1-1826-452a-afe2-e9aebf5f463a"/>drahtet 500 mark sache <rs ref="https://pmb.acdh.oeaw.ac.at/entity/13163" type="person">wolff</rs> =
+                    rechtsanwalt<lb xml:id="uuid_d7f43d9d-07f8-4b49-8c0d-8ac47bf43237"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/38969" type="person">Laserstein</rs> + </p>
+         <p xml:id="uuid_019f6aa7-7afe-44c9-823c-7425d163841c">
+            <lb xml:id="uuid_6b9cd749-f7fa-4b06-8e1f-4241b2be83ae"/><note hand="#D_000112-046-000-hand01">27.I.1931,
+                        früh<lb xml:id="uuid_05a01a22-6fc6-4537-8e84-0dddcab98973"/>die 500 Mk um
+                    1/2 11 Uhr vorm. telegr. abgeschickt </note>
+         </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-005-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-003-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000176-004-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Städtische Bühnen Essen (Rudolf Schulz Dornburg) an Universal Edition
+                    (Hans Heinsheimer)</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                  Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000176-004-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4354</idno>
+            <idno subtype="transkribus" type="ID">349089</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000176" type="collection">Karl
+                    Kraus ca. Städtische Bühnen Essen</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000176-004-000-facs001" xml:id="D_000176-004-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000176-004-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-03-31">31. März 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38784">essener städtische Bühnen | der operndirektor | rudolf
+                        schulz-dornburg | generalmusikdirektor </persName>
+               <address>
+                  <street corresp="#"/> 
+                  <settlement ref="#49970">essen</settlement>
+               </address>
+               <date when-iso="1932-03-31">den 31. märz 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#36971">die | universal-edition</orgName>
+               <address>
+                  <street corresp="#56742">karlsplatz 6</street>
+                  <settlement ref="#51">wien I</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000176-004-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000176-004-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-07" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-10-20" who="#IL"/>
+         <change type="structure" when-iso="2021-10-01" who="#IL"/>
+         <change type="references" when-iso="2021-10-11" who="#IL"/>
+         <change type="typography" when-iso="021-10-19" who="#IL"/>
+         <change status="draft" when-iso="2020-10-09T14:32:15.76Z" who="#IB">created by API </change>
+         <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
+                Document 349089. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000176-004-000-facs001">
+      <surfaceGrp xml:id="D_000176-004-000-facs001-l001">
+         <surface type="recto" xml:id="D_000176-004-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543711/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000176-004-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543713/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000176-004-000_p001"
+             facs="#D_000176-004-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_896a6238-ad8d-4634-9b85-6ad36e30e967">
+            <lb xml:id="uuid_e9f16991-2fc8-45ae-9f9d-a5764cba0854"/>sehr geehrter herr <rs ref="#38370" type="person">heinzheimer</rs>! </p>
+         <p xml:id="uuid_41469242-b4ec-49be-a07d-49e724d2a7a5">
+            <lb xml:id="uuid_6f559a35-1914-43ea-b592-b39e558bad22"/>die angelegenheit mit herrn <rs
+               ref="#11988" type="person">kraus</rs> ist gelinde gesagt unbegreif<lb break="no"
+               xml:id="uuid_82c4491a-df84-403b-806c-613e477b9e74"/>lich. ich schicke Ihnen hier die
+            abschrift eines <rs type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-003-000">briefes</rs> mit,<lb
+               xml:id="uuid_612d6a67-ba1f-457d-b1ae-a66533561fc4"/>auf den ich überhaupt keine
+            antwort bekommen habe und wieder<lb break="no"
+               xml:id="uuid_f93b7860-f2ed-47c3-b287-d3ec6dcabc2a"/>hole ihnen, dass meine eingriffe
+            in das ganze mit grösster lie<lb break="no"
+               xml:id="uuid_a89a5e78-36e3-43ae-b3b0-e9a64a2a8946"/>be geschehen sind und wie mir
+            scheint aus einer kenntnis des<lb xml:id="uuid_5f598f3f-4d76-441d-8617-4a09d2d680b0"
+               /><rs ref="#55390" type="work" subtype="pmb">werkes</rs> heraus, die herr <rs
+               ref="#11988" type="person">kraus</rs> mir als musiker und auf grund<lb
+               xml:id="uuid_86784fec-008e-4831-98e7-1184283a8de0"/>meines namens wohl zutrauen
+            dürfte. </p>
+         <p xml:id="uuid_d7e9bcf3-0300-4399-8cf9-5f99ee2dca08">
+            <lb xml:id="uuid_ea8d218b-7725-4f1d-ac41-bee7023d7fe4"/>als ich das <rs type="work"
+               subtype="pmb" ref="#55390">werk</rs> annahm, habe ich es lediglich aus einer glü<lb
+               break="no" xml:id="uuid_a9600e0c-f4f8-4041-b423-1eaa7c4509d5"/>henden liebe für <rs
+               ref="#11988" type="person">kraus</rs>, seine bearbeitung und für <rs ref="#9131"
+               type="person">offenbach</rs>
+            <lb xml:id="uuid_3457c994-5d28-4312-b265-2904f2b0ffa6"/>überhaupt getan, trotzdem ich
+            wußte, dass sich die hiesige öf<lb break="no"
+               xml:id="uuid_ceee32fa-b80b-4efa-85de-c68cf834d9f3"/>fentlichkeit in kritik und
+            publikum dagegen stellen würde, weil<lb
+               xml:id="uuid_b47cbb45-3054-4a9b-9a33-61a8dd756eac"/>man hier eben unter dem begriff
+            operette etwas anderes versteht<lb xml:id="uuid_fb22a264-c6be-4da9-aa19-046713a6b459"
+            />und verstehen will. da man sich seit monaten über die sogenann<lb break="no"
+               xml:id="uuid_6f2825ee-6b0c-48d6-8a30-11514bd4cfcf"/>te <rs ref="#9131" type="person"
+               >offenbach</rs>-renaissance lustig macht, war die geschichte<lb
+               xml:id="uuid_4b001933-7115-46ca-bd80-6c574149bed0"/>schwierig genug, einzig und
+            allein also der ernste wille, dem<lb xml:id="uuid_861ec89d-1bbd-41f9-8d17-4e0924ec9b5a"
+               /><rs ref="#55390" type="work" subtype="pmb">werk</rs> zu einem erfolg zu verhelfen,
+            hat mich zur annahme ge<lb break="no" xml:id="uuid_17a500fc-1143-4675-aa63-f4db8f9172bc"
+            />bracht. dass ich mich entschloss, die aufführung selbst zu ins<lb break="no"
+               xml:id="uuid_f7877dc3-d735-49dd-89ce-b6161e924d2e"/>zenieren und dirigieren, beweist
+            ja wohl weiter, dass ich es<lb xml:id="uuid_cf273974-975b-4c9b-9ce7-2576a7e27d51"/>ernst
+            genug genommen habe. die eigentlichen änderungen, die ich<lb
+               xml:id="uuid_5891e3ec-7893-407b-a05c-7d918ca40f07"/>vorgenommen habe, sind kürzungen
+            einesteils aus gründen der zu<lb xml:id="uuid_74135a5e-b0fe-42ec-b0e1-9e06fe2e71f5"
+            />langen dauer des <rs type="work" subtype="pmb" ref="#55390">werkes</rs>, andernteils
+            aus der tatsache, dass ich<lb xml:id="uuid_72c85215-5e29-451b-a1ec-0e92f5a05534"
+            />während meiner proben geradezu vom unglück verfolgt wurde und<lb
+               xml:id="uuid_6139cf26-b25a-4ef2-8898-1fb16e648490"/>eine absage nach der andern
+            erlebte. wir haben das <rs ref="#55390" type="work" subtype="pmb">werk</rs> deshalb<lb
+               xml:id="uuid_5b260526-0867-4e65-a1b7-5168d8ac588d"/>immer wieder verschoben;
+            allerdings musste der termin gehalten<lb
+               xml:id="uuid_08cbda42-a0ab-4511-858c-52f5a856df6f"/>werden und ich war gezwungen
+            durch die krankheit des sehr ner<lb break="no"
+               xml:id="uuid_f81cd38f-506f-41fb-832e-4812e59e8e89"/>vösen erzherzogs kürzungen
+            vorzunehmen. </p>
+         <p xml:id="uuid_4b2096c8-87c3-44a0-821f-02bd7c4d9523">
+            <lb xml:id="uuid_e76e15e9-78c8-4b27-aba8-5be68a467b71"/>ich glaube aber, dass der
+            hiesige eindruck so ist, wie herr<lb xml:id="uuid_09fb5092-f152-4035-bb73-8a3f48b86b8f"
+               /><rs ref="#11988" type="person">kraus</rs> ihn sich gedacht hat und wünsche nur,
+            dass sich einer von<lb xml:id="uuid_f2b8fe60-2bb0-4931-b7f3-bfb8d36ed9a1"/>Ihnen die
+            aufführung ansieht, auf die ich stolz bin und die in<lb
+               xml:id="uuid_96f389b6-9a84-4f40-aa9b-2db30c11c3f9"/>ihrer ganzen leichtigkeit
+            geradezu an <rs ref="#12303" type="person">mozart</rs> erinnert. der <pb
+               xml:id="D_000176-004-000_p002" facs="#D_000176-004-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_9b089f2d-23c6-4d17-93a2-9c946cb2cc6e"/>scharfe angriff gegen unsere
+            arbeit verletzt mich ausser<lb break="no"
+               xml:id="uuid_1886d50e-be4e-40ed-a59e-6f08538a46bb"/>dem, weil wir mit allen mitteln
+            versuchen, das <rs type="work" subtype="pmb" ref="#55390">werk</rs> durch<lb break="no"
+               xml:id="uuid_a6f88de8-a012-4c82-975e-b0a8d9d41015"/>zudrücken. so habe ich z.b., als
+            mein erzherzog für 5 wo<lb break="no" xml:id="uuid_be218e53-2dd3-4251-a236-a072cb8bde74"
+            />chen zuckerkrank geschrieben wurde, die rolle des erzherzogs<lb
+               xml:id="uuid_6f23e107-e819-400c-8f45-48ade4ef6e73"/>selbst übernommen. </p>
+         <p xml:id="uuid_89010d14-f39a-40ee-8a05-e7f4d7fc5a29">
+            <lb xml:id="uuid_f77361d7-0197-4722-9aad-a520cf182af0"/>wenn ich mich überhaupt
+            entschliessen würde, auf grund<lb xml:id="uuid_ebb491e4-a80f-477e-a70b-20b90b340285"
+            />eines juristischen paragraphen etwas nachträglich wieder zu<lb
+               xml:id="uuid_88690fc8-7fa3-421f-ac4f-aecc089de5a9"/>ändern, so könnte es nur das
+            finale des letzten aktes sein,<lb xml:id="uuid_1d770574-ebec-4cc6-a8f2-de6593568735"
+            />das ich, wie Sie aus dem <rs type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-003-000">brief</rs> sehen,
+            ebenfalls nur geän<lb break="no" xml:id="uuid_d6f72b7a-5549-4298-a3e8-92f69ee7e052"
+            />dert habe, um die apotheose auf <rs ref="#9131" type="person">offenbach</rs> nicht zu
+               deutlich<lb xml:id="uuid_a4da0f50-ea4e-478c-845c-2f8191d4e2ec"/>werden zu lassen. </p>
+         <p xml:id="uuid_ec95387f-7ff8-4525-8c58-b9bb78b6cdf5">
+            <lb xml:id="uuid_b7544bdc-9030-4746-92c8-7d98fedfec2a"/>im übrigen habe ich weiter
+                für das <rs ref="#55390" type="work" subtype="pmb">werk</rs> geworben wo ich<lb xml:id="uuid_dc5424b5-b0b3-441a-8d47-9005529ab536"/>konnte und bitte Sie bei
+                dieser gelegenheit, herrn <rs ref="#60393" type="person">zwissler</rs>
+            <lb xml:id="uuid_33e5fc66-ce02-42fd-aa7d-77c26b89e426"/>in <rs ref="#834" type="place">darmstadt</rs> textbuch und eingerichteten klavierauszug zu<lb xml:id="uuid_ce5162c6-b361-4b2f-87a4-890b20e71aa6"/>übersenden, er interessiert
+                sich stark für das <rs ref="#55390" type="work" subtype="pmb">werk</rs>. </p>
+         <p xml:id="uuid_49b9a61a-c212-430b-97c1-534d8818d9b9">
+            <lb xml:id="uuid_66d4bb9e-73a7-44f1-9e61-59946faa4ead"/>für heute mit bestem gruß<lb xml:id="uuid_f90942a6-8d11-4304-9b4d-77b551ebdec5"/><rs ref="#38784" type="person">Schulz-Dornburg</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

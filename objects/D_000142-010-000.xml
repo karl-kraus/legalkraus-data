@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+   xml:id="D_000142-010-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-009-000.xml"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-011-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Klage von Karl Kraus gegen Th. Knaur Nachf. Verlag wegen Veröffentlichung und
+               Zahlung eines Betrages von Mark 10.000</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000142-010-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3849 </idno>
+            <idno type="ID" subtype="transkribus">264359</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000142">Karl Kraus
+               ca. Th. Knaur Nachf. Verlag (Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <ab type="stamp">
+                  <stamp source="#29591"/>
+               </ab>
+            </msDesc>
+            <msDesc>
+               <ab type="stamp">
+                  <stamp source="#29591" xml:id="uuid_1d04d423-373f-459e-a605-35fd00197d5d"/>
+               </ab>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000142-010-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHU">Durchschlag mit
+                        handschriftlichen Überarbeitungen</objectType>
+                     <objectType source="D_000142-010-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHN">Durchschlag mit
+                        handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="D_000142-010-000-wit01" facs="#D_000142-010-000-facs001"/>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date type="sortDate" when-iso="1930-04-29" subtype="produced">29. April 1930</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote xml:id="D_000142-010-000-hand01" source="#D_000142-010-000-wit01"
+               scribeRef="#38909" medium="grey-pencil" cert="low" resp="#IL"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000142-010-000-wit01">Klage</term>
+            </keywords>
+            <classCode source="D_000142-010-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.KLG">D.J.KLG</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-09-02" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-09-02" who="#IL"/>
+         <change type="structure" when-iso="2021-07-27" who="#IL"/>
+         <change type="references" when-iso="2021-07-27" who="#IL"/>
+         <change type="typography" when-iso="2021-09-02" who="#IL"/>
+         <change when-iso="2020-10-08T14:10:23.912Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T14:13:35.266Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 264359. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000142-010-000-facs001">
+      <surfaceGrp xml:id="D_000142-010-000-facs001-l001">
+         <surface xml:id="D_000142-010-000-facs001-l001-p001" type="recto">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559171/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000142-010-000-facs001-l001-p002" type="verso">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559172/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000142-010-000-facs001-l002">
+         <surface xml:id="D_000142-010-000-facs001-l002-p003" type="recto">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559173/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000142-010-000-facs001-l002-p004" type="verso">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559174/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <graphic
+         url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559175/full/full/0/default.jpg"
+         source="wienbibliothek"/>
+      <graphic
+         url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559176/full/full/0/default.jpg"
+         source="wienbibliothek"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000142-010-000_p001" facs="#D_000142-010-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_7673c27a-c1a3-4063-a609-2920942fe851">
+            <lb xml:id="uuid_fb233b42-66ff-4b66-b71e-35fa04c84b0f"/>29. April 1930.<lb
+               xml:id="uuid_764a2758-d1dc-40c5-a576-80454d9b8e4e"/>Dr.S/Fa.</p>
+         <p xml:id="uuid_dec529d2-bc74-408d-a715-3b0d28f6143f">
+            <lb xml:id="uuid_0387dcca-2f8f-4c43-8aa8-af9ae6ceb470"/>An das<lb
+               xml:id="uuid_d82705ce-3ca4-4318-ab82-619f94ab038c"/><rs type="institution"
+               ref="#29591"><hi rend="spaced">Handelsgericht</hi>
+               <lb xml:id="uuid_a683db04-52b8-4bf9-bcac-544925c7100d"/><hi rend="spaced"
+               >Wie</hi>n</rs>. </p>
+         <p xml:id="uuid_003c3bfe-d947-4c00-89ba-ba932801834d">
+            <lb xml:id="uuid_379ecc4a-6809-490d-8e2f-418a68c8723c"/>Klagende Partei: <rs
+               type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl <hi rend="spaced"
+                  >Krau</hi>s</rs>, Schriftsteller in <rs type="place" subtype="address"
+               ref="#50496">Wien<lb xml:id="uuid_78eaf9bb-40ba-4e97-a759-8ecee27e336b"/>III.,
+               Hintere Zollamtsstrasse Nr. 3</rs>,<lb
+               xml:id="uuid_3677cc1d-491c-424d-9689-9a1ae99b69d2"/>durch:</p>
+         <p xml:id="uuid_db372b79-461d-420c-a827-354258292498"><lb
+               xml:id="uuid_da34f67b-de8a-446d-97a4-274d3fd3cb64"/>Beklagte Partei: <rs
+               type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37752">Th. <hi
+                  rend="spaced">Knau</hi>r Nachf. Verlag</rs>, <rs type="place" subtype="address"
+               ref="#58126">Berlin W. 50,<lb xml:id="uuid_daff3145-66be-4122-9797-9f89cbb8b6a6"
+               />Pragerstrasse Nr. 14</rs>.</p>
+         <p xml:id="uuid_1fcc68e7-12f8-4685-8580-5aee7b24200f"><lb
+               xml:id="uuid_7401c5a6-1576-4fa3-9ef7-6691b5988476"/>wegen Veröffentlichung und
+               Zahlung<lb xml:id="uuid_230bd79b-d613-4009-bbbe-321093b0dfa1"/>eines Betrages von
+            Mark 10.000.–– <lb xml:id="uuid_56c3dc6e-abbf-461c-97fc-974634875685"/>Streitwert S
+            16.970.–– </p>
+         <p xml:id="uuid_c2c31a97-00f9-473c-954d-b0f42903a4f3"><lb
+               xml:id="uuid_40505fd1-03ae-4b9d-aa29-7bf8d95bac97"/>2 fach<lb
+               xml:id="uuid_ccd6cb1e-7497-47a5-9f9f-54cb721f05eb"/>1 Rubrik<lb
+               xml:id="uuid_9016e597-dfe8-4319-9e82-1aaf733cad8c"/>1 Vollmacht<lb
+               xml:id="uuid_e3d28c3b-d501-454c-8c64-67dcb0a09883"/>6 Beilagen. </p>
+         <p xml:id="uuid_a69fdc1b-6f58-4f03-a123-e8cdd5ffa900">
+            <lb xml:id="uuid_43cbab5f-133d-45d8-bb72-2aa3adb2d43b"/><hi rend="underlined"><hi
+                  rend="spaced">Klag</hi>e.</hi></p>
+         <pb xml:id="D_000142-010-000_p002" facs="#D_000142-010-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_aeaf7b85-44a5-4235-b901-44df3f94d561">
+            <lb xml:id="uuid_cc43a0b3-448e-4009-92c4-623ae4768b78"/>Die klagende Partei stand mit
+            der <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37752">beklag<lb
+                  xml:id="uuid_3b0a4a21-eaea-466a-9358-6fb1d99b64cb" break="no"/>ten Partei</rs>
+            wegen Veröffentlichung des <rs type="work" subtype="pmb" ref="#32544">Werkes</rs> der
+               <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">klagenden<lb
+                  xml:id="uuid_619d2f40-a2a1-4dd4-8b9b-d92ddd51b510"/>Partei</rs> „<rs type="work"
+               ref="#32544" subtype="pmb">Die letzten Tage der Menschheit</rs>“ in
+               Verlagsvertrags<lb xml:id="uuid_c230a95d-7dcb-4787-8c2f-666ca9dc2da4" break="no"
+            />verhandlungen, die ursprünglich durch Herrn <rs type="person"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/20707">Richard Lanyi</rs>,<lb
+               xml:id="uuid_2673aeb1-8b39-4ee3-938d-8e8a595d69e8"/><rs type="place"
+               subtype="address" ref="#40387">Wien I., Kärtnerstrasse Nr. 44</rs> geführt wurden. Da
+            die brieflichen<lb xml:id="uuid_3dbe9e69-7171-4282-b5b5-c0a55de47331"/>Unterhandlungen
+            nicht genügten, um den Vertrag abzuschliessen,<lb
+               xml:id="uuid_9ad96952-2acb-4045-b7f4-b584ba864559"/>fanden zirka Mitte Jänner 1930
+            zwei Unterredungen zwischen dem<lb xml:id="uuid_e552cbce-4dea-4161-8520-de9a53e148d0"
+            />Gesellschafter der beklagten <rs type="institution"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/37752">Firma</rs>, Herrn <rs type="person"
+               ref="#51570">Droener</rs>, und der<lb
+               xml:id="uuid_7894a9d8-7d9a-4d9e-9f29-2f497ac26fde"/><rs type="person" ref="#11988"
+               >klagenden Partei</rs> statt. Bei der ersten Unterredung waren die<lb
+               xml:id="uuid_92cb8e13-b5b3-4999-a90d-5469c696fef4"/>Grundzüge des abzuschliessenden
+            Vertrages bereits ins Klare ge<lb xml:id="uuid_b990df38-17b4-4710-a1f5-1a10c54c1f7c"
+               break="no"/>bracht worden und bei der zweiten Unterredung am 17. Jänner<lb
+               xml:id="uuid_3829757e-af0a-4bb6-a9a1-543b3af8f4d0"/>1930 hat Herr <rs type="person"
+               ref="#51570">Droener</rs> mit dem ausdrücklichen Hinweis darauf, dass<lb
+               xml:id="uuid_57e31cbe-37b5-44c9-bf77-ea486cab4fc8"/>er nunmehr mit seinen Sozien
+            gesprochen habe, mit dem <rs type="person"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kläger</rs>
+            <lb xml:id="uuid_939ca6cc-703a-4436-8a08-417bb3f487bf"/>einen Verlagsvertrag folgenden
+            Inhaltes geschlossen. </p>
+         <p xml:id="uuid_e563bba5-e18f-4c5e-a6b7-09bf971d2cd3">
+            <lb xml:id="uuid_714478a5-bdaf-4c66-9472-0920fbbc986e"/>Das Werk des <rs type="person"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Klägers</rs> „<rs type="work"
+               ref="#32544" subtype="pmb">Die letzten Tage der<lb
+                  xml:id="uuid_8defb940-bb87-4eac-b824-a4f8881b6c98"/>Menschheit</rs>“ erscheint im
+            Verlage der <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37752"
+               >beklagten Partei</rs> in einer<lb xml:id="uuid_a8986b47-5e2c-4ea9-bd00-7d465dc6b1e2"
+            />Auflagezahl von 100.000 Exemplaren im Herbst 1930. Auf Kosten<lb
+               xml:id="uuid_36018d3a-814a-47d4-8c00-696ce4ae0468"/>des <rs type="institution"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/37752">Verlages</rs> wird ein erklärendes
+            Register angefertigt und hinzu<lb xml:id="uuid_936e1251-fe35-4537-a95d-05e43f10d306"
+               break="no"/>gedruckt werden. Als Honorar dafür waren Mark 10.000.–– verein<lb
+               xml:id="uuid_f99cf901-7dcb-40e5-8af0-dec9036f17f4" break="no"/>bart, die beim
+            Erscheinen des <rs type="work" ref="#32544" subtype="pmb">Werkes</rs> zu bezahlen sind.
+            Die <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37752">be<lb
+                  xml:id="uuid_4e59dcbf-52a0-4abe-b539-7ac7e3674032" break="no"/>klagte Partei</rs>
+            sollte nach Rückkehr des Herrn <rs type="person" ref="#51570">Droener</rs> aus <rs
+               type="place" ref="#45258">München</rs>
+            <lb xml:id="uuid_dc86be79-de7a-45fc-a487-513e8be3ab02"/>eine schriftliche
+            Vertragsausfertigung einsenden und der <rs type="person"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kläger</rs>
+            <lb xml:id="uuid_d200a566-fca7-45a5-a3be-ccaccad5f919"/>ein unmittelbar nach Empfang
+            auszuübendes Rücktrittsrecht haben.<lb
+               xml:id="uuid_6e8b0020-740e-4368-85bd-c8c5ff79fdd2"/>Gegenwärtig beim Abschlusse
+            dieses Vertrages war Herr Direktor<lb xml:id="uuid_ec023031-a562-41f1-9fec-771f16d1b1bd"
+               /><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38133">Heinrich <hi
+                  rend="spaced">Fische</hi>r</rs>, <rs type="place" subtype="address" ref="#52608"
+               >Berlin NW 6, Theater am Schiffbauerdamm,<lb
+                  xml:id="uuid_8a8effa8-ffb3-40d1-a23d-28b26a74f445"/>Schiffbauerdamm 4a</rs>. </p>
+         <p xml:id="uuid_4246d4cb-f9ad-4fcb-8f29-ebc2e64d09db">
+            <lb xml:id="uuid_02363e8d-0b27-4ca1-a777-240282f4a9b6"/>Die <rs type="institution"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/37752">beklagte Partei</rs> bestreitet
+            nunmehr wahr<lb xml:id="uuid_2f9d1236-2815-4033-8efd-768c20c1c0d2" break="no"
+            />heitswidrigerweise den Abschluss des Vertrages. Der <rs type="person"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kläger</rs> er<lb
+               xml:id="uuid_d7a821fa-c544-4725-8e31-64a7631fb050" break="no"/>klärt von seinem
+            Rücktrittsrecht keinen Gebrauch zu machen. </p>
+         <pb xml:id="D_000142-010-000_p003" facs="#D_000142-010-000-facs001-l002-p003" n="3"/>
+         <p xml:id="uuid_89f5d6d3-7394-45a3-b2df-79cfb33b4fe9">
+            <lb xml:id="uuid_22cedd69-edad-4111-b747-4b712991bbf9"/><hi rend="underlined"><hi
+                  rend="spaced">Bewei</hi>s:</hi> Korrespondenz, Direktor <rs type="person"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/38133">Heinrich<lb
+                  xml:id="uuid_7dd4d318-b1be-404a-9952-8423384f055c"/><hi rend="spaced"
+               >Fische</hi>r</rs>, <rs type="place" subtype="address" ref="#52608">Berlin NW 6,
+               Theater am<lb xml:id="uuid_2e844838-7923-4c0e-82ee-5a52ee0d6754"/>Schiffbauerdamm,
+               Schiffbauerdamm 4a</rs>,<lb xml:id="uuid_39715133-fc2b-4531-887b-55cb5eb2cedd"
+            />Parteienvernehmung. </p>
+         <p xml:id="uuid_9acd4dab-f7e5-433c-b48f-d6cd5d23213d">
+            <lb xml:id="uuid_d57f1182-0493-4802-8ce0-99e5f859c12d"/>Die <rs type="institution"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/37752">klagende Partei</rs> stellt durch
+               ihren<lb xml:id="uuid_e1fb04ef-0a35-4e1a-b22e-17997fa33d3c"/>mit beiliegender
+            Vollmacht ausgewiesenen <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38909"
+               >Anwalt</rs> das Begehren<lb xml:id="uuid_a610932b-bc00-4fbb-86b7-1783277a4e0d"/>auf
+            Fällung des<lb xml:id="uuid_7cd1a54d-c972-440f-8aa1-4e2443286277"/><hi rend="spaced"
+               >Urteil</hi>s:<lb xml:id="uuid_bf328756-6e0a-4e58-8f9a-1ea9e8cbf8de"/>die <rs
+               type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37752">beklagte
+               Partei</rs> ist schuldig, im Herbst 1930 das Werk<lb
+               xml:id="uuid_e40335a3-33f3-472f-a673-3d677e0f7415"/>der <rs type="person"
+               ref="#11988">klagenden Partei</rs> „<rs type="work" ref="#32544" subtype="pmb">Die
+               letzten Tage der Menschheit</rs>“ in<lb
+               xml:id="uuid_6e273dcd-b307-4161-9d29-a3a9c85ae87c"/>ihrem <rs type="institution"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/37752">Verlag</rs> erscheinen zu lassen und
+            den Betrag von Mark<lb xml:id="uuid_2c82fbc3-f6f7-4298-ba5a-c34673f3e7f9"/>10.000.– am
+            1. Oktober 1930 zu bezahlen und die Prozesskosten<lb
+               xml:id="uuid_5eeeaf04-c4f0-44bc-8178-8d41dfaf6778"/>zu ersetzen, letztere binnen 14
+            Tagen, alles bei sonstiger<lb xml:id="uuid_80053139-ea4e-43f9-962a-261a1265c163"
+            />Zwangsvollstreckung.</p>
+         <p xml:id="uuid_f1253bb3-b718-4bc7-86d9-15058a46196b">
+            <lb xml:id="uuid_e9013861-d222-44fe-98a2-1b3dadd1e214"/>Die Zuständigkeit des <rs
+               type="institution" ref="#29591">Wiener Gerichtes</rs>
+            <lb xml:id="uuid_4c749c1e-b9d6-4cdc-9dd8-34100d69bf04"/>gründet sich auf <rs type="law"
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1895&amp;page=386&amp;size=45"
+               >§ 99 J.N.</rs> Die <rs type="institution"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/37752">beklagte Partei</rs> hat bei ihrer<lb
+               xml:id="uuid_43318891-3f46-4936-980b-be2d23c9e89f"/>Wiener Auslieferungsstelle der
+               <rs type="institution" ref="#58252">Firma Leopold <hi rend="spaced"
+               >Heidric</hi>h</rs>,<lb xml:id="uuid_ecc2e9aa-6424-4522-96a0-e3a86f1d1765"
+            />Buchhandlung, Verlag und Auslieferungsstelle <rs type="place" subtype="address"
+               ref="#45381">Wien I., Spiegel<lb xml:id="uuid_a04dab12-6d66-4f00-991a-2fd6c7b1011f"
+                  break="no"/>gasse 21</rs> ein grösseres Guthaben. </p>
+         <p xml:id="uuid_dd4eba1b-bbda-4339-a9f6-1223636147c5">
+            <lb xml:id="uuid_cc807b96-fde1-4d0b-95e6-0e84b8dc5975"/><rs type="person"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl <hi rend="spaced"
+            >Krau</hi>s</rs>. </p>
+         <pb xml:id="D_000142-010-000_p004" facs="#D_000142-010-000-facs001-l002-p004" n="4"/>
+         <p xml:id="uuid_679649ce-7a68-453e-b3e6-67f38a1dc920">
+            <lb xml:id="uuid_a5312063-4bda-40b9-93c8-79653da292be"/><note type="paratext"
+               resp="law-firm"><rs type="person" ref="#11988">Kraus</rs> – <rs type="institution"
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/37752">Knaur<lb
+                     xml:id="uuid_212f727d-a087-43cb-9bb4-07e0775db41b"/>Verlag</rs></note>
+         </p>
+      </body>
+   </text>
+</TEI>

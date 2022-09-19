@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000030-003-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000030-001-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000030-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Josef Schornstein (Mährisch-Ostrau)</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000030-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/1954</idno>
+            <idno subtype="transkribus" type="ID">186509</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000030" type="collection">Karl Kraus
+               ca. Otto Tramer</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000030-002-000-facs001" xml:id="D_000030-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000030-002-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL"
+                        >Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1925-06-17">17. Juni 1925</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1925-06-17">17. Juni 1925</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#43654">Wohlgeb. | Herrn Dr. Josef Schornstein | Advokat</persName>
+               <address>
+                  <street corresp="#52168">Masarykplatz 32</street>
+                  <settlement ref="#41075">Mährisch – Ostrau</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Tramer</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000030-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000030-002-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2022-01-11" who="#IL"/>
+         <change type="structure" when-iso="2020-11-18" who="#IL"/>
+         <change type="references" when-iso="2020-11-22" who="#IL"/>
+         <change type="typography" when-iso="2022-01-11" who="#IL"/>
+         <change when-iso="2020-02-06T09:52:28.638Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-10T10:58:22.845Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T10:58:27.431Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T10:58:29.294Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T10:58:30.669Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 186509. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000030-002-000-facs001">
+      <surfaceGrp xml:id="D_000030-002-000-facs001-l001">
+         <surface type="recto" xml:id="D_000030-002-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked" source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548054/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000030-002-000-facs001-l001-p002">
+            
+            <graphic ana="status:checked" source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548056/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000030-002-000-facs001-l002">
+         <surface type="recto" xml:id="D_000030-002-000-facs001-l002-p003">
+            
+            <graphic ana="status:checked" source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548057/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000030-002-000-facs001-l002-p004">
+            
+            <graphic ana="status:checked" source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548058/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <p xml:id="uuid_c19fa36c-f6e6-4445-9148-87fa3b37d163">
+            <pb xml:id="D_000030-002-000_p001" facs="#D_000030-002-000-facs001-l001-p001" n="1"/>
+         </p>
+         <p xml:id="uuid_a2fa9418-7dc3-4edb-a715-2a84a06b74d2">
+            <lb xml:id="uuid_420ae38b-86ee-4a59-8715-2fd47fc02b59"/>Lieber <rs ref="#43654"
+               type="person">Freund und Kollege</rs>! </p>
+         <p xml:id="uuid_8d8867e6-aff3-4855-9940-e216585d78be">
+            <lb xml:id="uuid_0377d80b-e02a-4536-a89d-eb4c749b6f35"/>Ein Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/43594" type="person">Otto Tramer</rs>,
+            Abiturient der deutschen <rs ref="#52101" type="institution">Staats<lb break="no"
+                  xml:id="uuid_6a8234a1-cfdd-474e-8838-cf8a0490c38d"/>realschule
+               Mährisch-Ostrau</rs>, <rs ref="#52170" type="place">Miličgasse 3</rs>, hatte die
+               wahrscheinlich<lb xml:id="uuid_ddbd24b4-ede6-4924-9d55-0ab576cdf226"/>seinem
+            jugendlichen Unverständnis zuzuschreibende Unverfrorenheit<lb
+               xml:id="uuid_2639950c-9082-4211-b548-0e9c2e1c749e"/>an Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> das <rs
+               type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000030-001-000.xml">beiliegende
+               Schreiben</rs> zu richten, von dem<lb
+               xml:id="uuid_319c1925-e7ba-440d-ae44-6d9824634eff"/>ich Dir auch eine Abschrift
+            anschliesse. Dir als eifrigen Leser<lb
+               xml:id="uuid_77e7db83-a8b5-42c3-9e59-2d576ffab8df"/>der <rs ref="#41244" type="work"
+               subtype="pmb">Fackel</rs> brauche ich wohl nicht die Aufklärung zu geben, dass<lb
+               xml:id="uuid_0f77db28-9183-4e0a-b65d-80c2440a2bee"/>er die auf Seite <rs
+               ref="https://fackel.oeaw.ac.at/f/686,0u1" type="work" subtype="fackel">26 des
+               beiliegenden Heftes der „Fackel“ vom<lb
+                  xml:id="uuid_9c0c6700-1ee3-4ba9-9438-7663bc63bce3"/>Mai 1925 Nr. 686–690</rs>
+            enthaltene Glosse absolut nicht verstanden<lb
+               xml:id="uuid_425abc8f-4e43-407f-b96c-edc89f6a38cd"/>hat. Während sich die <rs
+               ref="https://fackel.oeaw.ac.at/f/686,026" type="work" subtype="fackel">Glosse</rs>
+            gegen das Phrasenhafte des in der<lb xml:id="uuid_c5061e96-336f-4dee-a95c-fa4ae6f3e2a1"
+               />„<rs ref="#52120" type="work" subtype="pmb">Musik</rs>“ erschienen <rs ref="#52123"
+               type="work" subtype="pmb">Artikels</rs> wendet, insbes. gegen die bereits im<lb
+               xml:id="uuid_1c5851d8-385e-479b-84d9-7fcd047c00e8"/>Kriege bis zum Ueberdrusse
+            abgedroschenen Worte vom „Ausbauen und<lb
+               xml:id="uuid_e2e6ba07-9783-4738-abe6-51ce9ac283c3"/>Vertiefen“, scheint Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/43594" type="person">Tramer</rs> dies für
+            eine politische Glosse<lb xml:id="uuid_092301f0-b630-46fd-8b20-b85e48032426"/>gehalten
+            zu haben. Jedenfalls hat die Verwendung dieser Worte<lb
+               xml:id="uuid_e97b4512-0416-407c-bd46-113999bc973b"/>mit dem sachlichen Gehalte dieser
+            Worte gar nichts zu tun und<lb xml:id="uuid_6ad0c350-f65f-4604-bdde-3c964484361c"/>auf
+            keinen Fall war Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43594" type="person"
+               >Tramer</rs> berechtigt einen derart unfer<lb break="no"
+               xml:id="uuid_3e066656-eb0a-4563-a268-b6c78df4e0f8"/>froreren und unberechtigten Brief
+            an <rs type="person" ref="#11988">Herrn Kraus</rs> zu senden. Ich<lb
+               xml:id="uuid_103952fc-72ca-4fd8-bfd7-08fc138390ac"/>ersuche Dich nun gegen Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/43594" type="person">Otto Tramer</rs> wegen
+            des Inhaltes die<lb break="no" xml:id="uuid_28f04386-0316-49c4-8df4-e5ca90acb5ba"/>ses
+               <rs type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000030-001-000.xml">Briefes</rs>, insb.
+            wegen der Ausdrücke „<quote
+               source="https://legalkraus.acdh.oeaw.ac.at/id/D_000030-001-000"
+               xml:id="uuid_41c0c1e3-7d66-491e-99c2-efba94936b87">da wir sonst zwei von<lb
+                  xml:id="uuid_7fbdf4cb-abdd-4c1f-8d62-621e2e93dd0c"/>Ihrer Sorte hätten</quote>“
+            und „<quote source="https://legalkraus.acdh.oeaw.ac.at/id/D_000030-001-000"
+               xml:id="uuid_7a82910c-4513-45b3-a5db-25121e5fabce">hätte eine hervorragende Vorlage
+                  für<lb xml:id="uuid_b57a3e29-2e61-405b-854d-f5ddd769fc11"/>den ‚Schmock‘ in seinen
+                  ‚<rs type="work" subtype="pmb" ref="#31729">Journalisten</rs>‘ gehabt</quote>“ und
+            auch wegen der<lb xml:id="uuid_f94e57ef-ec59-40ba-8b98-629a4cce9d64"/>anderen
+            beleidigenden Aeusserungen die Ehrenkränkungsklage ein- <pb
+               xml:id="D_000030-002-000_p002" facs="#D_000030-002-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_426b2de8-3c76-4bff-8327-bb82cde05b91"/>zubringen. Da möglicherweise der
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43594" type="person">Referent</rs> nicht
+            über Herrn <rs ref="#11988" type="person">Karl<lb
+                  xml:id="uuid_f645474b-7379-48eb-aacf-b7fc99fb7f6a"/>Kraus</rs> orientiert sein
+            könnte und es bei einer Ehrenkränkung nicht<lb
+               xml:id="uuid_dc8a8fa9-2bcf-41e9-9676-4b511c1dd7c7"/>nur auf den Inhalt der
+            Beleidigung, sondern auch auf den Beleidig<lb break="no"
+               xml:id="uuid_cdca9aba-d0aa-47eb-a150-fba53263adec"/>ten selbst ankommt, lege ich
+            einen <rs type="work">Artikel</rs> der offiziellen <rs ref="#63247" type="work"
+               subtype="pmb">Prager<lb xml:id="uuid_e9bf1508-ed29-42d9-835d-4f581b03c597"/>Presse
+               vom 29. Mai 1925</rs> Seite 4 vor, der den <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/43594" type="person">Referenten</rs>
+               vollstän<lb break="no" xml:id="uuid_8236004a-f230-4666-a867-da2b58de2e9b"/>dig
+            orientieren wird. </p>
+         <p xml:id="uuid_b7eae699-b8df-41e1-89b2-85e5a3841825">
+            <lb xml:id="uuid_2f47ab6e-a597-472a-b62f-4f050f98c9a8"/>Da Du wahrscheinlich Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/43594" type="person">Otto Tramer</rs>
+            persönlich kennen<lb xml:id="uuid_96d594a3-ff97-44bf-8d17-899b91b8c034"/>wirst und doch
+            die Möglichkeit besteht, dass der <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000030-001-000.xml" type="work"
+               subtype="legal-doc">Brief</rs> nicht aus<lb
+               xml:id="uuid_6b7d82fb-1bf5-4589-a5d5-07dd98183cd2"/>politischer Gehässigkeit, sondern
+            aus Unverstand geschrieben wur<lb break="no"
+               xml:id="uuid_36645f1d-8c20-4d0e-8054-c86e42994a53"/>de, so überlasse ich es Deinem
+            Ermessen, Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43594" type="person">Otto
+               Tramer</rs> vorzu<lb break="no" xml:id="uuid_3f0bbc5a-314c-4df1-b3c5-8d0df7ce1f22"
+            />laden und die Sache auf sich beruhen zu lassen, wenn er ein ent<lb
+               xml:id="uuid_d6a91863-03dd-4774-b949-0f26073ae4f2" break="no"/>sprechendes
+            Entschuldigungsschreiben an Herrn <rs ref="#11988" type="person">Kraus</rs> richtet,
+               über<lb break="no" xml:id="uuid_be157131-e576-4fe5-b1ca-ea1bbd2e5908"/>dies die
+            gesamten Kosten und für einen wohltätigen Zweck einen<lb
+               xml:id="uuid_20ac8679-b5e5-4d60-9cdb-388be9af254f"/>angemessenen Betrag bezahlt.
+            Sollte es sich aber bei Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43594"
+               type="person">Otto<lb xml:id="uuid_4ae1bb12-c60c-4304-9526-914dfb693e3a"/>Tramer</rs>
+            um einen Hackenkreuzler handeln, so bitte auf keinen Aus<lb break="no"
+               xml:id="uuid_d92469d6-1c08-4373-8d8d-1e2460b1629c"/>gleich einzugehen, sondern auf
+            die Bestrafung zu dringen.<lb xml:id="uuid_496aa7a3-4bbd-4374-ad4b-0d0479aa942e"/>Nach
+            Abschluss der Angelegenheit bitte ich um Retournierung<lb
+               xml:id="uuid_08e05190-634c-4878-9806-6d0d3c323e58"/>des <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000030-001-000.xml" type="work"
+               subtype="legal-doc">Originalbriefes</rs>. </p>
+         <p xml:id="uuid_36b8bb47-1d34-4e32-a8b5-a8a5165218b3">
+            <lb xml:id="uuid_4d0051db-d220-4a94-8a77-a6de16929fb6"/>Obwohl dies nicht ganz den
+            Gesetzen der Höflichkeit ent<lb break="no"
+               xml:id="uuid_38ccc871-547d-4e33-bddb-900e2b759482"/>spricht, erlaube ich mir diesem
+            beruflichen Schreiben ein paar<lb xml:id="uuid_887b0d88-1a92-4f91-832b-373dd69a3d6c"
+            />private Worte anzuschliessen und mich nach dem Befinden Deiner<lb
+               xml:id="uuid_52b6b054-2fc5-4465-abaf-5ddc3078000e"/><rs ref="#52173" type="person"
+               >Frau</rs>, <rs type="person">Schwiegermutter</rs> und <rs type="person"
+               >Schwägerin</rs> und auch nach Deinem Befinden<lb
+               xml:id="uuid_cb07c90d-aed1-420b-b4e8-802c218fe881"/>zu erkundigen. Leider war es mir,
+            wie Du Dir ja denken kannst, zu<lb xml:id="uuid_01ec5b2e-f65e-4f5f-848b-66a9ca99c013"
+            />meinem grösstem Bedauern nicht mehr möglich, den Juni dazu zu be<lb break="no"
+               xml:id="uuid_bdf4c5f3-e86c-4065-ae74-f98b320fedb4"/>nützen um den lange versprochenen
+            und von mir so sehr gewünschten<lb xml:id="uuid_97a06bc3-b794-41d0-b5ea-184011b3e7de"
+            />Besuch abzustatten. Ich hoffe aber im Herbst das Versäumte gutmachen<lb
+               xml:id="uuid_8ac71ac5-610e-4983-be3b-0ec770126ee9"/>zu können. Ich werde anfangs Juli
+            auf Urlaub gehen, leider nur einen <pb xml:id="D_000030-002-000_p003"
+               facs="#D_000030-002-000-facs001-l002-p003" n="3"/>
+            <lb xml:id="uuid_76673e01-d431-42fe-8bf7-15d4fe529501"/>kurzen Urlaub haben können und
+            hoffe dann die paar Tage<lb xml:id="uuid_7698b4e1-e837-4740-9da7-355e2fed28b7"/>in <rs
+               ref="#41075" type="place">Mährisch-Ostrau</rs> als eine Ergänzung des Urlaubs
+               betrachten<lb xml:id="uuid_c170a61f-b59b-45c5-8e32-65a416d37929"/>und damit alles
+            gutmachen zu können. </p>
+         <p xml:id="uuid_3769eae5-3b61-4127-8283-00c396415e25">
+            <lb xml:id="uuid_1ed433a3-efdb-4e5f-bdbb-28fc5bca961c"/>Mit besten Grüssen an Euch alle
+            bin ich Dein<lb xml:id="uuid_55530433-c34a-4aca-8f5d-8ed9528a66b6"/>ergebener <rs
+               ref="#38909" type="person">Freund und Kollege</rs>
+         </p>
+         <p xml:id="uuid_b9bc89e7-2148-4f5e-87a0-fdd7f01589bc">
+            <lb xml:id="uuid_89ad5489-6654-4e25-bae2-8a3f2b691053"/>rekomm. <lb
+               xml:id="uuid_c6f06a66-53d5-49ee-a275-d300db5bb47a"/>4 Beilagen.</p>
+         <pb xml:id="D_000030-002-000_p004" facs="#D_000030-002-000-facs001-l002-p004" n="4"/>
+         <p xml:id="uuid_2ae0d0e8-da2f-4a37-8ea9-658c64edacd9">
+            <note resp="law-firm" type="paratext">
+               <lb xml:id="uuid_b10a055d-a1a7-4476-b95d-1b06edd9a7b9"/><note resp="law-firm"
+                  type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs
+                     ref="https://pmb.acdh.oeaw.ac.at/entity/43594" type="person">Tramer</rs>.<lb
+                     xml:id="uuid_cd7c10f9-56d7-4f3f-a5b2-dbb77326ec35"/>17.VI.25. </note>
+            </note>
+         </p>
+      </body>
+   </text>
+</TEI>

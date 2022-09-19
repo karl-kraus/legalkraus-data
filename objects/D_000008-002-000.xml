@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000008-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000008-001-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000008-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Verlag Die Fackel an die Direktion der Neuen Wiener Bühne</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000008-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1593</idno>
+            <idno subtype="transkribus" type="ID">380510</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000008" type="collection">Karl
+                    Kraus ca. Neue Wiener Bühne</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000008-002-000-facs001" xml:id="D_000008-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000008-002-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#43724"/>
+               <address>
+                  <street corresp="#50496"/>
+                  <settlement ref="#53"/>
+               </address>
+               <date when-iso="1923-06-02">2. Juni 1923</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#7399">die Direktion der Neuen Wiener Bühne</persName>
+               <address>
+                  <street corresp="#50681">Wasagasse 33</street>
+                  <settlement ref="#59">Wien IX.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1923-06-02">2. Juni 1923</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000008-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000008-002-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-09-30" who="#JK"/>
+         <change type="typography" when-iso="2021-09-30" who="#JK"/>
+         <change type="references" when-iso="2021-09-30" who="#JK"/>
+         <change type="structure" when-iso="2021-09-30" who="#JK"/>
+         <change when-iso="2020-02-04T10:47:24.143Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-04T10:52:20.526Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 380510. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000008-002-000-facs001">
+      <surfaceGrp xml:id="D_000008-002-000-facs001-l001">
+         <surface type="recto" xml:id="D_000008-002-000-facs001-l001-p001">
+            
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540290/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000008-002-000_p001"
+             facs="#D_000008-002-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_615823b4-05b3-465b-aa6e-b13684622f95">
+            <lb xml:id="uuid_cd00d32d-0ae9-4b5b-8fd8-88a184fe5edd"/>Sehr geehrte <rs ref="#7399" type="person">Direktion</rs>! </p>
+         <p xml:id="uuid_e400ab9c-9c47-4532-a8cf-bf4e98e2f61f">
+            <lb xml:id="uuid_f2a3c283-2272-476e-8bb9-3c54b2a25c3c"/>Wir haben auf unser <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000008-001-000"
+                type="work"
+                subtype="legal-doc">Schreiben vom 22. Mai</rs> bis heute keine<lb xml:id="uuid_a98868ff-1277-48c8-8d9d-6e18823fb4dd"/>Antwort erhalten und da wir
+                nicht annehmen können, dass Sie unsere<lb xml:id="uuid_eafec08c-7644-418b-8522-0058d183944c"/>Anfrage durch
+                Nichtbeantwortung für erledigt halten, so vermuten<lb xml:id="uuid_f54858b4-db10-41ed-adc1-a8d1c7c63a8f"/>wir, dass entweder <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000008-001-000"
+                type="work"
+                subtype="legal-doc">unser Schreiben</rs> oder Ihre Antwort verloren<lb xml:id="uuid_77c5c940-3f81-46fa-be6e-245e5eee4a7c"/>gegangen ist. Wir ersuchen
+                Sie um eine Mitteilung hierüber oder<lb xml:id="uuid_10dac49e-bd65-4d7b-a7dd-6ec791dd55bc"/>wenn unsere Vermutung nicht
+                zutrifft, um gf. <hi rend="underlined">umgehende</hi> Beantwor<lb break="no" xml:id="uuid_e53327aa-1ba0-4d24-a373-f086007e2d65"/>tung <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000008-001-000"
+                type="work"
+                subtype="legal-doc">unseres Schreibens</rs>, da wir den Ausweis der Spenden in
+                    den<lb xml:id="uuid_58c94ec5-d581-484e-a8f4-6318a229dcff"/>allernächsten Tagen
+                zum Abschluss bringen müssen. </p>
+         <p xml:id="uuid_b22c05fd-36e1-41fa-8570-42e87055ba5c">
+            <lb xml:id="uuid_8d2ddd2f-a1cb-4917-89e8-829720ab885d"/>In vorzüglicher Hochachtung
+            </p>
+      </body>
+   </text>
+</TEI>

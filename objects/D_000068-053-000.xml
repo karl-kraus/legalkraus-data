@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-054-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-052-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000068-053-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Kraus an das Landesgericht für Strafsachen I Wien</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000068-053-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-kraus-das-landesgericht-fuer-strafsachen-i-wien </idno>
+            <idno subtype="transkribus" type="ID">205534</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000068" type="collection">Karl
+                    Kraus ca. Alfred Kerr</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000068-053-000-facs001" xml:id="D_000068-053-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <ab type="stamp">
+                  <stamp source="#36842" xml:id="uuid_6bdaea04-4fcb-4235-a2d1-f02ef05996d0"/>
+               </ab>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000068-053-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#11988">Karl Kraus, | Schriftsteller</persName>
+               <address>
+                  <street corresp="#50496">Hintere Zollamtsstrasse 3</street>
+                  <settlement ref="#53">Wien III.</settlement>
+               </address>
+               <date when-iso="1927-10-11">11. Okt. 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#36842">Landesgericht für Strafsachen I
+                        | Abteilung IV</orgName>
+               <address>
+                  <street corresp=""/> 
+                  <settlement ref="#50">Wien</settlement>
+               </address>
+               <date when-iso="1927-10-12">12. OKT. 1927</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-10-11">11. Oktober 1927
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000068-053-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000068-053-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" status="draft" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" status="draft" when-iso="2021-09-13">Replaced Text with Transcription
+                of Transkribus Document 205534. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2021-12-17"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-12-17" who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-12-17"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-12-17"
+                 who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-12-17"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000068-053-000-facs001">
+      <surfaceGrp xml:id="D_000068-053-000-facs001-l001">
+         <surface type="recto" xml:id="D_000068-053-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552588/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-053-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552589/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000068-053-000_p001" facs="#D_000068-053-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_8ee6336b-a10e-4e30-86f5-ed1101da9cfd">
+            <lb xml:id="uuid_b0123aa8-f1cd-45c4-a713-dcb9f8029311"/>An das<lb
+               xml:id="uuid_5d3fd215-e37f-4d14-b873-45a67671290d"/><rs type="institution"
+               ref="#36842"><hi rend="spaced">Landesgerich</hi>t für <hi rend="spaced"
+                  >Strafsache</hi>n I</rs>
+            <lb xml:id="uuid_eb497e48-4d62-40fe-98f0-49b3bc5c6d0f"/>Abteilung IV<lb
+               xml:id="uuid_9c92f4da-dd7a-410d-8693-b9d98219c0ea"/><rs type="place" ref="#50"><hi
+                  rend="spaced">Wie</hi>n</rs>.</p>
+         <p xml:id="uuid_e4ce587d-f64c-402d-a501-a4c4acd7e68e">
+            <lb xml:id="uuid_d214f718-f5c5-43aa-b3bb-a12691c47149"/><rs type="person" ref="#11988"
+                  ><hi rend="spaced">Karl Krau</hi>s</rs>,<lb
+               xml:id="uuid_18725783-27b1-4d08-a476-498649e75ceb"/>Schriftsteller<lb
+               xml:id="uuid_d904df57-2272-424e-a0df-99a1410d3001"/><rs type="place"
+               subtype="address" ref="#50496">Wien III., Hintere Zollamtsstrasse 3</rs>.<lb
+               xml:id="uuid_183f233c-6304-43d9-b1fb-359f62cf13cd"/>durch: </p>
+         <p xml:id="uuid_c279d9ae-8e93-459f-bcc6-b7c10b2a6c4d">
+            <lb xml:id="uuid_4984afa2-9686-4cf3-ba9f-10b525cdf22c"/>1 fach<lb
+               xml:id="uuid_57e0e796-e52a-4aa2-beb2-339334783fb9"/>1 Vollmacht </p>
+         <p xml:id="uuid_5f9dee2d-7431-48c8-85d0-dd40bf1b5157">
+            <lb xml:id="uuid_82ab282a-b61e-47ab-84e1-8ed4d3704045"/><hi rend="underlined">Bittet um
+               Urteilsabschrift.</hi>
+            <pb xml:id="D_000068-053-000_p002" facs="#D_000068-053-000-facs001-l001-p002" n="2"/>
+         </p>
+         <p xml:id="uuid_a08435d2-3201-4eca-8f56-ab1ce1f0cc9c">
+            <lb xml:id="uuid_1a7e1330-044b-4675-9441-c9f11c3e3ad1"/>Ich wurde im Jahre 1901 in der
+               Rechtssache<lb xml:id="uuid_72b17826-d01f-4b51-ae30-76b71b2fcd4e"/><rs ref="#10815"
+               type="person">Hermann Bahr</rs> gegen mich G.Z. VII 194/00 Rote Zahl 2525<lb
+               xml:id="uuid_a4d65ba0-a896-431f-ba44-e3aca3fd97a9"/>wegen Ehrenbeleidigung begangen
+            durch die Presse, zu K 1.800.–<lb xml:id="uuid_38eabeb7-2d73-4146-bae2-40c1a75e8135"
+            />Geldstrafe verurteilt. In einem Beleidigungsprozesse, den ich<lb
+               xml:id="uuid_8c1237af-0731-4acb-b53c-04acaf56adee"/>gegen den Schriftsteller <rs
+               ref="#11910" type="person">Kerr</rs> in <rs ref="#168" type="place">Berlin</rs>
+            fahre, hat dieser be<lb break="no" xml:id="uuid_40ec61ac-c423-4b52-a847-60eb74e9aefc"
+            />hauptet, dass ich wegen verleumderischer Beleidigung verurteilt<lb
+               xml:id="uuid_331fa6e0-e0b6-4049-8d37-b0236a3c405c"/>wurde. Ich benötige daher
+            dringend eine Urteilsabschrift, aus<lb
+               xml:id="uuid_876a0388-5ed8-49de-8924-51c94861e138"/>deren Begründung bezüglich der
+            Strafe hervorgehen muss, dass<lb xml:id="uuid_27865f6e-335b-403a-8ba9-ded6e305b76c"
+            />zwar der Wahrheitsbeweis nicht als erbracht angesehen wurde,<lb
+               xml:id="uuid_e654e049-2556-49c1-ba48-56e16b094386"/>dass aber bei dem Strafausmasse
+            der gute Glauben, in welchem<lb xml:id="uuid_323cc724-e506-4bb4-bde5-f1d0dc438b29"/>ich
+            mich befunden habe, berücksichtigt wurde. </p>
+         <p xml:id="uuid_bd9bc08c-d0ec-4924-bd12-a07a99e88770">
+            <lb xml:id="uuid_880fdc61-24ae-4b90-ba5b-196fd8217be1"/>Ich stelle daher die </p>
+         <p xml:id="uuid_0e2a9fb3-2176-4432-a0eb-e2c2562210a1">
+            <lb xml:id="uuid_6184feb4-0dc5-4035-b849-9686d5c04bbd"/><hi rend="spaced">Bitt</hi>e: </p>
+         <p xml:id="uuid_77912e3b-d353-45d6-958f-3f5c34693f6b">
+            <lb xml:id="uuid_c8730c8f-a5b7-4af0-8984-76cbc0b59603"/>mir dringendst eine Abschrift
+            des Urteiles zu Handen meines<lb xml:id="uuid_7465ef5a-0f92-4e1b-9a1f-90541f768834"
+            />ausgewiesenen Anwaltes <rs ref="#38909" type="person">Dr. Oskar <hi rend="spaced"
+                  >Same</hi>k</rs>, Rechtsanwalt in<lb
+               xml:id="uuid_5e231623-c7e1-47da-b01f-3e0a112feb3e"/><rs ref="#50493"
+               subtype="address" type="place">Wien I., Schottenring Nr. 14</rs> zuzustellen. </p>
+         <p xml:id="uuid_72647bcf-ddaa-4312-8a8a-638ca8805e93">
+            <lb xml:id="uuid_f16ba831-9ca2-47b6-9b37-7719f47c103d"/><rs ref="#11988" type="person"
+               >Karl <hi rend="spaced">Krau</hi>s</rs>. </p>
+         <p xml:id="uuid_6ad85483-ff2a-461a-bf22-67f42966f85c">
+            <lb xml:id="uuid_4654f992-1207-4fd6-a66d-31e24c420de5"/><note resp="law-firm"
+               type="paratext">– <rs ref="#11910" type="person">Kerr</rs></note>
+         </p>
+         <lb xml:id="uuid_1134e936-606d-4533-b3d9-1c5ee507448e"/>
+         <note resp="law-firm" type="paratext">exp. am 11. Okt. 1927.</note>
+      </body>
+   </text>
+</TEI>

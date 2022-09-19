@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-072-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-070-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000068-071-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Justizrat Viktor Fraenkl an Samek</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000068-071-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-justizrat-viktor-fraenkl-samek-17 </idno>
+            <idno subtype="transkribus" type="ID">207911</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000068" type="collection">Karl
+                    Kraus ca. Alfred Kerr</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000068-071-000-facs001" xml:id="D_000068-071-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000068-071-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38141">Justizrat Victor Fraenkl</persName>
+               <address>
+                  <street corresp="#362">Potsdamer Str. 86b</street>
+                  <settlement ref="#168">BERLIN W. 57</settlement>
+               </address>
+               <date when-iso="1927-12-30">30. Dezember 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn Rechtsanwalt Dr. O. Samek </persName>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#50">Wien</settlement>
+               </address>
+               <date when-iso="1928-01-02">2. Jan. 1928</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-12-30">30. Dezember 1927
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000068-071-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000068-071-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" status="draft" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" status="draft" when-iso="2021-09-13">Replaced Text with Transcription
+                of Transkribus Document 207911. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2022-01-03"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-01-03" who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2022-01-03"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2022-01-03"
+                 who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2022-01-03"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000068-071-000-facs001">
+      <surfaceGrp xml:id="D_000068-071-000-facs001-l001">
+         <surface type="recto" xml:id="D_000068-071-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552830/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-071-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552831/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000068-071-000_p001"
+             facs="#D_000068-071-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_bca9634f-5753-46df-80a6-a0b24f9f4aa6">
+            <lb xml:id="uuid_8afc8671-5e6c-4016-9fb0-284770e33519"/>Sehr geehrter <rs ref="#38909" type="person">Herr College</rs>, </p>
+         <p xml:id="uuid_5fa3b34e-4ba2-4dce-b604-f1b29d066423">
+            <lb xml:id="uuid_25fb1f04-da8f-485d-a390-aeb6ef71c249"/>in der Privatklagesache <rs
+               ref="#11988" type="person">Kraus</rs> gegen <rs ref="#11910" type="person">Kerr</rs>
+            ist laut gerichtlicher<lb xml:id="uuid_e90691e8-49c3-4449-957c-2dca4a95698a"/>Nachricht
+            der Termin wieder verlegt worden, und zwar auf den 2.<lb
+               xml:id="uuid_dcf42e4e-0659-468d-b454-83e903ed3cc1"/>Februar.</p>
+         <p xml:id="uuid_9f1a2743-15b9-45f6-bb07-f425c4467bc6"><lb
+               xml:id="uuid_dd405da2-bee7-457e-9d6f-92fc3ea557ad"/>Was die etwaige Gestaltung eines
+            Vergleichs anlangt, so kann ich,<lb xml:id="uuid_d5498e70-349f-47f1-8733-fccbd295cedd"
+            />da auch Widerklage erhoben ist, mir vorläufig einen solchen nur<lb
+               xml:id="uuid_664728d8-4fcf-455e-b3ac-56d454451a9f"/>derartig denken, dass bei
+            Kostenteilung Klage und Widerklage ohne<lb
+               xml:id="uuid_71d58fc5-6bfa-46bc-976a-8449ba75bbfc"/>Publikationsverpflichtungen
+            zurückgenommen werden. Ob die <rs ref="#11910" type="person">Gegenseite</rs>
+            <lb xml:id="uuid_f18709f8-af6b-4b6c-93a5-1510b39c64d8"/>einem Vergleich überhaupt
+            geneigt wäre, ist mir unbekannt. </p>
+         <p xml:id="uuid_e73cf460-863c-4c11-991c-3ddc630450ae">
+            <lb xml:id="uuid_366578e6-355f-4f70-b58b-d7d22aabd0b8"/>Mit kollegialer Hochachtung<lb
+               xml:id="uuid_445975c0-40c6-4e28-8a59-1e658a7369dc"/><rs ref="#38141" type="person"
+               >Victor Fraenkl</rs>
+            <pb xml:id="D_000068-071-000_p002" facs="#D_000068-071-000-facs001-l001-p002" n="2"
+            /></p>
+         <p xml:id="uuid_82811985-57c1-4e8f-ba3a-5ae4f9d531b2">
+            <lb xml:id="uuid_513918bb-b42d-4e71-bf0c-f8eff1f42985"/><note resp="law-firm"
+               type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#11910"
+                  type="person">Kerr</rs><lb xml:id="uuid_6355f7e6-762b-491f-bd15-64d3903f9ce7"/>2.
+               Jan 1928</note></p>
+      </body>
+   </text>
+</TEI>

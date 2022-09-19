@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-037-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-035-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000173-036-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Universal-Edition an Buchhandlung Richard Lanyi</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000173-036-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/4301</idno>
+            <idno subtype="transkribus" type="ID">312412</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000173" type="collection"
+               >Briefwechsel zwischen dem Verlag Die Fackel, dem Verlag Universal Edition und dem
+               Deutschen Theater Prag bezüglich Aufführungen von Offenbachstücken in der Kraus’schen
+               Bearbeitung und Verlagsproblemen</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000173-036-000-facs001" xml:id="D_000173-036-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000173-036-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSM">Typoskript mit
+                        handschriftlicher Mitteilung</objectType>
+                  </ab>
+                  <ab type="materiality">
+                     <objectType source="D_000173-036-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP"
+                        >Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="https://pmb.acdh.oeaw.ac.at/entity/36971">UNIVERSAL-EDITION,
+                  A.G.</orgName>
+               <address>
+                  <street corresp="#56742">Karlsplatz 6</street>
+                  <settlement ref="#51">WIEN | I.</settlement>
+               </address>
+               <date when-iso="1932-03-26">26. März 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#50728">die | Buchhandlung Richard Lanyi</orgName>
+               <address>
+                  <street corresp="#40387"/>
+                  <settlement ref="#51">Wien</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Hei/Fi</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-03-26">26. März 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote cert="medium" medium="black-ink" resp="#JK" scribeRef="#20707"
+               source="#D_000173-036-000-wit01" xml:id="D_000173-036-000-hand01"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000173-036-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000173-036-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-12-09" who="#JK"/>
+         <change type="typography" when-iso="2021-12-09" who="#JK"/>
+         <change type="references" when-iso="2021-12-09" who="#JK"/>
+         <change type="structure" when-iso="2021-12-09" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-09" who="#JK"/>
+         <change when-iso="2020-10-09T14:10:52.794Z" who="#IB">created by API</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000173-036-000-facs001">
+      <surfaceGrp xml:id="D_000173-036-000-facs001-l001">
+         <surface type="recto" xml:id="D_000173-036-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543475/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000173-036-000_p001"
+             facs="#D_000173-036-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_37141929-ceca-4f3b-961b-608c18e01bd5">
+            <lb xml:id="uuid_c371dc60-ff65-43ba-8ce4-75d289d02d47"/>Wir senden Ihnen gleichzeitig
+            die von Ihnen gestern<lb xml:id="uuid_6055a2fb-5807-4914-8009-579dcabc69d5"/>zwecks
+            Korrektur remittierten, von Ihnen fix bezogenen<lb
+               xml:id="uuid_384e2192-c083-44c7-8c9a-79caa269dec9"/>Textbücher „<rs ref="#55390"
+               type="work" subtype="pmb">Madame L’Archiduc</rs>“ zurück. Auf Verlangen von<lb
+               xml:id="uuid_57bb1625-8cdc-49dc-ada7-1da6a96ddbd9"/>Herrn <rs ref="#11988"
+               type="person">Karl Kraus</rs> ist nicht nur eine Zeile im Originalcouplet<lb
+               xml:id="uuid_9d281e0d-17bc-468d-b33b-ab7e803b5732"/>überklebt, sondern auch die
+            Widmung herausgenommen worden.<lb xml:id="uuid_dbc4f70e-b74c-4998-a381-477626fd32d4"/>Da
+               <rs ref="#11988" type="person">Herr Kraus</rs> in Aussicht gestellt hat, nach den
+               Osterfeier<lb break="no" xml:id="uuid_d3799333-1ab8-4dc2-8d41-e820665f8ef0"/>tagen
+            noch ein Druckfehlerverzeichnis uns zu übergeben, so<lb
+               xml:id="uuid_20b8c0ec-abcb-4f3e-90a9-36c18908b0ed"/>werden wir Ihnen dieses
+            Verzeichnis, sobald wir es von <rs ref="#11988" type="person">Herrn<lb
+                  xml:id="uuid_91bc8733-2e3b-466c-b08e-e181f9ac8a89"/>Kraus</rs> erhalten und
+            vervielfältigt haben, kostenlos nach<lb break="no"
+               xml:id="uuid_2abacc75-d855-4300-93ba-a1d880d2954d"/>liefern. Wir bitten inzwischen
+            den Kunden entsprechendes<lb xml:id="uuid_06c55212-7336-4da1-996e-585500d2de12"
+            />mitzuteilen und sie auf das kostenlos nachgelieferte Druck<lb break="no"
+               xml:id="uuid_a36968e9-383b-4526-b359-888adee74b45"/>fehlerverzeichnis ausdrücklich
+            aufmerksam zu machen. </p>
+         <p xml:id="uuid_6d391d6f-d344-45cb-baff-bf4afe156e72">
+            <lb xml:id="uuid_49bc7626-4c91-4b21-9281-496eed5ae2f7"/>Hochachtungsvoll<lb xml:id="uuid_a57e53fc-cb89-4fff-8338-33a9a1b9e43b"/>[<rs type="person">Unterschrift</rs>] </p>
+         <p xml:id="uuid_89892d62-8cc2-48f0-9afb-67159d5123d3">
+            <lb xml:id="uuid_7980ef82-0561-4be8-8bd6-3bccfdddb33d"/>Durch Boten! </p>
+         <p xml:id="uuid_d18f6a2d-6980-4341-9396-5eb7a15870fe">
+            <lb xml:id="uuid_846989f1-96cf-4740-be5a-5c52d889f8e1"/><note
+               hand="#D_000173-036-000-hand01">Ich bestätige den Empfang<lb
+                  xml:id="uuid_5b4980f9-63f5-4c24-8d7f-37a353056fb3"/>der 90 Expl des Textbandes<lb
+                  xml:id="uuid_7ece10af-89e9-41af-a3a0-a7dacddffb0e"/>„<rs ref="#55390" type="work"
+                  subtype="pmb">Madame L’Archiduc</rs>“,<lb
+                  xml:id="uuid_ba98dc67-7e72-4711-a217-7aa3e2749f33"/>warte ich mit dem Verkauf<lb
+                  xml:id="uuid_9af70dff-7a3c-4b15-b80e-b572b94d68fd"/>bis ich das
+                  Druckfehlerverzeichnis<lb xml:id="uuid_345bff8e-c653-4b00-8a60-f201e5eec2f1"/>in
+               Händen habe. Hochachtungsvoll</note>
+         </p>
+      </body>
+   </text>
+</TEI>

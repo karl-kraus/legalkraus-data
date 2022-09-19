@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000165-011-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000165-009-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000165-010-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Paul Zsolnay Verlag (Geschäftsführer Felix Kostia-Costa) an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000165-010-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4179</idno>
+            <idno subtype="transkribus" type="ID">306839</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000165" type="collection">Karl
+                    Kraus ca. Emil Ludwig</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <ab type="stamp">
+                  <stamp source="#36907" xml:id="uuid_c72b8531-765a-4a0d-8e87-30a65537db83"/>
+               </ab>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000165-010-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness facs="#D_000165-010-000-facs001" xml:id="D_000165-010-000-wit01"/>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="https://pmb.acdh.oeaw.ac.at/entity/36907">PAUL ZSOLNAY VERLAG </orgName>
+               <address>
+                  <street corresp="#524">PRINZ EUGENSTRASSE 30</street>
+                  <settlement ref="#54">WIEN IV.</settlement>
+               </address>
+               <date when-iso="1931-11-20">20.XI.1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/38909">Herrn | Dr. Oskar Samek </persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">C/O</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-11-20">20. November 1931
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000165-010-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000165-010-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-04-27" who="#JK"/>
+         <change type="typography" when-iso="2021-04-27" who="#JK"/>
+         <change type="references" when-iso="2021-04-27" who="#JK"/>
+         <change type="structure" when-iso="2021-04-27" who="#JK"/>
+         <change when-iso="2020-07-20T14:20:20.27Z" who="#IB">created by API</change>
+         <change when-iso="2020-07-29T09:06:28.581Z" who="#IB">Linked to Document in Transkribus
+                by API </change>
+         <change when-iso="2020-07-29T09:06:40.714Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 306839. </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 306839. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000165-010-000-facs001">
+      <surfaceGrp xml:id="D_000165-010-000-facs001-l001">
+         <surface type="recto" xml:id="D_000165-010-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542935/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000165-010-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542936/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542937/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000165-010-000_p001"
+             facs="#D_000165-010-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_083d116d-2c22-4469-b927-8d25c017bbf7">
+            <lb xml:id="uuid_f8f708c3-adbc-477d-bb0c-d3679d2895c3"/>Wir empfingen Ihr <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000165-009-000"
+                type="work"
+                subtype="legal-doc">Schreiben vom 18.XI.</rs> in Sachen<lb xml:id="uuid_3a35d84b-368a-4524-a26e-314052876e62"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/12126" type="person">Emil Ludwig</rs> –
+                    <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+                und bitten Sie, vor allem zur Kenntnis zu<lb xml:id="uuid_1062c0c6-1920-4972-aac7-02b7702b37ac"/>nehmen, dass Ihre
+                Information, wir hätten das Buch <rs ref="https://pmb.acdh.oeaw.ac.at/entity/12126" type="person">Emil Ludwig</rs>s<lb xml:id="uuid_44eaf98e-0aad-4a86-ac3e-d64b915da9a6"/>„<rs ref="#54829" type="work" subtype="pmb">Geschenke des Lebens</rs>“ in unseren Verlag
+                übernommen, unrichtig ist.<lb xml:id="uuid_a01a14b4-d08b-4af3-aaf4-33557b7e818e"/>Wir haben lediglich in Aussicht genommen, die Bestände <rs ref="#9600" type="person">Rowohlts</rs> im<lb xml:id="uuid_8be313ca-fd8c-4096-abe7-5bb83d976d5e"/>Zusammenhang mit dem durch
+                uns übernommenen Verlag neuer Werke <rs ref="https://pmb.acdh.oeaw.ac.at/entity/12126" type="person">Emil<lb xml:id="uuid_6108aaf0-ab71-4fdd-85b1-079874805d39"/>Ludwigs</rs> in unseren
+                Vertrieb zu übernehmen. </p>
+         <p xml:id="uuid_3a2a507b-bd77-438c-a247-e1f2343ad778">
+            <lb xml:id="uuid_83dab0c2-f1ff-4820-a517-0f1c7326b399"/>Im übrigen wenden wir uns
+                unter einem an den <rs ref="https://pmb.acdh.oeaw.ac.at/entity/12126" type="person">Autor</rs>,<lb xml:id="uuid_5c09c4b2-ad81-4fdf-906a-f25844d13bfc"/>weil uns
+                vertragliche Pflichten an ihn binden und werden nach Einlangen<lb xml:id="uuid_5b72db8c-1a7e-4895-8b11-130bf748d911"/>seiner Antwort auf Ihre
+                Anfrage zurückkommen. </p>
+         <p xml:id="uuid_e01397d9-492b-4ca0-8c70-28d2309e9225">
+            <lb xml:id="uuid_9952bc60-eb0e-4a7a-bfed-ea2e96499d71"/>Mit dem Ausdruck
+                vorzüglicher Hochachtung<lb xml:id="uuid_e4f9f977-a3be-4119-b9e2-c7366e1bee77"/><rs ref="#15108" type="person">Kostia</rs>
+         </p>
+         <p xml:id="uuid_203ea10e-8a94-44d6-a01e-85ffa6a6a9e5">
+            <lb xml:id="uuid_419f1c68-cf1d-4d3d-a779-6d2ea6239a5c"/>Rekom. </p>
+         <pb xml:id="D_000165-010-000_p002"
+             facs="#D_000165-010-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_a865f8df-952c-4f35-a36f-d9076049e90b">
+            <lb xml:id="uuid_aa0191e0-661a-48dd-a54d-33584ac4770c"/><note resp="law-firm" type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">K. Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/12126" type="person">Ludwig</rs>.<lb xml:id="uuid_4e6572f6-8c25-4554-8dbb-9636ec45c7e3"/>21. NOV. 1931 </note>
+         </p>
+      </body>
+   </text>
+</TEI>

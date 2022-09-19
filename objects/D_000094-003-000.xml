@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000094-004-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000094-002-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000094-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Erwin Grünbaum an Samek</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000094-003-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2911</idno>
+            <idno subtype="transkribus" type="ID">232326</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000094" type="collection">Berichtigungen in tschechischen Zeitungen betr. Plakat gegen Schober</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000094-003-000-facs001" xml:id="D_000094-003-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000094-003-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-09-27">27. September
+                    1927</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#53891">Erwin Grünbaum</persName>
+               <address>
+                  <street corresp="#53913">Sachsenberg 21</street>
+                  <settlement ref="#53893">Tschech.-Teschen</settlement>
+               </address>
+               <date when-iso="1927-09-27">27.9.1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Wohlg. Herrn | Dr. Oskar Samek, Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000094-003-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000094-003-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2021-04-19" who="#IL"/>
+         <change type="structure" when-iso="2021-04-14" who="#IL"/>
+         <change type="typography" when-iso="2021-04-19" who="#IL"/>
+         <change type="references" when-iso="2021-04-19" who="#IL"/>
+         <change type="intertexts" when-iso="2021-04-19" who="#IL"/>
+         <change when-iso="2020-07-16T09:23:32.053Z" who="#IB">created by API</change>
+         <change when-iso="2020-07-16T09:27:51.707Z" who="#IB">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-07-16T09:27:52.676Z" who="#IB">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-07-16T09:27:56.814Z" who="#IB">Linked to Document in Transkribus
+                by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 232326. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000094-003-000-facs001">
+      <surfaceGrp xml:id="D_000094-003-000-facs001-l001">
+         <surface xml:id="D_000094-003-000-facs001-l001-p001" type="recto">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554615/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000094-003-000-facs001-l001-p002" type="verso">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554616/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000094-003-000_p001"
+             facs="#D_000094-003-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_609943d9-b2f6-4db3-9cec-0e4729a0c4c5">
+            <lb xml:id="uuid_6a5cab11-dad8-4ceb-a056-36dd57f80ed4"/>Sehr geehrter Herr <rs type="person" ref="#38909">Kollege</rs>! </p>
+         <p xml:id="uuid_3dcee870-0096-4d32-98ea-3886b40bb73d">
+            <lb xml:id="uuid_adebf750-f30f-4725-88c4-4a0e9ac4d7a4"/>Heute erhielt ich Ihr gesch.
+                    <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000094-001-000"
+                type="work"
+                subtype="legal-doc">Schreiben</rs> vom 25. d.M.<lb xml:id="uuid_4a53a4c8-9334-40ef-b78b-5d8decb7cdbe"/>Ich freue mich Ihnen
+                mitteilen zu können, dass ich sowohl<lb xml:id="uuid_cf0dba30-ce98-4457-8c1b-fa4868ebbc20"/>an den verantwortlichen <rs type="person">Redakteur</rs> der „<rs ref="https://pmb.acdh.oeaw.ac.at/entity/37537" type="institution">Silesia</rs>“,
+                als auch<lb xml:id="uuid_3b0e9b49-10b8-4083-9217-ada0c8027433"/>an den der „<rs ref="https://pmb.acdh.oeaw.ac.at/entity/37492" type="institution">Ostrauer
+                    Zeitung</rs>“, der mit dem <rs type="person">Herrn</rs> der<lb xml:id="uuid_45eb7eb1-64b0-46e7-83f5-bf7ef048ab8d"/>„<rs ref="https://pmb.acdh.oeaw.ac.at/entity/37537" type="institution">Silesia</rs>“
+                identisch sein dürfte, die mir eingesandte <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000094-001-000"
+                type="work"
+                subtype="legal-doc">Be<lb break="no" xml:id="uuid_ce45a9a4-6401-4a37-869b-ffb161851656"/>richtigung</rs>
+                weiterleiten werde, u.z. am Donnerstag, da morgen<lb xml:id="uuid_91c856c4-48a5-4037-945a-c0c6497fa853"/>in der Čechoslovakei
+                Staatsfeiertag ist. – </p>
+         <p xml:id="uuid_5d0625d4-1ead-4c45-a37c-7f785cb67102">
+            <lb xml:id="uuid_edabbf36-88c0-4d94-89b6-9a9639747235"/>Inzwischen werde ich auch
+                die notwendigen Erhebun<lb break="no" xml:id="uuid_7c618f0a-57fa-4de9-9f56-fd0bbf0b0cf0"/>gen, hinsichtlich der „<rs ref="https://pmb.acdh.oeaw.ac.at/entity/37492" type="institution">Ostrauer
+                    Zeitung</rs>“ gepflogen haben.<lb xml:id="uuid_cb198ace-885e-4eca-895e-d45c968f578c"/>Ueber den weiteren Verlauf
+                der Angelegenheit werde ich Sie<lb xml:id="uuid_35fea7ed-cb92-4a45-8dbc-8dc77f1de3f8"/>mit Vergnügen am laufenden
+                halten. </p>
+         <p xml:id="uuid_d6066ef2-a34e-4a06-adf4-fd968550a793">
+            <lb xml:id="uuid_1c037d25-45e8-494a-8778-14d8450c0cd5"/>Ich verbleibe mit dem
+                    Ausdrucke<lb xml:id="uuid_01d59993-9fff-4c4a-a983-027dec83bb52"/>vorzüglicher
+                kollegialer Hochachtung<lb xml:id="uuid_8b92197b-e070-4d3a-8912-c5b46e495124"/>Ihr
+                ergebener: </p>
+         <p xml:id="uuid_e72980b2-93be-44df-b6d1-3f0f1c5077f3">
+            <lb xml:id="uuid_8a90355b-2456-4bb3-8df9-b24d16b59c8f"/>Dr. <rs ref="#53891" type="person">Grünbaum</rs>
+         </p>
+         <pb xml:id="D_000094-003-000_p002"
+             facs="#D_000094-003-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_2647b620-a2e9-4a32-906c-7ec1633de4e2">
+            <lb xml:id="uuid_471ca41b-86b7-420f-941c-bbdcbe0864f7"/><note resp="law-firm"
+               type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs> – <rs ref="#24444" type="person">Schober</rs>
+               <lb xml:id="uuid_5a6f9ce6-9f5c-4a51-b8d0-f91651ba5498"/>29. Sep. 1927</note></p>
+      </body>
+   </text>
+</TEI>

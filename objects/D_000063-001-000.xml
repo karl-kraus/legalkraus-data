@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000063-002-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000062-005-001.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000063-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Umschläge des Fotoateliers Joël Heinzelmann (Berlin) an den Verlag Die Fackel
+                    bzw. an Kraus</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000063-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2434</idno>
+            <idno subtype="transkribus" type="ID">200711</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000063" type="collection">Postbeschwerde</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000063-001-000-facs001" xml:id="D_000063-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000063-001-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.M.HSM">Manuskript mit handschriftlicher Mitteilung</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1926-09-22">22. und 31. September
+                    1926</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote cert="high"
+                      medium="pencil"
+                      resp="#JK"
+                      scribeRef="#8363"
+                      source="#D_000063-001-000-wit01"
+                      xml:id="D_000063-001-000-hand01"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000063-001-000-wit01">D.K.UMS</term>
+            </keywords>
+            <classCode source="D_000063-001-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/Umschlag">Umschlag</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-19" who="#JK"/>
+         <change type="typography" when-iso="2021-10-19" who="#JK"/>
+         <change type="references" when-iso="2021-10-19" who="#JK"/>
+         <change type="structure" when-iso="2021-10-19" who="#JK"/>
+         <change when-iso="2020-02-18T12:41:24.735Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-18T12:42:18.427Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-18T12:42:19.329Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-18T12:42:22.05Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-18T12:42:23.474Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-18T12:42:25.042Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 200711. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000063-001-000-facs001">
+      <surfaceGrp xml:id="D_000063-001-000-facs001-l001">
+         <surface type="recto" xml:id="D_000063-001-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551639/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000063-001-000-facs001-l001-p002">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551642/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000063-001-000-facs001-l002">
+         <surface type="recto" xml:id="D_000063-001-000-facs001-l002-p003">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551643/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000063-001-000-facs001-l002-p004">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551644/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="recto" xml:id="D_000063-001-000-facs001-l002-p005">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551645/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000063-001-000_p001"
+             facs="#D_000063-001-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_4d9c4229-3796-4f46-8189-1ffd64d3a802">
+            <lb xml:id="uuid_b50b694c-9bb1-4f91-ba65-8d4ad8db2e6d"/><rs ref="#43724"
+               type="institution">Verlag<lb xml:id="uuid_f7fdff40-ba24-4617-a733-96f994df44fe"/>„Die
+               Fackel“</rs>
+         </p>
+         <p xml:id="uuid_6ea8e7e8-14d1-4c2d-954c-aa704c001b12">
+            <lb xml:id="uuid_21756ea8-ea9c-4f33-8682-8758bd329c0a"/><rs ref="#50496" subtype="address" type="place">Wien III<lb xml:id="uuid_50e47d89-f230-4f60-8a9b-4a51dfcc7e83"/>Hintere Zollamtstr.
+                    3</rs>. </p>
+         <pb xml:id="D_000063-001-000_p002"
+             facs="#D_000063-001-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_4d3e5be5-28b1-40b1-947d-ef42154b2095">
+            <lb xml:id="uuid_582efcce-723d-4eaf-883f-0cfcc747fc00"/>Absender:<lb xml:id="uuid_911a9d5b-b5e3-4872-be88-2814f3f481c0"/><rs ref="#37163" type="institution">Phot. Atelier Joël Heinzelmann</rs>
+            <lb xml:id="uuid_d73664ad-3435-4710-a732-4a742ba56a4c"/><rs ref="#51904" subtype="address" type="place">Charlottenburg, Hardenbergstr. 2</rs>
+         </p>
+         <pb xml:id="D_000063-001-000_p003"
+             facs="#D_000063-001-000-facs001-l002-p003"
+             n="3"/>
+         <p xml:id="uuid_a91ec39e-e5bf-47dd-ac3b-5305045162c0">
+            <lb xml:id="uuid_2769d123-5ea9-4bc6-a80d-3eace9343057"/><hi rend="underlined">Drucksache</hi>
+         </p>
+         <p xml:id="uuid_d752d3ee-ccec-45d1-a18a-0cf948df38e5">
+            <lb xml:id="uuid_32e7c2ac-5f08-4fb6-b7fb-68d8b18d3b2b"/><hi rend="underlined">Einschreiben</hi>
+         </p>
+         <p xml:id="uuid_6fc7f997-2913-4559-ab51-86884ab69393">
+            <lb xml:id="uuid_8e35929c-803e-4ca3-b045-00c91a42c897"/>Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl <hi
+                  rend="underlined">Kraus</hi></rs>
+            <lb xml:id="uuid_499d4c71-2a80-44ef-a328-07142f4f05a6"/>per Adresse:<lb
+               xml:id="uuid_9ce58e5a-dd8f-458d-a457-74cdbeb1ef50"/><rs ref="#43724"
+               type="institution">Verlag „Die Fackel“</rs>
+         </p>
+         <p xml:id="uuid_396d2c58-11aa-4d2d-b7a4-530113886fc8">
+            <lb xml:id="uuid_c079ce6c-2f48-493a-a501-1aeb1466c583"/><rs ref="#50496" subtype="address" type="place">Wien III<lb xml:id="uuid_67198753-a4cf-495c-9a5a-fc0868647c05"/>Hintere Zollamtstr.
+                    3</rs>
+            <lb xml:id="uuid_f0390ca3-95a9-4257-b58e-284471d3559f"/>evt. bitte
+                nachsenden </p>
+         <pb xml:id="D_000063-001-000_p004"
+             facs="#D_000063-001-000-facs001-l002-p004"
+             n="4"/>
+         <p xml:id="uuid_2827a3b8-ca14-4a68-bc9f-0c9c760944dd">
+            <lb xml:id="uuid_05111514-1925-429e-883e-3cfc116d7e11"/><note hand="#D_000063-001-000-hand01">Herzlich grüßt<lb xml:id="uuid_80c59e99-686f-42e3-a315-cf605061f97b"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/8363" type="person">Anton Kuh</rs>!
+                </note>
+         </p>
+         <pb xml:id="D_000063-001-000_p005"
+             facs="#D_000063-001-000-facs001-l002-p005"
+             n="5"/>
+         <p xml:id="uuid_079a1bd3-54cc-45c2-bb88-8f54fd32f3a7">
+            <lb xml:id="uuid_b2a57c92-dd53-4a4a-be01-5e46a4b846b7"/><rs ref="#37163" type="institution">Phot. Atelier Joël-Heinzelmann</rs>
+            <lb xml:id="uuid_fa62a609-207f-466e-8815-ccc3883f0ebf"/><rs ref="#51904" subtype="address" type="place">Charlottenburg, Hardenbergstr. 24</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000075-008-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000075-006-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000075-007-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Justizrat Viktor Fraenkl an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000075-007-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/2703</idno>
+            <idno subtype="transkribus" type="ID">230885</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000075" type="collection"
+               >Angelegenheit Anton Lindner</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000075-007-000-facs001" xml:id="D_000075-007-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000075-007-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSU">Typoskript mit
+                        handschriftlichen Überarbeitungen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38141">Justizrat Viktor Fraenkl</persName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref=""/>
+               </address>
+               <date when-iso="1926-08-02">2. August 1926</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn Rechtsanwalt Dr. O. Samek</persName>
+               <address>
+                  <street corresp="#51"/>
+                  <settlement ref="#50493"/>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1926-08-02">2. August 1926</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote cert="high" medium="black-ink" resp="#JK" scribeRef="#38141"
+               source="#D_000075-007-000-wit01" xml:id="D_000075-007-000-hand01"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000075-007-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000075-007-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-21" who="#JK"/>
+         <change type="typography" when-iso="2021-10-21" who="#JK"/>
+         <change type="references" when-iso="2021-10-21" who="#JK"/>
+         <change type="structure" when-iso="2021-10-21" who="#JK"/>
+         <change when-iso="2020-10-07T14:39:42.945Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-07T14:40:57.556Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 230885. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000075-007-000-facs001">
+      <surfaceGrp xml:id="D_000075-007-000-facs001-l001">
+         <surface type="recto" xml:id="D_000075-007-000-facs001-l001-p001">
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553706/full/full/0/default.jpg"
+            />
+         </surface>
+         <surface type="verso" xml:id="D_000075-007-000-facs001-l001-p002">
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553707/full/full/0/default.jpg"
+            />
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000075-007-000_p001" facs="#D_000075-007-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_7011a31a-7030-40db-b406-e9c82652dbe9">
+            <lb xml:id="uuid_bfad32d2-be22-4a58-8d09-356c87076eae"/>Sehr geehrter <rs ref="#38909"
+               type="person">Herr Kollege</rs>, </p>
+         <p xml:id="uuid_2a3f8492-878c-4645-a451-2d116c09379a">
+            <lb xml:id="uuid_5ff6b22f-7642-455a-acd6-6f338bf1b6ee"/>in der Sache <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> gegen <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/12081" type="person">Lindner</rs> habe ich
+            Ihr gefl. <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000075-006-000" type="work"
+               subtype="legal-doc">Schreiben vom<lb
+                  xml:id="uuid_87ce9297-4425-439d-ab19-617c3b884374"/>29. Juli</rs> und drei
+            Blankovollmachten erhalten. </p>
+         <p xml:id="uuid_4d6d2133-12f7-4a4c-8de4-c6073136b393">
+            <lb xml:id="uuid_dc831a07-9a08-4ab8-b25c-ed58d9d65a17"/>Ich werde nunmehr unter Angabe
+            des Geburtsjahrs und der Geburts<lb break="no"
+               xml:id="uuid_67b1dac2-9731-4d97-9b38-f4ce316163d8"/>stadt <rs ref="#50" type="place"
+               >Wien</rs> das hiesige <rs type="institution">Einwohnermeldeamt</rs> betreffend <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/12081" type="person">Anton Lindner</rs>
+            <lb xml:id="uuid_54ab5c1b-3376-4c93-9e75-d4403ae8b906"/>anfragen. </p>
+         <p xml:id="uuid_7e00295e-4dc5-45f9-8a26-cbecaff926e7">
+            <lb xml:id="uuid_580b9897-329c-44a4-80eb-296075c8134c"/>Da nicht bekannt ist, wo sich
+            die Briefe noch befinden, da nicht<lb xml:id="uuid_8a3f3e92-340f-41cb-a2b0-184a525a4e18"
+            />genau bekannt ist, in welchem Rahmen sich der Auftrag an <rs ref="#52835"
+               type="person">Dr. Besmertny</rs>
+            <lb xml:id="uuid_e3cc3311-a32a-4aab-b69d-16015425f35f"/>bewegt, da nicht bekannt ist,
+            wie viele Briefe an <rs ref="https://pmb.acdh.oeaw.ac.at/entity/12081" type="person"
+               >Lindner</rs> geschrieben<lb xml:id="uuid_1da6db18-d957-4a96-ba21-f3de97103147"
+            />worden sind, da schliesslich nicht angegeben werden kann, welche Jahre<lb
+               xml:id="uuid_ac471d46-fa42-464d-8809-4ea966e911d4"/>diese Briefe umfassen, scheint
+            mir die Möglichkeit, einstweilige Ver<lb break="no"
+               xml:id="uuid_281fde05-f05d-47b1-b04e-58e1cc048657"/>fügungen zu erwirken, kaum
+            gegeben. </p>
+         <p xml:id="uuid_7f265f7b-59e0-487f-95a5-8860715f3be4">
+            <lb xml:id="uuid_c3c40b51-5d19-489b-872e-1bac44390e92"/>Durch eine gerichtliche Aussage
+            von <rs ref="#52835" type="person">Besmertny</rs> bescheinigen zu<lb
+               xml:id="uuid_5feb26d0-a786-4fc1-88ba-928a729af1e9"/>lassen, dass <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/12081" type="person">Lindner</rs> die Briefe
+            zum Verkauf angeboten habe, dürfte doch<lb
+               xml:id="uuid_581b5eb0-8bc5-43ad-9dd7-60a186adcef5"/>einen Prozess mit <rs
+               ref="#52835" type="person">Besmertny</rs> als Zeuge voraussetzen. </p>
+         <p xml:id="uuid_86e8eba5-411e-4d29-a2f6-7907227204d7">
+            <lb xml:id="uuid_08c1aaa2-b587-4d30-9d6c-b7325ae921b1"/>Es ist selbstverständlich, dass
+            ich lediglich im Interesse unseres<lb xml:id="uuid_bc172e6a-12ce-42d1-b798-46c72d2f7203"
+            />Klienten Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+               Kraus</rs> alle diese Bedenken vorbringe. </p>
+         <p xml:id="uuid_a06b977e-2bf1-4631-8d7f-3363aa04a214">
+            <lb xml:id="uuid_8410d65c-24b8-46f1-a303-5f9be790e941"/>Mit kollegialem Gruss <lb
+               xml:id="uuid_95ac508a-0faf-4408-8eee-26202f6f2528"/>Ihr <lb
+               xml:id="uuid_c1a6839c-0a07-4ca9-8b64-850f7cbda647"/><rs ref="#38141" type="person"
+               >Victor Fraenkl</rs></p>
+         <p xml:id="uuid_6cc79a68-86f3-4596-b394-c78e50be2991">
+            <lb xml:id="uuid_d25dd429-6112-45bd-a935-9cfc6c15e6f8"/><note
+               hand="#D_000075-007-000-hand01">Soll ich nicht <lb
+                  xml:id="uuid_8a667dbd-18c7-4613-8f25-7dfd930dba3c"/>doch schon jetzt <lb
+                  xml:id="uuid_7f853415-0bb6-4f5d-a12a-b3f54088f5cc"/>mich mit <rs ref="#52835"
+                  type="person">Dr.<lb xml:id="uuid_d3a92e0c-eeea-44ab-bc5d-71d8835e53bd"
+                  />Besmertny</rs> in eine <lb xml:id="uuid_62a11103-b249-4b94-b579-4265b94e5899"
+               />Verbindung setzen?</note>
+         </p>
+         <pb xml:id="D_000075-007-000_p002" facs="#D_000075-007-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_727939d0-ada3-4a63-9156-a1f959062639">
+            <lb xml:id="uuid_a0c6725b-3053-4154-9b08-dedba59c2575"/><note resp="law-firm"
+               type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs>
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/12081" type="person">Lindner</rs><lb
+                  xml:id="uuid_0384f7b8-5e0c-429a-b820-2ed290df3eaf"/>3.VIII.26.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000098-004-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000098-002-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000098-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Verlag Die Fackel [Jahoda] an Berthold Viertel</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000098-003-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/2931</idno>
+            <idno subtype="transkribus" type="ID">420094</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000098" type="collection"
+               >Darlehenssache Berthold Viertel</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000098-003-000-facs001" xml:id="D_000098-003-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000098-003-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.M.HSN">Manuskript mit
+                        handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1924-05-15">15. Mai 1924</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#43724">VERLAG „DIE FACKEL“</orgName>
+               <address>
+                  <street corresp="#50496">HINTERE ZOLLAMTSSTR. 3</street>
+                  <settlement ref="#53">WIEN, III/2</settlement>
+               </address>
+               <date when-iso="1924-05-15">15. Mai 1924</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#10364">Berthold Viertel</persName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref=""/>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <handNotes>
+            <handNote xml:id="D_000098-003-000-hand01" source="#D_000098-003-000-wit01"
+               scribeRef="#43584" medium="black-ink" cert="high" resp="#IL"/>
+         </handNotes>
+         <handNotes>
+            <handNote xml:id="D_000098-003-000-hand02" source="#D_000098-003-000-wit01"
+               scribeRef="#43584" medium="grey-pencil" cert="low" resp="#IL"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000098-003-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000098-003-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2021-04-22" who="#IL"/>
+         <change type="structure" when-iso="2021-04-21" who="#IL"/>
+         <change type="references" when-iso="2021-04-21" who="#IL"/>
+         <change type="typography" when-iso="2021-04-22" who="#IL"/>
+         <change type="intertexts" when-iso="2021-04-21" who="#IL"/>
+         <change when-iso="2020-10-08T12:24:58.572Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T12:30:09.483Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 420094. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000098-003-000-facs001">
+      <surfaceGrp xml:id="D_000098-003-000-facs001-l001">
+         <surface xml:id="D_000098-003-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554688/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000098-003-000_p001" facs="#D_000098-003-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_3f48a99a-e228-49e6-9bf7-fb38d0c27645">
+            <lb xml:id="uuid_cb977dea-1b15-468c-81a3-35d9313fde76"/><note
+               hand="#D_000098-003-000-hand02">Kopie</note>
+         </p>
+         <p xml:id="uuid_bacc3ab8-4a28-43e3-9be8-fd96c9ce3452">
+            <lb xml:id="uuid_7bc7e4ff-cd3a-4112-89bb-fd8aeb7b43d9"/>Hochgeehrter Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/10364" type="person">Viertel</rs>! </p>
+         <p xml:id="uuid_cc39b51a-3159-4ae8-8a8b-3a6a74d8aaa3">
+            <lb xml:id="uuid_d3b2b4c0-3809-419c-9161-ba705a7e4739"/>Wir erbitten die frdl. zugesagte
+               Änderung<lb xml:id="uuid_8e99c81a-2245-4599-b142-2c5c7593bef0"/>des beiligenden
+            Schriftstückes in Kč 47.000 u. 3000 Goldmark.</p>
+         <p xml:id="uuid_9bfade31-3ddd-44e9-b2a3-eed3a3771fab"><lb
+               xml:id="uuid_707cea57-4736-458d-977a-c140968eb8ca"/>Für gf. baldige Rücksendung wären
+               wir<lb xml:id="uuid_711e86e2-60ef-48d4-8e75-d051c21b2d79"/>Ihnen sehr verbunden.
+            Ferner erbitten wir gf.<lb xml:id="uuid_567dbc96-69eb-41c1-850d-c5407a055211"
+            />gleichzeitige Mitteilung, ob der Betrag von<lb
+               xml:id="uuid_5c4fef7f-94a0-41be-a7a2-1fd78964a9a2"/>300 Rentenmark an die <rs
+               ref="#37647" type="institution">Internationale Arbeiter<lb break="no"
+                  xml:id="uuid_fe26c4c5-61a1-40d0-85d7-0209973437d2"/>hilfe</rs> überwiesen wurde,
+            da wir den Ausweis in<lb xml:id="uuid_5a2ce8e1-afea-4bac-bc5d-8854d168c67a"/>Druck geben
+            müssen. </p>
+         <p xml:id="uuid_353c2871-781d-4733-b254-c20f789b87ba">
+            <lb xml:id="uuid_78861c08-633a-472c-aa80-2a3c7228e27e"/>In vorzüglicher Hochachtung und
+               mit<lb xml:id="uuid_779c2020-527f-4ccf-99a5-d1e986974c59"/>dem besten Dank im
+            Voraus</p>
+         <p xml:id="uuid_953dafda-32e3-4ed1-9572-31d8f148a963"><lb
+               xml:id="uuid_9c660bab-5586-406c-a329-db040f25770c"/>Der <rs ref="#43724"
+               type="institution">Verlag „Die Fackel“</rs>
+            <lb xml:id="uuid_c4318d5c-28a7-4612-8e3b-2222c855f8c3"/><rs ref="#37159"
+               type="institution">Jahoda</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

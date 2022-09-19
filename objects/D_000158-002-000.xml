@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000158-002-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000158-001-000.xml"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000158-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Universal-Edition an Samek</title>
+            <editor ref="#SH">Susanna Hufsky</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000158-002-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4105 </idno>
+            <idno type="ID" subtype="transkribus">304875</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000158">Karl
+                    Kraus ca. Oper am Platz der Republik (Kroll-Oper, Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000158-002-000-wit01" facs="#D_000158-002-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000158-002-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#36971">Universal-Edition, A.G.</orgName>
+               <address>
+                  <street corresp="#56742">Karlsplatz 6</street>
+                  <settlement ref="#51">Wien</settlement>
+               </address>
+               <date when-iso="1931-04-01">1. April 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Dr. Oskar Samek</persName>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date when-iso="1931-04-01"/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Hei/Fi.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date type="sortDate" subtype="produced" when-iso="1931-04-01">1. April 19931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000158-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000158-002-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-10-08T15:28:44.009Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T15:32:04.577Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 304875. </change>
+         <change type="structure" when-iso="2021-07-13" who="#SH"/>
+         <change type="references" when-iso="2021-07-13" who="#SH"/>
+         <change type="typography" when-iso="2021-07-13" who="#SH"/>
+         <change type="intertexts" when-iso="2021-07-13" who="#SH"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000158-002-000-facs001">
+      <surfaceGrp xml:id="D_000158-002-000-facs001-l001">
+         <surface xml:id="D_000158-002-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542657/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000158-002-000-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542658/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000158-002-000_p001"
+             facs="#D_000158-002-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_3ad9e6c9-17cb-4b83-aa14-3d51bf4ecc8d">
+            <lb xml:id="uuid_c7b49e37-ccfa-4525-9dd9-aea2bc238699"/>Sehr geehrter <rs type="person" ref="#38909">Herr Doktor</rs>! </p>
+         <p xml:id="uuid_174b40ba-58e1-496b-811f-17f2256ac499">
+            <lb xml:id="uuid_efad0fb9-af7e-475c-ae10-8207b1ce2eef"/>Anbei sende ich Ihnen
+            wunschgemäss eine Abschrift<lb xml:id="uuid_03e196ba-aa8d-487c-9287-66d09bde8ca0"/>des
+            mit der <rs type="institution" ref="#37043">Berliner Staatsoper</rs> geschlossenen <rs
+               type="work" subtype="legal-doc">Vertrages</rs><lb
+               xml:id="uuid_bd76ab39-0aa3-4c82-9a4d-d6784bc190b4"/>über „<rs type="work"
+               ref="#56707" subtype="pmb">Perichole</rs>“. Zu § 14 des Vertrages, Absatz 2,<lb
+               xml:id="uuid_24dfe850-89dc-4c01-9d45-8460ee328f80"/>zitiere ich den § 7; Ziffer a und
+            b der „Allgemeinen<lb xml:id="uuid_08ddad46-3739-4181-8eec-c7f4539d0946"/>Bestimmungen
+            für den Geschäftsverkehr“, die einen wesentlichen<lb
+               xml:id="uuid_fd14ea48-ff3c-4531-bc8d-d0dca1689c02"/>Bestandteil der Abmachung bilden: </p>
+         <p xml:id="uuid_308014dc-d618-4290-b2c6-cb448fe21e26">
+            <lb xml:id="uuid_35f0e0f5-74f8-48d2-8be5-0d9e67a1eff8"/>„a) Der Bühnenunternehmer
+                ist verpflichtet das<lb xml:id="uuid_afa8a5e2-f85d-4b4d-b110-611b5d0f2022"/>Bühnenwerk in würdiger Weise vorzubereiten, aufzuführen<lb xml:id="uuid_73deff5c-7fc3-4e09-8225-3f09119aac24"/>und angemessen im Spielplan
+                auszunützen. </p>
+         <p xml:id="uuid_e2f80c81-81af-4104-a0ba-671e284fe2ed">
+            <lb xml:id="uuid_d9c0e865-740e-4d15-9875-3171e500c287"/>(b) Der Bühnenunternehmer
+                ist verpflichtet, soweit<lb xml:id="uuid_9406748b-7418-471e-9202-860a31a6fb35"/>nicht etwas anderes vereinbart ist, an dem Werk selbst,<lb xml:id="uuid_acb8408b-59a8-4c0e-b139-9695b186a72e"/>an seinem Titel und an der
+                Bezeichnung des Urhebers Zusätze,<lb xml:id="uuid_cf828e96-20e5-4285-a58a-4cfa75b19528"/>Kürzungen oder sonstige
+                Änderungen zu unterlassen. Zulässig<lb xml:id="uuid_bf0a5365-ea9a-4b80-ae3f-e67d3bad48e7"/>sind Änderungen, für die der
+                Berechtigte seine Zustimmung<lb xml:id="uuid_b4c59e12-76ae-4d9b-a3ce-16984d1da512"/>nach Treu und Glauben nicht versagen kann.) Der Bühnenunter<lb xml:id="uuid_7a9def98-df54-431b-8123-8e238bd47321" break="no"/>nehmer hat
+                Abänderungen dem Verlag auf dessen Wunsch mitzu<lb xml:id="uuid_11635328-9518-48ba-92ba-f0369834cb15" break="no"/>teilen. Der
+                Verlag ist ohne Verpflichtung zur Entschädigung<lb xml:id="uuid_61c0d7c0-dc93-45f0-a50e-2040cbc53309"/>berechtigt, sie auch anderen
+                Bühnen zur Verfügung zu stellen,<lb xml:id="uuid_8ea35fe8-a2dd-4182-bfaa-1c3e5d9157df"/>falls nicht im
+                Aufführungsvertrag abweichende urheberrechtliche<lb xml:id="uuid_27e0454b-4c3f-4070-b6c9-cd997913cacb"/>Vereinbarungen vorgesehen
+                und in der Folge getroffen sind.“ </p>
+         <p xml:id="uuid_de124998-2ab9-433c-811c-79f326ed8e3c">
+            <lb xml:id="uuid_6ed15902-4c13-470f-93ca-412c2168fd3b"/>Mit vorzüglicher
+                    Hochachtung<lb xml:id="uuid_b0ccc4c6-0a8f-407d-acce-85bfc2ae2acf"/>[<rs type="person">Unterschrift</rs>] </p>
+         <pb xml:id="D_000158-002-000_p002"
+             facs="#D_000158-002-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_613282f7-fb88-4cff-ad76-627b74721aa6">
+            <lb xml:id="uuid_91038b41-5a4c-4319-ae3f-b8561e53f55f"/><note type="paratext"
+               resp="law-firm"><rs type="person" ref="#11988">Kraus</rs> – <rs type="institution"
+                  ref="#36971">Universale Edition<lb
+                     xml:id="uuid_c0dff469-6da9-460b-993d-bcba34a5d4af"/>A.G.</rs><lb
+                  xml:id="uuid_26fcdb14-d7e6-4375-b56f-b3a799e8f088"/>1. APR. 1931</note></p>
+      </body>
+   </text>
+</TEI>

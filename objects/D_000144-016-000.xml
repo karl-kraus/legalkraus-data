@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-017-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-015-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000144-016-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Anton Schroll Verlag für Kunst und Literatur an Samek</title>
+            <editor ref="#LK">Lena Kovacic</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000144-016-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3903</idno>
+            <idno subtype="transkribus" type="ID">275909</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000144" type="collection">Karl
+                    Kraus ca. S. Fischer Verlag (Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000144-016-000-facs001" xml:id="D_000144-016-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000144-016-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-04-20">20. April 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#37062">ANTON SCHROLL &amp; CO. GES.M.B.H.</orgName>
+               <address>
+                  <street corresp="#39599">GRABEN 29</street>
+                  <settlement ref="#51">WIEN</settlement>
+               </address>
+               <date when-iso="1931-04-20">20. April 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn Rechtsanwalt Dr. Oscar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien. I</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Sch/G/R</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000144-016-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000144-016-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-08T14:16:09.685Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-08T14:28:44.913Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 275909. </change>
+         <change type="intertexts" when-iso="2021-10-20" who="#LK"/>
+         <change type="typography" when-iso="2021-10-20" who="#LK"/>
+         <change type="references" when-iso="2021-10-20" who="#LK"/>
+         <change type="structure" when-iso="2021-10-20" who="#LK"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000144-016-000-facs001">
+      <surfaceGrp xml:id="D_000144-016-000-facs001-l001">
+         <surface type="recto" xml:id="D_000144-016-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541833/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000144-016-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541834/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000144-016-000_p001"
+             facs="#D_000144-016-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_2e79490d-dfc3-43c0-bf01-a9c5fcf63cee">
+            <lb xml:id="uuid_11ee266e-7043-4601-9078-5077e711457c"/>Sehr geehrter Herr <rs ref="#38909" type="person">Doktor</rs>, </p>
+         <p xml:id="uuid_63283857-ff7a-46b0-94c2-5848b954fae9">
+            <lb xml:id="uuid_7a11f03a-b9a2-446c-bc41-969bbc3d849b"/>beiliegend übersenden wir
+                Ihnen den <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-017-000"
+                type="work"
+                subtype="legal-doc">Entwurf</rs> zu einem <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-017-000"
+                type="work"
+                subtype="legal-doc">Vertrage</rs>
+            <lb xml:id="uuid_a0b83f55-6f5f-423c-a0a4-53c70f5168ba"/>über das <rs ref="#60281" type="work" subtype="pmb">Altenberg-Buch</rs> von <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> den
+                wir Ihnen telephonisch<lb xml:id="uuid_b2ba2a79-3cc7-41df-b1b0-d6283f771d37"/>angekündigt haben. Wir bitten, ihn als Grundlage für eine Bespre<lb break="no" xml:id="uuid_a37bfd64-72b5-48aa-866f-39065f576618"/>chung anzusehen. </p>
+         <p xml:id="uuid_d6b41b94-622e-467c-a6d7-3a68b2e2c2b8">
+            <lb xml:id="uuid_507027cc-8cf0-4318-82af-436868250693"/>In vorzüglicher Hochachtung<lb
+               xml:id="uuid_086937d7-85cf-46c5-8a53-766977fa2e4b"/><rs ref="#37062"
+               type="institution">ANTON SCHROLL &amp; CO., GES.M.B.H.</rs>
+            <lb xml:id="uuid_fd57a03d-9029-43b7-b37f-c2400c991feb"/>[<rs type="person"
+               >Unterschrift</rs>] </p>
+         <pb xml:id="D_000144-016-000_p002"
+             facs="#D_000144-016-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_ecace48f-0608-4792-b3d5-9287f59519ea">
+            <lb xml:id="uuid_a55810d3-8aa0-4ef9-adf9-b6d6d4d19e12"/><note type="paratext"
+               resp="law-firm"><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  >Kraus</rs> – <rs type="work" ref="#60281" subtype="pmb">Altenberg<lb
+                     xml:id="uuid_a89483ea-0063-4b19-a616-644cac2e86e6"/>Auswahl</rs>
+               <lb xml:id="uuid_ec4077af-04fc-4a7e-91b1-f60d1a9d335c"/>21. APR. 1931</note></p>
+      </body>
+   </text>
+</TEI>

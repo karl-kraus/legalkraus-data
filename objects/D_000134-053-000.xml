@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-054-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-052-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000134-053-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Kraus</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and
+                        Cultural Heritage, Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital
+                        History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000134-053-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-samek-kraus-19 </idno>
+            <idno subtype="transkribus" type="ID">437880</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000134" type="collection">Paul Amadeus Pisk ca. Karl Kraus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000134-053-000-facs001" xml:id="D_000134-053-000-wit01"/>
+            </listWit>
+            <msDesc status="draft">
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000134-053-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/> 
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51"/> 
+               </address>
+               <date when-iso="1931-03-30">30. März 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#11988">Herrn | Karl Kraus</persName>
+               <address>
+                  <street corresp="#52608">Hotel Hermes. Schiffbauerdamm</street>
+                  <settlement ref="#168">Berlin</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Dr. Pisk.</note>
+               <note type="dictation">Dr.S/Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-03-30">30.
+                    März 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000134-053-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000134-053-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" when-iso="2021-09-13" status="draft">created XML Document</change>
+         <change resp="#LU" when-iso="2021-09-13" status="draft">Replaced Text with Transcription
+                of Transkribus Document 437880. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2022-03-03"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2022-03-03"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2022-03-03"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-03-03" who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2022-03-03"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000134-053-000-facs001">
+      <surfaceGrp xml:id="D_000134-053-000-facs001-l001">
+         <surface xml:id="D_000134-053-000-facs001-l001-p001" type="recto">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558577/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000134-053-000-facs001-l001-p002" type="verso">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558578/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000134-053-000_p001" facs="#D_000134-053-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_3112515c-2780-4f3a-8340-916b50eb9c72">
+            <lb xml:id="uuid_59abd604-5989-4498-9c68-857281715df4"/>Sehr verehrter Herr <rs
+               type="person" ref="#11988">Kraus</rs>!</p>
+         <p xml:id="uuid_022efa6c-6bbf-485f-b886-37fb264cf9fc">
+            <lb xml:id="uuid_4b894c8a-d285-4b72-8476-99d2a9a3007c"/>In der Anlage übersende ich
+            Ihnen eine<lb xml:id="uuid_e41ce743-bf21-465b-a3b5-f9bb2e3f25b8"/><rs type="work"
+               subtype="pmb">Notiz</rs> aus der <rs type="work" subtype="pmb" ref="#39950">Wiener
+               allgemeinen Zeitung</rs>, die Sie vielleicht<lb
+               xml:id="uuid_f67b29bb-61fe-43b1-bfbe-6bf31ba4157b"/>schon gelesen haben, aus dem
+            Grund, um Sie über das Unrichtige<lb xml:id="uuid_7b3713be-7f4e-4cbe-a66a-b3a8adbd35cb"
+            />des Sachverhaltes zu orientieren. Bezüglich des Tatbestandes<lb
+               xml:id="uuid_663b3c21-5ed3-4648-88e4-aeff785cbabc"/>ist wieder die alte falsche
+            Behauptung aufgestellt worden, die<lb xml:id="uuid_830d7e60-2e2a-475a-8126-73f635b6714c"
+            />wir schon längst berichtigt haben. Was Sie am meisten interes<lb
+               xml:id="uuid_b03c1845-3da2-4158-87c1-2be7711fd5cf" break="no"/>sieren wird, ist der
+            letzte Absatz. Es ist vollständig unrichtig,<lb
+               xml:id="uuid_00410f0a-c655-4ff0-92ee-950682d67085"/>dass der <rs type="person"
+               ref="#50624">Vorsitzende</rs> ausgesprochen hat, es sei die Umwandlung<lb
+               xml:id="uuid_153afde2-d07e-4ec6-b014-2b0575470b5e"/>der an sich verwirkten
+            Arreststrafe in eine Geldstrafe mit Unrecht<lb
+               xml:id="uuid_f5216e73-c63a-4133-92da-080bc2370f45"/>verfügt worden, weil in solchen
+            Fällen, wenn ein Wahrheitsbeweis<lb xml:id="uuid_0ce3c9b6-99f3-435e-ab44-e5ab3ac4a1a3"
+            />angeboten wird, jedoch misslingt, unbedingt eine Arreststrafe<lb
+               xml:id="uuid_a2706575-c5c4-4fe1-8a28-8e9c2ed6d67c"/>Platz zu greifen hätte und
+            lediglich, weil Dr. <rs type="person" ref="#39325">Pisk</rs> keine Berufung<lb
+               xml:id="uuid_5badc28d-57de-4ef3-9ba6-249ddf5f9bc8"/>wegen zu geringer Strafe
+            eingebracht hatte, das <rs type="institution" ref="#36842">Gericht</rs> genötigt<lb
+               xml:id="uuid_808f74ba-fb08-4d81-8feb-931587e8fd65"/>gewesen sei, von einer
+            Neufestsetzung der Strafe Abstand zu<lb
+               xml:id="uuid_763c8ea6-4dce-4e38-9914-2af82ef111eb"/>nehmen.</p>
+         <p xml:id="uuid_0dff06ac-5bfd-4b7c-b601-bc198f8f2c91">
+            <lb xml:id="uuid_d0e5bb61-ed95-4222-b333-fe079cfdf4ff"/>Die bezüglich der Strafe vom <rs
+               type="person" ref="#50624">Vorsitzenden</rs>
+            <lb xml:id="uuid_50bed75f-6fba-4c53-8976-eaf4fc41f0d6"/>gemachten Ausführungen gingen
+            vielmehr dahin, dass die Strafe<lb xml:id="uuid_5e0541a4-25c9-4455-9b76-e8a855e7f95c"
+            />dem Verschulden angemessen war, weil auf Beleidigungen solcher<lb
+               xml:id="uuid_1559eac4-8812-4e21-a2f4-76f2b9decfa4"/>Art im Gesetz eine Mindeststrafe
+            von 8 Tagen <subst>
+               <del>erst</del>
+               <add>Arrest</add>
+            </subst> vorgesehen sei,<lb xml:id="uuid_a9728f26-a5d2-4d60-baf7-5d44ac1e18e6"/>und bei
+            den Vermögensverhältnissen des <rs type="person" ref="#11988">Beschuldigten</rs> für
+               diese<lb xml:id="uuid_16879ebe-7ada-4b8d-ba25-057a4243c461"/>achttägige Arreststrafe
+            eine Geldstrafe in der Höhe von S 500.– <pb xml:id="D_000134-053-000_p002"
+               facs="#D_000134-053-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_f3242226-cf94-4132-a64c-0d86446f023a"/>angemessen erscheine.
+            Infolgedessen sei der Strafberufung keine<lb
+               xml:id="uuid_4f315118-2b5b-4d2e-b63b-ee53aa4e0a99"/>Folge gegeben worden. Ich habe
+            die Strafberufung überhaupt in<lb xml:id="uuid_0a0c27be-07d8-4b29-8789-ac8a874bdabf"
+            />der mündlichen Verhandlung nicht mehr angeführt, da ich lediglich<lb
+               xml:id="uuid_e881df55-7d98-434d-80df-fc456e703304"/>auf Freispruch wegen des
+            erbrachten Wahrheitsbeweises plädierte.</p>
+         <p xml:id="uuid_31af06c1-14ae-404b-b74c-6883f29fde26">
+            <lb xml:id="uuid_3c649d94-fb17-41aa-accd-3571c5f452cd"/>Ich zeichne mit dem Ausdrucke
+            der Verehrung</p>
+         <p xml:id="uuid_f5e3a828-9491-429e-a7d8-db2c7aa6f7fc">
+            <lb xml:id="uuid_874fa47b-202c-4c98-9fe2-8e0dd71a9e19"/><rs type="work"
+               subtype="legal-doc">1 Beilage</rs>.</p>
+         <p xml:id="uuid_0a115caa-3e3d-47cf-b78b-5f4f5f720911">
+            <lb xml:id="uuid_e012ee4a-1753-424e-8b92-e2091d187bd5"/><note type="paratext"
+               resp="law-firm">Betr. <rs type="person" ref="#11988">Kraus</rs> – Dr. <rs
+                  type="person" ref="#39325">Pisk</rs>
+               <lb xml:id="uuid_5b2db63e-a2bf-4b36-8bd0-7f95de6f548b"/>exp. 30.3.1931.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

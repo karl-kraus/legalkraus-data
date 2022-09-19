@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-131-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-129-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000196-130-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Felix Gallia</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000196-130-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/5120</idno>
+            <idno subtype="transkribus" type="ID">400748</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000196" type="collection">Karl
+                    Kraus ca. Arbeiter-Zeitung (Brünn)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000196-130-000-facs001" xml:id="D_000196-130-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000196-130-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#52780"/> 
+                  <settlement ref="#65"/> 
+               </address>
+               <date when-iso="1936-10-30">30. Oktober 1936</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#51575">Herrn Dr. Felix Gallia, | Advokat in Brünn</persName>
+               <address>
+                  <street corresp="#51759">Masarykstr. 25/27</street>
+                  <settlement ref="#833">Brünn</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Arbeiterzeitung</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1936-10-30">30. Oktober 1936
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000196-130-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000196-130-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-12T09:52:56.545Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-12T11:11:24.132Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 400748. </change>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-10-27"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-10-27"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-10-27"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-10-27" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000196-130-000-facs001">
+      <surfaceGrp xml:id="D_000196-130-000-facs001-l001">
+         <surface type="recto" xml:id="D_000196-130-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2594091/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000196-130-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2594092/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2594093/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000196-130-000_p001"
+             facs="#D_000196-130-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_2ab24dc2-03b7-44d4-b7f1-c45d8d1b3b6f">
+            <lb xml:id="uuid_2843aa97-f718-482a-8c70-6605fd443c45"/>Sehr geehrter <rs ref="#51575" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_09605640-804d-45c8-94bb-2e538e86c556">
+            <lb xml:id="uuid_b210e748-612a-4be0-a073-8a6b42b6c751"/>Mit dem besten Dank
+                bestätige ich den Empfang<lb xml:id="uuid_e80105fd-2bf2-4320-b1c3-2b60dc639fb1"/>Ihres freundlichen <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-129-000"
+                type="work"
+                subtype="legal-doc">Schreibens vom 26. Oktober 1936</rs>
+            <lb xml:id="uuid_f543d329-0a34-480d-8b61-7cb178632d00"/>und habe den Termin der
+                fortgesetzten Hauptverhandlung<lb xml:id="uuid_5bbc9f0b-5987-4db3-b352-76fcc9efd829"/>im bezirksgerichtlichen Prozeß zur Kenntnis genommen.<lb xml:id="uuid_8ac156bd-66f4-40e9-8524-41b9ed341d62"/>Ich wüßte nicht, was ich
+                Ihnen noch dazu sagen sollte;<lb xml:id="uuid_b02b901d-e0a2-4a0e-9967-1700a614feda"/>Sie sind ja ausgezeichnet orientiert. Nach meinem<lb xml:id="uuid_f181b2b7-094c-4084-ae92-f346fe521ab4"/>Dafürhalten muß die
+                Angelegenheit zur Verbindung mit<lb xml:id="uuid_0b54f455-9dbf-4a97-ae7c-bf2c89dc5475"/>der kreisgerichtlichen
+                führen. Wann wird es wohl zum<lb xml:id="uuid_df184009-088c-4917-92be-650a9f787650"/>Termin in dieser Sache kommen? Wenn es mir irgendwie<lb xml:id="uuid_0354c5e0-aefd-4387-b28c-cb5e656509a1"/>möglich ist, möchte ich zur
+                Verhandlung in der Haupt<lb break="no" xml:id="uuid_fc43c355-214f-48c9-b7cb-4db92f5d8440"/>sache nach <rs ref="#833" type="place">Brünn</rs> kommen. </p>
+         <p xml:id="uuid_96cb9e65-ceb4-487c-9cc8-286e3d712c76">
+            <lb xml:id="uuid_4f6c20bf-0a71-4417-ad6b-6d17fd5eab5b"/>Bei dieser Gelegenheit
+                möchte ich Ihnen auch<lb xml:id="uuid_de4df156-2811-43b5-b3d9-e4b1b158c59c"/>den
+                Dank für die Übersendung des <rs ref="#60556" type="work" subtype="pmb">Aufsatzes</rs> von <rs ref="#39331" type="person">Oskar<lb xml:id="uuid_1b6120af-9341-4a2e-9c45-2397952d403b"/>Pollak</rs> aussprechen. </p>
+         <p xml:id="uuid_637050fd-6138-49dd-9a17-15ff23c8f55e">
+            <lb xml:id="uuid_9c62e9e2-3682-4450-adbc-ec0b28079fee"/>Ich bin mit vorzüglicher
+                kollegialer Hoch<lb break="no" xml:id="uuid_9d1aab51-73ff-4ae0-817c-5cbb1b5a26a5"/>achtung und besten Grüßen </p>
+         <p xml:id="uuid_ff14559d-652a-45d9-8266-8618280f01e5">
+            <lb xml:id="uuid_dd34d08f-524a-4985-9068-ed60f16345af"/>Ihr ergebener <pb
+               xml:id="D_000196-130-000_p002" facs="#D_000196-130-000-facs001-l001-p002" n="2"/></p>
+         <p xml:id="uuid_43bd4838-ca60-4629-802f-b6089bb6d331">
+            <lb xml:id="uuid_17e46f2f-bbfd-419d-8dd7-cf4b9e03c17d"/><note resp="law-firm"
+               type="paratext">Betr. <rs ref="#11988" type="person">Kraus</rs> – <rs ref="#29644"
+                  type="institution">Arbeiterzeitung</rs><lb
+                  xml:id="uuid_d45045f2-4caf-4a2c-88d2-0f4c857a9d83"/>exp. 30.10.1936</note></p>
+      </body>
+   </text>
+</TEI>

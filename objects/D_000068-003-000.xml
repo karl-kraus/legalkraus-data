@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-004-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-002-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000068-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Justizrat Viktor Fraenkl</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000068-003-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2506</idno>
+            <idno subtype="transkribus" type="ID">203445</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000068" type="collection">Karl
+                    Kraus ca. Alfred Kerr</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000068-003-000-facs001" xml:id="D_000068-003-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000068-003-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51"/> 
+               </address>
+               <date when-iso="1927-02-28">28. Februar 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38141">Herrn Justizrat Viktor Fraenkl</persName>
+               <address>
+                  <street corresp="#362">Potsdamerstrasse Nr. 86 b</street>
+                  <settlement ref="#168">Berlin W 57</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Kerr.</note>
+               <note type="dictation">Dr.S./W.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-02-28">28. Februar 1927
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000068-003-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000068-003-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-03-10T12:15:44.478Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 203445. </change>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-11-29"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-11-29"
+                 who="#AR"/>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2021-11-29"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000068-003-000-facs001">
+      <surfaceGrp xml:id="D_000068-003-000-facs001-l001">
+         <surface type="recto" xml:id="D_000068-003-000-facs001-l001-p001">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552042/full/full/0/default.jpg"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-003-000-facs001-l001-p002">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552043/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000068-003-000_p001"
+             facs="#D_000068-003-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_ca032c35-335f-49df-873c-48b8f9adf076">
+            <lb xml:id="uuid_798367bb-cb56-4554-934b-8d504286e65f"/>Sehr geehrter <rs ref="#38141" type="person">Herr Justizrat</rs>! </p>
+         <p xml:id="uuid_ff4be27b-e940-4617-b05f-096bdf8a6e1a">
+            <lb xml:id="uuid_7fdfb168-d18a-4cb3-97ee-e66c8524990b"/>Ich komme auf mein <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-001-000.xml"
+                type="work"
+                subtype="legal-doc">Schreiben vom 3. Jänner 1927</rs>
+            <lb xml:id="uuid_9750d443-0b2e-4fdb-a9cf-78f1e52a9756"/>zurück und ersuche Sie,
+                gegen Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11910" type="person">Alfred
+                    Kerr</rs> wegen<lb xml:id="uuid_3b720b6c-3ca1-4c00-8a38-d68a0d1d512e"/>der
+                Beleidigungen in dem Artikel „<rs ref="#53052" type="work" subtype="pmb">Zur
+                    Jessner-Hetze</rs>“<lb xml:id="uuid_b1e627ef-0979-47a2-926d-b8d8da3b009e"/>Absatz 3, erschienen in der <rs ref="#53048" type="work" subtype="pmb">Morgenausgabe</rs> des „<rs ref="#41531" type="work" subtype="pmb">Berliner<lb xml:id="uuid_b58f2ccc-8c58-4214-895a-e4543c2b3f9a"/>Tageblatt</rs>“ vom 21.
+                Dezember 1926, 55. Jahrgang, Nr. 600, die<lb xml:id="uuid_8c1955e4-54ab-4df6-ba4d-26709a7b70b8"/>Ehrenbeleidungsklage
+                einzubringen, wenn es sicher ist, dass<lb xml:id="uuid_b97e0b9e-f23d-4af1-9a34-389ed847350a"/>die Berliner Gerichte zu
+                einer Widerklage gegen Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>
+            <lb xml:id="uuid_34025c22-fe9c-4257-adbc-1417ca99bce0"/>nicht zuständig sind. Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> wünscht selbstverständlich<lb xml:id="uuid_9dfc24a5-bd86-4017-a6a4-20ffb80cb57e"/>nicht, die Klage des Herrn
+                    <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11910" type="person">Kerr</rs> zu
+                vermeiden, sondern nur<lb xml:id="uuid_5480200f-a6a8-474d-83ae-f73947110caf"/>deshalb nicht Umständlichkeiten durch Erscheinen bei einer<lb xml:id="uuid_245e55f3-da84-44fa-bf66-04d6306bd140"/>Berliner Verhandlung zu
+                haben. Meine Bedenken wegen Zustän<lb break="no" xml:id="uuid_7f9ca8db-227f-42ac-adef-14a4d8ab8d4a"/>digkeit der Berliner
+                Gerichte hatten ihre Ursache in der<lb xml:id="uuid_de7472d3-49da-45d8-bb84-524e307efadb"/>Bestimmung des <rs ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=485&amp;size=45"
+                type="law">§ 36 des österreichischen Pressgesetzes</rs>, nach<lb xml:id="uuid_5d68945c-87b5-4bac-8672-287f47166a48"/>welchem für alle durch ein
+                Druckwerk begangenen strafbaren<lb xml:id="uuid_33ee11af-0268-4782-90a9-0d0639929c50"/>Handlungen als Tatort der
+                Ort gilt, wo das Druckwerk er- <pb xml:id="D_000068-003-000_p002"
+                facs="#D_000068-003-000-facs001-l001-p002"
+                n="2"/>
+            <lb xml:id="uuid_1c155ec6-5031-4ea7-9d3a-0318904f9895"/>schienen ist. Ist dieser Ort
+                unbekannt oder liegt er im<lb xml:id="uuid_ddd52961-6b36-4202-8263-293b4e8dbfa7"/>Auslande, so gilt als Tatort der Ort, wo das Druckwerk<lb xml:id="uuid_6a861f89-faed-4c95-aa3b-0335ddfcd3dd"/>verbreitet worden ist. Ich
+                habe allerdings eine gleiche<lb xml:id="uuid_ac545c6a-abc2-4a25-8062-45cf8fb23ad4"/>Bestimmung im deutschen Recht nicht gefunden, doch ist<lb xml:id="uuid_d2b43292-844f-414a-9c40-fac4b3318e82"/>immerhin möglich, dass sie
+                mir entgangen ist. Wenn Sie<lb xml:id="uuid_4c01d97b-80b3-45a7-add5-b28a3c3c1cce"/>zur Erhebung der Klage eine neue Vollmacht des Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>
+            <lb xml:id="uuid_f433b9fe-09df-4285-af22-93273fa162b0"/>benötigen, so bitte ich Sie
+                um Einsendung eines Vollmachts<lb break="no" xml:id="uuid_65c697d7-fed5-421a-a958-e3a622fee69b"/>exemplares. </p>
+         <p xml:id="uuid_ef3f5216-1a76-4707-9fb2-f2f8640fcbc8">
+            <lb xml:id="uuid_ceeb1e49-40fb-45a0-8f32-b50036b4e081"/>Ich zeichne mit
+                    vorzüglicher<lb xml:id="uuid_219fba1c-9215-47ae-b586-36337ff520d1"/>kollegialer
+                Hochachtung </p>
+         <p xml:id="uuid_67e7c600-1d14-49e0-9b4c-2224f96562bc">
+            <lb xml:id="uuid_ab872022-a51b-495d-b990-3ad058848614"/><hi rend="underlined">rekommandiert.</hi>
+         </p>
+         <p xml:id="uuid_ee93af7d-29ec-4142-b81e-5f0c3b7a9a61">
+            <lb xml:id="uuid_4c97ebac-caa9-4761-82e5-0128d12f7f99"/><note resp="law-firm" type="paratext">Betrifft: <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11910" type="person">Kerr</rs>.<lb xml:id="uuid_4c653fe3-897f-49cc-a4f6-722e9c9e99bc"/>expediert am 28. Februar
+                    1927. </note>
+         </p>
+      </body>
+   </text>
+</TEI>

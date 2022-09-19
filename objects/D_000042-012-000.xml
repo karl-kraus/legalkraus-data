@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-013-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-011-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000042-012-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Regine Stern an RA Viktor Stadler</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000042-012-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/2121</idno>
+            <idno subtype="transkribus" type="ID">191743</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000042" type="collection">Diverse
+               Korrespondenzen betr. Emmerich Békessy</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000042-012-000-facs001" xml:id="D_000042-012-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000042-012-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.M"
+                        >Manuskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1928-06-27">27. Juni 1928</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#52893"/>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref=""/>
+               </address>
+               <date when-iso="1928-06-27">27/6</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38714">Viktor</persName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref=""/>
+               </address>
+               <date/>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote xml:id="D_000042-012-000-hand01" source="#D_000042-012-000-wit01"
+               scribeRef="#52893" medium="grey-pencil" cert="high" resp="#IL"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000042-012-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000042-012-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2022-01-17" who="#IL"/>
+         <change type="structure" when-iso="2020-11-18" who="#IL"/>
+         <change type="references" when-iso="2020-11-22" who="#IL"/>
+         <change type="typography" when-iso="2022-01-17" who="#IL"/>
+         <change when-iso="2020-02-11T08:50:57.398Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-11T08:57:19.654Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change when-iso="2020-02-11T08:57:20.506Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 191743. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000042-012-000-facs001">
+      <surfaceGrp xml:id="D_000042-012-000-facs001-l001">
+         <surface xml:id="D_000042-012-000-facs001-l001-p001" type="recto">
+            
+            <graphic ana="status:checked" source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548806/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000042-012-000-facs001-l001-p002" type="verso">
+            
+            <graphic ana="status:checked" source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548807/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000042-012-000_p001" facs="#D_000042-012-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_81c94f22-3589-4c89-8daf-ae1d92928a50"> </p>
+         <p xml:id="uuid_0c7bf979-348b-4ef1-8734-cc559454498f">
+            <lb xml:id="uuid_6e1ee71b-4d5a-498a-9851-70f5212a65b3"/>Lieber <rs ref="#38714"
+               type="person">Viktor</rs>,</p>
+         <p xml:id="uuid_3d741236-360e-4e36-8cc0-f9a124e5416c"><lb
+               xml:id="uuid_fc2f5998-4d7c-4abf-b750-911908748792"/>wenn Du den <rs ref="#52890"
+               type="person">Georg Singer</rs>
+            <lb xml:id="uuid_a635e0be-feff-4302-a9b4-0d0b08cae0f2"/>in der „Angelegenheit“ spre<lb
+               xml:id="uuid_1639d5e3-56bb-4f4c-967c-d7f751ccf77c" break="no"/>chen willst, so rufe
+               ihn,<lb xml:id="uuid_c5eed798-dcbb-4807-8fd3-1e01a1b44c42"/>bitte, nicht zuhause,
+               sondern<lb xml:id="uuid_39bc5e57-f854-4704-9edb-f10284a1e671"/>in der Fabrik „An
+               Mikado“<lb xml:id="uuid_1a89d52b-13b8-4765-9b55-298eb0ad7388"/><rs subtype="address"
+               type="place" ref="#65525">Dietrichgasse</rs>, an (Ing. <rs ref="#52890" type="person"
+                  >Georg<lb xml:id="uuid_086268b7-545b-4c97-8694-2060a1b23690"/>Singer</rs>): Sage
+            ihm auch,<lb xml:id="uuid_73b1af02-e177-4677-bf2a-01bf8c522a9e"/>dass <hi
+               rend="underlined">nur</hi>
+            <hi rend="underlined">Du</hi> seinen Namen <pb xml:id="D_000042-012-000_p002"
+               facs="#D_000042-012-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_fbf1a089-3495-48c1-9c30-6973b59a53fd"/>u. seine Verbidnung in<lb
+               xml:id="uuid_5825e9cb-9b74-441e-93bd-2593dd842f1e"/>dieser Sache kennst. </p>
+         <p xml:id="uuid_1ff08639-8f61-483d-9088-9a680990a83c">
+            <lb xml:id="uuid_aada2c9e-f542-4f65-a008-40b7baed309a"/>Nochmals viele herzl.<lb
+               xml:id="uuid_d6998f6d-421c-485a-af5f-fdf4a6a8847a"/>Grüße an Dich und <rs
+               ref="#52891" type="person">Gisa</rs>! </p>
+         <p xml:id="uuid_cfa02234-f72d-4c69-b0ee-bdadb674b5eb">
+            <lb xml:id="uuid_7d9755aa-2518-4f8e-9380-4e17c5578e35"/><rs ref="#52893" type="person"
+               >Resy</rs>
+         </p>
+         <p xml:id="uuid_13654389-d77b-41b5-8527-c2a11fbd9990">
+            <lb xml:id="uuid_c2abc528-5d2d-4cf0-92af-e939c0b86dfa"/>Ich habe Frau <rs ref="#38589"
+               type="person">Kann</rs> versprochen,<lb
+               xml:id="uuid_4178e2df-8a92-436f-9463-31cd596f3cf2"/>sie anzurufen, bin aber<lb
+               xml:id="uuid_4afe3885-7fc3-47fe-869b-bc14f5e96598"/>nicht mehr dazu gekommen.<lb
+               xml:id="uuid_879c4648-d7ce-4f1e-b403-ad2e100a76ee"/>Grüße Sie, bitte, von mir. </p>
+      </body>
+   </text>
+</TEI>

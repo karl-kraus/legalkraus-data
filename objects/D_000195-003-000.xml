@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000195-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-002-000.xml"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-004-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Johann Turnovsky an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000195-003-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4930 </idno>
+            <idno type="ID" subtype="transkribus">387749</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000195">Karl
+                    Kraus ca. Aufruf</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000195-003-000-wit01" facs="#D_000195-003-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000195-003-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSN">Typoskript mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#43593">JUDr. JOHANN TURNOVSKY</persName>
+               <address>
+                  <street corresp="#51737">Vodičkova 33</street>
+                  <settlement ref="#652">Prag</settlement>
+               </address>
+               <date when-iso="1934-09-11">11.IX.1934</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/38909">P.T. | Dr. Oskar Samek</persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse 18</street>
+                  <settlement ref="#64">Wien – XIV</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Karl Kraus | ca: AUFRUF</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date type="sortDate" when-iso="1934-09-11" subtype="produced">11. September 1934
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote xml:id="D_000195-003-000-hand01"
+                      source="#D_000195-003-000-wit01"
+                      scribeRef="#38909"
+                      medium="red-pencil"
+                      cert="low"
+                      resp="#JK"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000195-003-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000195-003-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-09-02" who="#JK"/>
+         <change type="typography" when-iso="2021-09-02" who="#JK"/>
+         <change type="references" when-iso="2021-09-02" who="#JK"/>
+         <change type="structure" when-iso="2021-09-02" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-06" who="#JK"/>
+         <change when-iso="2020-10-12T09:39:34.422Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-12T09:51:02.028Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 387749. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000195-003-000-facs001">
+      <surfaceGrp xml:id="D_000195-003-000-facs001-l001">
+         <surface xml:id="D_000195-003-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2546392/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000195-003-000-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2546393/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000195-003-000-facs001-l002">
+         <surface xml:id="D_000195-003-000-facs001-l002-p003" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2546394/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000195-003-000-facs001-l002-p004" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2546395/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000195-003-000_p001"
+             facs="#D_000195-003-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_ee989aa9-47c5-4dfd-8836-8f8d07fbc5e0">
+            <lb xml:id="uuid_45cbe518-4773-4215-bd6e-e9b12b73085a"/>Sehr geehrter <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38909">Herr Doktor</rs>. </p>
+         <p xml:id="uuid_aebda81b-efb5-43f9-a3dc-0327209a7201">
+            <lb xml:id="uuid_4fd3eb89-d5fa-423e-82c4-f948466ecc6c"/>Wie Ihnen <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herr Kraus</rs> wohl mitge<lb xml:id="uuid_f1917cb2-1612-4483-a417-1b65ca39fde5" break="no"/>teilt haben wird,
+                hat er mit mir über die gegen die Autoren<lb xml:id="uuid_cc398927-74f4-4486-8460-2182681eb6c5"/>der in einigen Zeitschriften
+                veröffentlichten Artikel,<lb xml:id="uuid_cd571bd3-a447-491d-b969-a9d184fe4c95"/>resp. gegen die verantwortlichen Redakteure, zu überrei<lb xml:id="uuid_640fc861-16f6-48b5-b230-26c6245e6e53" break="no"/>chenden Klagen
+                gesprochen und den Text der Widerrufsklage<lb xml:id="uuid_05f4c88e-ebac-40e4-b088-adeccc61d409"/>gegen den <rs type="person" ref="#43657">Herausgeber und verantwortlichen Redakteur des<lb xml:id="uuid_bdf5c94b-27c1-4e07-8a35-4adb0a4b4b9d"/>„<rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37338">Gegen-Angriff</rs>“</rs>, der
+                Ehrenbeleidigungsklage gegen diesen<lb xml:id="uuid_d305ae09-5c05-45a8-97c5-310dd0b29f0f"/>wegen des Artikels „<rs type="work" ref="#56361" subtype="pmb">Mut, Verrat, oder Feigheit?</rs>“,
+                    schliess<lb xml:id="uuid_774af2a0-b683-4661-a877-4e0610750494" break="no"/>lich
+                der Ehrenbeleidigungsklage gegen den <rs type="person" ref="#38644">verantwortlichen<lb xml:id="uuid_d8d2882b-b818-4442-803b-cb6b65a66aac"/>Redakteur des „<rs type="institution" ref="#37540">Sozialdemokrat</rs>“</rs>
+                wegen des Artikels „<rs type="work" ref="#56397" subtype="pmb"><rs type="work" ref="#41244" subtype="pmb">Die<lb xml:id="uuid_4638ee41-3bd0-4fd4-9166-ec899e2ab7c0"/>Fackel</rs> als
+                    faszistische Hetzschrift</rs>“ genehmigt. </p>
+         <p xml:id="uuid_bbae9f65-3e30-4881-9a84-d25d73a2779b">
+                <lb xml:id="uuid_1c2fbc66-a1c0-4b82-971e-905f7ef89a9e"/>Ferner wurde die Klage gegen
+                den Autor und <rs type="person" ref="#37889">verantwortlichen<lb
+                        xml:id="uuid_32cef265-7e4f-4fcc-8a14-f4766bb6a150"/>Redakteur des „<rs
+                        type="institution" ref="#37264"><hi rend="underlined"
+                            hand="#D_000195-003-000-hand01">AUFRUF</hi></rs>“</rs> wegen des
+                Artikels „<rs type="work" ref="#56412" subtype="pmb"><hi rend="underlined"
+                        hand="#D_000195-003-000-hand01"><rs type="work" ref="#41244" subtype="pmb"
+                            >Die Fackel</rs><lb xml:id="uuid_d49ee8c1-8505-49f4-b9bf-2159a32e468c"
+                        />schwelt</hi></rs>“ besprochen. </p>
+         <p xml:id="uuid_bca92eb2-8a5d-436b-8e71-9190b1322bd0">
+            <lb xml:id="uuid_22b02dcc-c7f2-478d-904d-e3ab022a3547"/>Ich sende Ihnen das <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-007-000"
+                subtype="legal-doc">Konzept dieser<lb xml:id="uuid_7f5649e8-cbc1-450e-a24b-5d5e47b66b5d"/>Klage</rs> ein und
+                gestatte mir zu deren Inhalt zu bemerken:<lb xml:id="uuid_96da637a-7ee9-40fd-bcd2-c8ef2f26cae4"/>Die einzelnen Sätze, die <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herr Kraus</rs>
+                unter Anklage zu stellen<lb xml:id="uuid_ef7c9e3f-c068-417b-be5f-c57a8aa2eb10"/>wünschte und die Art, wie er dies wollte, habe ich berück<lb xml:id="uuid_252380ac-8276-4ddd-b54d-3387f8a8ed47" break="no"/>sichtigt und bei
+                nochmaliger Lektüre des <rs type="work" ref="#56412" subtype="pmb">inkriminierten<lb xml:id="uuid_a9d6cc27-46a5-43f6-80ac-cdd9cb3a0db8"/>Artikels</rs> gefunden,
+                dass auch der ad 3/ angeführte Passus <pb xml:id="D_000195-003-000_p002"
+                facs="#D_000195-003-000-facs001-l001-p002"
+                n="2"/>
+            <lb xml:id="uuid_09907560-3008-4c4d-8d4a-7cb2202b6b42"/>des Artikels / 7. Seite der
+                    <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-007-000"
+                subtype="legal-doc">Klage</rs> / verfolgt werden kann. </p>
+         <p xml:id="uuid_fca1907b-06b3-4f9f-9ac4-16329f08c377">
+                <lb xml:id="uuid_1bb86983-e1ef-491b-995a-9f724bc09b79"/>Da es sich um Tatbestände
+                handelt, die dem <rs type="institution" ref="#56313">Presse<lb
+                        xml:id="uuid_74b6b311-67b5-4b89-9fb3-4d4e5012f0fc" break="no"/>senat</rs> zu
+                erläutern ausserordentlich schwierig sein wird, halte<lb
+                    xml:id="uuid_0f24339c-231a-4930-b966-ed403bf215b8"/>ich es für notwendig, in der
+                Klage den Sinn der unter Anklage<lb
+                    xml:id="uuid_8f5656e6-747b-422a-891d-6398ceeaec76"/>gestellten Sätze
+                gewissermassen zu erläutern und auch aufzu<lb
+                    xml:id="uuid_f9e3ec79-feea-44af-b098-f775f6753a3b" break="no"/>klären, wodurch
+                der <rs type="person" ref="#43586">Autor</rs> zur Veröffentlichung dieser Sätze<lb
+                    xml:id="uuid_b76478b9-933c-496a-bcfd-153238d5d289"/>veranlasst worden ist. Ich
+                glaube, dass es sonst nicht möglich<lb
+                    xml:id="uuid_75e313fc-400a-4fc4-83ec-60999fc14bcc"/>wäre, dem <rs
+                    type="institution" ref="#36822">Gerichte</rs> die Ueberzeugung von der
+                    Strafwürdigkeit<lb xml:id="uuid_e6adce52-3922-43f4-b340-6a172f2c8de4"/>der
+                einzelnen beleidigenden Aeusserungen beizubringen.<lb
+                    xml:id="uuid_cb31d073-b75f-4af8-ae67-cb45d491dc6a"/>Der Name „<quote
+                    xml:id="uuid_ac921055-e3a8-461e-b2fd-dcba6430a293" source="#56412"><rs
+                        type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/43586">Lucien
+                        Verneau</rs></quote>“ ist natürlich ein Pseudonym, es<lb
+                    xml:id="uuid_3785733c-6bda-416f-a9ae-8d25a80a946f"/>wurde jedoch besprochen, den
+                    <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/43586">Autor</rs>
+                unter diesem Namen zu<lb xml:id="uuid_dc74ab7d-7294-4828-8a91-22865ab94818"/>klagen,
+                um zu sehen, wie die <rs type="institution" ref="#37264">Gegenpartei</rs> darauf
+                reagieren wird. </p>
+         <p xml:id="uuid_907f866c-ace1-4728-9035-419bbf124dad">
+            <lb xml:id="uuid_5f89d420-c837-4994-9f4d-8f9d53a9490a"/>Betrifft den Artikel:<lb xml:id="uuid_4b712907-e4aa-4c27-865c-ea9eeee5b56a"/>„<rs type="work" ref="#58140" subtype="pmb"><hi rend="underlined" hand="#D_000195-003-000-hand01">Harakiri eines Rebellen</hi></rs>“<lb xml:id="uuid_2c5bd9f4-9b65-4914-9714-36792f4dfb38"/><rs type="work" ref="#58138" subtype="pmb">„Neuer Vorwärts“ vom 12.8.1934</rs>. </p>
+         <p xml:id="uuid_1907b1b7-0746-4211-8acb-fb3b06aa0a19">
+            <lb xml:id="uuid_7b5e142a-b246-4433-a844-b59e84b26dc3"/>Bezüglich dieses <rs type="work" ref="#58140" subtype="pmb">Artikels</rs> wurde besprochen, keine<lb xml:id="uuid_76d14a1c-5151-409a-9300-3fbfc2b1fce0"/>Ehrenbeleidigungsklage zu
+                überreichen, sondern sich auf die<lb xml:id="uuid_e3d04f55-37b4-4809-9701-7ae1facd2e06"/>Berichtigung der in der
+                dritten Spalte, 20. Zeile von unten,<lb xml:id="uuid_3b21daa2-1d55-4caf-a3ac-fec70603d511"/>wahrheitswidrig angeführten
+                Tatsachen zu beschränken. </p>
+         <p xml:id="uuid_b648c998-bee1-42f7-b788-35552bf45e45">
+            <lb xml:id="uuid_88b09cb3-3357-482f-8567-475eeb91d187"/>Ich schliesse das <rs type="work">Konzept des Berichtigungschrei<lb xml:id="uuid_4af75314-98f8-4ded-bd7f-a1687725d9bb" break="no"/>bens</rs>,
+                sowie den <rs type="work" ref="#58140" subtype="pmb">betreffenden Artikel</rs> bei
+                und bitte, die Klage<lb xml:id="uuid_0d58194a-2534-4aed-9766-313a3775dba3"/>gegen
+                den „<rs type="institution" ref="#37264">AUFRUF</rs>“ und dieses <rs type="work">Konzept</rs>
+            <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn Kraus</rs> vorzulegen<lb xml:id="uuid_717a014f-7797-4e6a-b178-e8dd279cda73"/>und mir dann mitzuteilen, ob
+                er den Text beider genehmigt. </p>
+         <p xml:id="uuid_b059f5cc-7853-4a2f-9765-1b1400d9872f">
+                <lb xml:id="uuid_e1c9c08d-8883-4531-92de-ab73a6ceb10d"/>Betrifft den Artikel „<hi
+                    rend="underlined" hand="#D_000195-003-000-hand01"><rs type="work" ref="#58142"
+                        subtype="pmb"><rs type="person"
+                            ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>
+                        <lb xml:id="uuid_89ace281-d290-4088-b98a-88c814701c82"/>bei Haken- und
+                        Kruckenkreuz</rs></hi>“ </p>
+         <p xml:id="uuid_a1c6ac82-790f-4a12-9581-66bf2be79de6">
+            <lb xml:id="uuid_302a3fd5-a949-4bf0-b339-84e713fc1dfc"/>Auch hier wurde besprochen,
+                dass von einer Ehren<lb xml:id="uuid_20bccfd6-fbf0-4921-89e0-9310f2057a95" break="no"/>beleidigungsklage abgesehen werden soll. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herr Kraus</rs> hat gewünscht<lb xml:id="uuid_03acb237-6b17-471f-883d-fe0d030ef390"/>dass ich eine Widerrufsklage
+                gemäss <rs type="law" ref="">§ 1330 A.B.G.B.</rs> verfassen<lb xml:id="uuid_cd5cbd61-5dbe-4dda-81b8-0a0d1345e081"/>und überreichen soll, wobei
+                die Gefährdung des Erwerbes des <pb xml:id="D_000195-003-000_p003"
+                facs="#D_000195-003-000-facs001-l002-p003"
+                n="3"/>
+            <lb xml:id="uuid_eabbc12d-2964-4cbf-8760-603dfe6e5211"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Klägers</rs> damit begründet
+                werden sollte, dass die Behauptung,<lb xml:id="uuid_cddcddbb-ff62-46d4-8bc8-b3fa7d806401"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herr Kraus</rs> habe sich für <rs type="person" ref="#11715">Hitler</rs> eingesetzt, geeignet sei, die<lb xml:id="uuid_48735a25-1dd7-4985-b747-aaf985d4f93f"/>Gegner des Hitlerregimes,
+                aus denen zum grössten Teil die<lb xml:id="uuid_b0efdb03-9a6d-4f62-be0a-222dfce6e26f"/>Leser der „<rs type="work" ref="#41244" subtype="pmb">Fackel</rs>“ bestehen, von der Anschaffung der<lb xml:id="uuid_4b716b1a-f857-4a6d-9fd9-7e8119aa4ab8"/><rs type="work" ref="#41244" subtype="pmb">Fackel</rs> abzuhalten. </p>
+         <p xml:id="uuid_68551e4d-8a56-4576-8fa3-f2b7101ae450">
+                <lb xml:id="uuid_844d5332-03cc-49c7-a66d-39c8ef6b8c4e"/>Ich bin nicht ganz überzeugt
+                davon, dass<lb xml:id="uuid_91a7399a-f349-4f4c-9a6a-37a5842ebc4e"/>eine derart
+                begründete Klage zur Verurteilung des <rs type="person">Beklagten</rs>
+                <lb xml:id="uuid_aedeb724-882f-4536-a490-967e9fef8fd8"/>führen muss und befürchte,
+                dass das <rs type="institution">Gericht</rs> die Ansicht<lb
+                    xml:id="uuid_240a73e7-455a-45db-b37b-61c8d63549cb"/>vertreten könnte, jede
+                Stellungnahme eines Autors halte seine<lb
+                    xml:id="uuid_03a84e21-5dac-44e4-a8cd-db25b75e964b"/>politischen oder sonstigen
+                Gegner von der Anschaffung seiner<lb
+                    xml:id="uuid_b713460a-7493-44a2-99d3-85655335bf36"/>Werke ab. Der Leserkreis des
+                Autors setze sich aus seinen<lb xml:id="uuid_708dd302-1a77-42d1-bb8d-3ea543b65670"
+                />Anhängern zusammen. Nun ist es ja richtig, dass gerade die<lb
+                    xml:id="uuid_6ea396d1-37a2-41a3-8c8e-a336c1e7a4c1"/>Anhänger des <rs
+                    type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn Kraus</rs>
+                durch die Lektüre des <rs type="work" ref="#58142" subtype="pmb">Artikels</rs>,
+                    in<lb xml:id="uuid_f6e7a8ff-8cc1-4bad-ad21-a014084ed1a8"/>welchem zu Unrecht
+                behauptet wird, <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                    >Herr Kraus</rs> vertrete einen<lb
+                    xml:id="uuid_e78cd5c3-77e8-47b9-8e53-804da85e28c1"/>anderen Standpunkt als sie,
+                von der Anschaffung seiner Werke<lb
+                    xml:id="uuid_0580a536-d356-4f83-b3a6-4064dcbad5c3"/>abgehalten werden können.
+                Trotzdem habe ich Bedenken, die<lb
+                    xml:id="uuid_caa2a47d-e886-4657-a2d8-7c86a16f4cf9"/>Klage zu überreichen, weil
+                ich befürchte, es werde nicht ge<lb
+                    xml:id="uuid_3f96658b-780a-41ab-8ca8-c3d6cb5246bc" break="no"/>lingen, <hi
+                    rend="underlined" hand="#D_000195-003-000-hand01">den Kausalnexus zwischen der
+                    im <rs type="work" ref="#58142" subtype="pmb">Artikel</rs> behaupteten<lb
+                        xml:id="uuid_29589d5a-a064-4acf-a2f8-6412fd37af47"/>Tatsache und der
+                    Gefährdung des Erwerbes des <rs type="person"
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn Kraus</rs></hi><lb
+                    xml:id="uuid_6640e077-6886-43df-a56e-1757e1e228dd"/>überzeugend darzustellen. </p>
+         <p xml:id="uuid_24166151-85fc-4b9b-9cd9-e8fa41691761">
+            <lb xml:id="uuid_5f8c829f-caaf-4c56-ba05-612d88699ed9"/>Ich erbitte mir die
+                Bekanntgabe Ihrer<lb xml:id="uuid_cb8d9f99-d1b1-497b-811d-b636fdc82243"/>Ansicht zu
+                dieser Frage und ersuche, <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn Kraus</rs> von meinen<lb xml:id="uuid_1548a61e-1c86-4399-ae89-1d4250ca6c93"/>Bedenken zu verständigen. </p>
+         <p xml:id="uuid_ed8f2fcc-07f6-43b4-bf54-24d0a369aefd">
+            <lb xml:id="uuid_f30484ad-efab-414c-9a0b-b7849bae39db"/>Bei dieser Gelegenheit
+                möchte ich Ihnen<lb xml:id="uuid_b2a8371f-1d8f-47f5-a33c-207f37954063"/>noch einmal
+                für Ihre Liebenswürdigkeit danken, mit der Sie<lb xml:id="uuid_2b23809d-8bcc-4a3a-a338-577527d3b876"/>für Herrn <rs type="person" ref="#58143">Dr. Schneider</rs> bei <rs type="person" ref="#58144">Professor
+                    Neumann</rs> angefragt und<lb xml:id="uuid_b2b893d3-b111-4dd8-aec5-dea1cdbbdfe9"/>mich dann informiert haben. Es wird Sie interessieren, folgen- <pb xml:id="D_000195-003-000_p004"
+                facs="#D_000195-003-000-facs001-l002-p004"
+                n="4"/>
+            <lb xml:id="uuid_c6e5ec2c-8fdf-4a89-8369-20fc9f565c98"/>des zu erfahren: Auf
+                Grund der Ihnen erteilten und an mich<lb xml:id="uuid_b6474dc2-dbd2-48e7-b931-baa987633540"/>weitergeleiteten Information
+                ist Herr <rs type="person" ref="#58143">Dr. Schneider</rs> an dem<lb xml:id="uuid_5a4cc5b3-f9e5-4e90-973d-8981fa5f9343"/>vereinbarten Tage nach <rs type="place" ref="#50">Wien</rs> gefahren und in der Ordination<lb xml:id="uuid_3aa86bbf-5f93-4d33-b4bf-00460e763bab"/>des Herrn <rs type="person" ref="#58144">Professor Neumann</rs> erschienen. Als er der <rs type="person">Empfangs<lb xml:id="uuid_ac4cd882-b448-4246-98b7-36d19145ae86" break="no"/>dame</rs> mitteilte, er sei bei <rs type="person" ref="#58144">Prof.
+                    Neumann</rs> avisiert, erwiderte<lb xml:id="uuid_d20bbc79-d29f-4d80-b0bc-2dc5a5d8e999"/>diese sehr erstaunt, Herr
+                    <rs type="person" ref="#58144">Prof. Neumann</rs> sei doch nicht in<lb xml:id="uuid_31b4d0e1-eae7-48dd-9534-3d2e12f1dcc5"/><rs type="place" ref="#50">Wien</rs>, er sei bekanntlich im August niemals da. Anwesend war<lb xml:id="uuid_2eab5eb8-25a7-4fa3-828c-6aa5701345a9"/>nur ein junger dritter <rs type="person">Assistent des <rs type="person" ref="#58144">Professors</rs></rs>,
+                der nach<lb xml:id="uuid_b2699474-c41b-4dad-ab10-616929252ade"/>Untersuchung des <rs type="person" ref="#58143">Patienten</rs> nichts anderes zu sagen wusste,<lb xml:id="uuid_7cdece40-0c31-49dc-a343-1b8d46cfe0df"/>als, dass es sich empfehlen
+                würde, wenn Herr <rs type="person" ref="#58143">Dr. Schneider</rs>
+            <lb xml:id="uuid_0c2c1e14-fa8d-4a02-9410-94dbca16a5fa"/>nach Rückkehr des <rs type="person" ref="#58144">Prof. Neumann</rs> in zirka 14 Tagen wiederkommen<lb xml:id="uuid_1204876b-c2b3-4491-a112-4f00e0cfd24f"/>wollte und vom <rs type="person" ref="#58144">Professor</rs> untersucht werden würde. In diesem<lb xml:id="uuid_3a9c0cfc-3282-49d4-8c03-0e265fa05e6b"/>Falle war dies umso
+                peinlicher, als es der <rs type="person">Frau Dr. Schneider</rs>
+            <lb xml:id="uuid_5c567e52-91fe-408b-9660-df16d49f00d7"/>und mir nur schwer gelungen
+                ist, Herrn <rs type="person" ref="#58143">Dr. Schneider</rs> über<lb xml:id="uuid_2da44c0b-d4ef-4b56-878c-1dbcf2068da4" break="no"/>haupt dazu zu
+                bringen, nach <rs type="place" ref="#50">Wien</rs> zu fahren und sich einer<lb xml:id="uuid_aabdf7a9-5321-4afd-8085-a556bf11b758"/>Untersuchung durch <rs type="person" ref="#58144">Prof. Neumann</rs> zu unterziehen. Ich kann<lb xml:id="uuid_7e601629-7942-47c4-b0b8-66079eeb4d73"/>mir diesen Vorfall nur so
+                erklären, dass Ihnen die Auskunft,<lb xml:id="uuid_c108a4c1-c34f-49cd-8443-65aadc4925b5"/>der <rs type="person" ref="#58144">Professor</rs> werde in der künftigen Woche ordinieren und<lb xml:id="uuid_077890e1-95c5-4090-8e46-91a52b78262d"/>den avisierten <rs type="person" ref="#58143">Patienten</rs> erwarten, von dem <rs type="person">Assistenten</rs> oder<lb xml:id="uuid_bfe597f9-811b-430e-a27a-fc6829acc48c"/>von einer anderen Person erteilt worden ist, um durch die<lb xml:id="uuid_07ef335a-a564-4795-b897-401f5c8412a9"/>Mitteilung von der
+                Abwesenheit des <rs type="person" ref="#58144">Professors</rs> den <rs type="person" ref="#58143">Patienten</rs>
+            <lb xml:id="uuid_afac5599-85bd-4d68-bcdd-3dad9e0571bb"/>nicht abzuschrecken und den
+                Fall nicht zu verlieren. </p>
+         <p xml:id="uuid_12ceeca2-9a4f-4336-bc7d-c37f1d68ebcb">
+            <lb xml:id="uuid_95a43ee2-cb60-408e-88e2-9c715bdb0969"/>Ich habe Ihnen hievon – wie
+                gesagt – nur deshalb<lb xml:id="uuid_c22a9667-4672-47b1-9a10-fa37b2657d66"/>Mitteilung gemacht, weil ich annahm, es werde Sie interessie<lb xml:id="uuid_c14d02f6-e678-422d-9243-99ff3017e0ad" break="no"/>ren, zu hören,
+                wie unverlässlich die von den Angestellten<lb xml:id="uuid_1782be0b-aa06-49c0-b26d-c9630ee2bbba"/>des berühmten <rs type="person" ref="#58144">Laryngologen</rs> erteilten Auskünfte sind. </p>
+         <p xml:id="uuid_8b275205-4d28-495c-8d09-58366d30a632">
+                <lb xml:id="uuid_0e21de01-d847-49ea-b886-3e493ed0af84"/>Indem ich Sie, sehr geehrter
+                    <rs type="person" ref="#38909">Herr Doktor</rs>, bitte,<lb
+                    xml:id="uuid_4be10940-c62f-499c-bdd9-72989f5bd922"/>mich zu verständigen, ob die
+                Klage gegen den <rs type="institution" ref="#37264">Aufruf</rs> und das<lb
+                    xml:id="uuid_54aba5b2-d334-4a3d-903b-4999d1072666"/><rs type="work"
+                    >Berichtigungschreiben „Neuer Vorwärts“</rs> genehmigt wurden und<lb
+                    xml:id="uuid_d50d537d-e842-49a9-a710-84c9e368b583"/>wie sich <rs type="person"
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herr Kraus</rs> und Sie zu den
+                von mir in Sachen der Wi<lb xml:id="uuid_4eec65e1-ea21-439e-acca-b624409373fc"
+                    break="no"/>derrufsklage („<rs type="institution">Der Kämpfer</rs>“) geäusserten
+                Bedenken stellen,<lb xml:id="uuid_fcc79be7-fd60-444d-a759-0fa8b70bed46"/>zeichne ich
+                mit Empfehlungen an <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                    >Herrn Kraus</rs>
+            </p>
+         <p xml:id="uuid_f08878dc-7f37-450b-b936-40a082d7a182">
+                <lb xml:id="uuid_5af82bc7-0751-46ed-85c6-c5bfee932d52"/>in vorzüglicher Hochachtung
+                Ihr ergebener:<lb xml:id="uuid_7262a659-d733-47db-9efa-17eb986c59a8"/><rs
+                    type="person" ref="#43593">Dr. Turnovsky</rs>
+            </p>
+         <p xml:id="uuid_e739221b-372a-4825-869e-ab1cf2758b42">
+            <lb xml:id="uuid_37b07c2f-b38e-487d-bb4c-e618843d6255"/><hi rend="underlined">3
+                    Beilagen.</hi>
+         </p>
+         <p xml:id="uuid_cf53d11f-0979-4906-8425-938e164e36c4">
+            <lb xml:id="uuid_85767a4b-8876-4973-b924-ba6cafe7d97c"/><note type="paratext" resp="law-firm">12. SEP. 1934<lb xml:id="uuid_e85211c0-b971-4cd6-82c3-161a9245ae1c"/><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> – <rs type="institution" ref="#37264">Aufruf</rs></note>
+         </p>
+      </body>
+   </text>
+</TEI>

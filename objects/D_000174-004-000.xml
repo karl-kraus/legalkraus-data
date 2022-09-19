@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-005-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-003-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000174-004-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Rolf Nürnberg</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000174-004-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/4321</idno>
+            <idno subtype="transkribus" type="ID">349057</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000174" type="collection">Karl Kraus
+               ca. Neues Wiener Journal</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000174-004-000-facs001" xml:id="D_000174-004-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000174-004-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL"
+                        >Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-02-17">17. Februar 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1932-02-17">17. Februar 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#39265">Herrn | Rolf Nürnberg</persName>
+               <address>
+                  <street corresp="#56166">Tauentzinstrasse 13a</street>
+                  <settlement ref="#168">Berlin W</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Neues Wiener Journal | XIII.</note>
+               <note type="dictation">Dr.S/Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000174-004-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000174-004-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-07" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-10-11" who="#IL"/>
+         <change type="structure" when-iso="2021-10-01" who="#IL"/>
+         <change type="references" when-iso="2021-10-11" who="#IL"/>
+         <change type="typography" when-iso="021-10-07" who="#IL"/>
+         <change when-iso="2020-03-23T14:13:36.628Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 349057. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000174-004-000-facs001">
+      <surfaceGrp xml:id="D_000174-004-000-facs001-l001">
+         <surface type="recto" xml:id="D_000174-004-000-facs001-l001-p001">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543583/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000174-004-000-facs001-l001-p002">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543584/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000174-004-000_p001" facs="#D_000174-004-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_ad0aa8a5-1a2a-42a4-861c-8e46cf8b53aa">
+            <lb xml:id="uuid_0ba5facc-4fdc-444c-a9d8-dc4ebd28172b"/>Lieber Herr <rs ref="#39265"
+               type="person">Nürnberg</rs>
+         </p>
+         <p xml:id="uuid_1d9a413f-77b5-46a1-95a3-1eac5f9541d7">
+            <lb xml:id="uuid_a6077cbc-d7d0-450f-83ef-415bbc6eb1c7"/>Da es sich um eine Angelegenheit
+            des Herrn<lb xml:id="uuid_20614274-5ff0-4fc4-8b60-fbf26182c7b1"/><rs ref="#11988"
+               type="person">Kraus</rs> handelt, wage ich es, mit einer Bitte an Sie heranzutre<lb
+               break="no" xml:id="uuid_bed76198-acb4-4f7c-a1fb-6965101946cd"/>ten. </p>
+         <p xml:id="uuid_ae1356fa-7543-420e-961e-76e921d4faa0">
+            <lb xml:id="uuid_e5ae092b-2a54-433a-84b2-6103342e3cc6"/>Wie Sie wissen, habe ich wegen
+            eines <rs ref="#60288" type="work" subtype="pmb">Artikels</rs>
+            <lb xml:id="uuid_7e50e2d6-3494-4356-88f0-3e254b54d3ec"/>im ‚<rs ref="#36376" type="work"
+               subtype="pmb">Neuen Wiener Journal</rs>‘ die <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-002-000" type="work"
+               subtype="legal-doc">Privatanklage</rs> erhoben. Ich möchte<lb
+               xml:id="uuid_125ef465-cd15-4d63-9964-3480a3330061"/>Sie nun vielmals ersuchen, mir
+            die drei Blätter des ‚<rs type="work" subtype="pmb" ref="#60295">Herold</rs>‘.<lb
+               xml:id="uuid_c2c9dec1-689a-4e16-a7a5-e56ecb6da6e2"/>in denen über das Erlebnis mit
+               <rs ref="#8363" type="person">Kuh</rs> berichtet wurde, ehestens<lb
+               xml:id="uuid_da7b021b-3050-4ee7-9232-fb73a060c16a"/>einzusenden. </p>
+         <p xml:id="uuid_7398a184-442c-4213-b124-a46846652f94">
+            <lb xml:id="uuid_0daa2b8f-30fc-47af-b539-9d007f7fa308"/>Ich bin mit herzlichen Grüssen
+            und bestem<lb xml:id="uuid_f2f7d462-c81e-42ad-912a-1d41c78c9ca5"/>Dank</p>
+         <p xml:id="uuid_db70b804-3263-444f-bf6b-95ff2e1ae20b"><lb
+               xml:id="uuid_dab591c4-3212-4727-98f7-135b1a9858c6"/>Ihr ergebener </p>
+         <pb xml:id="D_000174-004-000_p002" facs="#D_000174-004-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_baf41a39-d7b4-4163-b6fe-a05c82a602d4">
+            <lb xml:id="uuid_c2b5b54b-692e-4792-8ef2-8f3232c6ede4"/><note resp="law-firm"
+               type="paratext">Betr. <rs ref="#11988" type="person">Kraus</rs> – <rs ref="#29320"
+                  type="institution">Neues Wiener<lb
+                     xml:id="uuid_309e2694-ffa7-409e-a5a0-f9f44d73b330"/>Journal</rs> XIII.<lb
+                  xml:id="uuid_29c1e6f1-982d-4c95-9fce-7ca6c6e1e447"/>exp. 17.2.1932.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

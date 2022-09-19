@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000004-002-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000003-005-002.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000004-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Neues 8 Uhr Blatt (verantw. Red. Friedrich Oppenheimer)</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000004-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1564</idno>
+            <idno subtype="transkribus" type="ID">376728</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000004" type="collection">Karl
+                    Kraus ca. Neues 8 Uhr Blatt</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000004-001-000-facs001" xml:id="D_000004-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000004-001-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHN">Durchschlag mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1922-12-21">21. Dezember 1922</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#39270">den verantwortlichen Redakteur des „Neuen 8 Uhr-Blatts“</persName>
+               <address>
+                  <street corresp="#50667">Fleischmarkt 5</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1922-12-21">21. Dezember 1922
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote cert="low"
+                      medium="pencil"
+                      resp="#JK"
+                      scribeRef="#"
+                      source="#D_000004-001-000-wit01"
+                      xml:id="D_000004-001-000-hand01"/>
+            <handNote cert="low"
+                      medium="black-ink"
+                      resp="#JK"
+                      scribeRef="#"
+                      source="#D_000004-001-000-wit02"
+                      xml:id="D_000004-001-000-hand02"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000004-001-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000004-001-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-09-30" who="#JK"/>
+         <change type="typography" when-iso="2021-09-30" who="#JK"/>
+         <change type="references" when-iso="2021-09-30" who="#JK"/>
+         <change type="structure" when-iso="2021-09-30" who="#JK"/>
+         <change when-iso="2020-02-04T10:09:07.351Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-04T10:19:52.363Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-04T10:19:55.265Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-04T10:19:57.08Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-04T10:19:59.666Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-04T10:20:01.696Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 376728. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         
+         <graphic ana="status:checked"
+                  source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540195/full/full/0/default.jpg"/>
+      </surface>
+      <surface>
+         
+         
+         <graphic ana="status:checked"
+                  source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540197/full/full/0/default.jpg"/>
+      </surface>
+      <surface>
+         
+         
+         <graphic ana="status:checked"
+                  source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540198/full/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
+   <facsimile xml:id="D_000004-001-000-facs001">
+      <surfaceGrp xml:id="D_000004-001-000-facs001-l001">
+         <surface type="recto" xml:id="D_000004-001-000-facs001-l001-p001">
+            
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540199/full/full/0/default.jpg"/>
+         </surface>
+         <surface type="verso" xml:id="D_000004-001-000-facs001-l001-p002">
+            
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540200/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000004-001-000_p001"
+             facs="#D_000004-001-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_fa9348d5-8e50-4000-ae67-b1d9927b8b93">
+            <lb xml:id="uuid_b6ae964d-9275-4c47-a502-59968319db82"/><add hand="#D_000004-001-000-hand02">B<lb xml:id="uuid_e94591da-0f91-4489-82a5-be283377ff06"/>zu U I 2/23<lb xml:id="uuid_5252c7c7-1a92-476e-9efb-3dc1023cafdc"/>1 </add>
+         </p>
+         <p xml:id="uuid_20bf922d-49a2-449e-92ff-179ddb6a8f0f">
+            <lb xml:id="uuid_652d71cc-befa-4fd8-85f1-8d08e957dfd5"/>Unter Berufung auf <hi
+               rend="underlined" hand="#D_000004-001-000-hand01">den</hi>
+            <rs type="law"
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45"
+               >§ 23 P.G.</rs>
+            <hi hand="#D_000004-001-000-hand01" rend="underlined">ersuche ich die folgende<lb
+                  xml:id="uuid_4f617af1-3600-4406-9342-d4dc6d60533c"/>Berichtigung des im</hi>
+            <rs ref="#42986" type="work" subtype="pmb"><hi hand="#D_000004-001-000-hand01"
+                  rend="underlined">„Neuen 8 Uhr-Blatt“, Nr. 2456</hi> vom 19. Dezember</rs>,<lb
+               xml:id="uuid_db7b73c4-87f9-48be-8170-46ad6d889a70"/><hi
+               hand="#D_000004-001-000-hand01" rend="underlined">erschienenen, meinen Mandanten</hi>
+            Herrn <rs ref="#11988" type="person">Karl Kraus</rs> betreffenden<lb
+               xml:id="uuid_045ab681-9464-4f8f-8f1d-7c3bd4be9dae"/>Artikels „<rs ref="#42987"
+               type="work" subtype="pmb">Zwei geschlossene Vorstellungen an der <rs ref="#37214"
+                  type="institution">Neuen Wiener<lb
+                     xml:id="uuid_648ea163-c6fe-4a93-ba7c-fd770b90f110"/>Bühne</rs></rs>“ zum
+            Abdruck gelangen zu lassen. Sie schreiben: „<quote source="#42987"
+               xml:id="uuid_1a0350bf-58e4-4fc7-aaf3-d414c67a4067">Bekanntlich<lb
+                  xml:id="uuid_a0fcffe3-ed1b-4b0d-a006-d601d8d19950"/>sind die öffentlichen
+               Aufführungen dieser drei Bühnenwerke von der<lb
+                  xml:id="uuid_98f44ae6-525a-4fc1-9d04-5a82ae20a045"/>Zensur verboten
+            worden</quote>“. Die hier mitgeteilte Tatsache ist, soweit<lb
+               xml:id="uuid_503985e8-5b9b-40e6-9133-3880be23f0a3"/>sie meinen <rs ref="#11988"
+               type="person">Mandanten</rs> betrifft, unwahr. Wahr ist, dass von einem<lb
+               xml:id="uuid_8bf24109-cdbb-488f-bff2-768b247eeddf"/>Zensurverbot einer öffentlichen
+            Aufführung der „<rs ref="#42968" type="work" subtype="pmb"><hi rend="underlined">Letzten
+                  Nacht</hi></rs>“<lb xml:id="uuid_15a516a6-1f07-4612-b8c5-1d6a53330639"/>von <rs
+               ref="#11988" type="person">Karl <hi rend="underlined">Kraus</hi></rs>
+            <hi hand="#D_000004-001-000-hand01" rend="underlined">dem Verfasser nichts bekannt</hi>
+            und dass ein solches<lb xml:id="uuid_1e847a8f-f8a0-48a9-8bb2-430ba6b231cd"/>bisher auch
+            nicht erfolgt ist. </p>
+         <pb xml:id="D_000004-001-000_p002"
+             facs="#D_000004-001-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_4d2f8813-bb55-42d3-9d77-d3373f529f4a">
+            <lb xml:id="uuid_62c74a04-d5ec-4cf3-957f-8edeebd7323f"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">Karl Kraus</rs> – <rs ref="#37467" type="institution">8h Bl.</rs>
+               <lb xml:id="uuid_0fff2e42-b62c-4784-9646-adf0859b84a1"/>exped. 21.XII.1922.<lb xml:id="uuid_082865a8-2b8e-4bfe-9521-143749a47b2b"/>r. S. </note>
+         </p>
+      </body>
+   </text>
+</TEI>

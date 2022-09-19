@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-007-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-005-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000130-006-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA E. Lion an Samek</title>
+            <editor ref="#SH">Susanna Hufsky</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000130-006-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3586</idno>
+            <idno subtype="transkribus" type="ID">399024</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000130" type="collection">Karl
+                    Kraus ca. Hamburger Nachrichten</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000130-006-000-wit01" xml:id="D_000130-006-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000130-006-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#51612">Dr. E. Lion</persName>
+               <address>
+                  <street corresp="#55816">Gänsemarkt 62</street>
+                  <settlement ref="#506">Hamburg 36</settlement>
+               </address>
+               <date when-iso="1929-06-18">18. Juni 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn Rechtsanwalt | Dr. Oskar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus ./. Hamburger Nachrichten</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-06-18">18. Juni 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000130-006-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000130-006-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-06-04T16:28:44.376Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 399024. </change>
+         <change type="structure" when-iso="2021-07-13" who="#SH"/>
+         <change type="references" when-iso="2021-07-13" who="#SH"/>
+         <change type="typography" when-iso="2021-07-13" who="#SH"/>
+         <change type="intertexts" when-iso="2021-07-13" who="#SH"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000130-006-000-facs001">
+      <surfaceGrp xml:id="D_000130-006-000-facs001-l001">
+         <surface xml:id="D_000130-006-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557803/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000130-006-000-facs001-l002">
+         <surface xml:id="D_000130-006-000-facs001-l002-p002" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557805/full/full/0/default.jpg"/>
+         </surface>
+         <surface xml:id="D_000130-006-000-facs001-l002-p003" type="verso">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557806/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557807/full/full/0/default.jpg"/>
+      </surface>
+      <surface>
+         
+         <graphic source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557809/full/full/0/default.jpg"/>
+      </surface>
+      <surface>
+         
+         <graphic source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557810/full/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000130-006-000_p001"
+             facs="#D_000130-006-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_885bb962-f42f-4193-bff4-2da067cf3abc">
+            <lb xml:id="uuid_f649645f-281b-4a4c-9694-de8d75c258b9"/>Sehr geehrter <rs ref="#38909" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_b04fd0e6-f29c-4c49-bed1-cf6cd2bc0bef">
+            <lb xml:id="uuid_93a8f0fb-1853-4785-8dff-91d6c54032da"/>Nach der reichsdeutschen
+            Rechtslehre stellt eine Be<lb break="no"
+               xml:id="uuid_e2b03ea3-ee28-4a76-8ed6-a9fb4ef2c93e"/>leidigung den Tatbestand einer
+            unerlaubten Handlung dar, gegen<lb break="no"
+               xml:id="uuid_82cefde1-8562-4016-a43f-086474d77e5f"/>über welcher der Verletzte auf
+            Unterlassung klagen kann, wenn die<lb xml:id="uuid_afaf9965-b845-4c3d-8589-f9e9a4368e6c"
+            />Beleidigung in ihren Folgen fortwirkt und wenn Wiederholungen<lb
+               xml:id="uuid_bc03f1a2-0e44-49e5-abe8-942fbebc2439"/>zu befürchten sind. Die
+            Wiederholungsgefahr wird im allgemeinen,<lb
+               xml:id="uuid_a3105f9b-7140-4fdc-828e-2e1fb49efc59"/>wenn erst einmal eine Beleidigung
+            gefallen ist, bejaht. Auch die<lb xml:id="uuid_2b9b7a84-ef82-43a7-9c2e-a656829275c0"
+               /><rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-003-000" type="work"
+               subtype="legal-doc">Berichtigung</rs>, die das <rs ref="#37346" type="institution"
+               >Blatt</rs> nach <rs ref="" type="law">§ 11 PressG</rs>. gebracht hat, be<lb
+               break="no" xml:id="uuid_1f2f2857-c20a-464b-a707-fac672c70315"/>seitigt nicht die
+            Wiederholungsgefahr, da die Berichtigung abge<lb break="no"
+               xml:id="uuid_db645752-a35f-4e44-9b09-1960ae344b3f"/>druckt werden <hi
+               rend="underlined">muss</hi>, einerlei ob der Schriftleiter sie für zu<lb break="no"
+               xml:id="uuid_8a26e14e-3dc3-43a8-8575-3721f9f15f77"/>treffend hält oder nicht.</p>
+         <p xml:id="uuid_0e5fddd5-bf3d-4dca-adff-70518ccccf37">
+            <lb xml:id="uuid_6304c4ba-0d28-435d-9bc5-8af2fea18743"/>Man könnte also im
+                Zivilverfahren auf <hi rend="underlined">Unterlassung</hi>
+            <lb xml:id="uuid_861a72fb-0695-44e0-a7e9-4d3bae2b93ae"/>der fraglichen Behauptung
+                klagen. Man kann aber nach dem Stand<lb break="no" xml:id="uuid_d81fea5b-16a6-4574-94e4-756cae7635b1"/>punkt des Reichsgerichts
+                auch auf <hi rend="underlined">Zurücknahme</hi> der beleidigenden<lb xml:id="uuid_f25921b3-bec0-4132-87a1-ea78430d2563"/>Äusserung antragen und
+                braucht in diesem Fall nicht Wiederho<lb break="no" xml:id="uuid_be72011c-8260-4525-816f-c2f196b2d5fa"/>lungsgefahr zu behaupten.
+                    <rs ref="#11988" type="person">Herr Kraus</rs> hatte in seinem <rs type="work">Brief an<lb xml:id="uuid_c44948b8-7cee-4c61-89bb-2e20e677bc5c"/>mich vom 21.
+                    Mai</rs> Klage auf Widerruf angeregt. Mit dieser Klage<lb xml:id="uuid_573727cd-9a1c-4aa0-80ab-9b3b9d514e9a"/>würden wir also aller
+                Voraussicht nach durchkommen. Auch hier<lb xml:id="uuid_69c36605-0a72-4f22-aeef-a909f7faec1b"/>ist natürlich die
+                pressgesetzlich vorgeschriebene Berichtigung<lb xml:id="uuid_f6f48f16-7f78-474c-b0eb-e010ae5ca702"/>nicht als Rücknahme der
+                Beleidigung anzusehen, weil die Berich<lb break="no" xml:id="uuid_cdb08a0f-d50b-4045-8262-f88a4e3660cd"/>tigung zwangsmässig erfolgt.
+                Ich würde also in diesem Fall den <pb xml:id="D_000130-006-000_p002"
+                facs="#D_000130-006-000-facs001-l002-p002"
+                n="2"/>
+            <lb xml:id="uuid_a87b56a6-f5e0-4698-b892-d5aaaa497f5e"/>Antrag dahin fassen, dass
+                der <rs ref="#43675" type="person">Schriftleiter</rs> und der <rs ref="#38360" type="person">Verleger</rs>
+            <lb xml:id="uuid_fb5ab07b-c60e-4305-bee8-be1bc14171cf"/>verurteilt werden, die
+                beanstandete Behauptung zu widerrufen. </p>
+         <p xml:id="uuid_6949c3b3-bdc4-4ba0-a956-fe576297a253">
+            <lb xml:id="uuid_351e48ae-aa36-470a-bd32-b36fceb9016c"/>Nach <rs ref="https://alex.onb.ac.at/cgi-content/alex?aid=dra&amp;datum=1927&amp;page=205&amp;size=45"
+                type="law">§ 11 des Gerichtskostengesetzes</rs> beträgt der<lb xml:id="uuid_20dabe48-1e93-4b62-a9f2-dd9b66a1805d"/>Streitwert in nicht
+                vermögensrechtlichen Prozessen regelmässig<lb xml:id="uuid_96d54b71-d73d-4476-af6d-0bbb0a00247f"/>RM 2.000.–, kann aber
+                    „<quote xml:id="uuid_51a409ec-6273-4748-9729-5af2c44cbf32"
+                   source="https://alex.onb.ac.at/cgi-content/alex?aid=dra&amp;datum=1927&amp;page=205&amp;size=45">nach Lage des Falles</quote>“ höher oder nie<lb break="no" xml:id="uuid_7e3923ba-4f53-4f5a-b3ee-e81af9d8505a"/>driger angesetzt werden, was
+                für die Kostenfrage von Bedeutung<lb xml:id="uuid_2a84ab51-1932-45e5-b77b-d895e53af73a"/>ist. Ich würde den normalen
+                Wert von RM 2.000.– annehmen, da<lb xml:id="uuid_856f4af3-b365-427c-9054-79be28bc3177"/><rs ref="#11988" type="person">Herr Kraus</rs> an einer Erhöhung kein Interesse haben wird,
+                    anderer<lb break="no" xml:id="uuid_2a9157b7-0fec-46d5-b05e-b823b773ea8d"/>seits
+                ein Antrag auf Herabsetzung die Sache als für den Belei<lb break="no" xml:id="uuid_420a12ad-aa3d-4fd0-a26c-6eea56fbd641"/>digten weniger
+                wichtigerscheinen lässt, was unerwünscht ist. </p>
+         <p xml:id="uuid_24f56975-9f9d-4fb0-8f5c-815173502480">
+            <lb xml:id="uuid_bba298f5-d771-4446-943d-8a80f83c2647"/>Mit kolleg. Hochachtung<lb xml:id="uuid_7be4e584-b2a9-471a-96b0-82e9bef7b8d7"/><rs type="person" ref="#51612">ELion</rs>
+         </p>
+         <p xml:id="uuid_d79c04cb-8f5a-4396-a02f-ac1ca246ed69">
+            <lb xml:id="uuid_2fb25107-7350-499b-8b15-0e3db8467097"/>Nachschrift. Im vorigen
+                Sommer waren meine Frau und ich in<lb xml:id="uuid_3f3e764a-016c-450a-8ab2-6108cfaff40a"/><rs ref="#909" type="place">Velden</rs> mit dem Arzt Herrn <rs ref="#55825" type="person">Dr. Alt</rs> aus
+                    <rs ref="#50" type="place">Wien</rs> zusammen, der, wie er<lb xml:id="uuid_811f3a30-07f2-41f1-bf7d-a7c6d34f9729"/>uns mitteilte, mit dem
+                Anwalt von <rs ref="#11988" type="person">Herrn Kraus</rs> befreundet ist.<lb xml:id="uuid_639d82ec-750f-4af9-b491-551663056b42"/>Ich nehme an, dass Herr <rs ref="#55825" type="person">Dr. Alt</rs> Sie gemeint hat und möchte Sie<lb xml:id="uuid_01baf108-290d-4013-a879-4b086cd85f46"/>zutreffendenfalls bitten,
+                Herrn <rs ref="#55825" type="person">Dr. Alt</rs> von meiner Frau und mir<lb xml:id="uuid_54217923-73b7-4a92-b26d-c633977a81a1"/>bestens zu grüssen. </p>
+         <p xml:id="uuid_0faffbc8-a32d-4331-8214-50f894a32f4e">
+            <lb xml:id="uuid_d800f1a5-7a11-441e-b4a1-f11528210d17"/><rs type="person" ref="#51612"
+               >D.O.</rs>
+         </p>
+         <pb xml:id="D_000130-006-000_p003"
+             facs="#D_000130-006-000-facs001-l002-p003"
+             n="3"/>
+         <p xml:id="uuid_c3ec959e-97e5-4a78-8543-9fca60694a5b">
+            <lb xml:id="uuid_660aa583-1eaf-4327-9238-fc7b77c2b3b0"/><note type="paratext"
+               resp="law-firm"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37346"
+                  type="institution">Hamburger Nach<lb
+                     xml:id="uuid_8c3671c9-15f5-4def-b147-48d7cf499c9b" break="no"/>richten</rs>
+               II.<lb/>20. JUNI 1929</note>
+         </p>
+      </body>
+   </text>
+</TEI>

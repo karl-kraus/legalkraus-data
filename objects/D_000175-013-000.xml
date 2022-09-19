@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-014-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-012-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000175-013-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Kurt Schreiber</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000175-013-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4345</idno>
+            <idno subtype="transkribus" type="ID">349081</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000175" type="collection">Karl
+                    Kraus ca. Wiener Mittags-Zeitung</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000175-013-000-facs001" xml:id="D_000175-013-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000175-013-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1932-03-12">12. März 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/43651">Herrn | Dr. Kurt
+                        Schreiber, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#50933">Praterstrasse 36</street>
+                  <settlement ref="#52">Wien II.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Wiener Mittags-|Zeitung</note>
+               <note type="dictation">Dr.S/Fa</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-03-12">12. März 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000175-013-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000175-013-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-05-10" who="#JK"/>
+         <change type="typography" when-iso="2021-05-10" who="#JK"/>
+         <change type="references" when-iso="2021-05-10" who="#JK"/>
+         <change type="structure" when-iso="2021-05-10" who="#JK"/>
+         <change when-iso="2020-10-09T14:17:32.589Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-09T14:23:25.871Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 349081. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000175-013-000-facs001">
+      <surfaceGrp xml:id="D_000175-013-000-facs001-l001">
+         <surface type="recto" xml:id="D_000175-013-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543679/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000175-013-000-facs001-l002">
+         <surface type="recto" xml:id="D_000175-013-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543680/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000175-013-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543681/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000175-013-000_p001"
+             facs="#D_000175-013-000-facs001-l002-p002"
+             n="1"/>
+         <p xml:id="uuid_04ec73a7-9609-42c8-b628-c2c7fec69f56">
+            <lb xml:id="uuid_28e4d9a4-744a-4cbb-8e79-912a8e78fe69"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43651" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_f50a97a5-3aed-4a17-be9f-4278b2641129">
+            <lb xml:id="uuid_2e479047-4af5-44ac-9d06-e4c0bbdccf9b"/>Ich komme leider erst heute
+                dazu, Ihnen<lb xml:id="uuid_4d391292-0cb5-4654-8b51-2ef482ba38be"/>im Sinne unserer
+                telefonischen Unterredung das Folgende mit<lb break="no" xml:id="uuid_082e0cf2-1ea8-4fd8-a47c-248dd874cd15"/>zuteilen. </p>
+         <p xml:id="uuid_b1d41aee-7065-46d3-9f06-3123024a246a">
+            <lb xml:id="uuid_8cde9934-6b78-4662-890b-ddd8de69eaa0"/>Es ist ganz klar, dass ausser
+            den Prozess<lb break="no" xml:id="uuid_684e3d70-3876-41b5-b75b-f5f6b1c343be"/>parteien
+            und einem ganz kleinen Kreis von Eingeweihten niemand<lb
+               xml:id="uuid_56b53483-9dd9-45ec-8407-6630fdd4154f"/>entnehmen konnte, wer der <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kläger</rs> war. Die
+            einzige ohnedies<lb xml:id="uuid_de0d9400-0aa8-4499-906b-28a5ca2dc12a"/>dürftige
+            Handhabe war die Spationierung des Namens des <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Klägers</rs>.<lb
+               xml:id="uuid_251b614d-0d1b-4a76-8b55-4706bc5ea947"/>Da dies trotz Vorschrift und
+            ausdrücklichem Hinweis nicht er<lb break="no"
+               xml:id="uuid_4ec6bb53-0c4b-44e2-924b-a5558e4e7319"/>folgt ist, so tritt im Gegenteil
+            der Name des angeblichen Ge<lb break="no"
+               xml:id="uuid_156fce49-d4c5-4f60-92fd-fe3be734c105"/>sprächspartners der <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-001-000" type="work"
+               subtype="legal-doc">Anekdote</rs>, der ja vorangeht und gerade<lb
+               xml:id="uuid_eef362bd-7e17-462a-aff0-b2d65dd6ebcf"/>durch die Berufsbezeichnung so in
+            den Vordergrund, dass die<lb xml:id="uuid_ee37f8db-b681-49f7-bd6e-6a1d1f1d8d99"/>meisten
+            Leser im Zweifel eher der Ansicht sein werden, dass<lb
+               xml:id="uuid_f9aaa37b-ff40-44db-af56-00596107817e"/>die <rs type="work" subtype="pmb"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-009-001">Erklärung</rs> zu
+            Gunsten des <rs ref="https://pmb.acdh.oeaw.ac.at/entity/2771" type="person">Herrn
+               Friedell</rs> abgegeben wurde.<lb xml:id="uuid_e9aade65-2f50-4f20-aeef-a0d25f98f3ff"
+            />Mindestens musste der Wortlaut in der vorliegenden Druckan<lb break="no"
+               xml:id="uuid_6d0600cf-154a-40dd-ad3e-b7d6a95e2f6d"/>ordnung beim Leser einen solchen
+            Zweifel zulassen. Da somit<lb xml:id="uuid_f0ccd938-d9cd-4131-961f-756cfdbcc7a1"/>der
+            Vereinbarung in einer scheinbar äusserlichen, aber in<lb
+               xml:id="uuid_b6288def-d3e3-47fb-8e70-1da23fe23aea"/>Wirklichkeit wesentlichen
+            Einzelheit nicht entsprochen wurde,<lb
+               xml:id="uuid_e410fe0f-84e3-4057-851e-6b33c3750a89"/>muss ich verlangen, dass entweder
+            die <rs type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-009-001">Erklärung</rs> noch
+               einmal<lb xml:id="uuid_86e3916a-55e2-4055-8ec2-433426504bb0"/>richtig erscheine oder
+            dass der folgende Nachtrag als Richtig<lb break="no"
+               xml:id="uuid_e297ffe1-032a-4ce7-af9e-3f4dabc7e849"/>stellung veröffentlicht werde: </p>
+         <pb xml:id="D_000175-013-000_p002"
+             facs="#D_000175-013-000-facs001-l002-p003"
+             n="2"/>
+         <p xml:id="uuid_de55e8b7-78ae-4551-90e7-3a4c3e430c44">
+            <lb xml:id="uuid_a93ce8a3-02f5-423a-a082-128237ec3119"/><hi rend="underlined">Erklärung.</hi>
+         </p>
+         <p xml:id="uuid_ec94524a-8eea-48db-8fec-18052dd3f473">
+            <lb xml:id="uuid_a131f38d-4c7c-43f6-a4be-329ada02eb8c"/>Zu der am 8. März an dieser
+                Stelle veröffentlichten<lb xml:id="uuid_4feffd88-3f86-418f-8420-b92a7f7e4772"/>Erklärung haben wir mitzuteilen, dass fehlerhafter<lb break="no" xml:id="uuid_7f7a3307-cdf7-4d6c-b005-560807cf1cfd"/>weise unterlassen wurde, den
+                Namen <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"><hi rend="underlined">Karl Kraus</hi></rs> in<lb xml:id="uuid_a931e618-57b2-430e-8b5a-83cf867af9fc"/>Sperrdruck zu bringen,
+                wodurch ausgedrückt werden<lb xml:id="uuid_e2086d3a-ef03-4c25-a7ed-2446cba0a6c3"/>sollte, dass die Erklärung seiner Person galt. </p>
+         <p xml:id="uuid_fa784dca-7ee6-4213-8b32-2ad0624a01e7">
+            <lb xml:id="uuid_77a542f4-bda0-4e54-9fa2-4f83f93d1753"/>Mit kollegialer Hochachtung </p>
+         <p xml:id="uuid_bf2c6edd-76d0-4a21-b9df-13e90d215463">
+            <lb xml:id="uuid_ff9a93d6-a2a8-4f80-b34a-6ff87a5eb98a"/>Rek. </p>
+         <p xml:id="uuid_c2ab5a22-8f0b-4f87-8aa8-5eb5291bef8f">
+            <lb xml:id="uuid_fbf1cd1c-b763-463d-b369-973e5f90a6a7"/><note resp="law-firm"
+               type="paratext">Betr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  type="person">Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37560"
+                  type="institution">Wr. Mittags Ztg.</rs><lb
+                  xml:id="uuid_3c757cd0-c386-4f18-9258-7a37af2434ed"/>exp. 12.3.1932.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

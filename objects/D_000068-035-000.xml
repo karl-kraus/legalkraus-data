@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-036-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-034-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000068-035-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Heinrich Fischer</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000068-035-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-samek-heinrich-fischer-1 </idno>
+            <idno subtype="transkribus" type="ID">203526</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000068" type="collection">Karl
+                    Kraus ca. Alfred Kerr</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000068-035-000-facs001" xml:id="D_000068-035-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000068-035-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51"/> 
+               </address>
+               <date when-iso="1927-07-27">27. Juli 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38133">Wohlgeboren | Herrn Heinrich Fischer</persName>
+               <address>
+                  <street corresp="#11">Deutsches Schauspielhaus</street>
+                  <settlement ref="#45258">München</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Kerr.</note>
+               <note type="dictation">Dr.S./W.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-07-27">27. Juli 1927</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000068-035-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000068-035-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" status="draft" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" status="draft" when-iso="2021-09-13">Replaced Text with Transcription
+                of Transkribus Document 203526. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2021-12-06"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-12-06" who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-12-06"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-12-06"
+                 who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-12-06"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000068-035-000-facs001">
+      <surfaceGrp xml:id="D_000068-035-000-facs001-l001">
+         <surface type="recto" xml:id="D_000068-035-000-facs001-l001-p001">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552306/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-035-000-facs001-l001-p002">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552307/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000068-035-000_p001"
+             facs="#D_000068-035-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_bca913a7-8192-4d11-8151-46858235480c">
+            <lb xml:id="uuid_9c95ed62-4784-4bda-bb35-a3e3a3a3b24b"/>Sehr geehrter <rs type="person" ref="#38133">Herr</rs>! </p>
+         <p xml:id="uuid_3a0c67e7-4f4d-43b1-a75c-d2c6fc3abb6e">
+            <lb xml:id="uuid_8cee1153-024d-407b-89a7-47709a601ba8"/>Ich habe Ihnen vor einiger
+                Zeit einen<lb xml:id="uuid_b6a1a808-2c45-4e87-b8a4-53e5f4bce897"/><rs type="work">Brief</rs> geschrieben, in welchem ich Ihnen mitteilte,<lb xml:id="uuid_d5b5f20c-f0fb-4a70-a1f0-1b7100229269"/>dass ich von Ihrem
+                liebenswürdigen Anbot, einen kriegs<lb break="no" xml:id="uuid_e7df7d36-7556-4281-9660-e0df47c2b83c"/>hetzerischen <rs type="work">Aufsatz</rs> des Herrn <rs ref="#11910" type="person">Kerr</rs> aus den „<rs ref="#56080" type="work" subtype="pmb">Süddeutschen<lb xml:id="uuid_aa402628-310f-4ad1-ad49-e1854f52c8d6"/>Monatsheften</rs>“ mit
+                Dank Gebrauch mache, und Sie ersucht,<lb xml:id="uuid_ca9eec6f-65e1-4195-b92b-e9b052c3b60d"/>mir diesen <rs type="work">Aufsatz</rs> einzusenden. Da er nicht gekommen<lb xml:id="uuid_5f7d4255-bfd7-4934-b98f-38058068edbe"/>ist, vermute ich, dass er
+                wegen des Verkehrsstreiks<lb xml:id="uuid_f00612e0-9b6b-4a03-85c3-00843c38caf6"/>in
+                Verlust geriet und wiederhole daher mein Ersuchen<lb xml:id="uuid_9f06b2e9-c6a6-4c00-9e47-4fc51f51b5e9"/>um Einsendung des <rs type="work">Aufsatzes</rs>. </p>
+         <p xml:id="uuid_ad69558d-4749-4a7d-94a8-efb6eff0a049">
+            <lb xml:id="uuid_1a087076-bcac-4cba-b07c-e8db5969077c"/>Mit bestem Dank und <lb
+               xml:id="uuid_f8c926b0-08be-4903-b7b4-5fda78ae7d17"/>vorzüglicher Hochachtung <pb
+               xml:id="D_000068-035-000_p002" facs="#D_000068-035-000-facs001-l001-p002" n="2"/></p>
+         <p xml:id="uuid_2fef751e-2bf8-4b77-95f2-985fd26e26f7">
+            <lb xml:id="uuid_b6168f32-fdeb-4989-b9b4-1a33f78aa669"/><note resp="law-firm"
+               type="paratext">Betrifft: <rs ref="#11988" type="person">Kraus</rs> – <rs
+                  ref="#11910" type="person">Kerr</rs><lb
+                  xml:id="uuid_e24bc93b-55c4-4ef6-8171-6bb57db89eea"/>expediert am 27. Juli
+               1927.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

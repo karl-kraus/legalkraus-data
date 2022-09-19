@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000039-004-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000039-002-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000039-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Wiener Allgemeine Zeitung (verantw. Red. Ludwig Ullmann)</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000039-003-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2097</idno>
+            <idno subtype="transkribus" type="ID">191691</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000039" type="collection">Karl
+                    Kraus ca. Wiener Allgemeine Zeitung</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000039-003-000-facs001" xml:id="D_000039-003-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000039-003-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHN">Durchschlag mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#51"/>
+                  <settlement ref="#50493"/>
+               </address>
+               <date when-iso="1925-12-22">22. Dezember 1925</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#12990">den | verantwortlichen Schriftleiter der „Wiener
+                        all-|gemeinen Zeitung“ Herrn Ludwig Ullmann </persName>
+               <address>
+                  <street corresp="#52615">Trautsohngasse 2</street>
+                  <settlement ref="#58">Wien VIII.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Wr. Allgemeine Zeitung</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1925-12-22">22. Dezember 1925
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote cert="high"
+                      medium="pencil"
+                      resp="#JK"
+                      scribeRef="#12990"
+                      source="#D_000039-003-000-wit01"
+                      xml:id="D_000039-003-000-hand01"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000039-003-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000039-003-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-19" who="#JK"/>
+         <change type="typography" when-iso="2021-10-19" who="#JK"/>
+         <change type="references" when-iso="2021-10-19" who="#JK"/>
+         <change type="structure" when-iso="2021-10-19" who="#JK"/>
+         <change type="header-facsimile" when-iso="2022-01-17" who="#JK"/>
+         <change when-iso="2020-02-11T08:40:02.498Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-11T08:42:35.743Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-11T08:42:37.214Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 191691. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000039-003-000-facs001">
+      <surfaceGrp xml:id="D_000039-003-000-facs001-l001">
+         <surface type="recto" xml:id="D_000039-003-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548736/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000039-003-000-facs001-l001-p002">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548737/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000039-003-000_p001"
+             facs="#D_000039-003-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_29e45185-795c-43fa-b678-4a8d22aa7140">
+            <lb xml:id="uuid_69c66c9d-ae29-4f4e-86ac-70a2df7f2ea9"/><note type="intertext"
+               source="https://fackel.oeaw.ac.at/f/712,027">Auf Grund der beiliegenden <rs
+                  type="work" subtype="legal-doc">Vollmacht</rs> verlange ich<lb
+                  xml:id="uuid_2e416171-1aa6-481c-8d78-7ec20b261aa1"/>gemäss <rs
+                  ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45"
+                  type="law">§ 23 des Pressgesetzes</rs> im Vollmachtsnamen des Herrn <rs
+                  ref="#11988" type="person">Karl<lb
+                     xml:id="uuid_63044e63-51b9-451e-b23c-8b56bdac7606"/>Kraus</rs> die Aufnahme der
+               nachfolgenden Berichtigung der am<lb
+                  xml:id="uuid_774a6159-089a-4594-a24f-31d13e384848"/>Samstag dem 12.XII.1925 unter
+               dem Titel „<rs ref="#52617" type="work" subtype="pmb">Was leistet die<lb
+                     xml:id="uuid_a4d6855e-9006-4750-8d57-0d23b7f4fc4f"/>Kunststelle</rs>“
+               mitgeteilten, ihn betreffenden Tatsachen in der<lb
+                  xml:id="uuid_88d71adb-2960-4a9a-9942-475583d691fc"/>ersten oder zweiten nach dem
+               Einlangen erscheinenden Nummer<lb xml:id="uuid_0e575e59-c0e2-402a-be40-623261e003d9"
+               />und zwar in der gleichen, teilweise normalen, teilweise fetten<lb
+                  xml:id="uuid_a0070ff2-09f8-406c-a548-7f3d47ab2d10"/>Druckschrift: </note></p>
+         <p xml:id="uuid_9bbd7055-6863-4fc7-9286-3806885037cf"><note type="intertext"
+               source="https://fackel.oeaw.ac.at/f/712,027">
+               <lb xml:id="uuid_a04c6521-91a7-4131-ab32-9e105a81f1b5"/>Sie schrieben, dass die <rs
+                  ref="#37047" type="institution">Kunststelle</rs> in der Saison<lb
+                  xml:id="uuid_cfc8bf52-5b6e-400e-80c0-b07bad343b9e"/>1924–1925 zwei Vorlesungen
+               abgehalten hat, „<quote source="#52617"
+                  xml:id="uuid_f81ddcb2-6328-4bc2-8acd-cadbed3ff326">die zweite<lb
+                     xml:id="uuid_a1350bce-5a4b-4510-9a74-97e6a6fa7c91"/>in einem Saal der
+                     Hofburg<lb xml:id="uuid_949809c9-a057-4b38-967a-d55f0f886d02"/><hi
+                     rend="underlined"><hi rend="spaced">vor 700 Hörern von – <rs ref="#11988"
+                           type="person">Karl<lb xml:id="uuid_dc303bfe-612a-49a8-9565-b80d180c88b2"
+                           />Kraus</rs></hi></hi></quote>“.<lb
+                  xml:id="uuid_2a3a9e4d-8a2a-454c-8ba3-2887377b51d4"/>Es ist unwahr, dass die <rs
+                  ref="#37047" type="institution">Kunststelle</rs> in der Saison 1924–1925<lb
+                  xml:id="uuid_827fbaff-e9bc-464f-a235-25a1d6279edb"/>vor 700 Hörern eine Vorlesung
+               von – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+                  Kraus</rs> abgehalten<lb xml:id="uuid_03755112-f65b-4024-a6fa-35098ceae700"/>hat,
+               wahr ist, dass die <rs ref="#37047" type="institution">Kunststelle</rs> in der Saison
+                  1924–1925<lb xml:id="uuid_66dbbdff-02c2-4b2e-976b-2f2d22745eae"/><hi
+                  rend="underlined"><hi rend="spaced">keine Vorlesung von – <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl<lb
+                           xml:id="uuid_b0259941-29b2-461b-8096-e78cc46628eb"/>Kraus</rs></hi></hi>
+               <lb xml:id="uuid_f26b47af-3c55-4123-ae5c-1537bf59094e"/>abgehalten hat. Wahr ist,
+               dass die Vorlesung von <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  type="person">Karl Kraus</rs>
+               <lb xml:id="uuid_d2a5dadc-eeb5-4c87-90a8-ee4fa25ab137"/>in der Hofburg am 1. Mai 1925
+               vor 700 Hörern nicht von der<lb xml:id="uuid_fc7407e5-592a-423a-b80c-5251ee7dbfba"
+                  /><rs ref="#37047" type="institution">Kunststelle</rs> veranstaltet wurde, wahr
+               ist, dass <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+                  Kraus</rs>
+               <pb xml:id="D_000039-003-000_p002" facs="#D_000039-003-000-facs001-l001-p002" n="2"/>
+               <lb xml:id="uuid_45b7a5e7-b083-4916-9e42-02bcf837e2d1"/>von der <rs ref="#37047"
+                  type="institution">Kunststelle</rs> eingeladen, am 1. Mai im Rahmen ihrer<lb
+                  xml:id="uuid_33b2d8e4-ba12-4ee1-8fbe-5bc241a8ed7e"/>Veranstaltungen eine Vorlesung
+               zu halten, dies ausdrück<lb break="no"
+                  xml:id="uuid_589885df-07d8-4c30-884a-48564fb6e329"/>lich abgelehnt und seine
+               Bereitschaft, vor den Wiener Ar<lb break="no"
+                  xml:id="uuid_ba948802-11fa-4c81-963b-a61e09b3b187"/>beitern zu lesen, von der
+               Erfüllung der Bedingung abhän<lb break="no"
+                  xml:id="uuid_0ec969f1-2522-48fd-801b-6319b72a2060"/>gig gemacht hat, dass die <rs
+                  ref="#37047" type="institution">Kunststelle</rs> nicht die Veranstal<lb break="no"
+                  xml:id="uuid_a60e0f56-28c3-4039-85d9-5b9cd68a198b"/>terin sei. Wahr ist, dass
+               diese Bedingung von der <rs ref="#37047" type="institution">Kunststelle</rs>
+               <lb xml:id="uuid_223ba4c6-fada-49bb-831f-d345f6d3b1e0"/>vollauf erfüllt und auf den
+               vorbereiteten Karten das Wort<lb xml:id="uuid_5990ebeb-fffb-4ee3-b16a-3f033eeb812c"
+                  />„<rs ref="#37047" type="institution">Kunststelle</rs>“ mit einer Stampiglie
+               überdruckt wurde.</note>
+         </p>
+         <p xml:id="uuid_da5bbacd-edba-4393-91d9-23db378f9035">
+            <lb xml:id="uuid_120fd381-6589-4322-a860-a9d30682b6fe"/><note hand="#D_000039-003-000-hand01">erhalten<lb xml:id="uuid_5bc85139-86fa-4b0c-abf7-3f74ef1cdf89"/><rs ref="#12990" type="person">L. Ullmann</rs>
+               <lb xml:id="uuid_26e36e59-66e1-45dd-bbca-0b5693850184"/>23.XII.25 </note>
+         </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000012-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000012-001-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000012-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Die Stunde (verantw. Red. Marc Siegelberg)</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000012-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1624</idno>
+            <idno subtype="transkribus" type="ID">380529</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000012" type="collection">Karl
+                    Kraus ca. Die Stunde</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000012-002-000-facs001" xml:id="D_000012-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000012-002-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#50">Wien</settlement>
+               </address>
+               <date when-iso="1925-04-11">11. April 1925</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38745">den | verantwortlichen Schriftleiter der „Stunde“ | Dr.
+                        Marc Siegelberg</persName>
+               <address>
+                  <street corresp="#120">Wipplingerstr. 32</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Stunde.</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1925-04-11">11. April 1925</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000012-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000012-002-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-04" who="#JK"/>
+         <change type="typography" when-iso="2021-10-04" who="#JK"/>
+         <change type="references" when-iso="2021-10-04" who="#JK"/>
+         <change type="structure" when-iso="2021-10-04" who="#JK"/>
+         <change when-iso="2020-02-04T11:42:30.377Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-04T12:03:46.606Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-04T12:03:49.174Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 380529. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000012-002-000-facs001">
+      <surfaceGrp xml:id="D_000012-002-000-facs001-l001">
+         <surface type="recto" xml:id="D_000012-002-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540400/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000012-002-000-facs001-l001-p002">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540401/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000012-002-000_p001"
+             facs="#D_000012-002-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_59d4ffb9-f732-4b83-a650-8a96b6872519">
+            <lb xml:id="uuid_ef486ec2-3b2f-4ac3-90e3-3212e2bbc776"/>Auf Grund der <rs type="work"
+               >beiliegenden Vollmacht</rs> verlange ich,<lb
+               xml:id="uuid_d3ee4582-e5a6-417e-b3d4-eed384ccf720"/>gemäss <rs
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45"
+               type="law">§ 23 des Pressgesetzes</rs>, im Vollmachtsnamen des Herrn<lb
+               xml:id="uuid_b6e59edd-e3b3-4505-a363-52125816e5ec"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>, die
+            Aufnahme der nachfolgenden Berichtigung der<lb
+               xml:id="uuid_cc6ab455-56f5-4fef-8a5c-ba288f1d03ad"/>am <rs ref="#50754" type="work"
+               subtype="pmb">Freitag den 20. März 1925 in Nr. 610 des Jahrganges 3</rs>
+            <rs ref="#50757" type="work" subtype="pmb">ihn<lb
+                  xml:id="uuid_f1b3dad0-89fa-4c3d-b651-b133de91d76b"/>betreffenden, mitgeteilten
+               Tatsachen</rs> in der ersten oder zweiten<lb
+               xml:id="uuid_331aae43-a336-4705-980d-8e216c01eb3d"/>nach dem Einlangen erscheinenden
+            Nummer, auf der ersten Seite<lb xml:id="uuid_84043103-2b1c-44f6-a089-d36e7ebcd32c"
+            />Ihrer <rs type="work" subtype="pmb" ref="#50611">Zeitung</rs> und in der gleichen Form
+            wie die zu berichti<lb break="no" xml:id="uuid_90b53483-a999-49e2-af93-585cbbaa7f51"
+            />gendene Mitteilung. </p>
+         <p xml:id="uuid_21101f55-7b29-48a3-9e47-223b752034da">
+            <lb xml:id="uuid_14726498-2043-4a4e-a3b5-a4c2102eab6a"/>Sie veröffentlichen: </p>
+         <pb xml:id="D_000012-002-000_p002"
+             facs="#D_000012-002-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_56a6191f-bff9-458a-b256-75a4190b3632">
+            <lb xml:id="uuid_ffbc8b86-d81b-4650-91f0-db53ba8639a4"/>Es ist unwahr, dass das
+                vorstehende Bild den <rs ref="#11988" type="person">Jubilanten</rs> mit<lb xml:id="uuid_3fe5ca4d-cf8b-41d5-adad-984479a84595"/>seiner <rs ref="#38265" type="person">Schwester</rs> zeigt, wahr ist vielmehr, dass das Bild des<lb xml:id="uuid_7e389112-203b-4e1c-ad2a-9c83c5f8372d"/>Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> mit
+                seiner <rs ref="#38265" type="person">Schwester</rs> so aussieht: </p>
+         <p xml:id="uuid_42dbb808-2e95-4a60-9df6-d6ebd6f82053">
+            <lb xml:id="uuid_4e6da72c-11aa-40a2-a1e0-48083a027204"/>Es ist unwahr, dass Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> am
+                18. April seinen<lb xml:id="uuid_923ccaa6-7c56-463f-abc3-ea098fa27b4e"/>51.
+                Geburtstag feiert, wahr ist vielmehr, dass der Geburtstag<lb xml:id="uuid_304c54fa-2cd2-477f-9f50-afd9817dae34"/>des Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> auf
+                einen anderen Tag des April fällt.<lb xml:id="uuid_801089f8-c787-4f82-a1fd-f10ec58340ef"/>Es ist unwahr, dass Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> mit
+                seiner <rs ref="#38265" type="person">Schwester</rs> jetzt<lb xml:id="uuid_49a9522a-0037-48d3-a04c-9ebbf0e6d884"/>einen Erbschaftsstreit
+                führt, wahr vielmehr ist, dass er mit<lb xml:id="uuid_875ed5f4-87f0-4f8f-9d6b-f85464d90973"/>seiner <rs ref="#38265" type="person">Schwester</rs> niemals einen Erbschaftsstreit geführt hat. </p>
+      </body>
+   </text>
+</TEI>

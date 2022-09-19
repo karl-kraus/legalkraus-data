@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000095-001-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000094-008-000.xml"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000095-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief K.F. an Kraus</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000095-001-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/2917 </idno>
+            <idno type="ID" subtype="transkribus">419945</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000095"
+               >Strafanzeige gegen unbekannte Täter wegen gefährlicher Drohung</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000095-001-000-wit01" facs="#D_000095-001-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000095-001-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.FOT">Fotografie
+                        (Mat.)</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#53010">K.F.</persName>
+               <address>
+                  <street corresp="#795">Elisabethstrasse 9</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#11988">Karl Kraus</persName>
+               <address>
+                  <street corresp="#52568"/>
+                  <settlement ref="#54"/>
+               </address>
+               <date/>
+            </correspAction>
+         </correspDesc>
+         <creation>
+            <date type="sortDate" when-iso="1927-09-18" subtype="received">18. September 1927
+           </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000095-001-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000095-001-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+         <handNotes>
+            <handNote xml:id="D_000095-001-000-hand01" source="#D_000095-001-000-wit01" scribeRef="" medium="grey-pencil" cert="low" resp="#IL"/>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-03-01" who="#JK"/>
+         <change type="typography" when-iso="2021-03-01" who="#JK"/>
+         <change type="references" when-iso="2021-03-01" who="#JK"/>
+         <change type="structure" when-iso="2021-03-01" who="#JK"/>
+         <change when-iso="2020-10-08T12:22:37.043Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T12:22:55.638Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 419945. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000095-001-000-facs001">
+      <surfaceGrp xml:id="D_000095-001-000-facs001-l001">
+         <surface xml:id="D_000095-001-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554643/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+            
+         </surface>
+         <surface xml:id="D_000095-001-000-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554644/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000095-001-000_p001"
+             facs="#D_000095-001-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_60bb48d5-02d9-4260-85d8-1b6f2d1b3f7a">
+            <lb xml:id="uuid_05a3080b-9f98-4d07-aa50-d47285bb008e"/>werden von uns nach allen
+                    Re<lb xml:id="uuid_290aee4c-0c78-49fd-9b41-ed86760a4496" break="no"/>geln der
+                Kunst mit jugendlicher<lb xml:id="uuid_35fe5c81-ebda-487b-89a4-9a8ca26b4210"/>Leidenschaft durchgehaut werden.<lb xml:id="uuid_591387c2-3385-44e1-8cec-deb62752ae80"/>Der Tatort ist uns gleich:
+                Ob <rs type="institution" ref="#53003">Kaf<lb xml:id="uuid_29f5d2ab-ef4c-43bb-bcfe-b5ed04571523" break="no"/>fee
+                    Attaché</rs>, ob <rs type="institution" ref="#53005">Imperial</rs>, ob <rs type="institution" ref="#53007">Re<lb xml:id="uuid_559f8e95-89d9-495c-8368-3228b6906bc8" break="no"/>staurant
+                    Hartmann</rs>, das ist egal,<lb xml:id="uuid_72a462e4-edfa-44b4-a229-b825bcf18a1b"/>die Ohrfeigen die Ihnen
+                    blühen<lb xml:id="uuid_f79a75a8-9ba3-4922-b16f-ae5cbde8023c"/>erhalten Sie
+                prompt und kräftig<lb xml:id="uuid_ab3f5e98-530c-4ac8-bfed-07b774d11c2d"/>in den
+                allernächsten Tagen. Geprü<lb xml:id="uuid_de78860a-8a86-42cd-94eb-30f72ccd286b" break="no"/>gelt werden Sie öffentlich. </p>
+         <p xml:id="uuid_3ad42ce1-8113-44ae-9b22-410afb88eb3d">
+            <lb xml:id="uuid_ba30acdc-7a30-4421-a5b5-63b878e1fc03"/><note type="marginal" hand="#D_000095-001-000-hand01" rend="marginLeft">×</note>Und jetzt noch etwas: Ihre<lb
+               xml:id="uuid_8422a19c-b5a4-41e1-a9d1-dc7c47f76114"/>Vorlesung am 9. Oktober wird<lb
+               xml:id="uuid_8ad49dda-b7a9-4f9e-bfc0-ca98af6f26f1"/>villeicht beginnen, falls Sie
+               an<lb xml:id="uuid_346b4e16-8ec1-4dcf-8b7c-2d334042e090"/>diesem Tag schon wieder
+               gehen<lb xml:id="uuid_4ed50e5a-08eb-4d50-82d1-9aac2c207e88"/>können, was wir nicht
+               glauben,<lb xml:id="uuid_2152c359-bb73-4042-a6f2-cd35de0506e4"/>denn wir werden sie
+            krumm und<lb xml:id="uuid_b331b2b9-f2eb-4696-b18d-a4d54e8bf8fc"/>lahm schlagen, – aber
+            länger als<lb xml:id="uuid_6d8aa242-e994-4f4b-9aef-cfc6326a50c5"/>höchstens 10 Minuten
+            werden Sie<lb xml:id="uuid_7e45fa96-f16b-4ff2-986a-839770c2bcd3"/>nicht am Podium vor
+            Ihren be<lb xml:id="uuid_273bd693-ff99-40bd-af6b-169d47deb662" break="no"/>geisterten
+            Jüngeln sitzen. Diesmal<lb xml:id="uuid_f30c1deb-8096-4622-9e9e-8cb3d42c6c27"/>nicht.
+            Dafür werden wir sorgen.<note type="marginal" hand="#D_000095-001-000-hand01" rend="marginRight">×</note><lb
+               xml:id="uuid_f49bfb14-74aa-4a3a-858e-29d123969457"/>Oder werden Sie für Ihre näch<lb
+               xml:id="uuid_abce210e-7150-444d-a9b2-407ea1ae3acb" break="no"/>ste Vorlesung wieder
+            um die Hil<lb xml:id="uuid_633af810-d352-4cb9-9e3d-3582e1fd6ffe" break="no"/>fe und den
+            Schutz der Polizei<lb xml:id="uuid_a6e08bf1-7cac-4101-ae8f-4cca3ee780a1"/>winseln? </p>
+         <p xml:id="uuid_614ec672-e9ca-4e8a-ba9c-cfa9552a0dee">
+            <lb xml:id="uuid_45116da7-a9f4-46ed-83eb-f02b25d56fd8"/><note type="marginal" hand="#D_000095-001-000-hand01" rend="marginLeft">×</note><rs type="person" ref="#53010">K.F.</rs>
+         </p>
+         <p xml:id="uuid_cb6e648d-56e2-49e5-9ae8-0298cdfb4ef7">
+            <lb xml:id="uuid_bd3b8f9b-fbd9-42cf-a6c8-e634a2f3e04f"/>Im Namen von 37 jungen
+                    Bur<lb xml:id="uuid_452700ae-c6a3-42ef-a848-1d6f2bb04b47" break="no"/>schen. <rs type="place" subtype="address" ref="#795">Wien I. Elisabethstras<lb xml:id="uuid_7207b83e-d57a-49fe-983f-0a9fd8a2c03f" break="no"/>se 9</rs>. </p>
+         <pb xml:id="D_000095-001-000_p002"
+             facs="#D_000095-001-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_5895cc26-1518-44fc-948b-39bbb0df0b36">
+            <lb xml:id="uuid_8857f354-5558-4548-bd45-6bd84e1ca88b"/><note type="paratext" resp="law-firm"><rs type="person" ref="#47142">Jahoda</rs></note>
+         </p>
+         <p xml:id="uuid_a6b82c1c-dbd3-479d-a4cd-137d2cec57dd">
+            <note type="paratext" resp="law-firm">
+               <lb xml:id="uuid_feeaf2ae-fe81-4408-aa1c-54c859a40fb8"/><rs type="person" ref="#11988">Kraus</rs>
+               <lb xml:id="uuid_82083949-4901-43c6-a7c6-42e930b2bd6b"/><rs type="person" ref="#24444">Schober</rs></note>
+         </p>
+      </body>
+   </text>
+</TEI>

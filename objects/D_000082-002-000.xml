@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000082-002-001.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000082-001-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000082-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Wiener Allgemeine Zeitung (verantw. Red. Ludwig Ullmann)</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000082-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/2782</idno>
+            <idno subtype="transkribus" type="ID">251119</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000082" type="collection">Karl Kraus
+               ca. Wiener Allgemeine Zeitung</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000082-002-000-facs001" xml:id="D_000082-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000082-002-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T"
+                        >Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-03-17">17. März 1927</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909">Oskar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date when-iso="1927-03-17">17. März 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#12990">Herrn Ludwig Ullmann | Verantwortlicher Redakteur der „Wiener
+                  Allgemeinen Zeitung“ </persName>
+               <address>
+                  <street corresp="#52615">Trautsohngasse Nr. 2</street>
+                  <settlement ref="#58">Wien VIII.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Wr. Allg. Zeitung</note>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000082-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000082-002-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="" who=""/>
+         <change type="structure" when-iso="2021-04-09" who="#IL"/>
+         <change type="references" when-iso="2021-04-09" who="#IL"/>
+         <change type="typography" when-iso="2021-04-09" who="#IL"/>
+         <change type="intertexts" when-iso="2021-04-09" who="#IL"/>
+         <change when-iso="2020-10-07T15:21:55.313Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-07T15:22:53.572Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 251119. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000082-002-000-facs001">
+      <surfaceGrp xml:id="D_000082-002-000-facs001-l001">
+         <surface xml:id="D_000082-002-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554094/full/full/0/default.jpg"
+            />
+         </surface>
+         <surface xml:id="D_000082-002-000-facs001-l001-p002" type="verso">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554095/full/full/0/default.jpg"
+            />
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000082-002-000-facs001-l002">
+         <surface xml:id="D_000082-002-000-facs001-l002-p003" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554096/full/full/0/default.jpg"
+            />
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic source="wienbibliothek"
+            url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554092/full/full/0/default.jpg"
+         />
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000082-002-000_p001" facs="#D_000082-002-000-facs001-l001-p001" n="2"/>
+         <p xml:id="uuid_00fb20e2-a1ed-4434-8ce9-bc0e76a336e2">
+            <lb xml:id="uuid_54c1fd93-5493-4738-a063-b8f48a0c5141"/>In rechtsfreundlicher Vertretung
+            des Herrn<lb xml:id="uuid_217d524b-df27-4545-9323-d7d549ea3afe"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl <hi rend="spaced"
+                  >Krau</hi>s</rs> verlange ich die Berichtigung der in<lb
+               xml:id="uuid_ce9a9565-4914-46d4-8710-216c04aebea4"/>Ihr <rs ref="#53615" type="work"
+               subtype="pmb">Nummer vom 17. März 1927</rs> mitgeteilten, meinen <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Man<lb break="no"
+                  xml:id="uuid_50453606-6ba2-4e86-aee3-2b4792f36c60"/>danten</rs> betreffenden
+            Tatsachen, die in der Notiz <rs ref="#53617" type="work" subtype="pmb">„Vorle<lb
+                  break="no" xml:id="uuid_7a3673f7-799b-4d16-a8d1-4b1bd6f540bb"/>sungen <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>“</rs>
+            berichtet wurden, gemäß <rs
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45"
+               type="law">§ 23 Pr.G.</rs>
+         </p>
+         <p xml:id="uuid_39e4dcf4-8f55-4eda-8870-96c3aed2ad2d">
+            <lb xml:id="uuid_949ab2da-845c-4113-b5cd-ebcc51de6a3d"/>Es ist unrichtig, daß <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> seinen
+               Zyklus<lb xml:id="uuid_b222a965-f042-47bf-bcee-725d0f7c39dc"/>„Theater der Dichtung“
+            mit dem Programm „<rs ref="#52902" type="work" subtype="pmb">Der Zigeuner<lb break="no"
+                  xml:id="uuid_6b11ce56-26be-4236-9307-7e12daeb8f0d"/>baron</rs>“, „<rs ref="#30421"
+               type="work" subtype="pmb">Die Fledermaus</rs>“ und das „<rs ref="#52904" type="work"
+               subtype="pmb">Spitzentuch der Königin</rs>“<lb
+               xml:id="uuid_2fa93998-132c-49ed-8d8b-2a9314e17839"/>von <rs ref="#12867"
+               type="person">Johann Strauß</rs> fortsetzt. </p>
+         <p xml:id="uuid_90a9ef46-2568-49c7-9dce-fe9445de6b5d">
+            <lb xml:id="uuid_ac234eae-0479-4c0e-8627-cef356a6daeb"/>Richtig ist, daß Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+            <hi rend="underlined">nicht</hi> die Ab<lb break="no"
+               xml:id="uuid_1d08a3d7-a306-4558-ab58-5e80d80217be"/>sicht hat, diesen <rs type="work"
+               >Zyklus</rs> durch Vortrag obiger Werke fort<lb break="no"
+               xml:id="uuid_4bcfc58c-cb19-4324-ac0b-5f915a37cfe3"/>zusetzen. Ein <rs ref="#12867"
+               type="person">Johann Strauß</rs>-Zyklus, dessen Reinertrag dem<lb
+               xml:id="uuid_0c234eea-f52a-4a74-822c-a571cb4b14b3"/><rs ref="#29302"
+               type="institution">Wiener Tierschutzverein</rs> gewidmet sein soll, findet nicht<lb
+               xml:id="uuid_96769d4d-9803-4186-8d65-53a63b370449"/>statt.</p>
+         <p xml:id="uuid_5c971411-1840-4f78-9d83-fcffe5c0e570"><lb
+               xml:id="uuid_d414a14c-68f1-40a5-9ee8-edcabb2564dd"/><note type="paratext"
+               resp="law-firm">rek. m.R.</note></p>
+         <pb xml:id="D_000082-002-000_p002" facs="#D_000082-002-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_217a8a98-41df-4184-aaa7-9045e1dff52a">
+            <lb xml:id="uuid_0f2d6a25-f365-4b64-addc-05cf0e06418e"/><note resp="law-firm"
+               type="paratext">Betrifft: <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  type="person">Kraus</rs> – <rs ref="#29670" type="institution">Wr. Allg.
+                  Zeitung</rs>
+               <lb xml:id="uuid_388fc468-125d-47b8-bdc0-dce7f94409b6"/>expediert am 17. März
+               1927.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

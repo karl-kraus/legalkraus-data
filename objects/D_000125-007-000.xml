@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-008-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-006-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000125-007-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Verlag Die Fackel an Frankfurter Städtisches Schauspielhaus</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000125-007-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3372</idno>
+            <idno subtype="transkribus" type="ID">251314</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000125" type="collection">Karl
+                    Kraus ca. Frankfurter Städtisches Schauspielhaus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000125-007-000-facs001" xml:id="D_000125-007-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000125-007-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#43724"/>
+               <address>
+                  <street corresp="#50496"/>
+                  <settlement ref="#53"/>
+               </address>
+               <date when-iso="1929-06-19">19. Juni 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#34987">die | Direktion der Städtischen Bühnen</orgName>
+               <address>
+                  <street corresp="#56867">Hochstr. 46</street>
+                  <settlement ref="#146">Frankfurt a/Main</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-06-19">19. Juni 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000125-007-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000125-007-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-07-21" who="#JK"/>
+         <change type="typography" when-iso="2021-07-21" who="#JK"/>
+         <change type="references" when-iso="2021-07-21" who="#JK"/>
+         <change type="structure" when-iso="2021-07-21" who="#JK"/>
+         <change resp="#IB" when-iso="2021-04-12T08:43:26.603Z">created by API</change>
+         <change resp="#IB" when-iso="2021-04-12T08:48:54.277Z">Replaced Text with Transcription
+                of Transkribus Document 251314. </change>
+         <change resp="#IB" when-iso="2021-04-12T09:33:15.878Z">Replaced Text with Transcription
+                of Transkribus Document 251314. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000125-007-000-facs001">
+      <surfaceGrp xml:id="D_000125-007-000-facs001-l001">
+         <surface type="recto" xml:id="D_000125-007-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556670/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556672/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556674/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556676/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000125-007-000_p001"
+             facs="#D_000125-007-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_543023a1-acbe-401e-bbfb-04e20ca4c7a3">
+            <lb xml:id="uuid_53164b36-8c0e-4bac-93ae-252f5daaa544"/>Sehr geehrte <rs ref="#26763" type="person">Direktion</rs>! </p>
+         <p xml:id="uuid_e20931e6-ebf6-4032-a4a3-40d0d0972cbf">
+            <lb xml:id="uuid_cefae6c1-3737-436a-ab0f-499a83392f09"/>Sie haben mit <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-001-000" type="work"
+               subtype="legal-doc">Telegramm vom 6. Mai</rs> sich um das Recht der Auffüh<lb
+               break="no" xml:id="uuid_1d3d81bf-b690-4fb8-974d-c71c8d286da5"/>rung des in unserem
+               <rs ref="#43724" type="institution">Verlag</rs> erschienenen Nachkriegsdrama „<rs
+               ref="#53397" type="work" subtype="pmb">Die Unüber<lb break="no"
+                  xml:id="uuid_ebcd8cc4-6c33-42e0-9d4d-48302690ace0"/>windlichen</rs>“ von <rs
+               ref="#11988" type="person">Karl Kraus</rs> beworben und dieses Recht mit <rs
+                  ref="#D_000125-002-000" type="work" subtype="legal-doc">Telegramm vom<lb
+                  xml:id="uuid_b2232e6e-bdf8-4592-a986-dd1905ef4274"/>15. Mai</rs> von uns erworben.
+            Nun lesen wir in der <rs ref="#56872" type="work" subtype="pmb">„Frankfurter Zeitung“<lb
+                  xml:id="uuid_9a2ba0ac-c301-4f22-82b7-32ac7a370048"/>vom 16. Juni</rs> Ihre
+            offizielle Verlautbarung, worin eine Liste der zur<lb
+               xml:id="uuid_872548db-c947-4cef-a645-b7ff1ec18b57"/>Erstaufführung bestimmten Werke
+            veröffentlicht wird und die Reihe der<lb
+               xml:id="uuid_ede41e71-fa2c-4bb3-908b-a83f66521784"/>Werke, unter denen das
+            Nachkriegsdrama „<rs ref="#53397" type="work" subtype="pmb">Die Unüberwindlichen</rs>“
+               nicht<lb xml:id="uuid_3267ea7d-ff21-47fe-8b83-cf89f76c6af3"/>vorkommt, auf folgende
+            Art endet: </p>
+         <p xml:id="uuid_84b28b13-46d6-4ab4-b14a-a2ffe35229a9">
+            <lb xml:id="uuid_bc1b6d21-bac8-47ee-8d74-4ca2db105b85"/>„<quote source="#56872" xml:id="uuid_47c29c21-669a-4b17-b030-ef0b11889ee1">… und Werke von <rs ref="#12993" type="person">Fritz von Unruh</rs>, <rs ref="#12640" type="person">Schickele</rs>, <rs ref="#12421" type="person">Pirandello</rs>,<lb xml:id="uuid_0b804428-557c-4f19-aa2b-6c9b2d52f18d"/><rs ref="#20100" type="person">Frantisek Langer</rs> u.a.</quote>“ </p>
+         <p xml:id="uuid_74cd5bfb-1b10-4ec5-a757-3593e6068806">
+            <lb xml:id="uuid_4fbd3bd3-6891-4e0f-97e0-3b67b7c0a972"/>Wir ersuchen Sie um
+                freundliche Beantwortung der Frage, ob in der<lb xml:id="uuid_69f48fb5-6072-4cb7-9da5-08b05860ebd8"/>Anführung „<quote source="#56872" xml:id="uuid_c9c2024f-2d3c-4256-81e1-5f8fcfc0bbea">u.a.</quote>“
+                auch die „<rs ref="#53397" type="work" subtype="pmb">Unüberwindlichen</rs>“
+                enthalten sind. Ferner<lb xml:id="uuid_54263927-1d68-45b9-a0bc-7b921c884e52"/>erbitten wir eine Nachricht, für welchen Zeitpunkt Sie die Erstauffüh<lb break="no" xml:id="uuid_aeacdc4d-7534-4737-873e-bab9ee48c3b0"/>rung festgesetzt
+                haben, da von diesem Termin weitere Dispositionen be<lb break="no" xml:id="uuid_18023e55-6af4-4773-9524-d71977c3113b"/>dingt sind. </p>
+         <p xml:id="uuid_be12a3bd-5620-40f6-98fe-6fa68dffcce7">
+            <lb xml:id="uuid_d2372bfe-f964-4a62-8893-85573c82623a"/>Mit vorzüglicher Hochachtung
+            </p>
+      </body>
+   </text>
+</TEI>

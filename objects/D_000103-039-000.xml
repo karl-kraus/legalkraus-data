@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-040-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-038-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000103-039-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Max Hirschberg an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000103-039-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3094</idno>
+            <idno subtype="transkribus" type="ID">292209</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000103" type="collection">Karl
+                    Kraus ca. Fränkischer Kurier</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000103-039-000-facs001" xml:id="D_000103-039-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000103-039-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38637">Dr. MAX HIRSCHBERG</persName>
+               <address>
+                  <street corresp="#51755">Kaufingerstraße 30</street>
+                  <settlement ref="#45258">München 2 C</settlement>
+               </address>
+               <date when-iso="1929-01-29">29. Januar 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Rechtsanwalt Dr. Oskar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">2 BaF</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-01-29">29. Januar 1929
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000103-039-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000103-039-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-03-17" who="#JK"/>
+         <change type="typography" when-iso="2021-03-17" who="#JK"/>
+         <change type="references" when-iso="2021-03-17" who="#JK"/>
+         <change type="structure" when-iso="2021-03-17" who="#JK"/>
+         <change when-iso="2020-07-21T12:55:00.115Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 292209. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000103-039-000-facs001">
+      <surfaceGrp xml:id="D_000103-039-000-facs001-l001">
+         <surface type="recto" xml:id="D_000103-039-000-facs001-l001-p001">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555436/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000103-039-000-facs001-l001-p002">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555437/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000103-039-000_p001"
+             facs="#D_000103-039-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_f1993347-c662-4a8b-9330-69503dd615da">
+            <lb xml:id="uuid_e8ddaa2b-e377-4735-a15c-7df1a2d3c226"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38909" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_5d71acc8-9416-478c-8d22-5af3e89c65e5">
+            <lb xml:id="uuid_71e0392e-132f-4688-a74c-046ea38f521d"/>In Sachen <rs ref="#11988" type="person">Kraus</rs> gegen <rs ref="#38422" type="person">Dr.
+                    Hohenstatter</rs> wurden<lb xml:id="uuid_21064ed0-2577-4515-8505-e29de772d647"/>die vom <rs ref="#11988" type="person">Mandanten</rs> der <rs ref="#38422" type="person">Gegenpartei</rs> zu erstattenden<lb xml:id="uuid_13aaa710-2c6a-456f-903b-a87c291c8782"/>Kosten des
+                Privatklageverfahrens auf insgesamt<lb xml:id="uuid_edac9370-8435-4f8a-8bed-a7b7138988ec"/>RM 23,15<lb xml:id="uuid_5e9a5837-9354-42ef-82cb-5a2fe7495c14"/>festgesetzt. Ich bitte, den
+                    <rs ref="#11988" type="person">Mandanten</rs> zur umgehenden<lb xml:id="uuid_8970973b-da56-41ef-a98a-8cd51bb44a10"/>Einsendung dieses Betrages
+                veranlassen zu wollen,<lb xml:id="uuid_d0135e94-7f39-4199-b455-ade7f279f853"/>damit
+                nicht durch Vollstreckungsmassnahmen<lb xml:id="uuid_f96f0ea5-8f63-4972-a78b-d2b079cacf6a"/>der Gegenpartei unnötige
+                weitere Kosten entstehen. </p>
+         <p xml:id="uuid_35eaaf2b-a688-4886-9a1a-48ef64a2fad7">
+            <lb xml:id="uuid_0bf375cc-bd0a-4e5a-9c6b-ab3177899ff4"/>Hochachtungsvoll<lb xml:id="uuid_91350b29-2125-4a3d-a1c4-538ef23baa9b"/>ergebener Kollege<lb xml:id="uuid_df5841f0-f432-4f04-bc9f-4e60906f51ec"/><rs ref="#38381" type="person">Dr. Hirschberg</rs>
+            <lb xml:id="uuid_f8668103-55d6-48e2-89f0-a6c715bbea4b"/>Rechtsanwalt. </p>
+         <pb xml:id="D_000103-039-000_p002"
+             facs="#D_000103-039-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_e215ee32-a9a5-4709-97fd-08c44d7568a1">
+            <lb xml:id="uuid_a48da28c-397c-4ace-9699-66ce1c12a0b0"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37336" type="institution">Fränkischer Kurier</rs>
+               <lb xml:id="uuid_5a2dfaed-5c3f-4219-b240-d5afcac0e2b1"/>30. JAN. 1929 </note>
+         </p>
+      </body>
+   </text>
+</TEI>

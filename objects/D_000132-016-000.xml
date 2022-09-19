@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-016-001.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-015-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000132-016-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Desider Friedmann an Samek</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000132-016-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3653</idno>
+            <idno subtype="transkribus" type="ID">411905</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000132" type="collection">Karl
+                    Kraus ca. Neues Wiener Journal</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000132-016-000-facs001" xml:id="D_000132-016-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000132-016-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-09-05">5. September 1929
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38157">Dr. Desider Friedmann</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 26</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date when-iso="1929-09-05">5. September 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Dr. Oskar Samek, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#50">Wien</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Dr. Papp – | Kraus</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000132-016-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000132-016-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-08-05" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-08-03" who="#IL"/>
+         <change type="structure" when-iso="2021-07-27" who="#IL"/>
+         <change type="references" when-iso="2021-08-03" who="#IL"/>
+         <change type="typography" when-iso="2021-08-03" who="#IL"/>
+         <change when-iso="2020-10-08T13:38:00.976Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T13:39:54.286Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 411905. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000132-016-000-facs001">
+      <surfaceGrp xml:id="D_000132-016-000-facs001-l001">
+         <surface type="recto" xml:id="D_000132-016-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558144/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000132-016-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558145/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000132-016-000_p001"
+             facs="#D_000132-016-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_b77ec401-5832-4720-a47f-4a9aa455d2e3">
+            <lb xml:id="uuid_19d383cd-1065-4888-a2a2-7d72486a3e7a"/>Sehr geehrter Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38909" type="person">Kollege</rs>! </p>
+         <p xml:id="uuid_b077e8ea-b3a3-4f02-b21c-ab3f24c14a8e">
+            <lb xml:id="uuid_fc9403bd-4707-4b08-86a4-eb80c2920499"/>Unter Bezugnahme auf die
+                heute mit Ihrem w. <rs type="person">Herrn Substituten</rs>
+            <lb xml:id="uuid_c022bb2c-5c36-48a3-8e20-d950338beeb3"/>gepflogene Unterredung
+                bestätige ich Ihnen, dass ich namens<lb xml:id="uuid_1f402bae-dacc-4e51-ae5e-118e3291ac13"/>meines Mandanten, Herrn Dr.
+                    <rs ref="https://pmb.acdh.oeaw.ac.at/entity/36371" type="person">Desiderius
+                    Papp</rs> die gegen das <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000132-009-000"
+                type="work"
+                subtype="legal-doc">Urteil</rs>
+            <lb xml:id="uuid_0d7c5a68-1c4b-4e66-816b-20222c59f20c"/>des <rs ref="#50491" type="institution">Strafbezirksgerichtes I</rs> vom 25. Juni 1929 I U 223/29
+                    einge<lb break="no" xml:id="uuid_d9a92bda-dabf-4aab-9367-64d7407376e2"/>brachte
+                    <rs type="work">Berufung</rs> zurückgenommen habe, so dass die für den morgi<lb break="no" xml:id="uuid_0ed1ea06-434c-439d-ab52-e528c11e8b84"/>gen Tag (5.
+                September 1929) anberaumte Berufungsverhandlung<lb xml:id="uuid_8fde1af9-1dc0-43d1-80dd-1112f823dc5a"/>entfällt. </p>
+         <p xml:id="uuid_177956aa-3712-4628-842a-436677868e9b">
+            <lb xml:id="uuid_553aa7d8-9dc4-4e96-8dc4-6dd40525cc7b"/>Mit vorzüglicher kollegialer<lb
+               xml:id="uuid_03f56c97-4508-4bad-8800-3ac669461ec7"/>Hochachtung<lb
+               xml:id="uuid_0f3a50ab-7519-4c70-8edb-c7a68e7dae15"/><rs type="person" ref="#38157"
+               >Dr. Friedmann</rs></p>
+         <pb xml:id="D_000132-016-000_p002"
+             facs="#D_000132-016-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_7fa81999-4dec-449f-9ddf-38a76ffd6858">
+            <lb xml:id="uuid_b747bcc8-1de9-4db8-b6f3-fb74cb5a5a21"/><note resp="law-firm"
+               type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29320"
+                  type="institution">Neues Wr. Journal</rs>
+               <lb xml:id="uuid_1aea4180-b63a-4e32-9091-2feb0e77ad59"/>5. SEP. 1929</note>
+         </p>
+      </body>
+   </text>
+</TEI>

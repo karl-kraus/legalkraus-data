@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000004-004-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000004-002-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000004-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Verlag Die Fackel</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000004-003-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1566</idno>
+            <idno subtype="transkribus" type="ID">376731</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000004" type="collection">Karl
+                    Kraus ca. Neues 8 Uhr Blatt</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000004-003-000-facs001" xml:id="D_000004-003-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000004-003-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1923-01-03">3. Jänner 1923</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#43724">den | Verlag der „Fackel“</orgName>
+               <address>
+                  <street corresp="#50496">Hint. Zollamtsstr. 3</street>
+                  <settlement ref="#53">Wien III.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">K. Kraus – 8 Uhrblatt</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1923-01-03">3. Januar 1923</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000004-003-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000004-003-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-09-30" who="#JK"/>
+         <change type="typography" when-iso="2021-09-30" who="#JK"/>
+         <change type="references" when-iso="2021-09-30" who="#JK"/>
+         <change type="structure" when-iso="2021-09-30" who="#JK"/>
+         <change when-iso="2020-02-04T10:09:15.904Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-04T10:11:42.002Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-04T10:11:43.457Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 376731. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000004-003-000-facs001">
+      <surfaceGrp xml:id="D_000004-003-000-facs001-l001">
+         <surface type="recto" xml:id="D_000004-003-000-facs001-l001-p001">
+            
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540207/full/full/0/default.jpg"/>
+         </surface>
+         <surface type="verso" xml:id="D_000004-003-000-facs001-l001-p002">
+            
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540208/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000004-003-000_p001"
+             facs="#D_000004-003-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_6f3b69bf-142d-4f8c-a5d3-86618bd76889">
+            <lb xml:id="uuid_9f1c54fe-f2fc-4c85-8f19-aa415e35f41f"/>In der Anlage übersende ich
+                Ihnen eine <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000004-002-000"
+                type="work"
+                subtype="legal-doc">Abschrift der<lb xml:id="uuid_39a72957-23fd-4598-b648-30c09ced88d7"/>Klage gegen das „<rs ref="#37467" type="institution">Neue 8 Uhrblatt</rs>“</rs> und zeichne </p>
+         <p xml:id="uuid_b3666bb2-8a9b-49db-87d2-45b7ed0bfa41">
+            <lb xml:id="uuid_9fb203b7-1250-462f-8e26-f7a782284393"/>hochachtungsvoll </p>
+         <p xml:id="uuid_d6f2ff1b-a54a-4264-abc3-9025a9d8ecd9">
+            <lb xml:id="uuid_61b9e827-9681-4fb0-bba3-117753cc153a"/><rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000004-002-000"
+                type="work"
+                subtype="legal-doc">1 Beilage</rs>. </p>
+         <pb xml:id="D_000004-003-000_p002"
+             facs="#D_000004-003-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_6cf6b652-ee57-4050-847d-19a96c7e6eb1">
+            <lb xml:id="uuid_0c345f5f-1f78-48d4-9434-981e39fbf280"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">K. Kraus</rs> – <rs ref="#37467" type="institution">8. Uhr Blatt</rs>.<lb xml:id="uuid_8efdaf4a-baf4-4d72-8e08-0e76c2e2c4c9"/>exped. 3. Jänner 1923<lb xml:id="uuid_cbc3bf9a-de30-4248-a84a-1e98eb1b3398"/>r. S. </note>
+         </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-041-001.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-040-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000195-041-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Johann Turnovsky an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000195-041-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/20929</idno>
+            <idno subtype="transkribus" type="ID">387789</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000195" type="collection">Karl
+                    Kraus ca. Aufruf</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000195-041-000-facs001" xml:id="D_000195-041-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000195-041-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#43593">JUDr. JOHANN TURNOVSKY</persName>
+               <address>
+                  <street corresp="#51737">Vodičkova 33</street>
+                  <settlement ref="#652">Prag</settlement>
+               </address>
+               <date when-iso="1935-11-28">28.XI.1935</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/38909">P.T. | Herrn Dr. Oskar
+                        Samek, Advokat</persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse 18</street>
+                  <settlement ref="#64">Wien – XIV</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Fackel-Auslieferungsvertrag | / Kraus – Melantrich /</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1935-11-28">28. November
+                    1935</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000195-041-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000195-041-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-09-23" who="#JK"/>
+         <change type="typography" when-iso="2021-09-23" who="#JK"/>
+         <change type="references" when-iso="2021-09-23" who="#JK"/>
+         <change type="structure" when-iso="2021-09-23" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-07" who="#JK"/>
+         <change when-iso="2020-10-12T09:39:34.422Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-12T09:51:02.028Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 387789. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000195-041-000-facs001">
+      <surfaceGrp xml:id="D_000195-041-000-facs001-l001">
+         <surface type="recto" xml:id="D_000195-041-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545197/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000195-041-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545198/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000195-041-000-facs001-l002">
+         <surface type="recto" xml:id="D_000195-041-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545199/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000195-041-000-facs001-l002-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545200/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000195-041-000_p001"
+            facs="#D_000195-041-000-facs001-l001-p001"
+            n="1"/>
+         <p xml:id="uuid_5385fb5c-cdfb-4029-aa33-26577281f3e2">
+            <lb xml:id="uuid_adea0bb1-1a91-4822-9b29-cf3df56d77f4"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38909" type="person">Herr Doktor</rs>. </p>
+         <p xml:id="uuid_d21c77bb-c7aa-4a99-811e-e6c375481e54">
+            <lb xml:id="uuid_62423191-73c0-49e7-8784-8d5239dc20cf"/>Ich bestätige Ihnen den
+            Empfang Ihres<lb xml:id="uuid_36f2e42d-f392-42da-bcdc-eb56ea261135"/>frdl. <rs type="work">Schreibens vom 26. d.M.</rs> und gestatte mir zur Aufklärung mei<lb break="no" xml:id="uuid_a04e472e-a1ad-46bd-a021-a2d35cb9dbdb"/>nes <rs type="work">Briefes vom 22. d.M.</rs> folgendes zu bemerken: </p>
+         <p xml:id="uuid_ec3cf1ae-1fa2-419a-95a5-8fbfe9a31a86">
+            <lb xml:id="uuid_cbb0ab78-8d82-41c7-8d45-c1c650850ce0"/>Ohne Berücksichtigung des
+            Rechtstand<lb break="no" xml:id="uuid_93209a8d-3988-4552-8fb3-1ad05291b364"/>punktes, d.h. der Frage, ob der <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution">M.-Verlag</rs> berechtigt ist, die<lb xml:id="uuid_016262ea-ce28-40ef-98c3-38af2e0f0613"/>Hälfte des Verkaufserlöses
+            der Bücher und die Hälfte des Verkaufs<lb break="no" xml:id="uuid_1e50e66b-9c7a-438c-a581-e41147f14e27"/>erlöses der Fackelhefte á
+            konto der Transportspesen zurückzuhalten,<lb xml:id="uuid_3b1e3704-d4cc-41a9-9cb8-40dc334a1059"/>wäre die Verrechnung des <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution">M-Verlages</rs> richtig. Er hat auf beide<lb xml:id="uuid_cc271c89-589a-4ece-8930-7cfb9fee515e"/>Ausgabenposten per 17.294.90
+            Kč<lb xml:id="uuid_7947bbaa-9882-4209-87d3-ac8dce181ef7"/>die von Herrn <rs ref="#38490" type="person">Dr. Lobkowicz</rs> erhaltenen 6.000 Kč<lb xml:id="uuid_240e03a4-33ca-4490-94be-0a1699fc3ff0"/>und die in meinem <rs type="work">Briefe vom 22.<lb xml:id="uuid_6e2fc3ab-1d79-4200-ae2e-f49fe9202fe8"/>XI.1935</rs> angeführten 3.912 Kč 20 h<lb xml:id="uuid_8f88dcc0-f064-4520-98ab-c215de9547ea"/>insgesamt also 9.912.20
+            Kč<lb xml:id="uuid_5b9ba826-468e-49a5-8628-83c890c033ef"/>verrechnet. Verbleiben
+            also 7.382.70 Kč,<lb xml:id="uuid_6013f739-386b-49a3-a887-0b2c582c8012"/>welche er
+            in seinem Aktivprozesse geltendmacht. </p>
+         <p xml:id="uuid_85993a80-f0ef-49bf-ad10-07e7ebaae351">
+            <lb xml:id="uuid_cd7b66e1-94f7-473b-a839-1b7d33e8deee"/>Da der <rs ref="#43724"
+               type="institution">Verlag „Die Fackel“</rs> nur 3.441.68 Kč eingeklagt hat, so<lb
+                  xml:id="uuid_2d1983fe-4545-4b0f-9d94-e0d13032842a"/>reicht die gutgeschriebene Summe
+            von 3.912.20 Kč zur Kompensation<lb xml:id="uuid_d1337201-cdee-42be-8ff2-8695f7b7e6b5"
+            />aus und so ist eigentlich die Einrede der Kompensation zu verstehen. </p>
+         <p xml:id="uuid_378f1167-0eee-4078-9ef7-2de9443d6200">
+            <lb xml:id="uuid_ee10a6da-abb7-42d5-a2d2-10e799a0a01e"/>Ich bin mir nicht klar
+            darüber, ob ich <pb xml:id="D_000195-041-000_p002"
+               facs="#D_000195-041-000-facs001-l001-p002"
+               n="2"/>
+            <lb xml:id="uuid_a0997f47-261b-4b2e-969e-f3535cc553c6"/>empfehlen soll, dass <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herr K.</rs> zur
+            Einvernahme nach <rs ref="#652" type="place">Prag</rs> kommt.<lb xml:id="uuid_8e54d458-5441-4238-be43-e12d0b727589"/>Normalerweise ist die
+            Einvernahme vor dem Prozessrichter der<lb xml:id="uuid_432727ea-6607-4314-b3c8-d51edfbfb436"/>vor dem ersuchten Richter
+            vorzuziehen. Die Abneigung unseres<lb xml:id="uuid_c40a1f16-84bf-4426-86c9-721deaf2e046"/><rs type="person">Prozessrichters</rs>, Aussagen zu protokollieren, die nicht unmittel<lb break="no" xml:id="uuid_2ccdf403-8160-406e-a920-f5ee0df13a5d"/>bar auf die
+            einzelnen Streitpunkte Bezug haben, lässt mich an<lb break="no" xml:id="uuid_f49e9a50-9bce-4b9f-9c38-147f68f5973a"/>nehmen, dass es vielleicht
+            günstiger wäre, wenn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herr K.</rs> in <rs ref="#50" type="place">Wien</rs>
+            <lb xml:id="uuid_b6ee6ce2-d278-4dcc-98d4-03b2b7e6e2be"/>einvernommen wird.
+            Allerdings nur dann, wenn Sie glauben, dass<lb xml:id="uuid_97c2ebcd-937b-4dbb-b3a4-ef39e105dde0"/>der <rs type="person">Requisitionsrichter</rs>
+            <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herrn K.</rs> in seiner Aussage nicht behin<lb break="no" xml:id="uuid_a4632daf-6949-4c66-a986-bce25ff2f09e"/>dern wird. Das
+            Ersuchschreiben würde recht allgemein abgefasst<lb xml:id="uuid_a8ba09dd-0337-4780-80ea-ac565a144d21"/>werden, da der
+            Beweisbeschluss folgendermassen lautet: „Es wird<lb xml:id="uuid_d5a8ba6e-f92d-461d-8f2c-ad127b81f07f"/>die Einvernahme der
+            Prozessparteien über deren gesamtes Vorbrin<lb break="no" xml:id="uuid_f497a7a5-cca8-416b-b5b2-75e2c58097ca"/>gen mit Ausnahme der
+            zurückgenommenen die Propagandaspesen be<lb break="no" xml:id="uuid_db82f97a-3f88-4e96-9a2c-690a4aa7a512"/>treffenden Kompensation
+            zugelassen.“ Wenn Sie, sehr geehrter<lb xml:id="uuid_701920fb-92ff-4ed8-938e-fecf80967ca6"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/38909" type="person">Herr Doktor</rs>,
+            glauben, dass der <rs type="person">Wiener-Richter</rs> auf Grund dieses<lb xml:id="uuid_e80c2adc-a913-457d-9f72-fc3d74632944"/>Beweisbeschlusses
+            ausführliche Depositionen des <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herrn K.</rs> nicht<lb xml:id="uuid_8100d21f-21c4-47e9-a785-9685d246d0c5"/>vereiteln wird, dann ist es,
+            wie ich glaube, für den Prozess<lb xml:id="uuid_8c488674-ba74-4ca2-9d94-5d117132efc8"/>günstiger, wenn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herr K.</rs> in <rs ref="#50" type="place">Wien</rs> aussagt, falls Sie jedoch irgend<lb break="no" xml:id="uuid_6a0b6f2d-a1fc-4252-83f7-4da33faa8f21"/>welche Bedenken haben, dann
+            wollen wir ihn doch lieber nach <rs ref="#652" type="place">Prag</rs>
+            <lb xml:id="uuid_aaf9dab3-d001-4355-a97e-ed9b6c26fa3e"/>bemühen und ich werde alles
+            tun, um eine möglichst ausführliche<lb xml:id="uuid_44cc81c3-3bc0-4cdf-a76a-5d1df855c246"/>und die Aussage des <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herrn K.</rs>
+            getreu reproduzierende Protokollie<lb break="no" xml:id="uuid_33905588-8c38-46d7-b412-7637ba9ef76c"/>rung zu erwirken. </p>
+         <p xml:id="uuid_765be404-2720-44ac-a890-69f26ec3b95e">
+            <lb xml:id="uuid_4e6ad974-a67e-4fac-91b9-686ef94b3abd"/>Bei dieser Gelegenheit bitte
+            ich Herrn <rs ref="#11988" type="person">Kraus</rs>
+            <lb xml:id="uuid_b6aafa29-0e7c-447e-9edd-4f15ef94087b"/>mitzuteilen, dass in der
+            Sache <rs ref="#37264" type="institution">AUFRUF</rs> / <rs ref="#37889" type="person">Dr. Bill</rs>, <rs ref="#43586" type="person">Ing.
+               Butschowitz</rs> /<lb xml:id="uuid_b7f48dcb-e239-4e07-9b84-168115860b29"/>über
+            meinen Antrag eine Aufforderung an den <rs ref="#51637" type="person">Verteidiger</rs> erlas<lb break="no" xml:id="uuid_623211e0-dfeb-4b1c-97c0-a05de49f1a8d"/>sen wurde, binnen 6 Tagen
+            die dermalige Adresse des <rs ref="#43586" type="person">Ing. Butscho<lb break="no" xml:id="uuid_5d7ce65a-3cf9-4771-a498-9438e1cca4bb"/>witz</rs>
+            bekanntzugeben. Sollte er dieser Aufforderung nicht ent<lb break="no" xml:id="uuid_19ef3bea-05f7-4061-be6a-a8afaacec147"/>sprechen und die Zustellung
+            der Ladung auch durch Vermittlung <pb xml:id="D_000195-041-000_p003"
+               facs="#D_000195-041-000-facs001-l002-p003"
+               n="3"/>
+            <lb xml:id="uuid_bdd54337-50fd-48dc-b5e0-0d1ddc5a6717"/>des <rs ref="#53602" type="institution">Polizeikommissariates in <rs ref="#652" type="place">Pankrac</rs></rs> nicht möglich sein, dann<lb xml:id="uuid_0b3c1a0d-b74b-4ab2-ad37-8061be1bedf1"/>wird die Hauptverhandlung
+            sofort angeordnet werden. Ich werde,<lb xml:id="uuid_7e4f1990-37a5-42ae-800f-2f602b094c24"/>da nach dem Pressgesetze die
+            Ladung zu eigenen Händen vorge<lb break="no" xml:id="uuid_2bb42a48-d434-40ee-ad2b-5608b7a0f1dd"/>schrieben ist, den Antrag
+            stellen, das Verfahren möge bis zur<lb xml:id="uuid_89ac4dd3-a16d-445f-a953-d4720fb8f0ec"/>Eruierung der Adresse des
+            <rs ref="#43586" type="person">Ing. Butschowitz</rs> nur gegen <rs ref="#37889" type="person">Dr. Bill</rs>
+            <lb xml:id="uuid_10b342d7-f713-4d66-828d-c6209ea0b592"/>fortgesetzt werden. Die
+            Verjährung gegen <rs ref="#43586" type="person">Butschowitz</rs> tritt da<lb break="no" xml:id="uuid_c9ff9c84-b254-4cd5-b9d4-0a2c0d196f49"/>durch nicht ein,
+            sondern wird unterbrochen. </p>
+         <p xml:id="uuid_e69b9462-aedb-4286-8694-c45aa938a1ca">
+            <lb xml:id="uuid_e36b81ef-ebe6-44d7-a0cf-854e2ad06706"/>Ich bitte Sie, sehr geehrter
+            <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38909" type="person">Herr
+               Doktor</rs>, Herrn<lb xml:id="uuid_ed333749-106d-45e3-849b-adc6481813a1"/><rs ref="#11988" type="person">Kraus</rs> meine besten Empfehlungen zu bestellen und
+            zeichne mit<lb xml:id="uuid_20ba6a01-2d82-47af-90dd-eadfa4d05001"/>herzlichen
+            Grüssen an Sie, in vorzüglicher Hochachtung </p>
+         <p xml:id="uuid_98f9823a-3815-40ab-b3a8-0525917417fa">
+            <lb xml:id="uuid_0445d4e1-f94a-43ff-a03c-0e479d1e00c3"/>Ihr ergebener:<lb
+               xml:id="uuid_db676317-4efc-482e-8af0-7b35f0e65e66"/><rs ref="#43593" type="person"
+               >Dr. Turnovsky</rs>
+         </p>
+         <pb xml:id="D_000195-041-000_p004"
+            facs="#D_000195-041-000-facs001-l002-p004"
+            n="4"/>
+         <p xml:id="uuid_2342f0e0-c0f1-4e94-9c23-0221f9665f29">
+            <lb xml:id="uuid_50d5ffce-4188-439f-b732-1a6791b222db"/><note resp="law-firm"
+               type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs> – Diverses<lb xml:id="uuid_61827980-f510-467f-a5cc-9108fa421844"/>29.
+               NOV. 1935</note></p>
+      </body>
+   </text>
+</TEI>

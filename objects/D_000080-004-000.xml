@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000080-005-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000080-003-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000080-004-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Arnold Eisler an Samek</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000080-004-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/2766</idno>
+            <idno subtype="transkribus" type="ID">249808</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000080" type="collection"
+               >Angelegenheit Familienrente</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000080-004-000-facs001" xml:id="D_000080-004-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000080-004-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T"
+                        >Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-02-11">11. Februar 1927</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38087">Dr. Arnold Eisler</persName>
+               <address>
+                  <street corresp="#790">Tuchlauben 12</street>
+                  <settlement ref="#51">Wien, I.</settlement>
+               </address>
+               <date when-iso="1927-02-11">11.2.1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn Dr. Oskar Samek | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51">Wien</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000080-004-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000080-004-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2021-04-08" who="#IL"/>
+         <change type="structure" when-iso="2021-04-01" who="#IL"/>
+         <change type="references" when-iso="2021-04-01" who="#IL"/>
+         <change type="typography" when-iso="2021-04-08" who="#IL"/>
+         <change type="intertexts" when-iso="2021-04-01" who="#IL"/>
+         <change when-iso="2020-10-07T15:14:52.08Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-07T15:20:29.762Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 249808. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000080-004-000-facs001">
+      <surfaceGrp xml:id="D_000080-004-000-facs001-l001">
+         <surface xml:id="D_000080-004-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554053/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000080-004-000-facs001-l001-p002" type="verso">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554054/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000080-004-000_p001" facs="#D_000080-004-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_e53624a3-d9c2-419d-ac55-5210330723e5">
+            <lb xml:id="uuid_ae4b23c2-061e-4527-b272-842e12a93b05"/>Sehr geehrter <rs type="person"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_23ff1b38-2f07-4051-8bcc-aef75d1105f5">
+            <lb xml:id="uuid_3bb255b0-fd40-4fc3-bde9-d8d5c7325dde"/>Die in den Angelegenheiten des
+               Herrn<lb xml:id="uuid_7112798a-9c15-457a-ae8e-bf92567ed8e2"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+            anerlaufenen Kostenbeträgen S 100.–</p>
+         <p xml:id="uuid_6029108b-9c95-4bb2-8d24-891a8e0ab384"><lb
+               xml:id="uuid_f73f80c7-626e-42cd-97de-a8f4a9ba6134"/>An Akten befinden sich bei mir
+            ausser den beiden<lb xml:id="uuid_e74eb254-dbe1-42be-8c80-5e67d365adf2"/>angeschlossenen
+            Originalbriefen vom 1. März 1912 und 5. Juni 1924<lb
+               xml:id="uuid_53db5bc2-1afe-4852-88e8-16883c265a22"/>nur Durchschläge von Eingaben und
+            Briefen und inhaltlich ganz be<lb break="no"
+               xml:id="uuid_c83012f1-9dc3-4bda-ae22-4a2177097975"/>langlose Zuschriften der
+            Geschwister des Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+               >Kraus</rs>. Diese Ab<lb break="no"
+               xml:id="uuid_661e5965-b653-4ee0-a4f9-79e17dc41b0a"/>schriften stehen Ihnen, falls Sie
+            dieselben wünschen, in meiner<lb xml:id="uuid_32b2a8be-807c-4abb-a4b7-5a06f1e81e2e"/><rs
+               ref="#53544" type="institution">Kanzlei</rs> zur Verfügung. </p>
+         <p xml:id="uuid_e49bf2fd-2c3d-4c21-b831-931561120a02">
+            <lb xml:id="uuid_79b68c07-0a31-4f21-b9c3-6a059fef1c63"/>Mit kollegialer Hochachtung<lb
+               xml:id="uuid_0a7cb9e5-3dc2-4e8e-a8f2-4a30de9feb5f"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/38087" type="person">Eisler</rs>
+         </p>
+         <pb xml:id="D_000080-004-000_p002" facs="#D_000080-004-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_ea1acdda-3c2b-4d58-a6ba-a340d4bddb06">
+            <note resp="law-firm" type="paratext">
+               <lb xml:id="uuid_edfe8792-215c-4140-9b81-2dda281cde05"/><rs type="person"
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> – Diverse.<lb
+                  xml:id="uuid_9b1edcf4-231a-44de-912f-e427bfb02394"/>12. Feb. 1927</note></p>
+      </body>
+   </text>
+</TEI>

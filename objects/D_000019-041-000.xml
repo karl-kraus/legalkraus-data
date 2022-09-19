@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-042-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-040-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000019-041-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Theater in der Josefstadt an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000019-041-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1787</idno>
+            <idno subtype="transkribus" type="ID">178505</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000019" type="collection">Karl
+                    Kraus ca. Fritz Kaufmann und Anton Kuh</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000019-041-000-facs001" xml:id="D_000019-041-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000019-041-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#39689">THEATER IN DER JOSEFSTADT</orgName>
+               <address>
+                  <street corresp="#51915">Josefstädterstraße 26</street>
+                  <settlement ref="#58">WIEN | VIII.</settlement>
+               </address>
+               <date when-iso="1926-12-11">11. Dezember 1926</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Dr. Oskar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Exekution Karl Kraus | gegen Anton Kuh.</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1926-12-11">11. Dezember 1926
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000019-041-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000019-041-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-11" who="#JK"/>
+         <change type="typography" when-iso="2021-10-11" who="#JK"/>
+         <change type="references" when-iso="2021-10-11" who="#JK"/>
+         <change type="structure" when-iso="2021-10-11" who="#JK"/>
+         <change when-iso="2020-02-05T11:49:36.783Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-05T12:16:48.251Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-05T12:16:49.57Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 178505. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000019-041-000-facs001">
+      <surfaceGrp xml:id="D_000019-041-000-facs001-l001">
+         <surface type="recto" xml:id="D_000019-041-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541250/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000019-041-000-facs001-l001-p002">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541251/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000019-041-000_p001"
+             facs="#D_000019-041-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_dc0fb74d-f2c2-40c4-8daf-e5451098966a">
+            <lb xml:id="uuid_a62a59b6-00fd-45a6-b754-127f5a0343f0"/>Durch das <rs ref="#36801"
+               type="institution">Exekutionsgericht</rs> erhielten wir die<lb
+               xml:id="uuid_28ca65ae-b398-4381-b1d9-323b67caa4fc"/><rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-040-000" type="work"
+               subtype="legal-doc">Exekutionsbewilligung</rs> in obiger Angelegenheit. Wir erlauben
+               uns<lb xml:id="uuid_9f2f42e9-74ed-49f3-b818-2c6d9c14dabe"/>hiezu zu bemerken, dass
+            Herr <rs ref="#8363" type="person">Anton Kuh</rs> von uns Urlaub auf un<lb
+               xml:id="uuid_b00e0268-2129-4838-b116-0749e178b895" break="no"/>bestimmte Zeit erbeten
+            und auch erhalten hat. Da dies vor dem<lb
+               xml:id="uuid_4f897eb9-e328-4b07-92fa-ba64c771d3fe"/>18. November 1926 war und <rs
+               ref="#8363" type="person">Herr Kuh</rs> an diesem Tage das letzte Mal<lb
+               xml:id="uuid_df9c45d4-1dc6-462b-96f2-599c65b4fd92"/>gespielt hat, waren wir nicht in
+            der Lage dem Auftrage des <rs ref="#36801" type="institution">Exe-<lb
+                  xml:id="uuid_354cacb1-fc52-48af-8851-ff420274bea7"/>kutionsgerichtes</rs>
+            nachzukommen. </p>
+         <p xml:id="uuid_8f252f99-d99c-4d04-8bd5-b0a9ca69bcc7">
+            <lb xml:id="uuid_2bc32ada-8116-4bac-9fa7-5017ed093d0a"/>Wir haben daher die
+            Exekutionsbewilligung als un<lb xml:id="uuid_37c9ed97-3327-432e-8ea7-c792a41a8ee5"
+               break="no"/>durchführbar dem <rs ref="#36801" type="institution">Gerichte</rs> zur
+            Verfügung gestellt und bitten hie<lb xml:id="uuid_8d5d68b8-2cdd-4965-bd5b-1a5d37db507c"
+               break="no"/>von gefl. Kenntnis nehmen zu wollen. </p>
+         <p xml:id="uuid_d29b790d-04fc-4186-a6d3-7cf800b9eabb">
+            <lb xml:id="uuid_f690364e-3075-4d6d-90ab-6d65488cb514"/>Hochachtungsvoll<lb xml:id="uuid_90da0b93-7388-4b96-8a6c-d0f022cd7c4c"/><rs type="person">[Unterschrift]</rs>
+         </p>
+         <p xml:id="uuid_965a63d5-b9d3-42eb-a40e-e43b60a72faf">
+            <lb xml:id="uuid_ef8cd26c-58e1-4d0d-894d-74019b96cb81"/>EINGESCHRIEBEN. </p>
+         <pb xml:id="D_000019-041-000_p002"
+             facs="#D_000019-041-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_e34be409-8f23-450a-97f1-505b8ce05186">
+            <lb xml:id="uuid_dfb3cef6-f665-4244-a90e-2ab3c2d47858"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#8363" type="person">Kuh</rs>.<lb xml:id="uuid_d2465129-7997-4b0b-9868-c0315af4fb2c"/>13. Dez. 1926 </note>
+         </p>
+      </body>
+   </text>
+</TEI>

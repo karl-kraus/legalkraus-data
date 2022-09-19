@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-066-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-064-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000144-065-000.xml">
+   <teiHeader>
+      <fileDesc>
+            <titleStmt>
+                <title>Brief RA Viktor Fleischer an Anton Schroll Verlag für Kunst und Literatur</title>
+                <editor ref="#LK">Lena Kovacic</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History </name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2022</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+                </availability>
+                <idno subtype="legalkraus" type="URL"
+                    >https://id.acdh.oeaw.ac.at/legalkraus/D_000144-065-000.xml</idno>
+                <idno subtype="krausonline" type="URL"
+                    >http://www.kraus.wienbibliothek.at/node/3952</idno>
+                <idno subtype="transkribus" type="ID">275968</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000144" type="collection">Karl
+                    Kraus ca. S. Fischer Verlag (Berlin)</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness facs="#D_000144-065-000-facs001" xml:id="D_000144-065-000-wit01"/>
+                </listWit>
+                <msDesc>
+                    <physDesc>
+                        <ab type="materiality">
+                            <objectType source="D_000144-065-000-wit01"
+                                ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL"
+                                >Durchschlag</objectType>
+                        </ab>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#51573"/>
+               <address>
+                  <street corresp="#"/> 
+                  <settlement ref="#168"/>
+               </address>
+               <date when-iso="1931-12-12">12. Dezember 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#60193">Herrn Fritz Meyer | i.Fa. Verlag Anton Schroll &amp; Co.</persName>
+               <address>
+                   <street corresp="#39599"/>
+                  <settlement ref="#51">Wien</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-12-12">12. Dezember
+                    1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000144-065-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000144-065-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-08T14:16:09.685Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-08T14:28:44.913Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 275968. </change>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-10-20"
+                 who="#LK"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-10-20"
+                 who="#LK"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-10-20"
+                 who="#LK"/>
+         <change status="draft" type="structure" when-iso="2021-10-20" who="#LK"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000144-065-000-facs001">
+      <surfaceGrp xml:id="D_000144-065-000-facs001-l001">
+         <surface type="recto" xml:id="D_000144-065-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542047/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000144-065-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542048/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000144-065-000-facs001-l002">
+         <surface type="recto" xml:id="D_000144-065-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542049/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000144-065-000_p001"
+             facs="#D_000144-065-000-facs001-l001"
+             n="1"/>
+         <p xml:id="uuid_af3536c7-d479-4e4e-a086-af2b732e4327">
+                <lb xml:id="uuid_0338efe1-bc3c-40af-ad18-c2503416a1b2"/><hi rend="underlined"><hi
+                        rend="spaced">Abschrif</hi>t</hi></p>
+         <p xml:id="uuid_5f3dacf2-7035-41d3-8f2e-cca7aa7dd533">
+                <lb xml:id="uuid_dc25a1e2-afd9-46eb-88ab-6e85356ad23b"/>Lieber Herr <rs ref="#60193"
+                    type="person">Meyer</rs>,</p>
+         <p xml:id="uuid_a0f1326b-c1e7-4804-8331-e0ab2e6e32ab">
+                <lb xml:id="uuid_0e3f4a3f-0c72-4cf1-abf6-55bd7a68d31f"/>mein anderthalbstündiges
+                Ringen mit Herrn <rs ref="#11324" type="person">Fischer</rs> ist voll<lb break="no"
+                    xml:id="uuid_f4e11231-d66f-4f8d-9d3f-97a1f3a18e6b"/>kommen erfolglos verlaufen.
+                Die Erklärung zu Punkt 1 des <rs
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-062-000" type="work"
+                    subtype="legal-doc">Vertrages</rs>,<lb
+                    xml:id="uuid_692477ff-0c87-4b6c-bde8-40581e88bfe2"/>den Sie mit <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>
+                geschlossen haben, genügt ihm nicht. Ich habe darum<lb
+                    xml:id="uuid_1f59a0f7-e116-4491-9812-769dba182739"/>dort eingefügt, dass die
+                Uebertragung des Verlagsrechtes der Zustimmung<lb
+                    xml:id="uuid_dd56f59a-1e6a-416c-9c2a-2d021038a8ed"/>von <rs ref="#11988"
+                    type="person">Kraus</rs>, <rs ref="#37190" type="institution"
+                    >Rettungsgesellschaft</rs>
+                <hi rend="underlined">und <rs ref="#29639" type="institution">Verlag S.
+                    Fischer</rs></hi> bedarf. Diese<lb
+                    xml:id="uuid_aba59ba1-f298-4620-bd90-18637802d1df"/>Worte habe ich ausserdem am
+                Rande ausdrücklich als meine Ergänzung ge<lb break="no"
+                    xml:id="uuid_e61dff70-029b-4fb2-9cb8-1a5125ca4cc0"/>kennzeichnet mit dem Zusatz
+                Dr. <rs type="person" ref="#51573">V.F.</rs> i.V. <rs ref="#37062"
+                    type="institution">Schroll &amp; Co</rs>. Leider war<lb
+                    xml:id="uuid_775a9226-fa5e-4711-b399-38c6a7a93a5a"/>es mit der Beseitigung
+                dieses Hindernisses noch immer nicht getan.</p>
+         <p xml:id="uuid_b76a8345-f8d2-4f95-940e-757387e99ae4">
+                <lb xml:id="uuid_844cd0e8-2b2c-4aeb-824f-f6bc0d72b87e"/>Ich habe keine Abschrift
+                Ihres <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-062-000" type="work"
+                    subtype="legal-doc">Vertrages</rs> mit <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> und
+                    muss<lb xml:id="uuid_2d3dc2bf-c6d8-480c-b88e-afe5a3b7c57b"/>deshalb aus dem
+                Gedächtnis zitieren: in dem <rs
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-062-000" type="work"
+                    subtype="legal-doc">Vertrag</rs>
+                <rs ref="#37062" type="institution">Schroll</rs> / <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>
+                    steht,<lb xml:id="uuid_cffd84ad-5c94-4f4b-b37d-7d69dce79542"/>dass im Fall der
+                Auflösung der <rs ref="#37062" type="institution">Fa. Schroll</rs>, „<quote
+                    source="#D_000144-062-000" xml:id="uuid_ee333a24-60e3-473f-8558-310da09ca3f0"
+                    >die Rechte an dem <rs ref="#60281" type="work" subtype="pmb">Auswahl<lb
+                            break="no" xml:id="uuid_3376e449-e8b1-49e6-acf4-acf428d4b952"
+                    />band</rs></quote>“ an <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                    type="person">Kraus</rs> zurückfallen. Das will <rs ref="#11324" type="person"
+                    >Fischer</rs> unter keinen Umständen<lb
+                    xml:id="uuid_700e7330-bea5-49df-be21-0253054ebab4"/>gelten lassen. Ich habe
+                vergeblich versucht, ihm klarzumachen, dass<lb
+                    xml:id="uuid_7daa7e37-c183-4a52-bf04-a25b5874ef7a"/>„<quote
+                    source="#D_000144-062-000" xml:id="uuid_77bef65a-0c6c-47d7-b9ff-7cd095be7351"
+                    >zurückfallen</quote>“ nur solche Rechte können, die der Betreffende vorher<lb
+                    xml:id="uuid_3b5a78e0-90a5-4f8f-b15a-25e9f2b01d5d"/>gehabt hat. Da <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> also nur
+                jenes Urheberrecht hat, das sich auf die<lb
+                    xml:id="uuid_33899f8a-ffec-493a-b39c-7efc5a53b2e8"/>Auswahl und Zusammenstellung
+                gründet, auch nur dieses Recht an ihn<lb
+                    xml:id="uuid_d634b529-c5fe-426c-a946-4859d75478b5"/>zurückfallen könne, die
+                eigentlichen Verlagsrechte <rs ref="#11324" type="person">Fischers</rs> aber
+                    nicht<lb xml:id="uuid_8210465a-ca2f-41ed-a5b1-e141ebc75879"/>weiter berührt
+                würden. <rs ref="#11324" type="person">Fischer</rs> besteht darauf, dass die Rechte
+                an <hi rend="underlined">ihn</hi> (<rs ref="#11324" type="person">S.F.</rs>)<lb
+                    xml:id="uuid_84a32121-d3e3-462d-9f30-01a324cce24c"/>fallen müssten, wenn der <rs
+                    ref="#37062" type="institution">Verlag Schroll</rs> aufgelöst würde.</p>
+         <p xml:id="uuid_8993d4b8-0d96-424a-a49e-3ed67c789a5e">
+                <lb xml:id="uuid_fc2a4ec2-117e-49f0-bff2-8d3c56073d1f"/><rs ref="#11324"
+                    type="person">Fischer</rs> sagt, er verstehe sehr wohl, dass Herr <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> einen
+                    solchen<lb xml:id="uuid_fb408524-9c44-4773-871d-e6138da96fe9"/>Passus in dem <rs
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-062-000" type="work"
+                    subtype="legal-doc">Vertrag</rs> haben wollte. (Eben ruft mich <rs ref="#11324"
+                    type="person">Fischer</rs> wieder aus<lb
+                    xml:id="uuid_0ae5f723-5f56-4c59-a178-4b297a0e8424"/>seiner Privatwohnung an, um
+                mir nochmals zu erklären, dass es so absolut<lb
+                    xml:id="uuid_cbec5518-074b-4cb9-9b18-cf389db4691f"/>nicht gehe. Durch die
+                Formulierung in dem <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-062-000"
+                    type="work" subtype="legal-doc">Vertrag</rs>
+                <rs ref="#37062" type="institution">Schroll</rs> / <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>
+                    prätendiere<lb xml:id="uuid_23106edc-2c95-4e00-ab23-d34ee7c10006"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> ein
+                Recht für die Ewigkeit, das ihm und Ihnen gemeinsam der <rs ref="#29639"
+                    type="institution">S. Fischer</rs><pb xml:id="D_000144-065-000_p002"
+                    facs="#D_000144-065-000-facs001-l001-p002" n="2"/>
+                <lb xml:id="uuid_6def0f23-b5f1-41a8-b9f6-60e4a46aa83d"/>Verlag auf eine <hi
+                    rend="underlined">genau begrenzte Zeit</hi> überlassen will.) Das ist alles<lb
+                    xml:id="uuid_175f4788-b4b9-4208-bd78-c5297f455e14"/>etwas wirr und ich habe mich
+                bereits bemüht, es Ihnen wenigstens klar<lb
+                    xml:id="uuid_3519e8c5-ddb7-4480-8926-fe355145dfc7"/>darzustellen. In der
+                Unterhaltung mit Herrn <rs ref="#11324" type="person">Fischer</rs> ist es noch
+                    viel<lb xml:id="uuid_2ce0caad-e340-4fa3-a2c5-0bb60f985d86"/>wirrer. Ich weiss
+                leider gar keinen Ausweg als den, dass <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> auf
+                    diesen<lb xml:id="uuid_f6a13af4-94c9-4361-a14f-1a605aeac9a7"/>Satz ganz
+                verzichtet. Der Satz ist ja an sich wohl vollkommen überflüs<lb break="no"
+                    xml:id="uuid_a655da75-991f-44ee-8a31-f81c29ab0917"/>sig, wenn nicht sinnlos;
+                denn wenn <rs ref="#37062" type="institution">Schroll</rs> wirklich Pleite macht,
+                    dann<lb xml:id="uuid_2b96539b-476c-4d42-a03c-7427f031bc77"/>wird die Fa. weiter
+                existieren mit anderen Inhabern. Dass die <rs ref="#37062" type="institution">Fa.
+                    Schroll</rs>
+                <lb xml:id="uuid_50f6d48d-97f3-44cd-a2e1-e02dacc12805"/>verschwindet, ist nicht
+                anzunehmen.</p>
+         <p xml:id="uuid_d309ff9f-35b0-4d87-9ff4-6d8dbd46bac2">
+                <lb xml:id="uuid_31d01da0-2bf8-409e-bcd8-9e111675c7db"/>Das Traurige ist, dass <rs
+                    ref="#11324" type="person">Fischer</rs>, wie ich immer wieder betonen<lb
+                    xml:id="uuid_156a4575-9916-4b6a-a9a9-e9b7530bec16"/>muss, durch die ganze
+                vorausgegangene Korrespondenz äusserst miss<lb break="no"
+                    xml:id="uuid_98119e14-3bca-4c13-977c-f983c4202e20"/>trauisch ist und überall
+                „Fallen“ wittert. So kommt er heute plötz<lb break="no"
+                    xml:id="uuid_1dd5ec92-cb09-4a7b-a09c-75f0ac7196a7"/>lich im Gespräch auf den von
+                ihm selbst stammenden Satz: „<quote source="#D_000144-062-000"
+                    xml:id="uuid_d7e559f9-b52c-4f0b-9f8c-1b0c8da2c39b">Die Verram<lb break="no"
+                        xml:id="uuid_b0bfebd4-9b80-4751-9974-d705c526b582"/>schung ist unbedingt
+                    verboten</quote>“ und fängt mit mir an zu diskutieren,<lb
+                    xml:id="uuid_868064d5-d9dd-4e7b-aa56-b427e34a032a"/>was unter Verramschung zu
+                verstehen sei. Er selbst würde schon den<lb
+                    xml:id="uuid_097bf75f-3f8b-4ff0-af1a-18fa1663ff2c"/>Rabatt von 60% als Ramsch
+                ansehen, sagt im nächsten Augenblick aber,<lb
+                    xml:id="uuid_04f35ad5-979f-4e43-9bdc-d271c96c960b"/>ein Kennzeichen des
+                Verramschens sei es, dass der ganze Restbestand<lb
+                    xml:id="uuid_6a193e76-41da-43ab-80d8-fe25dbfaf732"/>eines Werkes en bloc
+                abgestossen werde.</p>
+         <p xml:id="uuid_481ddf09-16ae-4083-aaf3-58374cfc1a11">
+                <lb xml:id="uuid_834b0245-92e3-4dd0-8381-038074cca4e9"/>Endlich will er noch eine
+                Erklärung haben, dass ausser den ihm<lb
+                    xml:id="uuid_ca99c0b2-aa85-4059-b4ac-1b314a1c42d1"/><del>bekanntlich</del>
+                bekannten, keine andern Abmachungen mit <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> und <rs
+                    ref="#37190" type="institution">Rettungs<lb break="no"
+                        xml:id="uuid_5d99b6d2-1318-4390-ad41-6d2cce856b10"/>gesellschaft</rs>
+                getroffen wurden. Um die Sache abzukürzen, habe ich ihm vor<lb break="no"
+                    xml:id="uuid_7f025b73-4087-47f5-8db4-f78241d0055c"/>geschlagen, dass er seiner
+                Unterschrift diesen Zusatz beifügen möchte<lb
+                    xml:id="uuid_a1cbcceb-ced8-4d0a-ad01-b5bce8595f62"/>und habe ihm den
+                    <del>Satz</del> Zusatz genau formuliert: „Unter der Voraussetzung,<lb
+                    xml:id="uuid_d98523b5-7374-4c8a-983f-43e9e7e8de5a"/>dass ausser den in diesem
+                    <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-062-000" type="work"
+                    subtype="legal-doc">Vertrage</rs> und den zwei Nebenverträgen festgeleg<lb
+                    break="no" xml:id="uuid_9f5b71ae-6cd2-4707-9089-1673db54a096"/>ten, keine
+                anderen Abmachungen getroffen worden sind.“</p>
+         <p xml:id="uuid_4edd1b2e-3db8-4e6b-9419-9910c4589333">
+                <lb xml:id="uuid_6b20ef67-904f-4c29-b4b4-d4fa2d14b1f3"/>Vielleicht wäre es mir
+                gelungen, heute noch über die letzten<lb
+                    xml:id="uuid_ebfc910b-c832-4d1b-9059-f945947a69e3"/>Schwierigkeiten
+                hinwegzukommen, obzwar der alte <rs ref="#11324" type="person">Herr</rs>, der sonst
+                    gegen<lb xml:id="uuid_b1bfe5c5-237e-4db0-800f-393c00b011a5"/>mich immer sehr
+                freundlich ist, sehr gereizt schien. In unsere Unter<lb break="no"
+                    xml:id="uuid_43dadcc4-93a0-49bf-9260-0d331229dee7"/>redung platzte aber die
+                „Unglücksnachricht“ aus <rs ref="#864" type="place">Leipzig</rs> hinein: die<pb
+                    xml:id="D_000144-065-000_p003" facs="#D_000144-065-000-facs001-l002-p003" n="3"/>
+                <lb xml:id="uuid_f06b47b5-cfd1-476d-8d23-106251e309b6"/>Generalstäbler des <rs
+                    ref="#29639" type="institution">Verlages Fischer</rs> rückten mit den
+                telefonischen Be<lb break="no" xml:id="uuid_52797b21-9484-4f04-9da9-19910977d19e"
+                />richten über die gestrigen Leipziger Beschlüsse an, und Sie können<lb
+                    xml:id="uuid_1e698a59-7c93-428b-a787-22720331e7e2"/>sich denken, dass in diesem
+                Augenblick die Angelegenheit <rs ref="#2147" type="person">Altenberg</rs> für<lb
+                    xml:id="uuid_81235db9-f2d7-4ade-af01-fcfd42ddb5f7"/><rs ref="#11324"
+                    type="person">Fischer</rs> ein Staubkorn geworden war, während er das ganze
+                Gebäude seines<lb xml:id="uuid_b7f9078a-3e76-4516-84e3-5481e95c6b83"/>in 42 Jahren
+                errichteten <rs ref="#29639" type="institution">Verlags</rs> wackeln zu sehen
+                meinte. Es war über<lb break="no" xml:id="uuid_8f6f6434-eacd-4f82-b077-ca9f45c201df"
+                />haupt nicht mehr möglich, mit ihm über die <rs ref="#2147" type="person"
+                    >Altenberg</rs>-Sache weiterzureden.<lb
+                    xml:id="uuid_6b6b5e0a-1ae9-4e8b-bd58-f2587d6fdf7c"/>Ich habe zum Schlusse
+                gesagt: „<q type="spoken" who="#51573">das Buch ist fertig, und wir wollen es aus<lb
+                        break="no" xml:id="uuid_3f0f7d9d-da95-4bde-9bb9-cd41ace05e25"/>liefern </q>“
+                – und Sie werden sich nicht wundern, wenn ich Ihnen erzähle,<lb
+                    xml:id="uuid_446410ce-7579-471d-8d0a-e39b454c1f65"/>dass mir <rs ref="#11324"
+                    type="person">Fischer</rs> geantwortet hat: „<q type="spoken" who="#11324">es
+                    ist ausgeschlossen, dass das Buch<lb
+                        xml:id="uuid_edbfa014-7598-464c-b223-0bf4617c162d"/>fertig ist, denn woher
+                    hätten Sie das Recht, das Buch auch nur setzen zu<lb
+                        xml:id="uuid_d38d1818-e738-4005-a37f-8d140ce24fa9"/>lassen, solange Sie
+                    keinen Vertrag mit mir geschlossen haben.</q>“ Da nach<lb
+                    xml:id="uuid_ac4bcbdc-97c6-4d1a-89ef-6d1495c6cf9e"/>deutschem Recht jeder
+                Vertrag, dessen schriftliche Ausfertigung vorgesehen<lb
+                    xml:id="uuid_8a3690fe-b36a-4f64-b7dd-73f8ccd0280f"/>ist, alle vorausgegangenen
+                mündlichen Abmachungen ungültig erscheinen<lb
+                    xml:id="uuid_0b7954c6-56ec-4939-96c3-18226332e516"/>lässt, hat sich der <rs
+                    ref="#37062" type="institution">Verlag Schroll</rs> nach der strengsten
+                Auslegung des Ge<lb break="no" xml:id="uuid_63758557-3722-405b-9734-87d0856c2789"
+                />setzes, also wirklich einer Verletzung des Urheberrechts schuldig gemacht,<lb
+                    xml:id="uuid_0bcd2abe-625b-44e4-b280-b9a615ea4e59"/>und ich kann Ihnen nur
+                dringendst raten, das <rs ref="#60281" type="work" subtype="pmb">Buch</rs> nicht
+                auszugeben, be<lb break="no" xml:id="uuid_5664013c-79db-4972-943f-b5df91bd1301"/>vor
+                nicht der schriftliche Vertrag abgeschlossen ist. Ich zweifle nicht<lb
+                    xml:id="uuid_7c425fb3-8a16-495e-bb71-9d7ff3e31efb"/>daran, dass <rs ref="#11324"
+                    type="person">Fischer</rs> sofort einen Prozess beginnen würde; und dass Sie
+                    den<lb xml:id="uuid_3e869cd8-8d2c-4cc7-8c78-6069d0542335"/>verlieren müssen,
+                halte ich für absolut sicher. Bei der Verwirrung, die<lb
+                    xml:id="uuid_c7c0512d-defa-459c-ae28-b6f24841d56a"/>die Leipziger Beschlüsse,
+                resp. die Notverordnung und ihre Auslegung<lb
+                    xml:id="uuid_513696ee-5a85-4144-b255-4b407ea56e79"/>im Sortiment hervorrufen
+                müssen, scheint es mit auch garnicht wünschens<lb break="no"
+                    xml:id="uuid_cc81ca65-dac3-43b1-83b3-2974580bde70"/>wert, dass das <rs
+                    ref="#60281" type="work" subtype="pmb">Buch</rs> jetzt noch herausgebracht
+                wird.</p>
+         <p xml:id="uuid_428d9840-7044-4734-828b-76ccaafe39bd">
+                <lb xml:id="uuid_76d9dc3a-fa80-428c-8a4f-61ae32009c9f"/>Mit herzlichsten Grüssen<lb
+                    xml:id="uuid_3c01a0ee-d323-45f3-b52d-482979793407"/>Ihr<lb
+                    xml:id="uuid_99296d6f-8d1e-4e8e-99a8-86b29560940f"/>gez. <rs ref="#51573"
+                    type="person"><hi rend="spaced">Fleische</hi>r</rs></p>
+      </body>
+   </text>
+</TEI>

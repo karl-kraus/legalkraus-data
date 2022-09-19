@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000076-014-001.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000076-013-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000076-014-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Richard Flatter an Verlag Die Fackel</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000076-014-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2720</idno>
+            <idno subtype="transkribus" type="ID">229635</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000076" type="collection">Korrespondenz mit Richard Flatter</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000076-014-000-facs001" xml:id="D_000076-014-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000076-014-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                     <objectType source="D_000076-014-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP">Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1936-03-03">3. März 1936</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#16309">Dr. Richard Flatter</persName>
+               <address>
+                  <street corresp="#53342">Mariahilferstr. 1b</street>
+                  <settlement ref="#50">Wien, | 6.</settlement>
+               </address>
+               <date when-iso="1936-03-03">3. März 1936</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#43724">den | Verlag der „Fackel“</orgName>
+               <address>
+                  <street corresp="#50496"/>
+                  <settlement ref="#50">Wien</settlement>
+               </address>
+               <date/>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000076-014-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000076-014-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2022-01-27" who="#IL"/>
+         <change type="structure" when-iso="2021-03-15" who="#IL"/>
+         <change type="references" when-iso="2021-03-15" who="#IL"/>
+         <change type="typography" when-iso="2021-03-17" who="#IL"/>
+         <change type="intertexts" when-iso="2021-03-17" who="#IL"/>
+         <change when-iso="2020-10-07T14:47:18.775Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-07T15:06:32.442Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 229635. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000076-014-000-facs001">
+      <surfaceGrp xml:id="D_000076-014-000-facs001-l001">
+         <surface xml:id="D_000076-014-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553846/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553844/full/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000076-014-000_p001"
+             facs="#D_000076-014-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_c73d7c93-141a-4a6b-9f38-07393a2ec42c">
+            <lb xml:id="uuid_4b64dd62-48f0-457d-bb7c-10032dbae4f2"/><hi rend="spaced">Abschrift</hi>
+         </p>
+         <p xml:id="uuid_7d732195-246c-4584-b810-fef555aa4e3b">
+            <lb xml:id="uuid_17072336-8165-4416-a9cd-b5b7ef40f518"/>Im Vorwort zu dem von ihm
+            bearbeiteten, teilweise sprachlich<lb xml:id="uuid_c24b2181-5011-43d4-abec-ce14656a5e9c"
+            />erneuerten „<rs ref="#33366" type="work" subtype="pmb">Macbeth</rs>“ zitiert Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> aus
+            einer <rs type="work" subtype="pmb">deutschen<lb
+                  xml:id="uuid_a0dead2c-c27d-4354-8bd2-607cea7edb22"/>Monatsschrift</rs> eine
+            Stelle, die ihm eine „<quote source="https://fackel.oeaw.ac.at/f/908,007"
+               xml:id="uuid_f9068038-240b-470c-87a7-8f28d8bdf06a">groteske Bemerkung</quote>“ zu
+               sein<lb xml:id="uuid_47b4560f-179b-45e6-8ab1-5bec9f2abe3f"/>scheint, die Meinung
+            nämlich, „<quote source="https://fackel.oeaw.ac.at/f/908,007"
+               xml:id="uuid_0663e5a9-20fa-48c8-bc58-19a4e1d0e1c5">der <rs ref="#12053" type="person"
+                  >Lessing</rs> und <rs ref="#11157" type="person">Diderot</rs>, dass sich<lb
+                  xml:id="uuid_b5806708-c6db-43e3-a9a0-0caa77eda254"/>eher dem Herakles seine Keule
+               entreissen liesse als dem <rs ref="#2495" type="person">Homer</rs> und<lb
+                  xml:id="uuid_10b6c0a4-f3ef-40db-af0b-547b4d235940"/><rs ref="#2412" type="person"
+                  >Shakespeare</rs> ein einziger Vers</quote>“. </p>
+         <p xml:id="uuid_e99ed5e5-ed2e-4d1e-9d7f-1cf2d3fc753c">
+            <lb xml:id="uuid_06cc50cf-e667-481c-b44d-02651173e909"/>Immer bereit, die Dürstenden zu
+            tränken, bitte ich Sie, Herrn<lb xml:id="uuid_a747d0a1-27ed-4b50-b32a-2264cdc4ddb8"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+            mitteilen zu wollen, dass die von ihm so misstrauisch<lb
+               xml:id="uuid_cb0cbeca-e2b9-484e-bbb5-b8b4c857a0f8"/>betrachtete groteske Bemerkung
+            sich offenbar auf das <subst>
+               <del>6</del>
+               <add>7</add>
+            </subst>3. Stück der<lb xml:id="uuid_0cec2872-66f6-46f4-90f4-b5ee50eb4b7b"/><rs
+               ref="#53335" type="work" subtype="pmb">Hamburgischen Dramaturgie</rs> bezieht: die
+            Stelle, die jener Unbekannte<lb xml:id="uuid_f26927c6-6205-4032-8761-7d7844c5f5c7"
+            />sichtlich im Sinn hatte, lautet: </p>
+         <p xml:id="uuid_7f3a10f8-ae8b-40bb-b542-c12a3ef7312f">
+            <lb xml:id="uuid_8224837f-72f4-45d4-9487-c3438419d7a1"/>„<quote source="#53335"
+               xml:id="uuid_0e36fe5e-dc5c-4274-a7a8-33b39b69e917">Was man von dem <rs ref="#2495"
+                  type="person">Homer</rs> gesagt hat, es lasse sich der Hercules<lb
+                  xml:id="uuid_671c9d11-4203-4a3d-8a1b-094fbe3923df"/>eher seine Keule als ihm ein
+               Vers abringen, das lässt sich<lb xml:id="uuid_b37eeb1e-8212-42bd-bf3d-d9bc8cd70dbf"
+               />vollkommen von <rs ref="#2412" type="person">Shakespeare</rs> sagen. Auf die
+               geringste von seinen<lb xml:id="uuid_33b54c90-c619-49e9-89f4-53e71d3694ce"
+               />Schönheiten ist ein Stempel gedrückt, welcher gleich der<lb
+                  xml:id="uuid_caa4b368-f80d-48a8-89df-182a683da19b"/>ganzen Welt zuruft: Ich bin
+                  <rs ref="#2412" type="person">Shakespeare</rs>! Und wehe der fremden<lb
+                  xml:id="uuid_c40f1a56-cfae-4da4-8c86-e59f77d52d94"/>Schönheit, die das Herz hat,
+               sich neben ihn zu stellen!</quote>“ </p>
+         <p xml:id="uuid_770be773-abda-4446-ad52-96f929cfdd3c">
+            <lb xml:id="uuid_720f9ab1-b11d-4d42-84c6-d5c731652d06"/>Hochachtungsvoll<lb xml:id="uuid_81099489-b371-45e9-8b52-d252098d1e20"/>Dr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/16309" type="person">Flatter</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

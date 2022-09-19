@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000098-022-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000098-020-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000098-021-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Marcella S. Gardner (William Fox Studio) an Samek</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000098-021-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/2949</idno>
+            <idno subtype="transkribus" type="ID">420119</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000098" type="collection"
+               >Darlehenssache Berthold Viertel</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000098-021-000-facs001" xml:id="D_000098-021-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000098-021-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T"
+                        >Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-12-27">27. Dezember 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#51576">Marcella S. Gardner (William Fox Studio)</persName>
+               <address>
+                  <street corresp="#54317"/>
+                  <settlement ref="#38174">Hollywood, California</settlement>
+               </address>
+               <date when-iso="1929-12-27">Dec. 27, 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Dr. Oskar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">WIEN I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000098-021-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000098-021-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2021-04-26" who="#IL"/>
+         <change type="structure" when-iso="2021-04-21" who="#IL"/>
+         <change type="references" when-iso="2021-04-21" who="#IL"/>
+         <change type="typography" when-iso="2021-04-22" who="#IL"/>
+         <change type="intertexts" when-iso="2021-04-21" who="#IL"/>
+         <change when-iso="2020-10-08T12:24:58.572Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T12:30:09.483Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 420119. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000098-021-000-facs001">
+      <surfaceGrp xml:id="D_000098-021-000-facs001-l001">
+         <surface xml:id="D_000098-021-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554739/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000098-021-000-facs001-l001-p002" type="verso">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554740/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000098-021-000_p001" facs="#D_000098-021-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_47ead4e1-d1b1-4f8c-a47d-61441f7ca227">
+            <lb xml:id="uuid_1daa84f2-c215-4084-9353-82ce26247eb8"/>Sehr geehrter Herr <rs
+               ref="#37057" type="person">Doktor</rs>: </p>
+         <p xml:id="uuid_fdb72712-e759-4f85-9dd4-b4132901d939">
+            <lb xml:id="uuid_f8f66852-7765-4ad1-917e-253116e9c826"/>Wir haben mit der Absendung des
+            nächsten Cheques gewartet,<lb xml:id="uuid_30d9df4e-5e85-44f4-950b-c41c4a344811"/>bis
+            Sie das Eintreffen der vorigen Tratte bestätigt haben<lb
+               xml:id="uuid_59ad6cb0-ad10-4237-83b4-fe49286c363f"/>würden. Da diese Bestätigung
+            ausbleibt, so senden wir<lb xml:id="uuid_30f74224-cbc4-4438-a969-41e64f29dd8d"/>doch
+            noch eine weitere Rate ab. Bitten Sie aber herzlichst,<lb
+               xml:id="uuid_c471fee2-793d-41b7-b4b6-ce202a3a7cf0"/>uns auf einer Korrespondenzkarte
+            den Empfang mitzuteilen,<lb xml:id="uuid_b65934b8-b140-4364-9dcb-fdc2e6a47582"/>da wir
+            schon verschiedene unglaubliche Irrtümer erlebt haben.</p>
+         <p xml:id="uuid_6611dc39-f6cb-4702-942d-d09e6f3758d6"><lb
+               xml:id="uuid_97b6cc08-8249-4cdc-83b1-5892b4e24d23"/>Unsere letzte Rate sandten wir am
+            13ten November, u.z.,<lb xml:id="uuid_898cc191-6a49-4ca1-b699-7facd5c1d444"/>über <rs
+               ref="#54822" type="institution">Citizens National Trust and Savings Bank</rs>,
+            zahlbar durch<lb xml:id="uuid_f9f88f42-f231-473f-93cf-d7034749e39a"/>die <rs
+               ref="#37174" type="institution">Oesterreichische Credit-Anstalt</rs>. </p>
+         <p xml:id="uuid_d6894179-3820-410d-83c4-9a5204218381">
+            <lb xml:id="uuid_47c5c69a-2a15-4012-9a5f-3dfb43a28431"/>Mit vorzüglicher Hochachtung<lb
+               xml:id="uuid_b504b0ff-95cf-4c89-9c40-3edc614e9d8e"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/51576" type="person">Marcella S. Gardner</rs>
+         </p>
+         <pb xml:id="D_000098-021-000_p002" facs="#D_000098-021-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_a923ea10-0448-4888-acdd-e3cd5b6cfdc7">
+            <lb xml:id="uuid_dabb5d31-2713-4a75-b375-1c6d9693e339"/><note resp="law-firm"
+               type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/10364" type="person"
+                  >Viertel</rs>
+               <lb xml:id="uuid_c2a407ed-f5ab-4b89-95a6-6e0b3e9f4561"/>14. JAN. 1930</note></p>
+      </body>
+   </text>
+</TEI>

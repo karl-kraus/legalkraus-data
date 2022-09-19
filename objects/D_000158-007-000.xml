@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000158-007-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000158-006-000.xml"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000158-008-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Heinrich Fischer an Hans Curiel</title>
+            <editor ref="#SH">Susanna Hufsky</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000158-007-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4110 </idno>
+            <idno type="ID" subtype="transkribus">304880</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000158">Karl Kraus
+               ca. Oper am Platz der Republik (Kroll-Oper, Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000158-007-000-wit01" facs="#D_000158-007-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000158-007-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL"
+                        >Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38133"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#168"/>
+               </address>
+               <date when-iso="1931-04-16">16.4.1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#39440">Herrn | Dr. Curiel</persName>
+               <address>
+                  <street corresp="#56705">Oper am Platz der Republik</street>
+                  <settlement ref="#168">Berlin</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-04-16">16. April 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000158-007-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000158-007-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+         <handNotes>
+            <handNote xml:id="D_000158-007-000-hand01" source="#D_000158-007-000-wit01" scribeRef="#" medium="black-ink" cert="low" resp="#JK"></handNote>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-10-08T15:28:44.009Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T15:32:04.577Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 304880. </change>
+         <change type="structure" when-iso="2021-07-13" who="#SH"/>
+         <change type="references" when-iso="2021-07-13" who="#SH"/>
+         <change type="typography" when-iso="2021-07-13" who="#SH"/>
+         <change type="intertexts" when-iso="2021-07-13" who="#SH"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000158-007-000-facs001">
+      <surfaceGrp xml:id="D_000158-007-000-facs001-l001">
+         <surface xml:id="D_000158-007-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542675/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000158-007-000-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542676/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000158-007-000_p001"
+             facs="#D_000158-007-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_c48c0953-62db-4c0a-bc3f-510c4235573b">
+            <lb xml:id="uuid_3a40d37a-5e54-454a-9b9d-f09a86478b6d"/>Sehr geehrter <rs type="person" ref="#39440">Herr Doktor!</rs>
+         </p>
+         <p xml:id="uuid_70662b9f-b0f5-48cf-b00f-fedf6efcc3ed">
+            <lb xml:id="uuid_daef931f-9288-4dc0-a9ea-a6330636832b"/>Eine Krankheit, die mich
+                acht Tage ans Bett fesselte,<lb xml:id="uuid_1dae8fec-7775-4da1-b766-979544be93f7"/>hat mich bis heute verhindert, diesen Brief abzusenden. </p>
+         <p xml:id="uuid_08c4080e-0686-45d3-9491-7898a5f534ad">
+            <lb xml:id="uuid_d52cb18a-5454-4dee-b7f5-55b55479d78b"/>Von Herrn <rs type="person"
+               ref="#38969">Dr. Laserstein</rs> erfahre ich, Sie hätten seinen<lb
+               xml:id="uuid_8a77df42-6eb7-4e63-a413-af106ce2829d"/>Vorschlag, mich als Zeugen zu dem
+            zwischen Herrn <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl
+               Kraus</rs>
+            <lb xml:id="uuid_369bf82d-bdf5-4914-b258-188657d2ca6a"/>und Ihnen geplanten Gespräch zu
+            wählen, mit doppelter Be<lb xml:id="uuid_276e721d-8367-447f-b9c8-248ec260a94c"
+               break="no"/>gründung abgelehnt: zunächst, weil ich im Vollmachtsnamen<lb
+               xml:id="uuid_66814b2b-de7f-4b02-ad44-e0406d215cb2"/>von <rs type="person"
+               ref="#11988">Herrn Kraus</rs> einen <rs type="work" subtype="legal-doc">Brief</rs>
+            unterzeichnet habe, dessen eine<lb xml:id="uuid_d803760a-7e37-4e43-8c40-6b55de412857"
+            />Stelle für Sie so beleidigend sei, dass Sie sich eine Ehren<lb
+               xml:id="uuid_cbf31e19-1388-4bad-8c2d-48027858810d" break="no"/>beleidigungsklage
+            vorbehielten, dann aber, weil ich Herrn<lb
+               xml:id="uuid_a1459159-3d61-407f-ac8b-5e6727d375ec"/><rs type="person"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs> „<quote
+               xml:id="uuid_caaf2987-3d90-4160-bece-c0dbd4e14a11" source="">hündisch
+            ergeben</quote>“ sei. </p>
+         <p xml:id="uuid_ac084f90-0a6c-44bb-8dba-1b1e20002224">
+            <lb xml:id="uuid_e6557cc0-87e5-4d55-bb35-bc8ad7ba411f"/>Ich empfinde die Zuerkennung
+            grosser Ergebenheit für<lb xml:id="uuid_aed81833-7779-4fd9-b37b-4dc76061ae49"/>Herrn <rs
+               type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs> als das
+            Gegenteil einer Ehrenbeleidigung<lb xml:id="uuid_bead0d6e-3525-4abb-8a29-5bddf017930e"
+            />und möchte sie nicht durch den Vergleich mit der Abhängigkeit<lb
+               xml:id="uuid_4e5338fe-74d7-4c7c-ad17-f55fa4bea68a"/>eines Staatstheaterbeamten
+            entwerten (die sich in tausend<lb xml:id="uuid_5ee3805d-c1c1-4c39-bbf2-0bf118899195"
+            />Rücksichtnahmen auf Presse, Behörden, Vorgesetzte etc. mani<lb
+               xml:id="uuid_7bd36727-f3c0-4557-9789-5079ab8f5e0f" break="no"/>festiert), behalte mir
+            aber meinerseits wegen des freundli<lb
+               xml:id="uuid_db48050f-e858-4937-8620-a99cad8b7036" break="no"/>chen Epithetons die
+            Ehrenbeleidigungsklage vor.</p>
+         <p xml:id="uuid_4ffe99ed-ad84-48d7-9e61-181e425ef9ba">
+            <lb xml:id="uuid_1c3800e8-8595-4fb8-90cf-4758a2041216"/>Was nun aber den Vorwurf
+            betrifft, ich hätte Sie durch<lb xml:id="uuid_45f65804-a2eb-4e2b-b918-05a5cb9751a9"/>den
+            Satz, Sie wollten der Presse in dem Punkte der Striche<lb
+               xml:id="uuid_3dd3c736-3c37-427a-9c16-c8695ee46f6c"/>entgegenkommen, beleidigt, so
+            erkläre ich aus ehrlichster<lb xml:id="uuid_b887e5ed-c49a-4754-bb4e-10da761f9a22"
+            />Ueberzeugung, dass mir bei meiner Formulierung der animus<lb
+               xml:id="uuid_37a8793b-9e5f-48c4-95a1-2a20a7c9e630"/>iniurandi völlig gefehlt hat. Wie
+            konnte ich annehmen, dass<lb xml:id="uuid_884a87ff-71ae-41f6-a1f2-3223e5dbabef"/>Sie
+            eine solche Feststellung kränken werde. Aus dem bemer<lb
+               xml:id="uuid_a81dcd7c-9815-4ba2-b784-a46d31fed5d2" break="no"/>kenswerten und
+            vielbemerkten Entgegenkommen, das Ihre „<rs type="work" ref="#56717" subtype="pmb"
+                  >Blät<lb xml:id="uuid_d4d2256b-80f6-4258-9972-4549888b489c" break="no"/>ter der
+               Staatsoper</rs>“ bei der Redaktion des <rs type="person" ref="#37852"
+                  >Benjamin</rs>-<rs type="work" subtype="pmb" ref="#88316">Aufsatzes</rs>
+            <lb xml:id="uuid_e98e1e65-adc6-46ef-81bb-0bb0f167c43a"/><del
+               hand="#D_000158-006-000-hand01">der Presse</del> bewiesen haben, indem sie sozusagen
+            aus freien<lb xml:id="uuid_9128e5f0-7b8c-4e4c-bafd-377fa0f8868d"/>Stücken der Presse den
+            Strich einer für sie wichtigen Stelle<lb
+               xml:id="uuid_84063f91-efd6-465b-8968-08c7022f00ba"/>konzedierten und den gefährlichen
+            Namen <rs type="person" ref="#37135">Kerr</rs> in einer heim<lb
+               xml:id="uuid_ae3ea717-62d6-470c-8c71-5170ece1946c" break="no"/>lichen Strichprobe
+            entfernten, musste ich annehmen, dass Sie<lb
+               xml:id="uuid_bb482822-d7a8-4ed1-892f-406e484f5d50"/>sich keineswegs scheuen, offen zu
+            bekennen, wem Ihre Sympa<lb xml:id="uuid_89cdec2e-335b-4647-afd4-7ff928adf2e5"
+               break="no"/>thien und Ihr Autoritätsglaube gehören. </p>
+         <p xml:id="uuid_83a159d1-a057-4809-a24f-bab16fe67fee">
+            <lb xml:id="uuid_d4200454-a562-44a0-830c-9e88a7b9c8f5"/>Dass man Sie nach Ausmerzung
+                jenes Namens, aber auch<lb xml:id="uuid_51081da2-c8f8-4d7e-a7c6-42eca4b29909"/>nach
+                Ihrer sonst bewiesenen Stellungnahme mit der Vermutung<lb xml:id="uuid_a0c3234b-03c2-4024-bf81-0bc54fc6d798"/>einer presskonzilianten
+                Haltung kränken würde, war nicht<lb xml:id="uuid_1051b4c2-9da9-47f5-8ee1-9927fbe925d0"/>anzunehmen. Hochachtungsvoll </p>
+         <pb xml:id="D_000158-007-000_p002"
+             facs="#D_000158-007-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_18445814-676d-4855-ba98-5beafea30be8">
+            <lb xml:id="uuid_81992898-5100-4af5-8eb6-272e53526c52"/><note type="paratext" resp="law-firm"><rs type="person" ref="#11988">Kraus</rs></note> – <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37183">Krolloper</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

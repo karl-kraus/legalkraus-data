@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000018-006-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000018-004-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000018-005-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Robert Klebinder</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000018-005-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1741</idno>
+            <idno subtype="transkribus" type="ID">177105</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000018" type="collection">Karl
+                    Kraus ca. Die Stunde</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000018-005-000-facs001" xml:id="D_000018-005-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000018-005-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1925-12-07">7. Dezember 1925</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#43724">Herrn | Robert Klebinder</persName>
+               <address>
+                  <street corresp="#120"/>
+                  <settlement ref="#50">WIEN.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Stunde.</note>
+               <note type="dictation">Dr.S./W.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1925-12-07">7. Dezember 1925
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000018-005-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000018-005-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-07" who="#JK"/>
+         <change type="typography" when-iso="2021-10-07" who="#JK"/>
+         <change type="references" when-iso="2021-10-07" who="#JK"/>
+         <change type="structure" when-iso="2021-10-07" who="#JK"/>
+         <change when-iso="2020-02-05T11:39:02.91Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-05T11:43:26.574Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 177105. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000018-005-000-facs001">
+      <surfaceGrp xml:id="D_000018-005-000-facs001-l001">
+         <surface type="recto" xml:id="D_000018-005-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540997/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000018-005-000_p001"
+             facs="#D_000018-005-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_0d189612-d990-468f-8bf3-35f00cfb0a84">
+            <lb xml:id="uuid_e39b4292-69c1-48ab-bd6b-690ec4688d80"/>Sie unterfertigten heute ein
+            Gesuch um Zurück<lb break="no" xml:id="uuid_439ccdb9-fd82-44ba-9ab6-eba39c71aeb1"/>nahme
+            der gegen Sie gerichteten <rs type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000018-001-000">Klage</rs>, welches ich
+            in dem Falle<lb xml:id="uuid_0b9a0428-bdb8-4433-a3e1-bc58600db21a"/>einbringen werde,
+            wenn von Ihnen, respektive der „<rs ref="#29470" type="institution">Stunde</rs>“<lb
+               xml:id="uuid_020641b4-4b46-44c4-aea8-4264f3f4c0e6"/>bis 9. Dezember 1925 10 Uhr
+            vormittags der Betrag von 63 S<lb xml:id="uuid_3d2ba62e-f63f-4a41-8019-65cff46f1efa"/>an
+            Busse und 126.32 S an Kosten, zusammen 189 S 32 g in<lb
+               xml:id="uuid_9cfc013e-ef7c-445f-91ee-2e7ffb535e5d"/>meiner <rs type="institution"
+               ref="#52930">Kanzlei</rs> nicht vorliegt. </p>
+         <p xml:id="uuid_85418c02-8605-476d-9920-f275f6ec4618">
+            <lb xml:id="uuid_c40fa564-58b8-46c0-85a9-679bc4c5c3a3"/>Andernfalls werde ich die
+                Verhandlung verrichten. </p>
+         <p xml:id="uuid_af8f0c4f-15d6-4a2b-b90b-fc7e8c6a2ea0">
+            <lb xml:id="uuid_9eafaaf2-568f-456b-969f-772607865e68"/>Hochachtungsvoll </p>
+      </body>
+   </text>
+</TEI>

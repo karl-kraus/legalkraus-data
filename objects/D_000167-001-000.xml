@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000167-002-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-016-001.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000167-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Lothar Rübelt an Verlag Die Fackel</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000167-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4207</idno>
+            <idno subtype="transkribus" type="ID">307489</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000167" type="collection">Lothar Rübelt ca. Karl Kraus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000167-001-000-facs001" xml:id="D_000167-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000167-001-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSN">Typoskript mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#23807">LOTHAR RÜBELT</persName>
+               <address>
+                  <street corresp="#338">WOLLZEILE NR. 14</street>
+                  <settlement ref="#51">WIEN, I.</settlement>
+               </address>
+               <date when-iso="1931-10-03">3. Oktober 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#43724">den Verlag „Die Fackel“</orgName>
+               <address>
+                  <street corresp="#50496">Hintere Zollamtsstr.3</street>
+                  <settlement ref="#53">Wien III.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-10-03">3. Oktober 1931
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote cert="low"
+                      medium="pencil"
+                      resp="#JK"
+                      scribeRef="#38909"
+                      source="#D_000167-001-000-wit01"
+                      xml:id="D_000167-001-000-hand01"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000167-001-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000167-001-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-04-29" who="#JK"/>
+         <change type="typography" when-iso="2021-04-29" who="#JK"/>
+         <change type="references" when-iso="2021-04-29" who="#JK"/>
+         <change type="structure" when-iso="2021-04-29" who="#JK"/>
+         <change when-iso="2020-10-09T13:47:51.606Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-09T13:53:42.697Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 307489. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000167-001-000-facs001">
+      <surfaceGrp xml:id="D_000167-001-000-facs001-l001">
+         <surface type="recto" xml:id="D_000167-001-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543018/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000167-001-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543019/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000167-001-000_p001"
+             facs="#D_000167-001-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_735423cd-f599-4e4e-9c8c-baf929acbfd4">
+            <lb xml:id="uuid_929638a3-e830-401d-a092-91dc95836a4b"/>In Ihrer <rs
+               ref="https://fackel.oeaw.ac.at/f/857,0u1" type="work" subtype="fackel">Nummer
+               857–863, August 1931</rs> bringen Sie auf Seite 106 das<lb
+               xml:id="uuid_736df0d2-00a4-4a88-b5b5-6df25e25cea1"/>Bild <rs ref="#39118"
+               type="person">Herrn Rothschilds</rs> mit der Unterschrift: „<quote
+               source="https://fackel.oeaw.ac.at/f/857,106"
+               xml:id="uuid_139d141e-a9a7-4093-8aef-18a51eac0400"><rs ref="#39118" type="person"
+                  >Rothschilds</rs> Dagger –<lb xml:id="uuid_0a074272-9bff-49f9-afd2-afa56e5bcafa"
+               />nur Zweiter!“ Photo <rs type="person" ref="#23807">Rübelt</rs>.</quote>
+         </p>
+         <p xml:id="uuid_b7480d5c-eedc-4185-980d-f12f4b7f9784">
+            <lb xml:id="uuid_cdab79bd-765d-4819-a930-9b621337b2df"/>Ich möchte Sie ersuchen mir
+                mitzuteilen, wie Sie in den Besitz dieses<lb xml:id="uuid_43686eee-f3c7-4931-9082-1bb46e6e691d"/>Bildes gelangt sind, bezw.
+                von wem Sie das Reproduktionsrecht erworben haben. </p>
+         <p xml:id="uuid_578f83fe-15fa-4650-9f2a-92bc730711a5">
+            <lb xml:id="uuid_f9365db8-1e42-44b0-b7f3-ee73e7d6ca31"/>Hochachtungsvoll<lb xml:id="uuid_0d593476-91d2-4d4e-8de4-3e7a92d8486e"/><rs ref="#23807" type="person">Lothar Rübelt</rs>
+         </p>
+         <pb xml:id="D_000167-001-000_p002"
+             facs="#D_000167-001-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_88614bbb-a377-4377-9cf8-426dd11d8418">
+            <lb xml:id="uuid_e43db26b-804a-404e-91a8-f940cc0fdfb6"/><note
+               hand="#D_000167-001-000-hand01">75<lb
+                  xml:id="uuid_db8a0e38-79b4-40c2-be6a-cce6ffabd476"/>37.50<lb
+                  xml:id="uuid_acd75b1f-986f-43a8-867c-8de4020f7b6d"/>112.50</note>
+         </p>
+      </body>
+   </text>
+</TEI>

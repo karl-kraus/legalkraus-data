@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000109-010-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000109-008-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000109-009-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Neues Wiener Tagblatt (verantw. Red. Oskar Hirth)</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000109-009-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3134</idno>
+            <idno subtype="transkribus" type="ID">425486</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000109" type="collection">Karl
+                    Kraus ca. Neues Wiener Tagblatt</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000109-009-000-facs001" xml:id="D_000109-009-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000109-009-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909">Dr. OSKAR SAMEK | RECHTSANWALT</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien, I.</settlement>
+               </address>
+               <date when-iso="1928-09-25">25. September 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#51584">den | verantwortlichen Redakteur des „Neuen Wiener
+                        Tagblattes“ | Herrn Oskar Hirth </persName>
+               <address>
+                  <street corresp="#50667">Fleischmarkt Nr. 5</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Neues Wiener Tag-|blatt.</note>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1928-09-25">25. September
+                    1928</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000109-009-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000109-009-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-03-22" who="#JK"/>
+         <change type="typography" when-iso="2021-03-22" who="#JK"/>
+         <change type="references" when-iso="2021-03-22" who="#JK"/>
+         <change type="structure" when-iso="2021-03-22" who="#JK"/>
+         <change when-iso="2020-07-21T14:13:19.383Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 425486. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555664/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555665/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555666/full/full/0/default.jpg"/>
+         
+      </surface>
+   </facsimile>
+   <facsimile xml:id="D_000109-009-000-facs001">
+      <surfaceGrp xml:id="D_000109-009-000-facs001-l001">
+         <surface type="recto" xml:id="D_000109-009-000-facs001-l001-p001">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555667/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000109-009-000_p001"
+             facs="#D_000109-009-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_c73f94e4-85a6-4642-b27a-696df2d96719">
+            <lb xml:id="uuid_bf6b9b3e-6115-4c15-9a3f-56d0765806b5"/>Im Vollmachtsnamen des Herrn
+                    <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl <hi rend="spaced">Kraus</hi></rs>
+            <lb xml:id="uuid_202dd131-07e5-4463-86f7-93332f0e227e"/>fordere ich die Aufnahme der
+                Berichtigung der in Ihrer <rs ref="#53393" type="work" subtype="pmb">Nummer<lb xml:id="uuid_a74dc824-fb44-461c-9342-142c9ba433eb"/>263 des 62. Jahrganges
+                    vom 21. September 1928</rs> in der Notiz<lb xml:id="uuid_39fa1ebf-b073-46a3-8f78-adc588195716"/>„<rs ref="#53394" type="work" subtype="pmb">Skandalszenen bei einer Kraus-Vorlesung</rs>“
+                mitgeteilten, meinen<lb xml:id="uuid_ee234124-702a-4e37-9948-31d2e13ff866"/>Mandanten betreffenden Tatsache gemäss <rs type="law">§ 23 Pr.G.</rs>
+         </p>
+         <p xml:id="uuid_dc88bd87-998c-4903-97fb-c3fc3b2eb3fa">
+            <lb xml:id="uuid_c330e2a7-ec9b-4f15-b032-5a75aa679927"/>Sie veröffentlichen: „<quote
+               source="#53394" xml:id="uuid_cc7005c3-9d18-4954-aedf-7c031bbcdc14">Die Anhänger
+                  von<lb xml:id="uuid_788f0d49-0d15-4dab-99f2-72449d14589a"/><rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> haben
+               immer wieder darüber Klage geführt, dass er<lb
+                  xml:id="uuid_ed0739fc-b0c7-4ce5-870a-059e50739e53"/>von einem Teile der Wiener
+               Presse totgeschwiegen werde. Der<lb
+                  xml:id="uuid_eeec6bd6-c40f-4871-930e-0eb5cf620301"/>Vorwurf kann unser <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/29414" type="institution">Blatt</rs> nicht
+               treffen; im Gegenteil wurde zum<lb xml:id="uuid_36f98502-1193-4dd2-ab3c-a8d0db23f2b1"
+               />Beispiel die letzte dramatische Dichtung von <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> in
+                  die<lb break="no" xml:id="uuid_e61fe174-ded8-4831-be89-7f3d898a6a28"/>sem Blatte
+               achtungsvoll besprochen.</quote>“ Diese Behauptung ist un<lb break="no"
+               xml:id="uuid_496bdaf0-5551-48d3-92fc-47692dfe254e"/>wahr. Wahr ist, dass von der
+            letzten dramatischen Dichtung von<lb xml:id="uuid_35ecbd9d-40a4-4ac8-b7fc-a0116f8ae7bd"
+               /><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>,
+               <rs ref="#53397" type="work" subtype="pmb">‚Die Unüberwindlichen‘. Nachkriegsdrama in
+                  vier<lb xml:id="uuid_a00830e5-f026-4bfc-8e96-4294263d7036"/>Akten</rs>, im <rs
+               type="work" subtype="pmb" ref="#41321">Neuen Wiener Tagblatt</rs> bis heute nicht die
+            Rede war. </p>
+         <p xml:id="uuid_02540538-b219-433b-b8f3-b31ab5fcecec">
+            <lb xml:id="uuid_016f1e7c-fcea-4cfa-84ce-f14fdd2022f9"/>Rekommandiert mit <rs
+               type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000109-009-001">Rückschein</rs>. </p>
+      </body>
+   </text>
+</TEI>

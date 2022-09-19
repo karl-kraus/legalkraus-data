@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000190-023-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000190-021-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000190-022-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Siegfried Wolf an Samek</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000190-022-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/4707</idno>
+            <idno subtype="transkribus" type="ID">373040</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000190" type="collection">Karl Kraus
+               ca. Richard Smetana und vice versa</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000190-022-000-facs001" xml:id="D_000190-022-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000190-022-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T"
+                        >Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#37840">DR. SIEGFRIED WOLF | RECHTSANWALT</persName>
+               <address>
+                  <street corresp="#39599">GRABEN 27</street>
+                  <settlement ref="#51">WIEN, I</settlement>
+               </address>
+               <date when-iso="1934-04-26">26. April 1934</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Wohlgeboren Herrn | Dr. Oskar Samek, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse 18</street>
+                  <settlement ref="#65">Wien, XIV.</settlement>
+               </address>
+               <date when-iso="1934-04-27">27. APR. 1934</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Dr. Smetana</note>
+               <note type="dictation">W/D</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1934-04-26">26. April 1934</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000190-022-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000190-022-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-11T12:21:58.625Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of
+            Transkribus Document 373040. </change>
+         <change status="draft" type="intertexts" when-iso="2021-11-16" who="#AR"/>
+         <change status="draft" type="typography" when-iso="2021-11-16" who="#AR"/>
+         <change status="draft" type="references" when-iso="2021-11-16" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000190-022-000-facs001">
+      <surfaceGrp xml:id="D_000190-022-000-facs001-l001">
+         <surface type="recto" xml:id="D_000190-022-000-facs001-l001-p001">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545110/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000190-022-000-facs001-l001-p002">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545111/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000190-022-000_p001" facs="#D_000190-022-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_0ee28b06-b699-4002-9de1-242fa97dc494">
+            <lb xml:id="uuid_d84ba66d-0825-45a0-8973-7ef79120534b"/>Sehr geehrter Herr <rs
+               ref="#38909" type="person">Kollega</rs>! </p>
+         <p xml:id="uuid_ed65a58d-b18e-4675-a930-4d04b9fae353">
+            <lb xml:id="uuid_92115e8e-520e-45d6-8d54-4c581c66381c"/>Sollte Ihnen der in der Anlage
+            beigeschlossene <rs type="work" subtype="legal-doc">Bericht</rs><lb
+               xml:id="uuid_73ab1d34-8ca5-47d8-b43c-055821440de0"/>in irgend einem Punkte Korrektur-
+            oder ergänzungsbedürftig erschei<lb break="no"
+               xml:id="uuid_446335e8-500f-4067-b33d-1d23572e31a9"/>nen, so bitte ich um Nachricht. </p>
+         <p xml:id="uuid_6571f0ce-06eb-4ab1-b5a2-c58e084dd4f7">
+            <lb xml:id="uuid_4f7525ba-c1d0-4cf2-9442-88f19b543fb6"/>In kollegialer Hochachtung<lb
+               xml:id="uuid_3fb7440f-08ac-4f5b-a0fc-e3b0544121a6"/><rs ref="#37840" type="person"
+               >Dr. Wolf</rs>
+         </p>
+         <pb xml:id="D_000190-022-000_p002" facs="#D_000190-022-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_89773031-3540-4c12-980b-f207eb6e9140">
+            <lb xml:id="uuid_a7144fde-c4c1-49fd-b18a-7de4e87dbb2c"/><note resp="law-firm"
+               type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#38731"
+                  type="person">Dr. Smetana</rs>
+               <lb xml:id="uuid_12b1f391-8ea6-4ff6-800d-d0601a39ca0a"/>27. APR. 1934</note></p>
+      </body>
+   </text>
+</TEI>

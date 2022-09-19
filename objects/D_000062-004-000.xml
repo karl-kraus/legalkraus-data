@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000062-005-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000062-003-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000062-004-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Bürgermeisteramt in Köln am Rhein</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000062-004-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2430</idno>
+            <idno subtype="transkribus" type="ID">200699</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000062" type="collection">Karl
+                    Kraus ca. Kölner Woche</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000062-004-000-facs001" xml:id="D_000062-004-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000062-004-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1926-07-19">19. Juli 1926</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1926-07-19">19. Juli 1926</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#36974">das | Bürgermeisteramt</orgName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#145">Köln</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – „Kölner-Woche“.</note>
+               <note type="dictation">Dr.S./W.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000062-004-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000062-004-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2022-01-31" who="#IL"/>
+         <change type="structure" when-iso="2020-11-18" who="#IL"/>
+         <change type="references" when-iso="2020-11-22" who="#IL"/>
+         <change type="typography" when-iso="2022-01-17" who="#IL"/>
+         <change when-iso="2020-02-18T10:01:14.98Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-18T12:39:11.704Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-02-18T12:39:13.111Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 200699. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000062-004-000-facs001">
+      <surfaceGrp xml:id="D_000062-004-000-facs001-l001">
+         <surface xml:id="D_000062-004-000-facs001-l001-p001" type="recto">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551629/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000062-004-000-facs001-l001-p002" type="verso">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551630/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000062-004-000_p001"
+             facs="#D_000062-004-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_bcb975e9-2b9b-4976-b757-1e0bc346c927">
+            <lb xml:id="uuid_4cf8fd8e-9a5a-4e12-848c-aa0f83b74b80"/>Ich ersuche höfl. um die
+                gefl. Mitteilung,<lb xml:id="uuid_c07241c5-42b5-4366-ae80-6e14fbc7cb65"/>wie der
+                seinerzeitige verantwortliche Schriftleiter der<lb xml:id="uuid_13cab628-a1f6-4f0a-a51b-97568f278451"/>„<rs ref="#52934" type="institution">Kölner-Woche</rs>“ namens <rs ref="#39304" type="person">Peltzer</rs> mit dem Vornamen heisst<lb xml:id="uuid_1e7a58d8-389d-4100-b8e7-d156f31a4197"/>und wie seine
+                Wohnungsadresse in <rs ref="#145" type="place">Köln</rs> ist. </p>
+         <p xml:id="uuid_cba16139-8686-43d0-996a-a0ecee03c022">
+            <lb xml:id="uuid_619ca204-e4bb-4a37-8670-5ab9aa530066"/>Hochachtungsvoll </p>
+         <pb xml:id="D_000062-004-000_p002"
+             facs="#D_000062-004-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_25a1896a-8dd2-45c3-b815-fd4cf6452153">
+            <lb xml:id="uuid_555d7393-dda1-45de-95a0-89e403d995d1"/><note type="paratext" resp="law-firm">Betrifft: <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> – „<rs ref="#52934" type="institution">Kölner-Woche</rs>“.<lb xml:id="uuid_b4818ccf-3f93-43d8-a5fc-28764dfcb696"/>exp. am 19. Juli 1926.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

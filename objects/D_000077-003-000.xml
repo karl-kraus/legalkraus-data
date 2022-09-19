@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000077-004-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000077-002-001.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000077-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief der Kammer für Handel, Gewerbe und Industrie Linz a.d.D. an E.F.
+               Eisenprobst</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000077-003-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2724</idno>
+            <idno subtype="transkribus" type="ID">249366</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000077" type="collection">Korrespondenz mit E. F. Eisenprobst betr. zwei in Die Stunde veröffentlichte
+                    Bilder</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000077-003-000-facs001" xml:id="D_000077-003-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000077-003-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#52866">Kammer für Handel, Gewerbe und Industrie Linz
+                        a.d.D.</orgName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#332">Linz</settlement>
+               </address>
+               <date when-iso="1927-01-10">10. Jänner 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38082">die | Schriftleitung der o.ö. Tageszeitung</persName>
+               <address>
+                  <street corresp="#52861">Bahnpostamt</street>
+                  <settlement ref="#168">Salzburg</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-01-10">10. Januar 1927
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000077-003-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000077-003-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-21" who="#JK"/>
+         <change type="typography" when-iso="2021-10-21" who="#JK"/>
+         <change type="references" when-iso="2021-10-21" who="#JK"/>
+         <change type="structure" when-iso="2021-10-21" who="#JK"/>
+         <change when-iso="2020-10-07T15:07:02.681Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-07T15:08:13.591Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 249366. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000077-003-000-facs001">
+      <surfaceGrp xml:id="D_000077-003-000-facs001-l001">
+         <surface type="recto" xml:id="D_000077-003-000-facs001-l001-p001">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553861/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000077-003-000-facs001-l001-p002">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553862/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000077-003-000_p001"
+             facs="#D_000077-003-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_8731263b-0ad0-4def-8679-c96951678b61">
+            <lb xml:id="uuid_bf61bfea-dcbc-4dfd-8515-b12a1dc186c7"/>Abschrift </p>
+         <p xml:id="uuid_f86631f6-c8d1-40d5-8875-ca89483bea95">
+            <lb xml:id="uuid_c7a32832-e7fd-4606-a4da-130444532132"/>Zu Ihrem <rs type="work">Schreiben vom 30. November 1926</rs>: </p>
+         <p xml:id="uuid_a8ef0a20-a0d6-4a08-95aa-d48b32597aaf">
+            <lb xml:id="uuid_64430270-8e01-4bf4-93cc-54ada6904831"/>Das <rs ref="#37165" type="institution"> österreichische Generalkonsulat in New-York</rs>, an
+                    welches<lb xml:id="uuid_866a5d39-ff51-4eb7-9818-64731a639a36"/>wir uns in Ihrer
+                Angelegenheit gewendet haben, teilt uns heute folgendes<lb xml:id="uuid_44d9c9cd-f09f-4ae7-92b1-82042ade5434"/>mit: </p>
+         <p xml:id="uuid_11a23000-8c16-403e-8727-3a7dea2dc130">
+            <lb xml:id="uuid_476bcc10-5e58-4ceb-a296-1f0e9b62780c"/>„<quote source="" xml:id="uuid_87fedad6-43f7-4f60-8174-55d19c52ac5b">In Beantwortung der Anfrage Z
+                    29433 vom 3. Dez. beehrt sich das <rs ref="#37165" type="institution">General<lb break="no" xml:id="uuid_9dab6ebb-4e79-4556-bea6-da5e08443b07"/>konsulat</rs> mitzuteilen, dass es wegen <rs ref="#52872" type="person">Charles Murray</rs> eine Anfrage an die <rs ref="#37186" type="institution">Oil<lb xml:id="uuid_13db938e-a41d-4ac8-bbd0-cf235a3da235"/>Trades
+                        Association of New-York, Inc.</rs>, und wegen <rs ref="#52873" type="person">Dorrane</rs> eine Anfrage an<lb xml:id="uuid_7c8444ef-aead-483a-8829-57a2ee01bd0f"/>das ‚<rs ref="#52865" type="institution">Canning Age</rs>‘, eine über ganz Amerika verbreitete
+                    Fachzeitschrift der<lb xml:id="uuid_bae392a5-9512-498e-b27e-41271d60e0e5"/>Konservenindustrie, gerichtet hat. Beide Anfragen wurden damit beantwortet,<lb xml:id="uuid_18e51eed-a9b7-4318-9f26-bc207f5bdf6e"/>dass die betreffenden
+                    Namen unbekannt seien, sodass wohl anzunehmen ist,<lb xml:id="uuid_d2e0c320-0274-4e2b-9d6c-8b4edf8d89ce"/>dass die Behauptung
+                    bezüglich der Promenienz der betreffenden Persönlich<lb break="no" xml:id="uuid_0fcea02a-6f6d-4425-b89f-77f5703711b5"/>keiten in diesen
+                    Industrien nicht ganz zutreffend ist.</quote>“ </p>
+         <p xml:id="uuid_8ba87ba5-579d-4cb9-ae71-d44a2e6591eb">
+            <lb xml:id="uuid_1ff7031c-e567-4f84-b926-54722109f26c"/><rs ref="#332" type="place">Linz</rs>, am 10. Jänner 1927<lb xml:id="uuid_c217a7b7-fafd-4b5b-b571-8f49b5bb61d4"/>Die <rs ref="#52866" type="institution">Kammer für Handel, Gewerbe und Industrie in<lb xml:id="uuid_04a5dcd1-7fee-41b9-ae22-209e88446125"/>Linz</rs>.<lb xml:id="uuid_eb4b3641-cc73-4298-b039-d2b4b2dc61da"/>Das Kammeramt:<lb xml:id="uuid_b0045ce6-d52e-4086-be54-7b6d016ce61b"/><hi rend="spaced"><rs ref="#52870" type="person">Frank</rs></hi>
+         </p>
+         <pb xml:id="D_000077-003-000_p002"
+             facs="#D_000077-003-000-facs001-l001-p001"
+             n="2"/>
+         <p xml:id="uuid_a062726e-5017-40bf-a7bb-152101851beb">
+            <lb xml:id="uuid_4fad52d3-5b72-4ce3-8afa-d74df5a078c9"/><note resp="law-firm" type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> – <rs ref="#29470" type="institution">Stunde</rs> diverse
+                </note>
+         </p>
+      </body>
+   </text>
+</TEI>

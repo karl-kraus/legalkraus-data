@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-043-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000195-041-001.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000195-042-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Johann Turnovsky an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000195-042-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/</idno>
+            <idno subtype="transkribus" type="ID">387790</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000195" type="collection">Karl
+                    Kraus ca. Aufruf</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000195-042-000-facs001" xml:id="D_000195-042-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000195-042-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSN">Typoskript mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#43593">JUDr. JOHANN TURNOVSKY</persName>
+               <address>
+                  <street corresp="#51737">Vodičkova 33</street>
+                  <settlement ref="#652">Prag</settlement>
+               </address>
+               <date when-iso="1936-02-28">28. Februar 1936</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/38909">Herrn | JUDr. Oskar
+                        Samek, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse 18</street>
+                  <settlement ref="#64">Wien XIV.</settlement>
+               </address>
+               <date when-iso="1936-02-28">29.FEB.1936</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Soz.Dem.</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1936-02-28">28. Februar 1936
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote cert="high"
+                      medium="pencil"
+                      resp="#JK"
+                      scribeRef="#38909"
+                      source="#D_000195-042-000-wit01"
+                      xml:id="D_000195-042-000-hand01"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000195-042-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000195-042-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-08-19" who="#JK"/>
+         <change type="typography" when-iso="2021-08-19" who="#JK"/>
+         <change type="references" when-iso="2021-08-19" who="#JK"/>
+         <change type="structure" when-iso="2021-08-19" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-06" who="#JK"/>
+         <change when-iso="2020-10-12T09:39:34.422Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-12T09:51:02.028Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 387790. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000195-042-000-facs001">
+      <surfaceGrp xml:id="D_000195-042-000-facs001-l001">
+         <surface type="recto" xml:id="D_000195-042-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545386/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000195-042-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545387/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000195-042-000_p001"
+             facs="#D_000195-042-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_3c5bdaae-a7f4-4bf1-a270-bcf6d3ba0a46">
+            <lb xml:id="uuid_79c3a655-d173-46cf-a4de-4f07f559f72b"/>Sehr geehrter <rs ref="#38909" type="person">Herr Doktor</rs>! </p>
+         <p xml:id="uuid_f93bba96-29e9-46b7-a9ee-a3c82170b497">
+            <lb xml:id="uuid_bc36adac-2059-4489-b610-8009db275704"/>Ich bestätige dankend den
+            Empfang Ihres frdl. <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-085-000"
+               type="work" subtype="legal-doc">Schrei<lb break="no"
+                  xml:id="uuid_1e7d18ab-9b09-4c80-a3f1-4da7fc5628dd"/>bens vom 24. d.M.</rs> und
+            bitte zur Kenntnis zu nehmen, dass ich<lb
+               xml:id="uuid_85136ece-f0fa-4453-a9ea-a187b576e88a"/>den Antrag auf Ladung der Zeugen
+            zur Hauptverhandlung gestellt<lb xml:id="uuid_4d6ef53d-d99d-4642-aa2f-b4640b8e60b2"/>und
+            mit den Antrage <add>das Gesuch</add> auf Anordnung der Hauptverhandlung für<lb
+               xml:id="uuid_88c08b88-0de9-4429-95c9-d6ed60703a20"/>die Zeit zwischen dem 2. und
+            9.III. l.J. verbunden habe. Ich<lb xml:id="uuid_2b227189-1685-4e6f-a099-0cc3754ddf54"
+            />habe auch wegen der Anordnung der Verhandlung zu diesem Ter<lb break="no"
+               xml:id="uuid_fe460d30-fd78-4321-bbc5-eb61019b743b"/>mine interveniert, doch hat mir
+            Herr <rs ref="#43597" type="person">Dr. Tissek</rs> nachgewiesen,<lb
+               xml:id="uuid_7746ceb5-e1ea-44e1-9e59-11defb664177"/>dass er an allen
+            Verhandlungstagen in dieser Frist<lb xml:id="uuid_93a4b99b-3634-417c-95e2-095f23063508"
+            />und überhaupt im ganzen Monate März 6 bis 7 Verhandlungen<lb
+               xml:id="uuid_1e3733aa-9c5f-4b53-b913-72a6163fe483"/>täglich angeordnet hat. Nur für
+            den Fall, dass eine Ver<lb break="no" xml:id="uuid_ca0a415d-2a65-400c-87d7-ba03b72b9970"
+            />handlung ausfallen sollte und dass die rechtzeitige Ladung<lb
+               xml:id="uuid_74484caf-a16b-457f-af2e-565cbbfe619d"/>noch erfolgen könnte, wäre es
+            möglich, die Angelegenheit<lb xml:id="uuid_24c6100f-f211-4e15-8fc0-7dbde083dcb5"/>gegen
+               <rs ref="#37540" type="institution">Soz.Dem.</rs> in dieser Frist einzuschalten. Die
+               Wahr<lb break="no" xml:id="uuid_52a79876-0751-473b-880e-9e1b161cb474"/>scheinlichkeit
+            ist aber sehr gering. Da also auch der ganze<lb
+               xml:id="uuid_1792af66-bf96-48e0-86fc-07087e6912e8"/>März besetzt ist, dürfte
+            normalerweise erst der Monat April<lb xml:id="uuid_b5ad8bbf-f9a0-42fe-b236-6e4734c0d1fc"
+            />für die Verhandlung in Betracht kommen. Ich bitte um umge<lb break="no"
+               xml:id="uuid_4e376952-ea69-4e60-81ee-51351bc6bab8"/>hende Verständigung, wann <rs
+               ref="#11988" type="person">Herr Kraus</rs> im Monate April nach<lb
+               xml:id="uuid_e48547c0-28b1-4d44-805d-9c5a2baaea09"/><rs ref="#652" type="place"
+               >Prag</rs> kommen könnte, um sich an der Hauptverhandlung zu be- <pb
+               xml:id="D_000195-042-000_p002" facs="#D_000195-042-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_e212e625-e74f-42b3-8863-43356538b2ba"/><note
+               hand="#D_000195-042-000-hand01">¼ 9h anrufen</note><lb
+               xml:id="uuid_86076048-6597-4a77-925c-21e14d456c23"/>teiligen, damit ich veranlassen
+            kann, dass die Verhandlung zu<lb xml:id="uuid_be999e85-0b08-4f97-b7b9-d8700d1b0f18"
+            />diesem Termine angesetzt wird. </p>
+         <p xml:id="uuid_b556d708-7bd9-4739-84f4-9ca980e2562f">
+            <lb xml:id="uuid_80935d1b-f40b-422d-8580-b34c0137ad57"/>Bei dieser Gelegenheit bitte
+                ich zur<lb xml:id="uuid_9d6c3189-f313-461d-8613-70204bbb84b6"/>Kenntnis zu nehmen,
+                dass die ursprünglich für heute ange<lb break="no" xml:id="uuid_cf53da92-908e-4325-943f-445e31080dc3"/>ordnete Streitverhandlung in
+                Sachen <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37231" type="institution">Melantrich</rs> von Amtswegen<lb xml:id="uuid_ce1a9916-657e-4309-bfe4-cbf977e63ab6"/>für den 6.III. l.J. vertagt
+                wurde. <rs ref="#43677" type="person">Dir. Šalda</rs> hat nämlich bei<lb xml:id="uuid_172d0a5a-74ea-4e00-b18a-236b3e2c9422"/>Gericht eine Eingabe
+                überreicht und mitgeteilt, er sei verhin<lb break="no" xml:id="uuid_3d8b1246-c276-4d8b-aa5d-adc5b2b2a19a"/>dert, am 28. d.M. zu
+                erscheinen. </p>
+         <p xml:id="uuid_3b306a62-a163-460e-84b7-ab5863bf1244">
+            <lb xml:id="uuid_4ad4652f-0267-432d-ad2c-1651850e2ac6"/>In der Angelegenheit gegen „<rs
+               ref="#37264" type="institution"><hi rend="spaced">Aufru</hi>f</rs>“<lb
+               xml:id="uuid_47e47451-6e6c-4f02-9775-5abe11e42f0a"/><rs ref="#37889" type="person">Dr
+               .Bill</rs>, <rs ref="#43586" type="person">Butschowitz</rs>, ist es mir gelungen, den
+               dermaligen<lb xml:id="uuid_58047744-895a-49f7-b6e0-8b8a0505e198"/>Aufenthalt des <rs
+               ref="#43586" type="person">Ing. Butschowitz</rs> zu ermitteln. Er befindet sich<lb
+               xml:id="uuid_be6e6e60-b289-4611-bb0e-eab8f1db4444"/>in <rs ref="#46282"
+               subtype="address" type="place">Olmütz, Kloster Hradisko No. 4</rs>. Ich habe daher
+               sofort<lb xml:id="uuid_fd433e09-e3c9-4018-8373-90faa061b8e5"/>den Antrag gestellt,
+            die Ladung möge ihm unter dieser Adres<lb break="no"
+               xml:id="uuid_e57dbbd9-7c00-4285-ae30-a2f78be0d3f5"/>se zugestellt werden und hoffe,
+            dass sie ihn diesmal erreichen<lb xml:id="uuid_c1fe38f7-0c32-41dc-805a-2b9405314d18"
+            />wird. </p>
+         <p xml:id="uuid_c63d1e72-6b09-47a8-a2e3-0f5d5a697435">
+            <lb xml:id="uuid_f45eac22-2fbb-4dcb-af5a-94df0cd18146"/>Ihre Mitteilung über die
+                Erkrankung des<lb xml:id="uuid_254fffb4-4ec2-4830-9e99-ffc043f652a2"/><rs ref="#11988" type="person">Herrn Kraus</rs> hat mich sehr betrübt. Ich hoffe,
+                dass er be<lb break="no" xml:id="uuid_ce841c94-c396-4278-b386-9a0ce19a9e9e"/>reits
+                wiederhergestellt ist und bitte, ihm meine besten<lb xml:id="uuid_44b3791d-b39e-4ad4-b1ce-da129e1c59a6"/>Grüsse zu bestellen. </p>
+         <p xml:id="uuid_f62e1def-70b8-4d4d-a32e-ae3e88676aba">
+            <lb xml:id="uuid_725a7d9b-59b8-4b35-8613-13b469abde6c"/>Mit dem Ausdrucke der
+                vorzüglichsten Hoch<lb break="no" xml:id="uuid_72bb1b19-9889-47a0-8203-9f9f45213573"/>achtung und den besten Grüssen </p>
+         <p xml:id="uuid_a06db6ac-df3d-45b9-955f-8e4f263a3bdf">
+            <lb xml:id="uuid_e8930242-1d4a-46e3-95f1-74e566d5b66c"/>Ihr ergebener<lb xml:id="uuid_1bed55ad-2915-4c3c-a960-6a9050ad226f"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/43593" type="person">Dr. Turnovsky</rs>
+         </p>
+         <p xml:id="uuid_c4ae07f6-ee86-40b8-bf18-faa819d4bc4d">
+            <lb xml:id="uuid_b7b1ea54-dd9c-4616-b334-b746d6b24cc7"/>P.S. </p>
+         <p xml:id="uuid_aedaee05-aa94-4946-a589-79d8e55862a8">
+            <lb xml:id="uuid_3de5610a-5c31-4f15-a7df-4774a6d6b171"/>Soeben teilt mir die <rs type="person">Kanzleibeamtin des <rs ref="#36822" type="institution">Strafge<lb break="no" xml:id="uuid_639a1b2c-b4e9-4e0d-863b-4491bf99a1b5"/>richtes</rs></rs> telef. mit, dass der <rs ref="#57574" type="person">Vorsitzende</rs> die Hauptverhand<lb break="no" xml:id="uuid_39625b98-db11-4996-8b42-d34b391dd370"/>lung für den 3.IV. l.J.
+                angeordnet hat. Da ich mich zu erin<lb break="no" xml:id="uuid_a17be453-41d6-4c3d-936d-c9944c6cbab0"/>nern glaube, dass am 2.IV.
+                l.J. in <rs ref="#50" type="place">Wien</rs> die 700. Vorlesung statt<lb break="no" xml:id="uuid_8083f2f3-9978-403c-b941-02588b989841"/>findet, wird dieses Datum
+                    <rs ref="#11988" type="person">Herrn Kraus</rs> jedenfalls nicht genehm<lb xml:id="uuid_83bf8ad7-6758-4944-97b7-573180ac131c"/>sein, weswegen ich
+                veranlasst habe, dass die Anordnung der Tag<lb break="no" xml:id="uuid_80c257f2-8f88-4e4b-92fe-774005841130"/>satzung vorläufig nicht
+                expediert wird. Bitte, mir also mög<lb break="no" xml:id="uuid_4b66a563-b16f-4a6b-9ab2-2bf9664c06e4"/>lichst umgehend einen <rs ref="#11988" type="person">Herrn Kraus</rs> genehmen Termin im April<lb xml:id="uuid_364390bb-8d97-4997-b6fa-8792e32f4d0a"/>anzugeben, damit ich die
+                Anordnung zu diesen Termine veranlas<lb break="no" xml:id="uuid_def328df-40c4-44f7-b93c-af659a19b077"/>sen kann. </p>
+         <p xml:id="uuid_79e11f08-db73-4488-97ca-4d2591429234">
+            <lb xml:id="uuid_cffca14e-9a51-44c6-b281-1d3592788e8c"/><note resp="law-firm" type="paratext">29. FEB. 1936<lb xml:id="uuid_e143abc9-8415-439c-8717-02a83b0575cd"/><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37540" type="institution">Sozialdemokrat</rs></note>
+         </p>
+      </body>
+   </text>
+</TEI>

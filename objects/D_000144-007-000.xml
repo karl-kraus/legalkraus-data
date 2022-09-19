@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-008-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-006-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000144-007-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Anton Schroll Verlag für Kunst und Literatur an Kraus</title>
+            <editor ref="#LK">Lena Kovacic</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000144-007-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/3894</idno>
+            <idno subtype="transkribus" type="ID">275900</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000144" type="collection">Karl Kraus
+               ca. S. Fischer Verlag (Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000144-007-000-facs001" xml:id="D_000144-007-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000144-007-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSN">Typoskript mit
+                        handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-12-17">17. Dezember 1930</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#37062">ANTON SCHROLL &amp; CO., GES.M.B.H.</orgName>
+               <address>
+                  <street corresp="#39599">GRABEN 29</street>
+                  <settlement ref="#51">Wien</settlement>
+               </address>
+               <date when-iso="1930-12-17">17. Dezember 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#11988">Herrn Karl Kraus</persName>
+               <address>
+                  <street corresp="#52568"/>
+                  <settlement ref="#51">Wien</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <handNotes>
+            <handNote xml:id="D_000144-007-000-hand01" source="#D_000144-007-000-wit01"
+               scribeRef="#11988" medium="pencil" cert="high" resp="#JK"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000144-007-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000144-007-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-08T14:16:09.685Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-08T14:28:44.913Z" who="#IB">Replaced Text with
+            Transcription of Transkribus Document 275900. </change>
+         <change type="intertexts" when-iso="2021-10-20" who="#LK"/>
+         <change type="typography" when-iso="2021-10-20" who="#LK"/>
+         <change type="references" when-iso="2021-10-20" who="#LK"/>
+         <change type="structure" when-iso="2021-10-20" who="#LK"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000144-007-000-facs001">
+      <surfaceGrp xml:id="D_000144-007-000-facs001-l001">
+         <surface type="recto" xml:id="D_000144-007-000-facs001-l001-p001">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541812/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000144-007-000-facs001-l001-p002">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541813/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000144-007-000_p001" facs="#D_000144-007-000-facs001-l001" n="1"/>
+         <p xml:id="uuid_30932c84-dfc6-4c50-87f5-817d0d28b600">
+            <lb xml:id="uuid_a7169676-4a7b-41ca-831a-ff366c845f3f"/>Sehr geehrter Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>, </p>
+         <p xml:id="uuid_2280457a-aa7a-459f-b27b-fd11c5a911db">
+            <lb xml:id="uuid_e5d546ca-fdd4-47f6-9f35-dddd94c9ebd6"/>aus einer Unterredung mit Herrn
+            Dr. <rs ref="#39211" type="person">Ludwig Münz</rs> haben wir mit<lb
+               xml:id="uuid_ae66f0d6-2644-40de-a27a-b43578781d02"/>grösster Freude entnommen, dass
+            Sie im Prinzip gerne bereit sind,<lb xml:id="uuid_9e4240be-f7c6-4d3a-82ed-c03335699b90"
+            />uns den Verlag der von Ihnen herausgegebenen „<rs ref="#60281" type="work"
+               subtype="pmb">Auswahl aus den<lb xml:id="uuid_92fd1b40-3149-4aa5-9dc8-21d997e43c4e"
+               />Werken Peter Altenbergs</rs>“ zu überlassen. Wie Herr Dr. <rs ref="#39211"
+               type="person">Münz</rs> uns mit<lb break="no"
+               xml:id="uuid_ef151a13-4d46-4b76-9793-f04774324267"/>teilt, befindet sich das
+            Manuskript bei Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38133" type="person"
+               >Heinrich Fischer</rs> in<lb xml:id="uuid_56cfd836-3e9e-4590-b80b-f43399cfb8f0"/><rs
+               ref="#168" type="place">Berlin</rs>, der frühere Vertrag bei Ihrem <rs ref="#38909"
+               type="person">Rechtsanwalt</rs>. Da wir annehmen,<lb
+               xml:id="uuid_9962959c-f0b4-4f03-959f-559705f3f713"/>dass ohne eine Verfügung von
+            Ihnen uns weder das eine, noch das an<lb break="no"
+               xml:id="uuid_df09ca30-c70c-40e4-9399-bf18673fd2da"/>dere überlassen werden dürfte,
+            wären wir Ihnen sehr verpflichtet,<lb xml:id="uuid_45e6f4f0-d47f-473e-aeb5-0886b3b12fc9"
+            />wenn Sie in <rs ref="#168" type="place">Berlin</rs> Auftrag geben wollten, dass uns
+            beides (oder der<lb xml:id="uuid_c7120e31-7cea-4c47-92aa-03f2784e1fcb"/>Vertrag in einer
+            Abschrift) übersandt wird. </p>
+         <p xml:id="uuid_8478251e-d0a9-49e1-9384-4bc43b1b84ce">
+            <lb xml:id="uuid_f7ef361e-faca-4a43-aa73-53c6a19be9e0"/>Wir werden dann unverzüglich mit
+            dem <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29639" type="institution">Verlag
+               Fischer</rs> verhandeln<lb xml:id="uuid_f8173a35-0362-4f8a-a987-3a8cb6db76d4"/>und
+            Ihnen einen neuen Vertrag vorlegen. Als Erscheinungstermin für<lb
+               xml:id="uuid_826a5dd3-f5dd-47c6-8f26-3685987e9466"/>das <rs ref="#60281" type="work"
+               subtype="pmb">Buch</rs> würden wir den März 1931 in Aussicht nehmen. Wie wir
+               bereits<lb xml:id="uuid_59b2b2ef-8c87-4f1b-abbc-7b9d62ce7077"/>Herrn Dr. <rs
+               ref="#39211" type="person">Münz</rs> sagten, liegt uns daran den <rs ref="#60281"
+               type="work" subtype="pmb">Band</rs> zu einem möglichst<lb
+               xml:id="uuid_9b04f21c-557f-4433-b497-5d36091d2eff"/>billigen Preise heraus bringen zu
+            können, damit die erhoffte grosse<lb xml:id="uuid_1b72e0ad-d551-4b78-aaa1-00c4a84f2af3"
+            />Verbreitung wirklich eintreten kann. Nach Durchführung unserer Kalku<lb break="no"
+               xml:id="uuid_3fb0d5d7-660a-4d4e-9aa0-3f59755b2342"/>lation dürfen wir uns vielleicht
+            erlauben, über den Umfang nochmals<lb xml:id="uuid_89f604fb-eafc-4b55-b037-3f208d49b6e2"
+            />zu sprechen. </p>
+         <p xml:id="uuid_e80681de-5fea-4f3e-aaa2-a6facef0d61c">
+            <lb xml:id="uuid_976c9939-5cc4-41cc-89de-b12cf9c02e8c"/><note type="marginal"
+               hand="#D_000144-007-000-hand01" rend="marginLeft">!?</note>Mit dem <hi
+               rend="underlined" hand="#D_000144-007-000-hand01">Vorschlag den Sie</hi> für ein
+            Honorar an Sie machen, sind wir<lb xml:id="uuid_5b9535cd-9864-413f-83f1-83d8816285f0"
+            />selbstverständlich einverstanden. </p>
+         <pb xml:id="D_000144-007-000_p002" facs="#D_000144-007-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_b3188418-e15b-4173-941e-ba3ac849039b">
+            <lb xml:id="uuid_4f00aff1-588f-460e-a350-6dd574cb63ec"/>Mit dem Ausdruck besonderer
+            Hochachtung</p>
+         <p xml:id="uuid_70135277-8c21-4a45-94d9-7e190c7aca24"><lb
+               xml:id="uuid_453b5eb6-696d-4138-9297-e730422e6727"/><rs ref="#37062"
+               type="institution">ANTON SCHROLL &amp; CO., GES.M.B.H.</rs>
+            <lb xml:id="uuid_6a01c896-30f9-4ba6-a3d1-c33fd69fec22"/>[<rs type="person"
+               >Unterschrift</rs>]</p>
+         <p xml:id="uuid_a925fcb0-b46e-4127-8d7d-bdafb72b15ef">
+            <lb xml:id="uuid_3a711e59-cdbd-43c5-84e8-67d03c8858c7"/><note type="paratext"
+               resp="law-firm"><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  >Kraus</rs>
+               <lb xml:id="uuid_bf3b17f4-f94c-46ce-82d9-f5135545d2b5"/><rs type="person" ref="#2147"
+                  >Altenberg</rs>-Auswahl</note>
+         </p>
+      </body>
+   </text>
+</TEI>

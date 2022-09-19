@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-002-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000129-003-001.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000130-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA E. Lion an Verlag Die Fackel</title>
+            <editor ref="#SH">Susanna Hufsky</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000130-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3581</idno>
+            <idno subtype="transkribus" type="ID">399018</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000130" type="collection">Karl
+                    Kraus ca. Hamburger Nachrichten</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000130-001-000-facs001" xml:id="D_000130-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000130-001-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#51612">Dr. E. Lion</persName>
+               <address>
+                  <street corresp="#55816">Gänsemarkt 62</street>
+                  <settlement ref="#506">Hamburg 36</settlement>
+               </address>
+               <date when-iso="1929-05-24">24. Mai 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#29308">den | Verlag „Die Fackel“</orgName>
+               <address>
+                  <street corresp="#50496">Hintere Zollamtsstr. 3</street>
+                  <settlement ref="#53">Wien III.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Hamburger Nachrichten</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-05-24">24. Mai 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000130-001-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000130-001-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-06-02T14:45:15.274Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 399018. </change>
+         <change type="structure" when-iso="2021-07-13" who="#SH"/>
+         <change type="references" when-iso="2021-07-13" who="#SH"/>
+         <change type="typography" when-iso="2021-07-13" who="#SH"/>
+         <change type="intertexts" when-iso="2021-07-13" who="#SH"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000130-001-000-facs001">
+      <surfaceGrp xml:id="D_000130-001-000-facs001-l001">
+         <surface xml:id="D_000130-001-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557791/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000130-001-000-facs001-l002">
+         <surface xml:id="D_000130-001-000-facs001-l002-p002" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557793/full/full/0/default.jpg"/>
+         </surface>
+         <surface xml:id="D_000130-001-000-facs001-l002-p003" type="verso">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557794/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000130-001-000_p001"
+             facs="#D_000130-001-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_c5018716-57ba-4351-b534-68dcc2312707">
+            <lb xml:id="uuid_f572a12b-93c6-426d-bac0-de196a4eef29"/>Die Vertretung Ihrer
+                Interessen gegen die<lb xml:id="uuid_53ec90ac-5bf1-4a6c-ac72-8ac815c66fe9"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/37346" type="institution">Hamburger
+                    Nachrichten</rs> will ich sehr gern übernehmen. Ohne Frage<lb xml:id="uuid_2eadc6b7-d501-4bac-a027-1d7d32fe27cc"/>liest sich der von Ihnen
+                hervorgehobene Satz der <rs ref="#55884" type="work" subtype="pmb">Zeitung</rs>
+                    so,<lb xml:id="uuid_0b7c482e-ee99-4c0f-a35c-3a3900b8b7b7"/>dass Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> mit
+                einer gewissen Berechtigung ein Pla<lb break="no" xml:id="uuid_a9f6c0fa-279f-47f6-896e-7fddb027c824"/>giat zum Vorwurf gemacht
+                worden sei. Die Leichtfertigkeit, mit<lb xml:id="uuid_cfc177b8-89ef-4ce6-ae72-adda43021f4b"/>der hier der Sachverhalt
+                verdreht wird, ist erstaunlich. </p>
+         <p xml:id="uuid_f3cd8097-c3d6-4b40-bcf2-16ebe0f78f63">
+            <lb xml:id="uuid_b476f67e-e78d-4bd6-a3bf-6343a057ebc0"/>Eine Berichtigung nach <rs ref="" type="law">§ 11 PG</rs>. kann ohne<lb xml:id="uuid_ec9a8039-ec2c-45d1-8966-6276ec940c6a"/>weiteres verlangt werden.
+                Nach einer Auffassung, der sich neu<lb break="no" xml:id="uuid_5c230ce1-25f9-41f2-948d-46f96bebd194"/>erdings leider auch das <rs ref="#36815" type="institution">Kammergericht in <rs ref="#168" type="place">Berlin</rs></rs> angeschlossen<lb xml:id="uuid_9db2ba9f-570c-4808-a275-f39fa0f77e00"/>hat, soll der
+                    Berichtigungs<hi rend="underlined">text</hi> von dem <rs ref="#11988" type="person">Beteiligten</rs>, hier also<lb xml:id="uuid_81b37e53-72eb-444c-a88f-6b1a966a5e43"/>Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>,
+                persönlich zu unterzeichnen und die Unter<lb break="no" xml:id="uuid_470601cf-76c5-44de-858a-22437bcee3fe"/>zeichnung durch seinen
+                bevollmächtigten Anwalt nicht zulässig<lb xml:id="uuid_0cf1624c-8be1-46d0-a1d5-2feda64cd5b4"/>sein. Ich habe gerade jetzt
+                gegen diese falsche Auffassung eine<lb xml:id="uuid_6f65d76c-21a4-4466-9d20-f1484b74f6ce"/>Erwiderung in der <rs ref="#55805" type="institution">Juristischen Wochenschrift</rs> in Druck
+                    gegeben;<lb xml:id="uuid_a680fa51-c7c9-4dae-ab0e-df34a356d499"/>wir müssen uns
+                aber der Sachlage anpassen und Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+            <lb xml:id="uuid_d253c291-3688-41c4-9b6b-13d48c746ff8"/>wird daher den
+                Berichtigungstext, den er vermutlich ja selbst<lb xml:id="uuid_8bc627a2-48ce-4c3b-95fe-435af7de6598"/>abzufassen wünschen wird,
+                auch eigenhändig unterzeichnen müs<lb break="no" xml:id="uuid_fba1570e-9195-4ddd-9f3a-2ec03cf70ec4"/>sen. Das Begleitschreiben
+                kann dann von mir unterzeichnet werden. </p>
+         <p xml:id="uuid_e53e162a-6caf-4a43-92dd-fca0842dafac">
+            <lb xml:id="uuid_212e17a6-d5d0-454e-8669-12f56bf71ee5"/>Eine Strafklage wegen übler
+                Nachrede ist<lb xml:id="uuid_14af131b-c7d1-4ed8-8408-b60f476c808c"/>ebenfalls
+                möglich, daneben auch eine Zivilklage auf Rücknahme<lb xml:id="uuid_cbca6945-7af4-4dae-8425-dc5058f9d44c"/>der beleidigenden Äusserung.
+                Ich sehe keinen Grund, aus dem diese </p>
+         <pb xml:id="D_000130-001-000_p002"
+             facs="#D_000130-001-000-facs001-l002-p002"
+             n="2"/>
+         <p xml:id="uuid_08306782-a339-48db-a54a-e33f231f092e">
+            <lb xml:id="uuid_e3d95343-338c-423a-aabb-7c561245d0d2"/>Klagen keinen Erfolg sollten
+                haben können. Es ist nur eine Frage<lb xml:id="uuid_27e5e6f6-8b54-4e82-9b3f-da8e282cba10"/>des persönlichen Ermessens,
+                wieweit man die gegebenen Rechtsbe<lb break="no" xml:id="uuid_cf24bf0f-72c4-49de-96a9-cb6634a44b7e"/>helfe anwenden will.
+                Vielleicht genügt es, Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>, wenn<lb xml:id="uuid_68d9ad69-af01-4197-a4e7-7c6be606951e"/>wir erstens die Berichtigung
+                fordern und zweitens verlangen, dass<lb xml:id="uuid_bec118dd-8134-4aab-b415-2d1d5b9683fb"/>die beanstandete Äusserung
+                mit dem Ausdruck des Bedauerns <hi rend="underlined">brief<lb break="no" xml:id="uuid_f834c099-4477-4217-a797-4608bf526d58"/>lich</hi>
+                zurückgenommen wird und, dass wir andernfalls Zivilklage und<lb xml:id="uuid_4d6401cd-3b47-4165-9ff2-623f89dcb7b6"/>Strafklage einleiten würden.
+                Ich glaube, dass die <rs ref="#37346" type="institution">Zeitung</rs> dann<lb xml:id="uuid_5f2f3d1a-3f3d-4125-ae0d-cc54541d3f97"/>klein beigibt. </p>
+         <p xml:id="uuid_4585010b-0c01-4845-b4ca-9bca283950d5">
+            <lb xml:id="uuid_76ec304d-d670-4d56-8970-8571d88e805f"/>Um mich gegenüber den <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37346" type="institution">Hamburger
+                    Nachrichten</rs> aus<lb break="no" xml:id="uuid_a2e4733f-eb55-4805-870d-6c714d6cf466"/>weisen zu können, erbitte
+                ich von Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+                    Kraus</rs> Unterzeichnung<lb xml:id="uuid_f6fcf2cc-bf61-4f0a-a303-703e777149ca"/>und Rücksendung der anliegenden Vollmacht. </p>
+         <p xml:id="uuid_6d2cb32d-be04-4757-a65c-31b9d796b8cb">
+            <lb xml:id="uuid_adc76151-716f-4e27-a61f-38967724a030"/>Hochachtungvoll<lb xml:id="uuid_a575c582-682d-490a-a902-f8dc5dbc46dc"/><rs ref="#51612" type="person">Dr. Lion</rs>
+         </p>
+         <pb xml:id="D_000130-001-000_p003"
+             facs="#D_000130-001-000-facs001-l002-p003"
+             n="3"/>
+         <p xml:id="uuid_1f66447f-b5a3-472c-b9d1-5dbf39957ff2">
+            <lb xml:id="uuid_7e1dc0ff-6006-44bd-95b4-1df6d8a09f32"/><note resp="law-firm"
+               type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37346"
+                  type="institution">Hamburger<lb xml:id="uuid_0778c89d-1493-4ab1-aefb-fc37abe38830"
+                  />Nachrichten</rs><lb/>4. JUNI 1929</note></p>
+      </body>
+   </text>
+</TEI>

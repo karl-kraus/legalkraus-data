@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-022-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-020-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000067-021-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Otto Zeisl</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000067-021-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2494</idno>
+            <idno subtype="transkribus" type="ID">201719</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000067" type="collection">Karl
+                    Kraus ca. Arbeit und Wirtschaft</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000067-021-000-facs001" xml:id="D_000067-021-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000067-021-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1927-09-29">29. September 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#37817">Wohlgeboren | Herrn Dr. Otto Zeisl, |
+                        Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#441">Gonzagagasse Nr. 23</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Dr. Hannak</note>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-09-29">29. September 1927
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000067-021-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000067-021-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-20" who="#JK"/>
+         <change type="typography" when-iso="2021-10-20" who="#JK"/>
+         <change type="references" when-iso="2021-10-20" who="#JK"/>
+         <change type="structure" when-iso="2021-10-20" who="#JK"/>
+         <change when-iso="2020-02-19T09:08:38.381Z" who="#IB">created by API</change>
+         <change when-iso="2020-07-29T09:34:35.367Z" who="#IB">Linked to Document in Transkribus
+                by API </change>
+         <change when-iso="2020-07-29T09:34:40.513Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 201719. </change>
+         <change when-iso="2020-07-29T09:50:29.171Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 201719. </change>
+         <change when-iso="2020-07-29T09:50:29.394Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 201719. </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 201719. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000067-021-000-facs001">
+      <surfaceGrp xml:id="D_000067-021-000-facs001-l001">
+         <surface type="recto" xml:id="D_000067-021-000-facs001-l001-p001">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551985/full/full/0/default.jpg"/>
+         </surface>
+         <surface type="verso" xml:id="D_000067-021-000-facs001-l001-p002">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551986/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000067-021-000_p001"
+             facs="#D_000067-021-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_d9391024-84a8-4821-a0c1-aba0de840c83">
+            <lb xml:id="uuid_9c0617d4-fd52-4039-9748-1b03b59ba14b"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37817" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_fd7574e8-126d-4e02-a965-d0d95d0eff77">
+            <lb xml:id="uuid_b0ec181b-0c9f-42f3-a0dc-96581782e21b"/>Ich beziehe mich auf unsere
+                Unterredung und<lb xml:id="uuid_e1f4eb2e-4cbe-46a5-8eec-67824d9a16e9"/>sende Ihnen
+                als Beilage die <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-004-000"
+                type="work"
+                subtype="legal-doc">Abschrift der seinerzeit von <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herrn
+                        Kraus</rs>
+               <lb xml:id="uuid_0f523f90-4674-49f3-a6a8-0ed3d83de8b1"/>verlangten
+                    Erklärung</rs> und ersuche Sie, mir möglichst bald mitzutei<lb break="no" xml:id="uuid_1b918585-d6c7-4baf-928c-eb36fa04b6b2"/>len, ob Herr <rs ref="#38346" type="person">Dr. Hannak</rs> nunmehr zur Veröffentlichung dieser
+                    <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-004-000"
+                type="work"
+                subtype="legal-doc">Er<lb break="no" xml:id="uuid_01fbfda3-85a5-4475-aea4-702e7a9f9c5b"/>klärung</rs> in „<rs ref="#52676" type="work" subtype="pmb">Arbeit und Wirtschaft</rs>“ bereit ist.
+                Bezüglich der Kosten<lb xml:id="uuid_11697cae-1e43-462b-894c-12245d709b02"/>teile
+                ich Ihnen mit, dass ich, um einen Vergleich zu ermöglichen,<lb xml:id="uuid_bea72012-0f0e-42dd-a330-f6e32f66cf40"/>bereit bin, auf den Ersatz
+                des Honorars zu verzichten, dass aber<lb xml:id="uuid_42490bab-2468-42ab-9c4b-01e00d56489f"/>die Barauslagen und die
+                Pauschalgebühr von <rs ref="#38346" type="person">Ihrem Mandanten</rs> bezahlt<lb xml:id="uuid_b75d325a-7fd6-48c4-a2db-714655fa7882"/>werden müssen. </p>
+         <p xml:id="uuid_9e23e82a-ed8d-4b2b-a319-8fc9481a37d8">
+            <lb xml:id="uuid_d37d6ff1-2b6a-4a8e-9643-8dd72a09772e"/>Ich zeichne mit vorzüglicher
+                    kollegialer<lb xml:id="uuid_5ea0b18b-3ff3-4cc6-abe3-d47dad73df32"/>Hochachtung </p>
+         <p xml:id="uuid_df554f34-2b53-489b-a566-2b6b90d5819a">
+            <lb xml:id="uuid_cca804f8-5a5c-4f3d-ab10-840fa79aa760"/><rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000067-004-000"
+                type="work"
+                subtype="legal-doc">1 Beilage</rs>
+         </p>
+         <pb xml:id="D_000067-021-000_p002"
+             facs="#D_000067-021-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_740cb0d1-6885-42a0-a710-bc1a8be0a86d">
+            <lb xml:id="uuid_94db9567-f8b9-43a3-99d1-c4436e215f6c"/><note resp="law-firm" type="paratext">Betr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> – <rs ref="#38346" type="person">Dr. Hannak</rs>
+               <lb xml:id="uuid_b4807afc-9725-4fb6-96a5-5590d1316d80"/>exp. am 29. Sept. 1927
+                </note>
+         </p>
+      </body>
+   </text>
+</TEI>

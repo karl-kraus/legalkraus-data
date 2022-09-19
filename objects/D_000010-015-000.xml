@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-016-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-014-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000010-015-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Robert Katscha</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000010-015-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1614</idno>
+            <idno subtype="transkribus" type="ID">380522</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000010" type="collection">Karl
+                    Kraus ca. Robert-Bühnen (Kammerspiele)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000010-015-000-facs001" xml:id="D_000010-015-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000010-015-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1924-12-04">4. Dezember 1924</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#50854">Wohlgeboren | Herrn Dr. Robert Katscha, | Rechtsanwalt </persName>
+               <address>
+                  <street corresp="#40827">Himmelpfortgasse 16</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Dr.S/F.</note>
+               <note type="dictation">Kraus – Robert.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1924-12-04">4. Dezember 1924
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000010-015-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000010-015-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-04" who="#JK"/>
+         <change type="typography" when-iso="2021-10-04" who="#JK"/>
+         <change type="references" when-iso="2021-10-04" who="#JK"/>
+         <change type="structure" when-iso="2021-10-04" who="#JK"/>
+         <change when-iso="2020-02-04T11:24:16.275Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-04T11:29:09.271Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 380522. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000010-015-000-facs001">
+      <surfaceGrp xml:id="D_000010-015-000-facs001-l001">
+         <surface type="recto" xml:id="D_000010-015-000-facs001-l001-p001">
+            
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540365/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000010-015-000_p001"
+             facs="#D_000010-015-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_25689aed-cdc1-4dc4-aa4c-660e5f999766">
+            <lb xml:id="uuid_9c104efa-ee2c-40e0-9c35-1c27e5a86a4e"/>Sehr geehrter <rs ref="#50854" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_190aecfa-bea9-40d7-afb5-23a94c37f663">
+            <lb xml:id="uuid_ad066a26-9fb1-4c3e-9964-ad18df7ce013"/>Nachfolgendend die
+                Aufstellung der Schuld des <rs ref="#12537" type="person">Herrn Dr.<lb xml:id="uuid_af1ad0d4-99b3-4f8b-a6e8-de7fc7f7189a"/>Robert</rs>: </p>
+         <p xml:id="uuid_b182f6d1-8c0b-48dd-b1dc-667238d3283c">
+            <lb xml:id="uuid_917adc18-8f9a-4e95-8ab1-c02e51915b7c"/>Kapital K 9,716.100.–<lb xml:id="uuid_2378d671-c9f7-4471-9395-c7e2ab37f587"/>10% Zinsen vom 7. Mai bis 5.
+                Dezember 1924 K 579.600.–<lb xml:id="uuid_230f82cb-df47-4003-8275-0052af985fe6"/>Kosten des Streitverfahrens K 966.400.–<lb xml:id="uuid_90cb70bd-bae7-4107-8aa5-93e03c2a39da"/>Kosten der
+                Exekutionsbewilligung K 381.800.–<lb xml:id="uuid_564fe013-2b9d-4835-bb50-1d2c8df38a16"/>Kosten der
+                Exekutionseinstellung lt. Tarif K 73.000.–<lb xml:id="uuid_760737ed-b02c-4b20-a6ab-fcf6d5117489"/>11,716.900.– </p>
+         <p xml:id="uuid_3aa4d277-a37a-4e77-8219-6797340b046f">
+            <lb xml:id="uuid_19a99fa6-db51-4054-8300-ea0421bd2cfa"/>Unter Hinweis auf unsere
+            telephonische Unterredung ersuche ich<lb
+               xml:id="uuid_b94ad039-469a-4698-af9b-dfd2f0d7c417"/>Sie, dem Überreicher dieses
+            Schreibens, meinem Kanzleibeamten<lb xml:id="uuid_80a43741-d146-403e-bac8-5b8a43020ade"
+               /><rs ref="#50852" type="person">Wilhelm <hi rend="spaced">Birne</hi>r</rs>
+            (Legitimation Streckenkarte der Strassen<lb break="no"
+               xml:id="uuid_e79a7326-629f-445f-bf9d-e113eb8b8141"/>bahn) den besprochenen Scheck auf
+            dieses Betrag auszufolgen<lb xml:id="uuid_46085982-c90a-4186-ad6b-335bb9911de6"/>und
+            zeichne </p>
+         <p xml:id="uuid_1d658021-45eb-4c45-a005-4d57a168a139">
+            <lb xml:id="uuid_55aedeaf-116f-4daf-98ba-34b458414107"/>mit kollegialer Hochachtung:
+            </p>
+      </body>
+   </text>
+</TEI>

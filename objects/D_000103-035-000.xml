@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000103-035-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-034-000.xml"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-035-001.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Max Hirschberg</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000103-035-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3090 </idno>
+            <idno type="ID" subtype="transkribus">292205</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000103">Karl
+                    Kraus ca. Fränkischer Kurier</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000103-035-000-wit01" facs="#D_000103-035-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000103-035-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51">Wien</settlement>
+               </address>
+               <date when-iso="1928-12-20">20. Dezember 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38637">Herrn | Dr. Max Hirschberg, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#51755">Kaufingerstrasse 30</street>
+                  <settlement ref="#45258">München 2 C</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Fränkischer Kurier.</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date type="sortDate" when-iso="1928-12-20" subtype="produced">20. Dezember 1928
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000103-035-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000103-035-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-03-17" who="#JK"/>
+         <change type="typography" when-iso="2021-03-17" who="#JK"/>
+         <change type="references" when-iso="2021-03-17" who="#JK"/>
+         <change type="structure" when-iso="2021-03-17" who="#JK"/>
+         <change when-iso="2020-07-21T12:54:18.215Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 292205. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000103-035-000-facs001">
+      <surfaceGrp xml:id="D_000103-035-000-facs001-l001">
+         <surface xml:id="D_000103-035-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555425/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000103-035-000-facs001-l002">
+         <surface xml:id="D_000103-035-000-facs001-l002-p002" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555426/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555427/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555428/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555429/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+         
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000103-035-000_p001"
+             facs="#D_000103-035-000-facs001-l002-p002"
+             n="1"/>
+         <p xml:id="uuid_60353751-c1ca-47ec-b3d5-303ab4f22509">
+            <lb xml:id="uuid_3adf3136-f752-45a1-a40b-b42486c8ca77"/>Dr. <rs type="person"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/38381">Max Hirschberg</rs>,<lb
+               xml:id="uuid_42110fe2-4ade-4233-b5db-7149296d8d80"/>Rechtsanwalt<lb
+               xml:id="uuid_ed470e1f-e6ca-4bfe-b97d-03c1d38e7a8d"/><rs type="place"
+               subtype="address" ref="#51755">München 2 C<lb
+                  xml:id="uuid_3966db14-e301-4c82-99d8-3334eeb4d7b3"/>Kauffingerstrasse 30</rs>. </p>
+         <p xml:id="uuid_ba0c6c4b-aa67-4f58-9250-7fed69590cbd">
+            <lb xml:id="uuid_b442d2ff-8929-4c0f-b7de-661501e7b0c8"/>Sehr geehrter <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38381">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_bcf3c64d-ba81-4be4-90d4-fa6c15b085bc">
+            <lb xml:id="uuid_ac705ba8-c7ff-4c2c-a0c8-c60f8611fce0"/>Ich danke Ihnen für Ihr <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-034-000"
+                subtype="legal-doc">Schreiben vom<lb xml:id="uuid_c9b3f6f9-2eac-45bf-b1d0-429c6d091b46"/>17. Dezember</rs> und
+                teile Ihnen die Stellungnahme des <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn Kraus</rs>
+            <lb xml:id="uuid_9fd8bf74-c832-4dd3-aef9-24dac882fe8e"/>durch Abschrift <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-035-001"
+                subtype="legal-doc">meines Schreibens an Herrn Justizrat <rs type="person" ref="#38637">Dr. Süssheim</rs></rs>
+         </p>
+         <p xml:id="uuid_96d426f0-628b-4e62-a0e5-951d14b3dac4">
+            <lb xml:id="uuid_03d0da0d-c549-4a32-b85a-4abc103cddcf"/>Ferner sende ich Ihnen die
+                    Kostenrechnung<lb xml:id="uuid_529dd9a7-f65f-4fb3-b174-e7e7668d29a9"/>und
+                Zahlkarte zurück, da letztere bei einem hiesigen Postamte<lb xml:id="uuid_6bd799b7-389d-4468-b422-8c6845642bac"/>selbst nicht verwendet
+                werden kann. Gleichzeitig überweise ich<lb xml:id="uuid_37347e24-001e-400f-b905-d2b7c94ed425"/>Ihnen durch die
+                Postsparkassa den Betrag von Rmk. 13.–– und er<lb xml:id="uuid_93d800fd-395b-41e0-b2b3-c6a3465c6ddf" break="no"/>suche Sie, die
+                Zahlung selbst vorzunehmen. </p>
+         <p xml:id="uuid_a9f42a0a-52d3-43c7-90dd-75bae497b7dc">
+            <lb xml:id="uuid_cf2e532d-e1f5-4ccd-8506-15268e7e2406"/>Ich zeichne mit ergebener
+                    kollegialer<lb xml:id="uuid_c09c1a28-4341-42ca-bd11-a251959899ae"/>Hochachtung </p>
+         <p xml:id="uuid_494e5cda-0fa0-4aeb-820e-2b4e4c1cb51a">
+            <lb xml:id="uuid_8e4319ae-408d-4051-af2e-171fb5c3a9be"/>2 Beilagen<lb xml:id="uuid_bc490db8-ea4c-44c0-b905-7ccf43ee3e97"/>Rekommandiert </p>
+         <p xml:id="uuid_f67f5880-8703-4aac-8e7d-fa2ae1b89445">
+            <lb xml:id="uuid_73bf78cc-21fb-4617-b4a1-0fd5f2d6c34f"/><note type="paratext" resp="law-firm">Betr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs>– <rs type="institution" ref="#37336">Fränkischer Kurier</rs>
+               <lb xml:id="uuid_6d3d3221-58a1-40de-9301-e63735f8bc13"/>exp. am 20.12.1928.
+                </note>
+         </p>
+      </body>
+   </text>
+</TEI>

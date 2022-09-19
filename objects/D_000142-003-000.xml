@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-004-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-002-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000142-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Th. Knaur Nachf. Verlag</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000142-003-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/3842</idno>
+            <idno subtype="transkribus" type="ID">264351</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000142" type="collection">Karl Kraus
+               ca. Th. Knaur Nachf. Verlag (Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000142-003-000-facs001" xml:id="D_000142-003-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000142-003-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL"
+                        >Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-02-05">5. Februar 1930</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <keywords>
+            <term>Brief</term>
+         </keywords>
+         <classCode scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus-doctypes/v1.0/"
+            >D.K.BRF</classCode>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1930-02-05">5. Februar 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#37752">die | Firma Th. Knauer Nachf. Verlag</orgName>
+               <address>
+                  <street corresp="#58126">Pragerstrasse 14</street>
+                  <settlement ref="#168">Berlin W 50</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Knaur.</note>
+               <note type="dictation">Dr.S/Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000142-003-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000142-003-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-09-02" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-10-02" who="#IL"/>
+         <change type="structure" when-iso="2021-07-27" who="#IL"/>
+         <change type="references" when-iso="2021-07-27" who="#IL"/>
+         <change type="typography" when-iso="2021-09-02" who="#IL"/>
+         <change when-iso="2020-10-08T14:10:23.912Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T14:13:35.266Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 264349. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000142-003-000-facs001">
+      <surfaceGrp xml:id="D_000142-003-000-facs001-l001">
+         <surface type="recto" xml:id="D_000142-003-000-facs001-l001-p001">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559099/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000142-003-000-facs001-l002">
+         <surface type="recto" xml:id="D_000142-003-000-facs001-l002-p002">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559101/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000142-003-000-facs001-l002-p003">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559102/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      
+      <graphic
+         url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559103/full/full/0/default.jpg"
+         source="wienbibliothek"/>
+      
+      <graphic
+         url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559104/full/full/0/default.jpg"
+         source="wienbibliothek"/>
+      
+      <graphic
+         url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559105/full/full/0/default.jpg"
+         source="wienbibliothek"/>
+      
+      <graphic
+         url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559106/full/full/0/default.jpg"
+         source="wienbibliothek"/>
+      
+      <graphic
+         url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559107/full/full/0/default.jpg"
+         source="wienbibliothek"/>
+      
+      <graphic
+         url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2559108/full/full/0/default.jpg"
+         source="wienbibliothek"/>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000142-003-000_p001" facs="#D_000142-003-000-facs001-l002-p002" n="1"/>
+         <p xml:id="uuid_2982f819-3acb-4bf9-90e2-3fdb9aef503f">
+            <lb xml:id="uuid_5fbacb8f-c3cf-4800-91cf-d7c4c2179959"/>Da ich mit der juristischen
+            Ueberprufung der<lb xml:id="uuid_fb92e5a8-b2f1-4c25-91bc-bffa4e429aa0"/>Verträge des <rs
+               ref="#43724" type="institution">Verlages „Die Fackel“</rs> betraut bin, wende ich
+               mich<lb xml:id="uuid_c3c115b9-7acd-4ad9-8713-aebbde44828e"/>in folgender
+            Angelegenheit an Sie:</p>
+         <p xml:id="uuid_ee47cd0b-832b-4881-b4e5-63b627159e6b"><lb
+               xml:id="uuid_c1e8aeec-0ec2-45c7-b2e4-e1cb8b94a59b"/>Ihr Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/51570" type="person">Kröner</rs> hat am
+            17.I.1930 mit Herrn<lb xml:id="uuid_f0b6f352-5378-4563-a561-f4a3521daf76"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> als
+            Inhaber des <rs ref="#43724" type="institution">Verlages „Die Fackel“</rs> einen <rs
+               type="work" subtype="legal-doc">Verlags<lb break="no"
+                  xml:id="uuid_56a775b9-d6de-4d32-92d6-f9643a0e2758"/>vertrag</rs> abgeschlossen,
+            laut welchem Sie das Werk „<rs ref="#32544" type="work" subtype="pmb">Die letzten<lb
+                  xml:id="uuid_30465715-900e-4527-ac18-a2aecc712173"/>Tage der Menschheit</rs>“ in
+            Ihrem <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37752" type="institution">Verlag</rs>
+            übernehmen. Vereinbart war<lb xml:id="uuid_fbe433c4-f173-4b2e-ad48-6d255bae8d08"/>eine
+            Auflagezahl von 100.000 Exemplaren Ihres <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/37752" type="institution">Verlages</rs>,
+               unter<lb xml:id="uuid_713eb8ee-c4ad-43b5-b622-1af2d8f9b266"/>der ausdrücklichen
+            Erklärung, dass das <rs ref="#32544" type="work" subtype="pmb">Werk</rs> nicht für die
+               Standard<lb xml:id="uuid_c4aae49d-9dc9-4169-af3a-46c93e1d2a3f"/>Bibliothek bestimmt
+            sei, sondern für den <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37752"
+               type="institution">Verlag</rs> als solchen.<lb
+               xml:id="uuid_5221e0a5-e986-45bd-b86e-cef9beecd80e"/>Ferner 30.000 Exemplare für den
+               <rs ref="#37144" type="institution">Gutenberg-Verlag</rs>. Für die<lb
+               xml:id="uuid_127e6435-6788-4b46-b9db-fac5cad14bbb"/>100.000 Exemplare sollte ein
+            Autorenhonorar von 10 Pfennig,<lb xml:id="uuid_3535428d-eae7-41a5-b8cb-5760264c76bf"
+            />für die 30.000 des <rs ref="#37144" type="institution">Gutenberg-Verlages</rs> ein
+            solches von 30 Pfen<lb break="no" xml:id="uuid_15e9d381-b966-470c-a571-11c02cbcfd11"
+            />nig bezahlt werden. Für Ihren <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37752"
+               type="institution">Verlag</rs> sollte ein erklärendes<lb
+               xml:id="uuid_5b871883-14ad-4941-9586-195af88486bf"/>Register hinzugedruckt werden,
+            für das Sie ein Honorar von<lb xml:id="uuid_c3305fc8-1074-48ba-8e5b-941917dc0d55"/>800
+            bis 1.000.– Mark dem Autor des Registers zahlen sollten, der<lb
+               xml:id="uuid_d625aa37-b2c2-463d-8332-55ea7ff0a100"/><rs ref="#37144"
+               type="institution">Gutenberg</rs>druck sollte kein Register erhalten. Als
+               Erscheinungs<lb break="no" xml:id="uuid_634d2155-7219-4f44-ad0a-60f9044e4747"/>termin
+            war der Herbst 1930 von Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/51570"
+               type="person">Dröner</rs> festgesetzt worden.<lb
+               xml:id="uuid_1c61400c-d876-471a-b67f-52eb661e3301"/>Sie sollten die schriftliche
+            Vertragsausfertigung für beide<lb xml:id="uuid_aa35ee78-b0a9-46e2-84b7-db77c5c46630"
+            />Verträge meinem <rs ref="#11988" type="person">Mandanten</rs> sofort nach Rückkehr des
+            Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/51570" type="person">Dröner</rs>
+            <lb xml:id="uuid_18c42bfb-daa6-44b4-9287-fc146fe806a0"/>von <rs ref="#45258"
+               type="place">München</rs>, wohin er am gleichen Tage zu reisen vorhatte, ein<lb
+               break="no" xml:id="uuid_306faca8-aaa0-4aab-8f2c-977bfec80322"/>senden, worauf meinem
+               <rs ref="#11988" type="person">Mandanten</rs> ein unmittelbar auszuübendes <pb
+               xml:id="D_000142-003-000_p002" facs="#D_000142-003-000-facs001-l002-p003" n="2"/>
+            <lb xml:id="uuid_6c8f4e79-ad4e-4f46-9430-f84ed108c4ac"/>Rücktrittsrecht zustand. Er
+            sollte sich, da ihm auch das Angebot<lb
+               xml:id="uuid_90415565-ea1d-4293-9b95-a1883d369ae4"/>eines anderen Verlages vorlag,
+            sofort nach Empfang des Ver<lb break="no"
+               xml:id="uuid_9dd025f8-5210-4697-9520-71ec21ee30bf"/>trages endgiltig entscheiden
+            können. Trotz der langen Zeit<lb xml:id="uuid_79fe39c6-ca7e-456d-99d0-db020bfdf3ad"
+            />sind die Verträge aber nicht eingelangt und ich ersuche Sie in<lb
+               xml:id="uuid_8065d09c-31e9-4534-afbc-cae80af49ec2"/>rechtsfreundlicher Vertretung des
+               <rs ref="#43724" type="institution">Verlages „Die Fackel“</rs>, entweder<lb
+               xml:id="uuid_1d699020-e838-4f0d-a0b6-9d9e9240d9b2"/>an diesen oder an mich die
+            Verträge sofort einzusenden. </p>
+         <p xml:id="uuid_eeac7d39-27cf-481c-87f7-499d8e108672">
+            <lb xml:id="uuid_3887cd62-1bbd-4867-9f99-c3b6069ecbd4"/>Hochachtungsvoll</p>
+         <p xml:id="uuid_627c1078-a468-4db9-9b7c-9d203722486f">
+            <lb xml:id="uuid_e12e3b2a-67af-4c2c-baf5-5c57209970cf"/>Rekommandiert.</p>
+         <p xml:id="uuid_e4319c46-4bee-48fa-98e3-37ac645f20c7">
+            <lb xml:id="uuid_b9e5cf2d-2305-4384-b23e-3985397a5367"/><note resp="law-firm"
+               type="paratext"><rs ref="#11988" type="person">Kraus</rs><lb
+                  xml:id="uuid_81873534-be0d-48ef-b3b6-a0055c3fbf4e"/><rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/37752" type="institution"
+               >Knauer</rs></note></p>
+      </body>
+   </text>
+</TEI>

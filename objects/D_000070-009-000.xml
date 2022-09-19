@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-010-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-008-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000070-009-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Botho Laserstein</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000070-009-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-samek-ra-botho-laserstein </idno>
+            <idno subtype="transkribus" type="ID">209555</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000070" type="collection">Alfred Kerr ca. Karl Kraus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000070-009-000-facs001" xml:id="D_000070-009-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000070-009-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1928-10-11">11. Oktober 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38969">Herrn | Dr. Botho Laserstein, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#51751">Landsberger Allee Nr. 55</street>
+                  <settlement ref="#168">Berlin N.O. 18</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Kerr II.</note>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1928-10-11">11. Oktober
+                    1928</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000070-009-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000070-009-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" status="draft" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" status="draft" when-iso="2021-09-13">Replaced Text with Transcription
+                of Transkribus Document 209555. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2022-01-09"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-01-09" who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2022-01-09"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2022-01-09"
+                 who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2022-01-09"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000070-009-000-facs001">
+      <surfaceGrp xml:id="D_000070-009-000-facs001-l001">
+         <surface type="recto" xml:id="D_000070-009-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553031/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000070-009-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553032/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000070-009-000-facs001-l002">
+         <surface type="recto" xml:id="D_000070-009-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553033/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000070-009-000-facs001-l002-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553034/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000070-009-000-facs001-l003">
+         <surface type="recto" xml:id="D_000070-009-000-facs001-l003-p005">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553035/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000070-009-000-facs001-l003-p006">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553036/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553037/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553038/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553039/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553040/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553041/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553042/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000070-009-000_p001"
+             facs="#D_000070-009-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_2ccea8ad-d296-49f7-b242-f53aa43570fa">
+            <lb xml:id="uuid_5eeee5a4-b4c2-4ad3-af8b-21a4317cc235"/>Sehr geehrter <rs ref="#38969" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_e2b40e8e-5274-4b98-8323-f4fe858b14fa">
+            <lb xml:id="uuid_175d12e3-b1af-4e65-8478-bdf0679b2138"/>Ich habe in der Literatur
+                und in den<lb xml:id="uuid_e6ce92c9-d75c-4e8b-b120-c1b06459f4d1"/>Entscheidungen
+                Anhaltspunkte für die Erstattung des verlangten<lb xml:id="uuid_e09dcd20-b1ac-4192-a91a-9c178b261afe"/>Rechtsgutachtens gesucht,
+                aber keine gefunden. Mein Rechtsgutachten<lb xml:id="uuid_842aaf8a-485f-4e66-bd47-2eb59cb03136"/>entspringt daher meiner
+                eigensten persönlichen Meinung. </p>
+         <p xml:id="uuid_7511806f-5ec1-4892-a815-53651e42d25a">
+                <lb xml:id="uuid_c691b2bc-318d-4ab4-ade9-0feef3594963"/>Die Tatsache, dass die <rs
+                    ref="#41244" type="work" subtype="pmb">Fackel</rs> im Bezirke des<lb
+                    xml:id="uuid_6a2ff64c-6008-4cab-a9d2-31940a6110f5"/><rs ref="#36830"
+                    type="institution">Landgerichtes I Berlin</rs> vertrieben wird, die Drohungen
+                mit der Ver<lb break="no" xml:id="uuid_3a8bba84-a414-4b19-a158-13e9a1bf24e0"
+                />öffentlichung also im Bezirke des angerufenen <rs ref="#36830" type="institution"
+                    >Gerichtes</rs> erhoben<lb xml:id="uuid_9f5d8b02-bf5e-49d1-bc9c-90964c5dc562"
+                />wurden und voraussichtlich im Bezirke dieses <rs ref="#36830" type="institution"
+                    >Gerichtes</rs> vertrieben<lb xml:id="uuid_63aa3a8a-5aeb-4152-bb12-991f17947a04"
+                />werden soll, begründet keinen Gerichtsstand in <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/168" type="place">Berlin</rs>. Auch
+                    nach<lb xml:id="uuid_41f1089f-f4bc-49d2-8fe9-81e1f3d09c04"/>österreichischem
+                Rechte würde ein solcher Gerichtsstand nicht ge<lb break="no"
+                    xml:id="uuid_182fe1c8-d271-41dd-a1e8-e52af2de202d"/>geben sein. Der <rs
+                    ref="#11910" type="person">Kläger</rs> scheint an den <rs ref="" type="law">§ 32
+                    D.Z.P.O.</rs> zu denken.<lb xml:id="uuid_49ce7877-8e76-4205-8494-80d82ede15ad"
+                />Eine ähnliche Bestimmung fehlt in der Oesterr. Z.P.O. Der Gerichts<lb break="no"
+                    xml:id="uuid_68850b67-973a-4e6d-bea4-9c6c07a66def"/>stand wäre vielleicht
+                gegeben, wenn die Veröffentlichung bereits<lb
+                    xml:id="uuid_48e27285-444f-4902-ad00-86b7cce3d96f"/>erfolgt wäre. Dann könnte
+                man von einer unerlaubten Handlung spre<lb break="no"
+                    xml:id="uuid_f19e81ad-81f5-4c13-9047-3c5ca79beb29"/>chen. Es wäre aber immerhin
+                noch fraglich, ob diese unerlaubte<lb
+                    xml:id="uuid_fe248da8-a05e-4402-9234-1e315dbbd653"/>Handlung auch im Bezirke des
+                    <rs ref="#36830" type="institution">Landgerichtes I Berlin</rs> begangen wurde,
+                    <pb xml:id="D_000070-009-000_p002" facs="#D_000070-009-000-facs001-l001-p002"
+                    n="2"/>
+                <lb xml:id="uuid_cb4117e0-ed22-4b8f-8974-2270506105b6"/>da doch der Erscheinungsort
+                der <rs ref="#41244" type="work" subtype="pmb">Fackel</rs>
+                <rs ref="#50" type="place">Wien</rs> ist. Ferner ist ja jetzt<lb
+                    xml:id="uuid_f24bb971-d01c-4dab-987a-ee6ecc2f8500"/>noch nicht sicher, dass
+                diese Veröffentlichung als Sondernummer der<lb
+                    xml:id="uuid_ccbcbeb3-12d4-41f0-91bd-0db4744e5976"/><rs ref="#41244" type="work"
+                    subtype="pmb">Fackel</rs> erfolgen wird, sie könnte auch als Buch erscheinen,
+                die Be<lb break="no" xml:id="uuid_9aca1530-2c4e-4d87-836e-bae033c3ac69"/>stimmung
+                des <rs
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=485&amp;size=45"
+                    type="law">§ 36 oest. Pressgesetz</rs>, dass als Tatort einer durch eine<lb
+                    xml:id="uuid_a50ef642-9e77-4944-9b4e-f1537181478e"/>im Ausland erscheinende
+                Zeitung begangenen strafbaren Handlung der<lb
+                    xml:id="uuid_161f7913-6fc4-4822-916a-4d9aa02e9b7d"/>Ort gilt, wo das Druckwerk
+                verbreitet worden ist, kann für das Zi<lb break="no"
+                    xml:id="uuid_370724f3-e5e1-4351-9ea7-de798e476bab"/>vilverfahren nicht
+                angewendet werden. Ich finde auch keine ähnliche<lb
+                    xml:id="uuid_85e646ec-7fe8-4ab1-bcd6-a92d2fae80ff"/>Bestimmung im deutschen
+                Gesetz, welches nach meinem Dafürhalten für<lb
+                    xml:id="uuid_1de98caa-cc90-4389-8a16-297bf473eb74"/>die Zuständigkeit allein in
+                Frage kommt.</p>
+         <p xml:id="uuid_bbae5790-683d-4662-a6ba-04105a0c4aa7">
+            <lb xml:id="uuid_4d85daac-25b1-47e8-899a-37f3d24e4a77"/>Zweifelhafter erscheint mir
+                die Rechtsfrage,<lb xml:id="uuid_f074c80a-7dbf-4081-bdc5-f83e84aa7611"/>ob der
+                Vermögensgerichtsstand gegen <rs ref="#11988" type="person">Karl Kraus</rs> in <rs ref="https://pmb.acdh.oeaw.ac.at/entity/168" type="place">Berlin</rs> gegeben<lb xml:id="uuid_22282132-916f-49a5-9f02-2710a1e4d39c"/>ist. Die <rs ref="#41244" type="work" subtype="pmb">Fackel</rs> wird, wie meine Erkundigungen aber
+                ergaben, in<lb xml:id="uuid_54aa0889-e1bb-4b86-ad2a-61ea54a916c4"/>Deutschland durch
+                die Firma <rs ref="#37202" type="institution">K.L. Köhler</rs> in <rs ref="https://pmb.acdh.oeaw.ac.at/entity/864" type="place">Leipzig</rs> an die
+                    einzelnen<lb xml:id="uuid_8500fb58-d078-4afc-b820-b0b302753f21"/>Buchhändler
+                geliefert, die Fakturen im Namen des <rs ref="#43724" type="institution">Verlags der
+                    Fackel</rs>
+            <lb xml:id="uuid_250ac5c7-1e3a-4fe5-8002-6e5819a05a8f"/>ausgestellt
+                und eventuelle Zahlungsrückstände in dessen Namen ge<lb break="no" xml:id="uuid_19133f47-24f0-4315-a321-185bc64e822c"/>richtlich eingefordert. Da
+                Herr <rs ref="#11988" type="person">Kraus</rs> allein Inhaber der prot. Firma<lb xml:id="uuid_3875c581-1e45-4438-84a8-a56f5cbb75d6"/><rs ref="#11988" type="person">Karl Kraus</rs>
+            <rs ref="#43724" type="institution">Verlag der Fackel</rs> ist, ist es zweifellos,
+                dass er For<lb break="no" xml:id="uuid_abcb853e-187a-40f9-9a89-0c37513f8a60"/>derungen in <rs ref="https://pmb.acdh.oeaw.ac.at/entity/168" type="place">Berlin</rs> besitzt und dass daher eine Voraussetzung für den<lb xml:id="uuid_ee18a07d-f870-420e-83e6-821edc78ede7"/>Gerichtsstand des Vermögens
+                vorhanden wäre, nicht aber die zweite<lb xml:id="uuid_1c1f8ba3-d16d-4114-8ff3-79a2a9bb7415"/>Voraussetzung, da nach <rs ref="" type="law">§ 23 der D.Z.P.O.</rs> die Zuständigkeit nur wegen<lb xml:id="uuid_4732e536-7315-461c-bd21-a811e163cb0e"/>„<quote source="" xml:id="uuid_a939239b-a8d1-4719-b452-324c050a41ee">vermögensrechtlicher
+                    Ansprüche</quote>“ gegeben wird. Die vorliegende <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-005-000.xml"
+                type="work"
+                subtype="legal-doc">Klage</rs>
+            <lb xml:id="uuid_4e3f7f27-559c-4192-aafe-94e8e4907a2d"/>kann nur im Punkt 1 des
+                Klagebegehrens als vermögensrechtliche be<lb break="no" xml:id="uuid_a8b253d4-9d4e-48c1-b4e5-a08e414c2f68"/>zeichnet werden, nicht aber
+                im Punkt 2 und 3. Die Veröffentlichung<lb xml:id="uuid_3ebcd053-bf3e-44d1-8845-2191231626a4"/>von Gedichten unter dem
+                Namen eines Mannes, der sie nicht verfasst<lb xml:id="uuid_3e9503b7-0066-4b77-9ef9-36504dab21cd"/>hat, ist kein Eingriff in
+                seine Vermögensrechte, die Veröffentlichung<lb xml:id="uuid_bfcc1d36-37b7-4253-bfb0-a41c47c5b946"/>seiner eigenen Gedichte, die
+                unter einem Pseudonym erschienen sind<lb xml:id="uuid_19479236-cf28-416a-bcac-e8b870c848fd"/>unter dem wirklichen Namen
+                des Verfassers gleichfalls nicht. Es lie- <pb xml:id="D_000070-009-000_p003"
+                facs="#D_000070-009-000-facs001-l002-p003"
+                n="3"/>
+            <lb xml:id="uuid_5955463f-fea9-47d0-9c6c-b13866d57c41"/>gen hier nur Eingriffe in
+                ein sogenanntes Persönlichkeitsrecht vor.<lb xml:id="uuid_a50af023-cf81-430c-8d70-564cf795f82f"/>Der Vermögensgerichtsstand
+                wäre also nur dann gegeben, wenn das<lb xml:id="uuid_39d919ca-e901-4194-9dc6-6b7619966509"/>Klagebegehren lediglich
+                dahin lautete, dass der <rs ref="#11988" type="person">Beklagte</rs> zu unter<lb break="no" xml:id="uuid_ad198b92-a1c0-4cea-8d7c-c7cfa9365f59"/>lassen habe,
+                Gedichte des <rs ref="#11910" type="person">Klägers</rs> zu vervielfältigen und die
+                    einzel<lb break="no" xml:id="uuid_2cf17038-a49d-4137-a0a7-4eca67b1b770"/>nen
+                Exemplare der Vervielfältigung gewerbsmässig zu vertreiben. Dies<lb xml:id="uuid_42ea7c85-10cc-46ef-9ded-54442ab40d09"/>ist ein vermögensrechtlicher
+                Anspruch. Da aber hier vermögensrecht<lb break="no" xml:id="uuid_b168c3ef-7eee-4c72-bc1a-38fdef90a7df"/>liche und nicht
+                vermögensrechtliche Ansprüche in einer <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-005-000.xml"
+                type="work"
+                subtype="legal-doc">Klage</rs> vereinigt<lb xml:id="uuid_ff1d96f4-1a08-498c-99f8-1e46960ec983"/>sind, die Zuständigkeit
+                daher nicht für alle Ansprüche gegeben wäre,<lb xml:id="uuid_dc602df0-e955-437e-97ea-f5afc92b9379"/>müsste nach meinem
+                Dafürhalten, so lange das Klagebegehren in seiner<lb xml:id="uuid_4f95c1c5-5af3-4631-9a03-79f526935e80"/>Gesamtheit aufrechterhalten
+                bleibt, die Nichtzuständigkeit angenom<lb break="no" xml:id="uuid_27a00f9a-85b1-4cd3-9a68-32e83f9ba8df"/>men werden. </p>
+         <p xml:id="uuid_90bf91cc-891c-4ad8-a511-74078e21c7ee">
+            <lb xml:id="uuid_81fe42d6-14a1-4918-96fd-9918deedfb0d"/>Ob die einstweilige
+                Verfügung oder das Urteil<lb xml:id="uuid_374fdd5a-9dbc-4f17-b4f2-103eba964f23"/>über die österreichischen Grenzen hinaus wirkt, halte ich für den<lb xml:id="uuid_f3995272-dd55-4cc5-8406-0dcbcbc33936"/>Prozess für bedeutungslos
+                und glaube nicht, dass das <rs ref="#36830" type="institution">Gericht</rs> auf
+                    eine<lb xml:id="uuid_a2df2d0a-10aa-436b-831c-b664ce319245"/>solche Frage
+                überhaupt eingehen kann und wird. Wenn österreichische<lb xml:id="uuid_9f148b4a-4698-4a7c-891f-e57d7e3ff65d"/>Hoheitsrechte durch das
+                Urteil verletzt würden, könnte eben die<lb xml:id="uuid_be7ccb3c-d4ab-4d2b-913c-ed1e17ddfc26"/>Vollstreckung in Oesterreich
+                inhibiert werden. Dies geschieht aber<lb xml:id="uuid_8a33685a-4579-4b66-beec-13c7291fd4ef"/>nur dann, wenn noch den
+                Gesetzen des Vollstreckungsstaates ein<lb xml:id="uuid_5d4a73c4-a51a-4bdb-ace5-c64b62507cfb"/>ausschliesslicher
+                Gerichtsstand für Rechtsstreitigkeiten dieser Art<lb xml:id="uuid_5beb49c1-a56d-4c8a-acef-8537385bead8"/>besteht, oder wenn durch die
+                Zwangsvollstreckung ein Rechtsverhält<lb break="no" xml:id="uuid_e85473ff-519c-47b1-97f3-7710bcb1a49a"/>nis zur Anerkennung oder ein
+                Anspruch zur Verwirklichung gelangen<lb xml:id="uuid_86de0a07-3c4f-4241-8dd6-2feac6b06ab5"/>soll, dem im Gebiet des
+                Vollstreckungsstaates aus Rücksichten der<lb xml:id="uuid_3d3d9f39-da9f-4653-9e85-1bdf126acebf"/> öffentlichen Ordnung oder
+                der Sittlichkeit die Gültigkeit, Verfolg<lb break="no" xml:id="uuid_32975833-0e12-4bd2-a39f-bc3e6bf46902"/>barkeit oder Klagbarkeit
+                versagt ist. Die Vollstreckbarkeit in<lb xml:id="uuid_d455bb58-86c2-4e2d-a30e-874ff09671e9"/>Oesterreich wäre aber auch
+                dann ausgeschlossen, wenn sich der <rs ref="#11988" type="person">Be<lb break="no" xml:id="uuid_4499cd0c-12dd-4f60-9fdd-4a97b974e18e"/>klagte</rs> auf den
+                Rechtsstreit nicht eingelassen hätte und ihm die<lb xml:id="uuid_51fb8bab-9dc0-4c1c-8da3-91b1c3db181e"/>Ladung oder die Verfügung,
+                durch die das Verfahren eingeleitet <pb xml:id="D_000070-009-000_p004"
+                facs="#D_000070-009-000-facs001-l002-p004"
+                n="4"/>
+            <lb xml:id="uuid_91ca3d01-219c-4341-8b85-e736a14b6e9a"/>worden war, lediglich im
+                Wege der Ersatzzustellung oder der öffent<lb break="no" xml:id="uuid_5bea1561-f192-49e5-93db-fc366cbd5718"/>lichen Zustellung zugestellt
+                war, ferner, wenn für die Entscheidung<lb xml:id="uuid_8fc23fcd-0c15-47aa-b802-d89af06049ec"/>des erkennenden <rs ref="#36830" type="institution">Gerichtes</rs> lediglich der Gerichtsstand des
+                    Vermögens<lb xml:id="uuid_6ab86f2e-a73f-40a3-a778-1de9503d6c9f"/>gegeben war.
+                Auf Grund des Vermögensgerichtsstandes in Deutschland<lb xml:id="uuid_ca27d7ff-910e-4c6a-937c-abcf0a80380a"/>gefällte Urteile sind also
+                in Oesterreich überhaupt nicht voll<lb break="no" xml:id="uuid_c5613452-fcec-4efe-b440-5ef50bd257f6"/>streckbar, so dass also
+             damit schon der Verbreitung der <rs type="work" subtype="pmb" ref="#41244">Fackel</rs> in<lb xml:id="uuid_9a9c585f-c329-449a-9048-1c5ef89d354a"/>Oesterreich auf Grund des
+                deutschen Urteils kein Hindernis im Wege<lb xml:id="uuid_59095775-3ebe-4c5c-a722-b1e7d31fa2cc"/>stünde. Ueberdies sind
+                Arreste und einstweilige Verfügung im Rechts<lb break="no" xml:id="uuid_64390249-4449-428c-881e-459d0a8b0510"/>hilfevertrag von der
+                Vollstreckbarkeit auf Grund der Gegenseitig<lb break="no" xml:id="uuid_ef50e76c-5b08-4829-b2fb-38d2c36606a3"/>keit überhaupt ausgenommen. </p>
+         <p xml:id="uuid_12403944-b606-44e4-a2e3-18ee2ddf8dd4">
+                <lb xml:id="uuid_d701dbc0-6963-4aef-9b3a-d242a3d12078"/>Auf Grund des
+                österreichischen Urheberrechts<lb break="no"
+                    xml:id="uuid_4040348c-86cd-4592-891f-279bc857dfdb"/>gesetzes ist ebenso wie auf
+                Grund des deutschen Urheberrechtsge<lb break="no"
+                    xml:id="uuid_a225b4b9-bf63-4936-beb8-532a0c7008f7"/>setzes die Veröffentlichung
+                und Vervielfältigung verboten und straf<lb break="no"
+                    xml:id="uuid_3fb6eaab-e02e-49df-9e7b-04eb622a6490"/>bar, ebenso auch die
+                Veröffentlichung eines Literaturwerkes unter<lb
+                    xml:id="uuid_864e8bf1-27dc-46ba-8456-e4e646482ecb"/>einem falschen Namen. Zu
+                operieren ist also im vorliegenden Falle<lb
+                    xml:id="uuid_03454731-8800-4aeb-9ab6-f4ad09d99615"/>nicht damit, dass das, was
+                Herr <rs ref="#11988" type="person">Kraus</rs> in der <rs ref="#41244" type="work"
+                    subtype="pmb">Fackel</rs> angekündigt hat,<lb
+                    xml:id="uuid_7d5e9d44-6614-4837-9f4c-e9e67803be1d"/>nach österreichischem Rechte
+                erlaubt wäre, sondern, dass Herr <rs ref="#11988" type="person">Kraus</rs>
+                <lb xml:id="uuid_b0a272d0-ccc9-4828-a4c8-4bdbe44ec2ee"/>selbstverständlich den
+                Abdruck nur so weit geplant hat, als er im<lb
+                    xml:id="uuid_a73819e9-3ca4-4de1-80d2-40368567fc26"/>Gesetze zulässig ist. Das
+                österreichische Urheberrechtgesetz kennt,<lb
+                    xml:id="uuid_822d57d8-e85e-40e2-952a-3aa00495783a"/>und zwar in einem etwas
+                weiteren Ausmass als das deutsche das<lb
+                    xml:id="uuid_fdb445f9-cf4f-4b24-9fd1-4d81ba1e4726"/>Zitierungsrecht. Nach <rs
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=sgb&amp;datum=1920&amp;page=1735&amp;size=45"
+                    type="law">§ 25 Absatz 2</rs> des österreichischen Urheber<lb break="no"
+                    xml:id="uuid_c599ed81-f321-4093-9d83-311aca4d3c83"/>rechtgesetzes ist als
+                Nachdruck nicht anzusehen „<quote
+                    source="https://alex.onb.ac.at/cgi-content/alex?aid=sgb&amp;datum=1920&amp;page=1735&amp;size=45"
+                    xml:id="uuid_0e0d920e-f5ec-4e5e-89ec-76579667d965">die Aufnahme ein<lb
+                        break="no" xml:id="uuid_1f7fd784-064d-4647-9c5f-12c396bc4efe"/>zelner
+                    erschienener Werke in einem durch den Zweck gerechtfertigten<lb
+                        xml:id="uuid_2b14da7f-e90b-4cc6-8627-40b4411ba429"/>Umfang in ein grösseres
+                    Ganzes, wenn sich dieses nach seinem Haupt<lb break="no"
+                        xml:id="uuid_78cc43be-5e33-4147-bb23-8c5255056e21"/>inhalt als selbständiges
+                    wissenschaftliches Werk darstellt</quote>“. Nach<lb
+                    xml:id="uuid_9972f801-e569-4505-a613-44a7c3f9cf74"/><rs ref="" type="law">§ 19,
+                    Absatz 2</rs> des deutschen Urheberrechtgesetzes könnten nur <hi
+                    rend="underlined">ein<lb break="no"
+                        xml:id="uuid_e10bc5b1-56c0-49d7-97b1-bf148e8ee55d"/>zelne</hi> Gedichte in
+                eine selbständige wissenschaftliche Arbeit aufge-<pb xml:id="D_000070-009-000_p005"
+                    facs="#D_000070-009-000-facs001-l003-p005" n="5"/><lb
+                    xml:id="uuid_e28511ea-6986-43a0-bfbf-ea0c89cb8383"/>nommen werden. Nach
+                österreichischem Rechte unterliegt die Anzahl<lb
+                    xml:id="uuid_1bdd81e7-085e-4334-b02a-575c44f2e9be"/>keiner wie immer gearteten
+                Beschränkung. Es ist selbstverständlich<lb
+                    xml:id="uuid_07d78a27-82c7-4285-98e9-b1444655ca07"/>niemals die Absicht des
+                Herrn <rs ref="#11988" type="person">Kraus</rs> gewesen, einen blossen Ge<lb
+                    break="no" xml:id="uuid_115263a2-0be4-4db1-8bd4-92ef5835d2d3"/>dichtband
+                herauszugeben, sondern, wie sein ganzes Wirken zeigt, in<lb
+                    xml:id="uuid_595f11be-60ed-40f5-b7b7-4772a7eb9fa7"/>eine Polemik gegen die
+                Kriegsgedichte der Gottlieb’s und Peter die<lb
+                    xml:id="uuid_d4f8be7b-d37d-480e-aa31-88ad71202c52"/>erschienenen Gedichte
+                einzuflechten und abzudrucken. Deshalb ist es<lb
+                    xml:id="uuid_296ebca8-7839-4437-8615-77b6af2b5712"/>auch ein juristischer
+                Unsinn, wenn <rs ref="#11910" type="person">Kerr</rs> behauptet, dass der Abdruck<lb
+                    xml:id="uuid_72d383c6-b1bd-47d7-922b-1379771799a5"/>seiner Gedichte in der <rs
+                    ref="https://fackel.oeaw.ac.at/f/787,0u1" type="work" subtype="fackel">Fackel
+                    Nr. 787–794</rs> rechtswidrig gewesen ist.<lb
+                    xml:id="uuid_59d5f57a-f7cf-4487-9f75-3ab088be4064"/>Dieser Abdruck <subst>
+                    <del>nicht sowohl</del>
+                    <add>ist</add>
+                </subst> nach dem deuts&lt;chen Urheberrechtgesetz,<lb
+                    xml:id="uuid_523ddfb0-def4-4fd7-b72f-869418559d6e"/>umsomehr aber nach dem
+                österreichischen Urheberrechtgesetz erlaubt. </p>
+         <p xml:id="uuid_a3aab1e3-e188-45d1-91de-2ca4540477a2">
+            <lb xml:id="uuid_14a4f122-1100-45d5-8db6-628c970b128e"/>Geht man aber nun von der
+                Annahme aus, dass<lb xml:id="uuid_189445d3-5fe5-4101-8645-71cc981f0519"/>Herr <rs ref="#11988" type="person">Kraus</rs> diese Veröffentlichung nur in der ihm vom
+                Gesetz er<lb break="no" xml:id="uuid_a037ab59-0fd0-421e-b594-58337479dc09"/>laubten
+                Weise vornehmen wird oder zumindest, dass es jetzt noch<lb xml:id="uuid_19da3fa8-c531-470d-adb4-01fefeab0879"/>nicht feststeht, dass er sie
+                in einer vom Gesetz nicht erlaubten<lb xml:id="uuid_6cf80048-ccf4-4663-a101-166e8b20bf15"/>Weise vornehmen will, so ist
+                das Klagebegehren verfehlt, weil zu<lb xml:id="uuid_8906515f-7056-4f54-b295-b0a6c92b7be0"/>wenig präzis, denn es ist
+                nicht unerlaubt Gedichte zu vervielfäl<lb break="no" xml:id="uuid_448cc57c-2765-49d9-aad2-838ed5437595"/>tigen und die
+                Vervielfältigung zu vertreiben, soweit dies in einem<lb xml:id="uuid_cf65d69e-45fa-402c-a5bd-6f1a9451d0bd"/>grossen wissenschaftlichen
+                Werke geschieht, sondern lediglich die<lb xml:id="uuid_7898764e-1186-4025-9c77-311a629f93cf"/>Herausgabe ohne Einkleidung
+                wäre eine solche unerlaubte Handlung.<lb xml:id="uuid_4999a6a2-41e0-4b1c-bd1b-40da2ba6693f"/>Dies kommt aber im
+                Klagebegehren nicht zum Ausdruck. Hinzuzufügen<lb xml:id="uuid_da10df1b-e025-4f28-b667-a9844ee091a6"/>ist noch, dass unter
+                wissenschaftlichem Werke nicht nur ein sol<lb break="no" xml:id="uuid_0c28a01b-a53e-469e-a830-c49c092545b5"/>ches zu verstehen ist,
+                welches sich mit der Aufstellung wissen<lb break="no" xml:id="uuid_75d0fade-b128-4d17-8565-e6c89700296b"/>schaftlicher Thesen
+                beschäftigt, sondern, dass nach der allgemeinen<lb xml:id="uuid_edd994b8-156c-48ae-8a5a-85c1c974e3af"/>Praxis der österreichischen
+                Gerichte auch jedes Werk, dem eine<lb xml:id="uuid_75d32ac3-8f7e-47ac-8571-34ff98d739a4"/>selbständige geistige oder
+                ästhetische Bedeutung zukommt, als<lb xml:id="uuid_f7614fa7-f616-449c-9af5-74f70dcde5ae"/>wissenschaftliches Werk
+                anzusehen ist. </p>
+         <p xml:id="uuid_c7028cf3-a7b3-49ef-9c0c-30b570c2ed39">
+            <lb xml:id="uuid_207a2dac-0f05-451f-bfeb-dce957108ee9"/>Ich halte es für unmöglich
+                einem drohenden <pb xml:id="D_000070-009-000_p006"
+                facs="#D_000070-009-000-facs001-l003-p006"
+                n="6"/>
+            <lb xml:id="uuid_c01108b0-7a97-461d-9dc6-f40046c000b5"/>Eingriff in Privatrechte
+                durch eine Unterlassungsklage vorzubeugen,<lb xml:id="uuid_3cc2540c-0ee2-42dc-84c2-4d10a7c28fda"/>solange dieser nicht
+                wenigstens ins Stadium einer Vorbereitungs<lb break="no" xml:id="uuid_8ed130d4-cb81-49f8-ac1c-ac5f63a838f9"/>handlung getreten ist,
+                umsoweniger aber im vorliegenden Falle, wo<lb xml:id="uuid_430ee2c4-a06a-43de-8846-9f4afbc096dd"/>der Eingriff nicht einmal
+                konkretisiert ist, sondern ganz allgemein,<lb xml:id="uuid_d8197a80-b831-42b5-8dbb-b36af417cab7"/>bedingt und mehr der Drohung
+                selbst wegen als aus Absicht der<lb xml:id="uuid_10cb9b6f-8efd-4e49-9647-7fbabaef5f8d"/>Verwirklichung in Aussicht
+                gestellt wird. Gäbe es ein so weitge<lb break="no" xml:id="uuid_993aec5b-55a9-4b5f-b547-5dab4a5161a1"/>hendes Recht auf eine
+                Unterlassungsklage, so wären die ausführ<lb break="no" xml:id="uuid_0921a235-edb2-4ed7-88b9-d64e503888bb"/>lichen Bestimmungen des
+                unlauteren Wettbewerbsgesetzes überflüssig,<lb xml:id="uuid_7b73140c-51fc-4dd9-98d7-c559ca063c10"/>ferner auch die
+                Sicherungsbestimmungen des Urheberrechtgesetzes und<lb xml:id="uuid_fec6d7ba-6522-4d50-ab46-de9d95907b46"/>die Bestimmungen der
+                Exekutionsordnung über einstweilige Verfügungen.<lb xml:id="uuid_c0ca48c6-cd4f-460c-9ca2-cc56c87b238d"/>Besonders aus den letzteren
+                geht hervor, dass vorläufige Sicherungs<lb break="no" xml:id="uuid_ca44158a-0ff8-48b9-a748-f5689ace886a"/>massregeln nur dann
+                angewendet werden sollen, wenn ohne sie die<lb xml:id="uuid_6fd17bdd-e9e0-4130-a3bc-4a55a13c92a3"/>Verwirklichung des
+                Anspruches vereitelt oder erheblich erschwert<lb xml:id="uuid_07aeca15-cd93-46fe-ad32-f19b59b14dc5"/>würde. Das hat aber der <rs ref="#11910" type="person">Kläger</rs> nicht einmal behauptet. Die vorlie<lb break="no" xml:id="uuid_fcec5432-b2df-4d75-87df-9a52b0798f59"/>gende <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-005-000.xml"
+                type="work"
+                subtype="legal-doc">Unterlassungsklage</rs> würde also auf ein Vorwegnehmen des
+                    Pro<lb break="no" xml:id="uuid_e8bbad55-d514-4da9-a912-b3fda2680e32"/>zesses vor
+                Setzung des Tatbestandes hinauslaufen. </p>
+         <p xml:id="uuid_7ed99c33-f39d-4aef-88d3-d37f80e5ef8c">
+            <lb xml:id="uuid_a352c6b5-35e8-42fb-9d97-118bce8a91f7"/>Ich hoffe, dass Ihnen das
+                Mitgeteilte zur<lb xml:id="uuid_bf2a0e47-952d-4dd4-8bed-6f34c10b181e"/>Beurteilung
+                der Rechtssache nach Österreichischem Recht genügt. Wenn<lb xml:id="uuid_cce01c34-a6ea-4dbc-a5a8-6841526cae0c"/>nicht, bin ich zu weiteren
+                Auskünften stets gerne bereit. Wenn die<lb xml:id="uuid_5230f5b2-c695-4cb8-be2e-ddfda011c14f"/>Zeit, in der Sie die
+                Erstattung verlangt haben, nicht zu kurz ge<lb break="no" xml:id="uuid_aed2a35d-5fcc-4f88-beb8-644824ec33b3"/>wesen wäre, hätte ich Ihnen
+                die zur Anwendung kommenden Paragraphen<lb xml:id="uuid_a50099a2-104c-40d0-8887-8d229184a36d"/>wörtlich zitiert. Auf
+                Verlangen werde ich sie nachtragen. </p>
+         <p xml:id="uuid_82858f26-1dd6-4d08-a0d1-977f67d076ea">
+            <lb xml:id="uuid_e40b4ce0-30f8-4f75-8c87-16454e2edda7"/>Ich zeichne in kollegialer
+                    Hochachtung<lb xml:id="uuid_73f95674-e774-4f8d-9ef4-7296b72efbe9"/>Ihr ergebener
+            </p>
+      </body>
+   </text>
+</TEI>

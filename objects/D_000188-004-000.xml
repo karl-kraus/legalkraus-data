@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-005-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-003-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000188-004-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Altesse A.G. an Samek</title>
+            <editor ref="#GP">Gregor Pirgie</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000188-004-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4531</idno>
+            <idno subtype="transkribus" type="ID">362692</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000188" type="collection">Karl
+                    Kraus ca. Altesse A.G.</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000188-004-000-facs001" xml:id="D_000188-004-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000188-004-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1933-12-06">6. Dezember 1933
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#38905">„Altesse“ | Aktiengesellschaft</orgName>
+               <address>
+                  <street corresp="#827">Rennweg 79–81</street>
+                  <settlement ref="#53">Wien, | III.</settlement>
+               </address>
+               <date when-iso="1933-12-06">6. Dezember 1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Hochwohlgeboren | Herrn Dr. Oskar Samek, |
+                        Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse 18</street>
+                  <settlement ref="#64">Wien, XIV.</settlement>
+               </address>
+               <date when-iso="1933-12-11"/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Karl Kraus - Olleschau Zigaretten-|papierfabrik</note>
+               <note type="dictation">Dr.H/Rab/3.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000188-004-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000188-004-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-10-10T10:28:01.475Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-10T20:49:11.075Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 362692. </change>
+         <change type="intertexts" when-iso="2021-06-29" who="#GP"/>
+         <change type="typography" when-iso="2021-06-12" who="#GP"/>
+         <change type="references" when-iso="2021-06-15" who="#GP"/>
+         <change type="structure" when-iso="2021-06-10" who="#GP"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000188-004-000-facs001">
+      <surfaceGrp xml:id="D_000188-004-000-facs001-l001">
+         <surface xml:id="D_000188-004-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544384/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000188-004-000-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544385/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544386/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544387/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000188-004-000_p001"
+             facs="#D_000188-004-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_9b73e6aa-1239-42a8-841c-6c4c8c0de702">
+            <lb xml:id="uuid_fd66350f-c78c-442d-9200-9dcd04707bc0"/>In vorläufiger Beantwortung
+                Ihres geschätzten <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-003-000"
+                type="work"
+                subtype="legal-doc">Schreibens</rs>
+            <lb xml:id="uuid_33e1d2bc-7981-4c39-a959-1a62754c42e2"/>vom 30. November 1933, Ihr
+                Zeichen Dr.Sa/Ma., in der rubrizierten<lb xml:id="uuid_86a6ad53-25fc-40cf-a25e-6b9727ff0eba"/>Angelegenheit, welches bei
+                uns am 4. Dezember 1933 eingelangt ist,<lb xml:id="uuid_a749a326-36bc-485d-b892-294896c25662"/>beehren wir uns Ihnen
+                mitzuteilen, dass wir es der Firma <rs ref="#37151" type="institution">Geographi<lb break="no" xml:id="uuid_bf20df5e-5ae7-4d2a-8be8-393b6907239a"/>sches
+                    Institut Ed. Hölzel</rs>, <rs ref="#56371" subtype="address" type="place">Wien,
+                    IV., Mommsengasse 5</rs>, welche die Bilder<lb xml:id="uuid_a9ce614e-e12f-418b-b86e-148f206a7c7a"/>unserer Sammlung „<rs ref="#56404" type="work" subtype="pmb">Olleschauer Lesezeichen, Biographien
+                        bedeutender<lb xml:id="uuid_e122bf18-11e8-4bb4-be65-0e5609df752b"/>Dichter
+                    und Schriftsteller,</rs>“ über unsere Bestellung hergestellt<lb xml:id="uuid_82248e8f-3e2b-43a0-b877-096dc45bf7ae"/>hat, anlässlich der
+                Bestellung dieser Bilder überlassen haben, die<lb xml:id="uuid_dd7b8e13-497f-492f-a70a-d3fa41416a05"/>Zustimmung jener Personen,
+                deren Bilder und Biographie in der gegen<lb break="no" xml:id="uuid_b81b2466-4410-4c27-8423-451e695ae239"/>ständlichen Sammlung
+                aufgenommen werden, nach Massgabe der diesbe<lb break="no" xml:id="uuid_e570bbb7-c750-4e2a-9c3e-a8cfa6d1d210"/>züglich bestehenden
+                gesetzlichen Bestimmungen einzuholen, bezw. für<lb xml:id="uuid_2b2207b9-e10a-40dc-b667-ec2a50aacea5"/>den Fall, als solche
+                Zustimmungen von diesen Personen bereits Dritten<lb xml:id="uuid_5ac10a97-74dc-4c8a-bd6a-fc1bcd42460e"/>erteilt worden sind, die
+                Zustimmung dieser Dritten zu erwirken. </p>
+         <p xml:id="uuid_61bfc2e9-166b-47fd-bb97-3a32d6bea632">
+            <lb xml:id="uuid_87aa07e4-d732-452f-b3dc-fa7912436f13"/>Bevor wir daher Ihr eingangs
+                erwähntes Schreiben merito<lb break="no" xml:id="uuid_837e2994-82dd-4740-81f3-33bb754be70f"/>risch erledigen können, ist
+                es erforderlich, dass wir den Inhalt<lb xml:id="uuid_3c968d5f-55fb-4bcf-8390-73f61e6c2704"/>Ihres Schreibens der
+                genannten <rs ref="#37151" type="institution">Firma</rs> mitteilen, damit diese in
+                    die<lb xml:id="uuid_c7fc1c27-a7bb-4aeb-a49c-e0c9d321616a"/>Lage versetzt wird,
+                uns mitzuteilen, ob und inwieweit sie das von<lb xml:id="uuid_34a4f183-1f46-443f-9eb3-b25f3060ab90"/>Ihnen beanständete
+                Vervielfältigungsrecht erworben hat. </p>
+         <pb xml:id="D_000188-004-000_p002"
+             facs="#D_000188-004-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_5a113d98-a717-4054-a5d5-90421ac3eb9b">
+            <lb xml:id="uuid_da0d102f-89f7-48d3-8c3c-c7eaa88aa219"/>Da wir erst nach Erhalt der
+                Antwort der <rs ref="#37151" type="institution">Firma Ed. Hölzel</rs> in<lb xml:id="uuid_2cbb453d-73d3-472e-91c3-f94bd3c81317"/>der Lage sein werden, die
+                Rechtsgrundlage im gegenständlichen Falle<lb xml:id="uuid_a4c92d33-0931-4536-b28a-129622aba45f"/>zu prüfen, werden wir Ihr
+                eingangs erwähntes Schreiben erst in diesem<lb xml:id="uuid_6cb1ec91-0c86-44b6-b00f-641b39f68d3a"/>Zeitpunkte einer
+                meritorischen Erledigung zuführen. </p>
+         <p xml:id="uuid_c237a2d4-e1c4-449a-987c-4981adb0d069">
+            <lb xml:id="uuid_3e8d877f-9804-480e-b10c-5c9636cca3a7"/>Wir wären Ihnen sehr zu Dank
+                verbunden, wenn Sie daher die<lb xml:id="uuid_9518812f-f0e2-4b56-9c65-e3b0d7223110"/>Einleitung gerichtlicher Schritte gegen uns bis zu jenem Zeit<lb break="no" xml:id="uuid_9420f51c-132c-42a3-9086-89c6261dd36d"/>punkte verschieben würden,
+                in welchem wir Ihnen unsere Rechtsauf<lb break="no" xml:id="uuid_0c2dd87d-ffbe-4d2a-83f7-b9bc187bf2e9"/>fassung in meritorischer
+                Hinsicht mitgeteilt haben werden. </p>
+         <p xml:id="uuid_8c8a38b0-355f-42eb-aa34-a0b5e931bb45">
+            <lb xml:id="uuid_f2cc8761-3be2-45a5-a873-fe71b64d277d"/>Wir zeichnen mit dem Ausdrucke
+               unserer<lb xml:id="uuid_273e8631-0d85-4a31-8834-ce14377862cb"/>vorzüglichsten
+               Hochachtung<lb xml:id="uuid_47f45b85-064c-4f1f-bd71-6b9312595271"/><rs type="person"
+               ref="#51591">Dr. Hoynigg</rs></p>
+         <p xml:id="uuid_b051b5a4-613f-407d-b065-251044987ae4">
+            <lb xml:id="uuid_73e3fb06-ceb1-4fa7-9b9c-af1d54816283"/>PS. Einen <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000188-004-000" type="work"
+               subtype="legal-doc">Durchschlag</rs> unseres Schreibens<lb
+               xml:id="uuid_d0e1da8c-0639-4c68-aa76-272271e12222"/>an die <rs ref="#37151"
+               type="institution">Firma Ed. Hölzel</rs> vom 6. Dezember<lb
+               xml:id="uuid_663ab5f1-8b8f-429c-b3f6-7f61c8194ee0"/>1933 legen wir mit dem Ersuchen
+            bei, von<lb xml:id="uuid_6936237c-d1ca-47e1-a784-b51e8fda52de"/>dem Inhalte dieser
+            Beilage gefl. Kenntnis<lb xml:id="uuid_50da82cf-d547-47e7-8def-ad9e3bf11ad1"/>nehmen zu
+               wollen.<lb xml:id="uuid_be3641ea-28ba-4e9e-bc52-b9a7d1709726"/><rs type="person"
+               ref="#51591">D.O.</rs>
+         </p>
+         <p xml:id="uuid_ba264026-126f-446f-b8f0-63f1ade3ebf2">
+            <lb xml:id="uuid_9a37c3a3-e29e-414d-99c2-48d4e72579e7"/><hi rend="underlined">Rekommandiert.</hi>
+         </p>
+         <p xml:id="uuid_ec1e039c-e122-45ba-b4b3-ef6422cfae35">
+            <lb xml:id="uuid_0a690b44-257d-4c86-905c-90c158a29615"/><note type="paratext"
+               resp="law-firm"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37747"
+                  type="institution">Olleschau</rs>
+               <lb xml:id="uuid_b3378ace-7fd2-436b-b80f-f00cb7ad37d0"/>11. DEZ. 1933</note></p>
+      </body>
+   </text>
+</TEI>

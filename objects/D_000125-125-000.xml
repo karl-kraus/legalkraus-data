@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-126-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-124-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000125-125-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Richard Pressburger an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000125-125-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3490</idno>
+            <idno subtype="transkribus" type="ID">296579</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000125" type="collection">Karl
+                    Kraus ca. Frankfurter Städtisches Schauspielhaus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000125-125-000-facs001" xml:id="D_000125-125-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000125-125-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#39338">Dr. RICHARD PRESSBURGER</persName>
+               <address>
+                  <street corresp="501">KÄRNTNERRING Nr. 12</street>
+                  <settlement ref="#51">WIEN, I.</settlement>
+               </address>
+               <date when-iso="1933-01-27">27. Jänner 1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Dr. Oskar Samek, Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1933-01-27">27. Januar 1933
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000125-125-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000125-125-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-08-05" who="#JK"/>
+         <change type="typography" when-iso="2021-08-05" who="#JK"/>
+         <change type="references" when-iso="2021-08-05" who="#JK"/>
+         <change type="structure" when-iso="2021-08-05" who="#JK"/>
+         <change resp="#IB" when-iso="2021-04-12T09:11:16.837Z">created by API</change>
+         <change resp="#IB" when-iso="2021-04-12T09:33:15.878Z">Replaced Text with Transcription
+                of Transkribus Document 296579. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000125-125-000-facs001">
+      <surfaceGrp xml:id="D_000125-125-000-facs001-l001">
+         <surface type="recto" xml:id="D_000125-125-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557403/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000125-125-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557404/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000125-125-000_p001"
+             facs="#D_000125-125-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_ccca5b51-36fc-458d-ae48-e4935a8ba14b">
+            <lb xml:id="uuid_ed9ff828-2820-4998-bfd5-6c8552984279"/>Die gefertigte Kanzlei
+            übermittelt in Angelegenheit<lb xml:id="uuid_40b9c533-ab51-44dc-98aa-750b9b89ee74"/><rs
+               ref="#43724" type="institution">„Die Fackel“</rs> ca. <rs ref="#34987"
+               type="institution">Städt. Bühnen</rs>, <rs ref="#146" type="place">Frankfurt a/M</rs>
+            die gerichtlich be<lb break="no" xml:id="uuid_2860d2d6-732c-4c74-9b7a-cd2e2cbf874f"
+            />stimmten Kosten des Inzidenzstreites per S 114.78 und bittet um<lb
+               xml:id="uuid_8da4c85a-2bf6-4d3e-b3c5-d7cf2887ad67"/>Bestätigung. </p>
+         <p xml:id="uuid_e432dd03-ab25-4d48-87fc-7e40fccf2083">
+            <lb xml:id="uuid_403ffb3b-461a-4c35-8cab-dd5237bc2834"/>Hochachtungsvoll<lb xml:id="uuid_155e3ea3-b77b-4462-bb31-3c6ad956de34"/>für die Kanzlei<lb xml:id="uuid_319c3fa0-88ce-4072-b079-237a042acea6"/>[<rs type="person">Unterschrift</rs>] </p>
+         <pb xml:id="D_000125-125-000_p002"
+             facs="#D_000125-125-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_05bea178-e25f-4bdc-a2df-4cbc760faad7">
+            <lb xml:id="uuid_ef2db7fd-988c-4c04-8591-4e6bcdcacc0f"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#34987" type="institution">städt. Frankf.<lb xml:id="uuid_9d274045-c50b-4ee8-a058-0884dd60c408"/>Bühnen</rs></note>
+         </p>
+      </body>
+   </text>
+</TEI>

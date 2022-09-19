@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-012-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-010-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000173-011-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Abschrift des Telegramms Deutsches Theater Prag an Verlag Die Fackel</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000173-011-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4276</idno>
+            <idno subtype="transkribus" type="ID">312387</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000173" type="collection">Briefwechsel zwischen dem Verlag Die Fackel, dem Verlag Universal Edition und
+                    dem Deutschen Theater Prag bezüglich Aufführungen von Offenbachstücken in der
+                    Kraus’schen Bearbeitung und Verlagsproblemen</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000173-011-000-facs001" xml:id="D_000173-011-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000173-011-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+                  
+                  <ab type="materiality">
+                     <objectType source="D_000173-011-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP">Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/55400"/>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#652"/>
+               </address>
+               <date/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#43724"/>
+               <address>
+                  <street corresp="#50496"/>
+                  <settlement ref="#53"/>
+               </address>
+               <date when-iso="1932-02-09">9.II.1932</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="received" type="sortDate" when-iso="1932-02-09">9. Februar 1932
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000173-011-000-wit01">Telegramm</term>
+            </keywords>
+            <classCode source="D_000173-011-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.TGR">D.K.TGR</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-12-07" who="#JK"/>
+         <change type="typography" when-iso="2021-12-07" who="#JK"/>
+         <change type="references" when-iso="2021-12-07" who="#JK"/>
+         <change type="structure" when-iso="2021-12-07" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-07" who="#JK"/>
+         <change when-iso="2020-10-09T14:15:21.479Z" who="#IB">created by API</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000173-011-000-facs001">
+      <surfaceGrp xml:id="D_000173-011-000-facs001-l001">
+         <surface type="recto" xml:id="D_000173-011-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543383/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000173-011-000_p001"
+             facs="#D_000173-011-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_912dcb4d-b444-438d-89f0-d7e45d35d02a">
+            <lb xml:id="uuid_495fa740-0003-4c76-b534-4ef17cdc1fea"/>Abschrift des Telegramms
+                (eingelangt am 9.II.1932) </p>
+         <p xml:id="uuid_60c54eb3-006f-4b8a-b256-ad25aafe86ef">
+            <lb xml:id="uuid_d65541fe-0fcf-49d7-971a-7b7b9f81dd8f"/>sind <rs ref="#11988" type="person">Herrn Kraus</rs> für Entgegenkommen herzlichst<lb xml:id="uuid_a1492e4e-709c-4a68-b7dd-9c4f58712cba"/>dankbar und bitten also
+                Hauptproben zwölften und<lb xml:id="uuid_136e6878-8857-4fe6-90af-d9c7fd0b5b53"/>dreizehnten beizuwohnen an diesen Tagen auch<lb xml:id="uuid_0175354c-5f3b-4798-a60c-7b5d4e90318a"/>Dialogarbeit mit Darstellern
+                möglich erbitten Zusage<lb xml:id="uuid_733b1749-587a-4477-b042-ab2a6cf9e52b"/>und
+                Nachdruckserlaubnis im Programmheft </p>
+         <p xml:id="uuid_039f8573-97e0-4bc5-9434-22dc7950281d">
+            <lb xml:id="uuid_bccfe23a-d119-46bb-b10e-b0e274b06125"/><rs ref="#37080" type="institution">Deutsches Theater</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

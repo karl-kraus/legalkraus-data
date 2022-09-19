@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    next="https://id.acdh.oeaw.ac.at/legalkraus/D_000108-001-001.xml"
+    prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000107-001-000.xml"
+    xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000108-001-000.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Emmerich Békessy an Kraus</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2022</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+                </availability>
+                <idno subtype="legalkraus" type="URL"
+                    >https://id.acdh.oeaw.ac.at/legalkraus/D_000108-001-000.xml</idno>
+                <idno subtype="krausonline" type="URL"
+                    >http://www.kraus.wienbibliothek.at/node/3139</idno>
+                <idno subtype="transkribus" type="ID">512975</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000108" type="collection"
+                    >Emmerich Békessy ca. Karl Kraus</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness facs="#D_000108-001-000-facs001" xml:id="D_000108-001-000-wit01"/>
+                </listWit>
+                <msDesc>
+                    <physDesc>
+                        <ab type="materiality">
+                            <objectType source="D_000108-001-000-wit01"
+                                ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSN"
+                                >Typoskript mit handschriftlichen Annotationen</objectType>
+                        </ab>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date subtype="produced" type="sortDate" when-iso="1928-01-28">28. Januar
+                    1928</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#37843">Emmerich Békessy</persName>
+                    <address>
+                        <street corresp=""/>
+                        <settlement ref="#43471">Budapest</settlement>
+                    </address>
+                    <date when-iso="1928-01-28">28. Jänner 1928</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#11988">den | verantwortlichen Redakteur der periodischen
+                        Druckschrift | „DIE FACKEL“ Herrn Karl Kraus</persName>
+                    <address>
+                        <street corresp="#50496">Hintere Zollamtsstrasse 3</street>
+                        <settlement ref="#53">Wien III.</settlement>
+                    </address>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+            <handNotes>
+                <handNote xml:id="D_000108-001-000-hand01" source="#D_000108-001-000-wit01"
+                    scribeRef="#" medium="grey-pencil" cert="low" resp="#IL"/>
+            </handNotes>
+            <textClass>
+                <keywords>
+                    <term source="D_000108-001-000-wit01">Brief</term>
+                </keywords>
+                <classCode source="D_000108-001-000-wit01"
+                    scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF"
+                    >D.K.BRF</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="done">
+            <change when-iso="2020-07-21T13:51:46.024Z" who="#IB">created by API</change>
+            <change resp="#LU" when-iso="2021-07-12">Replaced Text with Transcription of Transkribus
+                Document 512975. </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000108-001-000-facs001">
+        <surfaceGrp xml:id="D_000108-001-000-facs001-l001">
+            <surface xml:id="D_000108-001-000-facs001-l001-p001" type="recto">
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555603/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000108-001-000-facs001-l002">
+            <surface xml:id="D_000108-001-000-facs001-l002-p002" type="recto">
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555604/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000108-001-000-facs001-l003">
+            <surface xml:id="D_000108-001-000-facs001-l003-p003" type="recto">
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555607/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000108-001-000-facs001-l004">
+            <surface xml:id="D_000108-001-000-facs001-l004-p004" type="recto">
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555609/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000108-001-000-facs001-l005">
+            <surface xml:id="D_000108-001-000-facs001-l005-p005" type="recto">
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555611/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000108-001-000-facs001-l006">
+            <surface xml:id="D_000108-001-000-facs001-l006-p006" type="recto">
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555613/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000108-001-000-facs001-l007">
+            <surface xml:id="D_000108-001-000-facs001-l007-p007" type="recto">
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555615/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000108-001-000-facs001-l008">
+            <surface xml:id="D_000108-001-000-facs001-l008-p008" type="recto">
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555617/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000108-001-000-facs001-l009">
+            <surface xml:id="D_000108-001-000-facs001-l009-p009" type="recto">
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555619/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000108-001-000-facs001-l010">
+            <surface xml:id="D_000108-001-000-facs001-l010-p010" type="recto">
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555621/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000108-001-000-facs001-l011">
+            <surface xml:id="D_000108-001-000-facs001-l011-p011" type="recto">
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555623/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000108-001-000-facs001-l012">
+            <surface xml:id="D_000108-001-000-facs001-l012-p012" type="recto">
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555625/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000108-001-000-facs001-l013">
+            <surface xml:id="D_000108-001-000-facs001-l013-p013" type="recto">
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555627/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000108-001-000-facs001-l014">
+            <surface xml:id="D_000108-001-000-facs001-l014-p014" type="recto">
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555629/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000108-001-000-facs001-l015">
+            <surface xml:id="D_000108-001-000-facs001-l015-p015" type="recto">
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555631/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000108-001-000-facs001-l016">
+            <surface xml:id="D_000108-001-000-facs001-l016-p016" type="recto">
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555633/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb xml:id="D_000108-001-000_p001" facs="#D_000108-001-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_5d529b7d-ceda-4fb3-8524-60198f2b53f8">
+                <lb xml:id="uuid_4efb03bc-fdd6-4d8d-8445-68b433b2ca8e"/>Gemäss <rs type="law"
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45"
+                    >§ 23 des Pressgesetzes</rs> verlange ich die<lb
+                    xml:id="uuid_44e0036f-26bb-4915-a316-e32833b3ff4e"/>nachstehende Berichtigung
+                der in den <rs type="work" ref="https://fackel.oeaw.ac.at/f/771,0u1"
+                    subtype="fackel">Nummern 771–776 der „Fackel“</rs>
+                <lb xml:id="uuid_edc18e72-29a4-47c2-aab3-d646236059f5"/>erschienenen, mich
+                betreffenden unwahren Tatsachen und zwar ohne<lb
+                    xml:id="uuid_d6bf20ba-add6-47bd-b742-40f62119d2a8"/>Einschaltungen und
+                Weglassungen in der nach Einlangen dieser Be<lb
+                    xml:id="uuid_ce7ae74d-bc58-4210-b5d2-d17a4f198c6e" break="no"/>richtigung
+                erscheinenden ersten oder zweiten Nummer, in demselben<lb
+                    xml:id="uuid_d61de8ca-0c36-4046-b0a9-5a016adb3266"/>Teile der <rs type="work"
+                    ref="#41244" subtype="pmb">Zeitung</rs> und in der gleichen Schrift wie die zu
+                    berich<lb xml:id="uuid_89ca3fda-0f68-4942-b43f-a31d694990ea" break="no"/>tigende
+                Mitteilung:</p>
+            <p xml:id="uuid_45286acc-c4eb-467c-b16d-76326dfa60f8"><lb
+                    xml:id="uuid_91b0c72f-5c5e-4fa7-ba94-62be7244d6fb"/>Sie schreiben auf <rs
+                    type="work"
+                    ref="https://fackel.oeaw.ac.at/f/771,001"
+                    subtype="fackel">Seite 1, achte Zeile</rs> von unten:<lb
+                    xml:id="uuid_66c7d79a-329a-4850-8425-f43b8b6d1fbd"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">A.Z</note>„<quote
+                    xml:id="uuid_87cfc777-531c-4831-8a1c-c86fd8245f45"
+                    source="https://fackel.oeaw.ac.at/f/771,001">Unverkennbar ist der <rs
+                        type="person" ref="#24444">Polizeipräsident</rs> erpresserischen
+                        Drohungen<lb xml:id="uuid_fe86d682-60c0-48e0-a0ce-57412ff8a97b"/>des <rs
+                        type="person" ref="#37843">Békessy</rs> erlegen</quote>“.</p>
+            <p xml:id="uuid_b0e05aec-3aaf-464d-91fe-993fa591cea6">
+                <lb xml:id="uuid_4f5c1e27-c3f9-4220-a015-7834d11e9db8"/>Diese Behauptung ist
+                unwahr.</p>
+            <p xml:id="uuid_4ebb1518-d51b-49cb-89c4-6192a67f50e6">
+                <lb xml:id="uuid_8a840cc0-fe5a-4456-8893-0ba52de22e50"/>Wahr ist, dass ich den <rs
+                    type="person" ref="#24444">Polizeipräsidenten</rs> niemals<lb
+                    xml:id="uuid_28fe1dad-b3e2-4477-b1fd-8aaaf1660554"/>und auf keine Art bedroht
+                habe. </p>
+            <p xml:id="uuid_63fd5066-e338-48ec-ad0f-127180098e1e">
+                <lb xml:id="uuid_854bf550-33eb-4136-9f92-d7e32285725c"/>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,035" subtype="fackel">Seite 35,
+                    dreizehnte Zeile</rs> von<lb xml:id="uuid_3d9804c4-4818-4c2c-8a42-24b08a7c297a"
+                    />unten:<lb xml:id="uuid_41ba54e9-28c5-44f5-9a20-5ec5901feb79"/>„<quote
+                    xml:id="uuid_282b4723-8e87-476f-91aa-da6ff35d4381"
+                    source="https://fackel.oeaw.ac.at/f/771,035">Wie er sich’s bei der Budapester
+                    Behörde gerichtet hat, wird zu<lb
+                        xml:id="uuid_1ddc1e89-e20d-43af-ac44-d6c56a0e9eef"/>ersehen sein.</quote>“ </p>
+            <p xml:id="uuid_6f7b5f0e-f4bb-4097-a469-80b1af259113">
+                <lb xml:id="uuid_1ea95766-6ca7-49a0-805b-dbb9a5473d2f"/>Diese Behauptung ist
+                unwahr.</p>
+            <p xml:id="uuid_6104fe5d-46ec-4226-a7ae-2266ea41cd2e">
+                <lb xml:id="uuid_50626c34-9836-4dbb-8152-161ca7b56509"/>Wahr ist, dass ich mir bei
+                den Budapester Behörden<lb xml:id="uuid_9df528b9-7c37-4e08-b773-25d8029086a2"
+                />nichts gerichtet habe.</p>
+            <pb xml:id="D_000108-001-000_p002" facs="#D_000108-001-000-facs001-l002-p002" n="2"/>
+            <p xml:id="uuid_8044767a-221c-48c9-986e-35801225a06d">
+                <lb xml:id="uuid_3ff3ceff-10d4-42d8-8ada-abb33d7a424f"/>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,036" subtype="fackel">Seite 36,
+                    zwölfte Zeile</rs> von oben:<lb
+                    xml:id="uuid_9059844f-5a9c-40c1-9ba9-25bda40aacb3"/>„<quote
+                    xml:id="uuid_f2f39983-7237-476b-b96f-6560b3d25d39"
+                    source="https://fackel.oeaw.ac.at/f/771,036">Meine Beschuldigung geht dahin,
+                    dass Herr <rs type="person" ref="#24444">Schober</rs> in den Tagen,<lb
+                        xml:id="uuid_18a13799-1730-4565-9fb4-75cea953ed98"/>da die Aktion gegen den
+                        <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/37843">Erpresser
+                        Grosswiens</rs> in seinem mir kund<lb
+                        xml:id="uuid_1d24c62a-5f28-4ee0-baa0-b9175528d32d" break="no"/>getanen
+                    Sinne, in der von mir gewiesenen, von ihm geförderten<lb
+                        xml:id="uuid_ceea7c29-af17-4108-8f85-1ae1fa245f49"/>Richtung, ihrem
+                    wohltätigen Abschluss zugeführt werden sollte,<lb
+                        xml:id="uuid_a8cce473-983f-449a-8e0d-434a9c5edb1d"/>beeinflusst durch eine
+                    lange fortwirkende Erpressung – die nicht<lb
+                        xml:id="uuid_f71a70a7-7a21-47bf-8021-d66298065177"/>auf seine Person
+                    abgezielt war – dem <rs type="person"
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/37843">Erpresser</rs> für eine
+                        anhängige<lb xml:id="uuid_d1cd2759-dcc3-41a8-9068-6e99c4b1b0c8"
+                    />Gerichtssache und so für sein weiteres Wirken Vorschub geleistet<lb
+                        xml:id="uuid_305855c1-a769-45c2-bec8-04fb3f8e9fe1"/>hat.</quote>“ </p>
+            <p xml:id="uuid_be382eca-9f84-420f-9a2e-b8d35def7c55">
+                <lb xml:id="uuid_bd14becf-c55e-47ac-9425-e18ed59c0291"/>Es ist unwahr, dass Herr <rs
+                    type="person" ref="#24444">Schober</rs> mir für eine anhängige<lb
+                    xml:id="uuid_9bb8db94-d170-45dd-ab24-4c7a56cb76a8"/>Gerichtssache und so für
+                mein weiteres Wirken, beeinflusst durch<lb
+                    xml:id="uuid_e3d0d035-3c82-481f-a2a6-b643ec6d509e"/>eine lange fortwirkende
+                Erpressung, die nicht auf seine Person<lb
+                    xml:id="uuid_ae9261c2-7427-447c-8b14-634d2089f0c7"/>abgezielt war, Vorschub
+                geleistet hat.</p>
+            <p xml:id="uuid_dbacedc3-594d-4e84-8a2e-87a5dd87b76f">
+                <lb xml:id="uuid_ccc2f77d-75cc-4121-8547-c710a4845e41"/>Wahr ist, dass ich Herrn <rs
+                    type="person" ref="#24444">Schober</rs> in keiner Weise beein<lb
+                    xml:id="uuid_ce440c8e-9a0f-429d-a7fa-839a6631f477" break="no"/>flusst habe und
+                er mir keinen Vorschub geleistet hat. </p>
+            <p xml:id="uuid_2fbcf0d0-1ecb-4d09-b4d6-b502109d81fe">
+                <lb xml:id="uuid_486cc6e0-035c-452a-8269-35b8371de686"/>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,039" subtype="fackel">Seite 39,
+                    zehnte Zeile</rs> von unten:<lb
+                    xml:id="uuid_44af1c51-14cf-4258-b74c-5e285ca554f5"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Pol. Dir.</note>„<quote
+                    xml:id="uuid_0bfeb2a7-3db2-4694-abff-afd9126d41a0"
+                    source="https://fackel.oeaw.ac.at/f/771,039">Die Polizeidirektion, die schon als
+                        <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37843" type="person">Emmerich
+                        Békessy</rs> bei der<lb xml:id="uuid_74f95a41-0d68-4a9e-b4f8-f2ab1a5f8241"
+                    />burgenländischen Regierung um Einbürgerung angesucht hatte, dieser<lb
+                        xml:id="uuid_fc4fd90b-bd17-4c0e-acd0-2da714b77820"/>Stelle eine aufrechte
+                    Erledigung dieses Ansuchens abgeraten hatte,<lb
+                        xml:id="uuid_59729661-c20f-46e4-8398-7ac461da03cb"/>nahm auf Grund der ihr
+                    zugekommenen Nachrichten, dass sich <rs type="person" ref="#37843">Békessy</rs>
+                    <lb xml:id="uuid_b185fec0-2f30-45cf-9b19-397d40090b45"/>auch um das Heimatsrecht
+                    in <rs type="place" ref="#50">Wien</rs> bewerbe, mit Rücksicht auf das<lb
+                        xml:id="uuid_c087a042-f1fc-4396-91a7-e4133f8371bf"/>gegen <rs type="person"
+                        ref="#37843">Békessy</rs> vorliegende Material dessen Abschaffung aus
+                        Österreich<lb xml:id="uuid_4acc5312-31ce-449f-8029-a669522acb83"/>in
+                    Aussicht.</quote>“ </p>
+            <p xml:id="uuid_3efe1997-84be-405b-80e2-abcc1d0c56d7">
+                <lb xml:id="uuid_0205a02c-86dd-425d-bfe2-93c832b910da"/>Diese Behauptung ist
+                unwahr.</p>
+            <p xml:id="uuid_2b8a5c24-1cb7-4a16-b5e2-43c638add2a2">
+                <lb xml:id="uuid_423aed97-5d37-4cf9-9d67-0f73f38d2700"/>Wahr ist, dass die <rs
+                    type="institution" ref="#36865">Polizeidirektion</rs> am 15. Mai 1923, als<lb
+                    xml:id="uuid_e1ff0a6d-c33c-4be8-88ea-8be74b662d37"/>ich mich um das Heimatrecht
+                in <rs type="place" ref="#50">Wien</rs> beworben habe, folgendes Zeug<lb
+                    xml:id="uuid_90dc4e56-c6d0-4524-a4e1-938214b7730c" break="no"/>nis zu den Akten
+                gegeben hat: „<quote xml:id="uuid_b6a0f835-348b-470c-abf3-1d79de775c4e" source=""
+                    >Die <rs type="institution" ref="#36865">Polizeidirektion</rs> bestätigt dem<lb
+                        xml:id="uuid_6e32d94b-d3d1-40d7-8b3e-7b5424a57bc2"/>Herrn <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/37843" type="person">Emmerich
+                        Békessy</rs> zwecks Erlangung der oesterreichischen Staats<lb
+                        xml:id="uuid_87198c1c-1660-4bfd-b101-c8b5932af569" break="no"/>bürgerschaft,
+                    dass wider denselben in moralischer und staatsbürger-<pb
+                        xml:id="D_000108-001-000_p003" facs="#D_000108-001-000-facs001-l003-p003"
+                        n="3"/>
+                    <lb xml:id="uuid_6c890f90-545a-4c70-803b-d33c27d560a7"/>licher Hinsicht
+                    Nachteiliges nicht vorgemerkt ist. <rs type="place" ref="#50">Wien</rs>, am 15.
+                        Mai<lb xml:id="uuid_e57a0154-2d1b-4d4f-a35c-b184c539a8c5"/>1923. <rs
+                        type="institution" ref="#36865">Polizeidirektion Wien</rs>. Unleserliche
+                    Unterschrift.</quote>“</p>
+            <p xml:id="uuid_c7ab4795-a2ac-4070-911e-124405074668">
+                <lb xml:id="uuid_b450e059-b8d4-43ad-9a2b-0482146eef62"/>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,040" subtype="fackel">Seite 40,
+                    21. Zeile</rs> von oben: </p>
+            <p xml:id="uuid_3cee68ec-005c-4908-b26b-2f86974cdb1a">
+                <lb xml:id="uuid_f7c5ea1c-7878-429e-9823-7f98017555ef"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Pol. Dir.</note>„<quote
+                    xml:id="uuid_0ce97deb-d4cd-4e39-87e2-65c9d36dce44"
+                    source="https://fackel.oeaw.ac.at/f/771,040">Weiters wurde in ihr mitgeteilt,
+                    dass <rs type="person" ref="#37843">Békessy</rs> ‚nach der Aeusserung<lb
+                        xml:id="uuid_7c8e69ea-d602-4ff6-ae51-3a7ccd88531b"/>weiter journalistischer
+                    Kreise in <rs type="place" ref="#50">Wien</rs> in seiner journalistischen<lb
+                        xml:id="uuid_ca7bcd20-2c52-45a0-8fb0-a9791a319ce1"/>Tätigkeit laut eigener
+                    Aussage eine ganz eigenartige Auffassung<lb
+                        xml:id="uuid_d3c0e994-01ab-4f9a-8bed-454d2a794a3a"/>vertrete, die von der
+                    Wiener Journalistik als mit den Standespflich<lb
+                        xml:id="uuid_b99c0dd2-0a9e-4bf6-bce6-bd1f672a63d4" break="no"/>ten eines
+                    Journalisten nicht vereinbar angesehen werde. Diese Auf<lb
+                        xml:id="uuid_fed1e6ce-efe4-487e-b235-37364c380a30" break="no"/>fassung geht
+                    dahin, dass ebenso wie der Rechtsanwalt oder der Arzt<lb
+                        xml:id="uuid_666d37eb-b7e0-4c46-bf0e-a0381b3d0881"/>von seinem Klienten,
+                    beziehungsweise Patienten für geleistete Dien<lb
+                        xml:id="uuid_41fa0619-fb9f-44d0-a98d-a897100c9a1b" break="no"/>ste honoriert
+                    werde, auch der Journalist auf Entlohnung von Seite<lb
+                        xml:id="uuid_b968cdc4-3a41-4b44-a77e-2f4e3b205fda"/>jener Personen Anspruch
+                    erheben könne, welchen er durch Publikatio<lb
+                        xml:id="uuid_bae32031-03ce-4aad-9f6f-574b5df9ae24" break="no"/>nen, aber
+                    auch durch Verschweigung von Mitteilungen Dienste erwiesen<lb
+                        xml:id="uuid_1f97be89-fe60-407c-8891-19bd3bf6e732"/>habe.‘</quote>“ </p>
+            <p xml:id="uuid_9096c470-82a3-4cfd-b867-bc5f720093ca">
+                <lb xml:id="uuid_f318e8a9-ce25-4829-96dc-b33e9cf0eb3b"/>Es ist unwahr, dass ich laut
+                eigener Aussage eine solche<lb xml:id="uuid_717e61dd-ee87-4c51-9104-6a1f786ce3f7"
+                />Auffassung vertrete. </p>
+            <p xml:id="uuid_2b13d7dd-c87a-455c-b299-47c7123c0142">
+                <lb xml:id="uuid_cafc81cf-9bc5-484e-82b4-0fe919c125f9"/>Wahr ist, dass ich
+                Derartiges über meine journalistische<lb
+                    xml:id="uuid_f441d681-b264-4df4-9d26-bb4c2309a693"/>Auffassung niemals ausgesagt
+                habe und eine solche Auffassung auch<lb
+                    xml:id="uuid_fe2af693-32fa-444a-8bb1-808ddcc01a70"/>nicht vertrete.</p>
+            <p xml:id="uuid_12c6168e-2563-4eef-9244-1c09dbb82659">
+                <lb xml:id="uuid_c45d07f8-27c5-4da9-8e1c-3944fe3bbe81"/>Sie veröffentlichen auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,041" subtype="fackel">Seite 41,
+                    dritte Zeile</rs> von oben:<lb
+                    xml:id="uuid_11cb88f5-cf06-416d-b38d-f19d2545bd3b"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Pol. Dir.</note>„<quote
+                    xml:id="uuid_3ea225e1-1783-466a-bfe6-06e661f1a1bf"
+                    source="https://fackel.oeaw.ac.at/f/771,041">Dem Beschwerdeführer wurde
+                    bedeutet, dass die <rs type="institution" ref="#36865">Polizeidirektion</rs><lb
+                        xml:id="uuid_eb19e97e-3bc2-46ab-8601-91adeeadf1fe"/>die dem <rs
+                        type="institution">Gericht</rs> seinerzeit erteilte Auskunft auf Grund des
+                    ihr vor<lb xml:id="uuid_da900b33-0d8c-4289-8a68-61a06140390b" break="no"
+                    />liegenden Aktenmaterials und dem Ergebnis der vertraulich gepfloge<lb
+                        xml:id="uuid_2a5ac5a8-4f1f-4794-be61-2733f1092146" break="no"/>nen
+                    Erhebungen erteilt habe. Es wäre der Partei freigestanden, bei<lb
+                        xml:id="uuid_7967dbc2-d546-4c9d-98f0-0b4392b39f29"/><rs type="institution"
+                        >Gericht</rs> gegen die Ausführungen der Leumundsnote zu protestieren.<lb
+                        xml:id="uuid_5f83f94e-e64f-4eb4-a1d2-e584043e47bf"/>Nunmehr nach erledigtem
+                    Gerichtsverfahren liege für die <rs type="institution" ref="#36865">Polizeidi<lb
+                            xml:id="uuid_8f38e510-840d-472e-8bb1-7426e8ade554" break="no"
+                        />rektion</rs> ein Anlass, die von ihr gegebene Information zu
+                        revidieren,<lb xml:id="uuid_badf21e0-5eb4-490e-9ec9-58e66e3306a8"/>nicht
+                    vor.</quote>“ </p>
+            <p xml:id="uuid_2f84c414-23b8-40c9-87a7-d7b04c383a31">
+                <lb xml:id="uuid_5d1d37a2-e83e-4e11-a5e5-463d008362fa"/>Diese Behauptung ist
+                unwahr.</p>
+            <pb xml:id="D_000108-001-000_p004" facs="#D_000108-001-000-facs001-l004-p004" n="4"/>
+            <p xml:id="uuid_50d13d84-5411-4738-aa81-20771da6348d">
+                <lb xml:id="uuid_128d33fc-602b-4ab7-a7ce-f14d7bfe2ed9"/>Wahr ist, dass mir, dem
+                Beschwerdeführer, vom Chef der<lb xml:id="uuid_75710fef-72d3-4061-9646-0d1ca62e1af4"
+                />Staatspolizei, Hofrat <rs type="person" ref="#64012">Pollak</rs> erklärt wurde,
+                dass die <rs type="institution" ref="#36865">Polizeidirek<lb
+                        xml:id="uuid_091d0fcd-8d90-43a9-8831-438148e1c7b7" break="no"/>tion</rs>
+                gerne gewillt ist, die von ihr dem Gerichte erteilte Auskunft<lb
+                    xml:id="uuid_baebbc76-f4ac-4bbd-bf34-6dcdeb859a90"/>im Jahre 1923 einer Revision
+                zu unterziehen und mit mir in mehrfa<lb
+                    xml:id="uuid_5897bf30-33af-4a0b-beee-0313e2119dfb" break="no"/>chen, oft
+                stundenlang währenden Besprechungen Art und Form dieser<lb
+                    xml:id="uuid_403cd8d5-1440-44f0-92e1-e98dc54bd3dc"/>Revision vereinbart
+                wurde.</p>
+            <p xml:id="uuid_f1e16d75-34cd-4c91-9b4e-cc3c5a6ebb91">
+                <lb xml:id="uuid_5516f6f0-00dc-4dc5-89aa-7f34def3a28d"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Ø</note>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,043" subtype="fackel">Seite 43,
+                    neunte Zeile</rs> von oben:<lb
+                    xml:id="uuid_244b849e-4ade-4d84-a1b9-6340b0196eee"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Volkswirt</note>„<quote
+                    xml:id="uuid_4ebb18c3-0bc5-4cb3-9472-34940a926d73"
+                    source="https://fackel.oeaw.ac.at/f/771,043">… dass <rs type="person"
+                        ref="#37843">Békessy</rs> diese Frist genützt hatte, die ungarischen<lb
+                        xml:id="uuid_045924dc-5713-4d85-b7d8-e4b32d0d24ab"/>Behörden
+                    ‚umzustimmen‘</quote>“. </p>
+            <p xml:id="uuid_9998c22f-75b9-472b-bb36-cfdf68b94a1d">
+                <lb xml:id="uuid_17ab6cbc-1959-42e0-93c8-e786860047be"/>Diese Behauptung ist
+                unwahr.</p>
+            <p xml:id="uuid_a3f9085c-7fec-4ee4-8bb5-f2af19a7b866">
+                <lb xml:id="uuid_8696ea55-9c1a-4497-af83-004745b6f5c4"/>Wahr ist, dass ich keine
+                Frist genützt habe, um unga<lb xml:id="uuid_fefa2b4e-fcf2-4e63-9a0e-689ebd794d4e"
+                    break="no"/>rische Behörden „<quote
+                    xml:id="uuid_6c96b377-dafa-4782-a2d3-6387ad25faf2"
+                    source="https://fackel.oeaw.ac.at/f/771,043">umzustimmen</quote>“.</p>
+            <p xml:id="uuid_c0434f6b-ba1c-4948-92f2-dd835d2ce872">
+                <lb xml:id="uuid_a2f6f5d4-c71f-4edd-ae5d-651d8fa445e9"/>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,045" subtype="fackel">Seite 45,
+                    neunte Zeile</rs> von oben:<lb
+                    xml:id="uuid_ccc8e8a7-25a6-4d4e-b11e-6250d49b6b80"/>„<quote
+                    xml:id="uuid_ddfd1095-a031-4a2d-842e-8f3842863efe"
+                    source="https://fackel.oeaw.ac.at/f/771,045">… dass eine weite Partie ihrer
+                    öffentlichen Meinung von einem<lb
+                        xml:id="uuid_d27cf107-cec4-4335-81ef-43bf169b9fc8"/>Schieber, Betrüger und
+                    militärgerichtlich abgeurteilten <rs type="person" ref="#37843"
+                        >Erpresser</rs><lb xml:id="uuid_7d8d2b7c-641c-428b-b626-7ef4b1d07191"
+                    />beherrscht werde, der im Krieg als Leiter einer Budapester Einjährig-<lb
+                        xml:id="uuid_da403e1a-6595-41f8-a7de-926850e89d71"/>Freiwilligen-Schule
+                    seine Untergebenen in der Zucht der buchstäbli<lb
+                        xml:id="uuid_86f0b6ef-f36f-4c12-895e-d7bd420a0f83" break="no"/>chen
+                    Alternative ‚Geld oder Leben‘ gehalten hat.</quote>“ </p>
+            <p xml:id="uuid_9b32671d-223e-4956-ab33-63b3f31503a4">
+                <lb xml:id="uuid_cfce9b79-fee3-41d1-b8e8-85a610d41ed5"/>Es ist unwahr, dass ich
+                militärgerichtlich als Er<lb xml:id="uuid_3c3e41a1-62b7-4dcc-91f1-2eaa95b712d8"
+                    break="no"/>presser abgeurteilt wurde.</p>
+            <p xml:id="uuid_cab1b0dd-5c25-4d3d-a9db-043d9f63ffe1">
+                <lb xml:id="uuid_86f1704b-18bc-4c3b-bc6f-b425d4cdca7a"/>Wahr ist, dass ich
+                militärgerichtlich vollkommen un<lb
+                    xml:id="uuid_42f4fedc-2ee4-4c91-b762-65325458a0f6" break="no"/>bescholten bin.
+                Es ist unwahr, dass ich im Krieg meine Untergebenen<lb
+                    xml:id="uuid_8d01ed48-db94-4f13-b1d6-7339c232f58f"/>als Leiter einer Budapester
+                Einjährig-Freiwilligen-Schule in der<lb
+                    xml:id="uuid_8198f621-cdbf-4405-bdae-1a64c2e9b87d"/>Zucht der buchstäblichen
+                Alternative „<quote xml:id="uuid_14be99b3-20ef-404b-af1a-f2cc57aa63bf"
+                    source="https://fackel.oeaw.ac.at/f/771,045">Geld oder Leben</quote>“ gehalten
+                habe.</p>
+            <p xml:id="uuid_dc421c7c-1377-4f13-b7ed-cc58131a2b4a"><lb
+                    xml:id="uuid_23be37fa-0cb3-4361-9b06-bf1b0020e165"/>Wahr ist, dass ich im Kriege
+                als Leiter einer Einjäh<lb xml:id="uuid_fd51f929-aa66-4b56-92cf-0972490ced3d"
+                    break="no"/>rig-Freiwilligen-Schule meine Untergebenen als guter Freund und<lb
+                    xml:id="uuid_60c750bc-5ecf-45d7-b74a-35807e659716"/>Kamerad behandelt habe. </p>
+            <p xml:id="uuid_eaa20239-e77b-4f0f-a840-6285038833c2">
+                <lb xml:id="uuid_e3484dfc-b416-4fa1-8eab-d2a4f28bb996"/>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,047" subtype="fackel">Seite 47,
+                    fünfzehnte Zeile</rs> von<lb xml:id="uuid_4f78ac6c-243b-437f-8a0c-011a92ff0077"
+                />unten:</p>
+            <pb xml:id="D_000108-001-000_p005" facs="#D_000108-001-000-facs001-l005-p005" n="5"/>
+            <p xml:id="uuid_13a399b9-baeb-450f-b771-2d7b62cb3b85">
+                <lb xml:id="uuid_b0157ccd-552a-4bb2-b4fa-5d47d0178f5c"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Sch</note>„<quote
+                    xml:id="uuid_4d7e528a-47b4-47a8-b59b-0d47d29088d5"
+                    source="https://fackel.oeaw.ac.at/f/771,047">Erst kürzlich sei bei ihm ein
+                    grosser Finanzmann erschienen –<lb
+                        xml:id="uuid_586f7690-87e7-4593-9f45-af8823424c78"/>‚nicht aber den Sie
+                    meinen‘ – der beklagte sich, soeben habe ihm<lb
+                        xml:id="uuid_85c2240c-8887-4ad7-8cd8-05021f354a8b"/>der <rs type="person"
+                        ref="#37843">Békessy</rs> ‚eine Milliarde abgezapft‘ und wollte, dass die
+                        Poli<lb xml:id="uuid_52718ac2-eaf9-4636-870b-ae2b77226160" break="no"/>zei
+                    ihm wieder zu ihr verhelfe.</quote>“ </p>
+            <p xml:id="uuid_417760b0-6246-45d9-a8cf-b5676ad80a37">
+                <lb xml:id="uuid_075eb926-35f4-4e6a-930c-e2e6b9039088"/>Diese Behauptung ist unwahr. </p>
+            <p xml:id="uuid_b91ba39f-80ca-4e94-b965-749a38ed164d">
+                <lb xml:id="uuid_a73491e9-4d68-4dde-8e4a-81249df9b4d2"/>Wahr ist, dass sich niemand
+                beklagt hat und beklagen konn<lb xml:id="uuid_4045099a-9014-49df-96f6-a47d3e7a1b5a"
+                    break="no"/>te, dass ich ihm „<quote
+                    xml:id="uuid_67ef0584-a1dd-428c-8b6e-3b279dc3fc5e"
+                    source="https://fackel.oeaw.ac.at/f/771,047">eine Milliarde abgezapft</quote>“
+                habe, weil ich nie<lb xml:id="uuid_a4e6c101-7ce9-47db-97a8-bb6b74c784ee" break="no"
+                />mandem eine Milliarde abgezapft habe. </p>
+            <p xml:id="uuid_f1ff5f79-dbf3-42f1-8681-0ccc03164478">
+                <lb xml:id="uuid_77a48dbe-d9e7-4f16-9ef5-54ad36d698a7"/>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,048" subtype="fackel">Seite 48,
+                    fünfte Zeile</rs> von unten:<lb
+                    xml:id="uuid_e3c2e217-a992-4a46-9c6f-0f0dd4918f0d"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Sch</note>„<quote
+                    xml:id="uuid_b350511a-b21f-42ff-ac6e-c87f20a9a1d1"
+                    source="https://fackel.oeaw.ac.at/f/771,048">Es handle sich hier um ein
+                    sogenanntes ‚schwebendes Verfahren‘<lb
+                        xml:id="uuid_4eed6508-5606-4f31-b4c4-f7ca9caec891"/>und bezüglich der
+                    Betrugsfakten gab er die Aufklärung, dass die<lb
+                        xml:id="uuid_2d20de1c-c6a9-49c8-bc86-10b038b35ddf"/>Reparatur durch
+                    ‚Schadensgutmachung‘ erfolgen könne.</quote>“ </p>
+            <p xml:id="uuid_63993f04-826b-4d41-a9fd-54400123921a">
+                <lb xml:id="uuid_620025dc-ed21-4209-82c0-5d39db56f71b"/>Die darin enthaltene
+                Behauptung, dass gegen mich irgend<lb
+                    xml:id="uuid_55890628-39dc-4a9c-9a32-21ecbc353d60"/>ein „<quote
+                    xml:id="uuid_536c220f-503c-4483-8735-f50d47920be7"
+                    source="https://fackel.oeaw.ac.at/f/771,048">schwebendes Verfahren</quote>“
+                vorhanden sei und dass ich die Repa<lb
+                    xml:id="uuid_5e0fc2a3-0ace-4316-b266-0adde848fbd9" break="no"/>ratur
+                irgendwelcher Betrugsfakten durch „<quote
+                    xml:id="uuid_da5506ab-678c-434c-8b04-2d12ce2e8897"
+                    source="https://fackel.oeaw.ac.at/f/771,048">Schadengutmachung</quote>“ re<lb
+                    xml:id="uuid_4695d3b9-9ee9-4c29-931d-902a056a5b29" break="no"/>pariert haben
+                konnte, ist unwahr.</p>
+            <p xml:id="uuid_120596a4-098b-4a4f-ba57-7dab33a2e6c0">
+                <lb xml:id="uuid_28d5ce66-02b5-4c59-9d7c-8a1a1c23253c"/>Wahr ist, dass gegen mich in
+                Ungarn gar kein Verfahren<lb xml:id="uuid_ddbe3240-d95f-4a5f-873d-cf6e88ff0c13"
+                />schwebt.</p>
+            <p xml:id="uuid_867ea38c-6bef-4715-897a-143ac7f04b1a">
+                <lb xml:id="uuid_28ae0832-684b-4899-9853-45beaeffa215"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Ø</note>Wahr ist weiters, dass
+                ich niemals die Reparatur irgend<lb
+                    xml:id="uuid_ea391f5f-dc03-4fda-bdbd-b8f926319015" break="no"/>welcher
+                Betrugsfakten durch „<quote xml:id="uuid_d4166a3e-3a79-4d6d-b3b2-4e95ec027267"
+                    source="https://fackel.oeaw.ac.at/f/771,048">Schadensgutmachung</quote>“
+                erreicht habe.</p>
+            <p xml:id="uuid_c75b65af-ac98-4410-bc82-63561a1bc326">
+                <lb xml:id="uuid_07d6db84-826b-4cee-8fd1-109fdbf15b51"/>Sie veröffentlichen auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,049" subtype="fackel">Seite 49,
+                    neunte Zeile</rs> von oben:<lb
+                    xml:id="uuid_6dd83344-9b73-429e-8915-fba82f9adb25"/>„<quote
+                    xml:id="uuid_d652641b-1941-4276-a167-4d7620dbf071"
+                    source="https://fackel.oeaw.ac.at/f/771,049">Er hatte aber die Rechnung nur mit
+                    dem ‚<rs type="institution" ref="#ä37486">Volkswirt</rs>‘ gemacht, näm<lb
+                        xml:id="uuid_3b794811-85bd-45da-9026-f75463063808" break="no"/>lich als
+                    Grundlage seiner Bemühungen die etwas lückenhafte Leu<lb
+                        xml:id="uuid_f400caa8-af4a-43d0-94ba-768c04017742" break="no"/>mundsnote
+                    verwendet, die von jenem gedruckt war, nicht ahnend,<lb
+                        xml:id="uuid_4c6a142d-477c-449b-9bc7-00a1cfd48b06"/>dass die offizielle 16
+                    enthielt, weshalb man ihm die Bereinigung<lb
+                        xml:id="uuid_d9ea2f9b-aba2-4175-8b54-01331d04d967"/>des sechzehnten, eines
+                    Betrugsfaktums, in <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43471"
+                        type="place">Budapest</rs> schuldig blieb</quote>“</p>
+            <p xml:id="uuid_b238a620-17d1-4cd2-8462-3456d1a400e4"><lb
+                    xml:id="uuid_9c5a1ae4-3801-4577-84d0-2b435db0760a"/>Diese Behauptung ist
+                unwahr.</p>
+            <p xml:id="uuid_f2fef894-e4ad-4079-8409-4d9b8147b631">
+                <lb xml:id="uuid_b99744a4-a2a0-4300-93b9-2673686c81da"/>Wahr ist, dass die
+                Oberstadthauptmannschaft der <rs type="institution" ref="#87731">Buda<lb
+                        xml:id="uuid_9baa10fb-be43-4aa6-bffe-ed38064162bd" break="no"/>pester
+                    königlich-ungarischen Staatspolizei</rs> mit ihrer Note <pb
+                    xml:id="D_000108-001-000_p006" facs="#D_000108-001-000-facs001-l006-p006" n="6"/>
+                <lb xml:id="uuid_893e86c2-24ce-437c-80cf-29ec9c45d421"/>ad 145788/925 fk II
+                sämtliche, mich betreffenden Fakten, also<lb
+                    xml:id="uuid_a0d00072-615f-4123-bb2c-a83f933cecc8"/>auch die sechzehnte,
+                bereinigt hat, ebenso wie ich selbst alle<lb
+                    xml:id="uuid_23f882e9-f2b7-4737-9c2d-7d1c23cfcae0"/>diese Fakten durch Vorlage
+                der bezughabenden Gerichtsbeschlüsse<lb
+                    xml:id="uuid_3e706131-97e6-4d30-97c7-e2556f0e96f5"/>schon im Jahre 1923 zur Zahl
+                IX 5940/23 durch den Nachweis berei<lb
+                    xml:id="uuid_f67865e5-282f-4f6e-8aa8-21c727c50928" break="no"/>nigt habe, dass
+                ich ein vollkommen unbescholtenes Vorleben habe,<lb
+                    xml:id="uuid_08e01efa-ce03-496d-9494-36fa0b76db34"/>dass in allen in der
+                Leumundsnote angeführten Angelegenheiten<lb
+                    xml:id="uuid_936e072a-0002-4e2c-a812-2233e9fb31e6"/>jedes Verfahren zum grossen
+                Teile schon im Stadium der Vorunter<lb
+                    xml:id="uuid_793c0ff8-4e93-4418-bfd0-223fc9eec0f1" break="no"/>suchung mangels
+                strafbaren Tatbestandes eingestellt wurde, dass<lb
+                    xml:id="uuid_4f0fe2a8-b9c0-49e0-8eac-cd1835522bb6"/>das Verfahren in dem
+                Grossteil dieser Angelegenheiten nicht gegen<lb
+                    xml:id="uuid_95599033-416a-41e6-9bd6-059273c6a883"/>meine Person gerichtet war
+                und demzufolge aus diesen Angelegen<lb
+                    xml:id="uuid_61644bc4-0d3b-4317-9434-4f76038d9c26" break="no"/>heiten auf meine
+                moralische Integrität gar kein Schatten fällt.</p>
+            <p xml:id="uuid_64c5885c-4faa-441d-b721-cfbbbba63562">
+                <lb xml:id="uuid_7eb7d959-25d2-4ced-99e0-1c68ecaf6eab"/>Sie veröffentlichen auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,051" subtype="fackel">Seite 51,
+                    fünfte Zeile</rs> von oben:<lb
+                    xml:id="uuid_dea9eb3d-dce9-4218-9a08-f86879751637"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Brief</note>„<quote
+                    xml:id="uuid_c19e6184-bbee-427e-875f-dfce74fa3ecb"
+                    source="https://fackel.oeaw.ac.at/f/771,051"><rs type="person" ref="#37843"
+                        >Békessy</rs>, der seinen Namen so schreibt / ssy ist in Ungarn ein<lb
+                        xml:id="uuid_ff1932fe-4b8d-4c66-924c-be78c68fe13c"/>Adelszeichen / <rs
+                        type="person" ref="#37843">Békesi</rs> – so wird er richtig geschrieben –
+                    hat frü<lb xml:id="uuid_fdd77543-735a-42fe-8e8d-4b228f30fc0d" break="no"/>her
+                    anders / vermutlich Blau oder Braun / geheissen.</quote>“ </p>
+            <p xml:id="uuid_4c056b48-02c1-418b-b8aa-37cd05d948cf">
+                <lb xml:id="uuid_5d196264-7c9c-4036-96f6-cb0dec106f8c"/>Diese Behauptung ist unwahr. </p>
+            <p xml:id="uuid_224bf99b-ae1b-41c9-983e-379e66562928">
+                <lb xml:id="uuid_e2d5542e-df4d-4581-b966-49cef78747a8"/>Wahr ist, dass ich niemals
+                Braun oder Blau geheissen habe<lb xml:id="uuid_1ce6299f-2541-4a87-b0f2-71755233b1d1"
+                />und mein Name richtig <rs type="person" ref="#37843">Békessy</rs> geschrieben
+                wird, da laut Justiz-<lb xml:id="uuid_bdf8707a-a3a3-4f23-ad0d-ac4f8580f797"
+                />Minist.-Erlass vom 18. März 1870 Z. 7102 nicht nur mein <rs type="person"
+                    ref="#52142">Vater</rs>,<lb xml:id="uuid_a77e43ce-9f7c-4cf6-b4c0-6477c4565fb0"
+                />sondern auch mein <rs type="person">Grossvater</rs> seinen Namen so schrieb und so
+                    zu<lb xml:id="uuid_37fe3335-6a7d-4630-a6c4-b8e6ab8b8e0c"/>schreiben berechtigt
+                war. </p>
+            <p xml:id="uuid_f047a433-a819-4c7b-80ae-5b08b19b2ca3">
+                <lb xml:id="uuid_ccf5fe98-1633-4cfd-bbc2-49c3e83357fd"/>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,051" subtype="fackel">Seite 51,
+                    18 Zeile</rs> von oben:<lb xml:id="uuid_8ee72c02-e855-4730-a400-8368ec7e361e"
+                    /><note type="marginal" hand="#D_000108-001-000-hand01" rend="marginLeft"
+                    >Brief</note>„<quote xml:id="uuid_14f33b73-c76a-45f2-93fc-b33d1c2756bb"
+                    source="https://fackel.oeaw.ac.at/f/771,051">Kein aktiver Offizier schikanierte
+                    seine Leute derart, wie er<lb xml:id="uuid_bc27de82-5118-4cb4-a744-64110f65f647"
+                    />seine Altersgenossen, deren Rangerster er war. Es waren von
+                        <del>zirka</del><lb xml:id="uuid_fa8c712b-b3e3-441a-9f09-0a635d5af552"/>30
+                        <del>10</del> zirka 10, die er vor der Offiziersprüfung aus der Schule<lb
+                        xml:id="uuid_3d573c3b-7377-4b04-b971-475a8d103b5f"/>und ins Feld
+                    jagte.</quote>“ </p>
+            <p xml:id="uuid_12957e8c-31ac-4829-8530-15fd613f851a">
+                <lb xml:id="uuid_2b9904f4-8963-47d3-868f-26f92d1f73c4"/>Diese Behauptung ist
+                unwahr.</p>
+            <p xml:id="uuid_294cbd30-6a58-47ec-b045-362964ca82d4">
+                <lb xml:id="uuid_9e54dfda-289a-49e8-9042-373697330dea"/>Wahr ist, dass ich von 30
+                keinen einzigen Menschen aus<lb xml:id="uuid_6c3a8eaa-cdac-4d40-9b61-804a49840455"
+                />der Schule und ins Feld jagte. Wahr ist, dass vor der Offiziers-<pb
+                    xml:id="D_000108-001-000_p007" facs="#D_000108-001-000-facs001-l007-p007" n="7"/>
+                <lb xml:id="uuid_04581448-7a26-47d4-a1ec-3a8b06dfd062"/>prüfung überhaupt niemand
+                aus der Schule entlassen und ins Feld<lb
+                    xml:id="uuid_d2dd9b26-b7ef-40f9-810c-57f42d7295c5"/>geschickt wurde. Wahr ist,
+                dass ich mit der Frage der Absendung<lb
+                    xml:id="uuid_d1d32dcb-a390-4309-b3c6-365f2d1008ff"/>ins Feld überhaupt nichts zu
+                tun hatte. Wahr ist, dass die Ab<lb
+                    xml:id="uuid_7a37ca3b-6851-46a3-9b30-a284e67de58f" break="no"/>sendung ins Feld
+                jeweils direkt vom Militärkommando oder vom<lb
+                    xml:id="uuid_54e660e1-4f78-4abe-9584-459309af70f8"/>Kriegsministerium, ohne
+                Vorschlag der Einjährig-Freiwilligen-<lb
+                    xml:id="uuid_8a003e43-6d45-408a-b6ce-fa1379a39073"/>Schule, anbefohlen wurde.
+                Wahr ist auch, dass ich meine Alters<lb
+                    xml:id="uuid_650d8a57-e0e8-4a7e-b2c8-435e7f552ffa" break="no"/>genossen nicht
+                schikaniert habe, sondern von diesen gelegentlich<lb
+                    xml:id="uuid_e6fdcd49-0b43-41fa-ab83-5733fa154188"/>der Offiziersprüfung ein
+                Dankschreiben für erwiesene Freundschaft<lb
+                    xml:id="uuid_0abe99e6-5af4-4b5d-9a1f-b18ef7309c5b"/>und Kollegialität erhielt. </p>
+            <p xml:id="uuid_6609e6ad-c6fd-4ea4-aa1c-7b0558bb1bb9">
+                <lb xml:id="uuid_5c56c4e5-de79-4f6c-b458-385ebc568ee2"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Ø</note>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,051" subtype="fackel">Seite 51,
+                    zwölfte Zeile</rs> von unten:<lb
+                    xml:id="uuid_ce92ee4c-e6eb-4995-bea6-38b83d0b5b3f"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Brief</note>„<quote
+                    xml:id="uuid_976419c9-36a8-4a5b-9f76-48b85e41c5a4"
+                    source="https://fackel.oeaw.ac.at/f/771,051">Mit einem Wort, <rs type="person"
+                        ref="#37843">Békesi</rs> wurde nicht zum Kadetten befördert und<lb
+                        xml:id="uuid_32852eb1-dee1-4f94-8f7a-c8570e109fdb"/>er sollte als
+                    Unteroffizier ins Feld.</quote>“</p>
+            <p xml:id="uuid_0a82e8ef-4304-4533-bc45-fb72ee07cacb">
+                <lb xml:id="uuid_c06186eb-3f3c-412b-8a9b-045c1bc013e2"/>Die darin enthaltene
+                Behauptung, dass mein Name <rs type="person" ref="#37843">Békesi</rs>
+                <lb xml:id="uuid_df660e10-a1c7-4eda-9861-d1978efb5a51"/>lautet, ist unwahr. Wahr ist
+                vielmehr, dass die richtige Schreib<lb
+                    xml:id="uuid_3b1fcd8e-ede3-44d6-85d0-39bbec6ca4a5" break="no"/>art meines Namens
+                    <rs type="person" ref="#37843">Békessy</rs> ist. Wahr ist weiters, dass ich, <rs
+                    type="person" ref="#37843">Békessy</rs>,<lb
+                    xml:id="uuid_81e58c81-d930-448a-b837-b13b41ae8c8c"/>nach Absolvierung der
+                Offiziersprüfung als Rangerster zum Kadetten<lb
+                    xml:id="uuid_b3846b2c-f54f-46d1-a3a7-de69137c1daf"/>befördert und in dieser
+                Eigenschaft am 11. April 1916 an die ita<lb
+                    xml:id="uuid_9394c1f0-8ca0-46ed-84f9-ce0c87b40345" break="no"/>lienische Front
+                ins Feld ging.</p>
+            <p xml:id="uuid_de4220e7-6d3b-4e51-b783-66caee938f73">
+                <lb xml:id="uuid_a6cea6bd-eb29-4b31-a876-21b49272e325"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Ø</note>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,051" subtype="fackel">Seite 51,
+                    4. Zeile</rs> von unten:<lb xml:id="uuid_fd14b90f-4b4f-4f9b-8a1b-9c43e0ff2d7b"
+                    />„<quote xml:id="uuid_2d1ba0cf-95dd-4b20-ba0a-fefe94c5cf5e"
+                    source="https://fackel.oeaw.ac.at/f/771,051"><rs type="person" ref="#37843"
+                        >Bekesi</rs> war auch drei oder vier Tage im Feld / beim Train / dann<lb
+                        xml:id="uuid_b72307e2-cd77-441c-9b85-ae090cf435d7"/>verschwand er
+                    wieder.</quote>“<note type="marginal" hand="#D_000108-001-000-hand01"
+                    rend="marginLeft">Brief</note>
+            </p>
+            <p xml:id="uuid_2074e3de-6acf-4e07-b41b-457677e96388">
+                <lb xml:id="uuid_791f2549-9569-4979-a733-4c02b822245d"/>Diese Behauptung ist
+                unwahr.</p>
+            <p xml:id="uuid_621f14bb-ddfb-4de9-853d-faea1f31d604">
+                <lb xml:id="uuid_e6b8c9c6-a49c-4477-8afa-e49341c92b52"/>Wahr ist, dass ich vom 11.
+                April 1916 bis 8. November<lb xml:id="uuid_9c2b61cb-3f07-4bec-a1ff-c670153011de"
+                />1917, mit einer Unterbrechung von zweimal drei Wochen, andauernd<lb
+                    xml:id="uuid_2eb74bf1-935e-40a3-8839-119b04cbee8b"/>im Felde stand, und zwar bis
+                zum Vormarsch an der italienischen<lb
+                    xml:id="uuid_4e163b08-0e12-43c4-8f0c-9cbf64f4f9e5"/>Front bis <rs type="place"
+                    ref="#87733">Arsiero</rs> und dann an der rumänischen Front bei <rs type="place"
+                    ref="#87735">Kirlibaba</rs>
+                <lb xml:id="uuid_9b3f4fef-40bb-4b82-afd8-573e434ebbe1"/><rs type="place"
+                    ref="#87737">Dornawatra</rs> und niemals beim Train war, sondern als
+                    Aufklärer<lb xml:id="uuid_9a557422-02d4-4298-b048-ea42ca34dcd5"/>Dienste
+                leistete. </p>
+            <p xml:id="uuid_57a29c16-2c7c-47ff-92b8-fbd84053cbc6">
+                <lb xml:id="uuid_ca6cfc1e-76d2-4abb-9e62-116e9c9c745a"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Ø</note>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,052" subtype="fackel">Seite 52,
+                    1. Zeile</rs> von unten: <pb xml:id="D_000108-001-000_p008"
+                    facs="#D_000108-001-000-facs001-l008-p008" n="8"/>
+                <lb xml:id="uuid_05783060-6f6d-44bf-9fe5-8088599f91f0"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Brief</note>„<quote
+                    xml:id="uuid_f8ffbd20-3a17-49e2-a4c5-2f33df63fa5b"
+                    source="https://fackel.oeaw.ac.at/f/771,052">Sonst weiss ich über <rs
+                        type="person" ref="#37843">Békesis</rs> Soldatentum nichts, nur dass er<lb
+                        xml:id="uuid_a0d5bef5-dc55-4fb1-b2e4-b07d8dbcbeee"/>inzwischen ein
+                    Importgeschäft in der <rs type="place" subtype="address" ref="#87739"
+                        >Vámházkőrut</rs> hatte, welches<lb
+                        xml:id="uuid_ea1033f3-cf54-4f21-89f4-08dbee810907"/>/ falscher Konkurs? /
+                    eines Tages gesperrt wurde.</quote>“ </p>
+            <p xml:id="uuid_940d8852-c491-47f7-b921-1d57ed2698d5">
+                <lb xml:id="uuid_478a9e9f-5a32-4de9-8660-8c499fae00d6"/>Die darin enthaltene
+                Behauptung, dass mein Name <rs type="person" ref="#37843">Békesi</rs>
+                <lb xml:id="uuid_03c4c6e1-e649-4ba3-80cf-2487321360a4"/>lautet, ist unwahr. Wahr ist
+                vielmehr, dass die richtige Schreib<lb
+                    xml:id="uuid_5c0197b0-dc18-48f0-bb26-b95f7c571204" break="no"/>art meines Namens
+                    <rs type="person" ref="#37843">Békessy</rs> ist. Wahr ist weiters, dass ich
+                    nie<lb xml:id="uuid_5bac22b6-47af-4ce8-9901-7fe3e660fd84" break="no"/>mals auf
+                dem <rs type="place" subtype="address" ref="#87739">Vámházkőrut</rs> oder sonstwo
+                ein Importgeschäft hatte,<lb xml:id="uuid_09c9f85d-216a-443a-9547-b30f644e32eb"
+                />welches aus falschem Konkurs oder sonst aus einem anderen Grunde<lb
+                    xml:id="uuid_5d4af425-b79b-4ca2-9de0-78e9bf36ee08"/>gesperrt wurde.</p>
+            <p xml:id="uuid_14472dcf-5cff-4a0e-b6e1-09570cde129f">
+                <lb xml:id="uuid_a61630f9-e058-4429-8bab-b975e45374db"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Ø</note>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,052" subtype="fackel">Seite 52,
+                    10. Zeile</rs> von oben:<lb xml:id="uuid_6e6bba38-b62b-4960-b6c5-2318a5e0a9c6"
+                    /><note type="marginal" hand="#D_000108-001-000-hand01" rend="marginLeft"
+                    >Brief</note>„<quote xml:id="uuid_384c6717-26f9-45f3-8ba3-ffb5cd375b69"
+                    source="https://fackel.oeaw.ac.at/f/771,052">Nach dem Sturz der Diktatur gibt er
+                    eine weisse <rs type="work">Börsenzeitung</rs>
+                    <lb xml:id="uuid_88befe85-2b24-4578-b93d-2b6cef9ad969"/>heraus, doch erschienen
+                    nur 1–2 Nummern; die Konkurrenz macht<lb
+                        xml:id="uuid_cfe4cb09-8ee0-43a4-a6e1-2a0f5fc03682"/>die konterrevolutionäre
+                    Regierung aufmerksam und <rs type="person" ref="#37843">Békesi</rs> fährt<lb
+                        xml:id="uuid_baf2eb3e-1fe5-47d4-a472-48af33dde14f"/>nach <rs type="place"
+                        ref="#50">Wien</rs>.</quote>“ </p>
+            <p xml:id="uuid_35b29d10-21c3-40d4-8e2d-7b413c6730c6">
+                <lb xml:id="uuid_a7b20067-576b-4a19-89a9-87c83ea6ebc3"/>Diese Behauptung ist
+                unwahr.</p>
+            <p xml:id="uuid_eedfec45-f69a-4145-a62f-8e52fd49a737">
+                <lb xml:id="uuid_f5b430c3-4f30-4bab-a708-54dd23c60106"/>Wahr ist, dass ich nach dem
+                Sturz der Diktatur wegen<lb xml:id="uuid_f16d7789-02a6-4df0-9f8a-4c1e3ce550a8"/>des
+                Verdachtes der Aufreizung und Aufwiegelung, begangen durch<lb
+                    xml:id="uuid_4a5c3cb2-bae7-406b-a681-4f95342192a9"/>die Presse, verhaftet wurde,
+                nach Einstellung des Verfahrens<lb
+                    xml:id="uuid_0782902a-4da8-453b-9edd-63fe9c359d57"/>weder eine weisse noch sonst
+                irgend eine andere Börsenzeitung<lb
+                    xml:id="uuid_486acbee-306c-43c1-8713-66ba545348d0"/>herausgab und vom Tage
+                meiner Enthaftung bis zu meiner am 5.<lb
+                    xml:id="uuid_09782050-7746-49fc-9d25-ffeaff256fb7"/>Mai 1920 erfolgten Abreise
+                nach <rs type="place" ref="#50">Wien</rs> journalistisch überhaupt<lb
+                    xml:id="uuid_7a2463bf-f6bd-4ddd-82b1-dada82cc7ab3"/>nicht tätig war. Es ist
+                weiters wahr, dass mein Name <rs type="person" ref="#37843">Békessy</rs>
+                <lb xml:id="uuid_cc6fdfda-42f3-4d3b-879c-6cfc7d4babc6"/>und nicht <rs type="person"
+                    ref="#37843">Békesi</rs> lautet.</p>
+            <p xml:id="uuid_2e30d86b-f452-407e-9297-d8fc8f19b8d7">
+                <lb xml:id="uuid_68d113f8-70fd-4060-8477-e0632b244cb9"/>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,052" subtype="fackel">Seite 52,
+                    14. Zeile</rs> von unten:<lb xml:id="uuid_2155f4da-4acb-4bdf-9b2f-72ec081a33f5"
+                    /><note type="marginal" hand="#D_000108-001-000-hand01" rend="marginLeft"
+                    >Brief</note>„<quote xml:id="uuid_f0fd6278-2823-4f2e-92d3-69e3d7a5305b"
+                    source="https://fackel.oeaw.ac.at/f/771,052">Im Verlaufe eines gegen Genannten
+                    angestrengten ehrenamtlichen<lb
+                        xml:id="uuid_b8bb83c4-d6ba-466c-a3b4-6d36f76f07e9"/>Verfahrens wurde das
+                    Urteil gefällt / im August 1915 / der Genann<lb
+                        xml:id="uuid_fe315cf2-c7df-47ca-a481-7cdeca9db7a3" break="no"/>te sei
+                    verpflichtet, beim Rapport in Anwesenheit von je zwei<lb
+                        xml:id="uuid_6a271fec-97e6-4e2c-886c-bf7b5803a1cf"/>Vertretern des
+                    Offizierskorps und der Freiwilligen zu erklären,</quote>
+                <pb xml:id="D_000108-001-000_p009" facs="#D_000108-001-000-facs001-l009-p009" n="9"/>
+                <lb xml:id="uuid_1bdd3046-6ddd-4406-af32-791ed8c5ac83"/><quote
+                    xml:id="uuid_f5e12c38-4c18-46b7-b425-60325e174b60"
+                    source="https://fackel.oeaw.ac.at/f/771,052">er habe gegen seine Offiziers- und
+                    Freiwilligen-Kameraden bös<lb xml:id="uuid_7423299f-0204-4a92-9055-d249b1bd8976"
+                        break="no"/>willige Verleumdungen und lügnerische Behauptungen
+                    verbreitet.</quote>“ </p>
+            <p xml:id="uuid_2a40269a-01b3-4015-9411-b4f239a432c1">
+                <lb xml:id="uuid_1eac84b6-ab28-4cb7-b25c-df7c0ff48acc"/>Diese Behauptung ist
+                unwahr.</p>
+            <p xml:id="uuid_cc71d425-6c29-4685-9262-96c83a92cbc8">
+                <lb xml:id="uuid_3939c1bd-b084-4253-b4d2-99984c0bf4c3"/>Wahr ist, dass ein
+                derartiges Urteil nicht gefällt wurde<lb
+                    xml:id="uuid_e57876a8-03e2-4a66-b296-e569af22516d"/>und ich beim Rapport eine
+                derartige Meldung abzugehen niemals<lb
+                    xml:id="uuid_327d92a2-73a8-453a-97b4-e8c768114c63"/>verhalten wurde. </p>
+            <p xml:id="uuid_e90930c7-07a0-4349-89e0-3792355fd1ad">
+                <lb xml:id="uuid_3da15347-2cdf-46a0-ae13-3972cefefe35"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Ø</note>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,053" subtype="fackel">Seite 53,
+                    erste Zeile</rs> von oben:<lb xml:id="uuid_b53bb56e-c69e-483a-887a-0414fde93f7d"
+                    /><note type="marginal" hand="#D_000108-001-000-hand01" rend="marginLeft"
+                    >Brief</note>„<quote xml:id="uuid_afefb830-eac7-41ce-b7c1-057148a7439b"
+                    source="https://fackel.oeaw.ac.at/f/771,053">Auf Grund eines Befehls wurde bei
+                    der im Herbst 1916 beim Er<lb xml:id="uuid_a1b8b27f-aaad-4156-95e4-9be6ec9f8435"
+                        break="no"/>satzkader des genannten Regiments unter Vorsitz des Majors<lb
+                        xml:id="uuid_d5431bc2-4ae8-4b22-a451-a3278fe9fe09"/><rs type="person"
+                        ref="#64014">Schiemann</rs> abgehaltenen Offiziersversammlung von neuem
+                        verhandelt<lb xml:id="uuid_67ccccf6-376e-4237-9bcc-048c8c3248ba"/>und der
+                        <rs type="person">Angeklagte</rs> einstimmig zum Verluste der Würdigung
+                        zum<lb xml:id="uuid_2f8e30c7-234f-4834-b5ba-71bac1822d0b"/>Erlangen des
+                    Offiziersranges verurteilt, demselben die Offiziers<lb
+                        xml:id="uuid_e01aff29-daef-4201-8b16-579a6bd963ca" break="no"
+                    />aspirantenzeichen entzogen und seine Abschickung ins Feld unter<lb
+                        xml:id="uuid_216af4ea-5316-4468-b973-9a3891a0e4e4"/>bewaffneter Eskorte
+                    anbefohlen.</quote>“ </p>
+            <p xml:id="uuid_2161bbd7-1534-41c0-9d81-d248e38ff83f">
+                <lb xml:id="uuid_f591c2ec-da8b-4461-a5ee-d6a6d64d0aab"/>Diese Behauptung ist
+                unwahr.</p>
+            <p xml:id="uuid_db75e7ce-9174-480e-907a-285cca4120c3">
+                <lb xml:id="uuid_ad3dbaef-a5ec-43d1-b885-429ce69b37d0"/>Wahr ist, dass die im Herbst
+                1916 beim Ersatzkader des<lb xml:id="uuid_9961434b-fa17-4bc9-b353-576abf91307e"
+                />Gebirgsartillerieregiments Nr 4 unter Vorsitz des Majors <rs type="person"
+                    ref="#64014">Schiemann</rs>
+                <lb xml:id="uuid_536ab459-ba64-4447-9d40-ecd54f8db6e8"/>abgehaltene
+                Offiziersversammlung überhaupt kein Urteil gefällt<lb
+                    xml:id="uuid_4448e024-43c6-4c91-9987-81e8051d92e7"/>hat und im Sinne des
+                Dienstreglements gar nicht fällen konnte,<lb
+                    xml:id="uuid_af3af39a-92db-47ce-833a-817120e61a22"/>vielmehr sich darauf
+                beschränken musste, dem Militärkommando einen<lb
+                    xml:id="uuid_07eb270a-f05a-4ab6-bd00-c04d7bfbb930"/>Vorschlag zu unterbreiten.
+                Der dahingehende Vorschlag der Offi<lb
+                    xml:id="uuid_7ce0dfb8-21b3-4ee5-84b9-9fa4a49dd2a0" break="no"/>ziersversammlung,
+                man möge mir das Recht auf weitere Beförderung<lb
+                    xml:id="uuid_faf7178f-1be0-49ec-aca6-08f6dca9ddb1"/>absprechen, wurde vom
+                Militärkommando <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43471" type="place"
+                    >Budapest</rs> mit <rs type="work">Beschluss<lb
+                        xml:id="uuid_b4c4f4ee-9e99-4f0c-b589-59330072adad"/>Nr. 413700/4-1917</rs>
+                und mit <rs type="work">K.M. Erlass Nr 16768</rs> abgewiesen, das Ver<lb
+                    xml:id="uuid_1f8bf16d-045f-4414-b5fa-ac229c5f733a" break="no"/>fahren wegen
+                Mangelhaftigkeit der Untersuchung, Mangel an hinrei<lb
+                    xml:id="uuid_561111d4-1be6-4275-8500-0cd2f35e2320" break="no"/>chenden Beweisen
+                und mit Rücksicht auf tapferes Verhalten vor dem<lb
+                    xml:id="uuid_d25e60a8-ac93-42ea-9f3c-8817d912217a"/>Feinde im Aufklärungsdienst
+                und Belobung im Gruppenkomnandobefehl<lb
+                    xml:id="uuid_7dd85b8d-0c01-4b87-b3a5-0c682cfcebca"/>„Janecka“ anulliert. Wahr
+                ist weiters, dass ich niemals mit bewaff-<pb xml:id="D_000108-001-000_p010"
+                    facs="#D_000108-001-000-facs001-l010-p010" n="10"/>
+                <lb xml:id="uuid_24941fbe-a330-4d72-873f-e0de68d5402f"/>neter Eskorte ins Feld ging,
+                hingegen beide Male als Transport<lb
+                    xml:id="uuid_e948de90-9017-4a8c-a8b5-1c846ebe2e82" break="no"/>kommandant an die
+                Front reiste.</p>
+            <p xml:id="uuid_aa502f90-7574-4ca8-b014-fd71530dfe3e">
+                <lb xml:id="uuid_a2b810a5-9b31-410c-b6c5-c78fef35db16"/>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,053" subtype="fackel">Seite 53,
+                    17. Zeile</rs> von oben:<lb xml:id="uuid_04bd052c-3b4e-4c32-a848-b0a754e06901"
+                    /><note type="marginal" hand="#D_000108-001-000-hand01" rend="marginLeft"
+                    >Ø</note><note type="marginal" hand="#D_000108-001-000-hand01" rend="marginLeft"
+                    >Brief</note>„<quote xml:id="uuid_b4f8d58c-e68d-42b4-b53d-39b6fbf657b0"
+                    source="https://fackel.oeaw.ac.at/f/771,053">Die Erledigung der Angelegenheit
+                    ging nicht glatt, weil die<lb xml:id="uuid_2d416141-ec30-43e6-93da-56bc181182a8"
+                    />darauf bezughabenden Akten von Zeit zu Zeit verschwanden.</quote>“ </p>
+            <p xml:id="uuid_322a0b3d-eb35-4298-94f1-2bb1d68b80a9">
+                <lb xml:id="uuid_630dc9a8-a553-4e58-9e57-1eefd8fcee57"/>Diese Behauptung ist
+                unwahr.</p>
+            <p xml:id="uuid_6cedfc78-7b1f-4d25-8f45-8acaa2bd20c0">
+                <lb xml:id="uuid_65dfdb81-7a00-4243-bb8e-f68ff8163634"/>Wahr ist, dass kein Akt
+                jemals verschwunden ist, vielmehr<lb
+                    xml:id="uuid_6da0065a-7c67-42ad-982f-71beb57b6cca"/>sämtliche Akten noch heute
+                gesammelt vorhanden sind.</p>
+            <p xml:id="uuid_9b280c92-8424-4fd9-a5c3-211b4eb34bd8">
+                <lb xml:id="uuid_13a5e125-f1e0-4f36-a115-ccef33e60f34"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Ø</note>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,053" subtype="fackel">Seite 53,
+                    16. Zeile</rs> von unten:<lb xml:id="uuid_338c3300-90f9-4419-9cb4-9b842a5b8634"
+                    /><note type="marginal" hand="#D_000108-001-000-hand01" rend="marginLeft"
+                    >Brief</note>„<quote xml:id="uuid_2a721ad8-1fe4-4fd2-be29-c7bfc192ab67"
+                    source="https://fackel.oeaw.ac.at/f/771,053"><rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/37843" type="person">Emmerich
+                        Békessy</rs> verlangte und erhielt von <rs type="person">K.H.</rs> seinem
+                        Kameraden<lb xml:id="uuid_61298320-0744-4db1-bcda-e4a32939c501"/>mehrere
+                    Tausend Kronen geliehen und gab einen Schuldbrief darüber.<lb
+                        xml:id="uuid_80d9002e-f1d8-44c8-b71d-2694df458bf8"/>Zum Dank dafür zeigte
+                        <rs type="person" ref="#37843">Bekessy</rs>
+                    <rs type="person">K.H.</rs> an, er habe, als er krankheits<lb
+                        xml:id="uuid_0cb9d7cf-958e-4b08-8fb6-541349e80811" break="no"/>halber dem
+                    Dienst ferngeblieben war, seinen <rs type="person">Vorgesetzten</rs> irrege<lb
+                        xml:id="uuid_f4499f96-d950-47fd-8548-89526d543a67" break="no"/>führt, da er
+                    eigentlich gesund war. Er machte eine zweite Anzeige,<lb
+                        xml:id="uuid_3e50eb95-7226-4716-8fcd-c62a49dfafab"/>letztere anonym, worin
+                    er <rs type="person">H.</rs> anklagte, er habe sich in einer<lb
+                        xml:id="uuid_b077f582-7e91-4298-b563-3a34be9e39f9"/>Schuldsache /
+                    kölcsönügyben / inkorrekt benommen. Nach diesen Anzei<lb
+                        xml:id="uuid_29c235a6-7a0b-429a-bf0f-cbbbee0ba61e" break="no"/>gen suchte er
+                        <rs type="person">H.</rs> auf und teilte ihm mit, es stehe in seiner
+                        Macht<lb xml:id="uuid_431db0fb-28c6-42df-be32-3649e0a1df7b"/>als
+                    Dienstführender der Freiwilligenschule die Anzeigen verschwin<lb
+                        xml:id="uuid_91263165-d8ca-4d06-a201-e8c32c33cb65" break="no"/>den zu
+                    lassen, sodass ihm kein Leid geschehen könne, bat aber als<lb
+                        xml:id="uuid_66c45cab-8fcf-481f-82e2-687adae6a4d4"/>Gegenleistung um
+                    Nachlass seiner Schuld und Rückgabe des in <rs type="person">H.s</rs>
+                    <lb xml:id="uuid_366bc393-b17d-401c-ac9a-bc1c299e11be"/>Besitz befindlichen
+                    Schuldbriefes. <rs type="person" ref="#37843">Békessy</rs> konnte den
+                        Schuldbrief<lb xml:id="uuid_cad8fcfe-b831-40f7-93ad-7efc4b5f6509"/>nicht
+                    erlangen, obzwar er angeblich auch nicht davor zurückschrak,<lb
+                        xml:id="uuid_e7ec0853-dcd4-44a6-8c0d-af204605a0be"/><rs type="person"
+                        >H.</rs> mit niederschiessen zu bedrohen.</quote>“ </p>
+            <p xml:id="uuid_aec9f3f2-665b-4040-9a74-09eef2792bf4">
+                <lb xml:id="uuid_2582268d-2586-4ab1-a02e-134f1134a1bc"/>Diese Behauptungen sind
+                unwahr.</p>
+            <p xml:id="uuid_535551a3-9110-485e-9bde-5b3d2fc8862e">
+                <lb xml:id="uuid_f2aab059-6a41-47e7-9e10-6b91b356138f"/>Wahr ist, dass ich mir von
+                meinem Kameraden <rs type="person">K.H.</rs> nie<lb
+                    xml:id="uuid_0a80d726-2245-46b2-a677-b2b0f761cbf0" break="no"/>mals mehrere
+                Tausend Kronen geliehen habe. Wahr ist, dass ich <rs type="person">K.H.</rs>
+                <lb xml:id="uuid_963cf564-7f8f-4c62-9211-47b68ef8dbfb"/>niemals, weder anonym, noch
+                sonstwie angezeigt habe, wahr ist<lb
+                    xml:id="uuid_9234b822-29e9-4d31-b092-7ad7e2a4235e"/>weiters, dass ich <rs
+                    type="person">H.</rs> niemals aufgesucht habe und ihm niemals mit-<pb
+                    xml:id="D_000108-001-000_p011" facs="#D_000108-001-000-facs001-l011-p011" n="11"/>
+                <lb xml:id="uuid_b0f65354-4ece-46f2-9037-4f105b7ec677"/>geteilt habe, es stehe in
+                meiner Macht die Anzeigen verschwinden<lb
+                    xml:id="uuid_674df36e-a625-4439-ae37-7fc2ee44935d"/>zu lassen, sodass ihm kein
+                Leid geschehen könne und wahr ist,<lb
+                    xml:id="uuid_49d6361d-fd66-4813-8610-93c6510c5a01"/>dass ich keinerlei
+                Gegenleistung verlangt habe. Wahr ist weiters,<lb
+                    xml:id="uuid_92b2b2b5-e4ce-411f-95c6-2216c81c7509"/>dass ich <rs type="person"
+                    >H.</rs> niemals mit Niederschiessen bedroht habe.</p>
+            <p xml:id="uuid_64d34ef0-6a66-49df-b9a2-a873aecef95b">
+                <lb xml:id="uuid_d3f569af-df7e-4344-abd3-2803da1d4281"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Ø</note>Sie veröffentlichen
+                auf <rs type="work" ref="https://fackel.oeaw.ac.at/f/771,054" subtype="fackel">Seite
+                    54, 12. Zeile</rs> von oben:<lb
+                    xml:id="uuid_3c103fc3-3229-457c-8cb0-69a5a6ccc724"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Brief</note>„<quote
+                    xml:id="uuid_ac414e7a-8446-45c3-8e45-cabc9e1f1421"
+                    source="https://fackel.oeaw.ac.at/f/771,054">Trotzdem wusste er es zu umgehen,
+                    dass man ihn ins Feld schick<lb
+                        xml:id="uuid_3d659a35-24ac-4a2a-9da9-518980524219" break="no"/>te, weil er
+                    einerseits eine Zeitlang ständig den Kranken spielte,<lb
+                        xml:id="uuid_d2ae5f42-d0a4-4d1e-ba84-2fbe043739b0"/>andererseits später als
+                    Journalist seine Befreiung zu erlangen<lb
+                        xml:id="uuid_0b04abc3-3fe3-4efe-8f0b-1093efe0276c"/>wusste.</quote>“ </p>
+            <p xml:id="uuid_c0de542b-dcba-4d7c-99e1-fc06f041652f">
+                <lb xml:id="uuid_f863fb79-ea1d-4f11-9ab3-3d3fbff39645"/>Diese Behauptung ist
+                unwahr.</p>
+            <p xml:id="uuid_d9a15b56-b2ba-4013-b52a-c6b1ecabcf2b">
+                <lb xml:id="uuid_af4ffe15-f6cb-4a52-94ac-4848a2a89b98"/>Wahr ist, dass ich vom 11.
+                April 1916 bis 3. November 1917,<lb
+                    xml:id="uuid_dfacb1fc-a438-4502-a369-c3d1d4358148"/>mit einer Unterbrechung von
+                zweimal drei Wochen, andauernd im<lb
+                    xml:id="uuid_80228bc7-2116-4978-9fc7-94260a1db6d2"/>Felde stand. </p>
+            <p xml:id="uuid_87e46302-16b4-421e-8a90-f823c4e2984e">
+                <lb xml:id="uuid_ed98f3ec-3207-42e0-b78a-319290a1428a"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Ø</note>Sie veröffentlichen
+                auf <rs type="work" ref="https://fackel.oeaw.ac.at/f/771,054" subtype="fackel">Seite
+                    54, 18. Zeile</rs> von oben:<lb
+                    xml:id="uuid_641fff47-469e-4b88-977d-589be42bca04"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Brief</note>„<quote
+                    xml:id="uuid_ad88a253-5a08-4f97-b2f0-cb0590d6b4a4"
+                    source="https://fackel.oeaw.ac.at/f/771,054">Ich hatte insofern eine Affäre mit
+                    ihm, als er meinen <rs type="person">Kommandan<lb
+                            xml:id="uuid_04895f9d-d775-4563-beeb-c092459c8b93" break="no"/>ten</rs>
+                    dazu veranlasste, mich bei der Offiziersprüfung durchfallen<lb
+                        xml:id="uuid_e6da5db8-26f3-41be-b541-2099ffd09d04"/>zu lassen.</quote>“ </p>
+            <p xml:id="uuid_f67318da-5b53-4803-90d4-873c6fd0073b">
+                <lb xml:id="uuid_db41af8f-e1fa-4d90-aa4e-33b22f4bb98e"/>Diese Behauptung ist
+                unwahr.</p>
+            <p xml:id="uuid_7a3d4868-ba4c-4810-9ff0-76a4058fa36e">
+                <lb xml:id="uuid_ab0e4594-8c4a-46b9-91d2-52bc5473b9d9"/>Wahr ist, dass ich mit
+                niemandem eine Affäre hatte, weil<lb
+                    xml:id="uuid_d9574a17-5176-4466-8c42-1d3cc25c80de"/>ich den <rs type="person"
+                    >Kommandanten</rs> veranlasste, jemanden bei der Offiziersprü<lb
+                    xml:id="uuid_485f38fd-6d6b-47ca-a90e-532e6f9a98e7" break="no"/>fung durchfallen
+                zu lassen. Wahr ist, dass ich auf das Ergebnis<lb
+                    xml:id="uuid_d617e9bc-20e2-4092-9362-6b251242d77a"/>der Offiziersprüfung gar
+                keinen Einfluss nehmen konnte. </p>
+            <p xml:id="uuid_f590106c-4dbf-4ebd-b909-8fcef16fc583">
+                <lb xml:id="uuid_cfd13d70-b2c2-400a-9a72-5d85c73138d1"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Ø</note>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,054" subtype="fackel">Seite 54,
+                    11. Zeile</rs> von unten:<lb xml:id="uuid_34648f14-0da3-48c1-bc14-9add40bc6f09"
+                    /><note type="marginal" hand="#D_000108-001-000-hand01" rend="marginLeft"
+                    >Brief</note>„<quote xml:id="uuid_8e878997-3a20-427f-a7f6-108092295ba6"
+                    source="https://fackel.oeaw.ac.at/f/771,054">Da er seine Schuld nicht bezahlen
+                    konnte, wollte er <rs type="person">H.</rs> gewaltsam<lb
+                        xml:id="uuid_4f6d56de-0b3a-4e5e-86e2-6cc2b96d8e7a"/>angeblich mit Bedrohung
+                    seines Lebens dazu zwingen, dass er ihm<lb
+                        xml:id="uuid_be745036-0bfe-4058-8e99-cf4f3ba26d3a"/>den Schuldschein
+                    zurückgebe.</quote>“ </p>
+            <p xml:id="uuid_4e6e61ed-b593-40a2-96d0-874b696322e3">
+                <lb xml:id="uuid_63366c1e-fb52-434d-a674-8ad16a39f4f9"/>Diese Behauptung ist
+                unwahr.</p>
+            <p xml:id="uuid_027dd655-862c-4ce2-9251-b3c47cadd4e0">
+                <lb xml:id="uuid_c1098043-83bf-4927-acc3-fd24a5d6a0c0"/>Wahr ist, dass ich jede
+                Schuld bezahlen konnte und <pb xml:id="D_000108-001-000_p012"
+                    facs="#D_000108-001-000-facs001-l012-p012" n="12"/>
+                <lb xml:id="uuid_cdc90472-1433-4ff1-8936-987824b14794"/>niemanden damit bedroht
+                habe, mir irgend einen Schuldschein<lb
+                    xml:id="uuid_e0fddd20-ad45-4ab7-84e4-42bc294ec037"/>mit Gewalt
+                zurückzugeben.</p>
+            <p xml:id="uuid_361d805b-6b4a-4654-9779-80e2a7743d31">
+                <lb xml:id="uuid_66252781-8991-4333-94d0-75bba749ff58"/>Sie veröffentlichen auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,055" subtype="fackel">Seite 55,
+                    7. Zeile</rs> von oben:<lb xml:id="uuid_015c5eb2-4214-4c5c-870c-0ebc3081ced0"
+                    />„<quote xml:id="uuid_1429bbaa-e9be-4f5c-bed3-716d4da1481b"
+                    source="https://fackel.oeaw.ac.at/f/771,055">Der hauptsächlich <rs type="person"
+                        >Bedrohte</rs> wurde später als Zeuge darüber ver<lb
+                        xml:id="uuid_bbe1b042-4cad-4af0-a98d-21b82e547320" break="no"/>nommen, dass
+                    es nicht bei der ehrenrätlichen Ordnung der Ange<lb
+                        xml:id="uuid_be51665f-af5f-40a9-99b2-b5685f77f337" break="no"/>legenheit
+                    geblieben, sondern dass der Freibeuter – auf dessen<lb
+                        xml:id="uuid_0539dc54-0127-45e4-a122-40ee7f38e73b"/>Gedeihen knapp vor dem
+                    Zusammenbruch ein oesterreichischer<lb
+                        xml:id="uuid_a517d3fd-93af-4e9b-ade1-d76a305acde0"/><rs type="person"
+                        ref="#64015">Finanzminister</rs> sich betrank – wegen Erpressung und
+                        Verleumdung<lb xml:id="uuid_13410f3a-b2da-4a20-b5de-390feab6612b"
+                    />abgestraft worden sei.</quote>“</p>
+            <p xml:id="uuid_ce9e6e06-bd37-4dec-b0b7-abcc76c9b65f">
+                <lb xml:id="uuid_0bb4d465-cbbd-4940-a502-3ccfaf4300b0"/>Diese Behauptung ist unwahr. </p>
+            <p xml:id="uuid_11b3f55c-8622-4bcd-8c4e-9c70f2ef9bf8">
+                <lb xml:id="uuid_4eb32e29-a894-45c6-910f-c358949b51e3"/>Wahr ist, dass ich niemals,
+                weder militärgerichtlich,<lb xml:id="uuid_ce67d11b-52fb-462b-9389-b42f058b1b80"
+                />noch sonst auf irgend eine andere Art oder vor einer anderen<lb
+                    xml:id="uuid_549ebb06-b20e-42f9-a64d-d0ae2b943acb"/>Behörde wegen Erpressung und
+                Verleumdung abgestraft worden bin<lb
+                    xml:id="uuid_ea04680e-0bca-4b3b-8796-ddb08239513f"/>und auch niemals wegen
+                Erpressung und Verleumdung angeklagt war.</p>
+            <p xml:id="uuid_9ece686c-d83a-4ee0-899b-a7dff34958ed">
+                <lb xml:id="uuid_89f53ec9-03c3-4958-9323-2de5e6278831"/>Wahr ist weiters, dass Herr
+                    <rs type="person" ref="#64015">Kollmann</rs>, ehemals Bundesminister<lb
+                    xml:id="uuid_a3c5e1a0-a278-44fe-9059-9e0d12f2ab18"/>für Finanzen, sich niemals
+                auf mein Gedeihen betrank, sondern<lb
+                    xml:id="uuid_dcd91fbf-ee83-4d93-bde2-b5453e28e3d1"/>einen Toast auf meine
+                Zeitungen ausbrachte.</p>
+            <p xml:id="uuid_63d970e4-bd5a-4ae3-95ee-013894162195">
+                <lb xml:id="uuid_cb7de4c1-7202-49af-a584-48ba87d61ecc"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Ø</note>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,055" subtype="fackel">Seite 55,
+                    Zeile 7</rs> von unten:<lb xml:id="uuid_27bc2491-8b81-42a1-89ed-710104f6d4a2"
+                    /><note type="marginal" hand="#D_000108-001-000-hand01" rend="marginLeft"
+                    >Sch</note>„<quote xml:id="uuid_209243ec-3619-4df7-b996-3ad2c043d07e"
+                    source="https://fackel.oeaw.ac.at/f/771,055">Jene beiden Sittenzeugnisse seien
+                    ‚erschlichen‘</quote>“. </p>
+            <p xml:id="uuid_3a7f9646-c0d8-4dc2-a9fb-79164aa8c018">
+                <lb xml:id="uuid_172230c6-c5b7-4ba0-97e0-ab05b338123c"/>Diese Behauptung ist
+                unwahr.</p>
+            <p xml:id="uuid_b09ded71-1beb-4eac-b145-237e275f3b03">
+                <lb xml:id="uuid_8d75e1bf-b846-4b47-9326-73c746517946"/>Wahr ist, dass die
+                Budapester königl. Oberstadthauptmann<lb
+                    xml:id="uuid_a40e902c-f419-43c6-8fdf-6da288817fec" break="no"/>schaft die
+                Sittenzeugnisse vom 18. Dezember 1923 und 7. Oktober<lb
+                    xml:id="uuid_e89f4856-b0ca-459f-b617-849f6b756b0c"/>1925 Nr 33521 und 19247
+                meinem Budapester Rechtsfreund Dr.<lb
+                    xml:id="uuid_df688c91-84cf-42de-b272-66a769faef00"/><rs type="person"
+                    ref="#87741">Michael Tarján</rs> im Amtswege aushändigte und diese am 15.
+                    Dezem<lb xml:id="uuid_40e8d42e-d1e4-4b5a-944b-230109f39aa1" break="no"/>ber 1925
+                Z. 12006 nur einzog, weil „<quote xml:id="uuid_9e8b6912-b5db-41c3-a326-c45e349b13ef"
+                    source="">beide Zeugnisse bezüglich<lb
+                        xml:id="uuid_f2398419-fecb-4c59-855a-0acb023ca6f9"/>der <hi
+                        rend="underlined">politischen</hi> Einwandfreiheit des <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/37843" type="person">Emmerich
+                        Békessy</rs> den Tat<lb xml:id="uuid_c4dd5ced-df22-4c59-975b-475db560ae77"
+                        break="no"/>sachen nicht entsprechende Daten enthalten</quote>“ und eine
+                    Neuausfer<lb xml:id="uuid_7cc4f902-fa20-4789-8f06-18959d7a9bbd" break="no"
+                />tigung unter Berücksichtigung der gegen mich geführten Unter-<pb
+                    xml:id="D_000108-001-000_p013" facs="#D_000108-001-000-facs001-l013-p013" n="13"/>
+                <lb xml:id="uuid_190094b1-b6f7-421b-b834-171ad821b0bd"/>suchung wegen Aufreizung
+                sich als notwendig ergeben hat. </p>
+            <p xml:id="uuid_f99c92c0-837f-4f99-b3ea-7433430dc9e3">
+                <lb xml:id="uuid_b12c3566-6ba8-467d-ba14-d9b682593ac6"/>Sie veröffentlichen auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,057" subtype="fackel">Seite 57,
+                    Zeile 5</rs> von unten:<lb xml:id="uuid_0424ec52-e929-4e1f-942a-35fc7907937a"
+                    /><note type="marginal" hand="#D_000108-001-000-hand01" rend="marginLeft">Dr.
+                    S.</note>„<quote xml:id="uuid_53b6c4a1-6f59-429f-8f45-125bcbd1899a"
+                    source="https://fackel.oeaw.ac.at/f/771,057">Vorher schon hatte ich in Erfahrung
+                    gebracht, dass <rs type="person" ref="#37843">Békessy</rs>
+                    <lb xml:id="uuid_14811859-8b92-4e6d-b81c-17be9a645449"/>ausser den in der
+                    Leumundsnote verzeichneten Delikten, die<lb
+                        xml:id="uuid_145a63c2-0fcd-4a25-8681-e63fb430f414"/>angeblich niemals zu
+                    einer Verurteilung geführt hatten, wäh<lb
+                        xml:id="uuid_caaf3b52-d0d3-4eb2-8f40-a4db5c71e027" break="no"/>rend seiner
+                    militärischen Dienstleistung sich eine Verfehlung<lb
+                        xml:id="uuid_e541875a-c415-4947-9369-76d1b85188e3"/>habe zuschulden kommen
+                    lassen, für die er bestraft worden ist.</quote>“ </p>
+            <p xml:id="uuid_ec7d86da-3df0-4121-bf6b-7e02cd859d7f">
+                <lb xml:id="uuid_e795c512-1bdb-47a0-8901-4385dd6a20bf"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Ø</note>Diese Behauptungen
+                sind unwahr. </p>
+            <p xml:id="uuid_b74703e7-baf0-4a56-8146-3841de9aea6d">
+                <lb xml:id="uuid_24eaf694-421b-4447-beec-51df5c104c07"/>Wahr ist, dass ich weder
+                wegen der in der Leumundsnote<lb xml:id="uuid_1e2123ad-9ba4-4cc1-a7e9-dbd0ebe3979c"
+                />verzeichneten Delikte, noch während meiner militärischen Dienst<lb
+                    xml:id="uuid_29c60d62-3403-44a6-ae2c-3b3c01ba8380" break="no"/>zeit für irgend
+                eine Verfehlung bestraft worden bin.</p>
+            <p xml:id="uuid_36ffdab1-4319-4865-bda6-ca27623a401a">
+                <lb xml:id="uuid_3d9f90be-27f3-4384-9c90-570704ab1810"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Ø</note>Sie veröffentlichen
+                auf <rs type="work" ref="https://fackel.oeaw.ac.at/f/771,059" subtype="fackel">Seite
+                    59, Zeile 14</rs> von oben:<lb
+                    xml:id="uuid_ac2e4869-540f-4a3a-9e6e-0a731bd31914"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Dr. S.</note>„<quote
+                    xml:id="uuid_1df983a9-c61d-465c-9156-4ba1a5dc5241"
+                    source="https://fackel.oeaw.ac.at/f/771,059">Ich erfuhr, dass <rs type="person"
+                        ref="#37843">Békessy</rs> wegen Verleumdung und Erpressung<lb
+                        xml:id="uuid_e917109c-42b4-4c95-a735-90c85b66f353"/>militärgerichtlich
+                    abgeurteilt wurde.</quote>“ </p>
+            <p xml:id="uuid_a437623e-22d7-4a20-a0dc-5ed64a4c7971">
+                <lb xml:id="uuid_868fe5f8-50f1-4d13-acb2-8804cd43f2c2"/>Diese Behauptung ist
+                unwahr.</p>
+            <p xml:id="uuid_dd17d4e9-bdfa-4154-90c3-87fc7ff1ed83">
+                <lb xml:id="uuid_51ca0eb1-00d6-49e9-b185-ed23fc53ff90"/>Wahr ist, dass ich wegen
+                Verleumdung und Erpressung mili<lb
+                    xml:id="uuid_4d08a99a-fbdd-4cd0-8eeb-62291aef01c1" break="no"/>tärgerichtlich
+                niemals abgestraft wurde.</p>
+            <p xml:id="uuid_80f2e744-f068-47ab-8a3d-9ced20370575">
+                <lb xml:id="uuid_06673ee2-5161-4823-b2ed-e7640522b36a"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Ø</note>Sie veröffentlichen
+                auf <rs type="work" ref="https://fackel.oeaw.ac.at/f/771,060" subtype="fackel">Seite
+                    60, Zeile 16</rs> von oben:<lb
+                    xml:id="uuid_6d995079-b6c8-4681-a12f-92be6e7440ac"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Dr. S.</note>„<quote
+                    xml:id="uuid_d1516a1f-e195-48d2-8809-3549d47d9136"
+                    source="https://fackel.oeaw.ac.at/f/771,060">Zu dieser Nummer hat aber Herr <rs
+                        type="person" ref="#37843">Békessy</rs> im Jahre 1923 eine<lb
+                        xml:id="uuid_f5d19e6c-2b69-4fdd-b5c8-869b5f3e2d0c"/>Amtsbestätigung
+                    vorgelegt, dass das Verfahren auf Grund der Be<lb
+                        xml:id="uuid_ebf7b813-b5db-43b4-92f7-48155e96e5b6" break="no"/>rufung der
+                    Angeklagten <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37843" type="person"
+                        >Emmerich Békessy</rs> und Dr. <rs type="person" ref="#87743">Ludwig
+                        Lázár</rs>
+                    <lb xml:id="uuid_9508fad6-6bb4-4282-8b98-cbc60a2d0ef1"/>einen günstigen Verlauf
+                    genommen habe. Es ist nun ganz unmög<lb
+                        xml:id="uuid_d94da0fa-c8ee-487c-8730-58a4cf4f3cac" break="no"/>lich, dass
+                        <rs type="person" ref="#37843">Békessy</rs> in demselben Akt Kläger und
+                    Angeklagter war.</quote>“ </p>
+            <p xml:id="uuid_49aea1bb-7af6-49fa-ad14-6aafd964c1e7">
+                <lb xml:id="uuid_62473269-bc21-4aa8-8936-32404f5be47c"/>Diese Behauptung ist
+                unwahr.</p>
+            <p xml:id="uuid_00b0fd5c-9ec1-4bfa-b067-ac82e82c297a">
+                <lb xml:id="uuid_eb233fa5-beff-4d5a-9015-bf128331ac86"/>Wahr ist, dass zu dieser
+                Nummer eine Amtsbestätigung<lb xml:id="uuid_35131f94-bf01-416c-a324-7959a497699f"
+                />vorgelegt wurde, aus der hervorgeht, dass die <rs type="institution" ref="#37005"
+                    >Commercia A.G.</rs>
+                <lb xml:id="uuid_8bd26e49-af4a-4726-992a-c6d4017b4498"/>gegen <rs type="institution"
+                    >Wilhelm Nagel &amp; Co.</rs> eine Anzeige erstattet hat und die<lb
+                    xml:id="uuid_f5067181-8d67-45f5-a5bf-fb4e7e5bce41"/>zur selben Nummer gegebene
+                Gegenanzeige dieser <rs type="institution">Firma</rs> mangels <pb
+                    xml:id="D_000108-001-000_p014" facs="#D_000108-001-000-facs001-l014-p014" n="14"/>
+                <lb xml:id="uuid_52afdf37-f90b-4dac-bd6f-abf0cece4cb5"/>strafbaren Tatbestandes
+                unberücksichtigt geblieben ist.</p>
+            <p xml:id="uuid_f8ed85a1-87a3-4c28-91f5-87d58535d6d0">
+                <lb xml:id="uuid_1d4e8b16-d53a-40d0-89a5-b554b1d0f8a8"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">!</note>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,060" subtype="fackel">Seite 60,
+                    Zeile 9</rs> von unten:<lb xml:id="uuid_59fcb256-45a2-4897-9e8e-75a1266a6910"
+                    />„<quote xml:id="uuid_48f44483-3164-41cc-b08b-b438ee681de8"
+                    source="https://fackel.oeaw.ac.at/f/771,060">Dass dieser selbst bei Herrn Hofrat
+                        <rs type="person" ref="#64012">Pollak</rs> erschienen sei,<lb
+                        xml:id="uuid_9430f7be-6c14-4da3-a379-45ba3fbe8349"/>um eine Besserung seiner
+                    Lage herbeizuführen, wobei er so<lb
+                        xml:id="uuid_6274d5e1-8f42-4d45-87a7-874e0f6d19bf"/>en passant auf das
+                    ‚gebesserte‘ Betragen der ‚<rs type="institution" ref="#29470">Stunde</rs>‘
+                        gegen<lb xml:id="uuid_92ecf9a0-9e6d-4e9a-8509-bb58642d4f23" break="no"/>über
+                    der <rs type="institution">Polizei</rs> hingewiesen habe.</quote>“ </p>
+            <p xml:id="uuid_d6c62619-ccde-470a-b640-e6027e1bbac9">
+                <lb xml:id="uuid_9647df69-6f58-44de-a6d7-083e3ed66022"/>Diese Behauptungen sind
+                unwahr.</p>
+            <p xml:id="uuid_aabf4494-3a82-4386-b397-af5c09b0ef3f">
+                <lb xml:id="uuid_c537aeba-b8fd-49e3-9820-ec52fedd2825"/>Wahr ist vielmehr, dass ich
+                niemals zu dem Zwecke bei<lb xml:id="uuid_6cc2c5ce-d48c-4323-94dd-076e768d863d"
+                />Hofrat <rs type="person" ref="#64012">Pollak</rs> erschienen bin, um eine
+                Besserung meiner Lage<lb xml:id="uuid_353c18a6-2437-42a6-89ae-46887913494e"
+                />herbeizuführen, sondern von diesem die Richtigstellung der<lb
+                    xml:id="uuid_e2527637-789b-4f90-b03c-03308c71b220"/>unrichtigen Auskünfte des
+                    <rs type="institution">Polizeipräsidiums</rs> in der <rs type="work"
+                    subtype="legal-doc">Leumunds<lb
+                        xml:id="uuid_5a7acf64-64be-4aa9-a1df-0b4519c4e90b" break="no"/>note vom 14.
+                    November 1923</rs> Pr. Zl. IV.1546/6 begehrte. Wahr<lb
+                    xml:id="uuid_2cdb84b8-9a96-49f0-9cdf-e7ad0cc160ea"/>ist weiters, dass ich mit
+                keinem Worte auf das „<quote xml:id="uuid_66949bec-0b43-4d36-a255-001e13636470"
+                    source="">gebesserte</quote>“<lb
+                    xml:id="uuid_629afcba-e665-4788-b83f-8aaa4f923279"/>Betragen der „<rs
+                    type="institution" ref="#29470">Stunde</rs>“ gegenüber der <rs
+                    type="institution">Polizei</rs> hingewiesen habe,<lb
+                    xml:id="uuid_58714b48-af8c-441c-be18-c8eedad2d946"/>vielmehr von Hofrat <rs
+                    type="person" ref="#64012">Pollak</rs> die Versicherung der freundschaft<lb
+                    xml:id="uuid_47cabe38-1dc4-4a11-8b9e-8db3ec7a0012" break="no"/>lichsten Gefühle
+                und den dahingehenden Wunsch des Polizeiprä<lb
+                    xml:id="uuid_4257392c-e315-45a8-a5c9-2f7b954bb824" break="no"/>sidenten <rs
+                    type="person" ref="#24444">Schober</rs> entgegennahm, dieser wünsche ein
+                    besseres<lb xml:id="uuid_9402ae0b-c07f-438e-a02a-74408c451eca"/>Einvernehmen mit
+                der „<rs type="institution" ref="#29470">Stunde</rs>“.</p>
+            <p xml:id="uuid_fd780444-95bd-4e50-be42-cf05ae03e6b3">
+                <lb xml:id="uuid_7939d5b3-af22-401e-945a-3bb9898a142c"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Ø</note>Sie veröffentlichen
+                auf <rs type="work" ref="https://fackel.oeaw.ac.at/f/771,067" subtype="fackel">Seite
+                    67, Zeile 12</rs> von oben:<lb
+                    xml:id="uuid_cdff68ba-1a08-49bc-8d92-f6a463276ae8"/>„<quote
+                    xml:id="uuid_5fa83ddf-2c56-4f0a-899f-b4e532dfd547"
+                    source="https://fackel.oeaw.ac.at/f/771,067">… Dass <rs type="person"
+                        ref="#37843">Békessy</rs> beim Gebirgsartillerieregiment Nr 4 als<lb
+                        xml:id="uuid_ac6495f3-1b52-42bd-b325-c42f78b8f338"/>Vampir gedient,
+                    militärgerichtlich abgeurteilte Erpressungen<lb
+                        xml:id="uuid_341ce9f4-b9b2-4555-98c7-c8647a868088"/>an Menschenblut verübt
+                    habe und der Charge des Kadettaspiran<lb
+                        xml:id="uuid_78b6d14e-ccd2-4028-ae18-0d434edb254b" break="no"/>ten mit
+                    Schimpf verlustig gegangen sei.</quote>“</p>
+            <p xml:id="uuid_caa67a67-2b22-440d-b40b-d9a6c6d0e97e">
+                <lb xml:id="uuid_672d2b38-e7be-4ff8-b9ba-99f8aa8bdd93"/>Diese Behauptung ist
+                unwahr.</p>
+            <p xml:id="uuid_1481d8b9-cec3-4f9a-bb35-16e68ec03791">
+                <lb xml:id="uuid_6380ef77-576d-46c1-85b1-883ccbd0b5c9"/>Wahr ist, dass ich beim
+                Gebirgsartillerieregiment <lb xml:id="uuid_e2d7c773-1286-41c9-85a4-daafba5a5633"
+                />Nr. 4 niemals militärgerichtlich abgeurteilte Erpressungen an<lb
+                    xml:id="uuid_d6dcf3dc-3096-4bf5-89b2-a41e5bf331df"/>Menschenblut verübt habe und
+                wahr ist, dass ich der Charge des<lb
+                    xml:id="uuid_9f52b99d-2869-40b4-ac6b-507b339aa765"/>Kadettaspiranten nicht
+                verlustig gegangen bin.</p>
+            <pb xml:id="D_000108-001-000_p015" facs="#D_000108-001-000-facs001-l015-p015" n="15"/>
+            <p xml:id="uuid_c6b68276-b35e-4703-b501-2c39acb0b912">
+                <lb xml:id="uuid_db42abfb-fdbb-48e6-ae87-e296f49216b4"/>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,087" subtype="fackel">Seite 87,
+                    Zeile 20</rs> von unten:<lb xml:id="uuid_f2b6d83d-2dbc-4954-bdea-4dc35dff7e8c"
+                    /><note type="marginal" hand="#D_000108-001-000-hand01" rend="marginLeft"
+                    >!</note>„<quote xml:id="uuid_46af4680-a77e-4f82-893d-78c84055b048"
+                    source="https://fackel.oeaw.ac.at/f/771,087">Das aber weiss ich, dass auf Herrn
+                    Hofrat <rs type="person" ref="#64012">Pollak</rs> – wen<lb
+                        xml:id="uuid_d531f47c-1c74-407a-a5e4-5ad97488e8f4"/>immer vor übler
+                    journalistischer Nachrede zu schützen sein<lb
+                        xml:id="uuid_5834e9a3-aac5-4a31-bf8f-aea60696668e"/>Interesse war – die
+                    Versicherung des Herrn <rs type="person" ref="#37843">Békessy</rs> Eindruck<lb
+                        xml:id="uuid_ade0f45e-7143-42e6-91b9-2b1843622a2a"/>gemacht hat, dass die
+                        ‚<rs type="institution" ref="#29470">Stunde</rs>‘ jetzt so brav geworden
+                    sei.</quote>“ </p>
+            <p xml:id="uuid_b85f4780-b979-4caa-b31c-ef84a3a1c207">
+                <lb xml:id="uuid_a824d610-ed30-474e-a847-de8c602538df"/>Diese Behauptung ist unwahr. </p>
+            <p xml:id="uuid_fa55e25b-a45f-4955-8dda-327a19bd84a4">
+                <lb xml:id="uuid_fed76e13-ecd0-44e2-a704-309aaa2ff813"/>Wahr ist, dass ich niemals
+                Herrn Hofrat <rs type="person" ref="#64012">Pollak</rs> versichert<lb
+                    xml:id="uuid_4f368483-bd30-46d0-8b68-c6a21d3ea756"/>habe, dass die „<rs
+                    type="institution" ref="#29470">Stunde</rs>“ jetzt so brav geworden sei,
+                    vielmehr<lb xml:id="uuid_26d1be4c-fa10-4c3e-9dce-be3311e9ea1d"/>von ihm den
+                Wunsch des <rs type="person" ref="#24444">Polizeipräsidenten Schober</rs>
+                    entgegennahm,<lb xml:id="uuid_f10be352-4e9c-435f-8533-7504f6123507"/>die „<rs
+                    type="institution" ref="#29470">Stunde</rs>“ möge brav werden. </p>
+            <p xml:id="uuid_638dd36a-2082-401b-86cd-0b0849161828">
+                <lb xml:id="uuid_b0235e5e-3c46-4c01-a4b7-44ca5408181d"/>Gegenüber der auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,093" subtype="fackel">Seite 93,
+                    von Zeile 17 bis Zeile 37</rs>
+                <lb xml:id="uuid_142601ba-5172-4caf-bfb1-ecd3ab6efcbd"/>veröffentlichten unwahren
+                Tatsachen verlange ich die Veröffent<lb
+                    xml:id="uuid_78c33b76-7c21-4db3-8998-c0c69ae25b59" break="no"/>lichung der
+                nachfolgenden Berichtigung:</p>
+            <p xml:id="uuid_0bfdb6b4-1484-4ddf-a2ed-24d97afd197c"><lb
+                    xml:id="uuid_3c14eaf2-6222-41b6-aec7-585beece4a7f"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">Ø</note>Es ist unwahr, dass
+                ich Beziehungen zur <rs type="person" ref="#18570">Horthy</rs>-Regierung<lb
+                    xml:id="uuid_087b7165-101e-4823-926f-93594cf44851"/>anknüpfte. Wahr ist, dass
+                ich mit der <rs type="person" ref="#18570">Horthy</rs>-Regierung keinerlei<lb
+                    xml:id="uuid_a88eb733-12ce-44c2-aa6a-f3879e3757da"/>Beziehungen anknüpfte. Es
+                ist unwahr, dass ich „<quote xml:id="uuid_62a1efe3-e741-43e7-9f50-e16271b69c16"
+                    source="https://fackel.oeaw.ac.at/f/771,093">erwachende<lb
+                        xml:id="uuid_12ceede8-d6a0-4e59-bb95-f2faaaa4133e"/>Christen
+                    fetierte.</quote>“ Wahr ist, dass ich niemals „<quote
+                    xml:id="uuid_e848912a-7726-4e48-9211-11740f67458a"
+                    source="https://fackel.oeaw.ac.at/f/771,093">erwachende<lb
+                        xml:id="uuid_a0bc13f2-2e87-4927-ba28-4c722fb73587"/>Christen</quote>“
+                feierte.</p>
+            <p xml:id="uuid_33d43fd1-5638-4d23-8439-e0e292f1fae5">
+                <lb xml:id="uuid_00c61c1d-b098-4771-b608-b996b4731d14"/>Es ist unwahr, dass ich, um
+                Rotgardisten zu denunzieren, Tele<lb
+                    xml:id="uuid_6ad6b6e6-58c8-45b8-ab97-1f9e67719168" break="no"/>gramme
+                ausschickte. Wahr ist, dass ich niemals Rotgardisten<lb
+                    xml:id="uuid_09edf868-1f97-4a3e-9450-07e4c2d76cee"/>denunzierte und niemals
+                solche Telegramme ausschickte. </p>
+            <p xml:id="uuid_f0bc0f96-ca1c-4d49-a862-faf7816ca97a">
+                <lb xml:id="uuid_bb3bdc74-4d4b-4bb3-870b-ab61573b035a"/><note type="marginal"
+                    hand="#D_000108-001-000-hand01" rend="marginLeft">!</note>Es ist unwahr, dass
+                ich während meiner letzten Zeit der ungari<lb
+                    xml:id="uuid_bfbc86c2-d11c-449d-bfd8-0725d9631d37" break="no"/>schen Regierung
+                Dienste geleistet habe. Wahr ist, dass ich nie<lb
+                    xml:id="uuid_ede761b6-ca72-4120-ab39-005b1425d539" break="no"/>mals solche
+                Dienste geleistet habe.</p>
+            <p xml:id="uuid_cf805742-3e77-4fc1-9d8c-57833f41be31">
+                <lb xml:id="uuid_5b0ccbaa-f965-4ace-b907-85818d3667e6"/>Es ist unwahr, dass ich in
+                Ungarn eine Justiz-Komödie inszenier<lb
+                    xml:id="uuid_ae5bfc26-f3b5-45fd-9ff3-2ad440979e8e" break="no"/>te. Wahr ist,
+                dass ich in Ungarn gegen mich eine Selbstanzeige<lb
+                    xml:id="uuid_343da534-b737-4968-bbeb-b1a8fc48d597"/>erstattete, um
+                verleumderische Wiener Gerüchte in einem objek<lb
+                    xml:id="uuid_b326f623-3c30-404a-82dc-2c046ceb48ce" break="no"/>tiven
+                Strafverfahren untersuchen zu lassen.</p>
+            <pb xml:id="D_000108-001-000_p016" facs="#D_000108-001-000-facs001-l016-p016" n="16"/>
+            <p xml:id="uuid_8d14d38a-b943-4096-b0b5-51017823c83e">
+                <lb xml:id="uuid_a9b09440-2cce-4be2-8f8d-de0aea37baff"/>Es ist unwahr, dass der Fall
+                    <rs type="person" ref="#37843">Békessy</rs> einen Fall der Staats<lb
+                    xml:id="uuid_82519c0a-de83-4803-ab97-ed1cdb36fb28" break="no"/>korruption
+                darstellt. Wahr ist, dass mein Fall mit dem Staate<lb
+                    xml:id="uuid_08632ed5-6639-4c7c-9b61-5cfb21738513"/>überhaupt nichts zu tun hat. </p>
+            <p xml:id="uuid_d5d7c4c8-1448-42b5-adbc-dd5c8620b116">
+                <lb xml:id="uuid_cc7dc1f5-700f-4bd7-a610-db0a7cab2763"/>Sie schreiben auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/771,112" subtype="fackel">Seite
+                    112, Zeile 19</rs> von oben:<lb
+                    xml:id="uuid_7bbb96ec-6b1c-4601-bb32-35502ab7aac2"/>„<quote
+                    xml:id="uuid_617b46ab-891c-4a6d-9176-5d4c9335ae4a"
+                    source="https://fackel.oeaw.ac.at/f/771,112">Dass von einer Begünstigung des <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/37843" type="person">Emmerich
+                        Békessy</rs> durch die<lb xml:id="uuid_d9b6b980-76ca-42c5-a50a-6352d7f048d9"
+                        /><rs type="institution" ref="#36865">Polizeidirektion</rs> oder durch
+                    einzelne Funktionäre desselben<lb
+                        xml:id="uuid_9878110d-98c0-4da5-933d-6b4053870dc2"/>die Rede sein
+                    kann.</quote>“</p>
+            <p xml:id="uuid_57a6a6f7-ef02-4c4a-8975-993ddc6cf776">
+                <lb xml:id="uuid_89479895-93da-473a-9edb-74845a3b91a6"/>Diese Behauptung ist unwahr. </p>
+            <p xml:id="uuid_83e09b2a-df99-460d-8f6b-fd76b4d129a0">
+                <lb xml:id="uuid_e0b7cec3-b0f8-4732-aed7-583db736834a"/>Wahr ist, dass von einer
+                Begünstigung meiner Person durch<lb
+                    xml:id="uuid_aa427d2c-016d-4041-ab8b-e04976b31aeb"/>die <rs type="institution"
+                    ref="#36865">Polizeidirektion</rs> oder durch einzelne Funktionäre derselben<lb
+                    xml:id="uuid_879c918c-deb8-4667-8449-2c0929c2b4e6"/><hi rend="underlined"
+                    >nicht</hi> die Rede sein kann.</p>
+            <p xml:id="uuid_c9d1a1a9-efbe-4673-8f5a-331f916b549b">
+                <lb xml:id="uuid_d5b138a4-11a4-40a4-a5e0-2511d2292d1f"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37843" type="person">Emmerich
+                    Békessy</rs>
+            </p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-145-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-143-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000196-144-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Felix Gallia an Samek</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000196-144-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/5148</idno>
+            <idno subtype="transkribus" type="ID">400788</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000196" type="collection">Karl
+                    Kraus ca. Arbeiter-Zeitung (Brünn)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="" xml:id="D_000196-144-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000196-144-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#51575">Dr. FELIX GALLIA</persName>
+               <address>
+                  <street corresp="#51759">MASARYKSTRASSE 25/27</street>
+                  <settlement ref="#833">BRÜNN</settlement>
+               </address>
+               <date when-iso="1937-01-18">18. Jänner 1937</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Wohlgeboren Herrn | Dr. Oskar Samek, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse 18</street>
+                  <settlement ref="#65">Wien XIV.</settlement>
+               </address>
+               <date when-iso="1937-01-19">19. JAN. 1937</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Sonka.</note>
+               <note type="dictation">Dr.G/b</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1937-01-18">18. Januar 1937
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000196-144-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000196-144-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-12T09:52:56.545Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-12T11:11:24.132Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 400788. </change>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-10-29"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-10-29"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-10-29"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-10-29" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000196-144-000-facs001">
+      <surfaceGrp xml:id="D_000196-144-000-facs001-l001">
+         <surface type="recto" xml:id="D_000196-144-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2594138/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000196-144-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2594139/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000196-144-000_p001"
+             facs="#D_000196-144-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_21b96dcb-1fee-44c8-911d-d94684addd76">
+            <lb xml:id="uuid_e31bd366-29ba-4642-92a7-ad82e63f751e"/>Sehr geehrter <rs ref="#38909" type="person">Herr Kollege</rs>. </p>
+         <p xml:id="uuid_86357eac-3688-44e3-ac17-0593e27200b4">
+            <lb xml:id="uuid_5b22f575-cd5a-47b1-8208-0dbb8531c56b"/>Ich bestätige Ihr gesch. <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-143-000"
+                type="work"
+                subtype="legal-doc">Schreiben vom 5. d.M.</rs>
+            <lb xml:id="uuid_722a0c5d-dea7-4c91-830f-40505c6e556f"/><rs ref="#25105" type="person">Sonka</rs> hat die Berufung doch ausgeführt und dabei wieder ein
+                    ganz<lb xml:id="uuid_adb6db37-229f-4951-aab2-30d8a0432bb5"/>niederträchtiges
+                Machwerk geliefert. Um Ihnen, sehr geehrter <rs ref="#38909" type="person">Herr<lb xml:id="uuid_f7534c96-c1cf-4f58-9736-2206cafa1c16"/>Kollege</rs>, zeigen zu
+                können, wohin sich <rs ref="#25105" type="person">Sonka</rs> versteigt, habe ich<lb xml:id="uuid_e93d04e2-1a17-4926-9637-d74c29e0b794"/>eine Uebersetzung der <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-145-000"
+                type="work"
+                subtype="legal-doc">Berufung</rs> besorgt, die ich Ihnen anbei über<lb break="no" xml:id="uuid_6cab1e2c-67e5-4077-a6e6-473c13cdf672"/>mittle. Bei der
+                Lektüre dieses <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-145-000"
+                type="work"
+                subtype="legal-doc">Schriftstückes</rs> wirft sich vor allem<lb xml:id="uuid_0e4a876f-c585-4148-9418-1654fc794e00"/>die Frage auf, was grösser
+                ist, ob die Schlechtigkeit oder die Blöd<lb break="no" xml:id="uuid_f95bca90-abdf-4fb5-a422-118795159717"/>heit des Gegners. Meiner
+                Meinung nach stammt das ganze Elaborat<lb xml:id="uuid_9d95ddc4-c9d9-404f-89b3-33c20f6e145c"/>aus der Feder <rs ref="#38005" type="person">Brügels</rs>, der ja auch als Zeuge über die famosen
+                    Behaup<lb break="no" xml:id="uuid_d20fc396-0d8c-475c-b353-d8b1a12c2022"/>tungen
+                des <rs ref="#25105" type="person">Angeklagten</rs> geführt wird. </p>
+         <p xml:id="uuid_246921fa-e0ed-4c7a-9e9d-900b14d04ce9">
+            <lb xml:id="uuid_28ebf779-23dd-46b7-84e6-a83e5016ef64"/>Die Berufungsverhandlung ist
+                auf den </p>
+         <p xml:id="uuid_38eb6d2e-7b4e-4888-9bc1-0a6bc0652921">
+            <lb xml:id="uuid_d627fe2a-e57d-4eb0-8eda-59deddc05f04"/><hi rend="underlined">21.
+                    d.M., 11 Uhr vormittags</hi>
+         </p>
+         <p xml:id="uuid_a19d394e-71e0-4525-8bae-540c13bc3e04">
+            <lb xml:id="uuid_b88282bd-2030-4ae9-97a7-dc5af5fce2b8"/>angesetzt worden. </p>
+         <p xml:id="uuid_c5728ccc-268e-4eca-b326-d3fb8dfbe314">
+            <lb xml:id="uuid_00c4ec21-e9da-4241-a33a-725415fab9dc"/>Ich halte es wohl für
+                ausgeschlossen, dass der<lb xml:id="uuid_ca1a9ae3-bb69-4b27-ae39-e8c4cb0bb390"/><rs ref="#59702" type="institution">Berufungssenat</rs> den Irrwegen <rs ref="#25105" type="person">Sonkas</rs> folgt, doch sind wir leider, da<lb xml:id="uuid_fa17bb15-141a-4aae-8fdb-f3762ea43943"/>in dem <rs ref="#59702" type="institution">Senat</rs> lauter čechische Herren sitzen, bis zu einem
+                    gewissen<lb xml:id="uuid_ba0c60f9-36ae-4444-9650-74ae9cd20cc3"/>Grad doch in
+                Gottes Hand. </p>
+         <p xml:id="uuid_b57d134f-6fdc-48ef-a82c-9c8d3fbbb798">
+            <lb xml:id="uuid_93e222fb-575b-4989-9a50-ae9e47d2e45b"/>Ich begrüsse Sie herzlichst<lb
+               xml:id="uuid_d5955f8d-644f-45b0-81f7-42405efdad12"/>als Ihr sehr ergebener<lb
+               xml:id="uuid_59401a1b-4ea1-4138-80c3-9723f58e4be6"/><rs ref="#51575" type="person"
+               >Dr. Gallia</rs>
+         </p>
+         <p xml:id="uuid_d1760feb-73ad-43f8-bbf0-c9e1dbd9367a">
+            <lb xml:id="uuid_ba282ef9-795e-45d1-a6b2-6bedc5a0d48b"/><rs type="work"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-145-000" subtype="legal-doc">1
+               Beilage</rs>
+            <lb xml:id="uuid_a8f3bb57-2d93-4f53-914c-f843bc1188f4"/>recom. </p>
+         <p xml:id="uuid_85c75e96-0a15-4ce5-883c-207c15a8f921">
+            <pb xml:id="D_000196-144-000_p002"
+                facs="#D_000196-144-000-facs001-l001-p002"
+                n="2"/>
+         </p>
+         <p xml:id="uuid_4f8b3272-d14f-442a-b7bf-b0eb34ec72fc">
+            <lb xml:id="uuid_a692643d-cd1c-45c1-a52c-368924f5664d"/><note resp="law-firm"
+               type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#29644"
+                  type="institution">Arbeiter Zeitung</rs>
+               <lb xml:id="uuid_af2b0884-40c6-460d-94ce-5b851f2c1a57"/>19. JAN. 1937</note></p>
+      </body>
+   </text>
+</TEI>

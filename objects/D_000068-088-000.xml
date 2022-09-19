@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-089-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-087-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000068-088-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Justizrat Viktor Fraenkl an RA Wolfgang Heine</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000068-088-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-justizrat-viktor-fraenkl-ra-wolfgang-heine </idno>
+            <idno subtype="transkribus" type="ID">207934</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000068" type="collection">Karl
+                    Kraus ca. Alfred Kerr</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000068-088-000-facs001" xml:id="D_000068-088-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000068-088-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38141">Victor Fraenkl | Justizrat </persName>
+               <address>
+                  <street corresp="#362">Potsdamer Strasse 86b</street>
+                  <settlement ref="#168">Berlin W. 57</settlement>
+               </address>
+               <date when-iso="1928-02-21">21. Februar 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38364">Herrn Rechtsanwalt W. Heine</persName>
+               <address>
+                  <street corresp="#62935"/> 
+                  <settlement ref="#168">Charlottenburg</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote xml:id="D_000068-088-000-hand01"
+                      source="#D_000068-088-000-wit01"
+                      scribeRef="#38141"
+                      medium="black-ink"
+                      cert="high"
+                      resp="#JK"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000068-088-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000068-088-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" status="draft" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" status="draft" when-iso="2021-09-13">Replaced Text with Transcription
+                of Transkribus Document 207934. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2022-01-06"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-01-06" who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2022-01-06"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2022-01-06"
+                 who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2022-01-06"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000068-088-000-facs001">
+      <surfaceGrp xml:id="D_000068-088-000-facs001-l001">
+         <surface type="recto" xml:id="D_000068-088-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552951/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000068-088-000_p001"
+             facs="#D_000068-088-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_83525530-36ab-404e-a797-26665098ac05">
+            <lb xml:id="uuid_8a954dd7-fa3f-4011-84f5-a0f7509808bb"/><note hand="#D_000068-088-000-hand01">Abschrift.</note>
+         </p>
+         <p xml:id="uuid_cabee035-ab79-45d4-b1ea-dd247032a185">
+            <lb xml:id="uuid_3193c691-5f7a-4134-9d7b-c854e8c8544b"/>Sehr geehrter <rs ref="#38364" type="person">Herr College</rs>, </p>
+         <p xml:id="uuid_b48f0c7f-257d-4a63-8529-64903335c1a1">
+            <lb xml:id="uuid_6b8f52d3-c257-4683-ae8e-c083a55581d0"/>in der Privatklagesache <rs
+               ref="#11988" type="person">Kraus</rs> gegen <rs ref="#11910" type="person">Kerr</rs>
+            habe ich namens des Herrn<lb xml:id="uuid_52e41c91-fb52-436b-88ae-52df5834bc62"/><rs
+               ref="#11988" type="person">Karl Kraus</rs>, damit aus der eventuellen Annahme des vom
+               <rs ref="#36362" type="institution">Gericht</rs> angereg<lb break="no"
+               xml:id="uuid_a675b27c-360e-4810-a89b-2ac7af230f20"/>ten Vergleichs keine irrige
+            Folgerung gezogen werden kann, Folgendes<lb
+               xml:id="uuid_197a08ce-b86a-46f8-a883-0a6e1dbb9bf2"/>zu erklären:</p>
+         <p xml:id="uuid_6a7ce731-cfa8-4c15-950e-7f098fdc410f">
+            <lb xml:id="uuid_c7de1447-e6f5-4024-9945-05b6c9d2d40a"/>Wie ich bereits an
+                Gerichtsstelle am 2. d.M. geäussert habe, würde ein<lb xml:id="uuid_ffe656c9-6dc9-487d-9730-54681c947d23"/>solcher Vergleich nichts mit
+                irgendwelchen Versprechungen für wei<lb break="no" xml:id="uuid_328dca22-a1b2-4d15-b68d-1d9129d254ec"/>teres Verhalten zu tun
+                haben. Er könnte lediglich eine processuale<lb xml:id="uuid_642f0e82-34a7-44e5-b587-78dc174e4f38"/>Erledigung dieser
+                Angelegenheit bedeuten, während ihre kulturpoli<lb break="no" xml:id="uuid_1cf7a5bc-1022-4452-bcc6-8bf560c2a016"/>tische Seite unberührt
+                bliebe. Es läge also völlig im Ermessen des<lb xml:id="uuid_0bebb576-878f-4937-a38d-0480383524dd"/>Herrn <rs ref="#11988" type="person">Karl Kraus</rs>, sich als Publicist dann und so mit Herrn <rs ref="#11910" type="person">Dr. Kerr</rs>
+            <lb xml:id="uuid_53935902-1e6b-4a70-b0e0-b60071b3d70c"/>zu beschäftigen, wann und
+                wie er es als geboten erachten würde. </p>
+         <p xml:id="uuid_3a9dbf0d-306a-4eb6-a7c6-0f3fad727384">
+            <lb xml:id="uuid_7568bdd5-4a70-4d04-b8c7-16f3d40a08fd"/>Mit kollegialer
+                    Hochachtung!<lb xml:id="uuid_e437f083-9478-4f07-a178-558898332500"/>gez: <rs ref="#38141" type="person">Victor Fraenkl</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

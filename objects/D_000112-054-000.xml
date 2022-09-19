@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-055-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-053-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000112-054-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Willy Katz an Samek</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">
+               https://id.acdh.oeaw.ac.at/legalkraus/legalkraus/D_000112-054-000.xml </idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/3213</idno>
+            <idno subtype="transkribus" type="ID">248510</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000112" type="collection">Karl Kraus
+               ca. Theodor Wolff</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000112-054-000-facs001" xml:id="D_000112-054-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000112-054-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSU">Typoskript mit
+                        handschriftlichen Überarbeitungen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-04-28">28. April 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#19200">Dr. Willy Katz</persName>
+               <address>
+                  <street corresp="#482">Friedrichstraße 46</street>
+                  <settlement ref="#168">Berlin SW 68</settlement>
+               </address>
+               <date when-iso="1931-04-28">28. April 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Rechtsanwalt Dr. Samek,</persName>
+               <address>
+                  <street corresp="50493"/> 
+                  <settlement ref="#51">Wien, I</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000112-054-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000112-054-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+         <handNotes>
+            <handNote xml:id="D_000112-054-000-hand01" source="#D_000112-054-000-wit01" scribeRef="#51596" medium="black-ink" cert="medium" resp="#IL"/>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="typography" when-iso="2021-06-28" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-06-30" who="#IL"/>
+         <change type="structure" when-iso="2021-05-25" who="#IL"/>
+         <change type="intertexts" when-iso="2021-06-21" who="#IL"/>
+         <change type="references" when-iso="2021-05-25" who="#IL"/>
+         <change when-iso="2020-07-22T07:34:42.408Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 248510. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000112-054-000-facs001">
+      <surfaceGrp xml:id="D_000112-054-000-facs001-l001">
+         <surface type="recto" xml:id="D_000112-054-000-facs001-l001-p001">
+            
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555951/full/full/0/default.jpg"/>
+         </surface>
+         <surface type="verso" xml:id="D_000112-054-000-facs001-l001-p002">
+            
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555952/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000112-054-000_p001"
+             facs="#D_000112-054-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_2b1ab776-c488-4b09-90bb-0ccd8b1b3135">
+            <lb xml:id="uuid_061be10d-0be6-4b43-a509-c6375cca242e"/>Sehr geehrter Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/19200" type="person">Kollege</rs>! </p>
+         <p xml:id="uuid_474b782c-04ea-44d5-ab35-411cb0d3f97b">
+            <lb xml:id="uuid_20bee77f-8c92-45f9-81ee-fdbe72055d26"/>In Sachen <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"><hi rend="spaced"
+                  >Krau</hi>s</rs> gegen <rs ref="https://pmb.acdh.oeaw.ac.at/entity/13163"
+               type="person"><hi rend="spaced">Wolf</hi>f</rs> hatte ich schon selber<lb
+               xml:id="uuid_c512154f-0067-433f-aa96-beb65472f155"/>daran gedacht, Herrn <rs
+               ref="#55757" type="person"><hi rend="spaced">Spir</hi>o</rs> für die nächste
+            Verhandlung als Zeugen<lb xml:id="uuid_418004fc-b077-48a2-aeea-90c566ba5ae3"/>zu laden.
+            Mir ist aber die schriftstellerische Haftung und Gesinnung<lb
+               xml:id="uuid_c982b9a8-ec69-426c-88f1-eee71a2de715"/>des Herrn <rs ref="#55757"
+               type="person">Spiro</rs> unbekannt und ich möchte mich erst nach dieser Richtung<lb
+               xml:id="uuid_f3f4e02f-be73-4fc2-b233-962bc643079a"/>hin erkundigen, bevor ich seine
+            Ladung zu dem ja noch in weiter Ferne<lb
+               xml:id="uuid_cdeed4bd-12e9-4a5c-a798-b2047e0cd4e8"/>liegenden Termin <subst
+               hand="#D_000112-054-000-hand01">
+               <del hand="#D_000112-054-000-hand01">vornehme</del>
+               <add hand="#D_000112-054-000-hand01">veranlasse</add>
+            </subst>. Wäre nämlich etwa zu erwarten, dass Herr<lb
+               xml:id="uuid_ec14853e-c527-4cc6-85d3-20e65a702fce"/><rs ref="#55757" type="person"
+               >Spiro</rs> den Aussagen der Zeugen <rs ref="#43662" type="person">Schmalz</rs> und
+               <rs ref="#39313" type="person">Pfemfert</rs>, die an sich meines<lb
+               xml:id="uuid_b554064f-bd7b-4794-9c9e-cf60d2795b64"/>Erachtens beweiskräftig genug
+            sind, um die Tatsache der <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11581"
+               type="person">Harden</rs>’schen<lb xml:id="uuid_fb2699c9-5d04-450b-a54f-875f1a7cecac"
+            />Aeusserung über alle Zweifel zu erheben, eine abschwächende oder mil<lb break="no"
+               xml:id="uuid_31300446-f321-44c2-9e54-147ad25d2421"/>dernde Darstellung gegenüber
+            stellt, so wäre er besser fortzulassen. </p>
+         <p xml:id="uuid_5075ffc0-9404-4472-b65b-752bcf9e175c">
+            <lb xml:id="uuid_794debf2-53b0-4d2d-ac68-6b3f1562d46b"/>Mit vorzüglicher
+                    Hochachtung<lb xml:id="uuid_761eba51-a57f-4f91-92e1-009195a8ff1c"/>ergebenst<lb xml:id="uuid_55711a92-f5d4-45d5-b8ac-08958730cdd1"/>Dr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/19200" type="person">Katz</rs>
+         </p>
+         <pb xml:id="D_000112-054-000_p002"
+             facs="#D_000112-054-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_368b043c-467e-4306-9ba9-f6770c2f7e37">
+            <lb xml:id="uuid_b7bd59f7-5802-403b-86da-83bf0ae2c2a1"/><note resp="law-firm"
+               type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/13163" type="person"
+                  >Wolf</rs>
+               <lb xml:id="uuid_3e0c9054-e902-40b6-aee9-47d89900c57f"/>29. APR. 1931</note></p>
+      </body>
+   </text>
+</TEI>

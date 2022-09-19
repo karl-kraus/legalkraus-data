@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-013-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000019-012-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000019-012-001.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Johann Treulich</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000019-012-001.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1789</idno>
+            <idno subtype="transkribus" type="ID">178507</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000019" type="collection">Karl
+                    Kraus ca. Fritz Kaufmann und Anton Kuh</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000019-012-001-facs001" xml:id="D_000019-012-001-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000019-012-001-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1926-01-25">25. Jänner 1926</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#61816">Wohlgeboren | Herrn Dr. Johann Treulich | Rechtsanwalt</orgName>
+               <address>
+                  <street corresp="#61817">Haarhof No. 4</street>
+                  <settlement ref="#51">WIEN I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Kuh.</note>
+               <note type="dictation">Dr.S./W.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1926-01-25">25. Januar 1926
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000019-012-001-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000019-012-001-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-12-01" who="#JK"/>
+         <change type="typography" when-iso="2021-12-01" who="#JK"/>
+         <change type="references" when-iso="2021-12-01" who="#JK"/>
+         <change type="structure" when-iso="2021-12-01" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-01" who="#JK"/>
+         <change when-iso="2021-10-25" who="#LU">created XML-Document</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000019-012-001-facs001">
+      <surfaceGrp xml:id="D_000019-012-001-facs001-l001">
+         <surface type="recto" xml:id="D_000019-012-001-facs001-l001-p001">
+            
+         </surface>
+         <surface type="verso" xml:id="D_000019-012-001-facs001-l001-p002">
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000019-012-001_p001"
+             facs="#D_000019-012-001-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_5ff990e7-c6db-4734-8522-e3102ec1b249">
+            <lb xml:id="uuid_722266d2-1f75-4b65-967b-6ad98b86e014"/>Sehr geehrter <rs ref="#61816" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_e5717df9-cee0-4d40-a7e1-7f2e7b14bf6e">
+            <lb xml:id="uuid_66476def-290e-4827-bd7f-633c2120eaa2"/>Unter Hinweis auf meine
+                telefonisch vorgebrachte<lb xml:id="uuid_7d484c37-69ba-4ae2-9899-f260f7937496"/>Bitte, ersuche ich Sie, meinem <rs type="person">Kanzleibeamten</rs> die
+                    Urteile<lb xml:id="uuid_d23995f9-b546-47f2-a1a9-f0666095236f"/>in Sachen <rs ref="#51844" type="person">Wiewald</rs> – <rs ref="#37849" type="person">Wlassak</rs> zu übergeben, eventuell eine<lb xml:id="uuid_fa9694ea-3c82-44e8-903a-9bdb1a2f7d81"/>Ermächtigung zur
+                Einsichtnahme in den Akt. </p>
+         <p xml:id="uuid_cb655c8b-4c9d-4e12-92fd-a4c2491cd4b9">
+            <lb xml:id="uuid_44a332f7-f211-4e7b-beff-9cb265926c6c"/>Mit bestem Dank und
+                vorzüglicher kollegialer<lb xml:id="uuid_b40e81ce-535c-4890-ad87-0882692bcc69"/>Hochachtung </p>
+         <p xml:id="uuid_04b75eae-ac3f-4dd8-a696-ec90c0609503">
+            <lb xml:id="uuid_b285efdb-68e2-4b20-b005-6e2cb1f38e2f"/><hi rend="underlined">Durch
+                    Kanzlei.</hi>
+         </p>
+         <pb xml:id="D_000019-012-001_p002"
+             facs="#D_000019-012-001-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_c14b984e-989a-4ff9-a118-bc4d86238d63">
+            <lb xml:id="uuid_57eba160-391c-4836-ac7f-e8b56291c61a"/><note resp="law-firm" type="paratext">Betrifft: <rs ref="#11988" type="person">Kraus</rs> – <rs ref="#8363" type="person">Kuh</rs>
+               <lb xml:id="uuid_b9c04df5-a7b9-4386-8aec-411a7a3bb5db"/>expediert am 25. Jänner
+                        1926.<lb xml:id="uuid_9a557682-059f-4eab-a533-62f5d0625c2a"/><hi rend="underlined">durch Kanzlei!</hi></note>
+         </p>
+      </body>
+   </text>
+</TEI>

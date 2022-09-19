@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    next="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-023-000.xml"
+    prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-021-000.xml"
+    xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000112-022-000.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Rolf Nürnberg an RA Botho Laserstein</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2022</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+                </availability>
+                <idno subtype="legalkraus" type="URL">
+                    https://id.acdh.oeaw.ac.at/legalkraus/legalkraus/D_000112-022-000.xml </idno>
+                <idno subtype="krausonline" type="URL"
+                    >http://www.kraus.wienbibliothek.at/node/3181</idno>
+                <idno subtype="transkribus" type="ID">236792</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000112" type="collection">Karl
+                    Kraus ca. Theodor Wolff</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness facs="#D_000112-022-000-facs001" xml:id="D_000112-022-000-wit01"/>
+                </listWit>
+                <msDesc>
+                    <physDesc>
+                        <ab type="materiality">
+                            <objectType source="D_000112-022-000-wit01"
+                                ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T"
+                                >Typoskript</objectType>
+                        </ab>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date subtype="produced" type="sortDate" when-iso="1929-10-31">31. Oktober 1929
+               </date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#39265">Rolf Nürnberg</persName>
+                    <address>
+                        <street corresp="#56166">Tauentzienstr. 13a</street>
+                        <settlement ref="#168">Berlin W. 50</settlement>
+                    </address>
+                    <date when-iso="1929-10-31">den 31. Oktober 1929</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#38969">Herrn Dr. Botho Laserstein</persName>
+                    <address>
+                        <street corresp="#51751">Landsberger Allee 55</street>
+                        <settlement ref="#168">Berlin NO. 18</settlement>
+                    </address>
+                    <date/>
+                </correspAction>
+                <noteGrp>
+                    <note type="subject"/>
+                    <note type="dictation"/>
+                </noteGrp>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term source="D_000112-022-000-wit01">Brief</term>
+                </keywords>
+                <classCode source="D_000112-022-000-wit01"
+                    scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF"
+                    >D.K.BRF</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="done">
+            <change type="typography" when-iso="2021-06-22" who="#IL"/>
+            <change type="header_facsimile" when-iso="2021-06-22" who="#IL"/>
+            <change type="structure" when-iso="2021-05-25" who="#IL"/>
+            <change type="intertexts" when-iso="2021-06-21" who="#IL"/>
+            <change type="references" when-iso="2021-05-25" who="#IL"/>
+            <change when-iso="2020-07-22T07:32:17.358Z" who="#IB">created by API</change>
+            <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 236792. </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000112-022-000-facs001">
+        <surfaceGrp xml:id="D_000112-022-000-facs001-l001">
+            <surface type="recto" xml:id="D_000112-022-000-facs001-l001-p001">
+                
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555824/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000112-022-000-facs001-l002">
+            <surface type="recto" xml:id="D_000112-022-000-facs001-l002-p002">
+                
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555826/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000112-022-000-facs001-l003">
+            <surface type="recto" xml:id="D_000112-022-000-facs001-l003-p003">
+                
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555828/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000112-022-000-facs001-l004">
+            <surface type="recto" xml:id="D_000112-022-000-facs001-l004-p004">
+                
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555830/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000112-022-000-facs001-l005">
+            <surface type="recto" xml:id="D_000112-022-000-facs001-l005-p005">
+                
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555832/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000112-022-000-facs001-l006">
+            <surface type="recto" xml:id="D_000112-022-000-facs001-l006-p006">
+                
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555833/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb xml:id="D_000112-022-000_p001" facs="#D_000112-022-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_e828b974-f759-4cd7-b684-bd2ed5cb0f33">
+                <lb xml:id="uuid_d5fba446-8f55-4c07-aa90-ae7a59093878"/><hi rend="spaced"
+                    >Abschrif</hi>t. </p>
+            <p xml:id="uuid_aef13540-677d-4b13-9bb1-be39a8ba12f6">
+                <lb xml:id="uuid_e2a9a93a-63c3-4e51-9328-b551cf4ca3c4"/>Sehr geehrter Herr <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/38969" type="person">Doktor</rs>, </p>
+            <p xml:id="uuid_a11a3ffa-3dc2-49b6-ac26-5aaafff6be83">
+                <lb xml:id="uuid_53261eb3-2369-4afd-9690-157706f790ca"/>als gestern der <rs
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-021-000" type="work"
+                    subtype="legal-doc">Brief</rs> verlesen wurden,<lb
+                    xml:id="uuid_89c992da-2883-4c4c-b285-f3ba425f8c48"/>hörte ich, dass zwei
+                Kleinigkeiten unrichtig sind, die wir in der<lb
+                    xml:id="uuid_44ea7cfd-c3fa-4992-8a25-60d0698a4919"/>Eile der damaligen Abfassung
+                wohl übersehen hatten: der <rs ref="#55635" type="person">Redakteur</rs>
+                <lb xml:id="uuid_ec81713f-1465-4070-8506-fabae9d9dfe0"/>des <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/29329" type="institution">Berliner
+                    Tageblattes</rs> heisst natürlich nicht <rs ref="#8965" type="person">Walter v.
+                    Molo</rs>,<lb xml:id="uuid_675cb55f-9cd7-4b59-8673-246ccd7391ba"/>das ist der
+                Vater, sondern <rs ref="#55635" type="person">Kurt v. Molo</rs>. </p>
+            <p xml:id="uuid_367061f7-fb0a-4b9f-8854-5b7cb50c1327">
+                <lb xml:id="uuid_7637e93c-0632-453e-b53f-1d84a6c83309"/>Dann ist Herr <rs
+                    ref="#43600" type="person">Szatmari</rs> nicht reingeschickt worden, sondern<lb
+                    xml:id="uuid_d196db3f-efd4-45f5-a760-319c3784fe64"/>der war aus privatem
+                Interesse – seine <rs ref="#55656" type="person">Gattin</rs> ist Filmschauspiele<lb
+                    break="no" xml:id="uuid_e137c7c2-df84-49ac-84b8-94f0858fc9b9"/>rin – am selben
+                Tage in dem <rs ref="#55661" type="work" subtype="pmb">Film</rs>. </p>
+            <p xml:id="uuid_93a9662c-bfcb-4194-9481-265cd06a7499">
+                <lb xml:id="uuid_74084aea-ede6-4850-8fd0-4f86f8d14efb"/>(Ich möchte zu der weiter
+                unten abgegebenen Erklärung gleich<lb
+                    xml:id="uuid_cd778013-db3c-43f0-b16a-30745bef3fc8"/>vorwegnehmen, man kann nie
+                wissen, wozu man’s braucht, dass die<lb
+                    xml:id="uuid_67ede373-70f8-4fc0-8eca-e86655c6da5e"/><rs ref="#55656"
+                    type="person">Frau</rs> des Herrn <rs ref="#43600" type="person">Szatmari</rs>
+                sich während der Vorführung über den<lb
+                    xml:id="uuid_41e52294-5df3-4e7f-86c0-e3240e348f69"/><rs ref="#55661" type="work"
+                    subtype="pmb">Film</rs> sehr lustig gemacht hat.) </p>
+            <p xml:id="uuid_2f96b715-3c1a-48db-a716-0a6e10cff9ad">
+                <lb xml:id="uuid_8a8d5f2d-36d1-43e1-b464-74c6d68a8e90"/>Ich habe, um diese beiden
+                Dinge richtig zu stellen, den<lb xml:id="uuid_1af304d4-9b42-4a45-8e2d-ca43b73e3d41"
+                    /><rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-021-000" type="work"
+                    subtype="legal-doc">Brief</rs> sonst wortwörtlich genau so mit den zwei
+                Korrekturen, noch<lb xml:id="uuid_9709e07c-71b8-4216-b5af-a7a173634d98"/>einmal,
+                ebenfalls mit dem Datum von damals geschrieben. Sie kön<lb break="no"
+                    xml:id="uuid_3fde2035-3b09-453d-982f-d939d98b1cda"/>nen den anderen natürlich
+                auch behalten, ich wollte nur vermeiden<lb
+                    xml:id="uuid_6205de87-49cb-4c64-b5d3-410aeea2a7e5"/>dass etwa in die <rs
+                    ref="#41244" type="work" subtype="pmb">Fackel</rs> Unrichtigkeiten kommen. </p>
+            <p xml:id="uuid_9b9ea5d7-e353-45b1-a43e-4bcb8bc33478">
+                <lb xml:id="uuid_af8ee6e3-2f2c-464b-aaf3-331205fa10ac"/>Nun einige tatsächliche
+                Ausführungen zu den Ereignissen<lb
+                    xml:id="uuid_66ae44fc-e621-481d-a571-425ef92e34ab"/>selbst, die Sie ja sicher
+                benötigen: </p>
+            <pb xml:id="D_000112-022-000_p002" facs="#D_000112-022-000-facs001-l002-p002" n="2"/>
+            <p xml:id="uuid_46e0ebdc-2390-464e-9093-0c3dcc7439f2">
+                <lb xml:id="uuid_66231dd1-3a69-4abb-b4b5-cc0ddd097fdf"/>Der Fall <rs ref="#55635"
+                    type="person">v. Molo</rs> ist meiner Meinung nach der viel wichtigere<lb
+                    xml:id="uuid_67d80924-273b-40f0-8e36-2439216d6a1a"/>weil er eindeutiger ist und
+                leichter bewiesen werden kann. Es ist<lb
+                    xml:id="uuid_cdc1f850-990e-4e58-964d-a64569165b7d"/>daher wohl auch notwendig,
+                dass sowohl Sie juristisch wie Herr <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>
+                <lb xml:id="uuid_77895c71-4ad0-438f-b613-4970cecea4b0"/>journalistisch auf <hi
+                    rend="underlined">den</hi> Fall das Hauptaugenmerk richten. Einen Satz<lb
+                    xml:id="uuid_cd7d8e7c-750d-41f8-b51f-c62e844a0664"/>unter den vielen, die Herr
+                    <rs ref="#55635" type="person">v. Molo</rs> in der berühmten Nacht vom 29.
+                    zum<lb xml:id="uuid_65d096e6-3a66-4d1f-86d5-f7ab3b59356b"/>30. Mai gesprochen
+                hat, lautet: „<q type="spoken" who="#55635">Die Kritik wurde zurückgewiesen,<lb
+                        xml:id="uuid_9b348f6d-6e9e-4544-a68e-a0be6381ab28"/>weil sie zu schlecht
+                    war.</q>“ Ich bin jederzeit bereit, diesen Text zu<lb
+                    xml:id="uuid_c4c2f8d1-4243-46e5-8a11-41d16b75fe32"/>beschwören, da ich ihn mir
+                sofort noch im Restaurant ins Notizbuch ge<lb break="no"
+                    xml:id="uuid_73e0c7f8-1d24-4833-a233-d483a3bdbaa2"/>schrieben habe. Natürlich
+                sagte Herr <rs ref="#55635" type="person">v. Molo</rs> viel mehr. Auch das kann<lb
+                    xml:id="uuid_e5944ee2-16fa-4294-afe3-1e06199f828b"/>ich alles beschwören. Die
+                beiden Zeugen des Vorganges, nach denen Sie<lb
+                    xml:id="uuid_1aeef83e-093f-4171-899f-c6297f6bb3de"/>mich gestern fragten waren
+                Herr Dr. <rs ref="#39317" type="person">Kurt Pinthus</rs>, <rs type="place"
+                    ref="#65402">W. 30, Heilbronner<lb break="no"
+                        xml:id="uuid_ced58950-a57b-4192-b4d8-ddc97ea6030c"/>str. 2</rs>, und
+                Fräulein <rs ref="#55652" type="person">Eugenia Nikolajewa</rs>, <rs type="place"
+                    ref="#65399">Wilmersdorf, Emserstr. 14</rs>. Vor<lb
+                    xml:id="uuid_7532d823-0e3e-4c8a-82d8-e6b273b2f357"/>allen Herrn Dr. <rs
+                    ref="#39317" type="person">Pinthus</rs> machte ich, sofort nachdem Herr <rs
+                    ref="#55635" type="person">v. Molo</rs> ge<lb break="no"
+                    xml:id="uuid_6007828f-d075-4d9c-a941-0c3df3cdfe61"/>gangen war, auf das
+                Vorkommnis aufmerksam. Er war auch ausser sich u.<lb
+                    xml:id="uuid_02aa3148-daf5-4a05-8c37-af890d456dd0"/>hat es sich ziemlich genau
+                gemerkt; ich rief ihn heute an und er er<lb break="no"
+                    xml:id="uuid_de9aaebc-b629-4531-ae4f-0afe66273ba5"/>innert sich noch immer genau
+                an den Vorfall. </p>
+            <p xml:id="uuid_61806b5f-7a56-4e1e-b16d-8838d0eb8384">
+                <lb xml:id="uuid_95fc4b8e-d429-455e-9b03-88cc86384126"/>Hier wird, wie ich annehme,
+                als Ausrede vom <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29329"
+                    type="institution">Tageblatt</rs> gebraucht<lb
+                    xml:id="uuid_57704b9e-7047-4efe-83d3-ce076ec0f7e3"/>werden, dass die Kritik aus
+                stilistischen Gründen oder wegen Unreife<lb
+                    xml:id="uuid_b87c4b9e-d850-4b34-b079-2ae2985ee3a3"/>des Herrn <rs ref="#55635"
+                    type="person">v. Molo</rs> zurückgewiesen wurde. Dieser Ausrede, wenn sie
+                    wirk<lb break="no" xml:id="uuid_be992536-4f5b-42df-b8b3-564f9fda9b53"/>lich
+                gebraucht wird, kann man sofort damit begegnen, dass Herr <rs ref="#55635"
+                    type="person">v. Molo</rs>
+                <lb xml:id="uuid_a9e2e406-e391-4900-be24-a92468df7491"/>über viel wichtigere und
+                entscheidendere Dinge geschrieben hat, als<lb
+                    xml:id="uuid_3df4f65c-14fd-488b-a191-632251db64bd"/>über das Kabarett der
+                Komiker und dass man diese wichtigeren Sachen<lb
+                    xml:id="uuid_e0d07677-d7bc-497f-916f-fdc4712c7b98"/>nicht zurückgewiesen hat.
+                Anstelle des Herrn <rs ref="#55635" type="person">v. Molo</rs> hat ein Herr<lb
+                    xml:id="uuid_6e37f042-40da-4a48-8b21-8de05cc81183"/><rs ref="#38629"
+                    type="person">Suhrkamp</rs> geschrieben, der natürlich genau so subaltern und
+                    stilistisch<lb xml:id="uuid_05e16c1f-fb5f-41ec-b17b-e4661c28e082"/>eher
+                schlechter ist. Also dieser Fall scheint ganz klar und unerhört<lb
+                    xml:id="uuid_f6a900f9-b8bb-451d-a6d0-b3e53a46ad84"/>bedeutungsvoll, denn es ist
+                doch wohl ganz ausgeschlossen, dass Herr <pb xml:id="D_000112-022-000_p003"
+                    facs="#D_000112-022-000-facs001-l003-p003" n="3"/>
+                <lb xml:id="uuid_bfce1fd8-4504-4444-ad42-6e1951fe3514"/><rs ref="#55635"
+                    type="person">v. Molo</rs> sich diese Sachen ausgerechnet nachts um 1 Uhr Herr
+                Dr. <rs ref="#39317" type="person">Pinthus</rs>
+                <lb xml:id="uuid_088c40e4-15c2-46f7-a1c7-1f368a11a154"/>und mir gegenüber aus den
+                Fingern saugt. Wie gesagt, ich kann in dieser<lb
+                    xml:id="uuid_f0551fd2-9b2c-4169-a59b-90dad2a71829"/>Sache vollkommen ausführlich
+                und eingehend aussagen. </p>
+            <p xml:id="uuid_4ca7a8a3-9d61-4f2f-acb7-7d815dbfce0e">
+                <lb xml:id="uuid_4df276f9-29c5-4df1-b3b9-9c8941c339cf"/>Etwas schwieriger liegt, wie
+                ich Ihnen schon sagte, der Fall<lb
+                    xml:id="uuid_72019871-c3a4-4132-8a99-ad31681f554c"/><rs ref="#55629"
+                    type="person">Horkheimer</rs>. Die Darstellung in meinem <rs
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-021-000" type="work"
+                    subtype="legal-doc">Brief</rs>, stammt, wie ich Ihnen<lb
+                    xml:id="uuid_553b0f2f-8f32-4fee-96e6-62e8ba30eb0d"/>ebenfalls schon sagte, von
+                Herrn <rs ref="#38759" type="person">Moritz Seeler</rs>, <rs ref="#61572"
+                    subtype="address" type="place">Augsburgerstr. 25</rs>.<lb
+                    xml:id="uuid_b68d7506-c4f4-40a1-b55c-fee7451145c7"/>Der Pressechef, der mit
+                Herrn <rs ref="#55629" type="person">Horkheimer</rs> gesprochen hat, ist Herr<lb
+                    xml:id="uuid_d3b94020-f14c-43e1-93dc-2263bfa51ad5"/><rs ref="#39454"
+                    type="person">Geza v. Cziffra</rs>. (Die Adresse werde ich versuchen, noch zu
+                    besorgen.)<lb xml:id="uuid_14ea83cb-ced9-48e9-924b-3183c8285b93"/>Dass Herr <rs
+                    ref="#55629" type="person">Horkheimer</rs> mit der Kritik beauftragt wurde,
+                unterliegt kei<lb break="no" xml:id="uuid_41cc20eb-1dbe-418a-9965-470564cc162a"/>nem
+                Zweifel, das wird er ebenfalls aussagen. Interessant ist nunmehr<lb
+                    xml:id="uuid_77510688-b1e2-44c0-aa2b-1b5715541b78"/>folgendes: Als gestern die
+                Verlesung des <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-021-000"
+                    type="work" subtype="legal-doc">Briefes</rs> in den Berliner Lo<lb break="no"
+                    xml:id="uuid_df21cd22-2533-4fdd-a2e3-0476a5432e8e"/>kalen bekannt wurde, sagte
+                Herr Dr. <rs ref="#39375" type="person">Blass</rs>, ein anderer Filmkritiker<lb
+                    xml:id="uuid_6e93207b-2fcc-42c8-8293-0da5a5db1747"/>des <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/29329" type="institution">Berliner
+                    Tageblatts</rs>: Mir ist erzählt worden, Herr <rs ref="#55629" type="person"
+                    >Horkheimer</rs> sei<lb xml:id="uuid_e2e50d61-110d-4cbb-93fc-662a06d78139"/>am
+                Morgen des betreffenden Tages erkrankt.(!!) Herr <rs ref="#55659" type="person"
+                    >Erich Hamburger</rs>,<lb xml:id="uuid_e8804d32-c6b7-4113-93f4-7118bdfce6b0"
+                />Redakteur des <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29329"
+                    type="institution">Berliner Tageblatt</rs> wiederum hat erklärt, die Kritik
+                    sei<lb xml:id="uuid_4865d8a6-8c2f-4618-b64b-0d76e1cebc43"/>nur etwas zu spät
+                gekommen. Schon diese verschiedenen Aussagen sind ja<lb
+                    xml:id="uuid_fd88ed77-84af-4bf9-9c82-b0a7d86bb7c1"/>hochinteressant. Unklar
+                bleibt folgendes: wenn die Kritik etwas zu spät<lb
+                    xml:id="uuid_2864cffb-f806-4fc3-95eb-4e00565dc52a"/>gekommen ist, dann konnte
+                man doch Herrn <rs ref="#43600" type="person">Szatmari</rs> erst ziemlich spät<lb
+                    xml:id="uuid_a9849722-a3cd-4017-b380-cbcb573d42af"/>beauftragen. Auch seine
+                Kritik muss zu spät gekommen sein. Also ich<lb
+                    xml:id="uuid_cd12bcde-7488-4f21-8cb8-9edfa75d252e"/>glaube, auch mit dem Fall
+                    <rs ref="#55629" type="person">Horkheimer</rs> wird die <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/13163" type="person">Chefredaktion</rs>
+                des <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29329" type="institution">Tage<lb
+                        break="no" xml:id="uuid_afe9354d-ddb9-4967-9770-a75436359a6a"/>blattes</rs>
+                es schwer haben, wenn auch die Sache nicht ganz so einfach liegt<lb
+                    xml:id="uuid_1ffc2999-d0a9-4f5d-8e35-875c0bd83ee0"/>wie im Falle <rs
+                    ref="#55635" type="person">v. Molo</rs>, der ein Musterbeispiel ist. Diese
+                Ausreden, dass<lb xml:id="uuid_62e056fd-4f39-4d7c-9175-c660bbd2720c"/>die einen
+                sagen, Herr <rs ref="#55629" type="person">Horkheimer</rs> war krank, die anderen,
+                er habe die<lb xml:id="uuid_e8ef1adf-1b2a-4a4a-89f9-84551d071161"/>Kritik zu spät
+                geschickt, habe ich vor allen Dingen auch mitgeteilt zu<lb
+                    xml:id="uuid_43605330-4adb-4538-9268-9eead084e362"/>dem Zwecke, dass man sie
+                vielleicht vorwegnehmen kann, ehe es von den<lb
+                    xml:id="uuid_b9e69075-8a08-4111-987b-2851e569bb85"/>anderen in einem eventuellen
+                Prozess oder öffentlich behauptet wird. </p>
+            <pb xml:id="D_000112-022-000_p004" facs="#D_000112-022-000-facs001-l004-p004" n="4"/>
+            <p xml:id="uuid_7f8cb2b1-2c57-4291-b2b7-5cc7060ba728">
+                <lb xml:id="uuid_5420cf94-508a-4a6d-8070-0cb5852e49ae"/>Nun noch etwas sehr
+                Interessantes und mit diesen Dingen eng Zu<lb break="no"
+                    xml:id="uuid_f165f7f7-fc18-4914-bd9d-c4fcfc763fd1"/>sammenhängendes: </p>
+            <p xml:id="uuid_f4b16920-9d49-43dc-b291-3041334f08eb">
+                <lb xml:id="uuid_58281fe8-79f2-40b9-be31-c5f65ceae847"/>Als dieser Film „<rs
+                    ref="#55661" type="work" subtype="pmb">Das Land ohne Frauen</rs>“, über den Herr
+                    <rs ref="#55629" type="person">Horkheimer</rs>
+                <lb xml:id="uuid_f68c74a9-d014-4c6b-ba16-1f68dd302049"/>der scharfe, nicht, aber
+                Herr <rs ref="#43600" type="person">Satmari</rs>, der sanfte, schrieb, war Rund<lb
+                    break="no" xml:id="uuid_5f055c14-9867-4070-810c-0fbba1c1324e"/>funkkritiker des
+                    <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29329" type="institution">Berliner
+                    Tageblattes</rs> Herr <rs ref="#55637" type="person">Hans Philipp Weitz</rs>.
+                    Dieser<lb xml:id="uuid_4592a4e1-a139-4fd1-8431-ee3979732283"/>damals noch beim
+                    <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29329" type="institution"
+                    >Tageblatt</rs> angestellt Rundfunkkritiker, war gleichzei<lb break="no"
+                    xml:id="uuid_44325c33-06bc-4354-a6a2-fd3500f3301c"/>tig als Propagandist bei der
+                    <rs ref="#36993" type="institution">Tobis</rs>, einer der Herstellerinnen des
+                    Filmes<lb xml:id="uuid_be2bbb8b-ba5c-48cb-96d3-e23823f2de50"/>tätig. Herrn <rs
+                    ref="#55637" type="person">Weitz</rs> hat auch z.B. bei Herrn Dr. <rs
+                    ref="#39317" type="person">Pinthus</rs>, der über den<lb
+                    xml:id="uuid_2843db75-a67e-4675-a04b-ec4fe8534b0e"/><rs ref="#55661" type="work"
+                        subtype="pmb">Film</rs> im <rs type="work" subtype="pmb" ref="#65406">Acht Uhr Abendblatt</rs>
+                schrieb, angerufen und um eine gute Rezen<lb break="no"
+                    xml:id="uuid_40af80ff-1c32-455f-876c-c2f2f659e86c"/>sion gebeten; eine Bitte,
+                die natürlich erfolglos blieb. Zeuge Dr. <rs ref="#39317" type="person">Pin<lb
+                        break="no" xml:id="uuid_5da3e7f4-89e6-41a7-ab69-4febc907c0eb"/>thus</rs>.
+                Aber es wäre interessant, einmal Herrn <rs ref="#55637" type="person">Weitz</rs>
+                unter seinem Eide<lb xml:id="uuid_1c97fe46-b1cf-4ba2-bc21-1b52c64b8de1"/>zu fragen,
+                was er, der schon bei anderen Blätter intervenierte, beim<lb
+                    xml:id="uuid_024c531a-61ca-4ccc-ab56-eb30bc6d9fbe"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/29329" type="institution">Tageblatt</rs>
+                versucht und erreicht hat. Herr <rs ref="#55637" type="person">Weitz</rs> überwarf
+                sich kurze<lb xml:id="uuid_8bf21444-eb36-4023-96d3-c98e16875809"/>Zeit darauf mit
+                dem <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29329" type="institution"
+                    >Tageblatt</rs> und verliess es. Das <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/29329" type="institution">Tageblatt</rs>
+                    behauptet,<lb xml:id="uuid_d425afb5-c43a-4070-80bf-a16545302fbd"/>wegen der
+                Nebenbeschäftigungen des Herrn <rs ref="#55637" type="person">Weitz</rs>; Herrn <rs
+                    ref="#55637" type="person">Weitz</rs>, der natür<lb break="no"
+                    xml:id="uuid_aef1c3b7-2f30-4a47-8244-176fc8f099d7"/>lich auch eine etwas
+                zweifelhafte Persönlichkeit ist (dieser <rs
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-022-000" type="work"
+                    subtype="legal-doc">Brief</rs> ist<lb
+                    xml:id="uuid_bfeeafc5-8aa2-436d-be43-cf14adbb8bee"/>natürlich nicht zum
+                öffentlichen Vortrag bestimmt) sagte aber, das <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/29329" type="institution">Ta<lb
+                        break="no" xml:id="uuid_e5463f3e-093b-4419-b7c6-b95e6a8d1784"/>geblatt</rs>
+                hätte von seiner nebenamtlichen Tätigkeit seit Jahren gewusst<lb
+                    xml:id="uuid_e9932dfd-9908-4754-8a7f-77de514c68ac"/>und diese sogar
+                geduldet(!!), (siehe beiliegenden Tatbericht, speziell<lb
+                    xml:id="uuid_50393adf-c1e1-417d-9c98-ae61d46666b3"/>Punkt 17) nun aber auf
+                dringende Forderungen von ihm nach Gehaltserhö<lb break="no"
+                    xml:id="uuid_61958f13-9ee6-4055-92fe-e5030823d683"/>hung auf einmal seine
+                nebenamtliche Tätigkeit als Vorwand benutzt, um<lb
+                    xml:id="uuid_c032de5c-edc2-488b-98ea-a56f62ab1905"/>ihn loszuwerden. Tatsache
+                ist, dass sein Nachfolger, Herr <rs ref="#55663" type="person">Lothar Band</rs>,<lb
+                    xml:id="uuid_ad233627-7875-4c58-a7d1-ca17dc4c4615"/><rs type="place"
+                    ref="#62633">Belle Alliancestr. 22, Berlin SW. 61</rs>, nur um etwas die Hälfte
+                    oder<lb xml:id="uuid_dc83595a-4186-4b73-b159-a999d9209dc3"/>noch etwas
+                geringeres Gehalt bekommt, das Herr <rs ref="#55637" type="person">Weitz</rs>
+                bezogen hat. </p>
+            <p xml:id="uuid_f8634f86-bc96-4bed-b0ff-0de9c4241313">
+                <lb xml:id="uuid_223e5d8d-01f6-4128-9631-f60b14c8b96c"/>Wenn diese Vorwürfe, die
+                Herr <rs ref="#55637" type="person">Weitz</rs> gegen den leitenden Mann des <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/29329" type="institution">Ber<lb
+                        break="no" xml:id="uuid_a14b9803-c85a-442e-b67d-75edc8e0cd53"/>liner
+                    Tageblatts</rs>, Herrn Dr. <rs ref="#39412" type="person">Carbe</rs>, der ein
+                guter Freund von <rs ref="https://pmb.acdh.oeaw.ac.at/entity/13163" type="person"
+                        >Theodor<lb xml:id="uuid_6a734ec1-4760-4e4c-82bb-79c898f234d7"/>Wolff</rs>
+                ist, erhebt, zutreffen, dass nämlich Dr. <rs ref="#39412" type="person">Carbe</rs>
+                die auf jeden<lb xml:id="uuid_7a61d8df-fcdf-4a31-b556-70a696a6618d"/>Fall zu
+                verurteilende Tätigkeit des Herrn <rs ref="#55637" type="person">Weitz</rs> geduldet
+                hat, so <pb xml:id="D_000112-022-000_p005" facs="#D_000112-022-000-facs001-l005-p005"
+                    n="5"/>
+                <lb xml:id="uuid_4b840cb0-a2f8-423b-9bee-4dd78b617dc8"/>lange Herr <rs ref="#55637"
+                    type="person">Weitz</rs> ihm gefällig war, (vor allem Punkt 13 c und d) und<lb
+                    xml:id="uuid_8a54aa1e-71bf-4d4b-8bf0-304886a14cc5"/>dass er erst unter Berufung
+                auf die Incompatibilität seiner verschie<lb break="no"
+                    xml:id="uuid_588b29dd-12d7-410c-a3f8-c0080001926e"/>denen Stellungen mit ihm
+                brach, als er Gehaltserhöhung wollte, wäre<lb
+                    xml:id="uuid_4af3f99c-628c-4b38-af26-1a8c0ba61577"/>dies doch grotesker als
+                alles andere. </p>
+            <p xml:id="uuid_d6f811d6-d6d6-4ff8-9bc3-12ef8250af3b">
+                <lb xml:id="uuid_1a830d33-cc72-4ba2-80ce-be915be34829"/>Herr <rs ref="#55637"
+                    type="person">Weitz</rs> wird als Zeuge in dem Prozess das sicherlich gern<lb
+                    xml:id="uuid_9cbb1071-a2b1-4352-b9ab-ee9f81617a8e"/>unter seinem Eide aussagen,
+                möglicherweise noch manches andere, da<lb
+                    xml:id="uuid_69a2cc2c-2025-41bb-8ac2-f0b24f58b119"/>er wohl auf das <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/29329" type="institution">Tageblatt</rs>
+                nicht gerade gut zu sprechen ist. Ich aber<lb
+                    xml:id="uuid_ddeefb1f-e7f1-4f8b-857d-5deb7f0f9c5f"/>natürlich kann beeiden, dass
+                Herr <rs ref="#55637" type="person">Weitz</rs> diese Darstellung mir und an<lb
+                    break="no" xml:id="uuid_01fd701d-635d-4752-b493-41b4d6d540cd"/>deren schriftlich
+                und mündlich gegeben hat und bin auch dazu<lb
+                    xml:id="uuid_430fa768-77ef-4e5f-b4ff-8a93bd380ea6"/>bereit. </p>
+            <p xml:id="uuid_71670d50-8cc1-40dc-b495-19ef785d2cdb">
+                <lb xml:id="uuid_fc62ab19-ed24-41d4-a011-b3a6e51b5232"/>Aus Versehen liegt diesem
+                    <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-022-000" type="work"
+                    subtype="legal-doc">Brief</rs> ein Tatsachenbericht des Herrn<lb
+                    xml:id="uuid_7b07901d-0be8-4fb1-a497-0ad881cafd9e"/><rs ref="#55637"
+                    type="person">Weitz</rs> bei, den ich mir aber sofort zurückzuschicken bitte.
+                    Sollten<lb xml:id="uuid_698a1df9-5508-46e3-a381-bced36a68f6d"/>Sie eine
+                Abschrift dieses Berichts später in Ihren Akten haben, würde<lb
+                    xml:id="uuid_23a382ad-a1f1-437c-85c9-633b0d77a052"/>ich das merkwürdig finden,
+                aber nicht bedauern. </p>
+            <p xml:id="uuid_520b1f5a-5761-4791-b91e-50e80422468f">
+                <lb xml:id="uuid_4fd963cf-0405-451b-b3db-ae4332968721"/>Indem ich hoffe, mit diesen
+                Ausführungen Ihnen und Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                    type="person">Kraus</rs>
+                <lb xml:id="uuid_2b960ec0-3dcb-47d5-9394-f8bf8770b846"/>gedient zu haben</p>
+            <p xml:id="uuid_e57e6391-e4f5-4339-a85f-b2016310f4c8"><lb
+                    xml:id="uuid_3eccec57-ac4f-463b-9ef6-78a8e8b2939e"/>bin ich mit vorzüglicher
+                    Hochachtung<lb xml:id="uuid_8d70e630-25d0-47b2-8d7a-f262f6474c03"/>Ihr<lb
+                    xml:id="uuid_ceb48c86-447a-44f5-8c6a-612a8b049fc6"/>gez. <rs ref="#39265"
+                    type="person">Rolf Nürnberg</rs>. </p>
+            <p xml:id="uuid_06c7b0f9-eadb-4c1b-b5ca-484494e3ccc5">
+                <lb xml:id="uuid_8ef04dbd-8e29-41b4-979f-72b2745a2f96"/>PS. weitere Ermittlungen
+                schreibe ich Ihnen demnächst. </p>
+            <pb xml:id="D_000112-022-000_p006" facs="#D_000112-022-000-facs001-l006-p006" n="6"/>
+            <p xml:id="uuid_6fbd9298-f0a8-4875-bb8f-05f2f33a501c">
+                <lb xml:id="uuid_9bd6e5f1-8af6-4d40-b854-cb029115cd4f"/><note resp="law-firm"
+                    type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                        >Kraus</rs>
+                    <lb xml:id="uuid_8b30ee9a-552c-46e6-9209-ccb54d80daf9"/><rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11910" type="person">Kerr</rs> – <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/13163" type="person"
+                    >Wolff</rs></note>
+            </p>
+        </body>
+    </text>
+</TEI>

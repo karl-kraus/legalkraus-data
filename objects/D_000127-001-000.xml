@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000127-001-001.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-011-001.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000127-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Neue Freie Presse (verantw. Red. Julian Sternberg)</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000127-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3554</idno>
+            <idno subtype="transkribus" type="ID">369710</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000127" type="collection">Karl
+                    Kraus ca. Neue Freie Presse</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000127-001-000-facs001" xml:id="D_000127-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000127-001-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1929-05-13">13. Mai 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#3021">den | verantwortlichen Redakteur der „Neuen Freien Presse“
+                        | Herrn Dr. Julian Sternberg </persName>
+               <address>
+                  <street corresp="#53721">Lagergasse Nr. 1</street>
+                  <settlement ref="#53">Wien III.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Neue Freie Presse</note>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-05-13">13. Mai 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000127-001-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000127-001-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-04-13" who="#JK"/>
+         <change type="typography" when-iso="2021-04-13" who="#JK"/>
+         <change type="references" when-iso="2021-04-13" who="#JK"/>
+         <change type="structure" when-iso="2021-04-13" who="#JK"/>
+         <change when-iso="2020-06-02T14:44:22.817Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 369710. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000127-001-000-facs001">
+      <surfaceGrp xml:id="D_000127-001-000-facs001-l001">
+         <surface type="recto" xml:id="D_000127-001-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557685/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000127-001-000-facs001-l002">
+         <surface type="recto" xml:id="D_000127-001-000-facs001-l002-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557686/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000127-001-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557687/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557688/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557722/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557723/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000127-001-000_p001"
+             facs="#D_000127-001-000-facs001-l002-p001"
+             n="1"/>
+         <p xml:id="uuid_f91fa414-5b51-47ed-86d5-d76fde2fc423">
+            <lb xml:id="uuid_b8006322-5d9f-4d72-9a88-009f018cf11e"/>Im Vollmachtsnamen des Herrn
+                    <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl <hi rend="spaced">Kraus</hi></rs> ver<lb break="no" xml:id="uuid_a3e339ad-13de-49eb-b2d7-9a3e86d49de2"/>lange ich die Aufnahme der
+                Berichtigung der in der <rs ref="#53723" type="work" subtype="pmb">Nummer vom 29.<lb xml:id="uuid_4ee4d95a-57e2-4782-96b6-9850c9f095a1"/>April 1929</rs>
+                mitgeteilten meinen <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Mandanten</rs> betreffenden Tatsache ge<lb break="no" xml:id="uuid_747dbbc1-84a6-4dbc-9ffa-137d3e188bf2"/>mäss <rs ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45"
+                type="law">§ 23 Pr.G.</rs>
+         </p>
+         <p xml:id="uuid_62616105-03b5-4dab-8180-107ecf55c965">
+            <lb xml:id="uuid_0e6f036d-5351-4124-88ad-6bc0c8deacf2"/>Sie veröffentlichen in der
+                Rubrik „<hi rend="underlined">Theater</hi>“ die<lb xml:id="uuid_a1d61e3d-a49d-41d3-872c-52ffd8563ebe"/>folgende Ankündigung: </p>
+         <p xml:id="uuid_86b49489-b0e4-413a-a866-9ad15b00842f">
+            <lb xml:id="uuid_f856e19f-9e8d-4258-b0de-8c2cf4a19011"/>„<quote source="#53723"
+               xml:id="uuid_eb5af486-6dc3-4d0e-b0da-081aa321a72e"><rs ref="#37687"
+                  type="institution"><hi rend="underlined">Wr. Konzerthaus</hi></rs>.<lb
+                  xml:id="uuid_9197d09d-0343-43a9-88d9-8e60b950624c"/>Kleiner Saal:<lb
+                  xml:id="uuid_582d515e-97a2-4c3f-be57-5054ef9bd114"/><rs ref="#53724" type="person"
+                     ><hi rend="underlined">Jessie King</hi></rs> :<lb
+                  xml:id="uuid_9b44cfdb-bd89-4e86-98da-ec28c3ae38fb"/>Liederabend. Halb 8
+               Uhr.</quote>“ </p>
+         <p xml:id="uuid_d3040c6c-9c4d-4935-83f1-270087bd8b9d">
+            <lb xml:id="uuid_3925c54f-a6ab-4dc7-a481-1c7d004a6136"/>Die in dieser Ankündigung
+                enthaltene Mitteilung, dass<lb xml:id="uuid_44cfca2d-570a-46d5-851e-b7f0823d3bca"/>am 29. April 1929 im <rs ref="#37687" type="institution">Wiener Konzerthaus</rs>
+                lediglich der Liederabend<lb xml:id="uuid_b1a6217d-4526-466e-a127-d36e56844597"/><rs ref="#53724" type="person">Jessie King</rs> im kleinen Saal stattfand, ist
+                unwahr. Wahr ist, dass an<lb xml:id="uuid_208769f1-7b3a-4f05-b967-cf89a6fad9e0"/>diesem Tage im grossen Saal des <rs ref="#37687" type="institution">Wiener
+                    Konzerthauses</rs> auch eine Vor<lb break="no" xml:id="uuid_734ccfd4-2d2b-4f3e-8517-1904200244a4"/>lesung von <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+                stattgefunden hat. </p>
+         <pb xml:id="D_000127-001-000_p002"
+             facs="#D_000127-001-000-facs001-l002-p002"
+             n="2"/>
+         <p xml:id="uuid_fb5af367-846c-4617-ac0e-1bef7949c995">
+            <lb xml:id="uuid_750093c4-7286-40df-ad76-c0ce562f12d4"/><note resp="law-firm" type="paratext">Betr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29351" type="institution">Neue Freie
+                        Presse</rs>
+               <lb xml:id="uuid_58d687fa-f352-4bbe-8331-2ee6d24e46f8"/>exp. am
+                    13.5.1929 </note>
+         </p>
+      </body>
+   </text>
+</TEI>

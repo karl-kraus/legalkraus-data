@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-071-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-069-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000068-070-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Sigismund von Radecki</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000068-070-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-samek-sigismund-von-radecki-2 </idno>
+            <idno subtype="transkribus" type="ID">207909</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000068" type="collection">Karl
+                    Kraus ca. Alfred Kerr</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000068-070-000-facs001" xml:id="D_000068-070-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000068-070-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1927-12-23">23. Dezember 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38141">Wohlgeboren | Herrn Sigismund von Radecki | bei Pantzer</persName>
+               <address>
+                  <street corresp="#61572">Augsburgerstrasse 15</street>
+                  <settlement ref="#168">Berlin W 50</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Kerr.</note>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-12-23">23. Dezember 1927
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000068-070-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000068-070-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" status="draft" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" status="draft" when-iso="2021-09-13">Replaced Text with Transcription
+                of Transkribus Document 207909. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2022-01-03"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-01-03" who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2022-01-03"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2022-01-03"
+                 who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2022-01-03"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000068-070-000-facs001">
+      <surfaceGrp xml:id="D_000068-070-000-facs001-l001">
+         <surface type="recto" xml:id="D_000068-070-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552828/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-070-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552829/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000068-070-000_p001"
+             facs="#D_000068-070-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_3aebfe36-2bc0-4037-9d7c-6b1f24baa76f">
+            <lb xml:id="uuid_d4d26fe2-125b-4b3c-8d78-54c24f88f79c"/>Sehr geehrter Herr <rs ref="#38477" type="person">von Radecki</rs>! </p>
+         <p xml:id="uuid_96413716-ae5d-478d-8721-bf5c771f773a">
+            <lb xml:id="uuid_e5702ad1-11c9-41ed-bcce-7be99dd3d11c"/>Da Sie sich dafür
+                interessiert haben, teile<lb xml:id="uuid_0c47fa3c-1538-4eb8-929b-c667b8e7a36c"/>ich
+                Ihnen mit, dass der neue Termin in Sachen <rs ref="#11988" type="person">Kraus</rs>
+                – <rs ref="#11910" type="person">Kerr</rs> am<lb xml:id="uuid_0f205533-7a33-4c7c-9679-8f727fc11818"/>9. Jänner 1928, 12 Uhr
+                mittags vor dem <rs ref="#36362" type="institution">Amtsgericht Charlotten<lb break="no" xml:id="uuid_5f719aca-5d71-451c-b2ab-32aaff8e27ee"/>burg 5</rs>,
+                    <rs ref="#62140" subtype="address" type="place">Kantstrasse 79</rs>, Zimmer Nr.
+                20 III stattfindet. Wenn<lb xml:id="uuid_bb510b9c-b80c-4193-831f-d54c16d6ba39"/>es
+                Ihnen möglich ist zu dem Termin hinzugehen, so bitte ich<lb xml:id="uuid_cec5ea98-014b-4c02-a124-4c508fdadafa"/>Sie, mir dann einen Bericht
+                über den Verlauf der Verhandlung<lb xml:id="uuid_d5114fb0-70a6-4fc4-bf1b-8c127fb94e01"/>zu schicken. </p>
+         <p xml:id="uuid_ed7c89b5-6b36-4807-9cf0-262a3860d864">
+            <lb xml:id="uuid_579d37c0-8c86-4e72-a76d-7065fe26f8b0"/>Ich zeichne mit besten
+               Weihnachtsgrüssen<lb xml:id="uuid_02993be3-bb76-4139-b79e-72ee68dccff3"/>Ihr <pb
+               xml:id="D_000068-070-000_p002" facs="#D_000068-070-000-facs001-l001-p002" n="2"/></p>
+         <p xml:id="uuid_81719053-1bf1-4314-8e34-330eb553064c">
+            <lb xml:id="uuid_8f8145d5-f64b-4f8c-a592-06e5399c78a4"/><note resp="law-firm"
+               type="paratext">Betr. <rs ref="#11988" type="person">Kraus</rs> – <rs ref="#11910"
+                  type="person">Kerr</rs><lb xml:id="uuid_502212a1-3ee8-4183-915c-3a8d2bf60512"
+               />exp. am 23. Dez. 1927</note></p>
+      </body>
+   </text>
+</TEI>

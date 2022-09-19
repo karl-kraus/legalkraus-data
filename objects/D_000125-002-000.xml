@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-001-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000125-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Abschriften des Telegramms Verlag Die Fackel an Frankfurter Städtisches
+                    Schauspielhaus</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000125-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3367</idno>
+            <idno subtype="transkribus" type="ID">251305</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000125" type="collection">Karl
+                    Kraus ca. Frankfurter Städtisches Schauspielhaus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000125-002-000-facs001" xml:id="D_000125-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000125-002-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.M">Manuskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#43724">Fackelverlag</orgName>
+               <address>
+                  <street corresp="#50496">Hint. Zollamtsstraße | 3</street>
+                  <settlement ref="#53">Wien III.</settlement>
+               </address>
+               <date when-iso="1929-05-10"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#34987">Schauspielhaus</orgName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#146">Frankfurtmain</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-05-10">10. Mai 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000125-002-000-wit01">Telegramm</term>
+            </keywords>
+            <classCode source="D_000125-002-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.TGR">D.K.TGR</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-07-21" who="#JK"/>
+         <change type="typography" when-iso="2021-07-21" who="#JK"/>
+         <change type="references" when-iso="2021-07-21" who="#JK"/>
+         <change type="structure" when-iso="2021-07-21" who="#JK"/>
+         <change resp="#IB" when-iso="2021-04-12T08:41:47.653Z">created by API</change>
+         <change resp="#IB" when-iso="2021-04-12T08:48:54.277Z">Replaced Text with Transcription
+                of Transkribus Document 251305. </change>
+         <change resp="#IB" when-iso="2021-04-12T09:33:15.878Z">Replaced Text with Transcription
+                of Transkribus Document 251305. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000125-002-000-facs001">
+      <surfaceGrp xml:id="D_000125-002-000-facs001-l001">
+         <surface type="recto" xml:id="D_000125-002-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556634/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556636/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556638/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556640/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000125-002-000_p001"
+             facs="#D_000125-002-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_2da7d668-b7ea-40a8-8692-f2a5a58aa406">
+            <lb xml:id="uuid_b8165848-ba81-4c11-905f-38251a03031b"/><rs ref="#38915" type="person">Sakheim</rs>
+            <rs ref="#34987" type="institution">Frankfurtmain<lb xml:id="uuid_15321c96-4d81-4a2f-ba8b-134853468427"/>Schauspielhaus</rs>
+         </p>
+         <p xml:id="uuid_2edb7d30-79c5-4b87-bf28-d1ae20fe0de0">
+            <lb xml:id="uuid_99e69d60-df89-4de6-85c0-3151e298d7ee"/>Erteilen Aufführungsrecht
+                    nächste<lb xml:id="uuid_e30cc6e5-8f74-4941-8e33-8bc08f2c5e8f"/>Spielzeit
+                üblichen Bedingungen<lb xml:id="uuid_b74c0582-f84c-4ff1-9162-86189f0167d8"/>erbitten
+                Vertragsbestätigung </p>
+         <p xml:id="uuid_f65af95f-caea-4543-ae22-cbf4b1708024">
+            <lb xml:id="uuid_1780e22f-5a57-4758-9e8e-564cf80dbb97"/><rs ref="#43724" type="institution">Fackelverlag</rs>
+         </p>
+         <p xml:id="uuid_25b1d238-a477-44ee-8828-6f9db210c0ff">
+            <lb xml:id="uuid_b9c6f085-22ad-4cb5-bfb3-a99445472669"/><rs ref="#43724" type="institution">Verlag „Die Fackel“</rs>
+            <lb xml:id="uuid_a356341b-fffe-4a42-8d06-f1e8e39f1cab"/><rs ref="#50496" subtype="address" type="place">Wien III.<lb xml:id="uuid_4306122e-d2d5-478e-b663-b73432cb51a8"/>Hint. Zollamtsstr.<lb xml:id="uuid_db2076c3-38c3-4d89-8965-e57215533272"/>3</rs>
+         </p>
+         <p xml:id="uuid_8e44b0b8-3808-4c79-9a0a-05e788c79fa6">
+            <lb xml:id="uuid_e5acce3a-2714-49c3-a90f-dd22656745ff"/>10. Mai 1929 </p>
+      </body>
+   </text>
+</TEI>

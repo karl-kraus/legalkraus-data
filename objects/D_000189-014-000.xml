@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-015-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-013-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000189-014-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Johann Turnovsky</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000189-014-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4571</idno>
+            <idno subtype="transkribus" type="ID">367232</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000189" type="collection">Karl
+                    Kraus ca. Gegen-Angriff</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000189-014-000-facs001" xml:id="D_000189-014-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000189-014-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#52780"/>
+                  <settlement ref="#64"/>
+               </address>
+               <date when-iso="1933-12-29">29. Dezember 1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#43593">Herrn | Dr. Johann Turnovsky, | Advokat</persName>
+               <address>
+                  <street corresp="#51737">Vodickova 33</street>
+                  <settlement ref="#652">Prag II.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Gegenangriff</note>
+               <note type="dictation">Dr.Sa/Ma</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1933-12-29">29. Dezember 1933
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000189-014-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000189-014-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-06-24" who="#JK"/>
+         <change type="typography" when-iso="2021-06-24" who="#JK"/>
+         <change type="references" when-iso="2021-06-24" who="#JK"/>
+         <change type="structure" when-iso="2021-06-24" who="#JK"/>
+         <change when-iso="2020-10-11T08:21:20.32Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-11T12:19:12.647Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 367232. </change>
+         <change when-iso="2020-10-11T14:04:54.519Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 367232. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000189-014-000-facs001">
+      <surfaceGrp xml:id="D_000189-014-000-facs001-l001">
+         <surface type="recto" xml:id="D_000189-014-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544554/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000189-014-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544555/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544556/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544557/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000189-014-000_p001"
+             facs="#D_000189-014-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_313e36ff-39ed-4802-9686-f086c52ed73e">
+            <lb xml:id="uuid_266ba3d0-41c3-4bb9-98e4-4ff7bdfc369e"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43593" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_87248886-dc33-4fc3-a51b-ec2e46dc9e64">
+            <lb xml:id="uuid_1fc0d04f-a175-49d4-8d84-c4f3f1e2636a"/>Ihr <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-012-000"
+                type="work"
+                subtype="legal-doc">Schreiben vom 27. Dezember</rs> habe ich <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herrn<lb xml:id="uuid_ae4905fb-4518-4752-8613-3c7e43cd696a"/>Kraus</rs>, wie
+                angekündigt, gestern zur Kenntnis gebracht. </p>
+         <p xml:id="uuid_33b734cc-18e8-44aa-a18c-0868a18983c8">
+            <lb xml:id="uuid_0bddad4d-77f0-4f38-b78d-c3bfc80752c2"/>Um sofort in die Sache selbst
+            einzugehen und zur<lb xml:id="uuid_90b275af-65f7-4bd7-90f1-bacd538034c1"/>Frage der
+            Beiziehung eines Sachverständigen Stellung zu<lb
+               xml:id="uuid_185c8148-4985-4357-bbc1-7728a41b460b"/>nehmen, teile ich Ihnen mit, dass
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herr Kraus</rs>, wie
+            ich ver<lb break="no" xml:id="uuid_ebd3d8e4-46e4-473e-b763-b36fcb4241b1"/>mutet habe,
+            mit der Person des Herrn Prof. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38137"
+               type="person">Otokar Fischer</rs>
+            <lb xml:id="uuid_87ba7c98-5a3f-4058-b0d2-89178208fb32"/>als Sachverständigen
+            einverstanden ist. Er ist überzeugt<lb
+               xml:id="uuid_3ce22dbc-d394-4960-b874-a14083b46a31"/>davon, dass dieser
+            Sachverständige das in Frage stehende<lb
+               xml:id="uuid_7ebe223f-3b49-4229-b25c-fb5f4fc80152"/>Problem am besten verstehen und
+            dem <rs ref="#51634" type="person">Richter</rs> klar machen<lb
+               xml:id="uuid_aef4e8f3-b08a-4f88-94d1-4ad49ea6ae62"/>wird können. Vielleicht ist es
+            aber möglich, auch ohne<lb xml:id="uuid_79c47472-a23b-4661-b4a7-381cea8ad757"
+            />Sachverständigen dem <rs ref="#51634" type="person">Richter</rs> zum Bewusstsein zu
+               bringen,<lb xml:id="uuid_2ee79975-8d23-471f-80c5-f606f7f5563c"/>welches
+            Missverständnis dem Durchschnittsleser des Satzes<lb
+               xml:id="uuid_0e9a841b-deac-4979-9307-acecbf69532d"/>ohne Beistrich passieren kann und
+            zwar, wie <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herr
+               Kraus</rs> meint,<lb xml:id="uuid_9d549391-61a0-476a-81da-445b0483be81"/>am
+            leichtesten einem tschechischen Leser, bei dem die<lb
+               xml:id="uuid_a7666514-8a41-440e-a9f2-d8b6593d3116"/>missverständliche Auffassung
+            durch die tschechische Syntax<lb xml:id="uuid_dd446955-d6ca-47e5-94a4-c02b00137259"
+            />erleichtert wird. Es besteht nämlich die Möglichkeit, im<lb
+               xml:id="uuid_e5e63516-69d3-471b-8613-defab2b86915"/>Satz „<quote
+               xml:id="uuid_2dabe68b-854b-46a0-b95e-d0cd898224da"
+               source="https://fackel.oeaw.ac.at/f/888,004">Kein Wort das traf</quote>“, das Wort
+            „das“ als Accusativ<lb break="no" xml:id="uuid_cd02f462-0f80-49fc-980e-84acfc8c39c1"
+            />objekt in der Inversion aufzufassen, sodass das Wort „<quote
+               xml:id="uuid_d06e8407-5404-426d-b498-931bf45751de"
+               source="https://fackel.oeaw.ac.at/f/888,004">das</quote>“<lb
+               xml:id="uuid_add66331-64d8-4446-872e-c84efdcb13e5"/>sich auf den ganzen
+            vorhergehenden Inhalt der Verse bezöge.<lb
+               xml:id="uuid_78e6f180-ce01-4759-bc96-c6abc006a856"/>Die Auffassung des Lesers müsste
+            also dahingehen, dass kein<lb xml:id="uuid_51a2ecd1-16ae-4263-ab44-2e2a6648c325"/>Wort
+            diese Stille, die es gab, da die Erde krachte, treffen<lb
+               xml:id="uuid_18e7c9c5-3abd-4b0d-9585-5f592cb9ac88"/>konnte. Herr Prof. <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/38137" type="person">Dr. Fischer</rs> würde
+            als Sachverständiger<lb xml:id="uuid_c8fc325e-3a12-45e3-bd67-515895066a0e"
+            />wahrscheinlich selbst auf diese beiden Möglichkeiten in<lb
+               xml:id="uuid_5008ebb7-8aa4-484f-86bd-16d6bf2a387f"/>der Auffassung draufkommen, man
+            könnte sie aber dem <rs ref="#51634" type="person">Richter</rs>
+            <lb xml:id="uuid_2cd86231-48af-466f-afa4-11352decb966"/>schon vorher vor Augen führen,
+            indem man sie nebeneinander<lb xml:id="uuid_09260ff4-9c09-4aaf-975b-f5eaec235246"
+            />stellte. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herr
+               Kraus</rs> lässt es aber auch Ihrer prozessualen<lb
+               xml:id="uuid_5a9e781e-8fe6-43b1-a035-69e98918205b"/>Taktik, den <rs ref="#51634"
+               type="person">Richter</rs> durch eine Fragestellung nach seiner <pb
+               xml:id="D_000189-014-000_p002" facs="#D_000189-014-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_72321d53-4e35-475f-a9fe-220439f2ed04"/>Auffassung selbst auf diese
+            beiden Möglichkeiten drauf<lb break="no"
+               xml:id="uuid_e5cada66-5e99-42d1-b889-64150df9b456"/>kommen zu lassen. </p>
+         <p xml:id="uuid_47be218a-3209-4a61-a7f1-4745b71f1c07">
+            <lb xml:id="uuid_b6e1640d-ae35-406a-a40a-a375879333ac"/>Im übrigen teile ich vollständig
+            Ihre Ansicht,<lb xml:id="uuid_dd2759fb-3c81-4bad-8cad-bf26a9031656"/>dass dieser Umstand
+            überhaupt nicht zu überprüfen ist,<lb xml:id="uuid_0e083316-d6d6-4555-bfb5-61ddbfc8c282"
+            />weil der Autor ein Recht darauf hat, dass seine Texte<lb
+               xml:id="uuid_7189c4cf-9c0d-4d95-9c95-743c21fc83c2"/>unverändert wiedergegeben werden.
+            Ihre juristischen Aus<lb break="no" xml:id="uuid_d91e0ade-ff0a-4e26-a813-4907279a954b"
+            />führungen bezüglich des Wortes „betrifft“ und Ihre Meinung,<lb
+               xml:id="uuid_e11642d3-1b4e-416a-adc4-3e266e84b956"/>dass der tschechische Text die
+            Auslegung sowohl im Sinne<lb xml:id="uuid_de0d3c43-4002-4fa0-be76-9a804bfb60fb"/>von
+            „tangere“ als auch von „an die Ehre“ ermöglicht,<lb
+               xml:id="uuid_a50827f9-535c-469b-9bce-d019a40db999"/>muss schon im Sinne des
+            Berichtigungserfordernisse lediglich<lb
+               xml:id="uuid_cf2a4545-8d01-47fa-b5d9-856573ee7b4c"/>in erster Hinsicht entschieden
+            werden, denn für die<lb xml:id="uuid_b0389425-d45d-43be-b881-1a07060c0716"/>Tangierung
+            der Ehre sind ja eigene Paragraphen geschaffen<lb
+               xml:id="uuid_5efb98da-55db-4fde-bfd7-771d38f66e8d"/>und die meisten Berichtigungen
+            betreffen ein Tatsachengebiet,<lb xml:id="uuid_3f31896c-fced-43e2-ae06-2a1b5f561a64"
+            />welches mit Ehre gar nichts zu tun hat. Wenn man der zweiten<lb
+               xml:id="uuid_8ad8bb81-05cd-45b0-80d2-4b03d383c9cd"/>Auffassung zustimmte, so könnte
+            man niemals berichtigen, ob<lb xml:id="uuid_2927c0af-1e89-4e19-9ee2-aeb955d9b3c3"/>man
+            einer Partei angehört oder nicht, ob man verheiratet<lb
+               xml:id="uuid_7e624829-f3f8-4cf8-8edc-6157960ff37d"/>ist oder nicht, u. dgl. mehr. Die
+            österreichische Praxis<lb xml:id="uuid_8992af09-5344-40a1-b204-dd02aa39e84c"/>geht ja in
+            dieser Hinsicht viel weiter als anscheinend die<lb
+               xml:id="uuid_0beb8f09-d403-43fd-b561-c1439e9ef7b2"/>tschechische, da sie sogar nicht
+            physische Tatsachen, Tatsa<lb break="no"
+               xml:id="uuid_7e000f6d-10e3-4263-817c-d8e63cdce1a8"/>chen, die nur der inneren
+            Erkenntnis zugänglich sind, für<lb xml:id="uuid_188a67d0-cd46-4f80-9b00-d5198e46dd04"
+            />berichtigungsmöglich hält. Die nur nebenbei, für den vor<lb break="no"
+               xml:id="uuid_5a717db9-1579-4fa1-a032-c666ea60cecf"/>liegenden Fall spielt dies jedoch
+            keine Rolle. </p>
+         <p xml:id="uuid_aff8b679-fa92-4f97-bcc5-e6d2d81a796f">
+            <lb xml:id="uuid_1e473df1-7526-45af-ac5f-9932443f5f3b"/>Ich zeichne </p>
+         <p xml:id="uuid_74a5b3b4-0b73-461f-8b34-1e296dd0396b">
+            <lb xml:id="uuid_875f1822-1991-4fe1-a168-5e11cfb7a9fa"/>mit vorzüglicher kollegialer
+                    Hochachtung<lb xml:id="uuid_ddd79167-4d5d-4dc3-a02f-24a35b232380"/>als Ihr
+                ergebener </p>
+         <p xml:id="uuid_a8e70ddb-ee97-4b1f-9a74-a4fb97fde869">
+            <lb xml:id="uuid_9a5f0c66-4086-4d65-ac32-765b8dfc0a9a"/><note resp="law-firm" type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> – <rs ref="#37338" type="institution">Gegenangriff</rs> /
+                    29.12.1933</note>
+         </p>
+      </body>
+   </text>
+</TEI>

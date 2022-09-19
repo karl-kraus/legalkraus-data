@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-117-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-115-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000189-116-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Johann Turnovsky an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000189-116-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4669</idno>
+            <idno subtype="transkribus" type="ID">367347</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000189" type="collection">Karl
+                    Kraus ca. Gegen-Angriff</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000189-116-000-facs001" xml:id="D_000189-116-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000189-116-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#43593">JUDr. JOHANN TURNOVSKY | Advokat</persName>
+               <address>
+                  <street corresp="#51737">Vodičkova 33</street>
+                  <settlement ref="#652">Prag</settlement>
+               </address>
+               <date when-iso="1935-05-15">15. Mai 1935</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/38909">Wohlgeboren Herrn |
+                        JUDr. Oskar Samek, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse 18</street>
+                  <settlement ref="#64">Wien XIV.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus . Gegenangriff § 1330 Abgb</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1935-05-15">15. Mai 1935</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000189-116-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000189-116-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-07-16" who="#JK"/>
+         <change type="typography" when-iso="2021-07-16" who="#JK"/>
+         <change type="references" when-iso="2021-07-16" who="#JK"/>
+         <change type="structure" when-iso="2021-07-16" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-02" who="#JK"/>
+         <change when-iso="2020-10-11T08:21:20.32Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-11T12:19:12.647Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 367347. </change>
+         <change when-iso="2020-10-11T14:04:54.519Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 367347. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000189-116-000-facs001">
+      <surfaceGrp xml:id="D_000189-116-000-facs001-l001">
+         <surface type="recto" xml:id="D_000189-116-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544943/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000189-116-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544944/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000189-116-000-facs001-l002">
+         <surface type="recto" xml:id="D_000189-116-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544945/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000189-116-000-facs001-l002-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544946/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000189-116-000_p001"
+             facs="#D_000189-116-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_22a3c8b6-10ed-44ae-a53a-74471a4b5ea8">
+            <lb xml:id="uuid_0f298a7a-8f0f-44e3-8797-ee4177f43a65"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38909" type="person">Herr Doktor</rs>! </p>
+         <p xml:id="uuid_dadb034d-2e2c-42e2-95a4-35adf89f66b9">
+            <lb xml:id="uuid_9783dbce-98e2-4e8b-acd2-7f98dba3d086"/>Ich bestätige den Empfang
+                Ihres frdl. <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-115-000"
+                type="work"
+                subtype="legal-doc">Schreibens<lb xml:id="uuid_d84b0bd3-5109-4b87-a2ef-de95b1eb455c"/>vorn 13. d.M.</rs> und
+                teile Ihnen, Ihrem Wunsche entsprechend, den Tenor<lb xml:id="uuid_3203b2e0-0083-47df-b55b-8d58c19f094e"/>der Entscheidungen, auf die
+                ich mich berufen habe, mit. Eine<lb xml:id="uuid_7df5e840-b933-46ec-bfca-619beb005a94"/>Entscheidung aus dem Jahre
+                1925 besagt, dass der verantwortliche Re<lb break="no" xml:id="uuid_8b6519e7-d44f-4922-9194-e1f83be9dfea"/>dakteur einer Zeitschrift
+                für die Veröffentlichung unwahrer Tat<lb break="no" xml:id="uuid_5b5bc9e6-13c4-42e5-bee5-97ffd10712c9"/>sachen, durch welche der
+                Kredit, der Erwerb oder das Fortkommen eines<lb xml:id="uuid_898b99e6-8518-472b-89b4-e5a73adebcfc"/>Dritten geschädigt wurde, zu
+                haften hat, wenn er sie ohne entspre<lb break="no" xml:id="uuid_995add26-3853-4781-b135-14300b1f1333"/>chende Information
+                veröffentlicht hat, wiewohl die Nachricht auf<lb break="no" xml:id="uuid_80ba3c10-49d0-42cb-b091-9c62a3a62b0e"/>fallend unglaubwürdig und
+                verdächtig gehässig war. Für einen so<lb xml:id="uuid_832a61fc-a08c-4e93-a8df-03edff1d68f9"/>entstandenen Schaden hat
+                auch der Herausgeber der Zeitschrift zu<lb xml:id="uuid_79e14dfc-5187-4ea6-9bd1-43165d0a3336"/>haften. </p>
+         <p xml:id="uuid_4e1d90aa-97fa-4e73-a54c-0ba195ecbb83">
+            <lb xml:id="uuid_aa009963-c728-411e-95e3-569cd61d1da5"/>Diese Entscheidung habe ich
+                zur Widerlegung der gegnerischen<lb xml:id="uuid_99e1a22e-4b0a-479b-a0f7-6883372805e3"/>Behauptung angeführt, dass
+                die <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43657" type="person">Beklagte</rs>
+                nicht als Verbreiterin der<lb xml:id="uuid_b9cf6fd0-c4e8-44a6-b66b-6dcf0ef7c9ca"/>Tatsache zu gelten habe, zumal sie bei der Redaktion und Administra<lb break="no" xml:id="uuid_2a251316-c5f6-4d20-98ab-c7366d42047b"/>tion, sowie im Expedit der
+                    <rs ref="#55934" type="work" subtype="pmb">Zeitschrift</rs> nicht tätig ist. </p>
+         <p xml:id="uuid_5781434d-14ff-47e1-bf15-9312a5770d1d">
+            <lb xml:id="uuid_58a15552-2112-4221-b970-f9e3acc327b8"/>Der <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/43657" type="person">Gegner</rs> polemisiert
+            gegen die Feststellung des <rs type="work" subtype="legal-doc">Urtei<lb break="no"
+                  xml:id="uuid_f6d6f406-b3e7-42c8-9c1e-0e153d9785d7"/>les</rs>, dass die <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/43657" type="person">Beklagte</rs> die
+            Unwahrheit der Mitteilung hätte kennen<lb
+               xml:id="uuid_7ee804eb-f954-4cca-b3b3-97792dbc25aa"/>müssen. Dagegen habe ich aus
+            einer weiteren Entscheidung des <rs ref="#56254" type="institution">Ober<lb break="no"
+                  xml:id="uuid_52a0fc0e-bf9f-4467-b0c7-2c02e6e6b450"/>sten Gerichtes</rs> Folgenden
+            Passus herangezogen: Die Wendung „kennen <pb xml:id="D_000189-116-000_p002"
+               facs="#D_000189-116-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_39145d44-febd-4a06-aad9-e65308e1690e"/>musste“ ist zweifellos
+            gleichbedeutend mit der Wendung „für<lb
+               xml:id="uuid_61da0ad2-654d-4125-b838-732596c22893"/>wahr halten konnte“. Dies beweist
+            der <rs ref="#56804" type="work" subtype="pmb">Motivenbericht zu <rs
+                  ref="https://alex.onb.ac.at/cgi-content/alex?aid=jgs&amp;datum=1012&amp;page=634&amp;size=45"
+                  type="law">§ 1330<lb xml:id="uuid_ac1418d8-49fc-45c7-ba5f-1077f1148b1d"
+                  />Abgb.</rs></rs> Seite 47: „<quote source="#56804"
+               xml:id="uuid_fbaecbf3-ef58-4c13-87c9-d31811c2d7db">Wer Mitteilungen verbreiten will,
+               die einen<lb xml:id="uuid_aa5b8276-aea5-4bff-a657-a6227fcac45f"/>anderen schwer
+               schädigen können, soll eine gewisse Gewähr dafür ha<lb break="no"
+                  xml:id="uuid_43d67df3-126e-4d6a-83c0-3dd1753cfa14"/>ben, dass sie nicht frei
+               erfunden sind, sonst haftet er</quote>“. Vergl.<lb
+               xml:id="uuid_51afd50a-449d-4241-b1e7-896270851d53"/>auch <rs ref="#56806" type="work"
+               subtype="pmb">Krainz Ehrenzweig II. Band</rs> Seite 601 Lit.d. „<quote source="56806"
+               xml:id="uuid_3ee80aa4-087c-4163-8376-c3f839982adb">… das Ver<lb break="no"
+                  xml:id="uuid_bb7ddea9-316a-4d95-893c-fa3252f6a6f4"/>schulden kann darin bestehen,
+               dass er … die Wahrheit aus Fahr<lb break="no"
+                  xml:id="uuid_e797639d-9d43-4380-952b-5e61604d8a5b"/>lässigkeit nicht kennt / sie
+               kennen muss /, aber auch darin, dass er<lb
+                  xml:id="uuid_1ad03357-6fbb-4ddb-85e7-70a39f5a0878"/>wahrscheinlich einen
+               unrichtigen oder zweideutigen Ausspruch ge<lb break="no"
+                  xml:id="uuid_559f1689-50e0-4df4-ba1f-f6cedb6e27bb"/>braucht.</quote>“ Der beklagte
+            Redakteur hat schon nach <rs
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=jgs&amp;datum=1012&amp;page=631&amp;size=45"
+               type="law">§ 1297 Abgb.</rs>
+            <lb xml:id="uuid_1f985fbd-4821-41b6-902c-3f5c901366f3"/>eine solche Aufmerksamkeit
+            aufwenden müssen, welche bei gewöhnlichen<lb
+               xml:id="uuid_2cd3c90b-917e-443a-bd77-59ef80fc49df"/>Fähigkeiten angewendet werden
+            kann und muss. Dieser Verpflichtung<lb
+               xml:id="uuid_8c16815c-e682-4783-9160-a39e52fd2852"/>kann er sich auch nicht durch die
+            Berufung auf die Hast bei der He<lb break="no"
+               xml:id="uuid_bed78095-5120-423b-baf8-54e0024945df"/>rausgabe der Zeitschrift
+            entziehen. Er hat also die Aufmerksamkeit<lb
+               xml:id="uuid_f446e6e3-fd5b-48d1-8c0c-75a2365968bd"/>und den Fleiss ausser Acht
+            gelassen, welche anzuwenden ihm seine<lb
+               xml:id="uuid_24276ad2-8b32-4717-a744-5db53ec42657"/>Stellung als verantwortlicher
+            Redakteur gebietet, der eine Tages<lb break="no"
+               xml:id="uuid_72be481e-e8b5-43ef-9578-6f56aee20dc1"/>zeitung redigiert, d.i. eine
+            Einrichtung, welche zweifellos einen<lb
+               xml:id="uuid_693942c6-1065-47cb-af64-a8a7ddd566f6"/>gewichtigen Einfluss auf die
+            Leser und deren Handlungen ausübt.<lb xml:id="uuid_de534c99-d4e7-45cf-b8ad-fcaf4691b482"
+            />/ <rs
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=jgs&amp;datum=1012&amp;page=631&amp;size=45"
+               type="law"> § 1299 Abgb.</rs> / Er hat jedoch nicht einmal jene Aufmerksamkeit und<lb
+               xml:id="uuid_98ce1539-6aa0-4e4e-86ce-0c01153db1eb"/>jenen Fleiss angewendet, deren
+            auch jede gewöhnliche Person fähig<lb xml:id="uuid_7ce8a93a-9dda-4ac0-a30f-437afa4e95e8"
+            />ist / <rs
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=jgs&amp;datum=1012&amp;page=631&amp;size=45"
+               type="law">§ 1297 Abgb</rs> / und hat daher auffallend fahrlässig ge<lb break="no"
+               xml:id="uuid_1c0447fd-47fe-4e27-a977-985338fc1cf1"/>handelt, sodass er
+            schadenersatzpflichtig ist. Was vom verantwortli<lb break="no"
+               xml:id="uuid_17acce1f-fe77-40f3-8b31-d9a02ad98755"/>chen Redakteur gilt, gilt auch
+            vom Herausgeber. Das <rs ref="#56254" type="institution">Gericht</rs> steht<lb
+               xml:id="uuid_59d4da17-57ba-4393-8d45-eb73362e0c70"/>auf dem Standpunkte, dass schon
+            aus der Bestellung eines verant<lb break="no"
+               xml:id="uuid_7b63e0da-7d11-44d2-bf5a-d4b912c0cd4d"/>wortlichen Redakteurs hervorgeht,
+            dass dieser kein blosser Angestell<lb break="no"
+               xml:id="uuid_0d6ecded-af7f-42ab-8dbf-791fedcf69e6"/>ter, sondern der Vertreter des
+            Herausgebers ist, sodass dieser für den<lb
+               xml:id="uuid_e34cbe44-e1c8-41f8-920d-e491a6670a77"/>durch den Redakteur verursachten
+            Schaden in gleicher Weise zu haften<lb
+               xml:id="uuid_85c20f56-693d-44d0-b543-be2b9bb66d3f"/>hat, wie wenn er den Schaden
+            selbst verschuldet hätte. </p>
+         <pb xml:id="D_000189-116-000_p003"
+             facs="#D_000189-116-000-facs001-l002-p003"
+             n="3"/>
+         <p xml:id="uuid_ca28b808-540f-4611-92c2-e1159b2bab36">
+            <lb xml:id="uuid_be7c09e0-41c4-4e04-a492-9f08115b246f"/>Aus einer weiteren Entscheidung:
+            Der Ausdruck „kennen<lb xml:id="uuid_47cbd6df-f2c1-46bd-a8f8-29b77d1f20ac"/>musste“ hat
+            nicht nur die Bedeutung des groben Verschuldens, son<lb break="no"
+               xml:id="uuid_fbaf0a23-a070-4cf2-9242-2dcc59c37ace"/>dern auch der blossen leichten
+            Fahrlässigkeit, des Versehens. Wer<lb xml:id="uuid_d57d7457-98c3-4fb3-a1da-9d40e5515823"
+            />Nachrichten verbreiten will, die den Kredit, den Erwerb oder das Fort<lb break="no"
+               xml:id="uuid_366230f3-7f5e-4cfa-8227-74f8beadf1fa"/>kommen eines anderen gefährden
+            können, muss die Gewähr dafür haben,<lb
+               xml:id="uuid_18848e78-6016-45e1-b050-075d13b8c6c1"/>dass diese Nachrichten nicht ganz
+            unwahr sind. Die Verantwortung<lb xml:id="uuid_1a209d88-d276-4f28-a21c-1492376ec36b"
+            />dafür schliessen nicht einmal Vorbehalte aus, in denen mitgeteilt<lb
+               xml:id="uuid_6da9c051-61cf-4ee5-bc18-8a0c68d085a3"/>wird, dass es sich um eine
+            unverbindliche Reproduktion erhaltener<lb
+               xml:id="uuid_291ad0fe-7345-4eb5-8c03-bc41f897f682"/>Informationen handelt, insofern
+            angenommen werden muss, dass von den<lb break="no"
+               xml:id="uuid_4229bb44-ed37-43fe-ac14-845cb714ceb7"/>jenigen, die die Tatsache
+            verbreitet haben, die Wahrhaftigkeit der<lb
+               xml:id="uuid_5ca3ac82-349e-4544-802d-4d32b6f01b9d"/>Mitteilungen überhaupt nicht
+            geprüft wurde. Das Wort „Verschulden“<lb
+               xml:id="uuid_4862c5bd-96dc-4f6d-9e96-9c60ed805b0a"/>heisst nicht nur grobe
+            Fahrlässigkeit sondern auch Versehen. Auch<lb
+               xml:id="uuid_4cf0132d-e050-4255-8a9a-ff0cf80e9173"/>in dieser Entscheidung wird auf
+               <rs ref="#56806" type="work" subtype="pmb">Ehrenzweig</rs>
+            <rs ref="" type="law">§ 496</rs> S. 659 hingewiesen:<lb
+               xml:id="uuid_3c5cb663-0d3c-4651-a939-f02e2750abc7"/>Wer unwahre Tatsachen verbreitet,
+            ist nur dann verantwortlich, wenn<lb xml:id="uuid_3c70d866-e7c1-46b8-bfa3-50867f8daf89"
+            />ihn ein Verschulden trifft. Das Verschulden kann darin liegen, dass<lb
+               xml:id="uuid_282e66e4-7142-4c95-bd86-c39a38b7e6ae"/>er wissentlich die Unwahrheit
+            behauptet, oder die Wahrheit nicht<lb xml:id="uuid_9c329c89-cbd8-4b5f-ad36-5a4301d0a839"
+            />kennt / sie kennen musste /, aber auch darin, dass er aus Verse<lb break="no"
+               xml:id="uuid_6b25e001-81b1-4fe8-bac5-0b5182658202"/>hen einen unrichtigen oder
+            doppelsinnigen Ausdruck angewendet hat.<lb
+               xml:id="uuid_4d47d91a-562e-481b-9fef-99cabd54f330"/>Das <rs ref="#56254"
+               type="institution">Oberste Gericht</rs> hat die Bedeutung der Worte „<quote
+               xml:id="uuid_65aa7419-e898-41f3-a9d0-1345a42c0415" source="">kennen
+               musste</quote>“<lb xml:id="uuid_0fd4236a-968d-49b6-a5ec-328319c72d02"/>im Sinne „bei
+            entsprechender Sorgfalt/Aufmerksamkeit / <rs
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=jgs&amp;datum=1012&amp;page=631&amp;size=45"
+               type="law">§ 1297 Abgb</rs> /<lb xml:id="uuid_fc2fbcd7-6642-4f15-910b-8ef121724c71"
+            />erkennen konnte“ als Unkenntnis erläutert, welche auf der Ausseracht<lb break="no"
+               xml:id="uuid_a59d7f6a-b72d-4392-a290-7d8c4fb880dd"/>lassung der pflichtgemässen
+            Sorgfalt gemäss <rs
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=jgs&amp;datum=1012&amp;page=631&amp;size=45"
+               type="law">§ 1297 Abgb.</rs> oder <rs ref="" type="law">Art. 282<lb
+                  xml:id="uuid_2148e14f-3bea-4ed2-a4bf-721cdba1d1e8"/>H.G.B.</rs> beruht. Wer sich
+            also infolge Ausserachtlassung der vom Ge<lb break="no"
+               xml:id="uuid_8fc200ea-3bba-490a-bd68-f1c78af6cadf"/>setze gebotenen Aufmerksamkeit,
+            demnach also auch durch ein Versehen,<lb
+               xml:id="uuid_6e49e8d1-48da-4580-bb38-2c1dd3ea25f2"/>nicht davon überzeugt, dass eine
+            den Kredit etc. eines Dritten gefähr<lb break="no"
+               xml:id="uuid_11954fb5-a781-466e-8148-28febfbc0f62"/>dende Nachricht wahr ist, wiewohl
+            er bei Anwendung dieser Aufmerksam- <pb xml:id="D_000189-116-000_p004"
+               facs="#D_000189-116-000-facs001-l002-p004" n="4"/>
+            <lb xml:id="uuid_7b604206-9847-4e58-b7e4-968f7eb6de93"/>keit erkennen konnte, dass sie
+            der Wahrheit nicht entspricht und<lb xml:id="uuid_8e8c8d96-311d-4059-b4ad-f94470524c9f"
+            />wer trotzdem diese Nachricht verbreitet hat, ist für die schädli<lb break="no"
+               xml:id="uuid_06c27eab-e4dd-432f-9dbc-059bbfa4e4da"/>chen Folgen, die dadurch
+            entstanden sind oder entstehen konnten,<lb
+               xml:id="uuid_7d186d71-e876-451f-9f9c-08d029e1c46a"/>verantwortlich. </p>
+         <p xml:id="uuid_43a71a5b-4333-4c9d-81ed-d1c8eaca1b60">
+            <lb xml:id="uuid_63157f07-cd4a-4e5b-a04e-aff7b0bce7a0"/>Durch diese Entscheidungen
+                wird die versuchte<lb xml:id="uuid_a7c2c54b-9ae2-4503-a28b-65dd03396386"/>Exkulpierung der <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43657" type="person">Beklagten</rs> als missglückt erwiesen. </p>
+         <p xml:id="uuid_2b65d1fa-8d31-4b11-85aa-c1f4aca12372">
+            <lb xml:id="uuid_d5b8ee54-5c5c-4442-802d-52f5f90a74e0"/>Ich zeichne mit dem
+                Ausdrucke vorzüglicher Hoch<lb break="no" xml:id="uuid_7ba3da7f-5a1c-4a99-afff-d7f744ef7e3f"/>achtung </p>
+         <p xml:id="uuid_482e6497-b9b5-43d7-bdf3-3edcb5e8e052">
+            <lb xml:id="uuid_270a6c73-91cf-4d39-8b07-9dcc80310626"/>Ihr ergebener<lb
+               xml:id="uuid_471b70f2-c826-4292-8d2a-57a035afb862"/><rs ref="#43593" type="person"
+               >Dr. Turnovsky</rs>
+         </p>
+         <p xml:id="uuid_9013ce0f-a98d-4ff8-ac32-ea74dd50536d">
+            <lb xml:id="uuid_e786ee25-ce43-4a3d-8d65-5f93cdf2707c"/><note resp="law-firm"
+               type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37338"
+                  type="institution">Gegenangriff</rs><lb
+                  xml:id="uuid_17156c94-ceb6-4c69-adfd-cc7a34e89167"/>17. MAI 1935</note>
+         </p>
+      </body>
+   </text>
+</TEI>

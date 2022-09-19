@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-002-001.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000032-001-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000032-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Kronos-Verlag an Verlag Die Fackel</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000032-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1978</idno>
+            <idno subtype="transkribus" type="ID">187314</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000032" type="collection">Kronos-Verlag ca. Karl Kraus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <ab type="stamp">
+                  <stamp source="#37216" xml:id="uuid_78ccfa07-6ed7-45be-ba79-72276888406d"/>
+               </ab>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000032-002-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSN">Typoskript mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness facs="#D_000032-002-000-facs001" xml:id="D_000032-002-000-wit01"/>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1925-10-23">23. Oktober
+                    1925</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#37216">Kronos-Verlag A.G.</orgName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#50">Wien</settlement>
+               </address>
+               <date when-iso="1925-09-03">den 3. September 1925</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#11988">den | verantwortlichen Redakteur der Zeitschrift „Die
+                        Fackel“ | Karl Kraus</persName>
+               <address>
+                  <street corresp="#50496">Hintere Zollamtstrasse 3</street>
+                  <settlement ref="#53">Wien III.</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <handNotes>
+            <handNote xml:id="D_000032-002-000-hand01"
+                      source="#D_000032-002-000-wit01"
+                      scribeRef="#11988"
+                      medium="black-ink"
+                      cert="high"
+                      resp="#IL"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000032-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000032-002-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2022-01-17" who="#IL"/>
+         <change type="structure" when-iso="2020-11-18" who="#IL"/>
+         <change type="references" when-iso="2020-11-22" who="#IL"/>
+         <change type="typography" when-iso="2022-01-17" who="#IL"/>
+         <change when-iso="2020-02-10T11:43:44.154Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-10T11:45:52.99Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T11:45:55.423Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T11:45:57.486Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T11:46:01.631Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T11:46:03.709Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T11:46:05.758Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T11:46:07.494Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 187314. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000032-002-000-facs001">
+      <surfaceGrp xml:id="D_000032-002-000-facs001-l001">
+         <surface xml:id="D_000032-002-000-facs001-l001-p001" type="recto">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548238/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000032-002-000-facs001-l002">
+         <surface xml:id="D_000032-002-000-facs001-l002-p002" type="recto">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548240/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000032-002-000-facs001-l003">
+         <surface xml:id="D_000032-002-000-facs001-l003-p003" type="recto">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548242/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000032-002-000-facs001-l004">
+         <surface xml:id="D_000032-002-000-facs001-l004-p004" type="recto">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548244/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000032-002-000-facs001-l004-p005" type="recto">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548245/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000032-002-000_p001"
+             facs="#D_000032-002-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_24e59487-50ac-4823-8aca-4cac2e3ed347">
+            <lb xml:id="uuid_16040cd0-9fee-429f-b9d0-4f8dca07e88d"/>Die gefertigte <rs ref="#37216" type="institution">Kronos Verlags A.G.</rs>, als Eigentümerin<lb xml:id="uuid_d159d6fe-901e-479b-bacc-d9cba041dac8"/>der Zeitschrift „<rs ref="#37298" type="institution">Die Bühne</rs>“, verlangt gemäss <rs type="law"
+                ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45">§ 23 des Pressege<lb break="no" xml:id="uuid_70724d34-fc5f-42e2-81cd-2bdcb7cff06f"/>setzes</rs> die Aufnahme
+                der nachfolgenden Berichtigung der in der<lb xml:id="uuid_159f9902-28cd-4813-a12f-ef4a76732b29"/><rs ref="https://fackel.oeaw.ac.at/f/697,0u1"
+                type="work"
+                subtype="fackel">Nummer
+                    697–705 der Zeitschrift „Die Fackel“, 27. Jahrgang,<lb xml:id="uuid_8dcbec26-73a2-4963-be25-c6cdcd7b4302"/>Oktober 1925</rs>,
+                mitgeteilten Tatsache in der ersten oder zweiten<lb xml:id="uuid_6558c53c-4a0a-40b8-a7fb-adf63698de07"/>nach dem Einlangen dieser
+                Berichtigung erscheinenden Nummer und<lb xml:id="uuid_0846fdea-5e1b-4e18-9bf6-657631c2ce89"/>zwar in der in der zitierten
+                Gesetzesstelle vorgeschriebenen Form.<lb xml:id="uuid_0f949132-84fe-4d18-a385-98678a6adf24"/>Sie veröffentlichen unter
+                dem Titel „<rs ref="https://fackel.oeaw.ac.at/f/697,139"
+                type="work"
+                subtype="fackel">Die Welt der Bühne</rs>“<lb xml:id="uuid_a88fbc36-dd93-4418-812f-0f2bfa08065d"/>nachstehendes Zitat aus der
+                Zeitschrift „<rs ref="#52512" type="work" subtype="pmb">Die Bühne</rs>“. </p>
+         <pb xml:id="D_000032-002-000_p002"
+             facs="#D_000032-002-000-facs001-l002-p002"
+             n="2"/>
+         <p xml:id="uuid_2b5dde27-d274-411d-adc9-93a3d8e6d60f">
+            <lb xml:id="uuid_4831a477-f08f-41e3-9b55-73aaea38c54f"/>Es ist unrichtig, dass das
+                vorstehende <rs ref="https://fackel.oeaw.ac.at/f/697,144"
+                type="work"
+                subtype="fackel">Bild</rs> das unter dem<lb xml:id="uuid_1c2ccd41-79b3-42f9-8240-518c33271c86"/>zitierten Absatz in der
+                Zeitschrift „<rs ref="#52154" type="work" subtype="pmb">Die Bühne</rs>“ veröffent<lb break="no" xml:id="uuid_cbf81ef6-4ff1-426f-bdf2-d4b6cb94674c"/>lichte <rs ref="#52519" type="work" subtype="pmb">Bild</rs> ist. Wahr ist vielmehr, dass
+                das Bild in der<lb xml:id="uuid_0b88c72e-e40f-42bb-bb42-1a0693aa2ad0"/>Zeitschrift
+                    „<rs ref="#52512" type="work" subtype="pmb">Die Bühne</rs>“ so aussieht: </p>
+         <pb xml:id="D_000032-002-000_p003"
+             facs="#D_000032-002-000-facs001-l003-p003"
+             n="3"/>
+         <p xml:id="uuid_13f1ce8d-d06f-426a-9112-3474366ecdda">
+            <lb xml:id="uuid_1a1a3042-3982-40bb-8024-d0279b1d4975"/>Es ist insbesondere
+                unrichtig, dass unterhalb des <rs ref="#52519" type="work" subtype="pmb">Bildes</rs>
+            <lb xml:id="uuid_89d735c3-443b-4bae-9aa0-a50a353c5d7e"/>in der „<rs ref="#52154" type="work" subtype="pmb">Bühne</rs>“ ein Kreuz angebracht war,
+                richtig ist<lb xml:id="uuid_0b4b1bc6-ba9b-484d-96a1-6ead078c33ef"/>vielmehr, dass
+                ein solches Kreuz sich in der „<rs ref="#52154" type="work" subtype="pmb">Bühne</rs>“<lb xml:id="uuid_947c37d7-dc1d-47ad-8236-c1cb3e9cf0f0"/>nicht
+                befindet. </p>
+         <p xml:id="uuid_d3d0fc52-ce7f-4085-980d-765a98104711">
+            <lb xml:id="uuid_92561a44-7f6d-4223-9d94-59aaf15adabd"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/38106" type="person">Ernst Ely</rs>
+            <lb xml:id="uuid_b2646a56-619d-4774-bb4f-ea139008d7e3"/>Dr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/50431" type="person">Fritz Kaufmann</rs>
+         </p>
+         <p xml:id="uuid_5afa80f4-0ae4-4745-b833-05291618950f">
+            <lb xml:id="uuid_d8c18bd8-63d5-4390-8bcc-e564e60109dd"/>Rekommandiert. </p>
+         <pb xml:id="D_000032-002-000_p004"
+             facs="#D_000032-002-000-facs001-l004-p004"
+             n="4"/>
+         <p xml:id="uuid_1bf3782f-b76b-4e16-a766-89a192ff8f56">
+            <lb xml:id="uuid_73e70bbd-5cb7-425a-ac32-e7bbba851667"/><note hand="#D_000032-002-000-hand01">Nr. 36, 6. August</note>
+         </p>
+      </body>
+   </text>
+</TEI>

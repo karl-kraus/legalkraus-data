@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000143-004-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000143-002-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000143-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Verlag Die Fackel an Frankfurter Künstlertheater</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000143-003-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/3876</idno>
+            <idno subtype="transkribus" type="ID">275854</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000143" type="collection">Karl Kraus
+               ca. Frankfurter Künstlertheater</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000143-003-000-facs001" xml:id="D_000143-003-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000143-003-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHN">Durchschlag mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#43724"/>
+               <address>
+                  <street corresp="#50496"/>
+                  <settlement ref="#53"/>
+               </address>
+               <date when-iso="1930-04-07">7. April 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#37121">das | Frankfurter Künstlertheater</orgName>
+               <address>
+                  <street corresp="#54286">Schöne Aussicht 16</street>
+                  <settlement ref="#146">Frankfurt am Main</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-04-07">7. April 1930</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000143-003-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000143-003-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+         <handNotes>
+            <handNote cert="low"
+               medium="pencil"
+               resp="#IL"
+               scribeRef="#43584"
+               source="#D_000143-003-000-wit01"
+               xml:id="D_000143-003-000-hand01"/>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-04-21" who="#JK"/>
+         <change type="typography" when-iso="2021-04-21" who="#JK"/>
+         <change type="references" when-iso="2021-04-21" who="#JK"/>
+         <change type="structure" when-iso="2021-04-21" who="#JK"/>
+         <change when-iso="2020-10-08T14:14:24.392Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T14:15:38.835Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 275854. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000143-003-000-facs001">
+      <surfaceGrp xml:id="D_000143-003-000-facs001-l001">
+         <surface type="recto" xml:id="D_000143-003-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541762/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000143-003-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541763/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000143-003-000_p001"
+             facs="#D_000143-003-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_e1e01afb-3a85-437c-a10d-8a5497837186">
+            <lb xml:id="uuid_89579969-303c-406e-906a-7829d5588c42"/><note
+               hand="#D_000143-003-000-hand01">Kopie</note>
+         </p>
+         <p xml:id="uuid_bdf30340-3fc4-454f-8bcc-3968c79fdc4f">
+            <lb xml:id="uuid_b51ee04e-c6a5-46fd-92bf-d4f5f99b49ae"/>Sehr geehrte Herren! </p>
+         <p xml:id="uuid_3bac61a2-8b99-49c8-b3da-c9559dbcffba">
+            <lb xml:id="uuid_5ab1c177-13ca-47b0-a730-312582230a57"/>Die Ihrem <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000143-002-000" type="work"
+               subtype="legal-doc">Schreiben vom 31. März</rs> beigeschlossenen zwei Exem<lb
+               break="no" xml:id="uuid_a484f0a7-81f2-4f8d-b310-3e87dc2d9f94"/>plare sind zwar nicht
+            die Ihres <rs ref="#54289" type="work" subtype="pmb">Programmheftes Nr. 6</rs>, das Sie
+               senden<lb xml:id="uuid_d47b6c0e-2731-4062-809d-a497b713c502"/>wollten, sondern
+            abermals der <rs ref="#54276" type="work" subtype="pmb">Nr. 8</rs>, auf die sich unsere
+               <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000143-001-000" type="work"
+               subtype="legal-doc">Zuschrift</rs> be<lb break="no"
+               xml:id="uuid_dc64ddb7-4529-4d82-a7f9-111ccbae8053"/>zogen hat. Wir wollen aber mit
+            dieser Feststellung keineswegs die <rs ref="#54289" type="work" subtype="pmb">Nr. 6</rs>
+            <lb xml:id="uuid_f43d6358-3d1c-4713-ae24-98a6a6e8c854"/>reklamieren. Sie scheinen ja den
+            Sinn unserer Kritik an der Berichter<lb break="no"
+               xml:id="uuid_fd01c804-2711-4e16-912e-5eed7181aa08"/>stattung des Herrn <rs
+               ref="#54278" type="person">S.N.</rs> völlig mißverstanden zu haben, wenn Sie uns<lb
+               xml:id="uuid_96fa5b9e-1d9e-48fb-ac6e-c45b0ae9d4af"/>vorhalten, es „<quote
+               source="#D_000143-002-000" xml:id="uuid_9e9147da-1f95-4211-809d-bbb539af3fba">wäre
+               viel leichter gewesen, eine Anfrage hierher zu ge<lb break="no"
+                  xml:id="uuid_f47948fb-3857-4db1-93c2-84ea67cba356"/>ben, ob und wann die ‚<rs
+                  ref="#53397" type="work" subtype="pmb">Unüberwindlichen</rs>‘ besprochen worden
+               sind</quote>“. Wir<lb xml:id="uuid_c727f033-ae25-46e2-ab2e-ae350c78738a"/>haben eine
+            solche Besprechung durchaus nicht vermißt, sondern ledig<lb break="no"
+               xml:id="uuid_9cc4d943-e17f-4d4b-9a41-e7accfeccea5"/>lich festgestellt, daß in dem
+            Rückblick über die Aufführungen der <rs ref="#36940" type="institution">Volks<lb
+                  break="no" xml:id="uuid_231e030c-4e98-477e-8e29-66bae3e962fc"/>bühne</rs> die „<rs
+               ref="#53397" type="work" subtype="pmb">Unüberwindlichen</rs>“ nicht vorkommen. Dieser
+            Rückblick ist nach<lb xml:id="uuid_f87a1e76-b2ca-4e91-8119-65569368e820"/>der Abwürgung
+            des <rs ref="#53397" type="work" subtype="pmb">Werkes</rs> durch die <rs ref="#36940"
+               type="institution">Volksbühne</rs> erfolgt und wenn wir<lb
+               xml:id="uuid_01503be9-6df4-43f8-9b25-518554ddf687"/>richtig informiert wurden, so
+            steht Herr <rs ref="#54278" type="person">S.N.</rs> – wenn er Nestripke hei<lb
+               break="no" xml:id="uuid_1173a111-89b7-48a2-a7e6-e2e843298fc9"/> ßen sollte – der <rs
+               ref="#36940" type="institution">Berliner Volksbühne</rs> einigermaßen nahe. Ob Sie
+               selbst<lb xml:id="uuid_28d8dd03-1dca-4db8-b427-e9dfc10cc2cb"/>mit der <rs
+               ref="#36940" type="institution">Berliner Volksbühne</rs> etwas zu tun haben, kommt
+            hier kaum in Be<lb break="no" xml:id="uuid_20e7527f-3b2c-4d2f-8587-fa6e3738a251"
+            />tracht. Ihren Rat, uns, wenn wir „<quote source="#D_000143-002-000"
+               xml:id="uuid_3718ffb4-062b-4821-bac6-f40af5d3ff83">auf die Leitung der <rs
+                  ref="#36940" type="institution">Berliner Volks<lb break="no"
+                     xml:id="uuid_a85431f1-fe66-42fe-be54-e86ac9021e07"/>bühne</rs> böse
+               sind</quote>“, an diese Adresse zu wenden, haben wir insofern schon,<lb
+               xml:id="uuid_a4165e4e-6855-4475-8d91-ab24cc8632dc"/>bevor er erteilt wurde, befolgt,
+            als wir gegen die <rs ref="#36940" type="institution">Volksbühne</rs> einen<lb
+               xml:id="uuid_5f53e7d0-9d0b-40aa-bb9d-43fa601e1bf8"/>Prozeß angestrengt haben. Sie tun
+            Unrecht, aus unserer <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000143-001-000"
+               type="work" subtype="legal-doc">Zuschrift</rs> „<quote source="#D_000143-002-000"
+               xml:id="uuid_a2445bf0-1a79-4457-afb3-2cd7d883b6de">Erre<lb break="no"
+                  xml:id="uuid_a9ae4bc9-e029-492f-8af9-97281bc86606"/>gung</quote>“ herauszulesen
+            und sie mit dem Umstand zu kontrastieren, daß wir<lb
+               xml:id="uuid_bb791691-9f13-4e3d-9b3b-c2cd517eaa23"/>„<quote
+               source="#D_000143-002-000" xml:id="uuid_caa1f7aa-b748-41a8-a093-4e3d235f2929">für
+               Wahrheit und Recht kämpfen</quote>“ und „<quote source="#D_000143-002-000"
+               xml:id="uuid_29067158-923d-450f-8387-95636174cf98">an das Gute im Menschen
+               glauben</quote>“.<lb xml:id="uuid_cdfac486-80cc-4e98-af48-3252072db32c"/>Um das Gute
+            im Menschen handelt es sich in diesem Fall ganz und gar<lb
+               xml:id="uuid_c1234432-d724-43ca-bfd1-4ce81325d1ca"/>nicht, aber weil wir für das
+            Recht kämpfen, haben wir die <rs ref="#36940" type="institution">Volksbühne</rs>
+            <lb xml:id="uuid_28c14c38-170e-476a-aab3-2e8f2d7f2576"/>wegen Kontraktbruchs belangt und
+            der Wahrheit wollen wir insofern auf<lb
+               xml:id="uuid_1cff04d6-8167-4013-bdbd-a56f25a73278"/>die Beine helfen, als wir einer
+            falschen Berichterstattung über Berliner<lb
+               xml:id="uuid_7546f297-0ec7-4c60-9b35-8a3488c1e47a"/>Theatervorgänge entgegentreten,
+            die sich darin betätigt hat, daß sie<lb
+               xml:id="uuid_8052f564-9714-4cf3-9e4e-9eb10f1b5f37"/>gewissermaßen die Pleite des <rs
+               ref="#7713" type="person">Herrn Hartung</rs> auf <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+            abwälzte. In<lb xml:id="uuid_e5c0f127-2a5e-4a89-9f0c-04575531414f"/>rühmenswertem
+            Gegensatz zu der Leichtfertigkeit eines Korrespondenten,<lb
+               xml:id="uuid_d7cb7dfd-6de5-4c57-8d40-50a42664ea64"/>der über eine Theateraufführung
+            berichtet, der er nicht beigewohnt hat,<lb
+               xml:id="uuid_382c165b-4971-4f19-b742-ba6f1da61f64"/>und über eine Sache aussagt, von
+            deren Verbindung mit Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+               type="person">Karl Kraus</rs>
+            <lb xml:id="uuid_1ba091fa-618d-4c20-8fb1-2155a582cfe9"/>er etwas läuten gehört hat,
+            steht Ihre redaktionelle Gewissenhaftigkeit,<lb
+               xml:id="uuid_6a689019-4f96-4977-9f38-d6cc34cb4c73"/>mit der Sie sich, nicht beruhigt
+            durch unsere Versicherung, daß Herr<lb
+               xml:id="uuid_1fa01dae-d7e8-49b7-b165-9204ae7653ee"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> an der
+            Aufführung des <rs ref="#7713" type="person">Herrn Hartung</rs> unbeteiligt sei,
+               nunmehr<lb xml:id="uuid_5bfcfbb0-4985-4dc2-9e50-2a38d342dfd3"/>an Herrn <rs
+               ref="#54278" type="person">S.N.</rs> gewandt haben mit der Anfrage, ob er den <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> ge<lb
+               break="no" xml:id="uuid_eb5b8425-31ea-4904-92d5-7b847a9ffc82"/>meint habe, den wir
+            meinen, den Herausgeber der <rs ref="#41244" type="work" subtype="pmb">Fackel</rs>
+            nämlich, in wel<lb break="no" xml:id="uuid_8df60f83-2769-4048-8281-afd0dd286263"/>chem
+            Fall Sie bereit sein werden, festzustellen, „<quote source="#D_000143-002-000"
+               xml:id="uuid_c9553a3e-79a3-4002-97ec-934a9ac326a7">daß das eine irrige<lb
+                  xml:id="uuid_b33653d1-2978-4559-8e84-91cf31dd2f29"/>Ansicht ist</quote>“. Es wäre
+            zwar nicht so sehr eine irrige Ansicht als die<lb
+               xml:id="uuid_ba766234-7b45-4bf2-8d74-cd5be42cd31c"/>falsche Behauptung einer
+            Tatsache. Sie tun aber ganz recht mit dem Ver<lb break="no"
+               xml:id="uuid_8355d850-0fa3-4ee9-a377-21bc340fbe94"/>such, sich gründlich zu
+            informieren, denn man kann, wie sich zeigt, in<lb
+               xml:id="uuid_267dcab8-8268-483c-8254-dab6890b7c93"/>diesen Dingen nicht vorsichtig
+            genug sein. „<quote source="#D_000143-002-000"
+               xml:id="uuid_e96a2907-b5b2-4ace-9689-2221083a62b6">Mit einer Nachricht, daß<lb
+                  xml:id="uuid_1df3a997-58a9-46f7-84c9-e7bf899499e7"/>die Bearbeitung ‚<rs
+                  ref="#53311" type="work" subtype="pmb">Pariser Leben</rs>‘ im <rs ref="#37123"
+                  type="institution">Renaissancetheater</rs> nicht von <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl<lb
+                     xml:id="uuid_dc20c480-d1ed-4299-bc5c-d8c430d1188b"/>Kraus</rs> ist, kann weder
+               Ihnen noch uns gedient sein</quote>“, schreiben Sie so zu<lb break="no"
+               xml:id="uuid_ec517e6d-1f05-42e1-975f-f501a5a87333"/>treffend. „<quote
+               source="#D_000143-002-000" xml:id="uuid_c9b6f660-372e-4822-a98d-3632c6fe6423">Denn
+               womöglich meldet sich dann ein anderer Karl Kraus und<lb
+                  xml:id="uuid_62588f0b-a3eb-46da-b8bc-cfa3e61c314d"/>beansprucht wiederum eine
+               Feststellung, daß er doch der Bearbeiter ist</quote>“.<lb
+               xml:id="uuid_ee1e6671-c356-4ccf-a808-32886990dac6"/>Zwar wäre uns schon gedient mit
+            der Feststellung, daß unser <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+               type="person">Karl Kraus</rs>,<lb xml:id="uuid_b83047ae-8a0b-4a2e-bfe4-fbded0b2d91f"
+            />der Herausgeber der <rs ref="#41244" type="work" subtype="pmb">Fackel</rs> nämlich,
+            nicht der Bearbeiter für <rs ref="#7713" type="person">Hartung</rs>
+            <lb xml:id="uuid_1846021b-2876-4ec2-b3ae-7b2b57f17acd"/>ist, aber gewiß ist es gut, sich
+            Weitläufigkeiten zu ersparen, denn es<lb
+               xml:id="uuid_cbb3dedc-155b-4a6d-83ef-343573e2c8bb"/>könnte doch wirklich der Fall
+            sein, daß es noch einen <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+               >Karl Kraus</rs> in der<lb xml:id="uuid_b42bebc6-68d9-43a7-b1f2-8021a1df423e"
+            />Literatur gibt und einen, der gleichfalls „<rs ref="#53311" type="work" subtype="pmb"
+               >Pariser Leben</rs>“ bearbeitet <pb xml:id="D_000143-003-000_p002"
+               facs="#D_000143-003-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_ad93ca33-0894-4ced-aa12-590d05edd72f"/>hat, ohne seine Bearbeitung dem
+               <rs ref="#7713" type="person">Herrn Hartung</rs> zu entziehen, und daß<lb
+               xml:id="uuid_c0d129f1-b801-485c-8421-878f92fbe72e"/>Herr <rs ref="#54278"
+               type="person">S.N.</rs> eben diesen gemeint hat. Wir sind gespannt, welches
+               Resultat<lb xml:id="uuid_2f3a1a87-1cad-490f-80bc-56b9b5223a9a"/>die Erkundigung haben
+            wird. Sollten Sie inzwischen von Herrn <rs ref="#24168" type="person">Marcellus<lb
+                  xml:id="uuid_21bcdf87-09bc-4d20-a391-9250d8a2b088"/>Schiffer</rs> die Feststellung
+            erhalten, daß er der Bearbeiter sei, so wür<lb break="no"
+               xml:id="uuid_279297a9-5f69-4c5b-ba3b-ad78e787afe1"/>de es sich gleichfalls empfehlen,
+            sich zu erkundigen, ob es nicht noch<lb
+               xml:id="uuid_ace44d41-40ac-473f-ba1f-887c67dd696e"/>einen andern <rs ref="#24168"
+               type="person">Marcellus Schiffer</rs> gibt, der womöglich wiederum eine Fest<lb
+               break="no" xml:id="uuid_37f81691-915d-45a9-9db1-cae8d6d154bf"/>stellung beansprucht,
+            daß er nicht der Bearbeiter sei. Außerdem gibt<lb
+               xml:id="uuid_5c5b33e4-cb57-43b2-8356-34137fb85494"/>es noch einen Bearbeiter von „<rs
+               ref="#53311" type="work" subtype="pmb">Pariser Leben</rs>“, der <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/38886" type="person">Peter Scher</rs>
+               heißt;<lb xml:id="uuid_db49cae7-3001-41a4-bfe3-01e5c4c330c3"/>der kommt aber ganz
+            bestimmt nur einmal vor. Jedenfalls danken wir für<lb
+               xml:id="uuid_e30ab1e0-9718-4285-8fff-07fd8eda2470"/>Ihren guten Willen und zeichnen </p>
+         <p xml:id="uuid_a388e86f-5cb4-4ae1-95e4-38f210515df6">
+            <lb xml:id="uuid_3e5ae584-7361-483c-b61f-1bbace4e7c6f"/>hochachtungsvoll </p>
+      </body>
+   </text>
+</TEI>

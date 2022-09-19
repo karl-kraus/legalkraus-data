@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-035-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-033-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000146-034-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mitteilung Gerichtsvollzieher […] Schultzen an RA Botho Laserstein</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000146-034-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4008</idno>
+            <idno subtype="transkribus" type="ID">290705</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000146" type="collection">Karl
+                    Kraus ca. Ernst Josef Aufricht (Theater am Schiffbauerdamm, Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000146-034-000-facs001" xml:id="D_000146-034-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000146-034-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.D">Druck</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#43648">Schultzen</persName>
+               <address>
+                  <street corresp="#57107">Friesenstr. 2 III</street>
+                  <settlement ref="#168">Berlin-Steglitz</settlement>
+               </address>
+               <date when-iso="1931-04-03">3.4.1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38969">Herrn Rechtsanwalt Dr. Laserstein </persName>
+               <address>
+                  <street corresp="#51751">Landsberger Allee 115/16</street>
+                  <settlement ref="#168">Berlin NO. 18</settlement>
+               </address>
+               <date when-iso="1931-04-08">8. APR. 1931</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-04-03">3. April 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000146-034-000-wit01">Mitteilung</term>
+            </keywords>
+            <classCode source="D_000146-034-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.MIT">D.J.MIT</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-08T15:09:21.182Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-08T15:14:40.771Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 290705. </change>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-08-17"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-08-17"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-08-17"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-08-17" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000146-034-000-facs001">
+      <surfaceGrp xml:id="D_000146-034-000-facs001-l001">
+         <surface type="recto" xml:id="D_000146-034-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542265/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000146-034-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542266/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000146-034-000_p001"
+             facs="#D_000146-034-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_47676727-345f-4796-9227-783abb3a050c">
+            <lb xml:id="uuid_27fff917-ee61-493c-b6e1-ee712b5178ce"/>D-R. Nr 2511 </p>
+         <p xml:id="uuid_c934d3ab-5ed0-4be9-afd1-efcb7ec92a15">
+            <lb xml:id="uuid_27c8dd92-4f2b-4fd9-b88e-e4f0aeee6212"/>In Sachen <rs ref="#11988"
+               type="person">Kraus</rs> wider <rs ref="#37761" type="person">Aufricht</rs>
+            <lb xml:id="uuid_5299124d-1c28-453a-8820-7c4c2b65c18b"/>bitte ich um Einsendung des
+            Schuldtitels. </p><pb xml:id="D_000146-034-000_p002"
+               facs="#D_000146-034-000-facs001-l001-p002" n="2"/>
+      </body>
+   </text>
+</TEI>

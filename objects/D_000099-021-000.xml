@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-022-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-020-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000099-021-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Max Hirschberg an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000099-021-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2993</idno>
+            <idno subtype="transkribus" type="ID">423616</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000099" type="collection">Karl
+                    Kraus ca. Völkischer Beobachter (München)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000099-021-000-facs001" xml:id="D_000099-021-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000099-021-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSN">Typoskript mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38381">Dr. MAX HIRSCHBERG</persName>
+               <address>
+                  <street corresp="#51755">KAUFINGERSTRASSE 30</street>
+                  <settlement ref="#45258">MÜNCHEN, C 7</settlement>
+               </address>
+               <date when-iso="1928-06-11">11. Juni 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Rechtsanwalt Dr. Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">2/H</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1928-06-11">11. Juni 1928</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote cert="high"
+                      medium="blue-pencil"
+                      resp="#JK"
+                      scribeRef="#38909"
+                      source="#D_000099-021-000-wit01"
+                      xml:id="D_000099-021-000-hand01"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000099-021-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000099-021-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-03-03" who="#JK"/>
+         <change type="typography" when-iso="2021-03-03" who="#JK"/>
+         <change type="references" when-iso="2021-03-03" who="#JK"/>
+         <change type="structure" when-iso="2021-03-03" who="#JK"/>
+         <change when-iso="2020-10-08T12:31:37.625Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T12:35:03.916Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 423616. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000099-021-000-facs001">
+      <surfaceGrp xml:id="D_000099-021-000-facs001-l001">
+         <surface type="recto" xml:id="D_000099-021-000-facs001-l001-p001">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554900/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000099-021-000-facs001-l001-p002">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554901/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554902/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554903/full/full/0/default.jpg"/>
+         
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000099-021-000_p001"
+             facs="#D_000099-021-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_ee9c1c70-fac5-46d1-8903-a5a3d7e02240">
+            <lb xml:id="uuid_5827fdf6-4529-4dac-ada2-98318cd5b966"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38909" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_4ba47833-0a72-4b8b-af98-13874e96120c">
+            <lb xml:id="uuid_59a3af73-6534-4510-b70c-1c1965113c7f"/>In Sachen <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> gegen
+                    <rs ref="#37551" type="institution">Völkischen Beobachter</rs>
+            <lb xml:id="uuid_4ce3eacc-34ae-46dc-bb82-298b556720d6"/>ist die Hauptverhandlung auf
+                neuerlichen Verlegungsantrag<lb xml:id="uuid_26a20bd3-a72a-4d73-ad47-1458a9d7443e"/>des <rs ref="#37919" type="person">Gegners</rs> auf heute, <hi hand="#D_000099-021-000-hand01" rend="underlined">11. Juni 1928</hi>, vorverlegt
+                    worden.<lb xml:id="uuid_25f7c7a9-7710-456f-93ca-20ce5b9bb038"/>Ich habe die
+                Verhandlung, welche 2 1/2 Stunden dauerte,<lb xml:id="uuid_60e2be57-88e8-4aae-aa28-f2583a97460f"/>durchgeführt. Ich hatte mit
+                freundlicher Mithilfe des<lb xml:id="uuid_c510e17c-db6e-4c74-8109-ec5415ac16ff"/>Herrn Dramaturgen <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38133" type="person">Heinrich Fischer</rs> als Zeugen zur Stelle<lb xml:id="uuid_6716197c-0fcf-4b6b-862e-4ed4bb811da8"/>gebracht: Herrn <rs ref="#4057" type="person">Bruno Frank</rs>, Schriftsteller in <rs ref="#45258" type="place">München</rs>,<lb xml:id="uuid_605ed378-ab78-4622-96f0-f8fd34d02a45"/>Herrn <rs ref="#53068" type="person">Dr. Ring</rs>, Herausgeber des <rs ref="#53069" type="work" subtype="pmb">Kunstwart</rs>, Herrn <rs ref="#53071" type="person">Dr. Steffel</rs>,<lb xml:id="uuid_3028f82c-37ec-4892-aa56-06a10ad35046"/>Staatsbibliothekar; der <rs ref="#37919" type="person">Gegner</rs> hatte jedoch keine Zeugen<lb xml:id="uuid_97b9cce0-c7fc-4939-80ac-7af94eb9e918"/>und Sachverständigen
+                mitgebracht, sodaß ich, um eine neuer<lb break="no" xml:id="uuid_3a1a569e-73db-4f4b-8f05-e0baea2f280e"/>liche Terminsverlegung zu
+                vermeiden, auf Vernehmung der<lb xml:id="uuid_2653d479-8028-42bf-a306-ab4dfec0e750"/>Zeugen ebenfalls verzichten konnte. </p>
+         <p xml:id="uuid_286ac930-773d-471d-9403-c2ce85055f36">
+            <lb xml:id="uuid_75b5016d-4b79-4cf9-b3ca-197faaf6c8bf"/>Ich habe auf die ziemlich
+            verworrenen Ausführungen<lb xml:id="uuid_2efe39ac-ce66-4714-9fbb-f7653f4e0884"/>des <rs
+               ref="#37919" type="person">Beklagten</rs> etwas ironisch und im übrigen rein
+               juristisch<lb xml:id="uuid_ca71bf3f-3160-41f4-95d3-db598d9544d7"/>repliziert,
+            insbesondere wies ich darauf hin, wie das<lb
+               xml:id="uuid_bb2a1a02-c72f-4b43-9331-29f15ddb4853"/><rs ref="#37326"
+               type="institution">Hakenkreuzlerblatt</rs> in <rs ref="#50" type="place">Wien</rs>
+            1924 das <rs ref="#50712" type="work" subtype="pmb">Traumstück</rs> kritisiert<lb
+               xml:id="uuid_b174764f-260d-4124-b16e-9cd75eb11b54"/>hat und stellte die masslosen
+            Beschimpfungen des <rs type="institution" ref="#37551">Völkischen</rs>
+            <pb xml:id="D_000099-021-000_p002" facs="#D_000099-021-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_1ed54511-757b-4845-8dc1-c93be57c9383"/>Beobachters dem gegenüber. </p>
+         <p xml:id="uuid_ae005895-1b09-40d4-9b34-97c7c8a78e33">
+            <lb xml:id="uuid_99fbccdc-2d35-4640-bd68-c99abb9b2237"/>Bezüglich der frei
+                erfundenen Tanzszene verteidigte<lb xml:id="uuid_80bcb2c1-bdca-476f-a98c-e3b9287be29a"/>der <rs ref="#37919" type="person">Beklagte</rs> sich damit, daß er in der Aufführung den Tanz<lb xml:id="uuid_fe5303fb-2727-479c-a332-586e1c7df0e2"/>von Valuta und Zinsfuß bei
+                schlechter Beleuchtung so gesehen<lb xml:id="uuid_c910022f-1ea4-4455-b0f3-caad7ac6d7a0"/>habe, wie wenn eine Hure mit
+                einem einbeinigen Soldaten<lb xml:id="uuid_c1e9c52f-6848-4b02-b380-54c3644dfb85"/>tanze. Ich nagelte ihn sofort darauf fest, daß er demnach<lb xml:id="uuid_685a1d20-eb1b-4412-a425-2b20f2aac9c8"/>das Stück kritisiert hat,
+                ohne es überhaupt gelesen zu<lb xml:id="uuid_c44636e5-1219-4a57-bbe8-ce3bfa013fe2"/>haben. </p>
+         <p xml:id="uuid_90fab6f0-1121-4b54-a115-14bc2206a3f1">
+            <lb xml:id="uuid_b47f1991-d493-4bc7-9ce8-8b164c65b170"/>Das <rs ref="#36761"
+               type="institution">Gericht</rs> verurteilte den <rs ref="#37919" type="person"
+               >Beklagten</rs> wegen<lb xml:id="uuid_be3e46f3-35a9-412c-b0ba-d7af07d9ad6f"/>zweier
+            sachlich zusammentreffender Vergehen der Beleidigung<lb
+               xml:id="uuid_fb92c6c9-b8ab-4210-9dd7-f0a05b681d04"/>zu <hi
+               hand="#D_000099-021-000-hand01" rend="underlined">2 mal 100 M Geldstrafe und zu
+               sämtlichen Kosten.</hi>
+            <lb xml:id="uuid_3b2aad48-4d22-40d6-a4af-8822141048b8"/>Dem <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Privatkläger</rs> ist
+            das Recht zugesprochen, innerhalb<lb xml:id="uuid_a05e086c-7d2d-45c3-a6b8-fdc844990e57"
+            />einer Woche nach Rechtskraft das <rs type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000099-022-000">Urteil</rs> in der für
+               amt<lb break="no" xml:id="uuid_6afdc8db-6115-46fd-9de3-80d8b93837c4"/>liche
+            Bekanntmachung vorgesehenen Form im <rs type="work" subtype="pmb" ref="#47189"
+                  >Völkischen<lb xml:id="uuid_dfcb2ffb-3ed2-4857-9e64-7481ec832036"/>Beobachter</rs>
+            auf Kosten des <rs ref="#37919" type="person">Beklagten</rs> zu veröffentlichen. </p>
+         <p xml:id="uuid_77e5ffc5-7948-4d85-9286-5c69c70dd8de">
+            <lb xml:id="uuid_93fee5f1-24cc-414b-999f-7bb3612ff0e2"/>Ich warte nunmehr ab, ob der <rs
+               ref="#37919" type="person">Beklagte</rs> Berufung<lb
+               xml:id="uuid_0d2230e2-a61a-4682-a600-b2ac28d4a393"/>einlegt, andernfalls werde ich
+            für Veröffentlichung im<lb xml:id="uuid_abc3cefb-5608-4bbc-9b3f-576fc11bb2e2"/><rs
+               type="institution" ref="#47189">Völkischen Beobachter</rs> und für Einziehung der
+            Kosten sorgen. </p>
+         <p xml:id="uuid_6197d5a4-2855-4254-8f8c-9edfdeaeb51b">
+            <lb xml:id="uuid_1924e9cb-6e9b-4140-ac39-4bdea47e9d45"/>Ein Vergleichsversuch wurde
+                weder vom <rs ref="#36761" type="institution">Gericht</rs>
+            <lb xml:id="uuid_10450d78-ffcf-4fbb-ac76-b64d079e3ba4"/>noch vom <rs ref="#37919" type="person">Gegner</rs> gemacht. Ich habe die Vergleichsfrage<lb xml:id="uuid_a24e53ee-c01c-45a0-9759-014baa54b20f"/>selbstverständlich nicht
+                angeschnitten. </p>
+         <p xml:id="uuid_ea543d3a-e559-413d-8432-4e0c41628639">
+            <lb xml:id="uuid_9ed16c80-0c5c-4c26-886e-569ea03d2b24"/>Ausser den Münchener
+                Tageszeitungen waren<lb xml:id="uuid_bd2daa55-a86f-4cae-a94e-8f3eb4358530"/>die <rs ref="#29442" type="institution">Frankfurter Zeitung</rs>, die <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29331" type="institution">Vossische
+                    Zeitung</rs> und andere<lb xml:id="uuid_2805e444-d226-4072-ad4d-39f157396c75"/>Blätter vertreten. </p>
+         <p xml:id="uuid_6ba1fad5-7724-4e55-a420-b1c7fdeb8cfe">
+            <lb xml:id="uuid_9c9865ef-288a-49b8-aa6c-789abf752d55"/>Ich lege Durchschlag dieses
+                Schreibens für <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herrn<lb xml:id="uuid_395106e0-7bf9-40a5-9f89-8796edfca50d"/>Kraus</rs>,
+                dem ich meine verbindlichsten Grüsse zu übermitteln<lb xml:id="uuid_096e275b-d714-4783-a5ff-e8fb9da62f9f"/>bitte, bei. </p>
+         <p xml:id="uuid_1d21bce8-5cd9-466a-9819-acc25229b756">
+            <lb xml:id="uuid_36a2e5a6-165c-4669-8369-69bd7d54fb10"/>Mit vorzügl. koll.
+               Hochachtung<lb xml:id="uuid_d2bba740-1652-4737-988f-3c76e183b42e"/><rs ref="#38381"
+               type="person">Dr. Hirschberg</rs>
+            <lb xml:id="uuid_59370906-59d6-4201-881c-20eeb32bdf9e"/>Rechtsanwalt. </p>
+         <p xml:id="uuid_5f4dd1eb-c4e1-489d-a306-01b6bc6fc862">
+            <lb xml:id="uuid_fde8c1be-1612-4196-af38-c6282daa8f0e"/><note resp="law-firm" type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> – <rs ref="#37551" type="institution">Völk. Beobachter</rs>
+               <lb xml:id="uuid_0a06be14-4b8c-4c8e-9f82-3cc91bd3e76c"/>13. JUNI 1928 </note>
+         </p>
+      </body>
+   </text>
+</TEI>

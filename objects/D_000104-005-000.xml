@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000104-005-001.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000104-004-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000104-005-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Konzert-Direktion Herm. Wolff &amp; Jules Sachs G.m.b.H an Kraus.</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000104-005-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/3116</idno>
+            <idno subtype="transkribus" type="ID">297230</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000104" type="collection">Karl Kraus
+               ca. Neues Wiener Journal</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <ab type="stamp">
+                  <stamp source="#36913" xml:id="uuid_6b4d90d2-0a00-4acf-8ff2-d99d387a38d5"/>
+               </ab>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000104-005-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSN">Typoskript mit
+                        handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness facs="#D_000104-005-000-facs001" xml:id="D_000104-005-000-wit01"/>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1928-04-03">3. April 1928</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#36913">Konzert-Direktion Herm. Wolff &amp; Jules Sachs
+                  G.m.b.H.</orgName>
+               <address>
+                  <street corresp="#55203">LINKSTRASSE 42</street>
+                  <settlement ref="#168">BERLIN W 9</settlement>
+               </address>
+               <date when-iso="1928-04-03">3. April 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#11988">Herrn | Karl Kraus</persName>
+               <address>
+                  <street corresp="#88">Palast Hotel</street>
+                  <settlement ref="#168">Berlin W.9</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Sa/R Durch Boten!</note>
+            </noteGrp>
+         </correspDesc>
+         <handNotes>
+            <handNote xml:id="D_000104-005-000-hand01" source="#D_000104-005-000-wit01"
+               scribeRef="#11988" medium="grey-pencil" cert="low" resp="#IL"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000104-005-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000104-005-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2021-05-04" who="#IL"/>
+         <change type="structure" when-iso="2021-05-04" who="#IL"/>
+         <change type="references" when-iso="2021-05-04" who="#IL"/>
+         <change type="typography" when-iso="2021-05-04" who="#IL"/>
+         <change type="intertexts" when-iso="2021-05-04" who="#IL"/>
+         <change when-iso="2020-07-21T13:32:50.058Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 297230. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000104-005-000-facs001">
+      <surfaceGrp xml:id="D_000104-005-000-facs001-l001">
+         <surface xml:id="D_000104-005-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555504/full/full/0/default.jpg"
+            />
+         </surface>
+         <surface xml:id="D_000104-005-000-facs001-l001-p002" type="verso">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555505/full/full/0/default.jpg"
+            />
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000104-005-000_p001" facs="#D_000104-005-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_148c7551-71da-401d-8727-7b92e502a71d">
+            <lb xml:id="uuid_66abbe46-ee45-4d88-a6ac-f1127e6614e1"/>Sehr verehrter Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>! </p>
+         <p xml:id="uuid_871c1502-3da3-4a2c-93bf-6846282c1edc">
+            <lb xml:id="uuid_b9c9e7a4-632f-4757-bd93-5aab5567e820"/>Darf ich Ihnen nochmals zu dem
+            grossen und starken<lb xml:id="uuid_efb1f6f7-5a27-4692-8eef-98dc91a98fcd"/>Erfolg, der
+            Ihre Abende begleitet hat, und der seinen Gipfel in der<lb
+               xml:id="uuid_4f7c604b-2fe3-4a73-8488-33c7f43bd041"/>gestrigen Vorlesung fand, meinen
+            Glückwunsch aussprechen. </p>
+         <p xml:id="uuid_97477c88-136d-4a13-b265-d873768584b2">
+            <lb xml:id="uuid_a728044b-0ee5-49f0-8994-c38d3017da08"/>Da der gestrige Abend eine
+            merkbare Steigerung gegen<lb break="no"
+               xml:id="uuid_1f3df8b4-1992-498f-a14f-8e2d472b30ec"/>über den Uebrigen zeitigte,
+            glaube ich, dass wir im Mai zunächst noch<lb
+               xml:id="uuid_a8eb109a-9b81-4c11-9bd9-398554bdcd67"/>3 Abende folgen lassen können,
+            wenn Sie einverstanden sind. </p>
+         <p xml:id="uuid_36e75f14-272a-426f-88be-9976f3fb364e">
+            <lb xml:id="uuid_5ecdb0b5-01e1-4465-be3e-b2acca504efa"/>Ich bitte also um Ihre
+            Entschließung, ob Sie bereit<lb xml:id="uuid_b59cec40-5692-440b-99f8-535c9f89701f"
+            />sind, zu den alten Bedingungen noch 3 aufeinanderfolgende Vorlesungen<lb
+               xml:id="uuid_8284c8bc-f3ec-4122-9c44-969341f3b6d0"/>im Mai folgen zu lassen. In
+            diesem Monat ist auch der Bechstein-Saal<lb
+               xml:id="uuid_b6460d1d-886e-4b4e-97f6-50873d5f74df"/>frei, der noch etwas besser liegt
+            als der Schwechten<note type="marginal" hand="#D_000104-005-000-hand01"
+               rend="marginRight">520</note>-Saal (im Hause<lb
+               xml:id="uuid_95d1a75b-ee50-4dc0-a3b8-8bb19a02a65c"/>unseres <rs ref="#36913"
+               type="institution">Büros</rs>) und auch <hi rend="underlined"
+               hand="#D_000104-005-000-hand01">etwas mehr</hi> Fassungsraum hat (<hi
+               rend="underlined" hand="#D_000104-005-000-hand01"><note type="marginal"
+                  hand="#D_000104-005-000-hand01" rend="marginRight">543</note>503 Plätze</hi><note
+               type="marginal" hand="#D_000104-005-000-hand01" rend="marginRight">?</note>). Darf<lb
+               xml:id="uuid_178ad901-7d37-4d67-acfa-0e69854955e4"/>ich Sie bitten mir alle
+            verfügbaren Daten zu nennen. Natürlich käme<lb
+               xml:id="uuid_66c0bf10-c8cb-4f18-921e-02a43f0ca9f1"/>die Woche vor den Wahlen, d.h.
+            die Tage 13.–20. Mai, nicht in Betracht,<lb
+               xml:id="uuid_06cbd0d4-dfaa-4257-85aa-fb1f5678048e"/>auch wäre die Zeit um Pfingsten
+            herum (23.–30. Mai) ebenfalls ungünstig.<lb
+               xml:id="uuid_3da5b54a-fc26-497c-aae6-f8b0d55495b7"/>Daher wäre es am besten, wenn Sie
+            die Abende möglichst vor dem 13. Mai<lb
+               xml:id="uuid_d69162d7-3073-431c-b609-1523bad7c690"/>einrichten könnten. Vielleicht
+            11. 12. 13. oder 4. 5. 6. oder andere Tage die<lb break="no"
+               xml:id="uuid_37a6ca9d-c351-4b47-a1bf-f9ee11163386"/>ser Zeit. </p>
+         <p xml:id="uuid_ee7fa3a3-3ea2-4259-909e-6370e64beb34">
+            <lb xml:id="uuid_25c0eb7d-5718-470b-a1a3-49dd30695910"/><note
+               hand="#D_000104-005-000-hand01">15, 17, 18 / 17, 18, 21</note>
+         </p>
+         <pb xml:id="D_000104-005-000_p002" facs="#D_000104-005-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_0cbc51e3-9f84-498c-ab41-c7b088b11026">
+            <lb xml:id="uuid_ca0aa0ba-67b3-4f9a-9b5b-0314aed367aa"/>Mit der Bitte um eine Zeile
+            Ihrer Zustimmung, und<lb xml:id="uuid_b31e4120-03e7-4a99-9f06-280d057e0b21"
+            />verbindlichsten Empfehlungen</p>
+         <p xml:id="uuid_abb334e0-a0a6-4b04-a5c9-ab13f66028d2"><lb
+               xml:id="uuid_215ee742-5983-47ff-a35d-b84d23f9027b"/>Ihr sehr ergebener<lb
+               xml:id="uuid_1c2ff723-b031-41b3-a8ff-5663e8b493af"/>[<rs type="person"
+               >Unterschrift</rs>] </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-148-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-146-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000196-147-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Felix Gallia an Samek</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000196-147-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/5153</idno>
+            <idno subtype="transkribus" type="ID">400792</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000196" type="collection">Karl
+                    Kraus ca. Arbeiter-Zeitung (Brünn)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000196-147-000-facs001" xml:id="D_000196-147-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000196-147-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#51575">Dr. FELIX GALLIA</persName>
+               <address>
+                  <street corresp="#51759">MASARYKSTRASSE 25/27</street>
+                  <settlement ref="#833">BRÜNN</settlement>
+               </address>
+               <date when-iso="1937-01-21">21. Jänner 1937</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Wohlgeboren Herrn | Dr. Oskar Samek, Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse 18</street>
+                  <settlement ref="#65">Wien XIV.</settlement>
+               </address>
+               <date when-iso="1937-01-22">22. JAN. 1937</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Sonka, Bezirksgerichtsprozess.</note>
+               <note type="dictation">DrG/K</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1937-01-21">21. Januar 1937
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000196-147-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000196-147-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-12T09:52:56.545Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-12T11:11:24.132Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 400792. </change>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-10-31"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-10-31"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-10-31"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-10-31" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000196-147-000-facs001">
+      <surfaceGrp xml:id="D_000196-147-000-facs001-l001">
+         <surface type="recto" xml:id="D_000196-147-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2594148/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000196-147-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2594149/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000196-147-000-facs001-l002">
+         <surface type="recto" xml:id="D_000196-147-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2594150/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000196-147-000-facs001-l002-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2594151/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000196-147-000_p001"
+             facs="#D_000196-147-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_8e1713ef-554b-4dba-b46c-9d203e442827">
+            <lb xml:id="uuid_d21b9cba-5b01-409d-849a-295cdc7db4a3"/>Sehr geehrter <rs ref="#38909" type="person">Herr Kollege</rs>. </p>
+         <p xml:id="uuid_db5f377d-945c-4205-8e59-576c25907fe7">
+            <lb xml:id="uuid_a9784972-db74-4293-9903-fde0768c81f3"/>Es freut mich
+                ausserordentlich, Ihnen<lb xml:id="uuid_54fc69f2-18e2-40eb-968b-070a2217df74"/>mitteilen zu können, dass bei der Berufungsverhandlung das erst<lb break="no" xml:id="uuid_17a36cd8-676f-41d9-96d9-16c0db88ddba"/>gerichtliche <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-142-000"
+                type="work"
+                subtype="legal-doc">Urteil</rs> in jenem Teil, auf den es besonders ankam,<lb xml:id="uuid_806b79da-f224-4f40-838f-e65f704ae964"/>bestätigt wurde. Es handelt
+                sich um den von <rs ref="#25105" type="person">Sonka</rs>
+            <rs ref="#11988" type="person">Herrn K.</rs> ge<lb break="no" xml:id="uuid_f8470022-f39c-48ce-ab0f-48466d6102d6"/>machten Vorwurf, <rs ref="#11988" type="person">Herr K.</rs> habe sich dahin geäussert, dass die
+                    čsl.<lb xml:id="uuid_91987993-7449-4d21-94d9-e4f11131b1ad"/>Nation keinen
+                Anspruch auf Selbständigkeit habe. Allein dieser<lb xml:id="uuid_e3516873-54c3-41c2-8b25-0baa9a8b85e8"/>Teil unserer
+                Bezirksgerichtsklage war ja für den Pressprozess<lb xml:id="uuid_4ed73c04-521e-4ea2-96ac-6cfbef91c1da"/>von Wichtigkeit. </p>
+         <p xml:id="uuid_ef60cbfb-67f1-4f80-ac8b-982f36928531">
+            <lb xml:id="uuid_64e21068-c79b-48dd-ac94-4712917b1f65"/>Was es das weitere inkriminierte
+               Faktum<lb xml:id="uuid_00cb33b8-da23-4a10-ba4c-d735f4f0cdc3"/>anlangte, dass die <rs
+               ref="#41244" type="work" subtype="pmb">Fackel</rs> in zweifacher Auflage, in einer
+            für die<lb xml:id="uuid_b0d626c8-1326-4c87-b286-894f55bc67c6"/>ČSR bestimmten und in
+            einer oesterreichischen erscheine, wurde<lb
+               xml:id="uuid_ba922654-abf8-4ea3-8b54-24ce18c8450f"/>das <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-142-000" type="work"
+               subtype="legal-doc">Urteil</rs> des <rs ref="#36871" type="institution"
+               >Bezirksgerichtes</rs> abgeändert und <rs ref="#25105" type="person">Sonka</rs> in
+               diesem<lb xml:id="uuid_6093d477-8e72-4f5a-9f68-07b4a111be06"/>Punkt freigesprochen.
+            Die Strafe, die das <rs ref="#59702" type="institution">Berufungsgericht</rs>
+               verhängt<lb xml:id="uuid_6d2cc4b2-6cd9-4ad9-9dc8-957599145ded"/>hat war die gleiche
+            wie die des <rs ref="#36871" type="institution">Erstgerichtes</rs>. Auch der
+               Ausspruch<lb xml:id="uuid_7e1553a5-a708-4367-8f8a-82ef32df42ce"/>über die bedingte
+            Verurteilung und die Bewährungsfrist blieben<lb
+               xml:id="uuid_8ee71169-fee9-42c9-806b-4535bb33dba3"/>aufrecht. Die Kosten des
+            Verfahrens beider Instanzen wurden ge<lb break="no"
+               xml:id="uuid_6a5e0811-c3ab-4d64-97ee-26411644e92b"/>genseitig aufgehoben.</p>
+         <p xml:id="uuid_5028c79c-4a05-4dba-a435-ad6bc4200e4b">
+            <lb xml:id="uuid_dd50ce37-588e-46a6-bd49-1839132c246c"/>In der recht ausführlichen
+            Begründung, die<lb xml:id="uuid_f38f3c18-026c-4d6c-b8ab-35fca3177e2d"/>ich Ihnen
+            seinerzeit noch nach Ausfertigung des schriftlichen<lb
+               xml:id="uuid_ec520f17-8ec2-47b4-8e7f-60ef90670a16"/><rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-148-000" type="work"
+               subtype="legal-doc">Urteiles</rs> in deutscher Uebersetzung werde zukommen lassen,
+            hat der<lb xml:id="uuid_a06ba4d7-8789-4603-8af4-1e22eaf51665"/><rs type="person"
+               >Senatsvorsitzende</rs> ausgeführt, dass <rs ref="#25105" type="person">Sonka</rs>
+            der Wahrheitsbeweis<lb xml:id="uuid_9a04a863-549b-497e-b2a8-f98990d91138"/>nicht
+            gelungen sei und dass auch ein Exkulpierungsgrund nach <rs ref="" type="law">§ 6<lb
+                  xml:id="uuid_4ec96c32-07c5-47e0-b049-d9edf4f08d03"/>des Ehrenschutzgesetzes</rs>
+            nicht gegeben wäre. <rs ref="#25105" type="person">Sonka</rs> hat nach Ansicht <pb
+               xml:id="D_000196-147-000_p002" facs="#D_000196-147-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_154be08a-cf8a-41ee-8f53-3044b6a12bf6"/>des <rs ref="#59702"
+               type="institution">Berufungsgerichtes</rs> die Grenze der zulässigen Verteidigung<lb
+               xml:id="uuid_1b650149-cdc8-41f5-ab12-450dc82a19b2"/>überschritten urd es war daher
+            das <rs ref="#59702" type="institution">Berufungsgericht</rs> ebenso wie<lb
+               xml:id="uuid_b9c2ade0-8b89-4914-930d-bbe2e0c52410"/>der <rs ref="#60300"
+               type="person">Erstrichter</rs> der Ansicht, dass die Behauptungen des Punktes IX/<lb
+               xml:id="uuid_717f7d68-e92d-49d7-a2a1-e9e46eea1aed"/>des gegnerischen vorbereitenden
+               <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-061-000" type="work"
+               subtype="legal-doc">Schriftsatzes</rs> aus dem Presseprozess<lb
+               xml:id="uuid_25f9303b-b414-44da-b390-39922f99bc80"/>den Tatbestand nach <rs ref=""
+               type="law">§ 2 des Ehrenschutzgesetzes</rs> herstellen. </p>
+         <p xml:id="uuid_52d9f0c3-ddda-4875-981b-db917272889d">
+            <lb xml:id="uuid_78855471-ab77-4057-8efe-b3cd8fb782d4"/>Von der Anklage, eine
+                Ehrenbeledigung dadurch begangen<lb xml:id="uuid_ac605786-35f9-4f7b-9899-fb7d97b3c637"/>zu haben, dass er behauptet
+                hätte, die <rs ref="#41244" type="work" subtype="pmb">Fackel</rs> erscheine je nach
+                    dem<lb xml:id="uuid_a824b039-fcaa-46da-ac11-0176703f655b"/>Land wo sie
+                verbreitet werde, in verschiedenen Auflagen, wurde <rs ref="#25105" type="person">Sonka</rs>
+            <lb xml:id="uuid_debfdea3-c76a-4cab-a365-38eb6314c7e6"/>deshalb
+                freigesprochen, weil das <rs ref="#59702" type="institution">Berufungsgericht</rs>
+                der Ansicht ist,<lb xml:id="uuid_2c751c79-9f60-4810-a355-a54d5a12538e"/>aus der
+                blossen Bezeichnung „österreichische Ausgabe“ der <rs ref="#41244" type="work" subtype="pmb">Fackel</rs>
+            <lb xml:id="uuid_b9cf54d9-ad32-4bb4-a605-3fe088522b34"/>könne noch nicht geschlossen werden, dass <rs ref="#25105" type="person">Sonka</rs> in dieser Hinsicht<lb xml:id="uuid_8816359a-7193-4e8f-a6d8-1feb7d85614d"/>die ihm zur Last gelegte
+                Ehrenbeleidigung begangen hätte. </p>
+         <p xml:id="uuid_51d81aef-497b-4195-be7a-fef7e4747eee">
+            <lb xml:id="uuid_3f30d04b-c9a8-4187-921a-c70528c24ac7"/>Der freisprechende Teil des <rs
+               type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-148-000">Urteiles</rs> des <rs
+               ref="#59702" type="institution">Berufungsge<lb break="no"
+                  xml:id="uuid_97eec2c5-7c8e-46fd-b476-d6b48403ad70"/>richtes</rs> ist offenkundig
+            falsch, doch bin ich mit dem Ergebnis der<lb
+               xml:id="uuid_498bad7f-1c3c-4a97-a2bd-6e061779dd39"/>Verhandlung trotzdem vollkommen
+            zufrieden, da ich nach einer längeren<lb
+               xml:id="uuid_f6b76d22-ca0a-4d06-9d55-0d5366271f41"/>Unterredung, die ich heute vor
+            der Verhandlung mit einem <rs type="person">Mitglied</rs>
+            <lb xml:id="uuid_8c48ca3c-8297-45a6-8a4e-396af8ae6f05"/>des <rs ref="#59702"
+               type="institution">Senats</rs> hatte, befürchten musste, dass <rs ref="#25105"
+               type="person">Sonka</rs> zur Gänze freigespro<lb break="no"
+               xml:id="uuid_e23057eb-3284-414c-954d-ac159964c8f3"/>chen wird. </p>
+         <p xml:id="uuid_8ae1c04e-7667-4a95-8f68-a657d0dc19a3">
+            <lb xml:id="uuid_fd0f4301-b7c2-480d-881d-22caafae0039"/>Von der Schwierigkeit, die
+                mit Führung eines Prozesses,<lb xml:id="uuid_73a36511-7527-472c-94fb-32183cf8bbe4"/>wie des vorliegenden, bei unserem <rs ref="#59702" type="institution">Berufungssenat</rs> verbunden ist, wer<lb break="no" xml:id="uuid_4c4d99f4-c2ab-4c96-90a8-6981ec378dcb"/>den Sie sich, sehr geehrter
+                    <rs ref="#38909" type="person">Herr Kollege</rs>, vielleicht aus folgendem<lb xml:id="uuid_f65d7341-ff5b-4b1e-9c58-2698b7981f47"/>Vorfall, der sich bei der
+                heutigen Verhandlung zugetragen hat, ein<lb xml:id="uuid_d4bdca9c-5ec8-41a5-acae-53bd1e20c775"/>Bild machen können. Der <rs type="person">Senatsvorsitzende</rs> hat die Stelle aus der<lb xml:id="uuid_819090ba-b6a0-424a-ae10-c1c3f36b5cb9"/><rs ref="https://fackel.oeaw.ac.at/f/912,0u1"
+                type="work"
+                subtype="fackel">Fackel
+                    Nr. 912/915</rs> vorgelesen, aus der <rs ref="#25105" type="person">Sonka</rs>
+                die Wahrheit seiner An<lb break="no" xml:id="uuid_76e8261c-c6f9-40a5-a397-f8dd7ca7fccb"/>würfe ableiten will. Die
+                Verlesung hat er mit den Worten einge<lb break="no" xml:id="uuid_507627e8-c516-40ac-ba6a-0a503733d3f3"/>leitet: „<q type="spoken" who="">Meine Herren, passen Sie jetzt gut auf, ob in der Stelle, die<lb xml:id="uuid_6eff2219-45a1-4034-82bc-f3794c3c71e1"/>ich verlesen werde, das
+                    Wort ‚Čsl. Republik‘ vorkommt. Ich finde es<lb xml:id="uuid_1aa8ff7f-810e-4ad6-adc6-678b7ae6c241"/>nicht. Was ich vorlesen
+                    werde, werden Sie ja ohnedies nicht verstehen, <pb xml:id="D_000196-147-000_p003"
+                   facs="#D_000196-147-000-facs001-l002-p003"
+                   n="3"/>
+               <lb xml:id="uuid_8b4cf865-f00d-43e1-885a-c0b4f7b33589"/>ich bitte
+                    also nur zuzuhören und mir dann zu sagen, ob Sie den<lb xml:id="uuid_f111a8e0-ca66-499d-8573-cb94230b9f6f"/>Ausdruck ‚Čsl. Republik‘
+                    gehört haben.</q>“ </p>
+         <p xml:id="uuid_9a47b0f1-ebda-4e60-a3e1-4aeb182fa74c">
+            <lb xml:id="uuid_408684bd-2dea-4d7c-b6a8-c6a8e54c2d97"/>Dem Kostenrekurs, den ich
+                überreicht habe, wird statt<lb break="no" xml:id="uuid_db1984ee-633d-413d-9382-b6aef6b58a30"/>gegeben werden. Allerdings
+                werde ich versuchen, in der Kosten<lb break="no" xml:id="uuid_8fa074b9-a616-42da-a082-5ed85000de06"/>frage, die sich ja nur auf
+                    <rs ref="#43653" type="person">Schramek</rs> bezieht, mit <rs ref="#59206" type="person">Dr. Ečer</rs> noch zu<lb xml:id="uuid_8067c5dd-3d24-4a9d-a2c0-e3d095719fa2"/>einer Einigung zu gelangen,
+                da ich darum von dem <rs ref="#59702" type="institution">Senat</rs> ersucht<lb xml:id="uuid_50ffeb63-3f81-443f-a3b2-7442af239804"/>wurde. </p>
+         <p xml:id="uuid_7452d2b8-88e4-4309-8dee-c869ac1230ad">
+            <lb xml:id="uuid_8abf9727-54fc-4dee-a88d-308ae5199ac6"/>Ich begrüsse Sie herzlichst<lb
+               xml:id="uuid_8eadacf2-f972-4d3b-9d5c-b44a8728a860"/>als Ihr ganz ergebener<lb
+               xml:id="uuid_0f58dccc-28c9-4139-849d-e8362b4414e5"/><rs ref="#51575" type="person"
+               >Dr. Gallia</rs>
+         </p>
+         <p xml:id="uuid_6f0bb3ca-0fee-47e5-a17f-401b97325d8c">
+            <pb xml:id="D_000196-147-000_p004"
+                facs="#D_000196-147-000-facs001-l002-p004"
+                n="4"/>
+         </p>
+         <p xml:id="uuid_82f8c729-7f60-4abd-987f-4a73a045bb6f">
+            <lb xml:id="uuid_2f2ddf45-70d2-4ad8-930d-1195b1d0d54f"/><note resp="law-firm"
+               type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#29644"
+                  type="institution">Arbeiterzeitung</rs>
+               <lb xml:id="uuid_6e84fbbf-c963-4bf2-99df-6bdf1984ad4f"/>22. JAN. 1937</note></p>
+      </body>
+   </text>
+</TEI>

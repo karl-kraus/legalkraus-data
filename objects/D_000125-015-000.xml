@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-016-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-014-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000125-015-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Kraus</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000125-015-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3380</idno>
+            <idno subtype="transkribus" type="ID">251328</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000125" type="collection">Karl
+                    Kraus ca. Frankfurter Städtisches Schauspielhaus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000125-015-000-facs001" xml:id="D_000125-015-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000125-015-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#50"/>
+               </address>
+               <date when-iso="1929-08-27">27. August 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#11988">Herrn | Karl Kraus</persName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#53562">Le Lavandou (Var)</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-08-27">27. August 1929
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000125-015-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000125-015-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-07-22" who="#JK"/>
+         <change type="typography" when-iso="2021-07-22" who="#JK"/>
+         <change type="references" when-iso="2021-07-22" who="#JK"/>
+         <change type="structure" when-iso="2021-07-22" who="#JK"/>
+         <change resp="#IB" when-iso="2021-04-12T08:44:42.582Z">created by API</change>
+         <change resp="#IB" when-iso="2021-04-12T08:48:54.277Z">Replaced Text with Transcription
+                of Transkribus Document 251328. </change>
+         <change resp="#IB" when-iso="2021-04-12T09:33:15.878Z">Replaced Text with Transcription
+                of Transkribus Document 251328. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000125-015-000-facs001">
+      <surfaceGrp xml:id="D_000125-015-000-facs001-l001">
+         <surface type="recto" xml:id="D_000125-015-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556726/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000125-015-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556727/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000125-015-000_p001"
+             facs="#D_000125-015-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_68b4bac1-7deb-4fd9-b9da-132f246b5882">
+            <lb xml:id="uuid_056bcfce-7e1c-4ea4-a227-3a40c5361798"/>Sehr verehrter <rs ref="#11988" type="person">Herr Kraus</rs>! </p>
+         <p xml:id="uuid_2c9004ae-38b2-4524-aafc-a1cc7d2548d7">
+            <lb xml:id="uuid_384b9184-2f20-4b66-85df-2080fa5731cd"/>Der abgeänderte Vertrag ist
+                noch immer<lb xml:id="uuid_ea0d5080-76d5-4e3b-a412-73657584525e"/>nicht eingelangt.
+                Ich habe daher heute neuerlich die Einsendung<lb xml:id="uuid_c245f46e-85e9-44ea-a308-a62d997a2bab"/>betrieben. </p>
+         <p xml:id="uuid_4fb4ff60-0194-426d-a8a3-4fff07fd2af3">
+            <lb xml:id="uuid_889c227b-b2fb-4854-96c6-8886ba9ad5ce"/>Ich danke bestens für die
+                    <rs type="work">Karte</rs>. Auch ich<lb xml:id="uuid_ec4b0abf-79bd-4956-9dde-79e3ee719c30"/>hoffe dem schrecklichen
+                Wiener Klima bald den Rücken kehren zu<lb xml:id="uuid_69e393c2-9289-47d2-b398-02a438873964"/>können. Ich fahre am 31. ds.
+                nach <rs ref="#55864" type="place">Hinterdux</rs> in die Zillerthaler<lb xml:id="uuid_81af7840-fa61-432a-a428-9da4ff7786aa"/>Alpen. </p>
+         <p xml:id="uuid_89c6ae5d-3851-4ef6-b27c-788a0063f7a7">
+            <lb xml:id="uuid_d1c57edd-e309-47d8-b423-62665c5b7dde"/>Mit ergebenen Grüssen und
+                dem Ausdruck<lb xml:id="uuid_e358352a-39a3-41d9-b959-0be313ef28ec"/>der Verehrung </p>
+         <pb xml:id="D_000125-015-000_p002"
+             facs="#D_000125-015-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_264e8a39-d2db-43b1-bffb-2e9393919577">
+            <lb xml:id="uuid_f354e111-c9b2-4704-b19c-604e79c71cec"/><note resp="law-firm" type="paratext">Betr. <rs ref="#11988" type="person">Kraus</rs> – <rs ref="#34987" type="institution">Frankfurter Städt.<lb xml:id="uuid_9896628d-0d89-46af-87f7-b4cbc73db971"/>Bühnen</rs>
+               <lb xml:id="uuid_38033520-84dc-48a5-9e2f-c3c7dd273534"/>exp. 27.8.1929. </note>
+         </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-061-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-059-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000196-060-000.xml">
+   <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief RA Felix Gallia an Samek</title>
+                <editor ref="#AR">Alexandra Rausch</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History </name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2022</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+                </availability>
+                <idno subtype="legalkraus" type="URL"
+                    >https://id.acdh.oeaw.ac.at/legalkraus/D_000196-060-000.xml</idno>
+                <idno subtype="krausonline" type="URL"
+                    >http://www.kraus.wienbibliothek.at/node/5046</idno>
+                <idno subtype="transkribus" type="ID">400601</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000196" type="collection">Karl
+                    Kraus ca. Arbeiter-Zeitung (Brünn)</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness facs="#D_000196-060-000-facs001" xml:id="D_000196-060-000-wit01"/>
+                </listWit>
+                <msDesc>
+                    <physDesc>
+                        <ab type="materiality">
+                            <objectType source="D_000196-060-000-wit01"
+                                ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T"
+                                >Typoskript</objectType>
+                        </ab>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#51575">Dr. FELIX GALLIA</persName>
+                    <address>
+                        <street corresp="#51759">MASARYKSTRASSE 25/27</street>
+                        <settlement ref="#833">BRÜNN</settlement>
+                    </address>
+                    <date when-iso="1936-02-24">24. Feber 1936</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#38909">Wohlgeboren Herrn | Dr. Oskar Samek, |
+                        Rechtsanwalt</persName>
+                    <address>
+                        <street corresp="#52780">Reindorfgasse 18</street>
+                        <settlement ref="#65">Wien XIV.</settlement>
+                    </address>
+                    <date when-iso="1936-02-25">25. FEB. 1936</date>
+                </correspAction>
+                <noteGrp>
+                    <note type="subject">Kraus – Arbeiterzeitung.</note>
+                    <note type="dictation">Dr.G/b</note>
+                </noteGrp>
+            </correspDesc>
+            <creation>
+                <date subtype="produced" type="sortDate" when-iso="1936-02-24">24. Februar 1936
+               </date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term source="D_000196-060-000-wit01">Brief</term>
+                </keywords>
+                <classCode source="D_000196-060-000-wit01"
+                    scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF"
+                    >D.K.BRF</classCode>
+            </textClass>
+            <handNotes>
+                <handNotes>
+                    <handNote xml:id="D_000196-060-000-hand01" source="#D_000196-060-000-wit01" scribeRef="#11988" medium="pencil" cert="low" resp="#JK"></handNote>
+                </handNotes>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc status="done">
+            <change status="draft" when-iso="2020-10-12T09:52:56.545Z" who="#IB">created by API </change>
+            <change status="draft" when-iso="2020-10-12T11:11:24.132Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 400601. </change>
+            <change status="draft" type="intertexts" when-iso="2021-09-28" who="#AR"/>
+            <change status="draft" type="typography" when-iso="2021-09-28" who="#AR"/>
+            <change status="draft" type="references" when-iso="2021-09-28" who="#AR"/>
+            <change status="draft" type="structure" when-iso="2021-09-28" who="#AR"/>
+        </revisionDesc>
+    </teiHeader>
+   <facsimile xml:id="D_000196-060-000-facs001">
+      <surfaceGrp xml:id="D_000196-060-000-facs001-l001">
+         <surface type="recto" xml:id="D_000196-060-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593616/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000196-060-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593617/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000196-060-000-facs001-l002">
+         <surface type="recto" xml:id="D_000196-060-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593618/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000196-060-000-facs001-l002-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593619/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000196-060-000-facs001-l003">
+         <surface type="recto" xml:id="D_000196-060-000-facs001-l003-p005">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593620/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000196-060-000-facs001-l003-p006">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593621/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000196-060-000_p001"
+             facs="#D_000196-060-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_48f4abab-4b5c-479c-ba39-c7e4e0e2e785">
+            <lb xml:id="uuid_57ec2532-c100-432a-bafb-90c2f2e1d208"/>Sehr geehrter <rs ref="#38909" type="person">Herr Kollege</rs>. </p>
+         <p xml:id="uuid_78103c3e-1202-440e-ac8e-a889ede6b457">
+            <lb xml:id="uuid_8ca8d59c-9fcb-4b39-9288-37c13fd6fefe"/>Ich erhielt Ihr gesch. <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-059-000"
+                type="work"
+                subtype="legal-doc">Schreiben vom 21.<lb xml:id="uuid_d5b569c4-1252-4c1a-830d-b910f3485030"/>d.M.</rs> Dass Herr <rs ref="#11988" type="person">Kraus</rs> die Brünner Presse liest, habe ich
+                    nicht<lb xml:id="uuid_9e6a2c69-a8fe-436c-ae96-4db3b1b9b5b9"/>vermutet, jedoch
+                geglaubt, dass er das <rs ref="#41507" type="work" subtype="pmb">Prager
+                    Tagblatt</rs> durch<lb break="no" xml:id="uuid_4098f078-674f-4d30-acb4-75fcd0f92987"/>zusehen pflegt, in welchem
+                auch ein ausführlicher <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-074-000"
+                type="work"
+                subtype="legal-doc">Bericht</rs> über<lb xml:id="uuid_0d66ca5f-4b4d-43c9-b5c2-89b786f3b905"/>die Verhandlung
+                veröffentlicht wurde, den ich beilege, da ich<lb xml:id="uuid_147e6b71-1d5c-4303-a0b7-6c2b5621e103"/>annehme, dass er sowohl Sie,
+                wie Herrn <rs ref="#11988" type="person">Kraus</rs> interessiert. </p>
+         <p xml:id="uuid_3726ffc5-34ee-44bc-9dea-65625feee8c1">
+            <lb xml:id="uuid_5db7ec08-3e9f-42ad-a054-f3da2bc0e08f"/>Ferner übermittle ich Ihnen
+                die <rs ref="#D_000196-061-000" type="work" subtype="legal-doc">Uebersetzung<lb xml:id="uuid_5dbc731a-3b65-424d-889d-1f4812d1687a"/>des von der Gegenseite
+                    überreichten Antrages</rs> mit der Bitte, mir<lb xml:id="uuid_d4d17f84-2f6c-40aa-bfbc-d7b2a770fe2d"/>sobald als möglich das
+                Material zur Beantwortung des Schrift<lb break="no" xml:id="uuid_07580e77-7b51-4fae-aad7-5b5fb7982f61"/>satzes der Angeklagten zur
+                Verfügung stellen zu wollen. </p>
+         <p xml:id="uuid_ddea4c1d-d580-4742-b0da-cac3bec5b6ee">
+                <lb xml:id="uuid_197cfec8-a9b6-410d-a9da-63444123251c"/>Wenn ich mir einige
+                Bemerkungen zu den Behaup<lb break="no"
+                    xml:id="uuid_089fe5b2-8484-4bc8-9404-c4db6921bb07"/>tungen der Angeklagten
+                gestatten darf, wären es folgende:<lb
+                    xml:id="uuid_33002274-e3bb-41f4-94e0-1441ea406fe0"/>Das Zitat aus der <rs
+                    ref="https://fackel.oeaw.ac.at/f/387,0u1" type="work" subtype="fackel"
+                    >Fackelnummer vom 17. November 1913</rs> ist in der<lb
+                    xml:id="uuid_81d18f74-1a02-43db-a997-c7afb6fff884"/>Wiedergabe richtig, doch
+                wird ihm zweifellos von den Angeklagten<lb
+                    xml:id="uuid_cba67ad3-161d-4ad3-a045-c3898c16eb1b"/>eine Tendenz unterschoben,
+                die mit den unzähligen antimilitari<lb break="no"
+                    xml:id="uuid_5cc8b599-a03b-44b7-be93-3b8a6c365b17"/>stischen Aeusserungen
+                unseres <rs ref="#11988" type="person">Mandanten</rs> in keiner Weise ver<lb
+                    break="no" xml:id="uuid_2ad062a9-cb95-42e8-99a6-9f8236bb811b"/>einbar ist und
+                durch diese Aeusserungen hundertmal widerlegt<lb
+                    xml:id="uuid_673c71d8-6ee4-4233-848a-91f4a07e1e2d"/>wurde. Ich habe den
+                Eindruck, dass die von den Gegnern aus der<lb
+                    xml:id="uuid_e6b7fe08-9d35-4cf1-be86-cb01943c32e8"/><rs
+                    ref="https://fackel.oeaw.ac.at/f/387,0u1" type="work" subtype="fackel">Fackel
+                    Nr. 387/8</rs> zitierte Stelle eine rein aesthetische Wertung<lb
+                    xml:id="uuid_166488d0-eaed-4e44-8cd4-db06d295970d"/>darstellen sollte,
+                keineswegs jedoch eine politische Stellung-<pb xml:id="D_000196-060-000_p002"
+                    facs="#D_000196-060-000-facs001-l001-p002" n="2"/>
+                <lb xml:id="uuid_96fed2a2-f515-4be8-9d5b-52b89c9f5c5d"/>nahme unseres <rs
+                    ref="#11988" type="person">Klienten</rs>. </p>
+         <p xml:id="uuid_32846355-2b08-4bfb-b091-bcb442e90f26">
+                <lb xml:id="uuid_2846cb86-15f5-4838-aea2-48217894949e"/><note type="marginal"
+                    hand="#D_000196-060-000-hand01" rend="marginLeft">x</note>Das Zitat aus der <rs
+                    ref="https://fackel.oeaw.ac.at/f/400,0u1" type="work" subtype="fackel">Fackel
+                    Nr. 400–403</rs> finde ich auf <rs ref="https://fackel.oeaw.ac.at/f/400,090"
+                    type="work" subtype="fackel">Seite<lb
+                        xml:id="uuid_e642a9aa-95b0-45df-8cb0-0848839bf3ad"/>90 dieser Fackel</rs>
+                nicht. Das weitere Zitat aus der gleichen <rs
+                    ref="https://fackel.oeaw.ac.at/f/400,0u1" type="work" subtype="fackel">Fackel<lb
+                        break="no" xml:id="uuid_18441653-712b-49fd-a0a0-2551ba960bec"/>nummer</rs>
+                haben die Gegner offenbar nicht verstanden. </p>
+         <p xml:id="uuid_971bbb0f-2a95-44da-9c86-18c1b2cab0b9">
+                <lb xml:id="uuid_4e2e164c-da2a-41bb-a957-0fae2a5676f6"/>Von dem Zitat aus der <rs
+                    ref="https://fackel.oeaw.ac.at/f/404,0u1" type="work" subtype="fackel">Fackel
+                    vom 5. Dezember 1914</rs> zu behaup<lb break="no"
+                    xml:id="uuid_a8dcaafe-b202-42ca-8747-0a7cd76e33e6"/>ten, es sei eine Art
+                Verherrlichung des Manifests <rs ref="#2513" type="person">Kaiser Franz<lb
+                        xml:id="uuid_9ba62190-f98e-4328-b2ab-f0167f017cb9"/>Josefs</rs> gewesen, die
+                ein Gutheissen des Krieges in sich schlösse,<lb
+                    xml:id="uuid_efc73698-a7d5-4789-8f1f-43ea1e93bb50"/>ist eine offenkundige
+                Missdeutung der Ansichten des <rs ref="#11988" type="person">Klienten</rs>,<lb
+                    xml:id="uuid_07dc3b5a-7631-4b9c-b5fc-75f341392034"/>die z.B. aus den „<rs
+                    ref="#32544" type="work" subtype="pmb">letzten Tagen der Menschheit</rs>“, einem
+                    Werk<lb xml:id="uuid_65b603bc-5ca7-40d9-89eb-4d8bd720644d"/>des <rs ref="#11988"
+                    type="person">Mandanten</rs>, das ja bekanntlich schon im Kriege verfasst
+                    wurde,<lb xml:id="uuid_42665065-4a72-44f0-adae-312f9f91ba60"/>klar hervorgehen. </p>
+         <p xml:id="uuid_051f5780-01c8-48e6-b97b-feb5c59984b7">
+            <lb xml:id="uuid_3249f0fc-470b-41f5-bea6-14002f16bf21"/>Auf welche Umstände es
+                zurückzuführen ist, dass Herr <rs ref="#11988" type="person">Kraus</rs>
+            <lb xml:id="uuid_746d3f60-3544-40a8-86d3-c1b3dae42b51"/>im Krieg einen Pass bekam,
+                weiss ich nicht. </p>
+         <p xml:id="uuid_fc794027-3dde-4029-a39d-bced1068bd4e">
+            <lb xml:id="uuid_a9b46105-609b-4b1c-9979-b4e35e7236bd"/>Die Stellung des Herrn <rs ref="#11988" type="person">Kraus</rs> zum Sozialismus ist, soweit<lb xml:id="uuid_664d6f67-5fae-40e1-81a6-4c92d34c1a48"/>ich einen Ueberblick über
+                sein Werk habe, unverändert geblieben.<lb xml:id="uuid_eebbb8b5-80ae-4ff8-a56a-9cd0e9aea6cc"/>Die Angeklagten werden in
+                dieser Beziehung zweifellos noch wieder<lb break="no" xml:id="uuid_2ea7f6ee-3e9b-45f7-b8b9-975d0410a25e"/>holt versuchen – den ersten
+                derartigen Versuch stellt ihr Schrift<lb break="no" xml:id="uuid_e854cfeb-2422-40ee-a11d-5e701bfaf2c2"/>satz dar – das <rs ref="#36818" type="institution">Gericht</rs> in dieser Frage zu verwirren, in
+                dem sie<lb xml:id="uuid_4cc38829-9e20-450c-976d-fab322ecf9bb"/>konsequent die
+                Stellung des <rs ref="#11988" type="person">Mandanten</rs> zum Sozialismus mit
+                    seiner<lb xml:id="uuid_ed9106cf-80c1-4ea2-9a70-9c7e40d5ce6e"/>Stellung zu
+                einzelnen sozialdemokratischen Führern vermengen wer<lb break="no" xml:id="uuid_028fc321-ede0-4b67-a930-d302f16ca4be"/>den. Es wird unbedingt
+                erforderlich sein, hier, wie auch in an<lb break="no" xml:id="uuid_75a744b6-a101-4884-915b-df3fd51c12d9"/>dern Fragen, die im Prozess
+                zur Diskussion stehen, vollständige<lb xml:id="uuid_d4d78a41-ee54-4166-ba54-8ba806e32259"/>Klarheit zu schaffen. </p>
+         <p xml:id="uuid_a64b6b76-4e77-4f6c-84f6-23665a5838cf">
+            <lb xml:id="uuid_ad2731c7-cca5-4127-9891-13b81db22b56"/>Die Zitate aus der <rs ref="https://fackel.oeaw.ac.at/f/766,0u1"
+                type="work"
+                subtype="fackel">Fackel
+                    vom Oktober 1927</rs> hätten die Gegner<lb xml:id="uuid_d69300b7-1145-41cd-90cb-24a76a4c789b"/>wohl besser weggelassen.
+                Zeigt doch gerade dieses Heft der Fackel <pb xml:id="D_000196-060-000_p003"
+                facs="#D_000196-060-000-facs001-l002-p003"
+                n="3"/>
+            <lb xml:id="uuid_aa024eaf-3f0b-4f4a-b55d-ccf86380ac7c"/>„<rs ref="https://fackel.oeaw.ac.at/f/766,0u1"
+                type="work"
+                subtype="fackel">Der Hort
+                    der Republik</rs>“, wie ungeheuer energisch, unabhängig<lb xml:id="uuid_79622bb2-f0bf-42bc-9c20-54d0dc670a86"/>und mutig Herr <rs ref="#11988" type="person">Kraus</rs> damals den Kampf gegen <rs ref="#24444" type="person">Schober</rs> geführt hat,<lb xml:id="uuid_d21afeac-7fc8-4c47-ae97-6377bbc3e8d7"/>einen Kampf, in welchem Herr
+                    <rs ref="#11988" type="person">Kraus</rs> sich nicht fürchtete, das<lb xml:id="uuid_ad4d46d4-8391-4916-913e-bb343dbc958d"/>berühmte Plakat vom 17.
+                September 1927 in <rs ref="#50" type="place">Wien</rs> überall öffentlich<lb xml:id="uuid_9cc52184-75af-434b-a38d-44eb03616ab7"/>anschlagen zu lassen. Wenn
+                Beweise über die Unerschrockenheit un<lb break="no" xml:id="uuid_fd2ecc01-9901-4b48-930e-140676453410"/>seres <rs ref="#11988" type="person">Klienten</rs> notwendig sind, dann ist gewiss der Kampf des
+                    Herrn<lb xml:id="uuid_d9dfd5a9-b1af-40ef-a039-9aabd606acfb"/><rs ref="#11988" type="person">Kraus</rs> gegen den Polizeigewaltigen von <rs ref="#50" type="place">Wien</rs> einer der schlagendsten<lb xml:id="uuid_130f7277-4ae7-4ab1-9366-5583cc17e73e"/>und besten. </p>
+         <p xml:id="uuid_79f4602c-b9a9-4e24-a447-1f7780b7c8e7">
+            <lb xml:id="uuid_2cd374e0-a5e7-44d4-880a-2eddd2f9776a"/>Die einzelnen Ausdrücke,
+                welche die Gegner aus der <rs ref="https://fackel.oeaw.ac.at/f/890,0u1"
+                type="work"
+                subtype="fackel">Juli<lb break="no" xml:id="uuid_841943c3-6cb3-49da-8799-72ba1f7ec188"/>fackel 1934</rs>
+                hervorheben, besagen gar nichts darüber, wie sich<lb xml:id="uuid_3c91e925-29de-472d-9f41-8811a8240c16"/>Herr <rs ref="#11988" type="person">Kraus</rs> zur Demokratie stellt. Aus keiner einzigen der
+                    zahlrei<lb break="no" xml:id="uuid_127e668e-cb3a-4c65-9289-79b11097e176"/>chen
+                von den Gegnern herangezogenen Stellen dieser <rs ref="https://fackel.oeaw.ac.at/f/890,0u1"
+                type="work"
+                subtype="fackel">Fackel</rs> kann<lb xml:id="uuid_699c5a16-ea34-49e4-9bee-fbcd807a0727"/>eine
+                Verurteilung der Demokratie herausgelesen werden. Mit dem<lb break="no" xml:id="uuid_ed42f2c7-0ad0-4929-9010-d4a0148a13a3"/>selben Recht, mit dem die
+                Angeklagten die zitierten Stellen aus<lb xml:id="uuid_0ee167a7-acea-415d-a55d-aaf227346443"/>der <rs ref="https://fackel.oeaw.ac.at/f/890,0u1"
+                type="work"
+                subtype="fackel">Fackel</rs> als Beleg einer angeblichen Beschimpfung der Demokratie<lb xml:id="uuid_ac4bb00e-08c0-4472-ba02-ea483b3b0b05"/>heranziehen wollen, könnte
+                jede andere politische Richtung be<lb break="no" xml:id="uuid_4d07f5b5-47ec-4357-86b7-d6d6307dbb81"/>haupten, sie sei durch diese
+                Stellen beschimpft worden. </p>
+         <p xml:id="uuid_bd5decec-c518-4d67-a18a-5b3a920df73b">
+            <lb xml:id="uuid_79eeb4d6-0247-4dfb-9ae7-5291aad42f1b"/>Das Lob, das in der <rs ref="https://fackel.oeaw.ac.at/f/909,0u1"
+                type="work"
+                subtype="fackel">Fackel
+                    Nr. 909–911</rs> dem Obersten<lb xml:id="uuid_b884c129-5353-420d-8af9-fb90de702004"/><rs ref="#37263" type="person">Adam</rs> gezollt wurde, bezog sich, soweit mir bekannt ist, auf
+                    seine<lb xml:id="uuid_79ef91dd-ce1a-43b9-b67c-907dbe579b8f"/>literarische resp.
+                oratorische Begabung, ohne jeden politischen <pb xml:id="D_000196-060-000_p004"
+                facs="#D_000196-060-000-facs001-l002-p004"
+                n="4"/>
+            <lb xml:id="uuid_a178cb0f-a676-4d1b-8e05-e9ee38d95b72"/>Hintergrund. </p>
+         <p xml:id="uuid_0607f3e2-18e2-433f-b04a-e6c8c7499916">
+                <lb xml:id="uuid_cb43f094-5cf7-47bc-ad2f-7add748e644d"/>Zu den Behauptungen der
+                Gegner über die angeblichen Angriffe<lb
+                    xml:id="uuid_b5ff71b4-bc11-4ae1-a17f-e0d1c4726e1f"/>auf čsl. Staatsmänner werden
+                wir ausführlich Stellung nehmen müs<lb break="no"
+                    xml:id="uuid_c6bf92d0-2cb3-48a2-9243-c95715de849b"/>sen. Das <rs ref="#36818"
+                    type="institution">Prozessgericht</rs> hat, wie ich Ihnen schon mitteilte,
+                    die<lb xml:id="uuid_b4116941-5fc1-4c51-bded-94b30e95deec"/><note type="marginal"
+                    hand="#D_000196-060-000-hand01" rend="marginLeft">x</note>Tendenz der
+                Angeklagten sofort erkannt, wir müssen jedoch damit<lb
+                    xml:id="uuid_55eb886d-d19e-4145-95a6-258bf5f5b2dd"/>rechnen, dass die Sache vors
+                    <rs ref="#57672" type="institution">Oberste Gericht</rs> gelangt, das, wie<lb
+                    xml:id="uuid_0656681a-6fc3-4690-b965-f5d0c785cd02"/>Sie, sehr geehrter <rs
+                    ref="#38909" type="person">Herr Kollege</rs>, vielleicht wissen werden, in<lb
+                    xml:id="uuid_f13938da-30ad-46b0-9850-1cfb7a035d1a"/>Fragen nationaler Art recht
+                empfindlich zu sein pflegt. – </p>
+         <p xml:id="uuid_e54b36b7-e815-456a-90e9-44047bd277ed">
+            <lb xml:id="uuid_ca336a10-675f-40cd-b08d-cea54a82160b"/>Der <rs ref="#59239" type="institution">Pressenat</rs> hat die Zeugen <rs ref="#38617" type="person">Kornfeld</rs>, <rs ref="#10313" type="person">Urzidil</rs> und <rs ref="#43616" type="person">Šrom</rs>
+            <lb xml:id="uuid_249024e7-5ead-45f5-a8c0-2b834080bf12"/>zu jenen Punkten des gegnerischen Beweisantrages zugelassen, zu<lb xml:id="uuid_f20efeae-ac36-40b8-a1cd-ca11987956d5"/>welchen sie geführt wurden,
+                mit Ausnahme des Punktes 2./, über<lb xml:id="uuid_e9589d51-69fd-4e8f-9e40-f2c96cf9ec4e"/>welchen Beweise nicht
+                zugelassen worden sind. </p>
+         <p xml:id="uuid_05eed403-9e2d-4bad-9b5d-74fa31809488">
+                <lb xml:id="uuid_4d32e1f7-6acf-47fd-84a0-34d79dfe335b"/>Da ich aus einem Bericht
+                Herrn <rs ref="#43593" type="person">Dr. Turnovskys</rs> weiss, wie<lb
+                    xml:id="uuid_9e2b1377-7bd2-4d97-9b3e-7f91c0715519"/><note type="marginal"
+                    hand="#D_000196-060-000-hand01" rend="marginLeft">x</note>eigentümlich die
+                Herren Dr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38144" type="person">Emil
+                    Franzel</rs> und <rs ref="#38005" type="person">Dr. Brügel</rs> in dem<lb
+                    xml:id="uuid_132c62f3-0981-41e9-a31b-feed1e0b9a3c"/><rs
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000193" type="work"
+                    subtype="legal-doc">Prager Prozess</rs> ausgesagt haben, habe ich, um auf Umfang
+                und Pro<lb break="no" xml:id="uuid_69ae3a5a-ba66-4710-b970-ca2e5d2aa33a"
+                />tokollierung der Aussagen der hiesigen Zeugen eine entsprechende<lb
+                    xml:id="uuid_5b5a7d80-176c-43ee-8888-75f0cedd30d9"/>Ingerenz nehmen zu können,
+                bei der Hauptverhandlung beantragt,<lb
+                    xml:id="uuid_0df822e9-bf13-40fe-a9b5-a7643d948ae9"/>die im <rs
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000196" type="work"
+                    subtype="legal-doc">Brünner Verfahren</rs> zu hörenden Zeugen vor dem <rs
+                    ref="#36818" type="institution">Prozessgericht</rs>
+                <lb xml:id="uuid_3fd45c0e-16d2-47cf-8a54-85c9f489a45e"/>einzuvernehmen. Dem Antrag
+                wurde nicht Folge gegeben, ich habe<lb
+                    xml:id="uuid_a3cde005-8e18-4cb7-beae-eaedce2c9238"/><note type="marginal"
+                    hand="#D_000196-060-000-hand01" rend="marginLeft">x</note>mir die
+                Nichtigkeitsbeschwerde vorbehalten. </p>
+         <p xml:id="uuid_95124eec-8591-4fcd-aca6-5043f22b3bda">
+                <lb xml:id="uuid_8d029a64-e355-47aa-b8ce-c38d3a1d0b93"/>Weiters habe ich über die
+                Hauptverhandlung noch zu berich<lb break="no"
+                    xml:id="uuid_40b0c2cf-3783-489c-b5dc-e7e496d5c494"/>ten, dass der <rs
+                    ref="#59206" type="person">Verteidiger</rs> erklärte, der Angeklagte <rs
+                    ref="#43653" type="person">Schramek</rs>
+                <lb xml:id="uuid_4194f0e7-efb5-4a28-8b3b-9fe82f8e5dd0"/>trete den Wahrheitsbeweis
+                hinsichtlich des <rs ref="#25105" type="person">Sonka</rs>schen <rs ref="#58916"
+                    type="work" subtype="pmb">Gedichtes</rs><lb
+                    xml:id="uuid_777614bf-8f0d-4104-ba7a-df7d09805232"/>nicht an, sondern nur
+                bezüglich des Artikels „<rs ref="#58907" type="work" subtype="pmb">Der Racheakt
+                        der<lb xml:id="uuid_02ea2bf1-68d1-4627-9c32-6f774e730656"/>Polizei gegen
+                    Braunthal</rs>“. <pb xml:id="D_000196-060-000_p005"
+                    facs="#D_000196-060-000-facs001-l003-p005" n="5"/></p>
+         <p xml:id="uuid_5e6a2e83-cbb8-4019-be0d-bd24c5aa404c">
+                <lb xml:id="uuid_500d637e-5b9e-407c-aef2-d50166742484"/>Eine Abschrift des
+                Protokolles der Hauptverhandlung,<lb
+                    xml:id="uuid_14042344-3d4e-4a37-8cf4-de7a65b395cc"/>das bis nun von dem <rs
+                    type="person">Schriftführer</rs> nicht fertiggestellt wurde, werde<lb
+                    xml:id="uuid_389aa68f-0493-420f-bd12-52d961c3bb04"/><note type="marginal"
+                    hand="#D_000196-060-000-hand01" rend="marginLeft">x</note>ich gelegentlich
+                besorgen lassen, und falls Sie oder Herr <rs ref="#11988" type="person">Kraus</rs>
+                <lb xml:id="uuid_bc5ee185-fa1a-423c-85c5-5c61f98791d8"/>es wünschen sollten, für Sie
+                übersetzen. </p>
+         <p xml:id="uuid_180947f5-33a2-4a1a-84b7-3c52fc8b7a98">
+            <lb xml:id="uuid_43839241-c564-4f7e-8077-46c1dfb9c927"/>Zu weiteren Aufklärungen
+                stehe ich natürlich jederzeit<lb xml:id="uuid_d278301d-9d2f-49b2-90bd-ddddc067723a"/>zur Verfügung und zeichne </p>
+         <p xml:id="uuid_d4988089-f35f-4f1a-bb87-91f8eb24c934">
+                <lb xml:id="uuid_18845804-9d10-47ef-b1a7-b6cfe6f31ba7"/>in kollegialer
+                    Hochachtung<lb xml:id="uuid_ca936328-2d59-4c24-9923-00a4a13cd0f9"/>Ihr
+                    ergebener<lb xml:id="uuid_274cefb9-d8f7-4a19-a34f-7fef15bc5597"/><rs
+                    ref="#51575" type="person">Dr. Gallia</rs>. </p>
+         <p xml:id="uuid_d3704c05-3c90-4d25-b56b-79920f4c6926">
+                <lb xml:id="uuid_482861e5-4518-451e-abc7-62d63df6fa5a"/>recom.<lb
+                    xml:id="uuid_8a3adf31-e0ff-4c1f-847c-5304c2be7a37"/>2 <rs
+                        ref="#D_000196-061-000" type="work" subtype="legal-doc">Beilagen</rs>
+            </p>
+         <p xml:id="uuid_70967175-2907-49f6-a9ae-a5ec28c5d580">
+            <pb xml:id="D_000196-060-000_p006"
+                facs="#D_000196-060-000-facs001-l003-p006"
+                n="6"/>
+         </p>
+         <p xml:id="uuid_ca045562-fb49-4c22-a3aa-58a7451e8d6b">
+                <lb xml:id="uuid_ad2ad0d4-63b7-4ac7-9676-3363b5079a91"/><note resp="law-firm"
+                    type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#29644"
+                        type="institution">Arb. Ztg.</rs><lb
+                        xml:id="uuid_32c5cf76-e501-46a1-89a0-5d79330b1305"/>25. FEB. 1936</note></p>
+      </body>
+   </text>
+</TEI>

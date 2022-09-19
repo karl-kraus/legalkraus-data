@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000189-086-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-085-000.xml"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-087-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Johann Turnovsky</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000189-086-000.xml </idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4640 </idno>
+            <idno type="ID" subtype="transkribus">367317</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000189">Karl
+                    Kraus ca. Gegen-Angriff</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000189-086-000-wit01" facs="#D_000189-086-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000189-086-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#52780"/>
+                  <settlement ref="#64"/>
+               </address>
+               <date when-iso="1935-01-09">9. Januar 1935</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#43593">Herrn | Dr. Johann Turnovsky, | Advocat</persName>
+               <address>
+                  <street corresp="#51737">Vodickova 33</street>
+                  <settlement ref="#652">Prag II.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – | Gegenangriff</note>
+               <note type="dictation">Dr.S/Fa</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date type="sortDate" when-iso="1935-01-09" subtype="produced">9. Januar 1935</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000189-086-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000189-086-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-07-12" who="#JK"/>
+         <change type="typography" when-iso="2021-07-12" who="#JK"/>
+         <change type="references" when-iso="2021-07-12" who="#JK"/>
+         <change type="structure" when-iso="2021-07-12" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-02" who="#JK"/>
+         <change when-iso="2020-10-11T08:21:20.32Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-11T12:19:12.647Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 367317. </change>
+         <change when-iso="2020-10-11T14:04:54.519Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 367317. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000189-086-000-facs001">
+      <surfaceGrp xml:id="D_000189-086-000-facs001-l001">
+         <surface xml:id="D_000189-086-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544813/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000189-086-000-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544814/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544815/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544816/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000189-086-000_p001"
+             facs="#D_000189-086-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_60b7c98b-cd3c-41f6-b427-a366aeae9a4e">
+            <lb xml:id="uuid_7088ab7d-30ee-4a01-b5a2-684e24081e2a"/>Sehr geehrter <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/43593">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_25a0cfea-da9b-4bc5-a00c-d4172800adb9">
+            <lb xml:id="uuid_ec34695b-4cfb-4450-b6a7-805ce3bad062"/>In der Anlage
+                    <del>über</del>sende ich Ihnen mit<lb xml:id="uuid_a820b18c-7780-4ab5-a385-33dec2d1ac57"/>bestem Dank die Uebersetzung
+                des vorbereitenden Schriftsatzes<lb xml:id="uuid_4c55c972-92bd-4527-84d0-1ce21715042e"/>der Frau Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/43657">Marie
+                    Schnierer</rs> und den von Ihnen verfassten Ent<lb xml:id="uuid_6afe3ff1-561d-4fbf-b1e7-1476f909966c" break="no"/>wurf zum
+                vorbereitenden Schriftsatz zurück. Leider haben Sie<lb xml:id="uuid_3938e3a6-d8bc-4491-94d8-ce2dad5b377f"/>unsere Vereinbarung
+                vergessen, alles in doppelter Ausfertigung<lb xml:id="uuid_9f3128b4-ba28-4894-a30f-f2d39f559b93"/>einzusenden, weshalb ich Sie
+                bitten muss, wenn Sie die beiden<lb xml:id="uuid_ae0ce970-7c8b-46f3-b42b-7d473112c4e9"/>Stücke nicht mehr brauchen,
+                sie mir zum Anschluss an meine<lb xml:id="uuid_da049190-1561-4952-8929-cef5429be434"/>Akten wieder zu senden. Zu dem <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-085-000"
+                subtype="legal-doc">Entwurf zum vorbereitenden<lb xml:id="uuid_de4933f1-194e-4f21-aa88-9c2853ea6c93"/>Schriftsatz</rs> möchte
+                ich das folgende bemerken: </p>
+         <p xml:id="uuid_5ef7fce5-7dd2-4df3-8440-c7ddb86a5c08">
+            <lb xml:id="uuid_da4491ee-7bd5-445a-947b-89b0e60f7e9c"/>Es ist nicht unrichtig, dass
+                „im Ramsch verkaufen“<lb xml:id="uuid_82b76acc-c4f8-475a-a0a4-3777e6982640"/>so viel
+                bedeutet, als im „Bausch und Bogen“ oder „im Ausver<lb xml:id="uuid_5e721daa-8feb-40df-bfe5-5e7a3a62d94f" break="no"/>kauf“ verkaufen.
+                Das <rs type="work" ref="#55240" subtype="pmb">Handwörterbuch der deutschen
+                    Sprache</rs> von<lb xml:id="uuid_2d4b80c3-c99c-4977-9863-628d3ef9c514"/><rs type="person" ref="#55254">F.A. Weber</rs> gibt diese Deutung des Ausdruckes.
+                Daneben aber auch<lb xml:id="uuid_c53da9ca-0236-4345-b047-bb45482172a8"/>noch die
+                Deutung „Ausschussware“ und das ist das Wesentlichste<lb xml:id="uuid_2753f457-c3a2-4540-9658-c1804eb91ce8"/>an der Sache und speziell im
+                Buchhandel wird darunter ein Ver<lb xml:id="uuid_43b1f328-6537-4191-a45a-2fe3c4ae274d" break="no"/>kauf zu
+                billigeren Preisen verstanden, mit denen sonst nicht<lb xml:id="uuid_c7642f61-bd6f-44f8-8761-4274e21a636e"/>anbringbare Restbestände
+                eines Werkes noch an den Mann gebracht<lb xml:id="uuid_a28e5a70-1f06-4297-92d9-4578f262eb16"/>werden sollen. Es ist also
+                ganz richtig, dass die Wendung „im<lb xml:id="uuid_e228ff14-60fb-44ea-a542-3d3a72d4c7eb"/>Ramsch verkaufen“ die
+                Bedeutung hat, dass es sich um keinen<lb xml:id="uuid_023c6716-9556-40f5-80d3-dc25418e5134"/>regulären Verkauf handelt,
+                sondern um einen Verkauf, bei welchem<lb xml:id="uuid_47b43ab9-e0ae-4956-8531-99ecbd701d9b"/>eine Ware, um überhaupt
+                verkauft werden zu können, zu reduzier<lb xml:id="uuid_cd0af636-aae7-4497-9263-00db0790ed26" break="no"/>ten Preisen
+                losgeschlagen wird, und zwar der gesamte Restbestand. </p>
+         <pb xml:id="D_000189-086-000_p002"
+             facs="#D_000189-086-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_55d7d820-2d67-4e84-b5c8-210f6d66c4bd">
+            <lb xml:id="uuid_bb181509-7e40-4739-b114-ccbef104d628"/>Ich bitte Sie, dies in dem
+                Schriftsatz zu<lb xml:id="uuid_ddd70f3a-01d0-4d61-aaa9-6152174cbda9"/>berücksichtigen. Ansonsten ist er ausgezeichnet und ich hoffe,<lb xml:id="uuid_72db621c-3352-4e5a-bf36-fc1c28145044"/>dass er seine Wirkung tun
+                wird. </p>
+         <p xml:id="uuid_a14251ba-d580-44dc-a078-ed21f981a4bd">
+            <lb xml:id="uuid_eb60a805-00e5-45c4-b892-c5cbcb6b27eb"/>Für die freundlich
+                eingesendeten Artikel<lb xml:id="uuid_0ae8e76b-8361-4ec4-9f9d-fa5daefa46f3"/>von <rs type="person" ref="#43666">Willy Schlamm</rs> lässt <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herr K.</rs> herzlichst danken
+                und Sie bit<lb xml:id="uuid_7a3f9fd2-b629-4616-888c-585e5be21018" break="no"/>ten,
+                wenn Sie in Zukunft wieder die Liebenswürdigkeit hätten,<lb xml:id="uuid_2d4fb372-af45-4d19-b5f6-c5059bf118ac"/>etwas einzusenden, die Ihnen
+                bemerkenswert erscheinenden Stel<lb xml:id="uuid_9f6212b8-4c6c-4cce-a02e-0267b750c98c" break="no"/>len anzuzeichnen.
+                Die <rs type="work" ref="#41564" subtype="pmb">Zeitschrift</rs> ist in <rs type="place" ref="#50">Wien</rs> zwar verboten,<lb xml:id="uuid_a9dcf4a3-78f1-4fba-affb-8a129bde91d4"/>doch kann die Uebersendung
+                für uns keine Unannehmlichkeit be<lb xml:id="uuid_0186cb7a-72a1-43c5-a656-0e73edfec801" break="no"/>deuten, weil sie
+                nicht zur Weiterverbreitung dienen soll, son<lb xml:id="uuid_3aca8b74-56ef-49d9-9a71-a36dba1dd254" break="no"/>dern zur
+                Verfolgung von Ansprüchen, eventuell für Privatklagen. </p>
+         <p xml:id="uuid_a0884422-98e4-45f1-ab68-81171e9f8e3e">
+            <lb xml:id="uuid_331dae5a-2fe4-4be3-93b4-41c1177dd402"/>Der Gesundheitszustand des
+                    <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn K.</rs>
+                    hat<lb xml:id="uuid_3d0cfddf-5c19-4f86-bc22-e196a17b84d3"/>sich soweit
+                gebessert, dass er bereits heute die erste Vor<lb xml:id="uuid_ea455ac1-970e-485b-b7e2-fa5d31ebe22c" break="no"/>lesung (<rs type="work" ref="#54326" subtype="pmb">Blaubart</rs>) abhalten wird. Vollständig
+                gesund ist er<lb xml:id="uuid_5aeb18f9-9763-4a22-8447-814a8be21694"/>noch nicht. </p>
+         <p xml:id="uuid_c475d337-5ac5-4f3e-a521-e5335c0e0c83">
+            <lb xml:id="uuid_841d3392-b6ee-433a-ab7b-52b60f2c7bd3"/>Auch ich habe mich über die
+                Stunden des<lb xml:id="uuid_a565dc42-ffb4-4aff-8bea-65cb70e9b8b8"/>Beisammenseins
+                sehr gefreut und hoffe, Sie bald in <rs type="place" ref="#652">Prag</rs> auf<lb xml:id="uuid_63ebef2d-badc-4bfd-9871-00f8d3361d65" break="no"/>suchen zu können. </p>
+         <p xml:id="uuid_473c8203-284d-4304-9dde-3afff59fb988">
+            <lb xml:id="uuid_9b8392c1-a132-43ac-a176-231064bdc67f"/>Indem ich Sie herzlichst
+                grüsse, bin ich<lb xml:id="uuid_5f58a13f-4501-4bc8-b422-6968da255c3b"/>mit dem
+                Ausdruck </p>
+         <p xml:id="uuid_019d3fcd-1d13-4982-a1c9-db937ab56530">
+            <lb xml:id="uuid_27e445cd-bbc1-4bd0-bede-e73f6a421b71"/>vorzüglichster
+                    kollegialer<lb xml:id="uuid_29bfeac5-aec0-4bbe-a202-a598be0dc270"/>Hochachtung<lb xml:id="uuid_a640d8c5-1ffa-4192-a132-0ab8204e5a1e"/>Ihr
+                ergebener </p>
+         <p xml:id="uuid_6c7b0ac3-c5a8-41a0-aafc-63ab5bc259ff">
+            <lb xml:id="uuid_3e3e4a76-3330-4de7-a785-38fad629572a"/><note type="paratext" resp="law-firm">Betr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> – <rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37338">Gegenangriff</rs>
+               <lb xml:id="uuid_ccaa79a7-21ed-4630-b88d-dc3e544f6edd"/>exp. 9.1.1935.</note>
+         </p>
+         <p xml:id="uuid_89e4f544-06a9-4344-8b02-ef0e26907777">
+            <lb xml:id="uuid_2e25de49-6e9f-48bd-8e43-cc0a0caaaac6"/>2 Beilagen. </p>
+      </body>
+   </text>
+</TEI>

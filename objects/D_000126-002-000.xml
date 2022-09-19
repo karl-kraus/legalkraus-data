@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-001-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000126-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Der Tag (verantw. Red. Josef Koller)</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000126-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+               https://www.kraus.wienbibliothek.at/content/brief-samek-der-tag-verantw-red-josef-koller-1 </idno>
+            <idno subtype="transkribus" type="ID">333195</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000126" type="collection">Karl Kraus
+               ca. Der Tag</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000126-002-000-facs001" xml:id="D_000126-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000126-002-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHN">Durchschlag mit
+                        handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1929-05-13">13. Mai 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#51602">den | verantwortlichen Redakteur des „Tag“ | Herrn Josef
+                  Koller</persName>
+               <address>
+                  <street corresp="#50643">Canisiusgasse 8–10</street>
+                  <settlement ref="#59">Wien IX.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – „Tag“</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-05-13">13. Mai 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000126-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000126-002-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+         <handNotes>
+            <handNote xml:id="D_000126-002-000-hand01" source="#D_000126-002-000-wit01" scribeRef="#38909" medium="pencil" cert="low" resp="#JK"></handNote>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" when-iso="2021-09-13" status="draft">created XML Document</change>
+         <change resp="#LU" when-iso="2021-09-13" status="draft">Replaced Text with Transcription of
+            Transkribus Document 333195. </change>
+         <change status="draft" type="header_facsimile" when-iso="2022-01-27" who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-01-27" who="#AR"/>
+         <change status="draft" type="references" when-iso="2022-01-27" who="#AR"/>
+         <change status="draft" type="typography" when-iso="2022-01-27" who="#AR"/>
+         <change status="draft" type="intertexts" when-iso="2022-01-27" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000126-002-000-facs001">
+      <surfaceGrp xml:id="D_000126-002-000-facs001-l001">
+         <surface type="recto" xml:id="D_000126-002-000-facs001-l001-p001">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557639/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000126-002-000-facs001-l002">
+         <surface type="recto" xml:id="D_000126-002-000-facs001-l002-p002">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557637/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000126-002-000-facs001-l002-p003">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557640/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000126-002-000_p001"
+             n="1"
+             facs="#D_000126-002-000-facs001-l002-p002"/>
+         <p xml:id="uuid_1fe0e7b8-0bea-46d3-b44a-ffdf375b86b0">
+            <lb xml:id="uuid_5d35ee1b-e20c-4503-99b2-e54ad078b4f7"/>Im Vollmachtsnamen des Herrn <rs
+               type="person" ref="#11988">Karl Kraus</rs> verlange ich die Auf<lb break="no"
+               xml:id="uuid_db2ec522-51ba-4e84-8bd4-442c85ce0c4a"/>nahme der Berichtigung der in
+            Ihrer <rs type="work" ref="#57288" subtype="pmb">Nummer vom 7. Mai 1929</rs> in Ihrer
+               Notiz<lb xml:id="uuid_fffeb323-ee13-484a-84ed-05d1c1f81663"/><hi rend="underlined"
+                  >„<rs type="work" ref="#57287" subtype="pmb"><hi rend="spaced">Theaterskandal in
+                        <rs type="place" ref="#866">Dresden</rs></hi>.</rs></hi>
+            <rs type="work" ref="#57287" subtype="pmb">Bei der Premiere von<lb
+                  xml:id="uuid_a327b247-1db3-4abd-9d1a-07d6b40101b2"/><rs type="person" ref="#11988"
+                  >Karl Kraus</rs>’ ‚<rs type="work" ref="#53397" subtype="pmb">Die
+                  Unüberwindlichen</rs>‘</rs>“ mitgeteilten meinen <rs type="person" ref="#11988"
+               >Mandanten</rs> betref<lb break="no"
+               xml:id="uuid_16b34287-223e-46a2-bbf1-018adb6e2fb0"/>fenden Tatsachen gemäss <rs
+               type="law"
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45"
+               >§ 23 Pr.G.</rs>
+         </p>
+         <p xml:id="uuid_4c7afd45-f987-45c0-ab28-4c8e1cf78c79">
+            <lb xml:id="uuid_f5ba5df8-2108-4193-99dc-07a271ba0325"/>Sie schreiben: „<quote
+               xml:id="uuid_31661af3-9a94-4e1b-8b30-f9649affa514" source="#57287">Zwei Akte waren
+               anstandslos gespielt worden,<lb xml:id="uuid_d64e785e-78bf-49ef-975d-624545573262"
+               />als dem Publikum <hi rend="underlined" hand="#D_000126-002-000-hand01"
+                  >mitgeteilt</hi> wurde, dass <rs ref="https://pmb.acdh.oeaw.ac.at/entity/6599"
+                  type="person">Camillo <hi rend="spaced">Castiglion</hi>i</rs>
+               <lb xml:id="uuid_f9830def-0238-45f8-806d-e141c5db4145"/>gegen die Verwendung einer
+               Figur, durch die er verkörpert worden sollte,<lb
+                  xml:id="uuid_ebc7c6f4-665e-48e6-a420-c9d170425bf0"/><hi rend="spaced">Einspruch
+                  erhobe</hi>n habe und dass diesem <hi rend="spaced">Einspruch<lb
+                     xml:id="uuid_4244f17f-1fce-45c1-a37b-847c3542cdbd"/>stattgegebe</hi>n worden
+               sei. Ein Schauspieler trat dann vor die<lb
+                  xml:id="uuid_ca24ba73-493b-45b6-826b-4562e00bf19f"/>Rampe und erzählte den Inhalt
+               des dritten Aktes.</quote>“ Die Behauptung, dass dem<lb
+               xml:id="uuid_85be7d86-521e-489c-bc6c-f733c079b2d6"/>Publikum mitgeteilt wurde, einem
+            Einspruch des Herrn <rs type="person" ref="#6599">Castiglioni</rs> sei statt<lb
+               break="no" xml:id="uuid_859924fa-4262-4e3d-8967-4884d8f00e2b"/>gegeben worden, ist
+            unwahr. Wahr ist, dass einem solchen Einspruch nicht<lb
+               xml:id="uuid_0cb37f0c-27eb-4f7a-9d7e-999460ab1f5a"/>stattgegeben wurde und eine
+            solche Mitteilung dem Publikum nicht gemacht<lb
+               xml:id="uuid_25f5a6fd-8318-47ff-ad34-49dc48125030"/>wurde. Wahr ist, dass dem
+            Publikum mitgeteilt wurde, dass eine lebende Per<lb break="no"
+               xml:id="uuid_89dc3851-be7d-45bf-96a0-2a525248415c"/>son, die sich in einer Figur zu
+            erkennen glaubte, die Veranstalter der Auf<lb break="no"
+               xml:id="uuid_e9d85c0c-5280-4336-8478-3b1a900f5369"/>führung mit der Einbringung einer
+            einstweiligen Verfügung habe bedrohen las<lb break="no"
+               xml:id="uuid_3dcdcb14-a796-42ba-904d-02034d2695d1"/>sen, wenn nicht jede Beziehung
+            auf sie eliminiert wurde. Wahr ist, dass der<lb
+               xml:id="uuid_9f9ae023-3023-484c-82d5-d4f92a9a122b"/>dritte Akt schon auf die Drohung
+            mit der <subst>
+               <del>[¿¿¿]</del>
+               <add>Einbringung der einstweiligen</add>
+            </subst> Ver<lb break="no" xml:id="uuid_5ea92020-f3b8-43f6-9040-59aa1f56722e"/>fügung
+            hin ausgelassen wurde. <pb xml:id="D_000126-002-000_p002" n="2"
+               facs="#D_000126-002-000-facs001-l002-p003"/>
+         </p>
+         <p xml:id="uuid_5d458e66-fd7f-4901-821e-579474f20e29">
+            <lb xml:id="uuid_e6ce69c8-d525-49d7-84b9-e4172b605685"/>Sie schreiben: „<quote
+               xml:id="uuid_22dcd3f6-9809-43ed-b4dd-f3080540a76e" source="#57287">Während, die
+               Sozialdemokraten applaudierten, begannen<lb
+                  xml:id="uuid_0b4cea05-9663-465a-bb95-cab30996a6a2"/>die Bürgerlichen ein <hi
+                  rend="spaced">Pfeifkonzer</hi>t und <hi rend="spaced">warfen <hi rend="underlined"
+                     hand="#D_000126-002-000-hand01">Stink<lb break="no" xml:id="uuid_528641f9-de83-44e7-9bf7-fe68fd8fcc75"
+                     />bombe</hi></hi><hi rend="underlined" hand="#D_000126-002-000-hand01">n</hi>.</quote>“ Diese
+            Behauptung ist unwahr. Wahr ist, dass während der<lb
+               xml:id="uuid_d879a5d1-76b3-411f-abd0-8f8d656b1f72"/>Schauspieler vor die Rampe trat,
+            um dem Publikum die Weglassung des dritten<lb
+               xml:id="uuid_1a1858ac-00a8-49b7-86d2-3946002c5478"/>Aktes mitzuteilen, ein Zuschauer
+            den Namen „<rs type="person" ref="#6599">Castiglioni</rs>“ rief, worauf eine<lb
+               xml:id="uuid_8d4115b3-490b-4929-bc87-4d0a1857ff4a"/>oder zwei Personen pfiffen und
+            ein Mann eine übelriechende Flüssigkeit ver<lb break="no"
+               xml:id="uuid_96723d72-746d-434c-a37b-b89bb7ce2d23"/>schüttete. </p>
+         <p xml:id="uuid_9b577fdb-056c-4734-9564-3c153cca169e">
+            <lb xml:id="uuid_d47fe56c-f349-4dd6-a2e2-4e17c8e2bb16"/>Sie schreiben: „<quote xml:id="uuid_c60d2b7f-69ca-45ef-9438-9cee2df1f4bf" source="#57287">Unter
+                    allgemeinem Lärm konnte die Vorstellung<lb xml:id="uuid_df4f02d0-d1f8-45ed-b1cd-6e14cd6475bb"/>schliesslich doch zu
+                    Ende geführt werden.</quote>“ Diese Behauptung ist unwahr.<lb xml:id="uuid_69d771d9-983d-4359-abe7-f67e23018cc7"/>Wahr ist, dass bei der
+                fortgesetzten Vorstellung an keiner einzigen Stelle<lb xml:id="uuid_7eea12ce-caca-471f-97d1-5d87f50168a6"/>Lärm entstand und die
+                Vorstellung in keiner Weise gestört wurde. </p>
+         <p xml:id="uuid_9b5eafab-4a85-4a68-9cad-d0dcce5623ac">
+            <lb xml:id="uuid_47dfc42f-99a1-48d0-9ae6-91ed20bb3666"/><hi rend="underlined">Rekommandiert mit Rückschein.</hi>
+         </p>
+         <p xml:id="uuid_0a7b3e0f-862f-4cae-899c-71ef450e5c2d">
+            <lb xml:id="uuid_39b626d6-5720-4333-a101-c361476450e4"/><note type="paratext" resp="law-firm"><rs type="person" ref="#11988">Kraus</rs> – <rs type="institution" ref="#29650">Tag</rs> III.<lb xml:id="uuid_15458e4c-d9bd-43e0-b396-b2b60ff338f8"/>exp. 14.5.29</note>
+         </p>
+      </body>
+   </text>
+</TEI>

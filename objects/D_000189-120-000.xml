@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-121-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-119-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000189-120-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Johann Turnovsky an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000189-120-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/4673</idno>
+            <idno subtype="transkribus" type="ID">367350</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000189" type="collection">Karl Kraus
+               ca. Gegen-Angriff</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000189-120-000-facs001" xml:id="D_000189-120-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000189-120-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSU">Typoskript mit
+                        handschriftlichen Überarbeitungen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#43593">JUDr. JOHANN TURNOVSKY | Advokat</persName>
+               <address>
+                  <street corresp="#51737">Vodičkova 33</street>
+                  <settlement ref="#652">Prag</settlement>
+               </address>
+               <date when-iso="1935-06-25">25.VI.1935</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/38909">P.T. | Herrn Dr. Oskar
+                  Samek</persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse 18</street>
+                  <settlement ref="#64">Wien – XIV</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1935-06-25">25. Juni 1935</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000189-120-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000189-120-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+         <handNotes>
+            <handNote xml:id="D_000189-120-000-hand01" source="#D_000189-120-000-wit01" scribeRef="#43593" medium="black-ink" cert="medium" resp="#IL"/>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-07-16" who="#JK"/>
+         <change type="typography" when-iso="2021-07-16" who="#JK"/>
+         <change type="references" when-iso="2021-07-16" who="#JK"/>
+         <change type="structure" when-iso="2021-07-16" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-02" who="#JK"/>
+         <change when-iso="2020-10-11T08:21:20.32Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-11T12:19:12.647Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 367350. </change>
+         <change when-iso="2020-10-11T14:04:54.519Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 367350. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000189-120-000-facs001">
+      <surfaceGrp xml:id="D_000189-120-000-facs001-l001">
+         <surface type="recto" xml:id="D_000189-120-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544957/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000189-120-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544958/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000189-120-000_p001"
+             facs="#D_000189-120-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_21e48602-77f5-48a2-9391-18c3af66ca22">
+            <lb xml:id="uuid_cddee3f7-1d27-4586-9074-945837f4279b"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38909" type="person">Herr Doktor</rs>. </p>
+         <p xml:id="uuid_fcb2b6bd-f7d9-4a25-b5ab-3ae8d6208451">
+            <lb xml:id="uuid_cdc28e43-c8f4-49b7-b766-c0e37c2c5870"/>Ich gestatte mir Ihnen
+            mitzuteilen, dass<lb xml:id="uuid_881a67ba-60eb-4485-bc2e-5aca053f5c32"/>ich am 27. d.M.
+            nach <rs ref="#591" type="place">Matrei am Brenner</rs> bei <rs ref="#867" type="place"
+               >Innsbruck</rs>
+            <rs ref="#56816" type="institution"><add hand="#D_000189-120-000-hand01">Pension Kraft</add></rs> auf Urlaub<lb
+               xml:id="uuid_bf70d286-ddf7-4af6-a75e-e2ca539c19d5"/>fahre. Ich bin während dieser
+            Zeit natürlich mit meiner <rs type="institution" ref="#88268">Kanz<lb break="no"
+                  xml:id="uuid_574b0d55-57d0-4551-a45a-c1f5d7084317"/>lei</rs> in ständiger
+            Verbindung, sodass in der Erledigung der An<lb break="no"
+               xml:id="uuid_50593186-d72a-4ac8-a403-5a2e6bfd0c0c"/>gelegenheit kein Verzug eintreten
+            wird. Die Frist zur Ueber<lb break="no"
+               xml:id="uuid_05e4fddc-0dec-4ec0-935c-3992a3ee50e2"/>reichung der Klage gegen den <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/37338" type="institution">Gegen-Angriff</rs>
+            endet am 15.8. d.J.<lb xml:id="uuid_8863bc49-cf32-4c5e-bcb7-04624f236612"/>Ich kann die
+            Klage evtl. während meines Urlaubes ausarbeiten,<lb
+               xml:id="uuid_e53be6f1-d202-4b22-9179-6e22b91510e3"/>da ich mir die Akten mitnehmen
+            werde. </p>
+         <p xml:id="uuid_1905acd0-24cc-4300-b7bc-5e9fbbdbf309">
+            <lb xml:id="uuid_221728fa-5019-4ca9-9953-9a85764d9f9e"/>Jedenfalls bitte ich, wenn
+                möglich, um<lb xml:id="uuid_2b59e92f-61ef-47a4-9860-4cb6437fb733"/>postwendende
+                Verständigung, ob die Klage überhaupt überreicht<lb xml:id="uuid_9daf6bc3-526e-4fba-a49c-4c45bd7e7536"/>werden soll und wie sich die
+                Situation gestaltet hat, nach wel<lb break="no" xml:id="uuid_b1274632-8865-445f-bf3f-b5f6623aa88e"/>cher beurteilt werden soll,
+                ob die Klage jetzt oder nach Er<lb break="no" xml:id="uuid_9cdea46b-5414-4b1e-b90c-93af2d57ee35"/>scheinen des nächsten
+                Fackelheftes zu überreichen ist. </p>
+         <p xml:id="uuid_194ccc9b-1957-49f8-a2b7-7b8d7c41545d">
+            <lb xml:id="uuid_179bf321-c582-4158-9412-3087e825a59d"/>Wo werden Sie Ihren heurigen
+                Urlaub ver<lb break="no" xml:id="uuid_28c0f354-5ae8-4175-9da0-375dfd649e39"/>bringen
+                und wann fahren Sie? Jedenfalls wünsche ich Ihnen<lb xml:id="uuid_175906ec-cbd9-4d9b-8377-61e56784236e"/>beste Erholung, bitte Sie,
+                diesen Wunsch auch <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herrn Kraus</rs>
+            <lb xml:id="uuid_81adcfd3-11df-4491-b163-f8e12ddfe162"/>für
+                dessen Urlaub zu übermitteln und ihm meine besten Empfeh<lb break="no" xml:id="uuid_a904a4f2-724d-4e26-83c4-01486c30c0cc"/>lungen zu bestellen. </p>
+         <p xml:id="uuid_059bd46d-4bd1-4ee3-bfb6-6d5f01f2bd5e">
+            <lb xml:id="uuid_b2ff53eb-33bf-42d2-a23f-243016ffa155"/>Mit dem Ausdrucke der
+                    vorzüglichsten<lb xml:id="uuid_a91c9667-8837-41e4-bd92-fd4bd9fe6e45"/>Hochachtung und besten Grüssen bin ich </p>
+         <p xml:id="uuid_aca50967-03c4-493e-9a8d-19a6bfc6ce32">
+            <lb xml:id="uuid_171e6bf5-9e3b-4956-839d-7d2b96369f27"/>Ihr ergebener:<lb xml:id="uuid_ff5d385c-8ab8-4714-8946-13b755988ecd"/><rs ref="#43593" type="person">Dr. Turnovsky</rs>
+         </p>
+         <pb xml:id="D_000189-120-000_p002"
+             facs="#D_000189-120-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_6822df80-c37b-4adf-a036-c1fb079c620a">
+            <lb xml:id="uuid_10a5942d-7447-4686-96a0-de44f19320c2"/><note resp="law-firm"
+               type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37338"
+                  type="institution">Gegenangriff</rs><lb
+                  xml:id="uuid_7449cc45-1ef1-485a-8b09-36faf7150a78"/>26. JUNI 1935</note>
+         </p>
+      </body>
+   </text>
+</TEI>

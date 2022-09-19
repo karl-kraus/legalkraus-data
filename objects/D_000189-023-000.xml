@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000189-023-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-022-000.xml"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-024-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Johann Turnovsky an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000189-023-000.xml </idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4579 </idno>
+            <idno type="ID" subtype="transkribus">367243</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000189">Karl
+                    Kraus ca. Gegen-Angriff</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000189-023-000-wit01" facs="#D_000189-023-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000189-023-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSN">Typoskript mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#43593">JUDr. JOHANN TURNOVSKY | Advokat</persName>
+               <address>
+                  <street corresp="#51737">Vodičkova 33</street>
+                  <settlement ref="#652">Prag</settlement>
+               </address>
+               <date when-iso="1934-01-15">15. Jänner 1934</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/38909">Wohlgeboren Herrn |
+                        JUDr. Oskar Samek, | Rechtsanwalt </persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse 18</street>
+                  <settlement ref="#64">Wien XIV.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Karl Kraus ca | Gegenangriff</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date type="sortDate" when-iso="1934-01-15" subtype="produced">15. Januar 1934
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote xml:id="D_000189-023-000-hand01"
+                      source="#D_000189-023-000-wit01"
+                      scribeRef="#38909"
+                      medium="black-ink"
+                      cert="high"
+                      resp="#JK"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000189-023-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000189-023-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-06-25" who="#JK"/>
+         <change type="typography" when-iso="2021-06-25" who="#JK"/>
+         <change type="references" when-iso="2021-06-25" who="#JK"/>
+         <change type="structure" when-iso="2021-06-25" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-01" who="#JK"/>
+         <change when-iso="2020-10-11T08:21:20.32Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-11T12:19:12.647Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 367243. </change>
+         <change when-iso="2020-10-11T14:04:54.519Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 367243. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000189-023-000-facs001">
+      <surfaceGrp xml:id="D_000189-023-000-facs001-l001">
+         <surface xml:id="D_000189-023-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544581/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000189-023-000-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544582/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000189-023-000-facs001-l002">
+         <surface xml:id="D_000189-023-000-facs001-l002-p003" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544583/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000189-023-000-facs001-l002-p004" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544584/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000189-023-000-facs001-l003">
+         <surface xml:id="D_000189-023-000-facs001-l003-p005" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544585/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000189-023-000-facs001-l003-p006" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544586/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000189-023-000_p001"
+             facs="#D_000189-023-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_9bfc7d0e-98d1-4fd9-aa80-96f6d4d6dc1e">
+                <lb xml:id="uuid_d4bc1077-ff6b-4ce6-b215-695d957467ec"/>Ich berufe mich auf meinen
+                    <rs type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-021-000"
+                    subtype="legal-doc">Brief vom 10. d.M.</rs>
+                <lb xml:id="uuid_e5ea79f3-b6dc-4a08-8e18-9dba01e0a485"/>und gestatte mir
+                mitzuteilen, dass ich noch vor Zustellung der<lb
+                    xml:id="uuid_d576232c-c3c9-481b-a351-39ccffae105b"/>heute eingelangten
+                schriftlichen Ausfertigung des <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-022-000" subtype="legal-doc"
+                        >Gerichtsbe<lb xml:id="uuid_ec2a5a3d-d771-4739-bd21-5328a826f40d" break="no"
+                    />schlusses</rs> über die Abweisung des Antrages auf Berichtigung inner<lb
+                    xml:id="uuid_01ab7388-0da2-40f2-a7ab-11dd7205ff1e" break="no"/>halb der
+                dreitägigen Frist die Beschwerde schriftlich ausgeführt<lb
+                    xml:id="uuid_10b12fb6-2bb7-4607-8bcc-ac0b09c2575f"/>und überreicht habe. Ich tat
+                dies nach genauer Prüfung und Durch<lb
+                    xml:id="uuid_a1a7b562-3f12-4148-8004-f6341d674cac" break="no"/>sicht der
+                einschlägigen Judikatur, insbesondere einer in letzter<lb
+                    xml:id="uuid_3e2b3308-e740-464a-b931-786f7d0bacbd"/>Zeit erflossenen
+                Entscheidung, aus der per analogiam geschlossen<lb
+                    xml:id="uuid_ca389a10-d908-4760-b19f-6944adaacd3d"/>werden kann, dass die
+                schriftliche Ausführung der angemeldeten<lb
+                    xml:id="uuid_cf5ef8fe-f44f-4ce1-85c7-7d7780c6c0fe"/>Beschwerde nicht unzulässig
+                ist. </p>
+         <p xml:id="uuid_e4dff383-8abc-4907-989e-3cf22b04c5be">
+                <lb xml:id="uuid_b96d64ec-7657-4a91-b091-925cb3f2736b"/>Der Fall hat, wie zu
+                erwarten war, sehr viel<lb xml:id="uuid_75dc102e-46bb-4e51-8007-11e7bcf6cb3c"
+                />Aufmerksamkeit erweckt und es erschienen Berichte über das Ergebnis<lb
+                    xml:id="uuid_cf1482cb-b233-4be6-9fa1-156ad63c4176"/>der Hauptverhandlung im „<rs
+                    type="work" ref="#41507" subtype="pmb">Prager Tagblatt</rs>“ und im „<rs
+                    type="work" ref="#56207" subtype="pmb">České Slovo</rs>“.<lb
+                    xml:id="uuid_6de19d72-8384-45b8-a48d-e7973f097114"/>Das „<rs type="work"
+                    ref="#41507" subtype="pmb">Prager Tagblatt</rs>“ brachte einen verhältnismässig
+                sachlichen und<lb xml:id="uuid_744cd9a8-feed-4233-af4d-87ca2665f91c"/>auch richtigen
+                    <rs type="work" ref="#56209" subtype="pmb">Bericht</rs>, der allerdings dem
+                juristisch nicht ge<lb xml:id="uuid_2b35eb92-90c8-441e-a3a1-afa5b72ac5e4" break="no"
+                />schulten Leser kaum eine Vorstellung darüber gibt, worum es sich<lb
+                    xml:id="uuid_d9dfcb4d-7998-4fb1-9c01-5dc2befe0df8"/>eigentlich handelt. Diesen
+                    <rs type="work" ref="#56209" subtype="pmb">Bericht</rs> wird <rs type="person"
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herr Kraus</rs> sicherlich
+                    gele<lb xml:id="uuid_90281a76-35cb-4b86-b403-d74e8b841332" break="no"/>sen
+                haben. Das „<rs type="work" ref="#56207" subtype="pmb">České Slovo</rs>“ brachte
+                einen sachlich und juristisch<lb xml:id="uuid_292cfe55-319a-4df1-b49a-c42a5116d8cc"
+                />vollkommen falschen <rs type="work" ref="#56211" subtype="pmb">Bericht</rs>, in
+                dem behauptet wird, der „<rs type="institution" ref="#37338">Gegenan-</rs>
+                <pb xml:id="D_000189-023-000_p002" facs="#D_000189-023-000-facs001-l001-p002" n="2"/>
+                <lb xml:id="uuid_4d2773ce-35e0-497f-aa1b-4dfd7f1a26dd"/>griff“ habe die verlangte
+                    <rs type="work" subtype="legal-doc">Berichtigung</rs> zwar veröffentlicht,
+                    jedoch<lb xml:id="uuid_79221654-d90e-4c0f-bf93-cfb5751f0141"/>nicht, wie von <rs
+                    type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn Kraus</rs>
+                gefordert, mit der Zitierung des ganzen<lb
+                    xml:id="uuid_dee8e060-3703-43a9-8257-270e8c6e2808"/>Wortlautes des <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/888,004" subtype="fackel"
+                    >Gedichtes</rs>, sondern nur der im <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-001-000" subtype="legal-doc"
+                    >Artikel des Gegenangrif<lb xml:id="uuid_b6985a39-ce27-4054-88c7-5c521247397f"
+                        break="no"/>fes</rs> fehlerhaft zitierten fünften Verszeile. Dies habe <rs
+                    type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn Kraus</rs>
+                    zur<lb xml:id="uuid_a2df089c-40ac-45e1-9245-2ba66cb655b4"/><rs type="work"
+                    subtype="legal-doc">Klage</rs> veranlasst, welche abgewiesen worden sei, mit der
+                    Begründung,<lb xml:id="uuid_587c22ed-5c7c-4e1e-9f47-85479c97a908"/>die
+                Auslassung des Beistriches sei ein Versehen des <rs type="person">Setzers</rs> und
+                    kön<lb xml:id="uuid_46c5e29e-96e8-4146-bc73-6b9d28ff4b76" break="no"/>ne der <rs
+                    type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/43657">verantwortlichen
+                    Redakteurin</rs> aus dem Titel der Vernachlässi<lb
+                    xml:id="uuid_b425a280-1126-4654-91a5-7100c8866373" break="no"/>gung der
+                pflichtgemässen Sorgfalt nicht angelastet werden. Der <rs type="person">Be<lb
+                        xml:id="uuid_85bde281-05d0-4af0-8272-6d9a47443262" break="no"
+                    />richterstatter</rs> hat, wie Sie sehen, weder die Sachlage, noch die ju<lb
+                    xml:id="uuid_24595687-9399-40c0-8458-dc6b4108cddc" break="no"/>ristische Lage
+                des Falles, erfasst. </p>
+         <p xml:id="uuid_222d66b8-7375-4699-a6c1-6578bc70db8f">
+                <lb xml:id="uuid_fafaeb40-ca46-4de6-8e28-7527b514e9f1"/>In dem am <rs type="work"
+                    ref="#56213" subtype="pmb">14. d.M. herausgegebenen Gegenangriff</rs>
+                <lb xml:id="uuid_cbbe21f7-9e24-4981-a787-cb88650a69a8"/>ist nun ein ganz unerhörter
+                Artikel „<rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-024-000" subtype="legal-doc"
+                    >Der Kampf um ein Komma oder<lb
+                        xml:id="uuid_638ac9e7-e6a6-4162-9741-d9357ad21810"/>trauriges Ende des <rs
+                        type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl
+                    Kraus</rs></rs>“ erschienen. Im Nachhange zu diesem <rs type="work"
+                    subtype="pmb">Ar<lb xml:id="uuid_67ef6a02-293c-4d76-88f8-0324fbf946f7"
+                        break="no"/>tikel</rs> hat offenbar <rs type="person"
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/43657">Dr. Schnierer</rs> eine <rs
+                    type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-024-000"
+                    subtype="legal-doc">Notiz</rs> veröffentlicht, deren<lb
+                    xml:id="uuid_cfc96b13-118f-44df-a4a8-9f186664b90b"/>Verfassung angeblich nach
+                der Drucklegung des ebenangeführten <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-024-000" subtype="legal-doc"
+                        >Ar<lb xml:id="uuid_44010f23-794b-4fe6-bc96-bf6116f9daff" break="no"
+                    />tikels</rs> erfolgt ist und die sich mit dem Berichtigungsstritte befasst.<lb
+                    xml:id="uuid_041fab54-2115-4f97-b850-4792f35b2009"/>Ich lege diese beiden
+                Artikel, deren Inhalt mir beweist, wie recht<lb
+                    xml:id="uuid_a84803fd-e344-428d-a2d6-8def39d0f049"/>ich daran tat, meine
+                Einwilligung zu einer Neuformulierung der ver<lb
+                    xml:id="uuid_80baeef4-e559-4ab1-97eb-413a763ed9e0" break="no"/>langten
+                Berichtigung nicht zu erteilen, bei. Hätte ich eingewil<lb
+                    xml:id="uuid_8a6ec9c0-6110-4650-bf48-140b611b64fb" break="no"/>ligt, dass das
+                    <rs type="institution" ref="#36875">Gericht</rs> die Berichtigung abändere, so
+                wäre darüber<lb xml:id="uuid_90627892-50bd-4fd1-958b-b44023b30f61"/>sicherlich eine
+                ebenso gemeine Notiz erschienen, wie die in der <rs type="work" ref="#56213"
+                    subtype="pmb">letz<lb xml:id="uuid_e8724544-4f21-48b0-922c-9ebb6bc70075"
+                        break="no"/>ten Nummer des Gegenangriff</rs> veröffentlichte. </p>
+         <p xml:id="uuid_16650412-3d8c-45f3-a86b-c2c0327fe56a">
+                <lb xml:id="uuid_ccd7cae7-4697-4719-83aa-5a99a4bf5bda"/>Die namens des <rs
+                    type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn Kraus</rs>
+                verlangte <rs type="work" subtype="legal-doc">Berich<lb
+                        xml:id="uuid_6a58dadb-a054-4b19-9139-c7c93b21e801" break="no"/>tigung</rs>
+                des Artikels „<rs type="work" ref="#56256" subtype="pmb">Lanze für <rs type="person"
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs></rs>“ wurde
+                nicht veröffent<lb xml:id="uuid_e3c653b1-aae6-4229-8a11-709fd91264f9" break="no"
+                />licht. Mein <rs type="work">Schreiben</rs> ist am 8. d.M. expediert worden und
+                    wurde<lb xml:id="uuid_ae75e041-c4da-445e-96fc-8872fedb2c43"/>der <rs
+                    type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/43657">verantwortlichen
+                    Redakteurin</rs> zu Handen des Herrn <rs type="person" ref="#43610">Dr.
+                    Stein</rs> am <pb xml:id="D_000189-023-000_p003"
+                    facs="#D_000189-023-000-facs001-l002-p003" n="3"/>
+                <lb xml:id="uuid_b5258ff6-ff33-43bf-b43e-84c6a7d43703"/>9. d.M. zugestellt. Ich
+                glaube, dass es zweckmässig ist, mit der<lb
+                    xml:id="uuid_656bc6e7-04f9-460d-9ff1-bca67facdf83"/>Ueberreichung des Antrages
+                gemäss <rs type="law" ref="">§ 14 der Pressgesetznovelle</rs> bis<lb
+                    xml:id="uuid_dba4b41a-f20e-4295-97ce-dba062c4c754"/>nach dem Erscheinen der
+                nächsten Nummer abzuwarten, weil ich<lb
+                    xml:id="uuid_f82be117-a7ee-494a-a8ca-2c734fcdae48"/>konstatiert habe, dass <rs
+                    type="person" ref="#43610">Dr. Stein</rs> einzuwenden pflegt, die Veröffent<lb
+                    xml:id="uuid_7e31daf5-9900-4515-9545-7b1bc975c00a" break="no"/>lichung der
+                verlangten Berichtigung sei deswegen nicht erfolgt,<lb
+                    xml:id="uuid_f35f2485-268d-4562-8486-8855f64e8f50"/>weil im Zeitpunkte des
+                Einlangens des <rs type="work" subtype="legal-doc">Berichtigungsschreibens</rs>
+                    die<lb xml:id="uuid_1bd32d89-c815-4e5f-98da-fbc29fe014aa"/>ganze Nummer bereits
+                fertiggestellt war, sodass in dieser <rs type="work" subtype="pmb">Nummer</rs><lb
+                    xml:id="uuid_d8e0899b-32a0-47f8-9245-bbcc567535a2"/>die Berichtigung nicht mehr
+                erscheinen konnte. Da der <rs type="person"
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/51634">Richter</rs>
+                <lb xml:id="uuid_e5548ff0-756f-4ada-b311-bf130719ecaa"/>auf diese Einwendung in dem
+                mir bekannten Falle Rücksicht genommen<lb
+                    xml:id="uuid_392b21c2-8d0e-4500-a979-cf3a7d79095f"/>hat, glaube ich empfehlen zu
+                müssen, dass der Antrag erst über<lb
+                    xml:id="uuid_919af4bf-5baa-4021-a2a6-58919f965533" break="no"/>reicht werden
+                soll, bis feststeht, dass die <rs type="work" subtype="legal-doc">Berichtigung</rs>
+                auch in der<lb xml:id="uuid_f4a9a951-1688-4f16-bbd6-c59078d49aa7"/>nächsten Nummer
+                nicht erschienen ist. </p>
+         <p xml:id="uuid_e824f451-662f-42a0-8480-1cb4ae3637b1">
+                <lb xml:id="uuid_6411a34e-5cf5-4378-9ba2-181578028c46"/>Um Sie und <rs type="person"
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn Kraus</rs> über alle
+                Details zu orientieren<lb xml:id="uuid_7d10a417-395b-4359-9971-1aea39a52059"
+                />schliesse ich noch eine Uebersetzung meiner <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-025-000" subtype="legal-doc"
+                    >Beschwerde</rs> und des heu<lb
+                    xml:id="uuid_f901ff41-5ca6-4efd-a987-e4b129518d1c" break="no"/>te zugestellten
+                    <rs type="work" subtype="legal-doc">Gerichtsbeschlusses</rs> bei und bemerke,
+                dass ich<lb xml:id="uuid_8a2c03a2-fce6-4eba-9295-a3f832e0d058"/>beim <rs
+                    type="person">Vorsitzenden des Beschwerdesenates</rs> intervenieren werde. </p>
+         <p xml:id="uuid_b354e30c-4e7c-4870-b8f1-11642a2e9147">
+            <lb xml:id="uuid_e3a54833-135b-40e2-947c-88dd876e8e37"/>In der zweiten gegen den <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/43657">verantwortlichen
+                    Redakteur</rs>
+            <lb xml:id="uuid_d5003bf5-8643-48e8-92bf-f2ecea45eeee"/>und <rs type="person" ref="#37837">Verfasser</rs> des im Gegenangriffe erschienen <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-001-000"
+                subtype="legal-doc">Artikels</rs> wegen Ver<lb xml:id="uuid_f88d0203-f17c-44fd-956f-4d40514eeecf" break="no"/>gehens der üblen
+                Nachrede resp. Verleumdung anhängigen Rechtsan<lb xml:id="uuid_51a06c1d-247a-42e5-9148-03fdbf72c77c" break="no"/>gelegenheit wurde
+                die Vergleichstagsatzung für den 19. d.M.<lb xml:id="uuid_91a4b716-3e0f-455a-8026-3c2419b555e8"/>angesetzt. Ueber das Wesen
+                der Vergleichsverhandlung nach dem Ge<lb xml:id="uuid_547cffcd-097f-4b9e-b876-11c277dde059" break="no"/>setze zum Schutze
+                der Ehre möchte ich Folgendes bemerken: </p>
+         <p xml:id="uuid_5bc3f1aa-dd11-4480-8fda-8e52d7a03de2">
+            <lb xml:id="uuid_3d749fee-b748-4679-9d3e-8a90796e9842"/>Die Vergleichsverhandlung
+                ist nicht öffentlich. Sie<lb xml:id="uuid_4c616868-4077-49f1-bdf1-5ac056855c1d"/>wird vom <rs type="person">Vorsitzenden des Schöffengerichtes</rs> geleitet. Auf
+                Verlangen <pb xml:id="D_000189-023-000_p004"
+                facs="#D_000189-023-000-facs001-l002-p004"
+                n="4"/>
+            <lb xml:id="uuid_6548bcb0-b1d3-4058-a08b-2ada7240cc80"/>irgendeiner Partei
+                entscheidet der die Vergleichsverhandlung<lb xml:id="uuid_21783f31-bf76-4842-ab6e-2b4948d36e9a"/>leitende Richter, und zwar
+                nach Möglichkeit sofort bei der Vergleichs<lb xml:id="uuid_ba652f0a-72c6-41e9-824e-2f77bc7e749f" break="no"/>verhandlung,
+                spätestens aber binnen 8 Tagen, welche Genugtuung<lb xml:id="uuid_208308d2-f39b-499f-8d58-65fa26e0ba32"/>er als angemessen erachtet
+                und wie die den Parteien erwachsenen Ko<lb xml:id="uuid_81a46a23-0092-45db-9acc-15855b5f9659" break="no"/>sten ersetzt
+                werden sollen. Zugleich spricht er aus, in welcher Frist<lb xml:id="uuid_51d8572c-cfd5-46ec-80fa-78c90a0f519e"/>die Genugtuung zu leisten
+                und die Kosten zu setzen sind. Vor Ablauf<lb xml:id="uuid_955175a6-d74a-4a6f-bf52-0af7028bb575"/>dieser Frist kann die
+                Hauptverhandlung nicht stattfinden. Bei der<lb xml:id="uuid_a3609e3d-122a-480c-b7bc-d142610296ca"/>Entscheidung über die
+                Angemessenheit der Genugtuung berücksichtigt<lb xml:id="uuid_9b657da8-62ca-49e0-9586-c041875fd9f0"/>das Gericht die Umstände des
+                Falles und es kann als Genugtuung<lb xml:id="uuid_dc528654-8a4e-43d3-aae5-faae2eebfc33"/>auch einen Beitrag zu einem
+                bestimmten wohltätigen oder gemeinnützi<lb xml:id="uuid_38ffe2a4-eccb-4dea-8c07-824e0c15d66a" break="no"/>gen Zwecke
+                bestimmen. Gegen die Entscheidung kann binnen 3 Tagen<lb xml:id="uuid_7dff4b9e-2497-4637-b921-3b92635cd05a"/>Beschwerde geführt werden,
+                über welche endgiltig in nichtöffentlicher<lb xml:id="uuid_8920f4dd-247a-4140-8e1c-4b4938d45843"/>Sitzung das Kreisgericht in
+                einem Kollegium von 3 Richtern entschei<lb xml:id="uuid_fd1f92d8-ba1f-4013-b6c7-54293d52349a" break="no"/>det. Dann erst
+                wird die Hauptverhandlung angeordnet. </p>
+         <p xml:id="uuid_8db2bff7-d291-4f26-a838-9ebc2e23acf9">
+            <lb xml:id="uuid_a93e1bf6-cd27-4a77-8c09-0cd2af13fdd5"/>Diese Bestimmung ist
+                insofern wichtig, als das Ge<lb xml:id="uuid_28066f07-88b5-49e3-8d78-b6439e7112b9" break="no"/>richt von der Bestrafung des Beschuldigten absehen kann, wenn
+                    dieser<lb xml:id="uuid_ef0877a6-a1a0-4524-b57a-a159cae98864"/>in der hiezu
+                bestimmten Frist die Entscheidung über die Genugtuung<lb xml:id="uuid_dc38056d-f6b0-49c6-a191-6486ac10bc98"/>erfüllt hat oder diese
+                Entscheidung in den Teilen, deren Erfüllung<lb xml:id="uuid_03645abb-d8c2-4a10-ab11-07136d22cb18"/>von dem Willen des Gegners
+                abhing, wegen dessen grundlosen Wider<lb xml:id="uuid_79ccd831-05a3-4b0c-a8ee-eaced86f4df4" break="no"/>standes nicht
+                erfüllen konnte. Ebenso kann von der Bestrafung abge<lb xml:id="uuid_f702542f-600f-408b-a0be-8da3000f5173" break="no"/>sehen werden,
+                wenn der Schuldige dem Gekränkten spätestens vor Be<lb xml:id="uuid_ba0d6eb8-11a3-4303-bb2c-6e329aac559f" break="no"/>ginn der
+                Hauptverhandlung angemessene Genugtuung geleistet hat.<lb xml:id="uuid_e6cb3dc8-accd-43ee-bd19-4e8b208ac9a5"/>Bei der Beurteilung der
+                Angemessenheit der Genugtuung hat das Ge<lb xml:id="uuid_18a3a753-898b-4ac6-a42c-a36c6f53ec1c" break="no"/>richt die
+                Umstände des Falles, namentlich den Inhalt und die Form<lb xml:id="uuid_85c88148-42cc-4e4e-ab35-b9e4211268da"/>der Kränkung, die
+                Verbreitung der Aeusserung, das verletzte Interes<lb xml:id="uuid_f90ef260-9214-4be5-9e35-b4fb664c3ceb" break="no"/>se, das Verhalten
+                des Schuldigen nach der Tat, insbesondere aber <pb xml:id="D_000189-023-000_p005"
+                facs="#D_000189-023-000-facs001-l003-p005"
+                n="5"/>
+            <lb xml:id="uuid_3850c2a4-40ac-4a4e-9926-2e416214f0e7"/>den Umstand zu
+                berücksichtigen, ob die Kränkung in wie immer<lb xml:id="uuid_adeabc64-d439-4c4b-b58d-32548c177b91"/>gearteter Form wiederholt
+                worden ist. </p>
+         <p xml:id="uuid_4109746f-40f2-408a-9900-f06c737f889c">
+            <lb xml:id="uuid_db2d912d-df17-422b-8922-40adfcc3438c"/>Mit Rücksicht auf diese
+                gesetzlichen Bestimmungen<lb xml:id="uuid_c6b0d84c-e4a4-44f8-bf8b-4ae9d622af79"/>wird es notwendig sein, dass mir <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herr Kraus</rs> noch vor dem 19.
+                    d.M.<lb xml:id="uuid_fafce397-9a56-463c-ba9f-14f9e3a1c85c"/>bekannt gibt, welche
+                Art der Genugtuung ihm angemessen erscheint. </p>
+         <p xml:id="uuid_113febad-a76c-441d-bb03-37c637ecb58d">
+            <lb xml:id="uuid_63fd975d-f03b-438c-9c3c-666186e87396"/>Es tut mir unendlich leid,
+                dass es mir trotz meinen<lb xml:id="uuid_f25f8d89-fb1c-40a9-a818-9b1a4e065c76"/>Bemühungen nicht gelungen ist, gleich bei der ersten Verhandlung<lb xml:id="uuid_c5731e1a-48c8-4be9-aba1-00b628b8e1f1"/>einen Erfolg zu erzielen und
+                so <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn Kraus</rs>
+                vor weiteren Anrempelungen<lb xml:id="uuid_67f1fcc7-6409-41cf-8dac-476c309c9990"/>des <rs type="work" ref="#55934" subtype="pmb">unsauberen Blattes</rs> zu
+                bewahren. Gegen die Dummheit und Bös<lb xml:id="uuid_1788958b-b4b5-45b9-82e6-d653da727b36" break="no"/>willigkeit des
+                    <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/51634">Richters</rs>
+                ist schwer anzukämpfen, was um so bedauer<lb xml:id="uuid_f71b0003-978a-4e1d-b1cb-0ab2fe8f744f" break="no"/>licher ist, als
+                gerade dadurch der ganzen Redaktionsgesellschaft<lb xml:id="uuid_32908c62-10ea-4fee-943c-3a2202dc4c07"/>des <rs type="institution" ref="#37338">Gegenangriffes</rs> der Mut zu weiteren „Heldentaten“ einge<lb xml:id="uuid_a5da1725-8304-4b38-80cd-d468dee6958b" break="no"/>flösst wird. </p>
+         <p xml:id="uuid_f1cbc8b8-b4b9-4ddb-be90-cdff632e475d">
+                <lb xml:id="uuid_cda1fc3b-db1f-41d0-8111-fc1648d367f0"/>Mit dem Ausdrucke
+                vorzüglicher Hochachtung<lb xml:id="uuid_b9a098fc-2b3c-4c73-8213-302f82e0a387"
+                    />ergebener<lb xml:id="uuid_a92378ca-ec5c-4507-a5b2-55b23353c5d3"/><rs
+                    type="person" ref="#43593">Dr. Turnovsky</rs>
+            </p>
+         <p xml:id="uuid_b42a4857-7494-49e4-b4ce-baec29d1f7f4">
+            <lb xml:id="uuid_fbdaf3e2-fe6e-4f82-9c4a-53955257af3d"/>3 Beilagen. </p>
+         <pb xml:id="D_000189-023-000_p006"
+             facs="#D_000189-023-000-facs001-l003-p006"
+             n="6"/>
+         <p xml:id="uuid_337b9b16-471e-42c8-8324-e0ebc7d755c5">
+            <lb xml:id="uuid_16fcf3ef-aa77-47c2-86d4-ac4354e86e93"/><note hand="#D_000189-023-000-hand01">Die Sätze der <rs type="work" ref="#32544" subtype="pmb">letzten Tage der Menschheit</rs>,</note>
+         </p>
+         <note hand="#D_000189-023-000-hand01">
+            <p xml:id="uuid_65b3dc38-a8ef-408c-b83a-8d918fbccb39">
+               <lb xml:id="uuid_9d062d46-332f-4d7a-ba75-e4e75b6d585f"/>Panorama,
+                    Programmschrift für <rs type="work" ref="#32544" subtype="pmb">Die letzten Tage
+                        der Menschheit</rs>
+               <lb xml:id="uuid_da336120-ec59-4547-9655-9d2271d10488"/>Masany, <rs type="person" ref="#38137">Ottokar Fischer</rs>, <rs type="person" ref="#51630">Jan Münzer</rs>
+            </p>
+            <p xml:id="uuid_fd6a02ea-c82c-4816-a4c5-c2cb0d3f1583">
+               <lb xml:id="uuid_22c9a414-c6ec-4cb4-9e1c-c071ae5c5680"/>Darauf Hinweis, dass die
+                    Beleidigung fort gesetzt wird<lb xml:id="uuid_90501698-3599-4ff0-b608-628c38ffaaff"/>Teil(weise) unsrige
+                    Einbeziehungen </p>
+        </note>
+         <p xml:id="uuid_9cf53ee9-6201-4fdb-b082-dcc7fe95d4ad">
+            <note hand="#D_000189-023-000-hand01">
+               <lb xml:id="uuid_79cb4f69-815d-45bc-8bd0-cafd68614ea4"/>Wie herrschaftlich diese
+                    Menschheit uns erscheint</note>
+         </p>
+         <p xml:id="uuid_f60783f3-aadc-4117-9d52-31b99647a7b5">
+                <lb xml:id="uuid_17a9ce96-6abb-4d40-a682-51f999d6e656"/><note type="paratext"
+                    resp="law-firm"><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                        >Kraus</rs> – <rs type="institution" ref="#37338">Der Gegenangriff</rs><lb
+                        xml:id="uuid_998a24ef-e0d0-4118-8bbd-9b31eef97757"/>16. JAN. 1934</note>
+            </p>
+      </body>
+   </text>
+</TEI>

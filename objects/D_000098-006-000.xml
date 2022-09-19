@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000098-007-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000098-005-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000098-006-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Salka Viertel an RA Victor Stadler</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000098-006-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2934</idno>
+            <idno subtype="transkribus" type="ID">420099</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000098" type="collection">Darlehenssache Berthold Viertel</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000098-006-000-facs001" xml:id="D_000098-006-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000098-006-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.M">Manuskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1928-03-26">26. März 1928</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38513">Salka Viertel</persName>
+               <address>
+                  <street corresp=""/> 
+                  <settlement ref="#38174">Hollywood, California</settlement>
+               </address>
+               <date when-iso="1928-03-26">26.III.1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38714">Victor Stadler</persName>
+               <address>
+                  <street corresp="#40387"/> 
+                  <settlement ref="#51"/> 
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <handNotes>
+            <handNote xml:id="D_000098-006-000-hand01"
+                      source="#D_000098-006-000-wit01"
+                      scribeRef="#38513"
+                      medium="black-ink"
+                      cert="high"
+                      resp="#IL"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000098-006-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000098-006-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2021-04-22" who="#IL"/>
+         <change type="structure" when-iso="2021-04-21" who="#IL"/>
+         <change type="references" when-iso="2021-04-21" who="#IL"/>
+         <change type="typography" when-iso="2021-04-22" who="#IL"/>
+         <change type="intertexts" when-iso="2021-04-21" who="#IL"/>
+         <change when-iso="2020-10-08T12:24:58.572Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T12:30:09.483Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 420099. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000098-006-000-facs001">
+      <surfaceGrp xml:id="D_000098-006-000-facs001-l001">
+         <surface xml:id="D_000098-006-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554694/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000098-006-000-facs001-l001-p002" type="verso">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554695/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000098-006-000_p001"
+             facs="#D_000098-006-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_04cb67b3-591f-4ecc-ac8b-04e11a2bd8c4">
+            <lb xml:id="uuid_1100d4c1-df5c-4b72-8c1a-509304ef5937"/>Sehr geehrter Herr <rs ref="#38714" type="person">Doktor</rs>! </p>
+         <p xml:id="uuid_ba45527a-25f1-4b23-b9d9-d401f2c825a7">
+            <lb xml:id="uuid_687b3388-306e-4ed8-a886-603a9a4def27"/>Im Trubel und in<lb xml:id="uuid_b4900195-d6ee-4b44-8ad7-2e6372503863"/>der Aufregung unserer<lb xml:id="uuid_fdff54a2-0d67-4209-8947-1775423a3060"/>Abreise, habe ich die
+                    Papiere,<lb xml:id="uuid_dbc07163-a7e4-475d-9e8a-4d00821c9ac5"/>die Sie meinem
+                    <rs ref="https://pmb.acdh.oeaw.ac.at/entity/10364" type="person">Mann</rs>
+            <lb xml:id="uuid_a1fed8ed-97c1-407e-aa52-294cb3ec8141"/>zur Unterschrift sandten,<lb xml:id="uuid_0746d03a-0a97-47de-8f0b-00ae31b442d1"/>verlegt und konnte sie<lb xml:id="uuid_657c0e63-3400-466b-b7a2-3abcb0686ae7"/>nicht finden. Mein <rs ref="https://pmb.acdh.oeaw.ac.at/entity/10364" type="person">Mann</rs>
+            <lb xml:id="uuid_ed220c06-271b-49c7-a510-91cc5db0ddcb"/>ist mit Ihren Vorschlägen<lb xml:id="uuid_d829c581-8e1c-4d7d-8f08-68591488354b"/>vollkommen einverstan<lb break="no" xml:id="uuid_09ad3965-3644-4596-8af1-2ac765d17131"/>den und wird ab
+                    Juli<lb xml:id="uuid_ead97b61-f33c-48f1-9abc-1566659ef43a"/>mit den Zahlungen
+                    be<lb break="no" xml:id="uuid_b1b1a306-5cc7-4a1c-b958-7abbda5c0d83"/>ginnen. Ich
+                bitte Sie <pb xml:id="D_000098-006-000_p002"
+                facs="#D_000098-006-000-facs001-l001-p002"
+                n="2"/>
+            <lb xml:id="uuid_db0279f5-23b1-4f8a-abc6-5edac5a30799"/>jedoch sehr ihm nochmal<lb xml:id="uuid_c16b6527-8eba-47d3-a80c-bafc594dc382"/>die Kopien Ihrer Briefe<lb xml:id="uuid_7344c73d-7484-4f61-b25c-d37993ed85ce"/>zu senden, die dann<lb xml:id="uuid_46f9a869-8520-49f4-b5a6-1f88df564004"/>unterschrieben zu Ihnen<lb xml:id="uuid_7815454e-71f0-49ab-9c12-13664b8778f2"/>zurückkommen werden. </p>
+         <p xml:id="uuid_10249c00-9591-4981-9a14-0abe5155836a">
+            <lb xml:id="uuid_f9bee66b-2ff4-49cf-8113-90a8b85043d0"/>Da wir noch im Hotel
+                    wohnen<lb xml:id="uuid_46ce6470-75bc-4a06-8dca-beda2761da15"/>adressieren Sie
+                    bitte:<lb xml:id="uuid_786ce475-b248-42b0-8741-63becacc3673"/><rs ref="#37112" type="institution">Fox-Studio. Holl. Calif.</rs>
+         </p>
+         <p xml:id="uuid_7d551f54-f619-4ad0-8f15-a3f1ff6f467d">
+            <lb xml:id="uuid_3ae699c7-5eb1-4a6e-94f9-836ad607b60a"/>Mit besten Grüssen und
+                    der<lb xml:id="uuid_9200ab5f-cff5-4a1c-8def-d6cebcee34c0"/>Bitte um
+                    Entschuldigung<lb xml:id="uuid_0aabbf56-4850-4d84-8d15-6d5578513dcf"/><rs ref="#38513" type="person">Salka Viertel</rs>
+         </p>
+         <p xml:id="uuid_92354562-da84-4b2b-bb0a-5e7b50986d9a">
+            <lb xml:id="uuid_570f25b6-f54a-4b67-aedb-04b138779eae"/>Grüssen Sie bitte Herrn<lb xml:id="uuid_a9d9f7ca-42a5-461f-b008-422a83417a83"/>Doktor <rs ref="#39211" type="person">Münz</rs>. </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000198-001-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000197-002-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000197-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Zeitschau (verantw. Red. Carola Sachs)</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000197-003-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-samek-zeitschau-verantw-red-carola-sachs </idno>
+            <idno subtype="transkribus" type="ID">417515</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000166" type="collection">Karl
+                    Kraus ca. Wochenschrift Die Fackel</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000197-003-000-facs001" xml:id="D_000197-003-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000197-003-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909">DR. OSKAR SAMEK</persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse 18</street>
+                  <settlement ref="#64">Wien, XIV.</settlement>
+               </address>
+               <date when-iso="1934-12-05">5. Dezember 1934</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#43678">die | verantwortliche Redaktrice der |
+                        Halbmonatszeitschrift „Zeitschau“ | Carola Sachs</persName>
+               <address>
+                  <street corresp="#752">Werdertorgasse 5</street>
+                  <settlement ref="#51">Wien 1.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Zeitschau</note>
+               <note type="dictation">Dr.Sa/Ma</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1934-12-05">5. Dezember 1934
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000197-003-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000197-003-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-09-29" who="#JK"/>
+         <change type="typography" when-iso="2021-09-29" who="#JK"/>
+         <change type="references" when-iso="2021-09-29" who="#JK"/>
+         <change type="structure" when-iso="2021-09-29" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-07" who="#JK"/>
+         <change resp="#LU" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" when-iso="2021-09-13">Replaced Text with Transcription of Transkribus
+                Document 417515. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000197-003-000-facs001">
+      <surfaceGrp xml:id="D_000197-003-000-facs001-l001">
+         <surface type="recto" xml:id="D_000197-003-000-facs001-l001-p001">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2594318/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000197-003-000_p001"
+             facs="#D_000197-003-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_19568bb6-32ae-4e64-9d14-2c164484e25e">
+            <lb xml:id="uuid_84b070ef-b7d6-403f-8c54-a5602897614a"/>Im Vollmachtsnamen des Herrn <rs
+               ref="#11988" type="person">Karl Kraus</rs> verlange<lb
+               xml:id="uuid_d4d3cdf1-4c2b-403f-8edf-63eabcc09fe9"/>ich die Veröffentlichung der
+            folgenden Entgegnung auf den<lb xml:id="uuid_4780d0b4-8106-46b1-abbf-3445f62876f3"/>in
+            Ihrer <rs ref="#59517" type="work" subtype="pmb">Nummer vom Anfang Dezember 1934</rs>
+            erschienenen Artikel<lb xml:id="uuid_f13519d3-7a3e-4ce0-8e18-32ccf7a9feb3"/>„<rs
+               ref="#59519" type="work" subtype="pmb"><rs type="person" ref="#11988">Karl Kraus</rs>
+               und die Politik</rs>“ gemäss <rs ref="" type="law">§ 23 P.G.</rs>
+         </p>
+         <p xml:id="uuid_4cd60fcc-e380-4c66-819c-719635b2850e">
+            <lb xml:id="uuid_24e176fc-b0ae-4c74-a580-cc38d5060eb8"/>Sie schreiben: „<quote source="#59519" xml:id="uuid_92626e0c-2ac3-4be7-a1c4-87308a277c95">Zu dem <rs ref="#59521" type="work" subtype="pmb">unter obigen Titel Mitte<lb xml:id="uuid_9122caf9-a669-4762-9fc0-f44488083b59"/>Oktober in der
+                        ‚Zeitschau‘ erschienen Artikel</rs> erhielten wir<lb xml:id="uuid_c8667b7c-602a-46a9-a900-04fcfb4f6a9a"/>eine <rs type="work">Zuschrift des Herrn Dr. <rs ref="#38909" type="person">Oskar
+                        Samek</rs></rs>, im Namen<lb xml:id="uuid_18c372c1-0948-467a-b536-64f9a965c721"/>seines Mandanten Herrn
+                        <rs ref="#11988" type="person">Karl Kraus</rs>, in der behauptet wird,<lb xml:id="uuid_2d121c8e-7988-414d-8b03-b7a5ea3e2260"/>unser <rs ref="#59521" type="work" subtype="pmb">Aufsatz</rs> hätte viele Unrichtigkeiten
+                    enthalten. Ohne<lb xml:id="uuid_e5ac24be-6cae-44af-ba0d-1bbea70a3dae"/>gesetzlich dazu verpflichtet die <rs type="work">Zuschrift</rs>, um deren
+                        Publi<lb break="no" xml:id="uuid_34c4e3cc-4d0a-4c56-b652-8e07714ad233"/>zierung gebeten wird, zu veröffentlichen, kommen wir dem<lb xml:id="uuid_026e5dfa-f1b2-4880-8b48-2ceacfae89d7"/>Wunsche des <rs ref="#11988" type="person">Herrn Kraus</rs>, den er uns durch seinen <rs ref="#38909" type="person">Anwalt</rs>
+               <lb xml:id="uuid_3d2ea600-0b49-481c-8a7c-a24555e0805d"/>übermittelte, nach, da
+                    wir die verschiedensten Ansichten in<lb xml:id="uuid_367a8c25-efc5-4a9d-af10-ffdbff0b377c"/>unserer <rs ref="#59515" type="work" subtype="pmb">Zeitschrift</rs> zu Worte kommen lassen.</quote>“ </p>
+         <p xml:id="uuid_8728724b-4996-4acd-9628-e3b93dba56df">
+            <lb xml:id="uuid_9ed13593-54d4-4890-b3ac-5204ff42bb65"/>Es ist unwahr, dass Herr <rs
+               ref="#11988" type="person">Karl Kraus</rs> durch Dr. <rs ref="#38909" type="person"
+                  >Oskar<lb xml:id="uuid_ff1118c0-ca3b-49ae-8d1f-9cf21c959131"/>Samek</rs> an Sie
+            eine Zuschrift richtete, die Sie veröffent<lb break="no"
+               xml:id="uuid_1d7b41ef-3272-4e90-aaf4-ae93e1e893e5"/>lichten, da Sie die
+            verschiedensten Ansichten in Ihrer<lb xml:id="uuid_ccd89ffa-db78-41b9-a19d-954ecb77da98"
+               /><rs ref="#59515" type="work" subtype="pmb">Zeitschrift</rs> zu Worte kommen lassen.
+            Wahr ist, dass <rs ref="#38909" type="person">Herr<lb
+                  xml:id="uuid_7b17eb58-58a6-4883-bc3e-079da36fb154"/>Dr. Samek</rs> als Vertreter
+            des Herrn <rs ref="#11988" type="person">Karl Kraus</rs> an Sie eine<lb
+               xml:id="uuid_9f443bc3-1f49-4095-86bb-95534d6472dc"/>Aufforderung richtete,
+            Unrichtigkeiten richtigzustellen,<lb xml:id="uuid_884ae5b6-7691-403b-a0a0-8cdb5382571c"
+            />widrigenfalls er beauftragt wäre, Sie in formeller Weise<lb
+               xml:id="uuid_08798b03-8968-4605-8400-3d9597d16fa2"/>zur Berichtigung aufzufordern,
+            und eventuell auch eine<lb xml:id="uuid_d3c1915d-0c01-40f3-9447-a051c3d8fcd2"
+            />Widerrufs- und Ehrenbeleidigungsklage einzubringen. Es ist<lb
+               xml:id="uuid_5576b9ed-597a-45b8-b0ee-c535562b7c19"/>unwahr, dass die <rs type="work"
+               >eingesendete Aufforderung</rs> eine Widerlegung<lb
+               xml:id="uuid_1ae8db66-1ff9-4ab4-98da-c47d44b43ba2"/>von Ansichten, wahr ist vielmehr,
+            dass sie eine Richtig<lb break="no" xml:id="uuid_fcc82a58-3196-4f70-9248-29ba0301a0a6"
+            />stellung von behaupteten Tatsachen enthielt. </p>
+         <p xml:id="uuid_dadc15ee-a38e-434d-9a4e-70ba42f1076c">
+            <lb xml:id="uuid_3d0d64ba-e13a-4528-81e6-8ca65ea56d36"/>Hochachtungsvoll </p>
+         <p xml:id="uuid_7da14ae6-a66f-4b05-9006-ca3bddf26211">
+            <lb xml:id="uuid_be785bda-34df-4c40-b516-6a3fbc01b190"/>Rekommandiert<lb
+               xml:id="uuid_5d788a49-b84b-4221-9176-855d82dc947f"/>mit <rs type="work"
+               subtype="legal-doc">Rückschein</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

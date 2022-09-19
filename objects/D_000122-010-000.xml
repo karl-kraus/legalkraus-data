@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000122-011-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000122-009-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000122-010-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Botho Laserstein an Samek</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000122-010-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3340</idno>
+            <idno subtype="transkribus" type="ID">192710</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000122" type="collection">Karl
+                    Kraus ca. Vossische Zeitung</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000122-010-000-facs001" xml:id="D_000122-010-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000122-010-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-06-26">26. Juni 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38969">Dr.jur. Botho Laserstein | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#51751">Landsberger Allee 55</street>
+                  <settlement ref="#168">Berlin NO 18</settlement>
+               </address>
+               <date when-iso="1929-06-26">26. Juni 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Oscar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000122-010-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000122-010-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2021-07-27" who="#IL"/>
+         <change type="structure" when-iso="2021-07-27" who="#IL"/>
+         <change type="references" when-iso="2021-07-27" who="#IL"/>
+         <change type="typography" when-iso="2021-07-27" who="#IL"/>
+         <change type="intertexts" when-iso="2021-07-27" who="#IL"/>
+         <change when-iso="2020-10-08T13:07:27.467Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T13:10:22.471Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 192710. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000122-010-000-facs001">
+      <surfaceGrp xml:id="D_000122-010-000-facs001-l001">
+         <surface type="recto" xml:id="D_000122-010-000-facs001-l001-p001">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556494/full/full/0/default.jpg"/>
+         </surface>
+         <surface type="verso" xml:id="D_000122-010-000-facs001-l001-p002">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556495/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000122-010-000_p001"
+             facs="#D_000122-010-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_f91ac3b8-15f0-4c54-8037-6fbfeb615647">
+            <lb xml:id="uuid_84523ad0-4ccf-440f-bf4a-84b271ac8f43"/>Sehr geehrter Herr <rs ref="#38909" type="person">Kollege</rs>, </p>
+         <p xml:id="uuid_a8de2c95-84da-4c40-8b10-000be88da794">
+            <lb xml:id="uuid_ac3f6d4d-040a-49c7-b9f6-16d9a16297be"/>gemäß Ihrem im <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000122-009-000"
+                type="work"
+                subtype="legal-doc">Schreiben</rs> vom 13. Juni 1929 ausgespro<lb break="no" xml:id="uuid_0048ffc1-a94c-48a1-a388-29b84e47a1fe"/>chenem Wunsche übersende ich
+                Ihnen in der Anlage den <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000122-011-000"
+                type="work"
+                subtype="legal-doc">Ent<lb break="no" xml:id="uuid_b3bce0d6-7fc9-4362-a60c-c1e9c2ede159"/>wurf</rs> einer Anzeige
+                an die <rs ref="#36830" type="institution">Staatsanwaltschaft</rs>. Ich halte es<lb xml:id="uuid_23f78d7e-2f7d-4684-a0e1-691882c41c83"/>für richtig, diese Anzeige
+                nunmehr loszulassen. </p>
+         <p xml:id="uuid_e83fb676-9c99-47ab-904e-a53370aafd58">
+            <lb xml:id="uuid_a39d07fb-ca0b-4692-b837-08f4dd78b9a7"/>Das Berichtigungsersuchen bedarf
+            nach deutschem Rechte<lb xml:id="uuid_8560e0eb-f388-4416-9818-2b906dc3a994"/>keiner
+            Form, es kann mündlich, wie telegrafisch übermittelt<lb
+               xml:id="uuid_24a001f7-2496-4e1a-9b53-049042c46867"/>an die Adresse des
+            verantwortlichen Redakteurs, der Redak<lb break="no"
+               xml:id="uuid_53fb8024-26af-4e9b-926b-1332989878b7"/>tion, der Zeitung, des
+            Chefredakteurs oder des Verlegers<lb xml:id="uuid_790f2e48-106f-4e24-b99d-09f293358644"
+            />gerichtet werden. Es kommt nur darauf an, daß das Ersuchen<lb
+               xml:id="uuid_bf279beb-15dd-4c2c-a365-c908249fa628"/>dem verantwortlichen Redakteur
+            zugeht. Es genügt also<lb xml:id="uuid_4ce0424f-9c95-42ae-be40-72bd59074463"/>völlig die
+            Berichtigung an den verantwortlichen Redakteur<lb
+               xml:id="uuid_66103df8-a21c-415f-ae7c-cf5bd8b78532"/>ohne Namensnennung zu
+            adressieren, zumal zur Berichtigung<lb
+               xml:id="uuid_d4453bc7-5b12-4133-8d06-7f3c03c29fda"/>nicht der verantwortliche
+            Redakteur der Nummer, in welcher<lb xml:id="uuid_747ea19d-0c25-4edf-ad6d-dd827f011415"
+            />die zu berichtigende Mitteilung gestanden hat, verpflichtet<lb
+               xml:id="uuid_1fa5002a-037f-4324-822a-95d7ad9e4055"/>ist, sondern der verantwortliche
+            Redakteur der Nummer, in<lb xml:id="uuid_b82ea0c6-4494-4f39-92f0-8dfa1927c3fc"/>welcher
+            die Berichtigungserklärung gemäß <rs type="law">§ 11 des Reichs-<lb 
+                  xml:id="uuid_c4f422cb-cde6-4bbe-989e-132a86b0bc47"/>Pressgesetzes</rs> zum Abdruck
+            gelangen muß. </p>
+         <p xml:id="uuid_0bd9eaef-b606-4a7c-b994-1aca9673f48f">
+            <lb xml:id="uuid_2575af27-b0f0-4ecb-9c18-f65a2dbd99f8"/>Als einen guten Kommentar zum
+            Pressgesetz kann ich <pb xml:id="D_000122-010-000_p002"
+               facs="#D_000122-010-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_c144aace-c1cb-430c-8d66-7d9c2e3d23dc"/>Ihnen empfehlen: <rs
+               ref="#53237" type="person">F. Kitzinger</rs>, <rs ref="#53238" type="work"
+               subtype="pmb">Das Reichsgesetz über die<lb
+                  xml:id="uuid_a1b5a89c-36fb-4409-876f-f95610473c9f"/>Presse</rs>, <rs ref="#49637"
+               type="place">Tübingen</rs> sowie den <rs ref="#57011" type="work" subtype="pmb"
+               >Kommentar</rs> von Dr.jur. <rs ref="#57006" type="person">Kurt<lb
+                  xml:id="uuid_41054c0b-022d-4327-a6f8-c6ca23e37712"/>Häntzschel</rs>, <rs
+               ref="#168" type="place">Berlin</rs>, <rs ref="#57012" type="institution">Karl
+               Heymann’s Verlag</rs>. Ausserdem<lb
+               xml:id="uuid_8b35a0a0-73c8-4258-8ab5-0dceb73d6788"/>weise ich auf die Dissertation
+            von <rs ref="#57016" type="person">Regensburger</rs> „<rs ref="#57017" type="work"
+               subtype="pmb">Die<lb xml:id="uuid_a50b1772-2f70-49a0-8792-02712c759bbf"
+               />pressgesetzliche Berichtigungspflicht</rs>“ <rs type="place" ref="#56120"
+               >Rostock</rs> 1911 hin. </p>
+         <p xml:id="uuid_cc595a8a-1a51-4ec6-a747-167cff1b5a7c">
+            <lb xml:id="uuid_48b23c49-ed0e-4332-89d8-b5547c39d3f6"/>Eine <rs ref="#57019" type="work" subtype="pmb">Nummer der Vossischen Zeitung</rs> vom 3. April
+                    1929<lb xml:id="uuid_7b95265d-0784-483e-ae45-11b1be960a25"/>geht Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> direkt
+                zu. </p>
+         <p xml:id="uuid_c3436447-254d-4d0a-b007-7cacb3e66968">
+            <lb xml:id="uuid_0898b987-5814-4a87-8909-5428084f5c71"/>In Beantwortung Ihres <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000122-009-000" type="work"
+               subtype="legal-doc">Schreibens</rs> vom 13. Juni d.Js.<lb
+               xml:id="uuid_a61ec8c5-69dc-45d1-b212-b166a59fff5e"/>wegen der Berichtigung im <rs
+               type="work" subtype="pmb" ref="#46493">Tagebuch</rs> teile ich Ihnen mit,<lb
+               xml:id="uuid_898145e0-04fa-40ba-afff-bad882862474"/>daß ich die fragliche <rs
+               type="work">Nummer</rs> noch nicht erhalten konnte,<lb
+               xml:id="uuid_58f6b6df-9b6c-4756-b908-4fbcf26016e4"/>sie aber so schnell wie möglich
+            besorgen werde. </p>
+         <p xml:id="uuid_afffbd7b-f33b-488e-9c13-94b115dd69a4">
+            <lb xml:id="uuid_ed1f0b89-5f27-4623-8a23-35bca2428184"/>Mit koll. Hochachtung<lb xml:id="uuid_9773a155-ba80-430f-8c97-d027244a4995"/>und frdl. Grüßen an Herrn
+                    <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>
+            <lb xml:id="uuid_5293c943-c827-42be-b6dc-fe9c8e7adf7b"/>Dr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38969" type="person">Laserstein</rs>
+            <lb xml:id="uuid_14df5a85-3e09-4740-b056-eb579ee14d85"/>Rechtsanwalt. </p>
+         <p xml:id="uuid_f00cf33b-c052-4db4-83bc-d336ac1c6e14">
+            <lb xml:id="uuid_b238b1ca-7798-4190-9a7a-c5a8913476aa"/><note type="paratext"
+               resp="law-firm"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29331"
+                  type="institution">Vossischen Ztg</rs><lb
+                  xml:id="uuid_4c3d1a21-23db-49ae-90a6-f7fc5b7e3e66"/>28. JUNI 1929</note></p>
+      </body>
+   </text>
+</TEI>

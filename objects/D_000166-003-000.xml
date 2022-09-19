@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000166-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-002-000.xml"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000166-004-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Botho Laserstein</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000166-003-000.xml</idno>
+            <idno type="URL" subtype="krausonline">https://www.kraus.wienbibliothek.at/content/brief-samek-ra-botho-laserstein-34 </idno>
+            <idno type="ID" subtype="transkribus">307004</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000166">Karl
+                    Kraus ca. Wochenschrift Die Fackel</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000166-003-000-wit01" facs="#D_000166-003-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000166-003-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-09-07">7. September 1931
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1931-09-07">7. September 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38969">Herrn | Dr. Botho Laserstein, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#51751">Landsberger Allee 115/116</street>
+                  <settlement ref="#168">Berlin, NO 18</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Wochenschrift Fackel.</note>
+               <note type="dictation">Dr.S/K</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000166-003-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000166-003-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2022-02-22" who="#IL"/>
+         <change type="intertexts" when-iso="2021-10-07" who="#IL"/>
+         <change type="structure" when-iso="2021-10-01" who="#IL"/>
+         <change type="references" when-iso="2021-10-11" who="#IL"/>
+         <change when-iso="2021-09-13" resp="#LU">created XML Document</change>
+         <change when-iso="2021-09-13" resp="#LU">Replaced Text with Transcription of Transkribus
+                Document 307004. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000166-003-000-facs001">
+      <surfaceGrp xml:id="D_000166-003-000-facs001-l001">
+         <surface xml:id="D_000166-003-000-facs001-l001-p001" type="recto">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542976/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000166-003-000-facs001-l001-p002" type="verso">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542977/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000166-003-000_p001"
+             facs="#D_000166-003-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_84362c93-d850-400f-af3b-78a2989cbc3d">
+            <lb xml:id="uuid_866c747f-39e9-4337-88ea-35073e1ec664"/>Sehr geehrter Herr <rs type="person" ref="#38969">Kollege</rs>! </p>
+         <p xml:id="uuid_4eac0dfc-deb7-40ca-b8f0-777a0df3c896">
+            <lb xml:id="uuid_145e5502-732c-477a-9fe8-fc1f2a3c5017"/>Ich bestätige Ihnen den Empfang
+            Ihres Telegramms:<lb xml:id="uuid_0c05210d-2449-4223-a4c8-962074c2f1b6"/>„<quote
+               xml:id="uuid_d9c4df30-e373-4314-94ce-36620b5366a3"
+               source="https://legalkraus.acdh.oeaw.ac.at/id/D_000166-001-000">Soeben erschien neue
+                  <rs type="institution" ref="#57953">spd</rs> wochenzeitung die <rs type="work"
+                  ref="#56336" subtype="pmb">fackel</rs> drahtet<lb
+                  xml:id="uuid_faf0ae96-bb8f-4a34-ad07-44f54e7f2d70"/>vollmacht erwirke einstweilige
+               verfügung rechtsanwalt <rs type="person" ref="#38969">laserstein</rs>.</quote>“ </p>
+         <p xml:id="uuid_56215c5f-e056-4611-8c08-24704294edb5">
+            <lb xml:id="uuid_c8bdd871-916f-408d-8cdf-64e0d42357a8"/>Ich teile Ihnen mit, dass
+                Herr <rs type="person" ref="#11988">Kraus</rs> nicht in<lb xml:id="uuid_3d30e47c-e2c9-4cd5-b8a1-a5c12a06e2db"/><rs type="place" ref="#50">Wien</rs> ist und ich, bevor ich Ihnen den Auftrag zur Klageführung<lb xml:id="uuid_80f56668-bb59-4577-b080-eca549302736"/>und Erwirkung der
+                einstweiligen Verfügung gebe, mit ihm gespro<lb xml:id="uuid_ac2d8059-c6ec-4d59-8458-247b7a13920e" break="no"/>chen haben will.
+                Um diese Rücksprache vorzubereiten, bitte ich Sie,<lb xml:id="uuid_73a99fd7-33ac-4201-ab37-cc8357b9c593"/>mir ein Exemplar der
+                gegenständlichen <rs type="work" ref="#56336" subtype="pmb">Wochenzeitung</rs>
+                einzusenden. </p>
+         <p xml:id="uuid_eda5bd3e-fc8d-41ce-922a-f5bdb4aec7bc">
+            <lb xml:id="uuid_86478a9a-d12e-4c15-aa90-e920586f5999"/>Mit vorzüglicher
+                    kollegialer<lb xml:id="uuid_09187704-c5e3-4148-adcb-3741406de263"/>Hochachtung<lb xml:id="uuid_4d6b5484-4d91-4c5d-8889-4f7617fb5173"/>und besten
+                Grüssen </p>
+         <pb xml:id="D_000166-003-000_p002"
+             facs="#D_000166-003-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_5a67ebb1-6944-4ac0-8ad7-2a6b54b8cfe8">
+            <lb xml:id="uuid_242a65b2-61b2-485f-bc48-d05e78b936db"/><note type="paratext" resp="law-firm"><rs type="person" ref="#11988">Kraus</rs> – <rs type="institution" ref="#37743">Wochenschrift Fackel</rs></note>
+         </p>
+      </body>
+   </text>
+</TEI>

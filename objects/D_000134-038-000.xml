@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-039-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-037-001.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000134-039-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Heinrich Fischer an Samek</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                  Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000134-038-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3720 </idno>
+            <idno type="ID" subtype="transkribus">437409</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000134">Paul
+                    Amadeus Pisk ca. Karl Kraus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000134-038-000-wit01" facs="#D_000134-038-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000134-039-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38133">Heinrich Fischer</persName>
+               <address>
+                  <street corresp="#52608">4a Am Schiffbauerdamm</street>
+                  <settlement ref="#168">BERLIN NW6</settlement>
+               </address>
+               <date when-iso="1930-11-20">20.11.30</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Dr. Oskar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I</settlement>
+               </address>
+               <date when-iso="1930-12-22">22. DEZ. 1930</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/> 
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-11-20">20. November 1930
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000134-039-000-wit01">Protokoll</term>
+            </keywords>
+            <classCode source="D_000134-039-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.PKL">D.J.PKL</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-10-08T13:51:01.257Z" who="#IB" status="draft">created by API </change>
+         <change when-iso="2021-09-06" who="#LU" status="draft">Replaced Text with Transcription
+                of Transkribus Document 437409. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2022-02-12"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2022-02-12"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2022-02-12"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-02-12" who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2022-02-12"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000134-039-000-facs001">
+      <surfaceGrp xml:id="D_000134-039-000-facs001-l001">
+         <surface xml:id="D_000134-039-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558413/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000134-039-000-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558414/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000134-039-000_p001"
+             n="1"
+             facs="#D_000134-039-000-facs001-l001-p001"/>
+         <p xml:id="uuid_df039e06-9e4c-4b8f-9382-e2f525668a2a">
+            <lb xml:id="uuid_8cc24614-dfb5-49bc-8d23-4ad6eaaad377"/>Sehr geehrter Herr <rs type="person" ref="#38909">Doktor</rs>! </p>
+         <p xml:id="uuid_6d39b966-a8d4-4a13-95d0-9fc783aca3dd">
+            <lb xml:id="uuid_e9fb1490-56d4-4f3f-86cd-8b95a4b2ef11"/>Ihren freundlichen <rs type="work">Brief</rs> vom 11. cr. finde ich erst<lb xml:id="uuid_2b3e9a34-cd06-4cad-b238-84dacd5c3b38"/>heute, nach der Rückkehr von
+                einer Urlaubsreise, vor. Ich werde Montag<lb xml:id="uuid_512ee23f-b90c-4692-aeca-b6455cb495a2"/>die betreffenden Nummern
+                besorgen und Ihnen dann express zusenden. </p>
+         <p xml:id="uuid_b7ade3c3-f1e5-4eae-8cf3-b8fc61bd95ca">
+            <lb xml:id="uuid_4ce61dae-8be8-463a-b10e-62cb4c0bfd78"/>Mit den ergebensten
+                    Grüssen<lb xml:id="uuid_cf47abf3-210c-408c-8785-fa4f360cd2c8"/>Ihr<lb xml:id="uuid_bba32dac-5651-401b-85bf-c6bf1f1a1022"/><rs type="person" ref="#38133">Heinrich Fischer</rs>
+         </p>
+         <pb xml:id="D_000134-039-000_p002"
+             n="2"
+             facs="#D_000134-039-000-facs001-l001-p002"/>
+         <p xml:id="uuid_e06e4fbc-5dba-4b1d-8400-3b183e3cf0f8">
+            <lb xml:id="uuid_c4938520-49b1-4768-a80a-3eb97682b57f"/><note type="paratext"
+               resp="law-firm"><rs type="person" ref="#11988">Kraus</rs> – Dr. <rs type="person"
+                  ref="#39325">Pisk</rs>
+               <lb xml:id="uuid_339fd3b3-1f56-4aae-8f18-ff09efee96a4"/>22. DEZ. 1930</note></p>
+      </body>
+   </text>
+</TEI>

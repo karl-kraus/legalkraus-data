@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-023-001.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-022-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000125-023-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Bücherstube und Antiquariat Walter Schatzki an Verlag Die Fackel</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000125-023-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3388</idno>
+            <idno subtype="transkribus" type="ID">272012</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000125" type="collection">Karl
+                    Kraus ca. Frankfurter Städtisches Schauspielhaus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000125-023-000-facs001" xml:id="D_000125-023-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000125-023-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#37070">BÜCHERSTUBE UND ANTIQUARIAT | WALTER SCHATZKI</orgName>
+               <address>
+                  <street corresp="">BÖRSENSTRASSE 2–4</street>
+                  <settlement ref="#146">FRANKFURT A.M. 1</settlement>
+               </address>
+               <date when-iso="1930-01-22">22. Januar 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#43724">den | Verlag „Die Fackel“</orgName>
+               <address>
+                  <street corresp="#50496">Hintere Zollamtsstr. 3</street>
+                  <settlement ref="#53">Wien III</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Sch./M.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-01-22">22. Januar 1930
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000125-023-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000125-023-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-07-22" who="#JK"/>
+         <change type="typography" when-iso="2021-07-22" who="#JK"/>
+         <change type="references" when-iso="2021-07-22" who="#JK"/>
+         <change type="structure" when-iso="2021-07-22" who="#JK"/>
+         <change resp="#IB" when-iso="2021-04-12T08:48:16.719Z">created by API</change>
+         <change resp="#IB" when-iso="2021-04-12T08:48:54.277Z">Replaced Text with Transcription
+                of Transkribus Document 272012. </change>
+         <change resp="#IB" when-iso="2021-04-12T09:33:15.878Z">Replaced Text with Transcription
+                of Transkribus Document 272012. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000125-023-000-facs001">
+      <surfaceGrp xml:id="D_000125-023-000-facs001-l001">
+         <surface type="recto" xml:id="D_000125-023-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556766/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000125-023-000-facs001-l002">
+         <surface type="recto" xml:id="D_000125-023-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556768/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000125-023-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556769/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000125-023-000_p001"
+             facs="#D_000125-023-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_e0ec1ec2-b17e-4c72-a8d8-f4644b8e5af9">
+            <lb xml:id="uuid_63dbb2ef-83d7-4df5-8fe0-2209d73a3ca8"/>Ich danke Ihnen für ihr <rs type="work">Schreiben<lb xml:id="uuid_cf1aefc1-5241-42b3-b15b-22400f66ef36"/>vom
+                    7. d.M.</rs> und teile Ihnen mit, dass ich<lb xml:id="uuid_2f3a48b0-7f41-4f21-a176-856b716af1f7"/>Ihnen den definitiven
+                Bescheid bezüglich des<lb xml:id="uuid_18af9fe0-edf6-4b75-93dc-2b814ba4c743"/>Vortrages von Herrn <rs ref="#11988" type="person">Karl Kraus</rs> erst geben
+                    kann,<lb xml:id="uuid_c5d7d042-d717-4fb8-93af-652516f69b3e"/>wenn der Termin der
+                Uraufführung feststeht. Ich<lb xml:id="uuid_412df94e-2fc4-48e3-af1c-83c693e4e5df"/>werde also, sobald ich eine entsprechende Mit<lb break="no" xml:id="uuid_0499ce62-eea5-452e-b3b7-6521887ef71e"/>teilung vom hiesigen <rs ref="#34987" type="institution">Schauspielhaus</rs> erhalten<lb xml:id="uuid_8ec6d847-efe4-4e05-abb2-a29dd3e69a8f"/>habe, wieder an Sie
+                schreiben. </p>
+         <p xml:id="uuid_20dcdc4a-b41f-41d4-9da8-1d5b7bd25228">
+            <lb xml:id="uuid_20e3f8fe-29aa-468a-9769-96e75e90c980"/>Hochachtungsvoll<lb
+               xml:id="uuid_da77fdce-1653-456d-9b41-3abd24974938"/>[<rs type="person"
+               >Unterschrift</rs>] </p>
+         <p xml:id="uuid_3577a10a-5912-49cc-ad6b-a3aee6c16131">
+            <lb xml:id="uuid_2d7d76ea-77f4-4ed4-8815-2a6b4ba96c1e"/><note resp="law-firm"
+               type="paratext"><rs ref="#11988" type="person">Kraus</rs><lb
+                  xml:id="uuid_d53cedbd-047c-4bd3-92d3-0aa557b52af2"/><rs ref="#34987"
+                  type="institution">städt. Bühnen</rs></note>
+         </p>
+      </body>
+   </text>
+</TEI>

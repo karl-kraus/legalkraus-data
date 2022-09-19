@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000096-002-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000095-003-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000096-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Verlag Die Fackel an Redaktion der Arbeiter-Zeitung</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000096-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2920</idno>
+            <idno subtype="transkribus" type="ID">420047</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000096" type="collection">Karl
+                    Kraus ca. Arbeiter-Zeitung</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000096-001-000-facs001" xml:id="D_000096-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000096-001-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-10-17">17. Oktober
+                    1927</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#43724">Verlag Die Fackel</orgName>
+               <address>
+                  <street corresp="#50496"/>
+                  <settlement ref="#53">Wien</settlement>
+               </address>
+               <date when-iso="1927-10-17">17. Oktober 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#29644">die | Redaktion der Arbeiterzeitung</persName>
+               <address>
+                  <street corresp="#46201">Rechte Wienzeile 97</street>
+                  <settlement ref="#55">Wien V.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000096-001-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000096-001-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="typography" when-iso="2021-04-20" who="#IL"/>
+         <change type="header_facsimile" when-iso="2022-02-08" who="#IL"/>
+         <change type="intertexts" when-iso="2021-04-20" who="#IL"/>
+         <change type="references" when-iso="2021-04-20" who="#IL"/>
+         <change type="structure" when-iso="2021-04-19" who="#IL"/>
+         <change type="header_facsimile"
+                 when-iso="2020-10-08T12:23:16.396Z"
+                 who="#IB">created by
+                API </change>
+         <change when-iso="2020-10-08T12:23:49.221Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 420047. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000096-001-000-facs001">
+      <surfaceGrp xml:id="D_000096-001-000-facs001-l001">
+         <surface xml:id="D_000096-001-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554656/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000096-001-000-facs001-l001-p002" type="verso">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554657/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000096-001-000_p001"
+             facs="#D_000096-001-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_12a7e787-a43d-4d75-904d-ee824a9c6bf4">
+            <lb xml:id="uuid_50866d40-61d3-4bbc-be06-4ff4863b56ca"/><hi rend="underlined"><hi
+                  rend="spaced">Abschrif</hi>t</hi>
+         </p>
+         <p xml:id="uuid_70ecee7f-ba83-44f6-8a6d-96fd827d6b8d">
+            <lb xml:id="uuid_0d08c269-de47-469f-8b6b-bb94e40357a6"/>Sie hatten am 15. Oktober
+            geschrieben: „<quote source="#53930" xml:id="uuid_1dbebd55-da4f-450e-8e08-9e403a17dd02"
+               >Daß <rs ref="https://pmb.acdh.oeaw.ac.at/entity/2601" type="person">Jarno</rs> einer
+                  der<lb xml:id="uuid_f2b32e67-933e-44d9-9c83-a5b71ebde5ac"/>wenigen
+               Theaterdirektoren ist, die ein <rs ref="#12338" type="person">Nestroy</rs>-Stück gut
+                  heraus<lb break="no" xml:id="uuid_c119c26b-5251-44ea-bc01-622740f1be5d"/>bringen
+               können, bewies er ja durch die Aufführungen von ‚<rs ref="#53926" type="work"
+                  subtype="pmb">Eine Wohnung<lb xml:id="uuid_0588ed47-3091-4e61-a303-7385b28cd881"
+                  />zu vermieten</rs> ‘ im <rs ref="#37242" type="institution">Lustspieltheater</rs>
+               und ‚<rs ref="#53924" type="work" subtype="pmb">Kampl</rs>‘ in der <rs ref="#37126"
+                  type="institution">Renaissance<lb break="no"
+                     xml:id="uuid_695fb0af-d704-42ef-8d41-720ccf536d99"/>bühne</rs></quote>“. Dieser
+            Bemerkung haben Sie nun am 16. Oktober in der Absicht,<lb
+               xml:id="uuid_a3ba16b6-0330-4738-afae-74788027c863"/>sie richtigzustellen, die
+            Mitteilung folgen lassen, daß die Auffüh<lb break="no"
+               xml:id="uuid_6473e638-fed6-46dc-9037-e20bf192a5e7"/>rung von „<rs ref="#53926"
+               type="work" subtype="pmb">Eine Wohnung zu vermieten</rs>“ während des Musik- und
+               Theater<lb break="no" xml:id="uuid_30477c3a-e4f9-4110-b943-89c03bb72a5a"/>festes der
+            Stadt <rs ref="#50" type="place">Wien</rs> unter der Direktion <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/2601" type="person">Josef Jarno</rs> „<quote
+               source="#53934" xml:id="uuid_50413a0c-c7f3-43eb-ac30-77309a592886">in der Bear<lb
+                  break="no" xml:id="uuid_e924f062-5357-4c8d-829a-63f03f1873f7"/>beitung und
+               Inszenierung von <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Karl Kraus</rs></quote>“ stattgefunden habe. Diese<lb
+               xml:id="uuid_c1770d04-8ea8-4ee0-89a8-9bdb17413c84"/>Mitteilung beruht auf einem
+            Irrtum. Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+               Kraus</rs> hat diese<lb xml:id="uuid_15626721-2377-4fc1-a75a-7f44634a615b"/><rs
+               ref="#12338" type="person">Nestroy</rs>’sche <rs ref="#53926" type="work"
+               subtype="pmb">Posse</rs> nicht bearbeitet, sondern stets aus dem Original<lb
+               xml:id="uuid_f4360b5c-ebc4-4ab7-bed0-499150ea34ac"/>vorgelesen, und er hat an der
+            Inszenierung, die tatsächlich von<lb xml:id="uuid_516fa82b-5b2c-44a5-912f-fbcfeab6bd99"
+            />Direktor <rs ref="https://pmb.acdh.oeaw.ac.at/entity/2601" type="person">Jarno</rs>
+            besorgt wurde, keinen größeren Anteil als den einiger<lb
+               xml:id="uuid_e2c2cf69-51f7-47ab-aadc-668c65adb92c"/>Ratschläge, die er bei den
+            letzten Proben erteilt hat. </p>
+         <p xml:id="uuid_2fe0e220-d0ce-4aad-885f-85d2a3a0f25a">
+            <lb xml:id="uuid_f2ad4d48-892c-4e37-8cd9-c3774821580e"/>Mit vorzüglicher
+                    Hochachtung<lb xml:id="uuid_da2c0dbb-fa37-446f-8bc8-bf20496fb870"/><rs ref="#43724" type="institution">Verlag „Die Fackel“</rs>
+         </p>
+         <pb xml:id="D_000096-001-000_p002"
+             facs="#D_000096-001-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_248e3ae0-d65c-430f-9938-596bcb8170b1">
+            <lb xml:id="uuid_8b36c73a-1d2d-49eb-8866-b52f49a8c12c"/><note type="paratext"
+               resp="law-firm"><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  >Kraus</rs> – <rs type="institution" ref="#29644">A.Z.</rs></note></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-028-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-026-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000176-027-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Otto Elias</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                  Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000176-027-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4377</idno>
+            <idno subtype="transkribus" type="ID">349113</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000176" type="collection">Karl
+                    Kraus ca. Städtische Bühnen Essen</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000176-027-000-facs001" xml:id="D_000176-027-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000176-027-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-07-06">6. Juli 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51"/> 
+               </address>
+               <date when-iso="1932-07-06">6. Juli 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38103">Herrn | Dr. Otto Elias, | Notar</persName>
+               <address>
+                  <street corresp="#60424">Hansastrasse 50</street>
+                  <settlement ref="#915">Dortmund</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Essener städt. | Bühnen</note>
+               <note type="dictation">Dr.S./Be.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000176-027-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000176-027-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-07" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-10-27" who="#IL"/>
+         <change type="structure" when-iso="2021-10-01" who="#IL"/>
+         <change type="references" when-iso="2021-10-11" who="#IL"/>
+         <change type="typography" when-iso="021-10-19" who="#IL"/>
+         <change status="draft" when-iso="2020-10-09T14:32:15.76Z" who="#IB">created by API </change>
+         <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
+                Document 349113. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000176-027-000-facs001">
+      <surfaceGrp xml:id="D_000176-027-000-facs001-l001">
+         <surface type="recto" xml:id="D_000176-027-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543825/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000176-027-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543826/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000176-027-000_p001"
+             facs="#D_000176-027-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_41bd6cd2-25a4-4e6a-9f43-4b37ba98f4a2">
+            <lb xml:id="uuid_b64a6c10-688a-4aba-a515-eb9513bce6ba"/>Sehr geehrter Herr <rs
+               ref="#38103" type="person">Kollege</rs>! </p>
+         <p xml:id="uuid_4d9a8876-5dc8-42fe-871a-36de39705e95">
+            <lb xml:id="uuid_dd821de4-15e2-423e-9720-3db3339494de"/>Ihr <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-024-000"
+                type="work"
+                subtype="legal-doc">Schreiben</rs> vom 27. Juni 1932 habe ich bis heute<lb xml:id="uuid_f9db64bb-eb56-4981-9ce8-55caf37abb90"/>nicht beantwortet, weil ich
+                es dem verreisten Herrn <rs ref="#11988" type="person">Kraus</rs>
+            <lb xml:id="uuid_e4a2614f-1fb6-4b60-9e14-d6ca1fbd9c89"/>nachsenden musste und seine
+                Meinung einholen wollte. Er<lb xml:id="uuid_bb16d781-1f4d-4e23-b24c-29177c938597"/>wünscht die Angelegenheit nach seiner Rückkehr, die in ein<lb xml:id="uuid_e0a62ce1-566f-423e-8f29-4cc3cc4d0c40"/>paar Tagen erfolgen wird,
+                genauer mit mir zu besprechen,<lb xml:id="uuid_f7acef21-5aa0-43b1-a5e6-f408c6caf72a"/>weshalb ich Sie bitte, mir bekanntzugeben, bis zu welchem<lb xml:id="uuid_31629bec-2c5f-4740-b626-83390fb0dcbb"/>Termine Sie äusserstens im
+                Besitze der Weisung sein müssen,<lb xml:id="uuid_d070784d-28dd-4a02-9450-ac806f84b4a5"/>ob Sie die Privatanklage
+                einbringen sollen oder nicht. </p>
+         <p xml:id="uuid_395a620d-f6f7-4fe4-9b81-a75b99ad57d2">
+            <lb xml:id="uuid_aa35f556-6daa-4c36-a8b0-89b20aea33c0"/>Ich zeichne mit kollegialer
+                Hochachtung </p>
+         <pb xml:id="D_000176-027-000_p002"
+             facs="#D_000176-027-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_e02be1ff-cffc-4119-983b-10185c6cecb9">
+            <lb xml:id="uuid_9bcdb0e8-6979-436c-b8f8-40cfff314ac8"/><note type="paratext"
+               resp="law-firm"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37029"
+                  type="institution">Essener städt. Bühnen</rs>.<lb
+                  xml:id="uuid_fabbd7e3-3366-49f9-af45-4d3a23d0a4a3"/>exp. 6.VII.1932</note></p>
+      </body>
+   </text>
+</TEI>

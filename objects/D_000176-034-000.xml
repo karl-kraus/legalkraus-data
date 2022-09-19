@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-035-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-033-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000176-034-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Otto Elias an Samek</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000176-034-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/4384</idno>
+            <idno subtype="transkribus" type="ID">349120</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000176" type="collection">Karl Kraus
+               ca. Städtische Bühnen Essen</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000176-034-000-facs001" xml:id="D_000176-034-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000176-034-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T"
+                        >Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-08-04">4. August 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38103">Dr.jur. Elias | Notar</persName>
+               <address>
+                  <street corresp="#60424">Hansastr. 50 II</street>
+                  <settlement ref="#915">Dortmund</settlement>
+               </address>
+               <date when-iso="1932-08-04">den 4. August 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Rechtsanwalt Dr. Oskar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">S/II.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000176-034-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000176-034-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-07" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-10-27" who="#IL"/>
+         <change type="structure" when-iso="2021-10-01" who="#IL"/>
+         <change type="references" when-iso="2021-10-11" who="#IL"/>
+         <change type="typography" when-iso="021-10-19" who="#IL"/>
+         <change status="draft" when-iso="2020-10-09T14:32:15.76Z" who="#IB">created by API </change>
+         <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
+            Document 349120. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000176-034-000-facs001">
+      <surfaceGrp xml:id="D_000176-034-000-facs001-l001">
+         <surface type="recto" xml:id="D_000176-034-000-facs001-l001-p001">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543848/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000176-034-000-facs001-l001-p002">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543849/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000176-034-000_p001" facs="#D_000176-034-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_b4c4103c-775b-4bdd-aa1f-b4c3cd2d29c8">
+            <lb xml:id="uuid_6a726e2b-4ee3-4b1f-b7ce-36ac2ed53f6c"/>Sehr geehrter Herr <rs
+               ref="#38909" type="person">Kollege</rs>! </p>
+         <p xml:id="uuid_20b3e0a4-eb6d-4657-9775-a181f3b88804">
+            <lb xml:id="uuid_898edb64-b2af-4866-b9ab-171cc400e598"/>In Sachen des Herrn <rs
+               ref="#11988" type="person">Karl Kraus</rs> gegen Stadt <rs ref="#49970" type="place"
+               >Essen</rs> dürfen wir<lb xml:id="uuid_7d8ea2da-2261-4599-8ebd-db5bee4097d8"/>jetzt
+            davon ausgehen, dass der <rs type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-015-000">Vertrag</rs> formell in
+            Ordnung geht.</p>
+         <p xml:id="uuid_b2eda3fc-27e7-4f40-ba6f-0064f2b8fff7"><lb
+               xml:id="uuid_54037d6a-f1e5-49bd-88a2-d058c44c8328"/>Nun handelt es sich um die Frage,
+               ob<lb xml:id="uuid_e1b57bf6-3f9e-4a08-aa68-3dae5a27a8a1"/>1.) dem Strafverfahren
+            Fortgang gegeben werden soll,<lb xml:id="uuid_84c6df21-b5fe-417f-8912-49f75ecfa0aa"/>2.)
+            der Civilprozess einzuleiten wäre. </p>
+         <p xml:id="uuid_8d277c09-e737-4932-ba97-82659b74519c">
+            <lb xml:id="uuid_625dbd6a-f6d5-4cf0-aa84-2045af92932e"/>Zu 1) verweise ich auf meinen –
+            vor Abgang der Strafanzeige an<lb xml:id="uuid_6b401cf2-432d-431d-a4e1-6bbb7e5e66e8"
+            />Sie gegangenen – <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-016-000"
+               type="work" subtype="legal-doc">Brief</rs> vom 30.5., worin ich meiner Auffassung
+               dahin<lb xml:id="uuid_6582c0e2-4b09-4447-8f64-a5dad312231c"/>Ausdruck gab, es werde
+               „<quote source="https://legalkraus.acdh.oeaw.ac.at/id/D_000176-016-000"
+               xml:id="uuid_54fe8845-4211-4380-8676-cde6fe835cc9">die <rs ref="#36852"
+                  type="institution">Essener Staatsanwaltschaft</rs> aus mehreren<lb
+                  xml:id="uuid_57fcf924-277e-4b52-97af-be4fc9a893e3"/>Gründen von der Strafanzeige
+               nicht gerade entzückt sein</quote>“. </p>
+         <p xml:id="uuid_115384a6-e5d7-4f2a-9824-1184381280b8">
+            <lb xml:id="uuid_7ea90450-7aca-401d-93a3-430a0c798eb3"/>Trotzdem hatte ich nicht
+            geglaubt, dass sie den Mut aufbringen<lb
+               xml:id="uuid_a071e952-e18c-4c40-94f5-2bd057f6df4c"/>werde, ohne jede Beweiserhebung
+            einfach auf den Weg der Privatklage<lb
+               xml:id="uuid_11fe5f24-5305-4422-9bd0-f80fe614f025"/>zu verweisen.</p>
+         <p xml:id="uuid_60049cc6-5f15-48a4-9e7c-4f3c6ef0569e">
+            <lb xml:id="uuid_30e9586a-7836-4d57-b6d6-0cb7bfe86230"/>Führen wir die Beschwerde an den
+            Generalstaatsanwalt durch<lb xml:id="uuid_4edb9e7d-e33d-458d-a0b8-d827311e6f6a"/>– seit
+            Kriegsverlust haben wir unzählige Beamte und kaufmännisch<lb
+               xml:id="uuid_1dc9bd08-8fd7-428e-a014-4625cb3687b0"/>tätige höhere Angestellte mit dem
+            Zusatz „General“, teils mit, teils<lb xml:id="uuid_1e7cd1be-df26-4247-98b7-6a55f7df2cca"
+            />ohne Gehaltszulage, beglückt – und lehnt der Generalstaatsanwalt<lb
+               xml:id="uuid_236461ce-664b-47d6-aa21-9899a8163cc5"/>das sogenannte Offizial-Verfahren
+            ebenfalls ab, dann bliebe Herrn<lb xml:id="uuid_0dd0ae4f-22c7-4438-a47b-435753ada24a"
+               /><rs ref="#11988" type="person">Kraus</rs> immer noch die Möglichkeit, den – m.E.
+            ihm bestimmt zustehenden<lb xml:id="uuid_d7b23818-8c7c-4054-bd1a-d13e0033433f"
+            />Strafanspruch durch Durchführung des Privatklageverfahrens zu <pb
+               xml:id="D_000176-034-000_p002" facs="#D_000176-034-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_71a0a6cb-eb5d-44c5-9fff-e1278b901543"/>verwirklichen. </p>
+         <p xml:id="uuid_7b516929-749b-42b7-b9b3-2a50d3ff6e53">
+            <lb xml:id="uuid_85c9a2fa-8ca6-47e7-a419-1e826cff670f"/>Denn man kann hier doch nicht
+            ohne weiteres diese vielen<lb xml:id="uuid_97f04413-92df-4067-ac4c-803e7107db08"
+            />Änderungen als gesetzlich oder auch nur vermutlich statthaft<lb
+               xml:id="uuid_5a411c29-ee79-4e23-8db0-cf01f28d417d"/>bezeichnen. </p>
+         <p xml:id="uuid_4050ad2f-c674-4d62-844c-7f19f9ea4d26">
+            <lb xml:id="uuid_6bfa8b52-8ecd-458f-963c-91e7d5a7ab0e"/>Zu 2.) bleibt davon auszugehen,
+            dass es sich bei diesem <rs type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-015-000">Auf<lb break="no"
+                  xml:id="uuid_7559614d-cdfd-4e4a-86c0-32731bcce126"/>führungsvertrag</rs> um einen
+            Vertrag eigener Art handelt, so wie das<lb
+               xml:id="uuid_acf44d98-6e8b-41b7-8946-7e5bb2dd280d"/><rs ref="#52830"
+               type="institution">Reichsgericht</rs> in <rs type="work">Band III S. 51</rs> das des
+            Nähern ausgeführt hat.</p>
+         <p xml:id="uuid_f6fd3bd6-3065-4fbe-b6ab-39d2cca6aee5">
+            <lb xml:id="uuid_b970061d-2579-43c3-81da-a068bf878848"/>Die Hauptleistung für <rs
+               ref="#49970" type="place">Essen</rs> war wohl die Aufführungspflicht<lb
+               xml:id="uuid_51aee6ae-87ab-4870-84cc-3487d4fcd2c4"/>(weshalb schon die Natur des <rs
+               type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-015-000">Vertrages</rs> als eines
+               Pachtvertrages<lb xml:id="uuid_63012a8d-fbb8-4f52-8b6b-3ec3fb85f814"/>verneint werden
+            musste). Wenn die Pflicht zur weiteren Aufführung<lb
+               xml:id="uuid_26533048-30bf-4fa1-907b-bc44c90cc020"/>gesetzwidrig verletzt wurde – und
+            dieser Auffassung neige ich zu –<lb xml:id="uuid_69759c34-62b1-497e-935d-578fdd4f881d"
+            />dann hätte Herr <rs ref="#11988" type="person">Karl Kraus</rs> – sofern er, was ich
+            annehme, jetzt wieder<lb xml:id="uuid_b9d406b9-0100-4323-896b-60117289d691"/>aktiv
+            legitimiert ist – einen Rechtsanspruch auf die weiteren Auf<lb break="no"
+               xml:id="uuid_4579563b-2790-47ca-bff0-be9144c43b01"/>führungen. Er würde ihn nur
+            verloren haben, wenn nachträglich er<lb
+               xml:id="uuid_3baea395-3867-41bb-8012-24c04335d7ad"/>selbst – oder vor ihm seine
+            Rechtsvorgängerin – auf das Recht,<lb xml:id="uuid_33c900fe-fc16-4051-8ca6-b4e1f15108a4"
+            />weitere Aufführungen verlangen zu können, verzichtet hätte.</p>
+         <p xml:id="uuid_f4b5c481-6027-4e30-a75f-34d720cc9f6e">
+            <lb xml:id="uuid_3d003b6c-6539-4715-802b-fef3f62360c2"/>Mit dem Hauptanspruch auf das
+            Verpflichtetsein zu weiteren<lb xml:id="uuid_ecb4c816-8098-469d-bc9d-9c68a093d821"
+            />Aufführungen würde ich gleichzeitig aber auch den Schadensersatz<lb break="no"
+               xml:id="uuid_d90af88d-d449-4939-a45a-97595879510e"/>anspruch als evtl. verbinden.</p>
+         <p xml:id="uuid_a7195a77-6e60-4610-aa9e-6768cd2714ce">
+            <lb xml:id="uuid_e8a1332b-a904-454a-809f-537c741e070f"/>Die Klage würde ich beim <rs
+               type="institution" ref="#36824">Landgericht Essen</rs> zu erheben<lb
+               xml:id="uuid_af58eb7b-8b4c-4098-b771-58fa0b57f69c"/>anempfehlen: ich würde es also
+            darauf ankommen lassen, ob <rs ref="#49970" type="place">Essen</rs>
+            <lb xml:id="uuid_07980e3a-8afc-4d10-a9f7-911ad1235a5e"/>etwa die Verweisung nach <rs
+               ref="#168" type="place">Berlin</rs> beantragte.</p>
+         <p xml:id="uuid_7e75edb4-b157-4658-a6cf-38328248cb40">
+            <lb xml:id="uuid_8d456e44-4961-4860-9e1f-64a31bfaffbe"/>Ich bitte um Empfehlung an Herrn
+               <rs ref="#11988" type="person">Karl Kraus</rs>.</p>
+         <p xml:id="uuid_038b0404-80f5-45a2-ab30-6e26699f7bce">
+            <lb xml:id="uuid_d921c9f9-ae5a-4351-924f-b38375907ca4"/>Mit collegialer Hochachtung!<lb
+               xml:id="uuid_915aa0d5-ad98-471d-ab13-18677e3f292c"/><rs ref="#38103" type="person"
+               >Elias</rs><lb xml:id="uuid_b511d181-d65b-4402-a5dd-72fad16b69f0"/>Rechtsanwalt.</p>
+         <p xml:id="uuid_0e82eb83-77fb-4f67-a078-6d6945fdb25f">
+            <lb xml:id="uuid_3219d41b-12f5-4088-9ff1-3caed70dd931"/><note resp="law-firm"
+               type="paratext">6. AUG. 1932<lb xml:id="uuid_d3c59274-6130-4b2d-a302-fe38f2360384"
+                  /><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37029" type="institution"
+                     >Essener<lb xml:id="uuid_2a8f6c75-d9ca-4ad3-8044-05c037204d10"
+               />Bühnen</rs></note></p>
+      </body>
+   </text>
+</TEI>

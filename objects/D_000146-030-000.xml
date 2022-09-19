@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-031-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-029-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000146-030-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Botho Laserstein an Samek</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000146-030-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4004</idno>
+            <idno subtype="transkribus" type="ID">290696</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000146" type="collection">Karl
+                    Kraus ca. Ernst Josef Aufricht (Theater am Schiffbauerdamm, Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000146-030-000-facs001" xml:id="D_000146-030-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000146-030-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38969">Dr.jur. BOTHO LASERSTEIN </persName>
+               <address>
+                  <street corresp="#51751">LANDSBERGER ALLEE 55</street>
+                  <settlement ref="#168">BERLIN NO 18</settlement>
+               </address>
+               <date when-iso="1931-03-23">23. März 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Rechtsanwalt Dr. Oskar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien 1</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Wiep.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-03-23">23. März 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000146-030-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000146-030-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-08T15:09:21.182Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-08T15:14:40.771Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 290696. </change>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-08-16"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-08-16"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-08-16"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-08-16" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000146-030-000-facs001">
+      <surfaceGrp xml:id="D_000146-030-000-facs001-l001">
+         <surface type="recto" xml:id="D_000146-030-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542248/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000146-030-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542249/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542250/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542252/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000146-030-000_p001"
+             facs="#D_000146-030-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_5d0e7535-e498-49af-87da-be12e4f24ad3">
+            <lb xml:id="uuid_725a6432-1641-4198-b15a-2e76f92f96d2"/>Sehr geehrter <rs ref="#38909" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_a40923b7-b124-4744-bc79-badfa8b8956c">
+            <lb xml:id="uuid_34d9ba40-4569-4d37-9016-5360fee9292e"/>In Sachen <rs ref="#11988" type="person">Kraus</rs> gegen <rs ref="#37761" type="person">Aufricht</rs>
+                sende ich Ihnen anliegend Abschrift<lb xml:id="uuid_d5c9f09d-c5f9-47f2-bd7a-c1aa7c154792"/>eines <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-028-000"
+                type="work"
+                subtype="legal-doc">Schreibens</rs> des Justizrats Dr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43655" type="person">Gustav Schoeps</rs>
+                und Abschrift meines<lb xml:id="uuid_f83221e9-24a9-43a4-947a-f1adbc554b6e"/><rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-031-000"
+                type="work"
+                subtype="legal-doc">Schreibens</rs> an <rs ref="#43655" type="person">denselben</rs> zur gefl. Kenntnisnahme. </p>
+         <p xml:id="uuid_4178ea64-a647-4b04-af69-e4d8d53b69de">
+            <lb xml:id="uuid_088012f7-e8ea-4334-a436-33e665d7795c"/>Hochachtungsvoll<lb
+               xml:id="uuid_76cd399c-02a8-4ba2-983a-cf5d172663f2"/><rs ref="#38969" type="person"
+               >Dr. Laserstein</rs>
+            <lb xml:id="uuid_f3350b83-0842-4cee-94fa-2e781af16e46"/>Rechtsanwalt. <pb
+               xml:id="D_000146-030-000_p002" facs="#D_000146-030-000-facs001-l001-p002" n="2"/></p>
+         <p xml:id="uuid_dfb8110e-f2e3-43a4-bf73-2944bdac2014">
+            <lb xml:id="uuid_b3fa32b6-5afa-4c3b-b749-8ec44dcd5514"/><note resp="law-firm"
+               type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37761"
+                  type="person">Aufricht</rs>
+               <lb xml:id="uuid_ba2473fd-281c-4a28-af3b-91929103c2e1"/>26. MRZ. 1931</note></p>
+      </body>
+   </text>
+</TEI>

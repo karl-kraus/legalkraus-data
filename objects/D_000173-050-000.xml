@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-051-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-049-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000173-050-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Verlag Die Fackel an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000173-050-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4315</idno>
+            <idno subtype="transkribus" type="ID">312426</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000173" type="collection">Briefwechsel zwischen dem Verlag Die Fackel, dem Verlag Universal Edition und
+                    dem Deutschen Theater Prag bezüglich Aufführungen von Offenbachstücken in der
+                    Kraus’schen Bearbeitung und Verlagsproblemen</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000173-050-000-facs001" xml:id="D_000173-050-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000173-050-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+                  <ab type="materiality">
+                     <objectType source="D_000173-050-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP"
+                        >Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#43724"/>
+               <address>
+                  <street corresp="#50496"/>
+                  <settlement ref="#53"/>
+               </address>
+               <date when-iso="1932-05-20">20. Mai 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn Dr. Oskar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-05-20">20. Mai 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000173-050-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000173-050-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-12-09" who="#JK"/>
+         <change type="typography" when-iso="2021-12-09" who="#JK"/>
+         <change type="references" when-iso="2021-12-09" who="#JK"/>
+         <change type="structure" when-iso="2021-12-09" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-09" who="#JK"/>
+         <change when-iso="2020-10-09T14:07:25.286Z" who="#IB">created by API</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000173-050-000-facs001">
+      <surfaceGrp xml:id="D_000173-050-000-facs001-l001">
+         <surface type="recto" xml:id="D_000173-050-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543555/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface></surfaceGrp>
+      <surfaceGrp xml:id="D_000173-050-000-facs001-l002">
+         <surface type="recto" xml:id="D_000173-050-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543557/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000173-050-000-facs001-l003">
+         <surface type="recto" xml:id="D_000173-050-000-facs001-l003-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543559/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface></surfaceGrp>
+         <surfaceGrp xml:id="D_000173-050-000-facs001-l004">
+         <surface type="recto" xml:id="D_000173-050-000-facs001-l004-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543561/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000173-050-000_p001"
+             facs="#D_000173-050-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_16530d64-1122-449f-a1ce-c74b14808306">
+            <lb xml:id="uuid_e27350af-4b07-41d4-b863-a0f4fca6576e"/>Hochgeehrter <rs ref="#38909" type="person">Herr Doktor</rs>! </p>
+         <p xml:id="uuid_25ebf0d4-dd52-4f57-a9a5-0e612f504937">
+            <lb xml:id="uuid_094f38b9-330e-4b2f-a4ab-a9a4d379ba41"/>Sie hatten die Freundlichkeit,
+            Herrn <rs ref="#11988" type="person">Karl Kraus</rs> zwei<lb
+               xml:id="uuid_fd26704c-432b-4c32-b5d2-6022fa0e9e7e"/>Äußerungen des <rs ref="#38870"
+               type="person">Rechtsvertreters der <rs ref="#36971" type="institution"
+                  >Universal-Edition</rs></rs>, die die Auf<lb break="no"
+               xml:id="uuid_88072acd-942f-4666-ae71-b3f0a242ef0d"/>lösung der Verträge betreffen, zu
+            übermitteln. Die erste, eine <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-048-000" type="work"
+               subtype="legal-doc">Zu<lb break="no"
+                  xml:id="uuid_af661b19-6666-49f9-8c27-2d52ea03dc23"/>schrift vom 9. Mai</rs>,
+            erklärt das Einverständnis mit der Stornierung<lb
+               xml:id="uuid_24c66744-9a13-42ef-9e5c-f8ffa63c82ec"/>der Verträge „<rs ref="#55390"
+               type="work" subtype="pmb">Madame l’Archiduc</rs>“ und „<rs ref="#62199" type="work"
+               subtype="pmb">Vert-Vert</rs>“ wie das Bestreben<lb
+               xml:id="uuid_b3177b0d-2caa-4a7c-ae1f-daf090f595c5"/>nach einer Stornierung des
+            Vertrags „<rs ref="#56707" type="work" subtype="pmb">Perichole</rs>“, für die aber<lb
+               xml:id="uuid_b2fd42d3-2d91-4d8e-9988-e83f87f9e8dd"/>„<quote
+               source="#D_000173-048-000" xml:id="uuid_398b29be-03d0-440a-8558-9344a39f1fa5">erst
+               die juristischen Voraussetzungen geschaffen werden</quote>“ müßten.<lb
+               xml:id="uuid_130b47c9-cb80-4df5-8ffb-cac3515db5d4"/>Die Bedenken bezüglich dieser
+            angeblichen Notwendigkeit haben Sie<lb
+               xml:id="uuid_1bba7de4-88fa-4f02-b884-b17a01f72abd"/>bereits zerstreut, wie auch Ihre
+            eigenen Bedenken gegen den Plan<lb xml:id="uuid_6db3f4e9-1e84-4a4f-8d30-ba198f7d2aa0"
+            />geltend gemacht, bis zur Stornierung neue Bühnenverträge wegen „<rs ref="#56707"
+               type="work" subtype="pmb">Pe<lb break="no"
+                  xml:id="uuid_88a236bb-7fc7-4b16-88f8-f0071feeec4a"/>richole</rs>“ abzuschließen,
+            in die jene Klausel nun tatsächlich „<quote source="#D_000173-048-000"
+               xml:id="uuid_3a3d88cb-2a5d-4f82-964c-353f39783add">aufge<lb break="no"
+                  xml:id="uuid_85c6c7c3-f881-4bc3-8864-df8a6b895db4"/>nommen</quote>“ werden soll,
+            von der sich die <rs ref="#36971" type="institution">Universal-Edition</rs> bisher so<lb
+               xml:id="uuid_bc8523fe-bc0d-4e0b-9064-cd759111333c"/>wenig versprochen hat, weil auch
+            ohne sie bekanntlich u.s.w. Es<lb xml:id="uuid_c05a591a-46a8-4bd3-950f-f864f68f98f9"
+            />kann selbstverständlich keine Rede davon sein, daß Herr <rs ref="#11988" type="person"
+               >Karl Kraus</rs>,<lb xml:id="uuid_2aa34ab9-6a68-4f23-a9b6-68baf8bb9da7"/>welche
+            Ansicht die <rs ref="#36971" type="institution">Universal-Edition</rs> immer bezüglich
+            einer Schwie<lb break="no" xml:id="uuid_be5e9f12-00fb-43c6-9c72-6727dc7f41dd"/>rigkeit
+            haben mag, auch den Vertrag „<rs ref="#56707" type="work" subtype="pmb">Perichole</rs>“
+            zu stornieren, ohne<lb xml:id="uuid_57581277-0406-4b96-a92b-94c2457d1cb3"/>Protest und
+            Prozeß zulassen sollte, daß sie weitere Bühnenverträge,<lb
+               xml:id="uuid_0c686ae1-8d11-4136-ba59-68c97dbd6280"/>ob mit oder ohne Klausel,
+            abschließt. Die Bemerkung, die der <rs ref="#38870" type="person">Rechts<lb break="no"
+                  xml:id="uuid_a316542c-bd15-4b60-bba7-e5da30205f31"/>vertreter</rs> zu diesem
+            Punkte macht: „<quote source="#D_000173-048-000"
+               xml:id="uuid_8c956838-e35c-4521-bc21-94af75b7a0b8">Ich wiederhole, daß von einer<lb
+                  xml:id="uuid_ee3ac3a7-bc84-4275-ad17-2ba088b97d78"/>vorsätzlichen oder auch nur
+               fahrlässigen Nichteinhaltung des Ver<lb break="no"
+                  xml:id="uuid_34211b01-531f-43ea-9b5b-ece13664eaef"/>trages auf Seiten meiner
+               Klientin keine Rede sein kann</quote>“, scheint<lb
+               xml:id="uuid_d8498c38-be7e-4cc8-b559-a61f8adb70c8"/>Herrn <rs ref="#11988"
+               type="person">Karl Kraus</rs> durchaus mit der anwaltlichen Pflicht in Überein<lb
+               break="no" xml:id="uuid_fbcdce3a-254b-4817-a276-2e84b1186d92"/>stimmung. Interessant
+            ist nur, wie die Begründung des weder vor<lb break="no"
+               xml:id="uuid_07cb726a-06d4-4fa8-8668-c9b48e3ea48b"/>sätzlichen noch fahrlässigen,
+            aber immerhin nachweisbaren Vertrags<lb break="no"
+               xml:id="uuid_011800b5-1c21-44c8-919c-cbff9c3dead2"/>bruches der <rs ref="#36971"
+               type="institution">Universal-Edition</rs> diese geradezu als das Vorbild der<lb
+               xml:id="uuid_cb9cf3ab-176d-4c16-9537-febaede47106"/>Vertragstreue erscheinen läßt.
+               „<quote source="#D_000173-048-000" xml:id="uuid_80e08ebe-98db-4cf7-8f65-772ae82492ad"
+               >Die Einfügung der von Herrn <rs ref="#11988" type="person">Karl<lb
+                     xml:id="uuid_b758b47c-acc7-4953-bb42-0ab147986b99"/>Kraus</rs>
+               <hi rend="underlined">gewünschten</hi> Klausel</quote>“ – also nicht etwa die
+            Durchführung des<lb xml:id="uuid_eb657dd9-95c4-4f48-bc83-14fb87acaf14"/>mit ihm
+            abgeschlossenen Vertrages, der die <hi rend="underlined">vereinbarte</hi> Klausel ent<lb
+               break="no" xml:id="uuid_e745cde7-d1ab-4906-859c-fca29abef45a"/>hielt – wurde von der
+               <rs ref="#36971" type="institution">Universal-Edition</rs>
+            <add>nicht nur</add> als „überflüssig“ erkannt<lb
+               xml:id="uuid_17ce31f7-36bd-4d17-9157-2c5a98dfc7b5"/>(ohne daß sie von dieser
+            Erkenntnis dem Vortragsteilnehmer vor der<lb
+               xml:id="uuid_bca59714-30be-4962-9a08-4d1e370704ce"/>Entdeckung der Nichteinfügung
+            unterrichtet hätte), sondern mußte <pb xml:id="D_000173-050-000_p002"
+               facs="#D_000173-050-000-facs001-l002-p002" n="2"/>
+            <lb xml:id="uuid_d6f53f01-af9e-44a3-b86c-a53df11c3367"/>von ihr geradezu als störend
+            empfunden werden, denn sie würde – nach<lb
+               xml:id="uuid_24de10ba-248f-4ce1-b8b6-19eee6d0bebe"/> Überzeugung des <rs ref="#38870"
+               type="person">Rechtsvertreters</rs>, die sich aber ganz sicher mit der<lb
+               xml:id="uuid_58c1ea8e-a599-42d4-a54d-3b3870002bd5"/>der <rs ref="#36971"
+               type="institution">Universal-Edition</rs> deckt – „<quote source="#D_000173-048-000"
+               xml:id="uuid_29271844-4360-414e-ad62-3f5b286e19f1">die meisten Bühnen davon
+                  abhalten,<lb xml:id="uuid_d5445efe-ad06-420b-8af9-e714d4176e64"/>überhaupt
+               Aufführungsverträge abzuschließen</quote>“. Wenn man nun also auch<lb
+               xml:id="uuid_ba8e37a8-d48f-4e44-a9e0-6c73352fb735"/>vermuten könnte, daß eine
+            vorsätzliche Nichteinhaltung des Vertrages<lb
+               xml:id="uuid_aa6f2ffa-d438-4b16-8860-64d74a96930b"/>betätigt wurde, so war es doch
+            ein Vorsatz, der einer weisen Voraus<lb break="no"
+               xml:id="uuid_05f6588e-6c3d-49d1-95da-e5cfb0dc3e8b"/>sicht entsprach. Herr <rs
+               ref="#11988" type="person">Karl Kraus</rs>, der den <rs ref="#38870" type="person"
+               >Autor dieser Rechtferti<lb break="no"
+                  xml:id="uuid_5c8d00a4-4126-44d1-a290-36008f4b2a20"/>gung</rs> als einen honorigen
+            Mann kennt, möchte annehmen, daß er sich<lb
+               xml:id="uuid_ce14a478-eff2-4ce0-ab64-27b4d3eaf9d8"/>ihrer Konsequenz für die
+            Beurteilung seiner <rs ref="#36971" type="institution">Klientin</rs> nicht ganz be<lb
+               break="no" xml:id="uuid_6888a800-a0e5-4c9d-867d-115de4a47df7"/>wußt war. Der <rs
+               ref="#38870" type="person">Rechtsvertreter der <rs ref="#36971" type="institution"
+                  >Universal-Edition</rs></rs> ist gewiß weit<lb
+               xml:id="uuid_e2a628b1-6f61-4805-a421-69b751359547"/>davon entfernt, Dinge wie die
+            Erschleichung eines Vertrags zu billi<lb break="no"
+               xml:id="uuid_417d6b84-d742-4f56-8605-729e745e0b3c"/>gen und die Verheimlichung des
+            Umstandes, daß er in einem wesentli<lb break="no"
+               xml:id="uuid_88e0462a-5036-4720-96fd-ad2486717529"/>chen Punkte verletzt sei, als
+            Basis eines fortgesetzten persönlichen<lb
+               xml:id="uuid_24c2954c-0a90-4887-a18e-fd01397fa00c"/>Verkehrs gelten zu lassen. Herr
+               <rs ref="#11988" type="person">Karl Kraus</rs> ist überzeugt, daß der<lb
+               xml:id="uuid_ffe5e89c-c8a5-494e-8039-3e3ecb99ba8d"/><rs ref="#38870" type="person"
+               >Rechtsvertreter der <rs ref="#36971" type="institution">Universal-Edition</rs></rs>
+            in die Materie noch nicht ein<lb break="no"
+               xml:id="uuid_e303a8e3-ec92-4ca4-b0a3-e3ee2fbe5a6d"/>gedrungen ist. Auf die Eröffnung,
+            daß die Vergleichspunkte „<quote source="#D_000173-048-000"
+               xml:id="uuid_d1f3e9c3-e6b2-43d7-8500-2c0c213fdfdb">nur alle<lb
+                  xml:id="uuid_b8593e03-1280-46d2-88ae-0f92b68f3929"/>einheitlich angenommen oder
+               abgelehnt werden können</quote>“, würde er er<lb break="no"
+               xml:id="uuid_4e41d8f3-9c79-42a8-a046-d43b076cae92"/>widern, daß er sie einheitlich
+            ablehnt. </p>
+         <p xml:id="uuid_9a231247-6053-4fd0-ab22-586bdf525ec0">
+            <lb xml:id="uuid_3874459b-5b63-4721-bd0a-a00461f2f7bb"/>Nun aber haben Sie, sehr
+                geehrter <rs ref="#38909" type="person">Herr Doktor</rs>, am 12. Mai<lb xml:id="uuid_7f5b1874-b69c-4ae8-89f3-664510360eab"/>eine telephonische Äußerung
+                des <rs ref="#38870" type="person">Rechtsvertreters der <rs ref="#36971" type="institution">Universal-Edi<lb break="no" xml:id="uuid_b1f12deb-c03f-4cf6-8c17-c5d7ae962238"/>tion</rs></rs>
+                übernommen, die einen wesentlich anders gearteten Vorschlag<lb xml:id="uuid_f9764a18-ef14-4f9d-8569-a7a761c5faae"/>enthält. Die <rs ref="#36971" type="institution">Universal-Edition</rs> sei nicht nur bereit, in
+                neue Bühnen<lb break="no" xml:id="uuid_41c4488d-5849-4ce5-a9af-12cd2a117fc8"/>verträge über „<rs ref="#56707" type="work" subtype="pmb">Perichole</rs>“ die
+                bisher nicht aufgenommene Klausel auf<lb break="no" xml:id="uuid_491ffd48-3a60-42fb-a03f-4adc93a6e1f1"/>zunehmen, sondern auch die
+                Bedingung, daß Herr <rs ref="#11988" type="person">Karl Kraus</rs> „an der<lb xml:id="uuid_3c27b1d0-298b-4678-87e7-8024f5d2190d"/>Inszenierung teilzunehmen
+                habe“. Mehr als das: jeder Vertrag solle<lb xml:id="uuid_5807a055-c5c6-481c-a452-1b088cda8bc0"/>vorgelegt werden, damit Herr
+                    <rs ref="#11988" type="person">Karl Kraus</rs> Gelegenheit habe, „Wünsche<lb xml:id="uuid_e3daa886-27f5-49b4-ae50-b346314b6ae9"/>bezüglich allfälliger
+                anderer Klauseln zu äußern“. Sowohl der <rs ref="#38870" type="person">Herr<lb xml:id="uuid_dc303651-80e3-40ed-8f6d-7ae7a810d156"/>Rechtsvertreter</rs> wie
+                die <rs ref="#36971" type="institution">Klientin</rs> verknüpfen mit diesem Angebot
+                    den<lb xml:id="uuid_2c55cd1a-ec5c-40d9-b855-cbfb1f23659f"/>Glauben, „daß <rs ref="#11988" type="person">Herr Kraus</rs> unter solchen Umständen von dem
+                    Wunsche,<lb xml:id="uuid_997ff44d-9df0-42ac-ae23-2482b15375b7"/>die Verträge zu
+                stornieren, absehen werde“. Herr <rs ref="#11988" type="person">Karl Kraus</rs>
+                    erwidert<lb xml:id="uuid_9f12bd28-74b2-4e8c-a37c-4150936aeaa3"/>darauf: Dem
+                Glauben des <rs ref="#38870" type="person">Herrn Rechtsvertreters</rs> möchte er
+                nicht nahe<lb break="no" xml:id="uuid_a223dbe5-1927-43a7-9fa0-d7e7e9550bd3"/>treten,
+                weil er überzeugt ist, daß dieser Glaube die optima fides<lb xml:id="uuid_1b52c573-44b2-4433-ad5e-361713dfb716"/>ist, mit der er der Sache
+                seiner <rs ref="#36971" type="institution">Klientin</rs> gegenübersteht. Was aber<lb xml:id="uuid_08391997-71fb-43fd-a7b7-ecf8a0ce889c"/>den Glauben der <rs ref="#36971" type="institution">Universal-Edition</rs> betrifft, so teilt <rs ref="#11988" type="person">Herr Kraus</rs> ihn<lb xml:id="uuid_c723af0c-261d-45f8-9b72-7e3ac8f54f5a"/>nicht nur nicht, sondern er
+                fühlt sich im höchsten Maß angewidert<lb xml:id="uuid_9d30ea58-0fd2-4627-96c9-759e3b2f0a86"/>durch die Überschätzung
+                eines Dranges nach Inszenierung, der ja der<lb xml:id="uuid_c0b5d8be-5afc-4f4b-9677-d39887707383"/>menschlichen Natur
+                innewohnen mag, wie durch eine Übertreibung des<lb xml:id="uuid_0992bf9a-6cd8-41fd-8a68-e7e82d915f2b"/>Optimismus, die schon an
+                Zudringlichkeit grenzt. Er gibt der Ansicht<lb xml:id="uuid_2e67e57f-c637-4eb1-8836-2c7ea45bee62"/>Ausdruck, daß der so oft
+                zurückgewiesene Versuch einer Blödmacherei <pb xml:id="D_000173-050-000_p003"
+                facs="#D_000173-050-000-facs001-l003-p003"
+                n="3"/>
+            <lb xml:id="uuid_5eabf54d-4a21-4176-ada8-b2f6e8f39113"/>am untauglichsten Objekt,
+                das sich der <rs ref="#36971" type="institution">Universal-Edition</rs> im weiten<lb xml:id="uuid_05376e99-c039-40ff-97a3-ac831e81198c"/>Umkreis ihrer
+                Autorenbeziehungen darbietet, schließlich einmal eine<lb xml:id="uuid_edc5f453-07b0-4a80-a50b-907329745c7a"/>durch das Taktgefühl
+                gebotene Schranke finden müßte. Es ist doch<lb xml:id="uuid_8d68a2f4-8e76-4b32-9a09-a3a10d1aa437"/>aber auch innerhalb der
+                primitivsten logischen Voraussetzungen<lb xml:id="uuid_7aacf736-d755-4abd-a4c0-156795d1559a"/>schwer erträglich, sich
+                vorstellen zu sollen, daß die <rs ref="#36971" type="institution">Universal-Edition</rs>
+            <lb xml:id="uuid_5c9ae9e1-1341-47e1-9751-c179a82390ee"/>einerseits – mit dem Recht des Geschäftemachers – auf dem Stand<lb break="no" xml:id="uuid_763fb9dc-446b-455b-9c1e-702900890b47"/>punkt steht, die eine
+                Klausel hätte die Anbringung der Stücke ver<lb break="no" xml:id="uuid_df84229b-e580-40e0-9343-e35118d3c83f"/>hindert, und anderseits jene
+                nur mögliche Klausel aufnehmen will<lb xml:id="uuid_1ee27281-c3c3-4129-a12d-3a90e7e075fa"/>nebst der Bedingung der
+                Inszenierung, von der allein sie nachweis<lb break="no" xml:id="uuid_cf4c8d5b-ab2e-485a-8d69-255f84788cf3"/>lich weiß, daß keine Bühne
+                sich auf dergleichen einließe. Es ist –<lb xml:id="uuid_8750d5a5-cc4a-42c6-a911-e5a9655a5a8c"/>weit über die so berechtigte
+                Vermutung des <rs ref="#38870" type="person">Anwalts</rs> hinaus – nach<lb break="no" xml:id="uuid_55b7d07f-7563-4346-af05-a2288eadb223"/>weisbar, daß die
+                    <rs ref="#36971" type="institution">Universal-Edition</rs> die vermißte Klausel
+                als das Hin<lb break="no" xml:id="uuid_56f8fa9d-05e9-4286-80c7-66a44b8a883e"/>dernis
+                für den Verkauf der Stücke bezeichnet hat, und es soll nun<lb xml:id="uuid_473e1787-d461-4eaa-bc30-cdad33956725"/>glaubhaft sein, daß sie in
+                der Absicht dieses Verkaufs jede nur be<lb break="no" xml:id="uuid_7808fd0f-a244-440b-9132-2a64518b4a96"/>liebige Klausel und
+                Bedingung aufnehmen wolle. In Wahrheit handelt<lb xml:id="uuid_3545112c-929d-4937-8d0b-f549b852fb88"/>es sich aber hier um eine
+                ganz andere – auch mit einem Fremdwort zu<lb xml:id="uuid_990609a9-12ff-4193-ade2-ee97841775d1"/>bezeichnende – List als
+                jene, die bei der Unterschlagung der einen<lb xml:id="uuid_c88df77c-4df2-49f5-9c50-785d80341b86"/>Klausel am Werke war. Damals
+                sollte tatsächlich der Verkauf ge<lb break="no" xml:id="uuid_af94e2b2-eb4e-447c-86ff-93f44a30d19e"/>sichert werden. Jetzt, bei
+                Anbringung aller nur beliebigen Klauseln<lb xml:id="uuid_74fa59c5-0e94-49c5-929e-9969868a196b"/>– zu der es
+                selbstverständlich nie kommen würde, weil keine Bühne<lb xml:id="uuid_6089bbc8-cdd8-4291-921f-5d10bc4511f3"/>auch nur auf eine eingeht –
+                geht es nicht um den Gewinn, sondern um<lb xml:id="uuid_1da2458f-74c4-4c22-8836-bd922514d8a5"/>die Ehre. Die <rs ref="#36971" type="institution">Universal-Edition</rs> hofft, <rs ref="#11988" type="person">Herrn Kraus</rs> durch Erfüllung<lb xml:id="uuid_250b667d-b08a-4abf-97b4-a5a5d128468f"/>sämtlicher Wünsche bis zu
+                dem ihn verzehrenden nach einer Inszenie<lb break="no" xml:id="uuid_074ac097-28a7-4041-bfb2-d0de6baf124f"/>rung bei einer schwachen
+                Seite zu packen und ihrem Bedürfnis nach<lb xml:id="uuid_a0dd1187-40b4-4c73-ab36-2292d7fcf7b4"/>Erhaltung eines „Prestiges“,
+                das durch sein Widerstreben leiden<lb xml:id="uuid_04afdfa0-ff10-4f3d-a8b2-fb1742f1a971"/>könnte, geneigt zu machen.
+                Keine einzige Bühne wird die so verklau<lb break="no" xml:id="uuid_76da2081-0336-4cef-9e8c-118f34dfd653"/>sulierte „<rs ref="#56707" type="work" subtype="pmb">Perichole</rs>“ annehmen, aber es wird nicht Schuld
+                der <rs ref="#36971" type="institution">Uni<lb break="no" xml:id="uuid_8c3101c6-5aa2-47cb-a2db-b4ebd73cf08f"/>versal-Edition</rs>
+                gewesen sein, die das Beste gewollt hat, und alles<lb xml:id="uuid_894e4270-f70a-4a7d-b597-116ddd0b6021"/>ist in Ordnung. </p>
+         <p xml:id="uuid_b8c88d7b-0b33-4c02-8ba3-ec7ee64909b6">
+            <lb xml:id="uuid_f2418b95-d3f7-4004-94cb-f50960603266"/>Wir bitten Sie im Namen des
+                Herrn <rs ref="#11988" type="person">Karl Kraus</rs>, dem <rs ref="#38870" type="person">Rechts<lb break="no" xml:id="uuid_b0d4787b-90e3-48a1-88c1-87153264ef86"/>vertreter der <rs ref="#36971" type="institution">Universal-Edition</rs></rs> mitzuteilen, daß
+                deren Prestige zu<lb xml:id="uuid_8304b4eb-149e-417c-a506-70fd9af94179"/>den letzten
+                seiner Sorgen gehört; zu den ersten seine Ablehnung je<lb break="no" xml:id="uuid_09666c36-0ced-440b-878f-c5758ca1b990"/>der Verbindung mit der <rs ref="#36971" type="institution">Universal-Edition</rs>. Daß er zu ihrer
+                    Fortset<lb break="no" xml:id="uuid_44c13a97-14ba-4c21-9aca-b2ad06d057fe"/>zung
+                sich höchstens durch gerichtliches Urteil zwingen ließe. Und<lb xml:id="uuid_0de64671-9aca-4e17-a2b2-57ae0d71341e"/>daß ein solches
+                herbeigeführt werden soll, wenn die <rs ref="#36971" type="institution">Universal-Edi<lb break="no" xml:id="uuid_bd622f06-a44c-44f9-9244-15e0baafbfe4"/>tion</rs> nicht binnen
+                drei Tagen erklärt, daß sie ohne jede weitere <pb xml:id="D_000173-050-000_p004"
+                facs="#D_000173-050-000-facs001-l004-p004"
+                n="4"/>
+            <lb xml:id="uuid_eb240a34-2ffc-4654-96fb-c6ca4a3fa83a"/>Verhandlung bereit sei,
+                sämtliche Verträge, also die ganze Be<lb break="no" xml:id="uuid_996f494e-2d00-4924-9ad4-78af7a3212cf"/>ziehung des Herrn <rs ref="#11988" type="person">Karl Kraus</rs> zu ihr, zu stornieren. </p>
+         <p xml:id="uuid_ca1a6b08-9f4a-4d3a-adb3-f65911edca64">
+            <lb xml:id="uuid_a48e671a-7441-4362-ad6a-95ed458d2ce7"/>Mit dem Ausdruck der<lb
+               xml:id="uuid_a1866bf2-e313-4388-a7ad-59aa60092302"/>vorzüglichsten Hochachtung<lb
+               xml:id="uuid_2ea950fd-76a6-41f2-a1a7-117b740a540b"/>ergebenst</p>
+      </body>
+   </text>
+</TEI>

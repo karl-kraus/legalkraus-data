@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-019-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-017-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000078-018-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bitte um Urteilsabschrift Samek an das Strafbezirksgericht I Wien</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000078-018-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/2745</idno>
+            <idno subtype="transkribus" type="ID">249794</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000078" type="collection">Karl Kraus
+               ca. Volkskampf</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000078-018-000-facs001" xml:id="D_000078-018-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000078-018-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL"
+                        >Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909">Oskar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date when-iso="1927-06-27"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#50491">Strafbezirksgericht I</orgName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-06-27">27. Juni 1927</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000078-018-000-wit01">Bitte</term>
+            </keywords>
+            <classCode source="D_000078-018-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.BIT">D.J.BIT</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2021-03-31" who="#IL" status="draft"/>
+         <change type="structure" when-iso="2021-03-22" who="#IL" status="draft"/>
+         <change type="references" when-iso="2021-03-22" who="#IL" status="draft"/>
+         <change type="typography" when-iso="2021-03-31" who="#IL" status="draft"/>
+         <change type="intertexts" when-iso="2021-03-29" who="#IL" status="draft"/>
+         <change when-iso="2020-10-07T15:08:40.016Z" who="#IB" status="draft">created by
+            API</change>
+         <change when-iso="2020-10-07T15:12:07.605Z" who="#IB" status="draft">Replaced Text with
+            Transcription of Transkribus Document 249794. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000078-018-000-facs001">
+      <surfaceGrp xml:id="D_000078-018-000-facs001-l001">
+         <surface xml:id="D_000078-018-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553956/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000078-018-000-facs001-l001-p002" type="verso">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553957/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000078-018-000-facs001-l002">
+         <surface xml:id="D_000078-018-000-facs001-l002-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553958/full/full/0/default.jpg"/>
+            
+            <lb xml:id="uuid_f0ea9d2d-7109-4bde-aac2-96898f1bd6ce"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000078-018-000_p001" facs="#D_000078-018-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_f20e023f-ad47-477f-aab9-0a608f688d9f">
+            <lb xml:id="uuid_45667892-296d-4607-8cc3-b295a6d029b2"/>U I 70/27 </p>
+         <p xml:id="uuid_b5e3cee0-706c-4cc0-a5b9-8a3cdeb108bd">
+            <lb xml:id="uuid_0a924ecc-d04d-4343-af5d-e23f50f6d6bd"/>An das<lb
+               xml:id="uuid_19a8ddc8-e8d8-41ad-95f2-5d03e1229cdd"/><rs ref="#50491"
+               type="institution"><hi rend="spaced">Strafbezirksgericht I</hi>
+               <lb xml:id="uuid_f62431f2-752f-4a3f-a1bc-a073f1bf6f99"/><hi rend="underlined"><hi
+                     rend="spaced">Wie</hi>n</hi></rs>. </p>
+         <p xml:id="uuid_65c6ac01-77b7-4190-a6dc-ddca99ab4dd8">
+            <lb xml:id="uuid_645346b8-391b-46f8-8a6c-12bd905c3d78"/>Privatankläger<rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl <hi rend="spaced"
+                  >Krau</hi>s</rs>, Schriftsteller in <rs ref="#50496" subtype="address"
+               type="place">Wien III.,<lb xml:id="uuid_f9977f2d-8282-4e43-8e02-c7f9abf3d757"
+               />Hintere Zollamtsstrasse Nr. 3.</rs>
+            <lb xml:id="uuid_5f95de31-ec93-4601-8391-00a63502d980"/>durch</p>
+         <p xml:id="uuid_3880db36-8e7b-4cfe-b303-80d1249c20dd"><lb
+               xml:id="uuid_28fc559f-d65d-47fe-a7db-e342535bb263"/>Beschuldigter: <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/43669" type="person">Emil <hi rend="spaced"
+                  >Schifte</hi>r</rs>, verantwortlicher<lb
+               xml:id="uuid_560df19a-c138-4091-8392-3a8879d3169c"/>Schriftleiter der Zeitung „<rs
+               ref="#37553" type="institution">Volkskampf</rs>“<lb
+               xml:id="uuid_2ae2e2a1-dcc8-413b-b5a1-e576b4acec84"/><rs ref="#53481"
+               subtype="address" type="place">Wien III., Apostelgasse Nr. 39</rs>, wohnhaft in<lb
+               xml:id="uuid_a40a7eb0-df85-46f4-aade-e313da20a734"/><rs ref="#53134"
+               subtype="address" type="place">Wien VII., Burggasse Nr. 11, 3.Stock 17</rs></p>
+         <p xml:id="uuid_1795ff9e-4cb3-4593-bdb8-635bf5ffed2e"><lb
+               xml:id="uuid_9d47a3ae-f424-4689-bb00-7fc6d809eff5"/>wegen <rs
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=485&amp;size=45"
+               type="law">§ 30 Pr.G.</rs>
+         </p>
+         <p xml:id="uuid_e514c4a3-a954-45c4-b628-80b207215d08">
+            <lb xml:id="uuid_102db459-7034-410e-a842-4a73aff1c6ab"/>1 fach </p>
+         <p xml:id="uuid_a42792fe-8061-4c30-985e-ef7733ca7a59">
+            <lb xml:id="uuid_c7d92c64-4985-4727-b714-8950014e7ce7"/><hi rend="underlined">Bitte um
+               Urteilsabschrift.</hi>
+         </p>
+         <pb xml:id="D_000078-018-000_p002" facs="#D_000078-018-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_cc887f78-b841-43d3-8c66-781896e3b4e6">
+            <lb xml:id="uuid_f3699ad0-1427-4ffe-8e27-df5f85f33cf8"/>Ich bitte mir zu Händen meines
+               be<lb break="no" xml:id="uuid_19c4cadb-b798-43dd-ad60-d2dd7b098132"/>reits
+            ausgewiesenen <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38909" type="person"
+               >Anwaltes</rs> eine Abschrift des <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000078-017-000" type="work"
+               subtype="legal-doc">Urteiles</rs> vom<lb
+               xml:id="uuid_7f7c1800-c7ee-4836-93a0-ae09224294d8"/>2. Juni 1927 und die Bestätigung
+            einzusenden, an welchem Tage<lb xml:id="uuid_f0d42225-0370-4431-a373-145668ba2fd4"
+            />dieses rechtskräftig geworden ist </p>
+         <p xml:id="uuid_bbd16e22-d432-4c69-b29d-dbaee5fd1249">
+            <lb xml:id="uuid_8379320d-4439-4fc0-a0c9-1f710d277d60"/><note type="paratext"
+               resp="law-firm"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+                     <hi rend="spaced">Krau</hi>s</rs>. / <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/43669" type="person">Schifter</rs>
+               <lb xml:id="uuid_6c6f0db6-2a53-479e-b0eb-39aec2c6e86c"/>exp. am 27. Juni 1927.
+               Tf.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

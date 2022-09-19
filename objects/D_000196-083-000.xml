@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-084-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-082-001.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000196-083-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Felix Gallia</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000196-083-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/5069</idno>
+            <idno subtype="transkribus" type="ID">400649</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000196" type="collection">Karl
+                    Kraus ca. Arbeiter-Zeitung (Brünn)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000196-083-000-facs001" xml:id="D_000196-083-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000196-083-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#52780"/> 
+                  <settlement ref="#65"/> 
+               </address>
+               <date when-iso="1936-04-23">23. April 1936</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#51575">Herrn | Dr. Felix Gallia, Advokat </persName>
+               <address>
+                  <street corresp="#51759">Masarykstrasse 25/27</street>
+                  <settlement ref="#833">Brünn</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Arbeiterzeitung.</note>
+               <note type="dictation">Dr.S/Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1936-04-23">23. April 1936
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000196-083-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000196-083-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-12T09:52:56.545Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-12T11:11:24.132Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 400649. </change>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-10-05"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-10-05"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-10-05"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-10-05" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000196-083-000-facs001">
+      <surfaceGrp xml:id="D_000196-083-000-facs001-l001">
+         <surface type="recto" xml:id="D_000196-083-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593735/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000196-083-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593736/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000196-083-000-facs001-l002">
+         <surface type="recto" xml:id="D_000196-083-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593737/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593739/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593740/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593741/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000196-083-000_p001"
+             facs="#D_000196-083-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_92a10b32-3fff-42bd-abd8-d8e58da839b5">
+            <lb xml:id="uuid_12cca8a8-cb5f-4d1a-9da9-bb780e493457"/>Sehr geehrter <rs ref="#51575" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_03c192fb-e607-4445-b507-88b9be5fab06">
+            <lb xml:id="uuid_dbb59a26-c8d3-450c-ad30-ce0af3314b04"/>Soeben ist der <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-084-000"
+                type="work"
+                subtype="legal-doc">Schriftsatz</rs> fertig ge<lb break="no" xml:id="uuid_faf4d132-36e4-4a98-aeaf-53ef9c5b1a83"/>worden und ich trage ihn
+                noch auf die Hauptpost, damit Sie ihn<lb xml:id="uuid_91813211-3120-4b8c-9ffe-815773b9ce85"/>noch heute, womöglich in den
+                Vormittagstunden erhalten, um Ihnen<lb xml:id="uuid_94132bfd-4ce9-48c3-9d89-7e96fb366f99"/>die Möglichkeit zu geben,
+                wenn dies notwendig sein sollte, vor<lb xml:id="uuid_1aa72200-ddc4-42ff-b608-f3bca33780e8"/>der Ueberreichung mit mir
+                telephonisch zu sprechen. Ich bin<lb xml:id="uuid_2612458a-7b58-4e6e-90c8-268ef4360c70"/>nachmittags von 1/2 4 Uhr an
+                in der <rs ref="#52854" type="place">Kanzlei</rs>. Ich übersende Ihnen<lb xml:id="uuid_ac3f6051-4c17-4815-838c-95d2f2f323fa"/>zwei Exemplare des <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-084-000"
+                type="work"
+                subtype="legal-doc">Schriftsatzes</rs> und einen Durchschlag für Ihren<lb xml:id="uuid_fd4a90df-8c1a-42c5-87c6-d3bd19c7330b"/>Akt. Ferner schliesse ich
+                die folgenden Beilagen an: </p>
+         <p xml:id="uuid_65499711-148c-4f6c-9779-f5bcd7779867">
+            <lb xml:id="uuid_ae4b729f-2229-41c4-a770-38f7e79ce71a"/>Nr. 1.) Leitartikel des ‚<rs ref="#56207" type="work" subtype="pmb">Ceske Slovo</rs>‘<lb xml:id="uuid_5952a8d7-62c4-42d3-b572-6a812b5ec154"/>Nr. 2.) Widmung <rs ref="#25105" type="person">Sonkas</rs> vom 1.6.1910<lb xml:id="uuid_83fa8e7b-3eae-4bda-9cbb-1f91d45cffcf"/>Nr. 3.) Widmung <rs ref="#25105" type="person">Sonkas</rs> Februar 1915<lb xml:id="uuid_eedede35-7929-425e-9c44-9212faca2eff"/>Nr. 16.) Schreiben der <rs ref="#59810" type="institution">Unionbank</rs> über die
+                    Subskriptionsanmeldung<lb xml:id="uuid_1d476600-826b-4e4a-81eb-5fe7119f4b31"/>Nr. 17.) Schreiben der <rs ref="#59810" type="institution">Unionbank</rs> über die
+                Streichung der Vormerkung<lb xml:id="uuid_9ef4b47f-5e3d-474c-803e-bdc8f2e59531"/>Nr.
+                28.) Schreiben <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38617" type="person">Paul
+                    Kornfeld</rs> vom 2.11.1916<lb xml:id="uuid_e32f131e-191d-4432-9241-2930f7146488"/>Nr. 29.) Telegramm <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38617" type="person">Paul Kornfeld</rs>
+                    Nr.<lb xml:id="uuid_b21a88b0-1ad1-4e24-8a0f-ae0c4c170465"/>Nr. 38.) Zuschrift
+                des <rs ref="#29259" type="institution">Prager Tagblatts</rs> vom 20.10.1926<lb xml:id="uuid_4fb5befd-e82d-4658-9315-37ccd65bfbbc"/>Nr. 39.) Antwort an das <rs ref="#29259" type="institution">Prager Tagblatt</rs> vom 23.10.1926<lb xml:id="uuid_70797827-bb51-4a90-8c3e-d5beba84adf6"/>Nr. 44.) <rs ref="#29679" type="institution">Nobelpreisadresse</rs>. </p>
+         <p xml:id="uuid_d4af05f5-3e36-44b0-a67c-d541d33c6cd1">
+            <lb xml:id="uuid_eeb44822-b3cc-447d-9c78-a15a717ebd61"/>Heute habe ich Ihnen ein
+                Paket mit den<lb xml:id="uuid_35b7f42f-93e6-4db9-b423-d3999bf29f0f"/>Beilagen
+                gesendet: </p>
+         <p xml:id="uuid_14471c60-3b1a-425c-9bf2-1f01139826f6">
+            <lb xml:id="uuid_748e8837-15a6-4246-bdf8-427ac3970e47"/>Nr. 4.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/404,0u1"
+                type="work"
+                subtype="fackel">Nr.
+                    404</rs>
+            <lb xml:id="uuid_6a05e7ef-186d-4c4f-9b47-f8b066691257"/>Nr. 5.) Fackel
+                    <rs ref="https://fackel.oeaw.ac.at/f/514,0u1"
+                type="work"
+                subtype="fackel">Nr.
+                    514–518</rs>
+            <lb xml:id="uuid_b7b2a479-2d3f-4fb2-9b2c-d945fc231bb8"/>Nr. 6.)
+                Fackel <rs ref="https://fackel.oeaw.ac.at/f/521,0u1"
+                type="work"
+                subtype="fackel">Nr. 521–530</rs>
+            <lb xml:id="uuid_54629abe-407d-4813-b0f4-1d13bb006111"/>Nr. 7.)
+                Fackel <rs ref="https://fackel.oeaw.ac.at/f/531,0u1"
+                type="work"
+                subtype="fackel">Nr. 531–543</rs>
+            <lb xml:id="uuid_483b8255-b113-4c7c-96f9-f53fddba740a"/>Nr. 8.)
+                Fackel <rs ref="https://fackel.oeaw.ac.at/f/387,0u1"
+                type="work"
+                subtype="fackel">Nr. 387/8</rs>
+            <lb xml:id="uuid_c3930c90-c725-40e4-96d7-589db53cb1ae"/>Nr. 9.)
+                Fackel <rs ref="https://fackel.oeaw.ac.at/f/400,0u1"
+                type="work"
+                subtype="fackel">Nr. 400–403</rs>
+            <lb xml:id="uuid_d37fcf00-bc0a-4251-a18c-0f24b309bdc8"/>Nr.
+                10.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/649,0u1"
+                type="work"
+                subtype="fackel">Nr. 649–656</rs>
+            <lb xml:id="uuid_02def9fb-4073-45bc-8b41-1f0db2a8e280"/>Nr. 11.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/413,0u1"
+                type="work"
+                subtype="fackel">Nr.
+                    413–417</rs>
+            <lb xml:id="uuid_3784ff9a-06b8-425d-b933-cecb7c127170"/>Nr. 12.)
+                Fackel <rs ref="https://fackel.oeaw.ac.at/f/418,0u1"
+                type="work"
+                subtype="fackel">Nr. 418–422</rs>
+            <lb xml:id="uuid_6c603168-213e-4958-971b-5d2e38dd44a4"/>Nr.
+                13.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/423,0u1"
+                type="work"
+                subtype="fackel">Nr. 423–425</rs>
+            <lb xml:id="uuid_cae78b57-a8d3-4729-a1a1-90c9ecbee9a7"/>Nr. 14.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/474,0u1"
+                type="work"
+                subtype="fackel">Nr.
+                    474–483</rs>
+            <pb xml:id="D_000196-083-000_p002"
+                facs="#D_000196-083-000-facs001-l001-p002"
+                n="2"/>
+            <lb xml:id="uuid_3cc2c08d-04ff-4d81-a448-349655e04d67"/>Nr. 15.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/499,0u1"
+                type="work"
+                subtype="fackel">Nr.
+                    499–500</rs>
+            <lb xml:id="uuid_7b340cdc-316a-4e3c-83e7-743cb5e8c81b"/>Nr. 18.)
+                Fackel <rs ref="https://fackel.oeaw.ac.at/f/508,0u1"
+                type="work"
+                subtype="fackel">Nr. 408–513</rs>
+            <lb xml:id="uuid_abdd2e0c-7596-4e6f-ae10-d4ff203f53bb"/>Nr.
+                19.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/766,0u1"
+                type="work"
+                subtype="fackel">Nr. 766–770</rs>
+            <lb xml:id="uuid_e2996b39-0cb0-4741-b95e-df8b1cb9b6e8"/>Nr. 20.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/771,0u1"
+                type="work"
+                subtype="fackel">Nr.
+                    771–776</rs>
+            <lb xml:id="uuid_dde673a6-4522-4714-a499-5cd6c3be116e"/>Nr. 21.)
+                Fackel <rs ref="https://fackel.oeaw.ac.at/f/732,0u1"
+                type="work"
+                subtype="fackel">Nr. 732–734</rs>
+            <lb xml:id="uuid_57c09bf7-cdd3-4563-85f5-27350f458967"/>Nr.
+                22.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/743,0u1"
+                type="work"
+                subtype="fackel">Nr. 743–750</rs>
+            <lb xml:id="uuid_1629e205-b632-45d7-9167-f1232fdbc762"/>Nr. 23.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/757,0u1"
+                type="work"
+                subtype="fackel">Nr.
+                    757–758</rs>
+            <lb xml:id="uuid_d38ee3da-0c94-4207-b671-da753bb59e01"/>Nr. 24.)
+                Fackel <rs ref="https://fackel.oeaw.ac.at/f/795,0u1"
+                type="work"
+                subtype="fackel">Nr. 795–799</rs>
+            <lb xml:id="uuid_e11e7f24-f236-4cb3-b8f6-0e1ae3251f8e"/>Nr.
+                25.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/876,0u1"
+                type="work"
+                subtype="fackel">Nr. 876–884</rs>
+            <lb xml:id="uuid_2e4dce30-0fd7-4a93-b7ea-d9f5b5c29724"/>Nr. 26.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/909,0u1"
+                type="work"
+                subtype="fackel">Nr.
+                    909–911</rs>
+            <lb xml:id="uuid_0755cd33-2ca1-4d19-96d3-58a50da4fe9e"/>Nr. 27.)
+                Fackel <rs ref="https://fackel.oeaw.ac.at/f/890,0u1"
+                type="work"
+                subtype="fackel">Nr. 890–905</rs>
+            <lb xml:id="uuid_819beb56-3c56-45b7-b8f2-3b83ef99fa6d"/>Nr.
+                30.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/339,0u1"
+                type="work"
+                subtype="fackel">Nr. 339/340</rs>
+            <lb xml:id="uuid_69f7a2ce-ed71-4195-93f0-11b5875c124c"/>Nr. 31.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/443,0u1"
+                type="work"
+                subtype="fackel">Nr.
+                    443/444</rs>
+            <lb xml:id="uuid_7eca8731-4fd5-443a-a939-10849cbf863d"/>Nr. 32.)
+                Fackel <rs ref="https://fackel.oeaw.ac.at/f/445,0u1"
+                type="work"
+                subtype="fackel">Nr. 445–453</rs>
+            <lb xml:id="uuid_6519bc9e-f6bd-4b0a-9d07-a589379b9a3d"/>Nr.
+                33.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/462,0u1"
+                type="work"
+                subtype="fackel">Nr. 462–471</rs>
+            <lb xml:id="uuid_8078bd59-e44e-49b7-a107-7280bcfdad64"/>Nr. 34.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/484,0u1"
+                type="work"
+                subtype="fackel">Nr.
+                    484–498</rs>
+            <lb xml:id="uuid_5fcc1c6b-05e4-4c95-b8f2-80074b4f49ed"/>Nr. 35.)
+                Fackel <rs ref="https://fackel.oeaw.ac.at/f/864,0u1"
+                type="work"
+                subtype="fackel">Nr. 864–867</rs>
+            <lb xml:id="uuid_2eab8d4b-da0a-40bf-ac8c-ea0f3a6fa0b5"/>Nr.
+                36.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/912,0u1"
+                type="work"
+                subtype="fackel">Nr. 912–915</rs>
+            <lb xml:id="uuid_81656801-75c5-4a2d-821e-ccdbfc0ad910"/>Nr. 37.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/735,0u1"
+                type="work"
+                subtype="fackel">Nr.
+                    735–742</rs>
+            <lb xml:id="uuid_2abae9c4-792d-4164-a281-548ccd7d7cfa"/>Nr. 40.)
+                Fackel <rs ref="https://fackel.oeaw.ac.at/f/572,0u1"
+                type="work"
+                subtype="fackel">Nr. 572–576</rs>
+            <lb xml:id="uuid_b0160c4d-d2c9-497f-8e5c-259a64b7bf82"/>Nr.
+                41.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/632,0u1"
+                type="work"
+                subtype="fackel">Nr. 632–639</rs>
+            <lb xml:id="uuid_67faa11c-fe58-40d4-8c5f-1ef63b2cc699"/>Nr. 42.) Fackel <rs ref="https://fackel.oeaw.ac.at/f/640,0u1"
+                type="work"
+                subtype="fackel">Nr.
+                    640–648</rs>
+            <lb xml:id="uuid_af52109c-f5a0-4dee-9492-e467882da8ca"/>Nr. 43.)
+                Fackel <rs ref="https://fackel.oeaw.ac.at/f/668,0u1"
+                type="work"
+                subtype="fackel">Nr. 668–675</rs>
+            <lb xml:id="uuid_28d644c6-0a28-43e6-b4ff-727089238753"/>Nr.
+                45.) <rs ref="#58362" type="work" subtype="pmb">Stimmen über <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+                    zum 60. Geburtstag</rs>
+            <lb xml:id="uuid_a9e4eb59-ee48-4b7f-9409-502811d34467"/>Nr. 46.) Heft der Zeitschrift ‚<rs ref="#56215" type="work" subtype="pmb">Panorama</rs>‘. </p>
+         <p xml:id="uuid_ec3e188b-ce8a-4c72-a35c-d0fe7bfd59db">
+            <lb xml:id="uuid_49012c00-7d94-4588-b738-3fd054dc87e4"/>Von den Exemplaren der <rs ref="#41244" type="work" subtype="pmb">Fackel</rs> und von den<lb xml:id="uuid_551c5f46-b339-4404-be77-3cab1e70ace6"/>Stimmen habe ich zwei
+                Exemplare geschickt, vom ‚<rs ref="#56215" type="work" subtype="pmb">Panorama</rs>‘
+                    war<lb xml:id="uuid_d3b55056-4f66-4ad6-8420-ef5fe3373b93"/>nur eines vorhanden.
+                Vielleicht können Sie sich ein zweites<lb xml:id="uuid_99521e02-9337-4647-859c-29d5407a50fa"/>Exemplar in <rs ref="#833" type="place">Brünn</rs> verschaffen. In den Fackel-Nummern habe ich<lb xml:id="uuid_65cba4d9-4f4b-46bb-aa9c-4d0d4edbb71c"/>die zitierten oder bezogenen
+                Stellen mit Rotstift hervorgehoben,<lb xml:id="uuid_efcb0f81-0e7d-4737-b61f-54231b05097e"/>im ‚<rs ref="#56215" type="work" subtype="pmb">Panorama</rs>‘ überlasse ich das Ihnen, weil ich der
+                    tschechischen<lb xml:id="uuid_649abc6f-d690-4008-b872-3976349379f7"/>Sprache
+                nicht mächtig bin. </p>
+         <p xml:id="uuid_b8bfbfd6-1dc2-49b8-91df-6889582481a4">
+            <lb xml:id="uuid_41fb1392-28ed-4144-99ef-f184effe6500"/>Schliesslich lege ich noch
+                eine <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-082-000"
+                type="work"
+                subtype="legal-doc">Bestätigung</rs>
+            <lb xml:id="uuid_ffb1fb3c-b870-4113-9d1f-64f7811a2dc2"/>des Verlag ‚<rs ref="#43724" type="institution">Die Fackel</rs>‘ bei, dass der Preis der Ihnen übersende<lb break="no" xml:id="uuid_7fce2feb-f910-4ef3-9c8a-717ad809d09c"/>ten Nummern S
+                164.80 beträgt; vielleicht ist es möglich, diesen<lb xml:id="uuid_41adb19c-1533-43ee-a3d5-88d70f577631"/>Preis in der
+                Kostenberechnung aufzunehmen. </p>
+         <p xml:id="uuid_b76dec38-ed11-4541-93ac-84d3278a7479">
+            <lb xml:id="uuid_916403ae-c0cb-4c31-8c24-f70a59a1eaad"/>Wir erwarten nunmehr Ihre
+                Mitteilung, wann<lb xml:id="uuid_35b4e6d9-685d-48d0-8ded-6c6a69035e8f"/>Herr <rs ref="#11988" type="person">Kraus</rs> zur Einvernahme nach <rs ref="#833" type="place">Brünn</rs> kommen kann und die Be<lb break="no" xml:id="uuid_eb9f7d82-60f4-45bf-89bd-44aec434b056"/>kanntgabe Ihrer Einteilung,
+                da ja unbedingt eine Besprechung<lb xml:id="uuid_21ef7bec-2510-46ae-825f-11bba0b84d71"/>zwischen Ihnen und Herrn <rs ref="#11988" type="person">Kraus</rs> vorher erforderlich sein wird. </p>
+         <p xml:id="uuid_43f52c99-b96d-4f60-b96e-966772e71f65">
+            <lb xml:id="uuid_bde78b0e-a8fb-44a1-ab4d-7099009e7b28"/>Die Briefe <rs ref="#39082" type="person">Masaryk</rs>’s und aus der <pb xml:id="D_000196-083-000_p003"
+                facs="#D_000196-083-000-facs001-l002-p003"
+                n="3"/>
+            <lb xml:id="uuid_e6173a44-6364-4081-b8bd-675c2185623f"/><rs ref="#59812" type="institution">Präsidentschaftskanzlei</rs> wird Herr <rs ref="#11988" type="person">Kraus</rs> mitbringen. Obwohl<lb xml:id="uuid_e8356f09-b97d-46c4-b30e-694db1211b9d"/>dies im Strafverfahren
+                schwer möglich ist, bitte ich Sie doch,<lb xml:id="uuid_1bc33086-b3eb-46e1-bd4b-cad734428df9"/>zu trachten, dass die
+                gelegten Beilagen wieder zurückgestellt<lb xml:id="uuid_0ceb1393-5451-4b89-9716-9a23069b44ac"/>werden, da man sie
+                vielleicht für einen anderen Prozess wieder<lb xml:id="uuid_ffe90562-9b21-4fea-8b40-1a41406b984f"/>benötigen wird. </p>
+         <p xml:id="uuid_45e36ee5-fed0-49c0-b59e-35ac9dd80fc9">
+            <lb xml:id="uuid_83967816-4b6b-4e4c-98e2-af258bf4108f"/>Indem ich Ihnen nun noch die
+                    herzlichsten<lb xml:id="uuid_6e5ab904-4c6e-4d93-82f4-747126e550ce"/>Grüsse des
+                    <rs ref="#11988" type="person">Herrn K.</rs> übermittle und Sie selbst
+                    herzlichst<lb xml:id="uuid_629dc9ef-a20a-4055-b4ee-de24ba01796a"/>grüsse bin ich </p>
+         <p xml:id="uuid_74b9869c-8000-4e25-8a2b-ec09739909db">
+            <lb xml:id="uuid_120a7a32-e33b-4fe7-86b0-cf2d2328a4aa"/>mit vorzüglicher kollegialer
+                    Hochachtung<lb xml:id="uuid_f57a861b-0206-4f27-9a4d-1474e47af1c9"/>Ihr ergebener </p>
+         <p xml:id="uuid_0a396f9d-52eb-41bd-a439-3c8964c71603">
+            <lb xml:id="uuid_4f404727-e1b4-40f5-b768-ba67ba5dac3e"/>14 Beilagen.<lb xml:id="uuid_7be2e893-a8fc-4e15-9379-99dc53dad09d"/>Express Rekommandiert </p>
+      </body>
+   </text>
+</TEI>

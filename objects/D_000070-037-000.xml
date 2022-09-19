@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000070-037-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-036-000.xml"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-038-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Botho Laserstein an Verlag Die Fackel</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000070-037-000.xml </idno>
+            <idno type="URL" subtype="krausonline">https://www.kraus.wienbibliothek.at/content/brief-ra-botho-laserstein-verlag-die-fackel-3 </idno>
+            <idno type="ID" subtype="transkribus">213320</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000070" type="collection">Alfred Kerr ca. Karl Kraus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000070-037-000-wit01" facs="#D_000070-037-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000070-037-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                     <objectType source="D_000070-037-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP">Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38969">Dr. jur. Botho Laserstein | RECHTSANWALT</persName>
+               <address>
+                  <street corresp="#51751">LANDSBERGER ALLEE 55</street>
+                  <settlement ref="#168">BERLIN NO 18</settlement>
+               </address>
+               <date when-iso="1929-03-28">28. März 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#43724">den | Verlag „Die Fackel“</orgName>
+               <address>
+                  <street corresp="#50496">Hintere Zollamtsstr. 3</street>
+                  <settlement ref="#53">Wien III</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date type="sortDate" when-iso="1929-03-28" subtype="produced">28. März 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000070-037-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000070-037-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2021-09-13" resp="#LU" status="draft">created XML Document</change>
+         <change when-iso="2021-09-13" resp="#LU" status="draft">Replaced Text with Transcription
+                of Transkribus Document 213320. </change>
+         <change type="header_facsimile"
+                 when-iso="2022-01-14"
+                 who="#AR"
+                 status="draft"/>
+         <change type="structure" when-iso="2022-01-14" who="#AR" status="draft"/>
+         <change type="references"
+                 when-iso="2022-01-14"
+                 who="#AR"
+                 status="draft"/>
+         <change type="typography"
+                 when-iso="2022-01-14"
+                 who="#AR"
+                 status="draft"/>
+         <change type="intertexts"
+                 when-iso="2022-01-14"
+                 who="#AR"
+                 status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000070-037-000-facs001">
+      <surfaceGrp xml:id="D_000070-037-000-facs001-l001">
+         <surface xml:id="D_000070-037-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553199/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000070-037-000_p001"
+             n="1"
+             facs="#D_000070-037-000-facs001-l001-p001"/>
+         <p xml:id="uuid_814943d4-4902-469f-9971-3b38b7df9427">
+            <lb xml:id="uuid_2d097ef2-bff4-4b4d-a32f-630d4bc1e200"/>In der Anlage erhalten Sie </p>
+         <p xml:id="uuid_43af4622-e90d-4b41-8492-97e17bd02b68">
+            <lb xml:id="uuid_3d9f2705-ba5e-4d80-8e64-c60fbde99bbc"/>a) 1 Durchschrift meines <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-038-000.xml"
+                subtype="legal-doc">Briefes</rs> an den<lb xml:id="uuid_0ecec9a6-d4fc-44a2-a8cb-f9593703d27c"/><rs type="institution" ref="#37185">Kampfausschuß gegen die Zensur</rs>, </p>
+         <p xml:id="uuid_8435a018-b80d-496d-94d9-70993cc78daf">
+            <lb xml:id="uuid_323eb447-187d-4caf-9926-98fa0992a83d"/>b) 1 Durchschrift meines <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-030-000.xml"
+                subtype="legal-doc">Briefes</rs> an <rs type="person" ref="#11975">Kortner</rs>. </p>
+         <p xml:id="uuid_f416d887-ccac-420d-9a39-9c5bd65fa982">
+            <lb xml:id="uuid_d5903a90-29b3-4a9c-8cc4-e3d607350c70"/>Über die erstere
+                Angelegenheit habe ich gestern<lb xml:id="uuid_8073b85a-91ea-45f0-994e-ba28cd47d0cc"/>eingehend mit Herrn <rs type="person" ref="#7969">Herbert Ihering</rs> verhandelt.
+                    Dieser<lb xml:id="uuid_45550008-79e2-4705-bed1-445ce4d2dcc6"/>hält die Aktion
+                für überaus wichtig und wird sie im<lb xml:id="uuid_69877de1-1195-4a9c-90f0-6b8923b9ea4b"/><rs type="institution" ref="#37185">Kampfausschuß</rs> auf das Entschiedenste vertreten. Auch<lb xml:id="uuid_5d55ec3e-5569-4153-a452-3b578463364a"/>hat er sich bereit erklärt,
+                die Angelegenheit nach<lb xml:id="uuid_b4b1f34a-54ee-4d83-bc34-193bd45d584e"/>der
+                Entscheidung des <rs type="institution" ref="#37185">Kampfausschusses</rs>
+                    publizistisch<lb xml:id="uuid_4dc7d376-2967-4666-a0da-01a6d2b0d0d9"/>zu
+                vertreten, da er die großen Gefahren in der Sache<lb xml:id="uuid_78b515cb-31a9-4654-9f15-41c01edfb7a3"/>klar erkannt hat. Das <rs type="work">Schreiben</rs> schon jetzt an die<lb xml:id="uuid_37b3f907-8761-4e31-a112-e0318f0c0b4f"/>Presse zu geben und im <rs type="work" ref="#41289" subtype="pmb">Börsenkurier</rs> abzudrucken hält<lb xml:id="uuid_58ddfb0c-87c0-4fc5-8ae7-020e9ddd9b1f"/>er für falsch, weil das die
+                Mitglieder des <rs type="institution" ref="#37185">Ausschusses</rs>
+            <lb xml:id="uuid_d3944b7c-1b6a-4f3b-b382-a3eb08d3dfea"/>von vorneherein verstimmen
+                und einen zwar nicht sehr<lb xml:id="uuid_050f58d1-eab1-4486-af51-ea6e4b88c71a"/>sicheren, aber immerhin möglichen Erfolg unbedingt ge<lb break="no" xml:id="uuid_1662993f-a76f-49df-b05e-88f9664e6e0b"/>fährden würde. Ausserdem
+                will er den publizistischen<lb xml:id="uuid_fba134a5-e6f3-4a74-8adc-50e4b7f185cf"/>Weg als letztes Druckmittel bei den Beratungen des<lb xml:id="uuid_2523b6d3-5bb4-44c1-9ec8-1c2dd66f929c"/><rs type="institution" ref="#37185">Kampfausschusses</rs> offen halten. </p>
+         <p xml:id="uuid_46c7efa8-d29e-4d9f-944f-c53d8a6039a2">
+            <lb xml:id="uuid_0a24c491-7bb7-4600-aa9c-3fe9c9802699"/>Ich glaube, daß wir uns
+                insoweit auf <rs type="person" ref="#7969">Ihering</rs>
+            <lb xml:id="uuid_effdf135-9450-45b2-807b-f703f3542284"/>verlassen können, der im <rs type="institution" ref="#37185">Kampfausschuß</rs> eine gewichtige<lb xml:id="uuid_6d016f5f-267f-4268-8647-f4575dbc75b4"/>Stimme hat und ich werde
+                mich nach seinem Rat richten,<lb xml:id="uuid_f0ee06b3-5e2e-48c0-adf5-b04f5b30afc4"/>falls ich von Ihnen nicht gegenteilige Weisung erhalte. </p>
+         <p xml:id="uuid_d31ab61a-c870-45e0-91cd-dc9a33bd7a77">
+            <lb xml:id="uuid_6ce869f7-474d-4a9b-bd7a-0c10e72577f5"/>Mit bestem Gruß an Herrn <rs type="person" ref="#11988">Karl Kraus</rs>
+         </p>
+         <p xml:id="uuid_e80caee4-1481-45f2-acb1-a9cb4ce478fe">
+            <lb xml:id="uuid_f56a3ed2-9cfb-4c20-95c6-489070d1f15e"/>ergebenst<lb xml:id="uuid_8b171e87-97fb-43c9-9b71-79d61bcac370"/><rs type="person" ref="#38969">Dr. Laserstein</rs>
+            <lb xml:id="uuid_7206802d-0a2c-4b91-bc9a-083eff3fe740"/>Rechtsanwalt. </p>
+      </body>
+   </text>
+</TEI>

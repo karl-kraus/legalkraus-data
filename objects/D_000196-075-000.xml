@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-076-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-074-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000196-075-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Felix Gallia an Samek</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000196-075-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/5061</idno>
+            <idno subtype="transkribus" type="ID">400634</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000196" type="collection">Karl
+                    Kraus ca. Arbeiter-Zeitung (Brünn)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000196-075-000-facs001" xml:id="D_000196-075-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000196-075-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#51575">Dr. FELIX GALLIA</persName>
+               <address>
+                  <street corresp="#51759">MASARYKSTRASSE 25/27</street>
+                  <settlement ref="#833">BRÜNN</settlement>
+               </address>
+               <date when-iso="1936-03-20">20. März 1936</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Wohlgeboren Herrn | Dr. Oskar Samek, | Rechtsanwalt </persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse 18</street>
+                  <settlement ref="#65">Wien XIV.</settlement>
+               </address>
+               <date when-iso="1936-03-21">21.3.1936</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Arbeiterzeitung.</note>
+               <note type="dictation">Dr.G/b</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1936-03-20">20. März 1936</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000196-075-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000196-075-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-12T09:52:56.545Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-12T11:11:24.132Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 400634. </change>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-10-04"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-10-01"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-10-04"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-10-01" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000196-075-000-facs001">
+      <surfaceGrp xml:id="D_000196-075-000-facs001-l001">
+         <surface type="recto" xml:id="D_000196-075-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593696/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000196-075-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593697/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000196-075-000-facs001-l002">
+         <surface type="recto" xml:id="D_000196-075-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593698/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000196-075-000-facs001-l002-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593699/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000196-075-000-facs001-l003">
+         <surface type="recto" xml:id="D_000196-075-000-facs001-l003-p005">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593700/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000196-075-000-facs001-l003-p006">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593701/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000196-075-000-facs001-l004">
+         <surface type="recto" xml:id="D_000196-075-000-facs001-l004-p007">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593702/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000196-075-000-facs001-l004-p008">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593703/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593704/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593705/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593706/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593707/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593708/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593709/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593710/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593711/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000196-075-000_p001"
+             facs="#D_000196-075-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_6b4e9150-9aa8-48b9-abd1-3fdbea375a0c">
+            <lb xml:id="uuid_8622343e-9ece-432a-87e6-7a79a082730b"/>Sehr geehrter <rs ref="#38909" type="person">Herr Kollege</rs>. </p>
+         <p xml:id="uuid_cd8089d2-9fc9-4730-9a79-9dc8bbd59afc">
+            <lb xml:id="uuid_fe56512b-a30b-4be5-b74b-ef3ba9109e9f"/>Nach neuerlicher genauer
+                Durchsicht Ihres Entwurfes<lb xml:id="uuid_787bc11c-c63f-4ace-8a43-a2e0f48f7a5a"/>für unsere Aeusserung möchte ich meinen Standpunkt wie folgt<lb xml:id="uuid_c3d24e91-564c-4c89-bc6b-e784a7ab059e"/>bekanntgeben: </p>
+         <p xml:id="uuid_e8720152-1963-4e09-a695-d073b6836cf3">
+            <lb xml:id="uuid_0c1a1374-4c97-492b-80db-d7b5e23a5833"/>1./ Ich würde vorschlagen
+                einleitend schon zu bemerken,<lb xml:id="uuid_486ac80e-cb0a-428b-b79c-1e9587d2f6be"/>dass wir nicht wünschen, dass die Angeklagten schon an technischen<lb xml:id="uuid_dcdf8834-b917-40fc-ae90-97b6181457c6"/>Schwierigkeiten scheitern
+                und dass wir daher ihnen alle Exemplare<lb xml:id="uuid_3806f6c0-ef3a-45b0-9eb3-3ac8d5a00ae3"/>der <rs ref="#41244" type="work" subtype="pmb">Fackel</rs> gern zur Verfügung stellen wollen, die sie
+                zu ihrer<lb xml:id="uuid_7ba285e9-58c8-487d-a35d-7e96dc955c73"/>Entlastung zu
+                benötigen glauben, wobei es uns sogar – hier nehme<lb xml:id="uuid_43576c07-7ea1-4c7d-9256-f408e33c29a9"/>ich das Ende Ihres
+                Schriftsatzes vorweg – möglich sein wird, die<lb xml:id="uuid_6168444d-1292-4c51-bb25-a568c09ad2e0"/>speziellen österr.
+                Fackelnummern zu beschaffen, die sich allerdings<lb xml:id="uuid_9b132361-49e6-4a19-bf0d-3882e49c4469"/>von den im Gebiete der
+                Č.S.R. zum Verkauf gelangenden Fackeln nur<lb xml:id="uuid_e7d5eaf4-4d37-4829-9ebc-13fd4f4424d0"/>durch den Preisaufdruck auf
+                dem Umschlag – hier in Kč, in Oester<lb break="no" xml:id="uuid_e97a5d67-033e-4858-ab68-dec52abcc978"/>reich in ÖS – unterscheiden. </p>
+         <p xml:id="uuid_7d60abb6-6ed0-4ad5-8f08-7445fd847195">
+            <lb xml:id="uuid_9df01cf9-94fb-437f-aed6-0f580ba6b805"/>2./ Ich möchte vorschlagen,
+                bevor wir in das Meritum<lb xml:id="uuid_3f5c1f5c-07e5-47f7-824e-28fa2d0dc5c4"/>eingehen, auch schon zu der Rechtsfrage Stellung zu nehmen,<lb xml:id="uuid_9869b583-3780-4a6c-a438-e3770ca60de7"/>ob die Angeklagten den
+                Strafausschliessungsgrund des <rs ref="" type="law">§ 6, 2b</rs>
+            <lb xml:id="uuid_9197e239-2773-4336-8367-7601e6eb616c"/>für sich in Anspruch nehmen
+                können. </p>
+         <p xml:id="uuid_af8e8581-ce32-4ccc-822f-df2c988c2490">
+            <lb xml:id="uuid_c6acfc27-e778-4df6-b435-df90016207f8"/>Wie Sie, sehr geehrter <rs ref="#38909" type="person">Herr Kollege</rs>, ganz richtig<lb xml:id="uuid_dc848e7d-eca1-484d-9e67-a8d08480b07c"/>hervorgehoben haben, kann
+                dieser Strafausschliessungsgrund nur <pb xml:id="D_000196-075-000_p002"
+                facs="#D_000196-075-000-facs001-l001-p002"
+                n="2"/>
+            <lb xml:id="uuid_4a059cb1-667b-40b3-a0eb-f593e5bc53ee"/>jenenfalls von dem
+                Angeklagten für sich in Anspruch genom<lb break="no" xml:id="uuid_143c496d-e2a7-42e9-ab63-073b3988fbbb"/>men werden, wenn das von ihm
+                vorgegebene öffentliche Interesse<lb xml:id="uuid_9cad16f3-49b4-4067-bea0-806e93f566c6"/>schon zur Zeit der
+                inkriminierten Aeusserung vorhanden war.<lb xml:id="uuid_def2df3b-7374-4338-b6f9-6840f6a2660a"/>Der
+                Strafausschliessungsgrund soll ja jenen schützen, der<lb xml:id="uuid_9b7f593d-1975-4591-99ff-83f26fdecf28"/>einen sonst strafbaren
+                Tatbestand setzt, eine private Interes<lb break="no" xml:id="uuid_4d8f51a1-293e-47db-9d3d-bf4e842349ec"/>sensphäre / des Beleidigten
+                / stört, um eine wichtigere Interes<lb break="no" xml:id="uuid_2e8dbd1c-24fc-46eb-9597-826d7993c49d"/>sensphäre zu schützen. Nun
+                ist, wie wir ja in <rs ref="#50" type="place">Wien</rs> festgestellt<lb xml:id="uuid_37c7a613-9aff-4923-9284-bef38d66014b"/>haben, die einzige Stelle
+                der <rs ref="#41244" type="work" subtype="pmb">Fackel</rs>, die unter Umständen
+                    als<lb xml:id="uuid_049cbb6e-ca71-48c5-a656-397a18d6ebf7"/>Angriff auf die čsl.
+                Demokratie ausgelegt werden könnte, die<lb xml:id="uuid_430de590-93d4-4f23-abb5-f786ccb590d8"/>Stelle in der <rs ref="https://fackel.oeaw.ac.at/f/909,0u1"
+                type="work"
+                subtype="fackel">Fackel
+                    909–911</rs>, die weit später erschienen<lb xml:id="uuid_69722505-a994-4304-870c-611294aa620c"/>ist, als der <rs ref="#58907" type="work" subtype="pmb">Artikel</rs> bezw. das <rs ref="#58916" type="work" subtype="pmb">Gedicht</rs> in der <rs ref="#41202" type="work" subtype="pmb">Arbeiterzeitung</rs>.<lb xml:id="uuid_9a268fef-3b3a-40ad-b142-a91a88b327a3"/>Für ihre Behauptung, dass
+                unser <rs ref="#11988" type="person">Klient</rs> schon durch Jahre hin<lb break="no" xml:id="uuid_0b15ae4c-0a72-43c5-b07a-2e19386168b3"/>durch unbegründet die
+                čsl.Staatsmänner beschimpfe / Punkt<lb xml:id="uuid_aef7c808-70bd-47a6-8062-8943321f2037"/>7./ des gegnerischen <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-061-000"
+                type="work"
+                subtype="legal-doc">Schriftsatzes</rs> /, werden die Gegner natür<lb break="no" xml:id="uuid_ea059c4e-15ea-4113-a99c-817de0691855"/>lich den Beweis schuldig
+                bleiben müssen. Wir hingegen werden,<lb xml:id="uuid_a19dc508-1f23-4b2c-b6a7-21e150834eb8"/>wie besprochen, in unserm
+                Schriftsatz alle oder zumindest<lb xml:id="uuid_ad0ea10a-3998-4f6d-854d-45a37528a7c4"/>einige jener Stellen aus den
+                letzten Jahrgängen der <rs ref="#41244" type="work" subtype="pmb">Fackel</rs>
+            <lb xml:id="uuid_1cf9720c-b80d-437f-a0c3-d75bb8bce16e"/>verwenden, in denen der <rs ref="#11988" type="person">Klient</rs> der Č.S.R. unbeschränktes Lob<lb xml:id="uuid_8d280e1f-f06d-45fd-8327-c8a8f992a2c0"/>geschenkt hat. </p>
+         <p xml:id="uuid_95e5be8a-4e9e-45c1-bf13-5e08deb98615">
+                <lb xml:id="uuid_18a3860b-685f-4d38-aff4-c042e2678cfa"/>In den gerade behandelten
+                Zusammenhang würde eigentlich<lb xml:id="uuid_2622a38e-8166-4bea-8e0c-a623f1c0a6e1"
+                />auch jener Teil unseres Schriftsatzes gehören, in welchem<lb
+                    xml:id="uuid_f85900b7-9bb4-45f5-aac0-f08a31ed3cfb"/>wir von der Beziehung des
+                Herrn <rs ref="#11988" type="person">Kraus</rs> zu dem Präsidenten<lb
+                    xml:id="uuid_22397109-cf1c-437b-a377-60b071efc4be"/><rs ref="#39082"
+                    type="person">Masaryk</rs> handeln wollen. Ich weiss allerdings nicht, ob es <pb
+                    xml:id="D_000196-075-000_p003" facs="#D_000196-075-000-facs001-l002-p003" n="3"/>
+                <lb xml:id="uuid_d3f3c261-9137-4699-8d09-d14dff2de1c0"/>nicht besser wäre, die
+                Beziehung zu Präsident <rs ref="#39082" type="person">Masaryk</rs> erst am<lb
+                    xml:id="uuid_03134483-881d-4ef7-9c4a-92b0fe2e5622"/>Schluss des Schriftsatzes zu
+                schildern, da dadurch doch wohl<lb
+                    xml:id="uuid_e32f2088-e617-4079-a52d-16dfa1c2e236"/>erzielt würde, dass nach
+                Lektüre des Schriftsatzes dem <rs type="person">Richter</rs>
+                <lb xml:id="uuid_5c0367a7-511d-44a3-82de-d879c21ed202"/>dieser Punkt am
+                nachhaltigsten im Gedächtnis bleibt. Wie ich<lb
+                    xml:id="uuid_0dca63cf-7d0a-4ac2-8867-29e345765329"/>Ihnen ja auseinandergesetzt
+                habe, verspreche ich mir von der<lb
+                    xml:id="uuid_1493fed3-a0f6-4b1d-9995-dff9ba57e7ba"/>psychologischen Wirkung in
+                dieser Hinsicht ziemlich viel. Ich<lb
+                    xml:id="uuid_57d0ba99-821f-4600-a667-c1e1134d9e86"/>habe eine Probe schon
+                gemacht: Bei meinem letzten Besuch bei<lb
+                    xml:id="uuid_bf1c44db-01f6-458c-95f9-1b940bb7ff1e"/><rs ref="#43542"
+                    type="person">Dr. Winter</rs> habe ich ihm davon erzählt, dass Herr <rs
+                    ref="#11988" type="person">Kraus</rs> vom<lb
+                    xml:id="uuid_2684e48c-d04b-4a3e-92cc-4c28508fdc88"/>Präsidenten <rs ref="#39082"
+                    type="person">Masaryk</rs> auf die <rs ref="#59763" type="place">Burg</rs>
+                eingeladen wurde und habe ihn<lb xml:id="uuid_5e621d2b-4141-403e-a8e9-55e39d73c92f"
+                />gefragt, ob er es denn für möglich halte, dass der <rs ref="#39082" type="person"
+                    >Präsident</rs>
+                <lb xml:id="uuid_d27fa130-ecad-431c-b4f9-897ee08c9906"/>einen Gesinnungslumpen,
+                extremen Militaristen usw. von sich aus<lb
+                    xml:id="uuid_fe902ab3-25a9-4ed7-b507-f039e4e9cf10"/>einladen würde. <rs
+                    ref="#43542" type="person">Dr. Winter</rs> war über meine Mitteilung sehr er<lb
+                    break="no" xml:id="uuid_71b60322-afa0-465d-8738-71b1cc4fa24f"/>staunt und ich
+                konnte ganz deutlich beobachten, wie sie auf ihn<lb
+                    xml:id="uuid_ae9c0593-06e4-42b4-a4fd-11ec6d786e8c"/>wirkte. Eine noch viel
+                stärkere Wirkung verspreche ich mir bei<lb
+                    xml:id="uuid_38a273c7-b1e0-46e8-a77b-225243a62fba"/>čechischen Richtern. </p>
+         <p xml:id="uuid_8e4d9e3b-d30a-42e7-98f3-1b44783fb843">
+            <lb xml:id="uuid_ffd2cbaa-9163-45fd-bddf-de31349c7349"/>3./ Ich würde empfehlen, die
+                Angaben unseres Schrift<lb break="no" xml:id="uuid_52d3761b-fa08-40c5-b9a7-78c7cc7933f1"/>satzes nicht nur durch die
+                Zeugenschaft Herrn <rs ref="#11988" type="person">Kraus</rs>’ bestätigen<lb xml:id="uuid_c766b81e-8822-4796-bd2c-175f1666f8a4"/>zu lassen, sondern auch noch
+                durch andere Aussagen. </p>
+         <p xml:id="uuid_d61901f4-0b57-47b0-a8a5-a2b7e413d0ac">
+            <lb xml:id="uuid_0583e330-20f4-488a-a918-66af8c42d75e"/>Dabei wäre es natürlich
+                recht angenehm, wenn von uns Zeu<lb break="no" xml:id="uuid_e5194c69-7433-49f7-ab24-22421904b0bf"/>gen geführt werden würden,
+                die in der Č.S.R. wohnen. Falls<lb xml:id="uuid_f0b2d07b-7b17-448b-a045-ef7a83e79462"/>Sie jedoch Wiener Zeugen
+                führen wollten – käme da nicht vielleicht <pb xml:id="D_000196-075-000_p004"
+                facs="#D_000196-075-000-facs001-l002-p004"
+                n="4"/>
+            <lb xml:id="uuid_ed3f5118-4c09-453d-8b75-e457a91e9255"/>an erster Stelle Herr <rs ref="#41669" type="person">Prof. Jaray</rs> in Betracht? – es wäre<lb xml:id="uuid_2f9a47f1-7461-48af-81ff-34dd914a9498"/>zu erwägen, ob nicht die zu
+                nominierenden Wiener Zeugen mit<lb xml:id="uuid_cc29722a-f5c0-42f8-b1be-0c1f272e9ee8"/>Herrn <rs ref="#11988" type="person">Kraus</rs> zu seiner Einvernahme vor dem hiesigen <rs type="person">Untersu<lb break="no" xml:id="uuid_2026b9d1-b77b-493a-b632-d74835a96446"/>chungsrichter</rs>
+                erscheinen könnten. Zeugen würde ich insbesonde<lb break="no" xml:id="uuid_f33e842c-128b-4c00-a10d-4c728e0d51b3"/>re darüber führen wollen,
+                wann z.B. „<rs ref="#32544" type="work" subtype="pmb">Die letzten Tage der<lb xml:id="uuid_2607a2e8-f421-44ca-86a9-0719b2ad1b83"/>Menschheit</rs>“
+                geschrieben wurden, wieso es kam, dass Herr<lb xml:id="uuid_8eeaa1df-4579-468a-88f5-ce868287c978"/><rs ref="#11988" type="person">Kraus</rs> im Krieg seinen Pass behalten durfte, weiters über
+                    die<lb xml:id="uuid_b735f3e9-641a-420b-aef6-3d98a289dc42"/>Tatsache, dass gegen
+                ihn ein Strafverfahren beim <rs ref="#36842" type="institution">Wiener Straf<lb break="no" xml:id="uuid_16b77b1e-591b-45b1-8508-4dbf654fda66"/>landesgericht</rs> durch Jahre lief, schliesslich über seine Ver<lb break="no" xml:id="uuid_8c4d057e-7bd0-42d7-a6ba-a339c77822e3"/>mögensverhältnisse, sein
+                Verbot, die <rs ref="#41244" type="work" subtype="pmb">Fackel</rs> in Deutschland<lb xml:id="uuid_953d424f-0408-46e0-b86a-fe2df27c7030"/>zu verbreiten, die Art der
+                Verwendung der Erträgnisse seiner<lb xml:id="uuid_f1bd4e47-78b7-432d-8dca-2914052cd888"/>Vorlesungen und die Höhe der
+                aus diesen Erträgnissen sowohl<lb xml:id="uuid_5aa8120a-dd3c-46b5-9dc3-a9a41ac9e117"/>in <rs ref="#50" type="place">Wien</rs> wie auch anderwärts gemachten Spenden,
+                weiters natür<lb break="no" xml:id="uuid_02056bf4-cf64-48af-8704-13a5a485b423"/>lich
+                auch über die Tatsache der unbeirrbaren geistigen Haltung<lb xml:id="uuid_1b526c2c-e9e9-4b91-a9ed-65d888eb8351"/>und Stellung des Herrn <rs ref="#11988" type="person">Kraus</rs>, dies in der ganzen Zeit, in der<lb xml:id="uuid_bd1bdaae-1361-475e-85a5-c0973a31bd79"/>er die <rs ref="#41244" type="work" subtype="pmb">Fackel</rs> herausgibt. </p>
+         <p xml:id="uuid_78ab79ec-2e5c-42db-8b75-780fd8e00d88">
+                <lb xml:id="uuid_9a7acb9e-fbb2-4260-8cf0-eec2ec2c91ff"/>4./ In dem Schriftsatz
+                werden wir doch wohl etwas<lb xml:id="uuid_f7b8545a-ecfb-4484-a5bc-aa973f233bd6"
+                />eingehender über die gegnerischen Angaben über die Fackel<lb
+                    xml:id="uuid_81c5ac6e-05ba-40c3-b5d8-0871f49a67d6"/><rs
+                    ref="https://fackel.oeaw.ac.at/f/890,0u1" type="work" subtype="fackel">Nr.
+                    890–905</rs> sprechen müssen. Meines Erachtens wäre es<lb
+                    xml:id="uuid_529cafc6-cdcf-411d-a340-9ae99972f01a"/>vielleicht gut, kurz zu
+                sagen, gegen wen eigentlich sich<lb
+                    xml:id="uuid_93a15b03-e3d2-4ab5-943d-86254d712fc8"/>diese <rs
+                    ref="https://fackel.oeaw.ac.at/f/890,0u1" type="work" subtype="fackel"
+                    >Nummer</rs> der <rs ref="#41244" type="work" subtype="pmb">Fackel</rs>
+                gerichtet hat. <rs ref="#25105" type="person">Sonka</rs> will sich<lb
+                    xml:id="uuid_0c0f4195-593c-4660-a604-cc1aa3f2fc03"/>offenbar einzig und allein
+                zu dem Zweck, damit nach <rs ref="" type="law">§ 9,<lb
+                        xml:id="uuid_c50948d5-9746-4ff5-ab72-7b2e25ef47e2"/>Ziffer 2 des
+                    Ehrenschutzgesetzes</rs> das <rs ref="#36818" type="institution">Gericht</rs>
+                von seiner Be<lb break="no" xml:id="uuid_76298839-abff-41c6-a08d-d8462cad5829"
+                />strafung absehe, durch die <rs ref="https://fackel.oeaw.ac.at/f/890,010"
+                    type="work" subtype="fackel">Fackel vom Juli 1934</rs> provoziert <pb
+                    xml:id="D_000196-075-000_p005" facs="#D_000196-075-000-facs001-l003-p005" n="5"/>
+                <lb xml:id="uuid_a4801a65-3309-4319-8de9-26675692c5a0"/>fühlen. Dieses „Muster
+                moralischer Verantwortlichkeit“<lb
+                    xml:id="uuid_bfa93e0b-089a-4f81-b682-623100e679d8"/>fühlt sich offenbar auch als
+                Emigrant, der die unsichere<lb xml:id="uuid_8fd5aae4-23ef-4537-abbb-f0f92ddf3871"
+                />Fremde vor der weit bequemeren Gleichschaltung gewählt ha<lb break="no"
+                    xml:id="uuid_e7c03576-025b-44ba-ab6b-c1395ce19bd1"/>ben soll. Nun scheint die
+                moralische Verantwortung nicht<lb xml:id="uuid_86310384-2247-48c7-ac2b-334f4c0048b5"
+                />so weit zu gehen, um auch eine Verpflichtung zu schaffen,<lb
+                    xml:id="uuid_a88809ee-302c-4659-88bf-2b114910d355"/>immer die Wahrheit zu sagen,
+                denn sonst könnte <rs ref="#25105" type="person">Sonka</rs>, in<lb
+                    xml:id="uuid_bf9bdcdf-f160-41b0-af94-31fe45775684"/><rs ref="#60154"
+                    type="place">Gaya</rs> geboren und wie ich glaube auch dorthin zuständig,<lb
+                    xml:id="uuid_ed349158-d736-43c2-8268-ea1eb75d6230"/>– ich werde das aus dem
+                Gerichtsakt noch feststellen –<lb xml:id="uuid_7bed2f68-8519-4870-b3b9-4e1e0cb50d2e"
+                />sich doch nicht gut als Emigrant ausgeben. </p>
+         <p xml:id="uuid_a0bb5391-588f-484a-8636-da57f27041ee">
+            <lb xml:id="uuid_fd74e2bd-32a8-45c7-9855-bbaa3e12db57"/>Ich glaube auch, dass es
+                notwendig sein wird, zu<lb xml:id="uuid_c380e96d-5d55-4e32-9809-0c275079e7d6"/>erklären, auf wen das Zitat auf <rs ref="https://fackel.oeaw.ac.at/f/890,173"
+                type="work"
+                subtype="fackel">Seite 173</rs> der <rs ref="https://fackel.oeaw.ac.at/f/890,0u1"
+                type="work"
+                subtype="fackel">Fackel
+                        890–<lb xml:id="uuid_2df9d60e-b2a9-4195-b7f0-7fa01b3c5210"/>905</rs> sich
+                bezog / Seite 5./ unten des gegnerischen <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-061-000"
+                type="work"
+                subtype="legal-doc">Schrift<lb break="no" xml:id="uuid_7d950404-940d-4cc3-97ea-1bae68010cb1"/>satzes</rs> /. </p>
+         <p xml:id="uuid_95f63b48-001d-4f8c-94fe-7924842aa3ff">
+            <lb xml:id="uuid_fb9b7fb2-97d8-43f1-912a-9819d1a747b2"/>5./ Ich möchte jetzt noch zu
+                den einzelnen Ausfüh<lb break="no" xml:id="uuid_e3f411db-c60c-42a1-95a7-22d377a40c19"/>rungen Ihres Entwurfes
+                folgendes bemerken: </p>
+         <p xml:id="uuid_355a754e-45dc-4144-bb9b-65e35dbef193">
+            <lb xml:id="uuid_914e2e6e-8560-4ef6-9dc8-d8a236c427d6"/>Auf der ersten Seite möchte
+                ich in der ersten Zeile<lb xml:id="uuid_dcf3b1a2-e7cd-4759-87f6-88fd5a4bdf51"/>anführen, dass <rs ref="#25105" type="person">Sonka</rs> sich „unter anderm dafür
+                zu verant<lb break="no" xml:id="uuid_9f235754-fb3a-48d4-b43f-5d1a4dd129de"/>worten“
+                hat …, auf der zweiten Seite unten möchte ich<lb xml:id="uuid_3b2df7ba-f573-4f47-9319-9a3fefe2e206"/>sagen: „Verdächtigungen und
+                Beschimpfungen übelster<lb xml:id="uuid_ef96e91b-4442-4b0c-9ba3-0ee1a500a3ad"/>Art
+                sind keine Kritik …“, ferner glaube ich, dass man<lb xml:id="uuid_702ea0fd-15d8-4df9-a191-411a18aa733c"/>die Fälschungen / Seite 2
+                ganz unten / ohne weiters als <pb xml:id="D_000196-075-000_p006"
+                facs="#D_000196-075-000-facs001-l003-p006"
+                n="6"/>
+            <lb xml:id="uuid_316553bf-c0c8-432d-ac19-9f5c72ae5fc8"/>bewusste bezeichnen kann.
+                Auf Seite 4 würde ich im dritten<lb xml:id="uuid_f16b7d8f-aa48-424d-9279-2aef2ee58962"/>Absatz statt „kriegerische
+                Männlichkeit“ vorschlagen<lb xml:id="uuid_9e40c53b-7dd6-4a73-8062-efdad0a0eb85"/>„aufrechte Männlichkeit“ und in demselben Satz auch noch<lb xml:id="uuid_2b9688e5-ce09-4096-9bff-174dcd58d82b"/>sagen, dass der <rs ref="#11988" type="person">Privatkläger</rs> den Krieg zu tiefst verabscheut<lb xml:id="uuid_12de7362-bcd1-41ee-8a56-476eabe1abdb"/>und immer vor, während und
+                nach dem Krieg in gleicher Weise<lb xml:id="uuid_9a476534-6def-4f9e-a744-959d5e415ba1"/>verabscheut hat. </p>
+         <p xml:id="uuid_8485be07-3a92-4f32-a9a6-71ce89338e1b">
+            <lb xml:id="uuid_34eb3246-4400-464f-80a4-c4ad57dd8910"/>Falls die anonymen Briefe,
+                gegen die in der Fackel <rs ref="https://fackel.oeaw.ac.at/f/400,0u1"
+                type="work"
+                subtype="fackel">Nr.<lb xml:id="uuid_a3fb128a-d27d-4a08-b55e-114e7ca12d48"/>400–403</rs> Stellung genommen wurde, noch vorhanden sind, würde<lb xml:id="uuid_b468afbd-29e2-4b72-a64e-a80704a3162f"/>es sich gewiss empfehlen,
+                sie vorzulegen. Auf Seite 5 unten<lb xml:id="uuid_57459486-539e-4c81-9db0-e5c779a4b110"/>möchte ich nach den Worten:
+                „dass er den liberalen Stand<lb break="no" xml:id="uuid_7e2a779c-01d8-4c9c-876f-b74c34322122"/>punkt in der Politik
+                ablehne“ einfügen: „in diesem Punkt<lb xml:id="uuid_18b97909-52f5-4570-b9f7-b6cdeb156698"/>ist seine Anschauung mit
+                jener, die die Angeklagten haben<lb xml:id="uuid_800f7db3-8ca3-4a27-b4bd-3725ab7fc20c"/>müssten, identisch“, auf
+                Seite 7 unten möchte ich noch das<lb xml:id="uuid_56321eae-1b52-4e28-82f5-09b20f4ff930"/>Datum des <rs type="work">Artikels</rs>
+            <rs ref="#25105" type="person">Sonkas</rs> im <rs ref="#36376" type="work" subtype="pmb">Neuen Wiener Journal</rs> zitieren<lb xml:id="uuid_eaafa3d6-3965-43a7-a95b-50d7a2b1f609"/>und eventuell das <rs type="work">Exemplar</rs> des Journals, in dem der <rs type="work">Artikel</rs>
+            <lb xml:id="uuid_16ad550c-d0de-4b40-b2e0-4b563c275eee"/>abgedruckt
+                war, vorlegen. </p>
+         <p xml:id="uuid_3279cd64-998a-4270-9850-df3184b4df47">
+            <lb xml:id="uuid_737b80f3-02d2-457b-a610-50c42fe7db2b"/>Aus den Kriegsnummern der
+                Fackeln sollten vielleicht<lb xml:id="uuid_9436d08a-c1fb-4b40-8cfc-7fe9605945ad"/>doch einige Stellen, die die Einstellung Herrn <rs ref="#11988" type="person">Kraus</rs> zum<lb xml:id="uuid_eaeab51c-a3f7-49ab-b959-9eb3b255e36e"/>Krieg
+                klar umreissen, wörtlich zitiert werden. </p>
+         <p xml:id="uuid_73f3d28c-a6fd-4266-b8c4-1baf28190830">
+            <lb xml:id="uuid_8bf096cb-ac62-468d-b250-81b0c000ba59"/>Den letzten Absatz auf Seite
+                14./ würde ich dahin zu<lb xml:id="uuid_c89a0ab3-a71d-4b15-9a5e-448bdc961278"/>ergänzen empfehlen, dass er auch kurz die damalige Stellung<lb xml:id="uuid_7f78b921-2c31-408e-a57d-75e651686b1a"/>der Sozialdemokratie im
+                österr. Staatsleben behandelt. </p>
+         <p xml:id="uuid_627a62fa-0ae3-486e-98e6-515ee6166a5d">
+            <lb xml:id="uuid_5cba8906-e993-47a9-a906-7fcace3d156f"/>Ich glaube, dass auf Seite
+                16./ der mit den Worten:<lb xml:id="uuid_4d81c235-e295-43b6-94a1-b3a0081c80ae"/>„Die
+                Aenderung der politischen Ueberzeugung“ beginnende <pb xml:id="D_000196-075-000_p007"
+                facs="#D_000196-075-000-facs001-l004-p007"
+                n="7"/>
+            <lb xml:id="uuid_2bc57d6f-3bcd-4779-bf31-02efba0641bf"/>und auf Seite 17./
+                oben mit den Worten „genügen konnten“<lb xml:id="uuid_cafb8acf-f2d5-44e2-8056-0f6c9bf4ef5b"/>endende Satz ausgelassen
+                werden sollte. </p>
+         <p xml:id="uuid_bfa19254-95cf-447a-9ab5-13440d1c4d09">
+            <lb xml:id="uuid_24396562-e3e8-486a-96f8-fb7b2e1d4596"/>Die Fälschung, die von dem
+                Angeklagten hinsichtlich der<lb xml:id="uuid_e9c861ac-e556-4d69-9439-b8670cd5e22a"/>Fackel <rs ref="https://fackel.oeaw.ac.at/f/912,0u1"
+                type="work"
+                subtype="fackel">Nr. 912–915</rs> versucht wird, möchte ich doch sofort<lb xml:id="uuid_7c1c3045-ca7d-4273-bd06-8c9e05aa017b"/>aufdecken und entsprechend
+                geisseln. </p>
+         <p xml:id="uuid_557d7243-cae0-419b-bcf6-7b2183db8a26">
+            <lb xml:id="uuid_d0f35758-b9ba-4ffb-9856-a80f6d528839"/>Vielleicht wäre es gut, in
+                dem Schriftsatz auch kurz zu<lb xml:id="uuid_fd5432a9-c4fd-41a3-8583-3669b8f80273"/>den Aussagen <rs ref="#38617" type="person">Kornfeld</rs> – <rs ref="#10313" type="person">Urzidil</rs> Stellung zu nehmen. </p>
+         <p xml:id="uuid_d8f8fb2a-47d9-424b-90bf-2403e6512cee">
+            <lb xml:id="uuid_6e536b59-ff87-472e-ba65-8f8871007e86"/>6./ Am Schluss des
+                Schriftsatzes möchte ich, wie ich schon<lb xml:id="uuid_7837d5ab-245c-4993-9c37-b3a3abb1c0f4"/>einleitend bemerkte, gern
+                die Beziehung zu Präsident <rs ref="#39082" type="person">Masaryk</rs>
+            <lb xml:id="uuid_6f58cbb5-3edc-46ee-987b-6b1e040d91c0"/>schildern und vorher
+                vielleicht die Zitate aus der Fest<lb break="no" xml:id="uuid_5d0d9bcd-fa3c-4f0f-8f25-af73f17320f5"/>schrift zum 60. Geburtstag
+                anführen, ebenso die Zitate aus den<lb xml:id="uuid_e1e2e928-80d6-44a8-8bce-054169945002"/>hier in čechischer Sprache
+                erschienenen Beiträgen über Herrn<lb xml:id="uuid_b1e0a40c-a804-48f5-82ab-3851b603499c"/><rs ref="#11988" type="person">Kraus</rs>, die ich allerdings bisher noch nicht bekommen habe. </p>
+         <p xml:id="uuid_43251a31-79ad-4a4a-8a7d-61c049a62e21">
+            <lb xml:id="uuid_54bd9a6e-d82f-4d9e-a679-0b36c3dfe008"/>Hoffentlich wird sich die
+                ganze Korrespondenz mit dem<lb xml:id="uuid_861ef1a5-d90a-4faf-8559-aa078408af00"/><rs ref="#39082" type="person">Präsidenten</rs> bezw. seiner Kanzlei auffinden
+                lassen. </p>
+         <p xml:id="uuid_ac2d2014-8d72-46ac-bc0e-382ed4333bd3">
+            <lb xml:id="uuid_ee9c03b3-4e84-4ffc-aa87-7d5651f714a0"/>Ich erwarte, sehr verehrter
+                    <rs ref="#38909" type="person">Herr Kollege</rs>, mit dem grössten<lb xml:id="uuid_e673234d-6bc4-4abc-9cc2-72f6b02fa870"/>Interesse Ihre weitern
+                Nachrichten und bin mit </p>
+         <p xml:id="uuid_7b10b6ac-8c30-4ace-8a53-08d7ebfb0719">
+                <lb xml:id="uuid_b7215bdc-2b80-4aab-b4b3-d52684d91cfa"/>vorzüglicher kollegialer
+                    Hochachtung<lb xml:id="uuid_456ad7c4-2947-401e-8238-edb699059875"/>Ihr ganz
+                    ergebener<lb xml:id="uuid_7d80bfda-6b46-4fb0-9a71-5cca6e125008"/><rs
+                    ref="#51575" type="person">Dr. Gallia</rs>
+            </p>
+         <p xml:id="uuid_f33dfe1d-e790-4624-9626-c98a192c2b52">
+            <lb xml:id="uuid_7c8f2969-26aa-4b62-97ba-7f099e7e506a"/>Durchschlag anbei <pb xml:id="D_000196-075-000_p008"
+                facs="#D_000196-075-000-facs001-l004-p008"
+                n="8"/>
+         </p>
+         <p xml:id="uuid_e372f581-d6e1-41bc-a014-05b792175ca9">
+            <lb xml:id="uuid_2990ea87-9a12-451a-a6aa-0684c4bdeab1"/>P.S. Ich habe bei <rs ref="#59206" type="person">Dr. Ečer</rs> angefragt, ob er im Punkt V letzter<lb xml:id="uuid_150c3617-c139-401b-8bce-253bc14b1f80"/>Absatz seines <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-061-000"
+                type="work"
+                subtype="legal-doc">Schriftsatzes</rs> zum Ausdruck bringen wollte,<lb xml:id="uuid_7fd98a38-e4f3-4697-97a4-00d0b012c54f"/>dass <rs ref="#25105" type="person">Sonka</rs> auch Autor des Artikels „<rs ref="#58907" type="work" subtype="pmb">der Racheakt der<lb xml:id="uuid_be7ccc35-6485-48d6-87b6-bbdbec378364"/>Polizei gegen
+                    Braunthal</rs>“ sei. <rs ref="#59206" type="person">Dr. Ečer</rs> antwortet mir
+                    heute,<lb xml:id="uuid_c65fe51a-6030-4829-a148-26295d4196e5"/>die Anführung <rs ref="#25105" type="person">Sonkas</rs> als Autor dieses <rs ref="#58907" type="work" subtype="pmb">Artikels</rs> sei nur auf<lb xml:id="uuid_e3e808c7-7271-4b5b-b898-89dd236a8c44"/>einen Irrtum seines
+                Konzipienten zurückzuführen, der in letzter<lb xml:id="uuid_d991ff1a-ff8a-46cf-94fc-a7b2e64b1577"/>Stunde vor der
+                Hauptverhandlurg den Schriftsatz diktiert<lb xml:id="uuid_59aac026-c526-4568-8174-233cbe07795b"/>hat. Offenbar will also <rs ref="#59206" type="person">Dr. Ečer</rs> zumindest nicht zugeben, dass<lb xml:id="uuid_b4720627-d18f-4f55-a23c-20b68222d649"/><rs ref="#25105" type="person">Sonka</rs> auch der Autor dieses <rs ref="#58907" type="work" subtype="pmb">Artikels</rs> sei. </p>
+         <p xml:id="uuid_cec2c882-1bff-469a-926b-00c0f4666363">
+                <lb xml:id="uuid_d646587c-9033-4ec2-9aa2-fd324481f968"/><rs type="person"
+                    ref="#51575">D.O.</rs>
+            </p>
+         <p xml:id="uuid_f3bd85e6-17af-456c-8c64-579a8cb7d558">
+                <lb xml:id="uuid_dfd9531a-0754-4ebe-89a2-bc209f42f7c6"/>Ich bestätige noch unser
+                heutiges Telefongespräch und über<lb break="no"
+                    xml:id="uuid_cd5cdcd2-b8a8-4b30-88fa-a54520de5b96"/>mittle Ihnen wunschgemäss
+                eine Rubrik mit <add>dem Text</add> der ersten Seite<lb
+                    xml:id="uuid_a9495fce-2df0-4788-b51a-f8e69ada7e84"/>unseres vorbereitenden
+                Schriftsatzes. </p>
+         <p xml:id="uuid_c5eae5a6-ca16-4692-b7de-155145034b78">
+            <lb xml:id="uuid_8c555337-2858-4699-b471-cf0549db8bc1"/>Montag Abend werde ich mich,
+                verehrter <rs ref="#38909" type="person">Herr Kollege</rs>, bei Ihnen<lb xml:id="uuid_24ebbe55-d323-42f0-9467-99d863730723"/>sofort melden, sobald ich in
+                    <rs ref="#50" type="place">Wien</rs> ankomme. </p>
+         <p xml:id="uuid_0b44d2b9-ae8b-4389-a1c2-b4a6ecc76720">
+            <lb xml:id="uuid_776a18d2-0bb2-4d18-8670-66a206e7f33e"/><hi rend="underlined">1
+                    Beilage.</hi>
+         </p>
+         <p xml:id="uuid_ca234422-70f6-4aac-94cb-cd39c048562b">
+            <lb xml:id="uuid_196af6eb-6573-480d-9ee1-be707c1b1fc5"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#29644" type="institution">Arb.Ztg.</rs>
+               <lb xml:id="uuid_bd9b974f-0b0f-4186-bf93-a0487975fd90"/>21. MRZ. 1936 </note>
+         </p>
+      </body>
+   </text>
+</TEI>

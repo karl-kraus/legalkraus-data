@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000064-002-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000063-004-002.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000064-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Verlag Die Fackel an Postamt I</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000064-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2441</idno>
+            <idno subtype="transkribus" type="ID">201006</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000064" type="collection">Postbeschwerde</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000064-001-000-facs001" xml:id="D_000064-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000064-001-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHN">Durchschlag mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1926-12-01">1. Dezember
+                    1926</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+                  <orgName ref="#43724">Verlag „Die Fackel“</orgName>
+               <address>   
+                  <street corresp="#50496"/>
+                  <settlement ref="#50">Wien</settlement>
+               </address>
+               <date when-iso="1926-12-01">1. Dezember 1926</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#37157">das | Postamt 1</orgName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#50">Wien</settlement>
+               </address>
+               <date/>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote xml:id="D_000064-001-000-hand01"
+                      source="#D_000064-001-000-wit01"
+                      scribeRef="#38909"
+                      medium="grey-pencil"
+                      cert="low"
+                      resp="#IL"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000064-001-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000064-001-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2022-01-31" who="#IL"/>
+         <change type="structure" when-iso="2020-11-18" who="#IL"/>
+         <change type="references" when-iso="2020-11-22" who="#IL"/>
+         <change type="typography" when-iso="2022-01-17" who="#IL"/>
+         <change when-iso="2020-02-18T12:49:32.773Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-18T12:50:50.114Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-02-18T12:50:51.297Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 201006. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000064-001-000-facs001">
+      <surfaceGrp xml:id="D_000064-001-000-facs001-l001">
+         <surface xml:id="D_000064-001-000-facs001-l001-p001" type="recto">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551664/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000064-001-000-facs001-l001-p002" type="verso">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551665/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000064-001-000_p001"
+             facs="#D_000064-001-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_2a90b078-62a4-4938-b3b4-6bb075c98714">
+            <lb xml:id="uuid_cc96be51-bb28-449b-bb2b-d43d4b001ba7"/><hi rend="underlined"><hi
+                  rend="spaced">ABSCHRIF</hi>T</hi>
+         </p>
+         <p xml:id="uuid_46e9b6ae-965a-4a53-9239-9de62b498098">
+            <lb xml:id="uuid_887c9ac5-c2d3-45ae-b284-457cd7bf3bca"/>Ihre Verständigung <hi
+               rend="underlined">P D Zl 4-11321/26</hi> können wir<lb
+               xml:id="uuid_9731a5ed-89bf-475c-bd96-45caaf3821c9"/>keineswegs als Erledigung unserer
+            Reklamation vom 5. Mai 1926,<lb xml:id="uuid_65d5f9be-58bc-478b-98ab-f9965a6e9027"
+            />Geschäftszahl <hi rend="underlined">b 778</hi> anerkennen. Es hat sich hier der
+               unerhörte<lb xml:id="uuid_fa8539bb-383b-4285-8d32-bbd38cb3023c"/>Fall ereignet, daß
+            die <rs ref="#37157" type="institution">Post</rs> eine rekommandierte Sendung, die<lb
+               xml:id="uuid_c73672bb-b499-4873-9d6f-0055914438ce"/>korrekt adressiert und mit der
+            Adresse des <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+               >Absenders</rs> versehen<lb xml:id="uuid_8ec91c6f-1cd9-4bbb-9262-5131b7a6d551"/>war,
+            nicht zugestellt hat und nun, nach einem Jahr – die Absendung<lb
+               xml:id="uuid_44ee87f7-388a-48be-8fb5-8d361326a62c"/>erfolgte am 21. Dezember 1925
+            (Aufgabe-Nr. 7193) –, dem <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+               type="person">Absender</rs>
+            <lb xml:id="uuid_a4eeb467-4fd9-484d-bbd0-b661caf94e6b"/>einfach die Mitteilung macht,
+            daß die Sendung um den Betrag von<lb xml:id="uuid_9f3bc149-5689-4395-861c-e4f3f57325b3"
+            />S 6.02 „<quote source="" xml:id="uuid_15379b24-d72d-474c-a5ab-ed32c7c9ebb2"
+               >veräußert</quote>“ wurde. Der Inhalt der Sendung war ein <hi rend="underlined"
+               >sehr</hi>
+            <lb xml:id="uuid_6b7c67f9-b0ac-4147-8219-3c07ed3febe1"/><hi rend="underlined">wertvolles
+                  <rs ref="#50709" type="work" subtype="pmb">Buch</rs></hi> mit handschriftlicher
+            Widmung und wir müssen<lb xml:id="uuid_b11d3a42-abdf-4256-9f4f-4a7eb1c6ac8b"/>darauf
+            bestehen, daß die <rs ref="#37157" type="institution">Post</rs> den gesetzlich
+            normierten Höchst<lb xml:id="uuid_a00f7b06-edf2-4392-bb1d-1c0f5dc302f9" break="no"
+            />betrag für den Verlust ersetzt. </p>
+         <p xml:id="uuid_57b05e84-9928-48be-b277-d44026a244e2">
+            <lb xml:id="uuid_3af3eee0-dcdc-47b8-9f5b-5512683dcffb"/>Wir ersuchen um restlose
+                Aufklärung des Falles<lb xml:id="uuid_fa86dc2c-d067-4d94-9fb7-68aa65c3bb2e"/>und um
+                Einsendung des angesprochenen Betrages. </p>
+         <p xml:id="uuid_e5ab0a21-7d69-4be8-bd26-996be9121db7">
+            <lb xml:id="uuid_16658cd0-2c0a-4c02-a67f-c90a130d976d"/>Hochachtungsvoll<lb
+               xml:id="uuid_0cd80b1b-c987-444c-8e5e-0a5510ae0b3a"/><rs type="institution"
+               ref="#43724">Verlag „Die Fackel“</rs>
+         </p>
+         <p xml:id="uuid_8ea7baa2-a823-4e56-80bf-fdc97824962a">
+            <lb xml:id="uuid_a631a534-96b1-49c8-8d21-5379bf0d4cdf"/><note hand="#D_000064-001-000-hand01">22.9.1926 veräussert<lb xml:id="uuid_8502b35c-adfd-4cae-a577-e9ca9ecf6b5a"/><rs ref="#50709" type="work" subtype="pmb">Buch Traumtheater</rs>
+               <lb xml:id="uuid_14cdf90e-8689-41eb-8455-4fe5c6afa734"/>Dorotheum 6202</note>
+         </p>
+         <pb xml:id="D_000064-001-000_p002"
+             facs="#D_000064-001-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_730de310-4964-4a07-b0d0-ad5251df7b3a">
+            <lb xml:id="uuid_12a8c77b-72ef-42d3-8d9d-fd394cd47617"/><note hand="#D_000064-001-000-hand01">Nr 7193 <rs ref="#37157" type="institution">Postamt Wien</rs> 1<lb xml:id="uuid_1c98460f-cd9b-4e9f-b30e-bbdf43b1fe1c"/>Aufgabedaten 21. XII. 25<lb xml:id="uuid_d739bf01-bdf7-46c6-9e6c-771c5493ebb5"/>Aufgabe No 7193 </note>
+         </p>
+         <note hand="#D_000064-001-000-hand01">
+            <p xml:id="uuid_40c110f9-b810-485c-a890-1c21452c31a5">
+               <lb xml:id="uuid_9d9ac1bc-fa60-4c78-90d9-b4cce6605c1e"/>Adressat Prof Dr. <rs
+                  ref="#52946" type="person">Charles Schweitzer</rs>
+               <lb xml:id="uuid_54b107d3-063f-4d3a-bf43-644946ef0ce3"/>Bestimmungsort <rs ref="#182"
+                  type="place">Paris</rs> 5 </p>
+         </note>
+         <p xml:id="uuid_83f62e2e-97ff-45a2-a0bb-3bec8762cf27">
+               <lb xml:id="uuid_1cbb6995-02a6-42c1-ab70-33242cec02e9"/><note hand="#D_000064-001-000-hand01">Die Sendung und
+                    Nachricht nach Ablauf der Liegefrist veräußert und für einen Betrag von 6.02
+                    erzielt. Die Erlösabrechnung der<lb/>Abteilung der Bericht Haltung/Geltung der P
+                    Dion übermittelt.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

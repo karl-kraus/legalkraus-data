@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000145-008-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000145-006-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000145-007-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA H.H. Bernstein</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000145-007-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3964</idno>
+            <idno subtype="transkribus" type="ID">288760</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000145" type="collection">Karl
+                    Kraus ca. Augsburger Stadttheater</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000145-007-000-facs001" xml:id="D_000145-007-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000145-007-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909">Dr. Oskar Samek | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#50496">Schottenring 14</street>
+                  <settlement ref="#51">Wien, I.</settlement>
+               </address>
+               <date when-iso="1930-05-31">31. Mai 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/51559">Herrn | Dr. H.H.
+                        Bernstein, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#54315">Briennerstrasse 8A</street>
+                  <settlement ref="#45258">München 2 NW 5</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Augsburger Stadt-|theater</note>
+               <note type="dictation">Dr.S/Fa</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-05-31">31. Mai 1930</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000145-007-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000145-007-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-04-22" who="#JK"/>
+         <change type="typography" when-iso="2021-04-22" who="#JK"/>
+         <change type="references" when-iso="2021-04-22" who="#JK"/>
+         <change type="structure" when-iso="2021-04-22" who="#JK"/>
+         <change when-iso="2020-10-08T14:30:13.778Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T15:08:22.684Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 288760. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000145-007-000-facs001">
+      <surfaceGrp xml:id="D_000145-007-000-facs001-l001">
+         <surface type="recto" xml:id="D_000145-007-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542086/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542088/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542089/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000145-007-000_p001"
+             facs="#D_000145-007-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_0f9b4816-d4b9-4614-83e0-5eb74c9d6e30">
+            <lb xml:id="uuid_0723f473-f531-40ab-98ba-8c455c881de2"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/51559" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_a1b06cfc-cb2f-4ea5-a6c3-811f86a69c45">
+            <lb xml:id="uuid_f350b9a5-222e-4bf4-bd31-e60ddd25702c"/>Ihr <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000145-006-000"
+                type="work"
+                subtype="legal-doc">Schreiben vom 23. Mai 1930</rs> kann ich<lb xml:id="uuid_adc4bcd4-9b64-44e1-82a6-b5702a54b7b1"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herrn Kraus</rs>
+                erst nach seiner Rückkehr, Mitte Juni, mitteilen.<lb xml:id="uuid_e92175c6-3337-46ae-ba07-65c6f5c20ee7"/>Sollte eine dringende
+                Behandlung der Angelegenheit, wegen mög<lb break="no" xml:id="uuid_1958a608-ee76-436a-92f2-789988a2a106"/>licher Verjährung notwendig
+                sein, so erbitte ich mir eine kurze<lb xml:id="uuid_5149e6ab-96d9-4a78-bb7b-988e37e82abf"/>Mitteilung darüber. </p>
+         <p xml:id="uuid_b9c5f0b5-1ba1-4c19-a353-83abc5da77d3">
+            <lb xml:id="uuid_8e47135b-bef4-4455-8dfd-1bb4a20688bb"/>Mit vorzüglicher
+                    kollegialer<lb xml:id="uuid_b8652a14-63fb-4ef7-9d50-d4b1ffd3012c"/>Hochachtung
+            </p>
+      </body>
+   </text>
+</TEI>

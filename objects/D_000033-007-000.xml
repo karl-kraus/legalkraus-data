@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000033-008-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000033-006-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000033-007-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an das Gemeinde-Vermittlungsamt des achten Wiener
+               Gemeindebezirks</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000033-007-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/1992</idno>
+            <idno subtype="transkribus" type="ID">187347</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000033" type="collection">Stefan
+               Padajaunig ca. Karl Kraus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000033-007-000-facs001" xml:id="D_000033-007-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000033-007-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHN"
+                        >Durchschlag mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1926-01-26">26. Jänner 1926</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#52531">das | Gemeindevermittlungsamt des achten Wiener |
+                  Gemeindebezirkes</orgName>
+               <address>
+                  <street corresp="#52536">Schlesingerplatz 4</street>
+                  <settlement ref="#58">Wien VIII.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus Padajaunig</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1926-01-26">26. Januar 1926</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000033-007-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000033-007-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+         <handNotes>
+            <handNote xml:id="D_000033-007-000-hand01" source="#D_000033-007-000-wit01" scribeRef="#38909" medium="pencil" cert="high" resp="#JK"></handNote>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2022-01-17" who="#IL"/>
+         <change type="structure" when-iso="2020-11-18" who="#IL"/>
+         <change type="references" when-iso="2020-11-22" who="#IL"/>
+         <change type="typography" when-iso="2022-01-17" who="#IL"/>
+         <change when-iso="2020-02-10T11:44:40.019Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-10T11:54:22.79Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T11:54:24.205Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 187347. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000033-007-000-facs001">
+      <surfaceGrp xml:id="D_000033-007-000-facs001-l001">
+         <surface xml:id="D_000033-007-000-facs001-l001-p001" type="recto">
+            
+            <graphic ana="status:checked" source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548286/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000033-007-000-facs001-l001-p002" type="verso">
+            
+            <graphic ana="status:checked" source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548288/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <p xml:id="uuid_6d7a78bc-2fdb-4eb5-aeca-7cbdc6e720a2">
+            <pb xml:id="D_000033-007-000_p001" facs="#D_000033-007-000-facs001-l001-p001" n="1"/>
+         </p>
+         <p xml:id="uuid_0b854d99-2869-452d-8f16-47f6aebb7a6f">
+            <lb xml:id="uuid_dc8a027f-c9ca-43eb-9117-d6ada1eb0151"/>In rechtsfreundlicher Vertretung
+            des Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl<lb
+                  xml:id="uuid_11679ddf-95ef-45a1-a0a4-ceaafd5b7df7"/>Kraus</rs> zeige ich hiemit
+            an, dass mein <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+               >Klient</rs> der Ladung Zahl<lb xml:id="uuid_7ae809f8-5a2c-422f-ab1c-5f77c880d340"
+            />4/26 für den 27. Jänner 1926 nicht Folge leisten wird. </p>
+         <p xml:id="uuid_cdc234a1-1c2d-4170-8696-613793f0a9f9">
+            <lb xml:id="uuid_4e25b9d3-b55d-4ef8-8e77-ceeb2823349c"/>Hochachtungsvoll</p>
+         <p xml:id="uuid_23543a5a-0a70-4e1a-9a49-3243a96fc9db"><lb
+               xml:id="uuid_c7ceb233-c496-4f7d-8b34-9846864557be"/>rekomm. </p>
+         <p xml:id="uuid_1a71b1e8-983b-4a7c-a349-a3cd37c427ef"><lb
+            xml:id="uuid_07dddbc6-fde0-4323-ba62-01f4d575f915"/><note hand="#D_000033-007-000-hand01">U XI 389/24<lb
+                  xml:id="uuid_e3e60a68-3ef3-4196-83d5-0eb165c01ba8"/>U XI 1808/24<lb
+                  xml:id="uuid_6eebf361-8d34-40d2-a4bc-7a5354635b31"/>U XI 54/25</note></p>
+         <p xml:id="uuid_aabaa081-faf1-4739-ad38-d10ff250500c"><note hand="#D_000033-007-000-hand01"><lb
+                  xml:id="uuid_b83b0e2d-81dd-4116-a450-2a0da00395d4"/>10 [Stenografie]</note>
+         </p>
+         <pb xml:id="D_000033-007-000_p002" facs="#D_000033-007-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_cf90d049-3f2e-4583-8d3b-51d4273a58d8">
+            <lb xml:id="uuid_382fed44-093a-46cc-be11-27ae36c0eba3"/><note type="paratext"
+               resp="law-firm"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/51633" type="person"
+                  >Padajaunig</rs>
+               <lb xml:id="uuid_a755d036-19f0-4708-be1d-91b8f7b2f474"/>26.I.26</note>
+         </p>
+      </body>
+   </text>
+</TEI>

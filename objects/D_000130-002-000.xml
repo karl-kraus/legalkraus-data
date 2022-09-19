@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-001-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000130-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA E. Lion an Hamburger Nachrichten</title>
+            <editor ref="#SH">Susanna Hufsky</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000130-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3582</idno>
+            <idno subtype="transkribus" type="ID">399020</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000130" type="collection">Karl
+                    Kraus ca. Hamburger Nachrichten</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000130-002-000-facs001" xml:id="D_000130-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000130-002-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#51612">Dr. E. Lion</persName>
+               <address>
+                  <street corresp="#55816">Gänsemarkt 62</street>
+                  <settlement ref="#506">Hamburg</settlement>
+               </address>
+               <date when-iso="1929-06-06">6. Juni 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#37346">die Schriftleitung | der Hamburger Nachrichten</orgName>
+               <address>
+                  <street corresp="#55809">Speersort 5-11</street>
+                  <settlement ref="#506">Hamburg</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Karl Kraus</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-06-06">6. Juni 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000130-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000130-002-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-06-04T16:28:20.427Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 399020. </change>
+         <change type="structure" when-iso="2021-07-13" who="#SH"/>
+         <change type="references" when-iso="2021-07-13" who="#SH"/>
+         <change type="typography" when-iso="2021-07-13" who="#SH"/>
+         <change type="intertexts" when-iso="2021-07-13" who="#SH"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000130-002-000-facs001">
+      <surfaceGrp xml:id="D_000130-002-000-facs001-l001">
+         <surface xml:id="D_000130-002-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557795/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000130-002-000_p001"
+             facs="#D_000130-002-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_632db978-d750-45a3-8f7d-c978225006a5">
+            <lb xml:id="uuid_d9abab5d-4785-46a0-ae99-e1a373e916f2"/><hi rend="underlined">Durch
+                    Boten! Gegen Quittung</hi>. </p>
+         <p xml:id="uuid_3c0d9a4d-da61-4577-9183-a609c42e628d">
+            <lb xml:id="uuid_e3e3be9c-da38-40f6-ab24-a69c9b01a320"/>In der Anlage übersende ich
+            Ihnen eine von<lb xml:id="uuid_a352355d-3761-47cb-98c4-2a6760412d3f"/>Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>, <rs
+               ref="#50" type="place">Wien</rs> unterzeichnete <rs type="work" subtype="pmb"
+               >Berichtigung</rs> und ersuche<lb xml:id="uuid_ccaa2173-bfe5-431a-9725-062b5887eb75"
+            />Sie in Vollmacht des Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+               type="person">Karl Kraus</rs> gemäss <rs ref="" type="law">§ 11 PressG.</rs>, die<lb
+               xml:id="uuid_1a751fdd-1220-4a57-8a66-c413edb494ff"/><rs type="work"
+               subtype="legal-doc">Berichtigung</rs> in der nach Empfang der Einsendung
+               nächstfolgenden<lb xml:id="uuid_7288e42c-bd74-45ee-83cd-26270ff426bc"/>Nummer
+            abzudrucken. </p>
+         <p xml:id="uuid_1c0c639e-e04e-4524-94da-0a25fd9c7850">
+            <lb xml:id="uuid_a8aeccc4-8533-4ed5-ad98-a2b709dbb3d4"/>Auftragsgemäss ersuche ich Sie
+            ferner, mit dem<lb xml:id="uuid_6ffbb036-072d-4501-a641-0c89f7ed5d8f"/>Abdruck der <rs
+               type="work" subtype="legal-doc">Berichtigung</rs> Ihre unzutreffende Mitteilung vom
+            8. Mai<lb xml:id="uuid_3820700f-a9aa-4e23-b3cb-43776de545eb"/>mit dem Ausdruck des
+            Bedauerns zurückzunehmen, widrigenfalls<lb
+               xml:id="uuid_95179598-86a0-4d6f-922f-66349e6e3849"/>Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> gegen
+            Sie wegen der beanstandeten Äusserung<lb
+               xml:id="uuid_34413a92-6870-4b4d-b3bd-e6c011a7abe2"/>Zivilklage und Strafklage wegen
+            übler Nachrede einleiten würde. </p>
+         <p xml:id="uuid_768829c2-c357-4f2e-99ac-7a15d9361407">
+            <lb xml:id="uuid_ddce79db-ca4f-4852-9719-3342e05b4ec0"/>Meine schriftliche Vollmacht
+                steht Ihnen zur<lb xml:id="uuid_c3e67dae-a9ff-4e0d-89a6-0c37679dc288"/>Einsicht zur
+                Verfügung. </p>
+         <p xml:id="uuid_ca261334-ab36-4689-80eb-a5d61c559171">
+            <lb xml:id="uuid_775c2d6a-1b72-4a68-8d31-4ccf934ec732"/>Hochachtungsvoll </p>
+         <p xml:id="uuid_a3a11f65-a5dd-467b-82b4-120e8eff08d9">
+            <lb xml:id="uuid_88837700-07e9-45ad-b42b-9dbc966396ea"/><hi rend="underlined"><rs
+                  type="work" subtype="legal-doc">Anlage</rs></hi>. </p>
+      </body>
+   </text>
+</TEI>

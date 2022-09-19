@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000072-014-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000072-012-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000072-013-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Hans Loewe an Samek</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural
+                  Heritage, Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000072-013-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+               https://www.kraus.wienbibliothek.at/content/brief-hans-loewe-samek-0 </idno>
+            <idno subtype="transkribus" type="ID">221344</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000072" type="collection"
+               >Korrespondenz mit Hans Loewe</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000072-013-000-facs001" xml:id="D_000072-013-000-wit01"/>
+            </listWit>
+            <msDesc status="draft">
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000072-013-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.M"
+                        >Manuskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#51614">Hans Loewe</persName>
+               <address>
+                  <street corresp="#65583"/>
+                  <settlement ref="#52"/>
+               </address>
+               <date when-iso="1930-02-15">15. Februar 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Dr. Oskar Samek |
+                  Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"> </note>
+               <note type="dictation"> </note>
+               <note type="appendix" xml:id="D_000072-012-000.xml"/>
+               <note type="appendix" xml:id="D_000072-012-001.xml"/>
+               <note type="appendix" xml:id="D_000072-012-002.xml"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-02-15">15.
+               Februar 1930</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000072-013-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000072-013-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" when-iso="2021-09-13" status="draft">created XML Document</change>
+         <change resp="#LU" when-iso="2021-09-13" status="draft">Replaced Text with Transcription of
+            Transkribus Document 221344. </change>
+         <change status="draft" type="header_facsimile" when-iso="2022-03-18" who="#AR"/>
+         <change status="draft" type="typography" when-iso="2022-03-18" who="#AR"/>
+         <change status="draft" type="references" when-iso="2022-03-18" who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-03-18" who="#AR"/>
+         <change status="draft" type="intertexts" when-iso="2022-03-18" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000072-013-000-facs001">
+      <surfaceGrp xml:id="D_000072-013-000-facs001-l001">
+         <surface xml:id="D_000072-013-000-facs001-l001-p001" type="recto">
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553618/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000072-013-000_p001" facs="#D_000072-013-000-facs001-l001-p001" n="1"/>
+         <lb xml:id="uuid_14b22878-6d29-45ca-bbf7-67647cc33834"/>Wien, den 15. Februar 1930.<lb
+            xml:id="uuid_9b6fc678-8ce4-4483-be10-4d575b5e54e4"/>Herrn<lb
+            xml:id="uuid_c4a4f1b5-ed7c-404e-bf6c-a6b7a288d58b"/>Dr. Oskar Samek<lb
+            xml:id="uuid_cc597f7c-75c9-4f99-ab58-563761a1e852"/>Rechtsanwalt<lb
+            xml:id="uuid_b4180bd7-d6d8-4b3d-9eb3-fa4fb71c80c2"/>Wien I.<lb
+            xml:id="uuid_42f9a477-f6da-4d24-9ee4-d82f5de64345"/><rs
+            ref="https://pmb.acdh.oeaw.ac.at/entity/50493" type="place">Schottenring 14</rs>
+         <p xml:id="uuid_11eca60e-fe6d-41fb-9afd-db7824edcd12"><lb
+               xml:id="uuid_f1cf1406-1760-4151-941d-b953c1de6ae8"/>Sehr geehrter <rs type="person"
+               ref="#38909">Herr</rs>!</p><p xml:id="uuid_5d40fd65-7625-4fa1-9cf1-811b6402b38f"><lb
+               xml:id="uuid_873637e7-25e7-4962-a5e7-6c727fa84734"/>Im Sinne der in der <rs
+               type="work" subtype="fackel" ref="https://fackel.oeaw.ac.at/f/827,0U1">Fackel Nr.
+               827–833</rs> auf Seite 77 unter „22. November:“<lb
+               xml:id="uuid_28ff4e1d-d34f-4514-924c-7993e4251f0e"/>erschienenen <rs type="work"
+               subtype="fackel" ref="https://fackel.oeaw.ac.at/f/827,0U1">Notiz</rs> gestatte ich
+            mir, den aus den anliegenden Schriftstücken<lb
+               xml:id="uuid_48b087a6-5703-4d64-bc69-2be66d0030c2"/>ersichtlichen Plan
+            bekanntzugeben.</p><p xml:id="uuid_9868b299-105e-48e8-b8d6-b5fa9b62c6d8"><lb
+               xml:id="uuid_e13fed6b-a009-4f08-afcb-e63987776c29"/>Mit vorzüglicher Hochachtung<lb
+               xml:id="uuid_c750ef54-133f-4f21-b625-6a6275ecd96a"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/51614" type="person">Hans Loewe</rs></p>
+      </body>
+   </text>
+</TEI>

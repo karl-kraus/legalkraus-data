@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000074-004-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000074-002-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000074-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Egon Friedell an Samek</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural
+                  Heritage, Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000074-003-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+               http://www.kraus.wienbibliothek.at/content/brief-egon-friedell-samek </idno>
+            <idno subtype="transkribus" type="ID">226346</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000074" type="collection"
+               >Korrespondenz mit Egon Friedell betr. eines von Anton Kuh unternommenen
+               Plagiatsversuches</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000074-003-000-facs001" xml:id="D_000074-003-000-wit01"/>
+            </listWit>
+            <msDesc status="draft">
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000074-003-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.M"
+                        >Manuskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#2771">Egon Friedell</persName>
+               <address>
+                  <street corresp="#40694"/>
+                  <settlement ref="#68"/>
+               </address>
+               <date/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn Dr. Oskar Samek |
+                  Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#50493">Schottenring. 14</street>
+                  <settlement ref="#51">Wien | I.</settlement>
+               </address>
+               <date when-iso="1926-03-24">24.III.26</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="received" type="sortDate" when-iso="1926-03-24">24. März
+               1926</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000074-003-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000074-003-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" when-iso="2021-09-13" status="draft">created XML Document</change>
+         <change resp="#LU" when-iso="2021-09-13" status="draft">Replaced Text with Transcription of
+            Transkribus Document 226346. </change>
+         <change status="draft" type="header_facsimile" when-iso="2022-03-22" who="#AR"/>
+         <change status="draft" type="typography" when-iso="2022-03-22" who="#AR"/>
+         <change status="draft" type="references" when-iso="2022-03-22" who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-03-22" who="#AR"/>
+         <change status="draft" type="intertexts" when-iso="2022-03-22" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000074-003-000-facs001">
+      <surfaceGrp xml:id="D_000074-003-000-facs001-l001">
+         <surface xml:id="D_000074-003-000-facs001-l001-p001" type="recto">
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553681/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000074-003-000-facs001-l001-p002" type="verso">
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553682/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000074-003-000_p001" facs="#D_000074-003-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_2991e0e6-7f89-4bc4-b544-9b85a86b6ea1"><lb
+               xml:id="uuid_2d1fec23-f2a9-4143-9d88-2aaf1d8fb496"/>Kartenbrief</p>
+         <p xml:id="uuid_78c56000-1fa1-4f4d-b179-e65d51a4f043"><lb
+               xml:id="uuid_d0505808-23c3-433d-b970-57e9eae22d62"/>An<lb
+               xml:id="uuid_4aa376cf-9bc5-472b-bc9e-14e7b6196f54"/>Herrn Dr. <rs type="person"
+               ref="#38909">Oskar Samek</rs><lb xml:id="uuid_c6c722ba-4e91-4008-b106-4d5166fadd9c"
+            />Rechtsanwalt</p>
+         <p xml:id="uuid_4af678ec-9c2d-4bcb-809d-6426775857d7"><lb
+               xml:id="uuid_21962e9e-e813-466d-910c-fc315f0969ac"/>in <rs type="place"
+               subtype="address" ref="#50493">Wien<lb
+                  xml:id="uuid_56c39f63-0b25-46d4-b41c-3884e3d95b39"/>I. Schottenring. 14</rs><lb
+               xml:id="uuid_e2caa4b8-4edf-4e17-aa14-a5fee4c8bbad"/><rs type="place"
+               subtype="address" ref="#40694">XVIII. Gentzgasse 7</rs><lb
+               xml:id="uuid_5e21de76-d2df-406e-a167-eb15558d5b09"/>[???]</p>
+         <p xml:id="uuid_67580a9d-0913-41bf-864c-68cb9b6d1c25"><lb
+               xml:id="uuid_61b78a92-2095-4b6d-b920-785c087743df"/>Adressort <rs type="place"
+               subtype="address" ref="#40694">Gentzg 7</rs> unbek.<lb
+               xml:id="uuid_180095c6-ea34-449a-a86f-e3319bea4b99"/>[???]</p>
+         <p xml:id="uuid_c7b20ec2-0ee6-4ac4-ab29-d22c7e3d3476"><lb
+               xml:id="uuid_7c265c8b-d446-4139-b70e-1e2f6f588e10"/><note type="paratext"
+               resp="law-firm"><rs type="person" ref="#11988">Kraus</rs> – <rs type="person"
+                  ref="#8363">Kuh</rs><lb xml:id="uuid_f98905de-e302-4886-b9a5-8ac89ffec777"/>eing.
+               am 24.III.26</note>
+            <pb xml:id="D_000074-003-000_p002" facs="#D_000074-003-000-facs001-l001-p002" n="2"/>
+         </p>
+         <p xml:id="uuid_ac607d4c-bd71-4ddd-b789-a8a7573db54d"><lb
+               xml:id="uuid_4c4ca0e2-4059-43d5-a8c4-704ffd63972a"/>Sehr geehrter Herr <rs
+               type="person" ref="#38909">Doktor</rs>,</p>
+         <p xml:id="uuid_14a6b678-0c8c-444c-bb3c-ae0d2ca3e9a4"><lb
+               xml:id="uuid_6c7a8d31-95e3-46a9-bb31-a2ee7093091d"/>der <rs type="work" subtype="pmb"
+               ref="#65692">Artikel</rs> erschien am <rs type="work" subtype="pmb" ref="#65690">10.
+               Oktober 1923</rs></p>
+         <p xml:id="uuid_e0f23ea0-5542-498b-8f95-96835f5a6fe7"><lb
+               xml:id="uuid_ba39c5a6-dc3e-4d90-b415-61f5cbb94fd4"/>Mit ergebensten Empfehlungen<lb
+               xml:id="uuid_da6f00d6-483e-413e-928e-aabd1e2c9e83"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/2771" type="person">Egon Friedell</rs>
+         </p>
+         <p xml:id="uuid_4a4e7936-67b4-4de9-ac50-7ba9c7367ed5"><lb
+               xml:id="uuid_7a742973-1c3e-4131-bf39-90dd8a217a95"/>74/3 C 147 950</p>
+      </body>
+   </text>
+</TEI>

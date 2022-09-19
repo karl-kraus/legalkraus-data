@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-029-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-027-001.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000125-028-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Frankfurter Städtisches Schauspielhaus</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000125-028-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3393</idno>
+            <idno subtype="transkribus" type="ID">272022</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000125" type="collection">Karl
+                    Kraus ca. Frankfurter Städtisches Schauspielhaus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000125-028-000-facs001" xml:id="D_000125-028-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000125-028-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#50"/>
+               </address>
+               <date when-iso="1930-05-26">26. Mai 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#34987">die | Direktion der Städtischen Bühnen</orgName>
+               <address>
+                  <street corresp="#56867">Hochstrasse 46</street>
+                  <settlement ref="#146">Frankfurt A.M.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">
+                  Kraus – Städtische Bühnen
+               </note>
+               <note type="dictation">Dr.S/Fa</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-05-26">26. Mai 1930</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000125-028-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000125-028-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-07-22" who="#JK"/>
+         <change type="typography" when-iso="2021-07-22" who="#JK"/>
+         <change type="references" when-iso="2021-07-22" who="#JK"/>
+         <change type="structure" when-iso="2021-07-22" who="#JK"/>
+         <change resp="#IB" when-iso="2021-04-12T08:52:16.969Z">created by API</change>
+         <change resp="#IB" when-iso="2021-04-12T09:33:15.878Z">Replaced Text with Transcription
+                of Transkribus Document 272022. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000125-028-000-facs001">
+      <surfaceGrp xml:id="D_000125-028-000-facs001-l001">
+         <surface type="recto" xml:id="D_000125-028-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556796/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000125-028-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556797/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556798/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556800/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556802/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000125-028-000_p001"
+             facs="#D_000125-028-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_c5d0447f-259a-4bc8-8074-74f8e50725f0">
+            <lb xml:id="uuid_9c834f97-6143-4c66-91cc-b1d8d10b8cc5"/>Ihr <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-027-000"
+                type="work"
+                subtype="legal-doc">Schreiben vom 15. Mai 1930</rs> kann ich<lb xml:id="uuid_26d55aa8-dc8a-4d87-bc7e-cea6a7df7762"/><rs ref="#11988" type="person">Herrn Kraus</rs>, der derzeit verreist ist, erst nach seiner
+                    Rückkehr<lb xml:id="uuid_f6e0864a-7a25-48c5-b123-f61a9dd7aaf6"/>zur Kenntnis
+                bringen. </p>
+         <p xml:id="uuid_77ef8179-1076-483f-9705-dbe87a3723d5">
+            <lb xml:id="uuid_9cbf2de2-9c3a-4fa7-a881-22ad63f9b033"/>Um eine eventuelle
+                Entschliessung des <rs ref="#11988" type="person">Herrn<lb xml:id="uuid_55fb9d5d-ff9f-48e8-a569-99067731ac0f"/>Kraus</rs> nicht zu
+                verzögern, ersuche ich Sie, mir unverzüglich<lb xml:id="uuid_535147eb-8d4d-46b7-ac20-7d94f6bc5cf3"/>Ihre Spielzeit
+                bekanntzugeben. Ich möchte Sie aber jetzt schon<lb xml:id="uuid_4ed5051c-b36b-4fd0-8ee6-06a720c265d1"/>darauf aufmerksam machen,
+                dass ich sehr daran zweifle, dass <rs ref="#11988" type="person">Herr<lb xml:id="uuid_1d6a0b78-c425-495d-8bfb-e1e7073a96d7"/>Kraus</rs> einer
+                Verlegung des Aufführungstermines zustimmen werde. </p>
+         <p xml:id="uuid_d24a3b9a-dbbd-48ce-adf4-d13174a967f6">
+            <lb xml:id="uuid_038690be-db85-4293-aa8f-2017e1f8bb4f"/>Ich zeichne<lb xml:id="uuid_93caf78a-3fa0-43d8-80d9-d0df99331172"/>hochachtungsvoll </p>
+         <pb xml:id="D_000125-028-000_p002"
+             facs="#D_000125-028-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_095ede18-83fc-4dd0-8e16-30d4120b57df">
+            <lb xml:id="uuid_630a1945-f070-4674-9884-130a85a40524"/>[Steno] </p>
+         <p xml:id="uuid_cc268638-cca9-40f1-9fa5-770b987b683b">
+            <lb xml:id="uuid_9dce14f6-b2d6-49e5-9cf9-40364bab23bd"/><note resp="law-firm" type="paratext">Betr. <rs ref="#11988" type="person">Kraus</rs> – <rs ref="#34987" type="institution">Städtische Bühnen</rs>
+               <lb xml:id="uuid_fe39042e-150b-439d-8545-66385abc635d"/>exp. 26.5.1930. </note>
+         </p>
+      </body>
+   </text>
+</TEI>

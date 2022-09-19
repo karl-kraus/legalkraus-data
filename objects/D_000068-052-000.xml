@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-052-001.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-051-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000068-052-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Sigismund von Radecki an Samek</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000068-052-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-sigismund-von-radecki-samek </idno>
+            <idno subtype="transkribus" type="ID">205532</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000068" type="collection">Karl
+                    Kraus ca. Alfred Kerr</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000068-052-000-facs001" xml:id="D_000068-052-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000068-052-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.M">Manuskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38141">Sigismund v. Radecki</persName>
+               <address>
+                  <street corresp="#61572"/>
+                  <settlement ref="#168">Berlin</settlement>
+               </address>
+               <date when-iso="1927-10-11">11. Okt. 27</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51"/> 
+               </address>
+               <date when-iso="1927-10-13">13. Okt. 1927</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-10-11">11. Oktober 1927
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000068-052-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000068-052-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" status="draft" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" status="draft" when-iso="2021-09-13">Replaced Text with Transcription
+                of Transkribus Document 205532. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2021-12-15"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-12-15" who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-12-15"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-12-15"
+                 who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-12-15"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000068-052-000-facs001">
+      <surfaceGrp xml:id="D_000068-052-000-facs001-l001">
+         <surface type="recto" xml:id="D_000068-052-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552551/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000068-052-000-facs001-l002">
+         <surface type="recto" xml:id="D_000068-052-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552553/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000068-052-000-facs001-l003">
+         <surface type="recto" xml:id="D_000068-052-000-facs001-l003-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552555/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000068-052-000-facs001-l004">
+         <surface type="recto" xml:id="D_000068-052-000-facs001-l004-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552557/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-052-000-facs001-l004-p005">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552558/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000068-052-000_p001"
+             facs="#D_000068-052-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_54e034cf-db82-4a2a-8d4a-862411fc443c">
+            <lb xml:id="uuid_76b4dbe1-e85c-4585-aef3-6e809ae3994a"/>Lieber Herr <rs ref="#38909" type="person">Doktor Samek</rs>! </p>
+         <p xml:id="uuid_f46cedfd-841f-4aa1-b8ad-3174ffc7e06e">
+                <lb xml:id="uuid_9394d335-fcab-455e-afbb-b5b995390d83"/>Endlich bin ich so weit,
+                Ihnen eine Darstellung des<lb xml:id="uuid_e897c991-059d-4f52-8c96-bfa9f9643149"
+                />Prozesses <rs ref="#38336" type="person">Tappert</rs>-<rs ref="#11910"
+                    type="person">Kempner (Kerr)</rs> geben zu können. Die Prozess<lb break="no"
+                    xml:id="uuid_d6d4a04f-082e-4ca3-b61d-23911a0ef74d"/>Akten in <rs ref="#36809"
+                    type="place">Moabit</rs> konnten nicht mehr eingesehen werden, da sie<lb
+                    xml:id="uuid_78440c00-5774-4948-8d2d-15411b93d518"/>bereits längst kassiert
+                sind; ich vermochte dort lediglich eine<lb
+                    xml:id="uuid_0ac708f5-a38b-469b-b78c-7ff688ffe731"/>Registereintragung
+                aufzutreiben, aus der hervorgeht, daß die<lb
+                    xml:id="uuid_c7728248-3b11-499e-bd73-90009fb15aad"/>erste Verhandlung am 21.
+                Juni 1897 stattgefunden hat und<lb
+                    xml:id="uuid_c739857a-4714-4c63-a3ff-5e5325a8c3ba"/>daß das Verfahren später
+                eingestellt wurde. Die Vorgeschichte<lb
+                    xml:id="uuid_8d201edc-a790-4d9c-aa7a-8f8440f2c774"/>ist folgende: <rs
+                    ref="#11910" type="person">Kerr</rs> hatte in einem <rs type="work">Aufsatz</rs>
+                in der <rs ref="#36344" type="work" subtype="pmb">Frankfurter<lb
+                        xml:id="uuid_bd26b5ce-23eb-43e3-a45a-849bed65b577"/>Zeitung</rs> ganz
+                allgemein auf die <hi rend="underlined">Bestechlichkeit</hi> der Berliner<lb
+                    xml:id="uuid_4d7d9729-840d-4ebb-a8c6-c27c3e78daed"/>Musikkritik hingewiesen.
+                Darauf erfolgte ein Kollektiv-Protest<lb
+                    xml:id="uuid_706ee766-8481-441f-976b-b7c68349d891"/>von 23 Berliner
+                Musikkritikern, unter denen aber <rs ref="#62551" type="person">Lackowitz</rs>
+                <lb xml:id="uuid_6de75d51-8996-490d-a817-0f7448e554ec"/>und <hi rend="underlined"
+                        ><rs ref="#38336" type="person">Tappert</rs></hi> fehlten. Hierauf
+                lokalisierte <rs ref="#11910" type="person">Kerr</rs> seine Beschuldi<lb break="no"
+                    xml:id="uuid_09418311-6706-47f3-a5cc-e9f9eadf4198"/>gung auf diese beiden. <rs
+                    ref="#38336" type="person">Tappert</rs> antwortete im „<rs ref="#62394"
+                    type="work" subtype="pmb">Kleinen Journal</rs>“<lb
+                    xml:id="uuid_c8247066-c04d-4343-ad03-7f8cd7bbf83f"/>indem er <rs ref="#11910"
+                    type="person">Kerr</rs>
+                <hi rend="underlined">Lüge und Verläumdung</hi> vorwarf. Sodann<lb
+                    xml:id="uuid_d3bcbe42-7938-4a0a-b12c-4f25b189ee96"/>verklagten <rs ref="#62551"
+                    type="person">Lackowitz</rs> und <rs ref="#38336" type="person">Tappert</rs>,
+                jeder einzeln, <rs ref="#11910" type="person">Kerr</rs>. Die<lb
+                    xml:id="uuid_eb3b65e4-0bca-4daf-82c1-8491f58af1a2"/>beiden Verfahren wurden <hi
+                    rend="underlined">vereinigt</hi>, und die erste Verhandlung<lb
+                    xml:id="uuid_2e4a53ec-d3de-47fc-aecf-cb783fec51f3"/>fand am 21. Juni 1897 statt,
+                wobei <rs ref="#38336" type="person">Tappert</rs> diese Klage auf<lb
+                    xml:id="uuid_d05c85b0-e100-43cb-9acb-6b6aeb2df931"/>Veranlassung von <rs
+                    ref="#62585" type="person">Leipziger</rs>, dem Herausgeber des <rs ref="#62216"
+                    type="institution">Kl.J.</rs> einge<lb break="no"
+                    xml:id="uuid_4572db33-3a49-44fb-8036-d5a951831cc8"/>bracht hatte. Der genauere
+                    <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-052-001.xml" type="work"
+                    subtype="legal-doc">Bericht</rs> dieser Verhandlung liegt<lb
+                    xml:id="uuid_40fd329f-e450-4f5e-8fac-6f7550770c2b"/>unter 1 bei. Sie werden
+                daraus ersehen, daß <rs ref="#38336" type="person">Tappert</rs> doch<lb
+                    xml:id="uuid_5d292cda-11e1-472c-b402-304ed41621c0"/>nicht so ganz, wie Sie mir
+                schrieben, „<quote source="#D_000068-049-000.xml"
+                    xml:id="uuid_0fe9955a-f028-4cf7-bd05-aa8e9ec243b0">die Leistung von<lb
+                        xml:id="uuid_0b6cec2d-cb28-4fc0-853f-2c6b57e403bd"/>Schülerinnen, denen er
+                    Gesangsunterricht erteilt hatte,<lb
+                        xml:id="uuid_86cb078f-9664-41ba-b968-74724f88303f"/>besprach</quote>“,
+                sondern daß er ganz fremden Künstlern, die<lb
+                    xml:id="uuid_f1e8def9-eb5c-4bb4-b5a6-8addbe8323fc"/>in <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/168" type="place">Berlin</rs> auftreten
+                wollten, noch kurz vor dem Konzert eine<lb
+                    xml:id="uuid_11d86a95-a182-4d14-b422-9af6f550c7cd"/>oder mehrere Stunden gab,
+                und deren Leistungen dann nach<lb xml:id="uuid_02bb6494-14ce-461a-9630-7d575fbe3b74"
+                />dem Konzert als Kritiker besprach. Andrerseits geht aus<lb
+                    xml:id="uuid_cbc03914-45bb-4f80-a327-bf1073de2bf6"/>der ersten Verhandlung auch
+                hervor, daß er als weltfremder<lb xml:id="uuid_a0618094-e422-42d2-8bf9-4e46a5fd2add"
+                />und armer Mann in gutem Glauben gehandelt hatte, und<lb
+                    xml:id="uuid_d9803e6b-534f-4e07-a1de-7e64e6c61388"/>sich jedenfalls in seinen
+                Kritiken nicht beeinflussen ließ, <pb xml:id="D_000068-052-000_p002"
+                    facs="#D_000068-052-000-facs001-l002-p002" n="2"/>
+                <lb xml:id="uuid_572dc297-58f4-4c29-af3d-e4ffa5152a29"/>was der Justizrath <rs
+                    ref="#62554" type="person">Kleinholz</rs>, <rs ref="#38336" type="person"
+                    >Tapperts</rs> Verteidiger, auch<lb
+                    xml:id="uuid_25452620-cc00-48d5-a1e2-d61028540120"/>gebührend hervorhob. Dem <rs
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-052-001.xml" type="work"
+                    subtype="legal-doc">Berichte</rs> nach, muß die allgemeine<lb
+                    xml:id="uuid_d3dfda0f-28c3-4811-81c5-3ccc6688cd58"/>Stimmung dieser ersten
+                Verhandlung doch eine für<lb xml:id="uuid_e29eb000-94da-4b3b-ae8e-d55ceaade89b"/><rs
+                    ref="#38336" type="person">Tappert</rs> im Ganzen günstige gewesen sein, weshalb
+                    auch<lb xml:id="uuid_c3741263-5c97-4e1b-90aa-4511bf45ce74"/>der Angeklagte und
+                Widerkläger <rs ref="#11910" type="person">Kerr</rs> auf weitere Zeugen<lb
+                    break="no" xml:id="uuid_8e8259b0-737a-459e-b9be-15f6ed83653d"/>einvernahmen
+                bestand. Der Prozess wurde vertagt. </p>
+         <p xml:id="uuid_c411510d-8f56-4d81-9610-91cf922731fb">
+            <lb xml:id="uuid_679f4bac-b836-44bc-8884-d3ab9fa0ada8"/>Ein paar Tage darauf – <rs ref="#38336" type="person">Tappert</rs> fungierte weiter<lb xml:id="uuid_76799b7d-d9ce-42c7-a311-119965c9fc46"/>als Musikkritiker im <rs ref="#62394" type="work" subtype="pmb">Kl.J.</rs> – erschien dort der <rs ref="#62815" type="work" subtype="pmb">Brief</rs>
+            <lb xml:id="uuid_e7ef7298-4c64-47fb-8950-de66fc4c291d"/>von <rs ref="#23605" type="person">Moritz Rosenthal</rs> 2 dessen wichtigsten Passus ich<lb xml:id="uuid_1e13997c-1c27-438f-a989-32727b73a3ba"/>hier beilege. Ein <rs ref="#62815" type="work" subtype="pmb">Brief</rs>, der offensichtlich Ausdruck
+                    der<lb xml:id="uuid_a3c8b4f3-2faf-40e5-9ab0-629572960c59"/>Stimmung unter den
+                Konzertkünstlern war, die nun wohl<lb xml:id="uuid_de1407cf-57c2-4d38-bf89-ae09727d57b7"/>einsahen, was <rs ref="#38336" type="person">Tappert</rs> für sie bedeutete. </p>
+         <p xml:id="uuid_b5c0324e-ff41-4f61-924d-241414f20361">
+            <lb xml:id="uuid_29036f42-5e1c-4684-8bf5-fa817adc96b8"/><rs ref="#11910" type="person">Kerr</rs> antwortete darauf am <rs ref="#62640" type="work" subtype="pmb">26. Juni</rs> in einem<lb xml:id="uuid_568436f0-a722-41a9-8e1c-c3729ed7fd49"/>„<rs type="work">Eingesendet</rs>“ im <rs ref="#41531" type="work" subtype="pmb">Berliner
+                    Tageblatt</rs>, wo er <rs ref="#23605" type="person">Rosenthal</rs>
+            <lb xml:id="uuid_a0b4808f-8e6b-49c9-be05-9169e9cb4323"/>Feigheit vorwarf. Darauf
+                erfolgte eine <rs ref="#62820" type="work" subtype="pmb">Kollektiv-Antwort</rs>
+            <lb xml:id="uuid_006be450-61df-4c07-97fe-98f6697aea89"/>der Redaktion des <rs ref="#62216" type="institution">Kl.J.</rs> am 1. Juli, deren wichtigsten<lb xml:id="uuid_8e292c72-9af1-4a51-ab45-a38f7c6836b5"/>Passus ich unter 3 beilege. </p>
+         <p xml:id="uuid_0f7ea66b-3f6f-4536-bf62-e530294b5b6b">
+                <lb xml:id="uuid_41d28aca-f924-4db8-be7d-84a7430fcb86"/>Die zweite Verhandlung fand
+                am 22. Dezember<lb xml:id="uuid_f672b332-93ad-4e4a-ad5d-56fc8b553221"/>1897 statt,
+                und sie war es, die <rs ref="#38336" type="person">Tappert</rs> zu Fall brachte.<lb
+                    xml:id="uuid_a2a1e6dd-c80b-4337-930f-a0f9ba10be62"/>Denn obwohl die
+                Zeugenaussagen nichts Wesentlich Neue<lb
+                    xml:id="uuid_89d95e2d-daa2-4eeb-9685-540a3e8c9e04"/>brachten, häuften sich die
+                festgestellten Fälle von<lb xml:id="uuid_295683b4-4049-4496-9575-1a9719599bf2"
+                />Geldannahme – allerdings immer nur für „Spesen“, Droschken<lb break="no"
+                    xml:id="uuid_5d2ea3dc-48b9-49b8-b00f-9214037e6ef0"/>fahrten usw. – doch so sehr,
+                daß die Stimmung gegen<lb xml:id="uuid_cd2367bc-c8b4-4acb-8644-175884fafce5"/><rs
+                    ref="#38336" type="person">Tappert</rs> umschlug. Allerdings konnte auch hier in
+                    keinem<lb xml:id="uuid_264c8bec-4b3c-4cd5-94a9-adea77cf6f02"/>Falle der
+                Tatbestand einer <hi rend="underlined">Bestechung</hi> im Sinne eines<lb
+                    xml:id="uuid_215901dd-de4a-4188-abef-397be3c7de14"/>Connexes zwischen Honorar
+                und <hi rend="underlined">Urteil</hi> festgestellt werden.<lb
+                    xml:id="uuid_4c806ebe-b99c-45ae-bac9-4fa5c1f4dbe9"/>Zu diesem Umschwung mag auch
+                die schärfere Fassung<lb xml:id="uuid_80a005cf-115e-4ef8-97f7-ebfffba7f316"/>der
+                Sachverständigen-Urteile beigetragen haben, die jetzt<lb
+                    xml:id="uuid_d93855ea-78a6-4b8d-9729-45fcc2d31d63"/>weniger von <rs ref="#38336"
+                    type="person">Tappert</rs>, als im allgemeinen von der Kritiker-Ehre<lb
+                    xml:id="uuid_60567f85-e57a-4671-9459-678037feac66"/>sprachen. So kam es, wie Sie
+                aus dem <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-052-001.xml"
+                    type="work" subtype="legal-doc">Bericht</rs> ersehen<lb
+                    xml:id="uuid_63059657-0e75-47d8-b6e4-18ee454f6833"/>werden, zu einem <hi
+                    rend="underlined">Vergleich</hi>, der darin bestand, daß die <pb
+                    xml:id="D_000068-052-000_p003" facs="#D_000068-052-000-facs001-l003-p003" n="3"/>
+                <lb xml:id="uuid_85dd0612-f538-4e6b-8c92-5b60e5936a28"/>Privatkläger ihre Klage
+                zurückzogen und die<lb xml:id="uuid_98823b60-0352-4c41-a693-9cb83b6207e6"/>Kosten
+                des Verfahrens übernahmen, <rs ref="#38336" type="person">Tappert</rs> dazu auch<lb
+                    xml:id="uuid_41d42863-f7c9-4130-a78f-ee7a612a00bb"/>noch die Kosten der
+                Widerklage; hierauf nahm <rs ref="#11910" type="person">Kempner</rs>
+                <lb xml:id="uuid_2675458c-0d27-4b39-96d2-18e47ce907d6"/>die Widerklage zurück, und
+                der Gerichtshof erkannte<lb xml:id="uuid_757fff91-f7c2-45e8-a134-cfd66ea5a2cf"/>auf
+                Einstellung des Verfahrens. </p>
+         <p xml:id="uuid_7011b02f-f457-4289-937b-083402ccb0ad">
+            <lb xml:id="uuid_049f27ce-6b05-4610-b80a-fe34e2a7eb76"/><rs ref="#38336" type="person">Tappert</rs> war erledigt. <rs ref="#62585" type="person">Leipziger</rs> wollte ihn entlassen,<lb xml:id="uuid_b31236a7-7ab7-408f-8bea-8a48380bdc5b"/>doch nahm er ihn
+                schließlich, auf Bitten von <rs ref="#38336" type="person">Tappert</rs> und<lb xml:id="uuid_21515311-2021-4748-9349-b29692779563"/>der Redaktion wieder auf.
+                Diese wurde vor der Öffentlichkeit derart bewerkstelligt<lb xml:id="uuid_598a5d06-0b63-449b-97ac-1c4791c4b134"/>daß <rs ref="#38336" type="person">Tappert</rs> ein Entlassungsgesuch einreichte, und die<lb xml:id="uuid_ac7a7eec-8bd7-4714-9f72-877894c4f55b"/><rs ref="#62216" type="institution">Zeitung</rs> diesem nicht stattgab, sondern Herrn <rs ref="#38336" type="person">Tappert</rs>
+            <lb xml:id="uuid_cf8cfecf-eb30-423c-8cef-7042d5f18541"/>mit einigen ernstlichen
+                Rügen wieder aufnahm. Sie<lb xml:id="uuid_40efe120-7cf4-4f80-ac08-41a96d912c00"/>finden die <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-052-001.xml"
+                type="work"
+                subtype="legal-doc">Erklärung</rs> am Schlusse von 4. </p>
+         <p xml:id="uuid_66c4d9ad-de93-479e-8232-9cb37bd3a108">
+            <lb xml:id="uuid_d7ddf3fa-2df0-4873-9cb0-249a000d0601"/><rs ref="#38336" type="person">Tappert</rs> ist dann noch <hi rend="underlined">kurze</hi> Zeit
+                Kritiker bei dem<lb xml:id="uuid_34ff7abb-fc58-477c-8c98-37f13001a79d"/><rs ref="#62216" type="institution">Kl.J.</rs> gewesen, doch hatten ihn die Schmach
+                und die<lb xml:id="uuid_08504eee-b6ba-4a66-a8d6-012adedf9154"/>Aufregung gebrochen;
+                er wurde sehr bald totkrank und<lb xml:id="uuid_93199104-ed2d-4098-999f-fcb07040bb3d"/>starb gleich darauf in
+                größter Armut. <hi rend="underlined">Es unterliegt keinem Zweifel, daß<lb xml:id="uuid_687e019e-8e2e-45e0-ad8e-6b45334d1112"/>gerade der Prozess <rs ref="#38336" type="person">Tappert</rs> im vollsten Sinne den Hals<lb xml:id="uuid_a6eb0beb-1b13-4634-bc31-244afc0bfa13"/>gebrochen hat.</hi>
+         </p>
+         <p xml:id="uuid_597962ca-b5e3-47e3-913d-6c8b960f27b2">
+                <lb xml:id="uuid_a008726b-b369-4dde-acb9-42487191baa1"/>Die Nachricht über diesen
+                Epilog des Prozesses hole ich<lb xml:id="uuid_d86ec2b5-da16-4cb9-aa2a-c7b27cec31e6"
+                />von <hi rend="underlined"><rs ref="#62479" type="person">Norbert Falk</rs></hi> ,
+                dessen Name ich unter den seinerzeitigen<lb
+                    xml:id="uuid_2f8139fb-d673-4915-922e-00f9f8dfcdd7"/>Mitarbeitern des <rs
+                    ref="#62216" type="institution">Kl.J.</rs> entdeckte. Er hat nach dem Motiv<lb
+                    xml:id="uuid_9a263513-4017-40b3-8432-58fe995abd01"/>meiner Recherche <hi
+                    rend="underlined">nicht</hi> gefragt, und ich habe darüber auch<lb
+                    xml:id="uuid_c62414cb-7118-4dc0-9c5b-1f476462f1d0"/>nichts verlauten lassen. </p>
+         <p xml:id="uuid_29ec82fa-6e6a-4893-b463-8a24a5e1e0b1">
+            <lb xml:id="uuid_b19e9fe1-6fe5-438b-a90e-bd03bc8ca4fa"/>Der Verteidiger von <rs ref="#62551" type="person">Lackowitz</rs> war ein <rs ref="#62557" type="person">Dr. Schwindt</rs>, jetzt<lb xml:id="uuid_279db336-ff66-41bf-b838-a9028bd3254e"/>Amtsgerichtsrat im <rs ref="#62642" type="place">Kriminalgericht Moabit</rs>. Ich
+                habe ihn<lb xml:id="uuid_0b061682-1a9a-4e83-b388-ef9370d72fc2"/>telephonisch
+                gesprochen. Er besitzt weder Akten noch Notizen<lb xml:id="uuid_c74010c3-33a5-43e6-8bd9-110e06a41ff6"/> über den Fall, und hat mir
+                aus dem Gedächtnis folgende<lb xml:id="uuid_958e45d0-d973-47bd-b5b7-4ca363ef2be3"/>Einzelheiten erzählt, die mir allerdings – nach den<lb xml:id="uuid_aefa6b46-cf8e-4996-9a64-d5139cc38656"/>Konsequenzen, die die II.
+                Verhandlung mit sich brachte – nicht<lb xml:id="uuid_26ed1af7-9e7b-4067-9834-bfd51c54e959"/>ganz sicher zu sein
+                scheinen. </p>
+         <p xml:id="uuid_2684d700-78c8-44bc-bbc3-559f40850eb9">
+                <lb xml:id="uuid_568bfd27-4ad6-40ef-94f5-3b6249513020"/><rs ref="#62557"
+                    type="person">Dr. Schwindt</rs> erzählt (von der II. Verhandlung), daß <rs
+                    ref="#11910" type="person">Kerr</rs>
+                <lb xml:id="uuid_e2bd6da5-6ce1-4469-91d1-df429d6738b3"/>sich für diese Verhandlung
+                eigens den <rs ref="#10905" type="person">Dr. Bernstein</rs> aus <pb
+                    xml:id="D_000068-052-000_p004" facs="#D_000068-052-000-facs001-l004-p004" n="4"/>
+                <lb xml:id="uuid_ce5feb6f-849a-46f4-8254-b341b22ca103"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/45258" type="place">München</rs> habe
+                kommen lassen. Doch vermochte die<lb
+                    xml:id="uuid_014e742e-32c5-47f2-a5ef-019c23ae2b4c"/>Einvernahme all der Sänger
+                und Sängerinnen nichts<lb xml:id="uuid_87591056-8cc3-4696-84f5-d1f2a5a53d16"
+                />wirklich Gravierendes zu ergeben, da diese – wie er<lb
+                    xml:id="uuid_8f8bdc37-ebcf-4390-8877-9ccfb30ee640"/>sagt –, „<q type="spoken"
+                    who="#62557">sich sichtlich drehten und wanden und aus ihnen<lb
+                        xml:id="uuid_a5f390d9-10db-4283-b6c8-7c62a0a6f699"/>nichts herauszubekommen
+                    war. </q>“ Daher stand – nach<lb
+                    xml:id="uuid_dbe60418-f384-48fe-8d65-6b1bbfd0b54b"/><rs ref="#62557"
+                    type="person">Schwindts</rs> Worten – die Sache für <rs ref="#11910"
+                    type="person">Kerr</rs> so wenig günstig,<lb
+                    xml:id="uuid_77b48ed7-54c6-4cd5-a4a0-a9071a031861"/>daß, als nach der
+                Einvernahme Verteidiger <rs ref="#62554" type="person">Dr. Kleinholz</rs>
+                <lb xml:id="uuid_f933232a-30f4-4d7b-b8ae-7c5bde22032d"/>sich zum Plaidoyer erheben
+                wollte, ihm <rs ref="#10905" type="person">Bernstein</rs>, der<lb
+                    xml:id="uuid_43d7db5f-40b9-442c-bd96-658c0ab98459"/>schon längst unruhig und
+                besorgt dreinsah, schnell in<lb xml:id="uuid_a0b0726f-aabf-4849-8eca-07207640e285"
+                />die Rede fiel, und sagte, daß <rs ref="#11910" type="person">Kerr</rs> die
+                    Beleidigung<lb xml:id="uuid_cd60f17e-a309-45a9-b434-107e24e80159"/>zurücknehme.
+                Von einer „<quote source="#D_000068-044-000.xml"
+                    xml:id="uuid_e652884c-50bd-4c97-bf95-bc90a0af946a">Abbitte</quote>“ <rs
+                    ref="#38336" type="person">Tapperts</rs> könne jedenfalls<lb
+                    xml:id="uuid_0e75e6ca-757c-4795-941e-063b9164983d"/>keine Rede sein. </p>
+         <p xml:id="uuid_30604c55-1159-44a7-8985-315aad7274b7">
+            <lb xml:id="uuid_298ea87b-db1e-41e2-b854-fd6ef099a80b"/>Offenbar nennt <rs ref="#11910" type="person">Kerr</rs> also den <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-052-001.xml"
+                type="work"
+                subtype="legal-doc">Brief</rs> von <rs ref="#38336" type="person">Tappert</rs>
+            <lb xml:id="uuid_a269dad8-2ab7-473e-ac27-248aa61b0e51"/>(4 am
+                Schluß) eine öffentliche Abbitte, was offensichtlich<lb xml:id="uuid_4e1e6f78-246f-40d9-b3b8-f9a0ee68af3e"/>nicht stimmt. </p>
+         <p xml:id="uuid_2c0fdc8f-10c1-485b-a22f-cf519187145c">
+            <lb xml:id="uuid_ee56e65f-7464-4379-a028-468ceed68eb5"/>Daß der Prozess <rs ref="#38336" type="person">Tappert</rs> um sein Brot gebracht<lb xml:id="uuid_202ee0bd-84ad-49c8-a88b-97af6d290747"/>hat, wird wahrscheinlich –
+                nachprüfen läßt sich das<lb xml:id="uuid_9c47c9bc-652a-4e0b-a9a0-41ae008e6cfb"/>nicht – doch insofern stimmen, als es wahrscheinlich<lb xml:id="uuid_50774d0f-b8e4-406c-94c7-2c0ab48d04ef"/>mit all seinen
+                Nebenverdiensten, wie Correpetitionen usw.<lb xml:id="uuid_a6eb38ae-2216-462b-9b97-40c44c28d01a"/>zu Ende war, und er von dem
+                Wenigen leben mußte, was<lb xml:id="uuid_ff3736ba-d943-4503-a2e5-c98eaa1cb0be"/>ihm
+                die <rs ref="#62216" type="institution">Zeitung</rs> gab. </p>
+         <p xml:id="uuid_1ed27258-fe8d-4b5e-a160-19109a2e4924">
+            <lb xml:id="uuid_8c094991-654d-415d-bbb1-e21d10ecb8f6"/>Das ist alles, was ich über
+                diesen traurigen<lb xml:id="uuid_1a393ff1-c89c-4522-986e-2b40cb4aebab"/>Prozess in
+                Erfahrung bringen konnte. </p>
+         <p xml:id="uuid_63195b82-3d7f-46fd-9e14-680adce9e792">
+            <lb xml:id="uuid_cebbba13-4af6-4bf0-891a-006634d3524e"/>Mit den besten Grüssen an
+                Sie und an<lb xml:id="uuid_cf2da958-940a-4adc-a6db-13818d30d092"/>Herrn <rs ref="#11988" type="person">Kraus</rs>
+         </p>
+         <p xml:id="uuid_489a26c7-6782-41df-bd75-a8b8accaa4cc">
+                <lb xml:id="uuid_04f533b3-f6a3-4cc3-b73d-25d6a29e7830"/>Ihr<lb
+                    xml:id="uuid_3a303dd1-9824-4e0a-9dff-e8fac3310926"/><rs ref="#38477"
+                    type="person">Sigismund v. Radecki</rs>
+                <pb xml:id="D_000068-052-000_p005" facs="#D_000068-052-000-facs001-l004-p005" n="5"
+                /></p>
+         <p xml:id="uuid_017ef94e-6a0e-4f41-afb2-30259ede6014">
+            <lb xml:id="uuid_7d1d6a62-46e4-4102-8f70-432966c66279"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#11910" type="person">Kerr</rs>
+               <lb xml:id="uuid_635ae6c5-4b28-4cc9-93af-6470643c49c8"/>13. Okt. 1927 </note>
+         </p>
+      </body>
+   </text>
+</TEI>

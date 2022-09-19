@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000062-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000062-001-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000062-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Kölner Woche (verantw. Red. Michael Becker)</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000062-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2428</idno>
+            <idno subtype="transkribus" type="ID">200693</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000062" type="collection">Karl
+                    Kraus ca. Kölner Woche</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000062-002-000-facs001" xml:id="D_000062-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000062-002-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHU">Typoskript mit handschriftlichen Überarbeitungen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1926-06-22">22. Juni 1926</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51">Wien</settlement>
+               </address>
+               <date when-iso="1926-06-22">22. Juni 1926</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#51547">Wohlgeb. | Herrn Michel Becker | verantwortlicher
+                        Schriftleiter der | „Kölner Woche“</persName>
+               <address>
+                  <street corresp="#">Annostrasse 7</street>
+                  <settlement ref="#">Köln</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Kölner Woche</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <handNotes>
+            <handNote xml:id="D_000062-002-000-hand01"
+                      source="#D_000062-002-000-wit01"
+                      scribeRef="#38909"
+                      medium="black-ink"
+                      cert="low"
+                      resp="#IL"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000062-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000062-002-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2022-01-31" who="#IL"/>
+         <change type="structure" when-iso="2020-11-18" who="#IL"/>
+         <change type="references" when-iso="2020-11-22" who="#IL"/>
+         <change type="typography" when-iso="2022-01-17" who="#IL"/>
+         <change when-iso="2020-02-18T10:01:05.122Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-18T12:37:26.734Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-02-18T12:37:27.998Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-02-18T12:37:29.398Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 200693. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000062-002-000-facs001">
+      <surfaceGrp xml:id="D_000062-002-000-facs001-l001">
+         <surface xml:id="D_000062-002-000-facs001-l001-p001" type="recto">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551624/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000062-002-000-facs001-l002">
+         <surface xml:id="D_000062-002-000-facs001-l002-p002" type="recto">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551625/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000062-002-000-facs001-l002-p003" type="verso">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2551626/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000062-002-000_p001"
+             facs="#D_000062-002-000-facs001-l002-p002"
+             n="1"/>
+         <p xml:id="uuid_84e3a044-a540-4705-bcd0-4f620c837a27">
+            <lb xml:id="uuid_42f05db3-e932-4fd5-b9db-45b6d5a8bb42"/>In der <rs ref="#52938"
+               type="work" subtype="pmb">Nr. 46 der „Kölner Woche“</rs> vom 22. Mai 1926 Sei<lb
+               xml:id="uuid_4a935bb2-d54c-4e25-bdc4-a0cfbcffc326" break="no"/>te 911 sind unter der
+            allgemeinen Ueberschrift „<rs ref="#52940" type="work" subtype="pmb">Buntes
+               Allerlei</rs>“<lb xml:id="uuid_ba31edda-e580-4063-b4cc-c269964efa3b"/>11 Aphorismen
+            aus dem Buche „<rs ref="#52942" type="work" subtype="pmb">Sprüche und Widersprüche</rs>“
+            des von<lb xml:id="uuid_e61f9365-e402-48c9-b999-786937e70f09"/>mir vertretenen Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+            unberechtigter Weise abgedruckt.<lb xml:id="uuid_451c7408-2ecd-4cb9-8e32-f853db3ef7be"
+            />Vor der Aufnahme in das Buch waren die Aphorismen in der von Herrn<lb
+               xml:id="uuid_bf07a7af-939f-4438-9f34-9f6c2ffd5c91"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+            herausgegebenen Zeitschrift „<rs ref="#41244" type="work" subtype="pmb">Die Fackel</rs>“
+            erschienen. Ob<lb xml:id="uuid_82771d4e-e5dd-4f82-aef5-5db918537e95" break="no"/>wohl
+            Sie den Nachdruck nur mit Quellenangabe „<rs ref="#52934" type="work" subtype="pmb"
+               >Kölner Woche</rs>“ und <add hand="#D_000062-002-000-hand01">für das</add>
+            <lb xml:id="uuid_7df9e5cc-11ce-4889-bed6-b5e0ad4cc2e3"/>Feuilleton den Nachdruck
+            überhaupt nicht gestatten, unterliessen<lb
+               xml:id="uuid_1a96b641-30f2-4ab9-886c-fa101e5d3be7"/>Sie es die Zustimmung des Herrn
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> zu
+            dem Abdruck einzu<lb xml:id="uuid_1daeb73e-0183-460d-8f09-a40077c100af" break="no"
+            />holen, ferner auch nur seinen Namen oder Ihre Quelle zu nennen.<lb
+               xml:id="uuid_ced6bf7a-3bcb-4b1c-a76d-6a3e32685f8e"/>Hiedurch haben Sie eine
+            Verletzung des Urheberrechtes begangen. </p>
+         <p xml:id="uuid_913a77c2-34e9-4395-a168-1692ab6764b8">
+            <lb xml:id="uuid_dbbf93d7-406a-42f9-b4b3-861877197a33"/>Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> hat mich
+                beauftragt die entsprechenden Schritte wegen<lb xml:id="uuid_e9f6db9c-a770-4bf5-a7ee-ebde0175149d"/>Verfolgung dieser strafbaren
+                Handlung und Geltendmachung des<lb xml:id="uuid_6d27ca3c-d396-45f5-b7cb-87cd511e9d90"/>Schadenersatzanspruches
+                einzuleiten, wenn Sie nicht vorziehen<lb xml:id="uuid_1b6439ea-269d-42d6-be32-6c54aba9421b"/>binnen 8 Tagen in meiner <rs ref="#52930" type="institution">Kanzlei</rs> als Busse den Betrag von 500.–<lb xml:id="uuid_fa9bc229-6fac-495c-baf6-e7de616acbea"/>Goldmark und die in meiner
+                Kanzlei aufgelaufenen Kosten der<lb xml:id="uuid_ce9c271d-50cc-46a9-84b3-3a8eb04fa0d4"/>Informationserteilung und
+                dieser Mahnung in der Höhe von 50.– GM<lb xml:id="uuid_5d4113fe-d843-4833-b120-99a45f284a11"/>zu bezahlen. </p>
+         <p xml:id="uuid_b1818901-bc2e-4d51-bcc2-cf82513ec19a">
+            <lb xml:id="uuid_ce500cd3-ab8d-4ec7-a2da-998aebb5f8a4"/>Hochachtungsvoll </p>
+         <p xml:id="uuid_9c33e4a9-3f3d-4013-9282-fed00497635f">
+            <lb xml:id="uuid_caa742eb-b3e4-4b38-85dc-28cc2e2865cd"/>rekomm. </p>
+         <pb xml:id="D_000062-002-000_p002"
+             facs="#D_000062-002-000-facs001-l002-p003"
+             n="2"/>
+         <p xml:id="uuid_8715bdd7-5986-4429-b970-17f20b610ef8">
+            <lb xml:id="uuid_6c47e929-7af1-4cca-83c7-961b3ee4e2fc"/><note type="paratext" resp="law-firm"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> – <rs ref="#52934" type="institution">Kölner Woche</rs>.<lb xml:id="uuid_bff5ec8c-ae41-4122-a55a-99bbbd3e607b"/>22.VI.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

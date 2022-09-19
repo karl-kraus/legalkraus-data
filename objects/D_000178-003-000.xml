@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-004-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-002-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000178-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Egon Schwelb an Samek</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000178-003-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/4414</idno>
+            <idno subtype="transkribus" type="ID">349156</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000178" type="collection">Unterlagen
+               zu einem Prozess Anton Kuh ca. Emil Strauss</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000178-003-000-facs001" xml:id="D_000178-003-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000178-003-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T"
+                        >Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-06-16">16. Juni 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#43638">Dr. Egon Schwelb</persName>
+               <address>
+                  <street corresp="#58014">Národní Třída 24</street>
+                  <settlement ref="#652">PRAG II.</settlement>
+               </address>
+               <date when-iso="1932-06-16">den 16. Juni 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Dr. Oskar Samek, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Dr. Strauss – Kuh passiv | Kraus – Diverse</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000178-003-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000178-003-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-07" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-11-04" who="#IL"/>
+         <change type="structure" when-iso="2021-10-01" who="#IL"/>
+         <change type="references" when-iso="2021-10-11" who="#IL"/>
+         <change type="typography" when-iso="021-11-04" who="#IL"/>
+         <change when-iso="2020-10-09T15:24:42.053Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-09T15:25:26.008Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 349156. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000178-003-000-facs001">
+      <surfaceGrp xml:id="D_000178-003-000-facs001-l001">
+         <surface type="recto" xml:id="D_000178-003-000-facs001-l001-p001">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543991/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000178-003-000-facs001-l001-p002">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543992/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000178-003-000_p001" facs="#D_000178-003-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_1c118dd2-fe9b-45c3-a6d4-2ca769dff311">
+            <lb xml:id="uuid_57f498bb-2edd-40ef-bf66-f0aec991d053"/>Sehr geehrter Herr <rs
+               ref="#38909" type="person">Doktor</rs>! </p>
+         <p xml:id="uuid_445b9eb7-0183-4f5a-b4a6-d3685266b680">
+            <lb xml:id="uuid_364366d7-e843-4278-9f30-5324befdd2dc"/>Ich bestätige bestens dankend
+            den Empfang<lb xml:id="uuid_8c05c4ba-7f37-4f7e-88e7-00c5e114cb9e"/>Ihres gesch. <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000178-002-000" type="work"
+               subtype="legal-doc">Schreibens</rs> vom 15.ds. samt 18 Beilagen. </p>
+         <p xml:id="uuid_df8e39ba-52cd-4bd5-9a88-a1fbce7ad85e">
+            <lb xml:id="uuid_106fa490-e5af-4857-bd61-580af781adcd"/>Ich werde die mir von Ihnen in
+               freundlicher<lb xml:id="uuid_e01ffc5e-d198-48b5-ba83-42319c7b777b"/>Weise zur
+            Verfügung gestellten Originaldokumente dem <rs ref="#36875" type="institution"
+               >Gericht</rs> Ihrem<lb xml:id="uuid_25eec140-10ce-42cc-8cca-251e26e4f34a"/>Wunsche
+            gemäss keinesfalls vorlegen, sondern diese Dokumente in<lb
+               xml:id="uuid_b697a8d5-59f3-4c93-af1c-891bf4949954"/>meiner Verwahrung behalten und,
+            falls sich die Vorlage notwendig<lb xml:id="uuid_7467071e-7bc6-4143-86a6-cd520e79b922"
+            />erweisen sollte, beglaubigte Abschriften anfertigen lassen. </p>
+         <p xml:id="uuid_d058b1e2-a295-409f-bcf0-3dbfb8a66a40">
+            <lb xml:id="uuid_f832c607-9d81-452d-8b15-3b7e2290b298"/>Ich danke Ihnen bestens für Ihr
+               Entgegen<lb break="no" xml:id="uuid_f6dfa6e0-cd64-4d16-b605-af4c948ade08"/>kommen und
+            zeichne</p>
+         <p xml:id="uuid_99fb2312-4e2d-40e6-a1d6-2faba586536b"><lb
+               xml:id="uuid_9d098090-fdf3-455b-92a8-e2f825075198"/>mit vorzüglicher Hochachtung<lb
+               xml:id="uuid_34f17fba-2192-4f5c-a75e-e4736c58dc74"/>als Ihr ergebener:<lb
+               xml:id="uuid_5f660bcc-9f84-4676-90bd-5de2840f69d5"/>Dr. <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/43638" type="person">Schwelb</rs>
+         </p>
+         <pb xml:id="D_000178-003-000_p002" facs="#D_000178-003-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_a5d5a87d-5362-4a98-adf1-a4f4e9216c3f">
+            <lb xml:id="uuid_970af3d5-cbb3-4086-8665-ce634d428a11"/><note resp="law-firm"
+               type="paratext"><rs ref="#11988" type="person">Kraus</rs> – diverses<lb
+                  xml:id="uuid_1075dd03-672f-4731-8811-88da70c57da6"/>Dr. <rs ref="#12864"
+                  type="person">Strauss</rs> – <rs type="person"
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/8363">Kuh</rs><lb
+                  xml:id="uuid_bc219273-8a53-44b3-82ca-e597ee22d0bb"/>17. JUNI 1932</note></p>
+      </body>
+   </text>
+</TEI>

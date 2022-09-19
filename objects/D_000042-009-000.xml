@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-010-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-008-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000042-009-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Ladislaus Radvany</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000042-009-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2118</idno>
+            <idno subtype="transkribus" type="ID">191738</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000042" type="collection">Diverse Korrespondenzen betr. Emmerich Békessy</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000042-009-000-facs001" xml:id="D_000042-009-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000042-009-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-12-09">9. Dezember 1927</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1927-12-09">9. Dezember 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#52876">Wohlgeboren | Herrn Dr. Ladislaus Radvany</persName>
+               <address>
+                  <street corresp="#63573">Andrassy ut 29</street>
+                  <settlement ref="#43471">Budapest VI.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000042-009-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000042-009-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2022-01-17" who="#IL"/>
+         <change type="structure" when-iso="2020-11-18" who="#IL"/>
+         <change type="references" when-iso="2020-11-22" who="#IL"/>
+         <change type="typography" when-iso="2022-01-17" who="#IL"/>
+         <change when-iso="2020-02-11T08:50:44.311Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-11T08:56:25.46Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-02-11T08:56:26.881Z" who="#JM">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 191738. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000042-009-000-facs001">
+      <surfaceGrp xml:id="D_000042-009-000-facs001-l001">
+         <surface xml:id="D_000042-009-000-facs001-l001-p001" type="recto">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548798/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000042-009-000-facs001-l001-p002" type="verso">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548799/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000042-009-000_p001"
+             facs="#D_000042-009-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_ce8d948c-9db9-461f-a26a-5c740272d6f5">
+            <lb xml:id="uuid_34f87a71-a7fa-4a9c-91e9-14447bf146af"/>Sehr geehrter Herr <rs type="person" ref="#52876">Doktor</rs>! </p>
+         <p xml:id="uuid_43e72da4-3cac-4154-9e70-81fccf3024aa">
+            <lb xml:id="uuid_44d4d10f-cfd9-4c5b-a5ed-c4c88dfa0baa"/>Ich danke Ihnen vielmals für
+                die Uebersen<lb xml:id="uuid_2f353977-7151-4fc9-bc90-8dde44cd7986" break="no"/>dung
+                der ungarischen Zeitungsartikeln über die <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37843" type="person">Bekessy</rs>-Affaire.<lb xml:id="uuid_7c45d489-66e6-4793-9d8e-3cc166ec7187"/>Dort scheint ja ein ganzer Sturm gegen <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37843" type="person">Bekessy</rs>
+                loszugehen. Ihren<lb xml:id="uuid_54fc53c0-c085-4e16-99dc-053881995dd2"/><rs type="work">Brief</rs> vom 8. November 1927 habe ich nicht erhalten, konnte
+                    ihn<lb xml:id="uuid_015f2da1-724b-45d0-bd0f-2c1c51da23e3"/>daher auch nicht
+                beantworten. Ich ersuche Sie, mir eine Kopie des<lb xml:id="uuid_9d0c42e3-17e7-4239-a5ec-f7590458164d" break="no"/>selben
+                einzusenden. </p>
+         <p xml:id="uuid_84cce72e-8a7d-488e-9791-871037e9ebe8">
+            <lb xml:id="uuid_3952b075-847c-4713-854a-925af2d2784a"/>Ich zeichne mit
+                    vorzüglicher<lb xml:id="uuid_dee5551f-a29d-4d34-95bd-ee0369e4bc86"/>Hochachtung </p>
+         <pb xml:id="D_000042-009-000_p002"
+             facs="#D_000042-009-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_22653c84-3f86-493c-9cb9-3fbc3245185a">
+            <lb xml:id="uuid_da836924-246a-430d-ba13-f00337a538e1"/><note type="paratext" resp="law-firm">Betr. <rs ref="#11988" type="person">Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29470" type="institution">Stunde</rs> Diverse<lb xml:id="uuid_ee464979-764a-45f9-9328-2796d7db6913"/>exp. am 9. Dez. 1927.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

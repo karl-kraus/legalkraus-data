@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-060-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-058-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000112-059-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Willy Katz</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">
+               https://id.acdh.oeaw.ac.at/legalkraus/legalkraus/D_000112-059-000.xml </idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/3218</idno>
+            <idno subtype="transkribus" type="ID">248516</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000112" type="collection">Karl Kraus
+               ca. Theodor Wolff</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000112-059-000-facs001" xml:id="D_000112-059-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000112-059-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHU">Durchschlag mit
+                        handschriftlichen Überarbeitungen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-07-10">10. Juli 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51"/> 
+               </address>
+               <date when-iso="1931-07-10">10. Juli 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#19200">Wohlgeboren | Herrn Dr. Willy Katz, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#482">Friedrichstrasse 48</street>
+                  <settlement ref="#168">Berlin SW 68</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Kerr – Wolf</note>
+               <note type="dictation">Dr.Sa/W</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000112-059-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000112-059-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+         <handNotes>
+            <handNote xml:id="D_000112-059-000-hand01" source="#D_000112-059-000-wit01" scribeRef="#38909" medium="pencil" cert="low" resp="#IL"/>
+         </handNotes>
+         <handNotes>
+            <handNote xml:id="D_000112-059-000-hand02" source="#D_000112-059-000-wit01" scribeRef="#11988" medium="grey-pencil" cert="high" resp="#IL"/>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="typography" when-iso="2021-06-28" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-06-30" who="#IL"/>
+         <change type="structure" when-iso="2021-05-25" who="#IL"/>
+         <change type="intertexts" when-iso="2021-06-21" who="#IL"/>
+         <change type="references" when-iso="2021-05-25" who="#IL"/>
+         <change when-iso="2020-07-22T07:34:58.878Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 248516. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile ana="further-witnesses">
+      
+      
+      <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555968/full/full/0/default.jpg"/>
+      
+      
+      <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555969/full/full/0/default.jpg"/>
+      
+      
+      <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555970/full/full/0/default.jpg"/>
+      
+      
+      <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555971/full/full/0/default.jpg"/>
+   </facsimile>
+   <facsimile xml:id="D_000112-059-000-facs001">
+      <surfaceGrp xml:id="D_000112-059-000-facs001-l001">
+         <surface type="recto" xml:id="D_000112-059-000-facs001-l001-p001">
+            
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555972/full/full/0/default.jpg"/>
+         </surface>
+         <surface type="verso" xml:id="D_000112-059-000-facs001-l001-p002">
+            
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555973/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000112-059-000-facs001-l002">
+         <surface type="recto" xml:id="D_000112-059-000-facs001-l002-p003">
+            
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555974/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000112-059-000_p001"
+             facs="#D_000112-059-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_bd9050f7-ec53-4d9f-a34d-9e5aad2e9693">
+            <lb xml:id="uuid_bb7f79b5-f8c6-4259-983a-5d955cbb9d7b"/>Sehr geehrter Herr <rs ref="#19200" type="person">Kollege</rs>! </p>
+         <p xml:id="uuid_5e4acdb7-c6a5-4fa1-9752-a8195311d722">
+            <lb xml:id="uuid_54a062d4-fc34-40b2-a275-8585f412e35f"/>Mit bestem Dank und
+                herzlichster Empfehlung<lb xml:id="uuid_9e921f6b-0a37-4a28-9061-4fb53c750261"/>des
+                Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+                    Kraus</rs> teile ich Ihnen über Ihren Wunsch auf Ihre<lb xml:id="uuid_03249bb3-cd3d-4f01-b138-acdea15b93a8"/>freundliche <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-058-000"
+                type="work"
+                subtype="legal-doc">Zuschrift</rs> vom 4. Juni, die Sie an den <rs ref="#43724" type="institution">Verlag der<lb xml:id="uuid_6981f6f9-06af-4b0f-9d4a-d95921c1086c"/>Fackel</rs> gerichtet
+                haben, das folgende mit: </p>
+         <p xml:id="uuid_a0d9125f-b6a8-4d30-a84a-f0f3ad84ba9b">
+            <lb xml:id="uuid_72a3cd3d-934c-45ed-a2a0-656c27252058"/>Das prinzipielle Eingehen auf
+            einen Vergleich<lb xml:id="uuid_f41d9c6c-cf69-46cf-9bfe-7b37976a46e1"/>könnte wirklich
+            nur aus den von Ihnen mit Recht berührten takti<lb break="no"
+               xml:id="uuid_efcc0ec3-df3c-4a50-bdea-2c5b6eccdcf7"/>schen Rücksichten in Erwägung
+            gezogen werden, das heisst also,<lb xml:id="uuid_8834a5cf-10df-4f58-8c42-c3ac2e681c2e"
+            />wenn Sie tatsächlich der Ansicht sind, dass ein Vergleichsvor<lb break="no"
+               xml:id="uuid_a973b477-7e2f-4d6d-bbf3-aee07841c8b0"/>schlag, dessen Ablehnung von der
+            Gegenseite sicher zu erwarten<lb xml:id="uuid_eb99ecfd-1a0b-477c-a06a-8f89dd8640ba"
+            />ist, gleichwohl auf dem Niveau der Judikatur, die die Sache als<lb
+               xml:id="uuid_ee8719f4-d176-420d-aaf4-eb103fbd79eb"/>Privathandel betrachtet, den
+            ungünstigen Eindruck vermeiden<lb xml:id="uuid_2227c584-15d9-4cff-900f-82cd0514e540"
+            />hilft, den eine prinzipielle Vergleichsverweigerung hervorruft.<lb
+               xml:id="uuid_5b22ab79-e931-441e-804b-36982fa07824"/>Zu diesem Zwecke könnte Ihr sonst
+            ausgezeichneter Vorschlag<lb xml:id="uuid_fd14b4c3-943c-4813-8923-af59af189102"/>aber
+            nur mit solchen Ergänzungen eingebracht werden, die den<lb
+               xml:id="uuid_6726e067-e114-452f-a420-7737ef95089f"/>Sachverhalt ausgiebig darstellen,
+            also der Gefahr begegnen, dass<lb xml:id="uuid_9ae85c46-6a39-45eb-894d-d6120c869b9e"
+            />auch nur einem Aktenstück die Version zu entnehmen sei, dass in<lb
+               xml:id="uuid_77601f94-a500-48b4-acef-e47c5ed22e2b"/>der Beurteilung des Falles <rs
+               ref="#11910" type="person">Kerr</rs> irgend eine Konzession gemacht<lb
+               xml:id="uuid_2e710977-a523-4748-8118-0e2e01d83b15"/>wird. Wenn man auch ohne weiters
+            und vor aller Welt zugeben kann, <pb xml:id="D_000112-059-000_p002"
+               facs="#D_000112-059-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_b9ed5eef-dfb6-4562-bc66-66cf45a99b9b"/>dass in jenem Vortrage die
+            Aeusserung <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11581" type="person">Hardens</rs>
+            nicht in ihrem<lb xml:id="uuid_e406cd04-7ec9-405f-a867-2e38428d1986"/>Inhalte – der
+            Behauptung eines formellen Vertragsabschlusses –<lb
+               xml:id="uuid_ab2ee4f0-a4f9-44f7-b823-6ec7278fa0d2"/>annektiert wurde, so muss doch
+            Klarheit in der Richtung ge<lb break="no"
+               xml:id="uuid_fe7c963a-0ae3-4b30-81d4-5f4e4efcedba"/>schaffen werden, dass Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> eine
+            tatsächlich vollzogene<lb xml:id="uuid_11472075-fafb-457f-a4f0-a7fa7ff06256"
+            />kritisierte Sinnesänderung des <rs ref="#11910" type="person">Kerr</rs> nach wie vor
+            behauptet, die<lb xml:id="uuid_5c298261-9449-4a04-a795-6e0f38bf91ca"/>sich eben durch
+            den blossen Uebertritt von <rs ref="#37065" type="institution">Scherl</rs> zu <rs
+               ref="#37223" type="institution">Mosse</rs> in<lb
+               xml:id="uuid_09f548b0-a307-4c61-8642-65c63e83dce6"/>Sachen <rs ref="#12504"
+               type="person">Reinhard<add hand="#D_000112-059-000-hand01">t</add></rs> von selbst verstand. </p>
+         <p xml:id="uuid_fd9064c3-0cf8-4236-8bd9-640963b7c38b">
+            <lb xml:id="uuid_c4db7c11-7f42-4a9a-8cf7-28e7f184a03a"/>Es wäre also der erste Absatz
+            von „<quote source="https://legalkraus.acdh.oeaw.ac.at/id/D_000112-058-000"
+               xml:id="uuid_3373e574-5890-42bd-b11e-4f15796ad70e">Der Angeklagte<lb
+                  xml:id="uuid_c11fd954-e081-4761-b84a-6dce853b5eff"/><rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/13163" type="person">Wolf<add
+                     hand="#D_000112-059-000-hand01">f</add></rs></quote>“ bis „<quote
+               source="https://legalkraus.acdh.oeaw.ac.at/id/D_000112-058-000"
+               xml:id="uuid_000f1e0d-97c8-4a41-8f67-52bb46e9de4a">ohne jede Berechtigung erfolgt
+               sind</quote>“ – als die uner<lb break="no"
+               xml:id="uuid_726c8c17-c71a-41d4-8539-b50e13d65ad2"/>lässliche Erklärung des Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/13163" type="person">Wolf<add
+                  hand="#D_000112-059-000-hand01">f</add></rs> zu belassen. Das folgende<lb
+               xml:id="uuid_7c89df93-90be-4d77-ae4b-20e184518ab8"/>Wort des nächsten Absatzes
+               „<quote source="https://legalkraus.acdh.oeaw.ac.at/id/D_000112-058-000"
+               xml:id="uuid_9d8e4033-d012-42f2-8a70-01ef72436436">Hiernach</quote>“ könnte <subst
+               hand="#D_000112-059-000-hand01">
+               <del hand="#D_000112-059-000-hand01">sowohl</del>
+               <add hand="#D_000112-059-000-hand01">statt</add>
+            </subst> eines<lb xml:id="uuid_8c8fcd4d-5c85-4aee-a9dd-1c35ccc9291b"/>temporellen <del
+               hand="#D_000112-059-000-hand01">wie</del> auch einen causalen Sinn haben und wäre
+               wegen<lb xml:id="uuid_0a7afb62-f227-4eeb-96f3-983e316b257b"/><subst
+               hand="#D_000112-059-000-hand01">
+               <del hand="#D_000112-059-000-hand01">eines</del>
+               <add hand="#D_000112-059-000-hand01">des</add>
+            </subst> Missverständnisses zu vermeiden. Ich würde vorschlagen,<lb
+               xml:id="uuid_72d7d64c-53cf-4ca5-aeed-e62fe85c6a52"/>anzuschliessen: </p>
+         <p xml:id="uuid_5f97ce84-227f-46ea-90e5-c1c7d6f37c8b">
+            <lb xml:id="uuid_35aff183-649a-4c67-b12e-2c8d4f6fddc5"/>„<quote
+               source="https://legalkraus.acdh.oeaw.ac.at/id/D_000112-058-000"
+               xml:id="uuid_58f71425-90d2-4dcd-8ac2-b38dc2e7ed65">Der <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Privatankläger</rs>
+               erklärt, dass zur Aufrechterhaltung<lb
+                  xml:id="uuid_ebb929b3-fba5-4217-a7d8-30ad565d965a"/>des Ausdruckes ‚<quote
+                  source="https://fackel.oeaw.ac.at/f/795,081"
+                  xml:id="uuid_3270e0b8-0721-4601-998e-94b031ae8b00">frecher Schwindel</quote>‘ in
+               seinem Vortrage vom 1. Okto<lb break="no"
+                  xml:id="uuid_25a394e9-b312-45b4-9fa8-cd9932f48844"/>ber 1928, abgedruckt <rs
+                  ref="https://fackel.oeaw.ac.at/f/795,0u1" type="work" subtype="fackel">Nr. 795–799
+                  der Fackel</rs>, Anfang Dezember 1928,<lb
+                  xml:id="uuid_556de906-7046-42fb-9342-91d7e3f25efe"/>kein Anlass mehr vorhanden
+               sei. Jene Bemerkung bezog sich auf den<lb
+                  xml:id="uuid_6c6af99f-6d3c-43d0-bb9a-60d4dd720a7b"/>Versuch des <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/13163" type="person">Angeklagten</rs>, die
+               Mitteilung des <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Privatklägers</rs> über die<lb xml:id="uuid_258c83cc-792f-4b2f-8f23-db804885b3b1"
+               />erwähnte Aeusserung <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11581"
+                  type="person">Hardens</rs> so zu deuten, als habe der <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Privat<lb break="no"
+                     xml:id="uuid_2ef3a037-e78a-4c33-8842-1df3681cda3b"/>kläger</rs> sich deren
+               Inhalt zu eigen gemacht, obwohl er aus dem<lb
+                  xml:id="uuid_8550f9ef-de78-4fc8-b060-20ae5d4cc6ae"/><rs
+                  ref="https://fackel.oeaw.ac.at/f/795,052" type="work" subtype="fackel">Text</rs>
+               der <rs ref="https://fackel.oeaw.ac.at/f/795,0u1" type="work" subtype="fackel"
+                  >Fackel</rs> erkennen <subst hand="#D_000112-059-000-hand01">
+                  <del hand="#D_000112-059-000-hand01">musste</del>
+                  <add hand="#D_000112-059-000-hand01">konnte</add>
+               </subst>, dass von vornherein der <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  type="person">Privat<lb break="no"
+                     xml:id="uuid_262124b7-9817-4537-9c0a-ff2b1c3963b4"/>kläger</rs> die Uebernahme
+               der Beschuldigung als solche und eine Iden<lb break="no"
+                  xml:id="uuid_22a2f9be-0412-49c3-89db-d57a3508e5e3"/>tifizierung mit derselben
+               nicht im Sinne hatte, sondern lediglich<lb
+                  xml:id="uuid_2e279754-a601-492a-9549-09da49dbf5f4"/>die Tatsache kritisierte, dass
+               auf die Beschuldigung <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11581"
+                  type="person">Hardens</rs>, die<lb
+                  xml:id="uuid_f2b74d90-de31-433a-a12b-d28f20cc2f4b"/><rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/39313" type="person">Franz Pfemfert</rs>
+               veröffentlicht <subst hand="#D_000112-059-000-hand01">
+                  <del hand="#D_000112-059-000-hand01">hat</del>
+                  <add hand="#D_000112-059-000-hand01">hatte</add>
+               </subst> und die durch die divergierende<lb
+                  xml:id="uuid_494d5b79-8fb2-4bc4-b345-6ac7aeaad20f"/>Haltung <rs ref="#11910"
+                  type="person">Kerr</rs>’s eine Stütze zu finden schien, keine Antwort erfolgt <pb
+                  xml:id="D_000112-059-000_p003" facs="#D_000112-059-000-facs001-l002-p003" n="3"/>
+               <lb xml:id="uuid_d3b4ed0a-9f0e-4400-b14a-07f22dcef49a"/>ist. Da sich herausstellte,
+               dass der <rs ref="https://pmb.acdh.oeaw.ac.at/entity/13163" type="person"
+                  >Angeklagte</rs> durch eine falsche<lb
+                  xml:id="uuid_b802e153-e1c1-405b-b1df-f9cb3538aea0"/><note type="marginal"
+                  hand="#D_000112-059-000-hand02" rend="marginLeft">[¿¿]ndliche</note>Information
+               über den Inhalt des Vortrags irregeführt, der Meinung<lb
+                  xml:id="uuid_040438f7-b805-451c-a478-fbf398381bdd"/>war, dass eine solche
+               Uebernahme und Identifizierung tatsächlich<lb
+                  xml:id="uuid_1290a56e-db0f-4d2a-8460-3d3cfa034d95"/>erfolgte, so ist zu dem
+               Vorwurf einer dolosen Deutung, die mit<lb
+                  xml:id="uuid_ced4b109-d025-4b18-a918-8ca3a31d266d"/>den Worten ‚<quote
+                  source="https://fackel.oeaw.ac.at/f/795,081"
+                  xml:id="uuid_f819949e-df4b-445a-a322-7a6954d1798d">frecher Schwindel</quote>‘
+               charakterisiert war, kein Grund<lb xml:id="uuid_78745c5e-f4ae-462b-995a-6fd743462eb8"
+               />vorhanden.</quote>“</p>
+         <p xml:id="uuid_de7f51f5-a76c-4deb-ab54-945564dce7af"><lb
+               xml:id="uuid_9fef8a22-4e4f-4f60-adfc-77a033b63a72"/>Wenn diese Abänderung Ihres
+            Vorschlages Ihre<lb xml:id="uuid_aa6b43ce-5e7f-4fac-8011-3e9dac633e5f"/>Billigung
+            findet, so bitte ich Sie also den Ausgleichsvorschlag<lb
+               xml:id="uuid_bd9ac47b-b72c-46b5-bf64-5e6fca6c6c18"/>einzureichen.</p>
+         <p xml:id="uuid_ae38da1f-35ba-4992-b9be-4696d8a8e9db"><lb
+               xml:id="uuid_be83974b-ea22-4b8d-ab91-b6b3046f0b48"/>Mit vorzüglicher kollegialer<lb
+               xml:id="uuid_8524bb45-0397-4eb2-a13a-b9d9c6453d00"/>Hochachtung </p>
+      </body>
+   </text>
+</TEI>

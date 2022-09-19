@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000031-013-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000031-011-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000031-012-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Verlag Die Fackel</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000031-012-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1970</idno>
+            <idno subtype="transkribus" type="ID">186582</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000031" type="collection">Hans Liebstöckl ca. Karl Kraus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000031-012-000-facs001" xml:id="D_000031-012-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000031-012-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1925-09-03">3. September 1925
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909">OSKAR SAMEK | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien, I.</settlement>
+               </address>
+               <date when-iso="1925-09-03">3. September 1925</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#43724">den | Verlag der „Fackel“</orgName>
+               <address>
+                  <street corresp="#50496">Hintere Zollamtstrasse 3</street>
+                  <settlement ref="#53">Wien III.</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Liebstöckl</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000031-012-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000031-012-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2022-01-17" who="#IL"/>
+         <change type="structure" when-iso="2020-11-18" who="#IL"/>
+         <change type="references" when-iso="2020-11-22" who="#IL"/>
+         <change type="typography" when-iso="2022-01-17" who="#IL"/>
+         <change when-iso="2020-02-10T11:19:14.904Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-10T11:34:32.477Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T11:34:34.076Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T11:34:36.356Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T11:34:37.885Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-07-13T12:41:04.359Z" who="#IB">Linked to Document in Transkribus
+                by API </change>
+         <change when-iso="2020-07-13T12:41:25.859Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 186582. </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 186582. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000031-012-000-facs001">
+      <surfaceGrp xml:id="D_000031-012-000-facs001-l001">
+         <surface type="recto" xml:id="D_000031-012-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548189/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000031-012-000-facs001-l001-p002">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548190/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic ana="status:checked"
+                  source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548191/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked"
+                  source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548192/full/full/0/default.jpg"/>
+         
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <p xml:id="uuid_a0acadec-4b0d-4661-a133-b8a652081717">
+            <pb xml:id="D_000031-012-000_p001"
+                facs="#D_000031-012-000-facs001-l001-p001"
+                n="1"/>
+            <lb xml:id="uuid_31dff24a-2b94-478a-a9c1-5e3acb16b856"/>Nachfolgend gebe ich
+                Ihnen einen Bericht über die<lb xml:id="uuid_43fa9ec4-36f4-4cef-84da-47ccf84ef227"/>heutige Verhandlung. </p>
+         <p xml:id="uuid_31c8de51-14b6-4edf-8ef5-8e3f7b5d6c79">
+            <lb xml:id="uuid_d70afff2-bb04-499c-927d-f5f566840cae"/>Dr. <rs ref="#20424" type="person">Liebstöckel</rs> verantwortete sich folgendermassen: „<quote xml:id="uuid_db57cb3b-afac-43db-a0a6-23b91ca08557">Ich<lb xml:id="uuid_9ff02fc4-c18a-49fd-8a6d-9b107dbe6cc5"/>habe den inkriminierten
+                        <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000031-003-000"
+                   type="work"
+                   subtype="legal-doc">Brief</rs> selbst geschrieben und zwar im<lb xml:id="uuid_ab7bb63c-f5a6-4698-85cd-0824c019bceb"/>Unmut darüber, dass vom
+                        <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kläger</rs>
+                    eine angebliche Aeusserung von<lb xml:id="uuid_f4ff14b0-b9c6-484b-831c-e78443de5f77"/>mir weitergegeben wurde,
+                    die mich in der Öffentlichkeit herunter<lb break="no" xml:id="uuid_21ccd0cc-5044-4718-972c-2fcebaad5a01"/>setzen musste und die
+                    ich nie und nirgends getan habe. Mir fehlte<lb xml:id="uuid_3659ef01-a691-415e-9ea0-8a7255054812"/>jede beleidigende
+                    Absicht. Ich kann in der inkriminierten Aeusse<lb break="no" xml:id="uuid_9109c565-1d3a-46b8-96da-709f603ac8f4"/>rung eine Beleidigung
+                    überhaupt nicht erblicken, weil das Wort<lb xml:id="uuid_4b208387-90c1-42be-ba5d-e00d0606746b"/>‚leichtfertig‘ im
+                    journalistischen Gebrauche so viel wie ‚man<lb break="no" xml:id="uuid_e610760d-7ada-4a79-ba71-1385094f32ba"/>gelhaft fundiert‘
+                    bedeutet, daher nicht die Schärfe wie im sonsti<lb break="no" xml:id="uuid_79966f74-c25c-42c5-9171-c099b395b9cf"/>gen Sprachgebrauch
+                    besitzt. Ich hätte ebenso ‚sonderbar‘ oder ‚merk<lb break="no" xml:id="uuid_b06bdbcf-3a9c-46bb-87d1-d8890c27827a"/>würdig‘ sagen können. In
+                    diesem Sinne habe ich das Wort gebraucht.</quote>“ </p>
+         <p xml:id="uuid_b4f537e9-a804-48c1-b44e-f3a02af37f77">
+            <lb xml:id="uuid_57661c74-7a3c-4952-8f78-88c728bcc527"/>Dem gegenüber brachte ich
+                vor: „<quote xml:id="uuid_3c86463a-dd4d-4c16-ab5b-24c626ce0aed">Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> hat
+                        die<lb xml:id="uuid_98bb04ea-5cba-42d9-9281-a0782fead506"/>Aeusserung des
+                        <rs ref="#20424" type="person">Beklagten</rs> von der in <rs ref="#302" subtype="address" type="place">Wien VI. Mariahilfferstrasse 47</rs>
+               <lb xml:id="uuid_f27c42bd-7b6e-4268-bae6-63430b5cc9df"/>1. Stiege wohnhaften
+                    Bankdirektorsgattin <rs ref="https://pmb.acdh.oeaw.ac.at/entity/47126" type="person">Alma Pollak</rs> erfahren. Frau<lb xml:id="uuid_0d930991-5b3c-497e-88d5-c89c337b9db6"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/47126" type="person">Pollak</rs>
+                    erscheint vollkommen glaubwürdig. Sie hat die Aeusserung<lb xml:id="uuid_7dfdb0ef-7d1d-4f03-b4b4-25ae08f46720"/>nicht allein gehört,
+                    sondern auch drei andere Zeugen, deren Namen<lb xml:id="uuid_bf1cda24-8d1f-4574-8baa-e5bc3521ffcc"/>und Adressen Frau <rs ref="https://pmb.acdh.oeaw.ac.at/entity/47126" type="person">Pollak</rs>
+                    bekanntgeben kann. Sie hat auch davon<lb xml:id="uuid_513164c9-a6d9-4fef-ab35-3630a5f9eee0"/>Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>
+                    Mitteilung gemacht.</quote>
+         </p>
+         <p xml:id="uuid_b918de7f-c11d-473c-a5cd-4a9df57e6313">
+            <lb xml:id="uuid_1ad61801-599f-4236-9465-0ade4c89a48d"/>Ferner möchte ich darauf
+                hinweisen, dass Herr Dr. <rs ref="#20424" type="person">Liebstöckel</rs>
+            <pb xml:id="D_000031-012-000_p002"
+                facs="#D_000031-012-000-facs001-l001-p002"
+                n="2"/>
+            <lb xml:id="uuid_844ae446-025f-44f1-b9f2-13de0787cb77"/>als Schriftsteller so
+                sprachgewandt ist, dass, wenn er etwas ‚merk<lb break="no" xml:id="uuid_fe4de538-b8f6-47d9-b375-b657ac3305af"/>würdig‘ findet, er es nicht
+                als ‚leichtfertig‘ bezeichnen würde.“ </p>
+         <p xml:id="uuid_daf505b6-fe96-4a11-b43d-72d47ce081b6">
+            <lb xml:id="uuid_9d4c16f0-0a40-4245-bebd-4e184af34536"/>Daraufhin wurde die
+                Verhandlung zur Vernehmung der Frau<lb xml:id="uuid_f4cf4e4e-ae5b-44d2-a189-e118008a24a7"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/47126" type="person">Alma Pollak</rs>
+                vertagt. Der Termin wird schriftlich bekanntgegeben<lb xml:id="uuid_fcadf769-cc04-4181-b9fb-7678bcb556f7"/>werden und über meinen
+                Wunsch erst nach dem 20. September 1925 statt<lb break="no" xml:id="uuid_0d519036-9bde-4ccf-ade1-6856a20c4518"/>finden, damit Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>
+                eventuell Gelegenheit hat, persönlich der<lb xml:id="uuid_082096c2-f957-42a6-858d-e10a8450c82b"/>Verhandlung beizuwohnen. </p>
+         <p xml:id="uuid_8524b506-e73d-4739-a56d-b894774524d8">
+            <lb xml:id="uuid_8e50181e-dfc0-413e-b158-9d1c080ba458"/>Hochachtungsvoll<lb xml:id="uuid_9879f035-bfbf-419c-8a46-e8ffcfa610f4"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/38909" type="person">Samek</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

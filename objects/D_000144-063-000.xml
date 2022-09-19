@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-064-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-062-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000144-063-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Anton Schroll Verlag für Kunst und Literatur an S. Fischer Verlag</title>
+            <editor ref="#LK">Lena Kovacic</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000144-063-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3950</idno>
+            <idno subtype="transkribus" type="ID">275966</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000144" type="collection">Karl
+                    Kraus ca. S. Fischer Verlag (Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000144-063-000-facs001" xml:id="D_000144-063-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000144-063-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#37062"/>
+               <address>
+                  <street corresp="#39599"/> 
+                  <settlement ref="#51">Wien</settlement>
+               </address>
+               <date when-iso="1931-12-03">3. Dezember 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#11324">Herrn S. Fischer, | i.Fa. S. Fischer Verlag
+                        A.G.</persName>
+               <address>
+                  <street corresp="#659"/>
+                  <settlement ref="#168">Berlin</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Sch/M/K</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-12-03">3. Dezember
+                    1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000144-063-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000144-063-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-08T14:16:09.685Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-08T14:28:44.913Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 275966. </change>
+         <change type="intertexts" when-iso="2021-10-20" who="#LK"/>
+         <change type="typography" when-iso="2021-10-20" who="#LK"/>
+         <change type="references" when-iso="2021-10-20" who="#LK"/>
+         <change type="structure" when-iso="2021-10-20" who="#LK"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000144-063-000-facs001">
+      <surfaceGrp xml:id="D_000144-063-000-facs001-l001">
+         <surface type="recto" xml:id="D_000144-063-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542043/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000144-063-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542044/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000144-063-000_p001"
+             facs="#D_000144-063-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_5fcd7e59-7851-4741-85e9-e4a451e83463">
+            <lb xml:id="uuid_02759200-4c6b-4dd8-aaaf-b9be0488bb2c"/>Sehr geehrter Herr <rs ref="#11324" type="person">Fischer</rs>, </p>
+         <p xml:id="uuid_d0ddb7a6-230c-4252-9956-a179fab7a338">
+            <lb xml:id="uuid_f77b24a1-4af7-42fc-a9c7-91d24b06bd10"/>Auf Grund Ihrer
+                telephonischen Besprechung mit Herrn<lb xml:id="uuid_4714c74c-3dd3-47a8-9190-cd1b16689309"/>Dr. <rs ref="#51573" type="person">Fleischer</rs> erklären wir uns auch im Namen des Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl<lb xml:id="uuid_9f4ac156-1ce9-4330-87af-f9d9d1ba24dc"/>Kraus</rs> damit
+                einverstanden, dass Sie unserem zu Dritt abge<lb break="no" xml:id="uuid_f562fb8d-95f0-4f7a-9167-7650583d1a6a"/>schlossenen <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-062-000"
+                type="work"
+                subtype="legal-doc">Vertrag</rs> noch folgenden Satz hinzufügen. </p>
+         <p xml:id="uuid_be708a65-ec73-412b-adbe-52d6b4ad219d">
+            <lb xml:id="uuid_b99280f6-2400-4b71-b445-86fcec995df9"/>„<rs type="institution"
+               ref="#29639">Fischer</rs> übernimmt keine Haftung für Differenzen,<lb
+               xml:id="uuid_3ed93e9a-458d-4026-a3de-dc788bf50c7e"/>die aus diesem Vertrage gegenüber
+            den <rs ref="#2147" type="person">Altenberg</rs>’schen<lb
+               xml:id="uuid_eeffc97b-bb0d-4470-b5ec-598853fb8dbd"/>Erben (der <rs ref="#37190"
+               type="institution">Kinderschutz- und Rettungsgesellschaft</rs> in<lb
+               xml:id="uuid_3473e7bf-58dd-4da0-bb03-772ceedd6cd0"/><rs ref="#50" type="place"
+               >Wien</rs>) bzw. zwischen <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+               type="person">Kraus</rs> und <rs ref="#37062" type="institution">Schroll</rs>
+            entstehen könnten.“ </p>
+         <p xml:id="uuid_be772356-e71f-4fdf-aadd-793fe4607d95">
+            <lb xml:id="uuid_89486453-59e6-4e38-9efc-b3c4c9066c74"/>Wir bitten also, diesen
+                Brief als integrierenden Bestandteil<lb xml:id="uuid_bb49017c-f37c-4743-9588-89b024c3f9db"/>unseres <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-062-000"
+                type="work"
+                subtype="legal-doc">Vertrages</rs> ansehen zu wollen. </p>
+         <p xml:id="uuid_3c8c8b13-ad8e-4c93-ae63-17f7c015885a">
+            <lb xml:id="uuid_86197699-8ecb-4f37-9f3c-32205fe73930"/>In vorzüglicher
+               Hochachtung<lb/>[<rs type="person">Unterschrift</rs>]</p>
+         <pb xml:id="D_000144-063-000_p002"
+             facs="#D_000144-063-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_d3304727-ed42-461e-abfa-605cf0bdbf06">
+            <lb xml:id="uuid_76303d3c-d397-46a1-bfdc-453bb7a7da9b"/><note type="paratext"
+               resp="law-firm"><rs type="person" ref="#11988">Kraus</rs><lb
+                  xml:id="uuid_d5449d23-5f14-4a2f-b18b-d23bbd4b7530"/><rs type="work" ref="#60281"
+                  subtype="pmb">Altenberg Auswahl</rs></note>
+         </p>
+      </body>
+   </text>
+</TEI>

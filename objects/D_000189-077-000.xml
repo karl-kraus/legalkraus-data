@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-078-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-076-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000189-077-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Johann Turnovsky an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000189-077-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4631</idno>
+            <idno subtype="transkribus" type="ID">367308</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000189" type="collection">Karl
+                    Kraus ca. Gegen-Angriff</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000189-077-000-facs001" xml:id="D_000189-077-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000189-077-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#43593">JUDr. JOHANN TURNOVSKY | Advokat</persName>
+               <address>
+                  <street corresp="#51737">Vodičkova 33</street>
+                  <settlement ref="#652">Prag</settlement>
+               </address>
+               <date when-iso="1934-10-17">17.X.1934</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/38909">P.T. | Herrn Dr. Oskar
+                        Samek, Advokat</persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse 18</street>
+                  <settlement ref="#64">Wien – XIV</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Gegenangriff</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1934-10-17">17. Oktober 1934
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000189-077-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000189-077-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-07-05" who="#JK"/>
+         <change type="typography" when-iso="2021-07-05" who="#JK"/>
+         <change type="references" when-iso="2021-07-05" who="#JK"/>
+         <change type="structure" when-iso="2021-07-05" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-01" who="#JK"/>
+         <change when-iso="2020-10-11T08:21:20.32Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-11T12:19:12.647Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 367308. </change>
+         <change when-iso="2020-10-11T14:04:54.519Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 367308. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000189-077-000-facs001">
+      <surfaceGrp xml:id="D_000189-077-000-facs001-l001">
+         <surface type="recto" xml:id="D_000189-077-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544781/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000189-077-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544782/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000189-077-000_p001"
+             facs="#D_000189-077-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_617b6605-708a-4b25-a075-5f5e3596c2f9">
+            <lb xml:id="uuid_79d2d52a-f84a-4e2c-95ac-fbe03dbb838d"/>Zu Ihrem <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000189-076-000" type="work"
+               subtype="legal-doc">Briefe vom 16. d.M.</rs> gestatte<lb
+               xml:id="uuid_2ee31c69-6ab6-439a-a036-4d8ad32b33b3"/>ich mir mitzuteilen, dass <rs
+               ref="#11988" type="person">Herr Kraus</rs> selbst bei der letzten Unter<lb break="no"
+               xml:id="uuid_f288bb2a-8774-405b-9fb0-1bba5ced9b00"/>redung, bei welcher die Frage
+            einer Widerrufs- oder Ehrenbeleidigungs<lb break="no"
+               xml:id="uuid_32e38666-25be-434e-9b36-063f4a63dd3a"/>klage wegen des Titels „<quote
+               xml:id="uuid_8a77ca1d-1c87-4581-912c-c0d33f2b4e0a" source="#56429"><rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+               gleichgeschaltet</quote>“ erörtert<lb
+               xml:id="uuid_facbc622-d517-4016-a4a9-7a4f4bbb0e9b"/>wurde, erklärte, von einem
+            Einschreiten in diesem Falle absehen zu<lb
+               xml:id="uuid_415ef2c2-b883-4943-953f-de669eb67cae"/>wollen. So habe ich allerdings
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herrn Kraus</rs>
+            verstanden, als wir<lb xml:id="uuid_284230c0-4d75-431d-af35-86c59207f9b8"/>die
+            besprochenen Angelegenheiten kurz rekapitulierten und fest<lb break="no"
+               xml:id="uuid_efe54036-c6f4-4644-8e6b-3f8626c7a1a5"/>legten, welche Klagen überreicht
+            werden sollen. Ich weiss auch<lb xml:id="uuid_775b7801-45db-4466-9bea-3603328fd30c"
+            />nicht, ob man mit einer Widerrufsklage durchdringen würde und<lb
+               xml:id="uuid_306160dd-3475-4900-aa9d-74744b58c95a"/>die Ueberreichung einer
+            Ehrenbeleidigungsklage glaube ich nicht<lb
+               xml:id="uuid_3ed1634d-1a3f-4bce-872e-5b10022ac376"/>empfehlen zu können, weil die in
+            dem Titel aufgestellte Behaup<lb break="no"
+               xml:id="uuid_8ac0d566-af0b-49ce-b7c0-ec77ce5a8a28"/>tung „<quote
+               xml:id="uuid_f6a835e6-9394-45dd-867e-e928db27fe90" source="#56429"><rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+               gleichgeschaltet</quote>“ zwar in beleidigender Ab- <pb
+               xml:id="D_000189-077-000_p002" facs="#D_000189-077-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_6ba165f6-95b2-4bff-a90c-3ff14327ba5c"/>sicht geäussert ist, aber doch
+            nur relativ, das heisst in Be<lb break="no"
+               xml:id="uuid_1e4b34db-b9a9-4c59-8280-328c15ff6db8"/>ziehung auf <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herrn Kraus</rs>
+            beleidigend ist. Da der Artikel, der<lb
+               xml:id="uuid_d2c40c34-b86b-4e8a-aae9-018e6b8eb990"/>unter diesem Titel hätte
+            veröffentlicht werden sollen, später<lb
+               xml:id="uuid_5a504e68-88bc-4c85-9162-e5a964eee05e"/>nicht erschienen ist, also auch
+            der Inhalt dieses Artikels un<lb break="no"
+               xml:id="uuid_a400b809-64dd-49b0-ba20-f8fe256efac6"/>bekannt bleibt, kann man nicht
+            gut sagen, dass der Titel allein<lb xml:id="uuid_e11da4c6-ec4e-4d13-9957-737d8a7964b6"
+            />objektiv genommen eine Beleidigung darstellt. </p>
+         <p xml:id="uuid_8110ce0d-5953-494f-8caa-a75cc324f9a3">
+            <lb xml:id="uuid_74eb066e-f77e-4f21-be10-71db273ff2ac"/>Aus diesem Grunde glaube
+                ich, dass man von einer Verfolgung<lb xml:id="uuid_d03a31eb-47f9-4664-9a41-19a7f72b5fa1"/>absehen kann, bin aber
+                natürlich gerne bereit, auch in diesem<lb xml:id="uuid_0e3829d6-d30d-4cc9-8258-5ca68ee79d6e"/>Falle die Klage zu
+                verfassen. Ich mache nur aufmerksam, dass die<lb xml:id="uuid_3d27ca83-169a-4032-8a5a-4381e5fb873e"/>Verjährungsfrist am 24. d.M.
+                endet. </p>
+         <p xml:id="uuid_1b8352e7-2622-4fb5-8aed-0038961666e6">
+            <lb xml:id="uuid_653d008f-2674-46f6-8786-6b3508bb4f8c"/>Mit vorzüglicher
+                    Hochachtung:<lb xml:id="uuid_3f0b62a2-e8be-47c2-a972-d4d877771d50"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/43593" type="person">Dr. Turnovsky</rs>
+         </p>
+         <p xml:id="uuid_5595a168-5371-4975-b4c8-5995afd1d1a2">
+            <lb xml:id="uuid_290b9460-fdd8-41c9-a52c-a59b115deb7b"/><note resp="law-firm"
+               type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs> – <rs ref="#37338" type="institution">Gegenangriff</rs><lb
+                  xml:id="uuid_c2ba4688-b6e7-4c86-8e29-553ee4082b45"/>18. OKT. 1934</note>
+         </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000151-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000151-001-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000151-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Botho Laserstein an RA Adolf Schnitzer</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000151-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4056</idno>
+            <idno subtype="transkribus" type="ID">294000</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000151" type="collection">Karl
+                    Kraus ca. Die Neue Truppe (Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000151-002-000-facs001" xml:id="D_000151-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000151-002-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38969">Dr. jur. Botho Laserstein</persName>
+               <address>
+                  <street corresp="#51751">LANDSBERGER ALLEE 55</street>
+                  <settlement ref="#168">BERLIN NO 18</settlement>
+               </address>
+               <date when-iso="1930-12-09">9. Dezember 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/43656">Herrn Rechtsanwalt Dr.
+                        Adolf Schnitzer</persName>
+               <address>
+                  <street corresp="#582">Mohrenstraße 48</street>
+                  <settlement ref="#168">Berlin W 8</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-12-09">9. Dezember 1930
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000151-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000151-002-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-04-23" who="#JK"/>
+         <change type="typography" when-iso="2021-04-23" who="#JK"/>
+         <change type="references" when-iso="2021-04-23" who="#JK"/>
+         <change type="structure" when-iso="2021-04-23" who="#JK"/>
+         <change when-iso="2020-10-08T15:19:45.946Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T15:20:37.556Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 294000. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000151-002-000-facs001">
+      <surfaceGrp xml:id="D_000151-002-000-facs001-l001">
+         <surface type="recto" xml:id="D_000151-002-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542473/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000151-002-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542474/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000151-002-000_p001"
+             facs="#D_000151-002-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_4351e3f7-4c87-4671-938e-d6e518f70e08">
+            <lb xml:id="uuid_4be81e8d-116f-47db-aa17-ac2ae025a539"/><hi rend="underlined">Abschrift
+               für <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+               >Mandanten</rs>.</hi>
+         </p>
+         <p xml:id="uuid_6dc2c684-101d-4e5b-a5f5-162581d46245">
+            <lb xml:id="uuid_247124eb-6562-4c35-ba62-23c5b8a2b14a"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43656" type="person">Herr Kollege</rs>, </p>
+         <p xml:id="uuid_32d625b6-e4c3-4ff2-a72a-668397cfda1a">
+            <lb xml:id="uuid_6ff77355-9684-472d-b99b-95168e471fee"/>Ich empfing Ihr <rs type="work"
+               >Schreiben vom 5. Dezember 1930</rs>
+            <lb xml:id="uuid_c1ba8998-ae83-44b2-8fa4-1235c5ed1d84"/>und habe es nach <rs ref="#50"
+               type="place">Wien</rs> weitergeleitet. Den Scheck habe ich<lb
+               xml:id="uuid_32fc8420-1941-4fbd-847d-7747fe8722a8"/>mit allen Vorbehalten angenommen.
+            Ich kann mir nach<lb xml:id="uuid_21061016-3a39-42da-9b99-b62b9df7e2e3"/>meiner Kenntnis
+            der Dinge und aus Grund der an verschie<lb break="no"
+               xml:id="uuid_ea051c71-32f4-41c3-b815-0b711062a4a2"/>dene Personen wiederholt
+            gegebenen Auskunft Ihrer <rs ref="#37217" type="institution">Man<lb break="no"
+                  xml:id="uuid_885252e9-ab38-4cf0-950e-6ab6c7ee8ed3"/>dantin</rs>, die Platten seien
+            ausverkauft, nicht denken,<lb xml:id="uuid_4adbe13d-ef7a-4baf-805a-6c3d4b3100a6"/>daß
+            nur 382 Platten verkauft worden sind. Dabei handelt<lb
+               xml:id="uuid_ac697437-8cd3-4726-9edf-c77ff394945f"/>es sich offenbar nur um die
+            Abrechnung der zuletzt er<lb break="no"
+               xml:id="uuid_e600cd55-901b-4fdd-991e-8081edaa3869"/>schienenen beiden Platten, wobei
+            nach den mir geworde<lb break="no" xml:id="uuid_729d9ac9-3702-482c-941d-05a3ac931bc4"
+            />nen Informationen ebenfalls schon mehr Platten verkauft<lb
+               xml:id="uuid_ef97258e-761e-4e97-a958-96042b4e5c4b"/>sind und namhafte Musikhandlungen
+            von Ihrer <rs ref="#37217" type="institution">Mandantin</rs>
+            <lb xml:id="uuid_f07338a3-1094-4e0b-baeb-6446c2ba131f"/>fortgesetzt gehört haben, daß
+            die Platten ausverkauft<lb xml:id="uuid_e65885e9-e05f-43cf-a408-913b514d6259"/>sind.
+            Ihre Mandantin verkennt offenbar, daß sie auch<lb
+               xml:id="uuid_891f04ff-0df6-46b5-9f4e-ec777f2193b4"/>die früheren beiden Platten „<rs
+               type="work" subtype="legal-doc" ref="#53092">Schoberlied</rs>“ und „<rs type="work"
+               subtype="legal-doc" ref="#88146">Raben</rs>“<lb
+               xml:id="uuid_fec8df1e-e04f-4f2b-a7cf-f9c217fceac4"/>noch nicht abgerechnet hat. </p>
+         <pb xml:id="D_000151-002-000_p002"
+             facs="#D_000151-002-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_1d78cd3f-5514-47f8-8fa4-b0bc7c9e575f">
+            <lb xml:id="uuid_e75b6ae8-4915-415d-bd80-697ea3a710a3"/>Ich bitte daher zunächst um
+                Nachricht, ob der Be<lb break="no" xml:id="uuid_f6632005-5b06-4e6d-bf90-1e8b2d7c71a4"/>trag von 35 RM auch das
+                Honorar der ersten beiden Platten<lb xml:id="uuid_572c7f83-fa0f-41f8-82a7-51104bf29add"/>abgelten soll. Ich werde
+                nach Äußerung des <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herrn Kraus</rs>
+            <lb xml:id="uuid_cc678804-502c-4267-842d-d840624c546d"/>auf die
+                weiteren Punkte Ihres <rs type="work">Schreibens vom 5. Dezember</rs>
+            <lb xml:id="uuid_74cb9ecd-b638-4ff5-bec5-eaa53ff6e63b"/>1930 noch zurückkommen. </p>
+         <p xml:id="uuid_53ba1208-911b-4983-aa83-24c3fa889abe">
+            <lb xml:id="uuid_064b0a69-5b25-4adf-bd34-fd52a3d20512"/>Mit kollegialer
+                    Hochachtung<lb xml:id="uuid_a43c7f07-572e-42f0-8eb9-150183189f6a"/>gez. <rs ref="#38969" type="person">Dr. Laserstein</rs>,<lb xml:id="uuid_4d740406-8384-4652-87d3-2e20c7fdeb2e"/>Rechtsanwalt. </p>
+      </body>
+   </text>
+</TEI>

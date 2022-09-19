@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    next="https://id.acdh.oeaw.ac.at/legalkraus/D_000122-002-000.xml"
+    prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000121-014-000.xml"
+    xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000122-001-000.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Samek an Vossische Zeitung (verantw. Red. Carl Misch)</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2022</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+                </availability>
+                <idno subtype="legalkraus" type="URL"
+                    >https://id.acdh.oeaw.ac.at/legalkraus/D_000122-001-000.xml</idno>
+                <idno subtype="krausonline" type="URL"
+                    >http://www.kraus.wienbibliothek.at/node/3331</idno>
+                <idno subtype="transkribus" type="ID">192292</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000122" type="collection">Karl
+                    Kraus ca. Vossische Zeitung</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness facs="#D_000122-001-000-facs001" xml:id="D_000122-001-000-wit01"/>
+                </listWit>
+                <msDesc>
+                    <physDesc>
+                        <ab type="materiality">
+                            <objectType source="D_000122-001-000-wit01"
+                                ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHU"
+                                >Durchschlag mit handschriftlichen Überarbeitungen</objectType>
+                        </ab>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date subtype="produced" type="sortDate" when-iso="1929-03-15">15. März 1929</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#38909"/>
+                    <address>
+                        <street corresp="#50493"/>
+                        <settlement ref="#51"/>
+                    </address>
+                    <date when-iso="1929-03-15">15. März 1929</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#39138">den | verantwortlichen Redakteur der „Vossischen Zeitung“
+                        | Herrn Carl Misch </persName>
+                    <address>
+                        <street corresp="#855">Kochstrasse 22–26</street>
+                        <settlement ref="#168">Berlin S.W. 68</settlement>
+                    </address>
+                    <date/>
+                </correspAction>
+                <noteGrp>
+                    <note type="subject">Kraus – Vossische Zeitung</note>
+                    <note type="dictation"/>
+                </noteGrp>
+            </correspDesc>
+            <handNotes>
+                <handNote xml:id="D_000122-001-000-hand01" source="#D_000122-001-000-wit01"
+                    scribeRef="#38909" medium="grey-pencil" cert="medium" resp="#IL"/>
+            </handNotes>
+            <textClass>
+                <keywords>
+                    <term source="D_000122-001-000-wit01">Brief</term>
+                </keywords>
+                <classCode source="D_000122-001-000-wit01"
+                    scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF"
+                    >D.K.BRF</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="done">
+            <change type="header_facsimile" when-iso="2021-07-27" who="#IL"/>
+            <change type="structure" when-iso="2021-07-27" who="#IL"/>
+            <change type="references" when-iso="2021-07-27" who="#IL"/>
+            <change type="typography" when-iso="2021-07-27" who="#IL"/>
+            <change type="intertexts" when-iso="2021-07-27" who="#IL"/>
+            <change when-iso="2020-10-08T13:07:27.467Z" who="#IB">created by API</change>
+            <change when-iso="2020-10-08T13:10:22.471Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 192292. </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000122-001-000-facs001">
+        <surfaceGrp xml:id="D_000122-001-000-facs001-l001">
+            <surface type="recto" xml:id="D_000122-001-000-facs001-l001-p001">
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556435/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000122-001-000-facs001-l002">
+            <surface type="recto" xml:id="D_000122-001-000-facs001-l002-p002">
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556434/full/full/0/default.jpg"
+                />
+            </surface>
+            <surface type="verso" xml:id="D_000122-001-000-facs001-l002-p003">
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556436/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000122-001-000-facs001-l003">
+            <surface type="recto" xml:id="D_000122-001-000-facs001-l003-p004">
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556437/full/full/0/default.jpg"
+                />
+            </surface>
+            <surface type="verso" xml:id="D_000122-001-000-facs001-l003-p005">
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556438/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000122-001-000-facs001-l004">
+            <surface type="recto" xml:id="D_000122-001-000-facs001-l004-p006">
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556439/full/full/0/default.jpg"
+                />
+            </surface>
+            <surface type="verso" xml:id="D_000122-001-000-facs001-l004-p007">
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556440/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb xml:id="D_000122-001-000_p001" facs="#D_000122-001-000-facs001-l002-p002" n="1"/>
+            <p xml:id="uuid_53512a0f-1e02-4306-ad9b-71bd2ad15489">
+                <lb xml:id="uuid_471d08d4-e34e-46fb-af78-599a5d6302f0"/>Im Vollmachtsnamen des Herrn
+                    <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+                    Kraus</rs>,<lb xml:id="uuid_78e6aa26-d48d-4c0a-9908-0a4cf7a59a3e"/>Herausgebers
+                der <rs ref="#41244" type="work" subtype="pmb">Fackel</rs>, fordere ich Sie auf, die
+                folgende Berichti<lb break="no" xml:id="uuid_f867d423-4c1a-467e-b7e6-d9479c1b3f2e"
+                />gung der in dem Artikel „<rs ref="#56894" type="work" subtype="pmb">Karl der
+                    Goste</rs>“ von <rs ref="https://pmb.acdh.oeaw.ac.at/entity/7834" type="person"
+                    >Otto Ernst Hesse</rs> (1. März)<lb
+                    xml:id="uuid_345e5c8c-2db0-4c43-a0d2-c1825c9a4d47"/>enthaltenen meinen <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Mandanten</rs>
+                betreffenden unwahren Behauptungen auf<lb
+                    xml:id="uuid_ba6e6d70-47c6-4143-945d-5b52948f2cf7"/>Grund des <rs ref=""
+                    type="law">§ 11 P.G.</rs> in der Beilage Unterhaltungsblatt der <rs ref="#52605"
+                    type="work" subtype="pmb">Vossischen<lb
+                        xml:id="uuid_d8f40ddb-3e21-42d1-8379-84e2615f5804"/>Zeitung</rs> zu
+                veröffentlichen. </p>
+            <p xml:id="uuid_99b8214c-67c8-4822-9a11-af4fd1cb94f3">
+                <lb xml:id="uuid_1cfb433e-6c0f-423e-bcff-1652a98cf304"/>Sie schreiben, ein <rs
+                    type="work" subtype="pmb" ref="#56921">Gedicht</rs> sei „<quote source="#56894"
+                    xml:id="uuid_ceb26e23-ef8b-487c-9bb4-9d52f4d77185">von <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+                    <lb xml:id="uuid_86c278e1-9cb1-46f6-9a1d-19a4b4f6fb14"/>als angebliches geniales
+                    Produkt eines Czernowitzer <rs ref="#56940" type="person">Irren</rs>
+                        festgestellt<lb xml:id="uuid_0eef5093-296a-4352-a9c3-2c6b21b8f96e"/>worden.
+                    Mit jener Form, die man Ironie nennt, forderte ich <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+                    <lb xml:id="uuid_72a85cd6-b2a5-4700-a4e6-e15540c4916b"/>auf, seine Meinung
+                    aufrecht zu erhalten, mich nun an Stelle des Irren<lb
+                        xml:id="uuid_5aed26fc-436f-4cfd-8d56-31bf5f512e82"/>für einen genialen
+                    Dichter zu erklären, seinen Reinfall ehrlich ein<lb break="no"
+                        xml:id="uuid_91c41296-a363-4463-b44a-308c55c89187"/>zugestehen</quote>“. Die
+                in diesen Sätzen enthaltene Behauptung ist unwahr.<lb
+                    xml:id="uuid_a8cd3b7d-cba2-4ba8-a7bf-2fd2e934b642"/>Wahr ist, dass <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> im
+                    <rs ref="https://fackel.oeaw.ac.at/f/781,0u1" type="work" subtype="fackel"
+                    >Juniheft der Fackel 1928</rs> das <rs ref="#56921" type="work" subtype="pmb"
+                    >Gedicht</rs>
+                <lb xml:id="uuid_e507117b-6b99-4f03-94fe-1ab7a4300034"/>keineswegs als angebliches
+                geniales Produkt eines Czernowitzer Irren<lb
+                    xml:id="uuid_fc21b689-8d41-4b5b-afef-38fd40358aec"/>festgestellt, sondern in der
+                Nachschrift zur Publikation der im<lb
+                    xml:id="uuid_17d9f038-ece9-4aca-933e-292c5e231847"/><rs ref="#56941"
+                    type="institution">Czernowitzer Irrenhaus</rs> gefundenen Gedichte festgestellt
+                hat, dass die<lb xml:id="uuid_372d52a6-6bf5-49c4-91f4-c833d43c06f3"/>Urheberschaft
+                problematisch geworden sei, und der Mitteilung Raum gab, <pb
+                    xml:id="D_000122-001-000_p002" facs="#D_000122-001-000-facs001-l002-p003" n="2"/>
+                <lb xml:id="uuid_e23c158e-d408-4209-bcd6-71110483d7c0"/>dass der <rs ref="#56940"
+                    type="person">Irre</rs> selbst das Gedicht „<rs ref="#56921" type="work"
+                    subtype="pmb">Junge Tänzerin</rs>“ „<quote
+                    source="https://fackel.oeaw.ac.at/f/781,102"
+                    xml:id="uuid_18dcd3a3-4c8e-46ca-bb9c-24143f709064">einem gewissen<lb
+                        xml:id="uuid_cf8f5337-4853-47c1-ade7-e5bbaf202d41"/><rs ref="#56879"
+                        type="person">Otto Borger</rs> zuschreibt</quote>“. </p>
+            <p xml:id="uuid_ba9645ff-9817-4389-8090-af85e61b0a34">
+                <lb xml:id="uuid_9c28fea8-5b55-48b7-bcb8-c6f7e9690b11"/>Es ist unwahr, dass <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+                schreibt, eines könne<lb xml:id="uuid_3db69e24-8464-4feb-8d11-f6630037d487"/>man
+                sich nicht vorstellen: „<quote source="#56894"
+                    xml:id="uuid_a9a9287e-a756-46c5-8e8e-e9232635efbd">dass es gelingen könnte, mir
+                    satirisch zu<lb xml:id="uuid_2ee1cee8-8219-4a30-a357-c4e38e404f53"
+                    />werden!</quote>“ Wahr ist, dass der Satz auf <rs
+                    ref="https://fackel.oeaw.ac.at/f/800,034" type="work" subtype="fackel">S.
+                    34</rs> und <rs ref="https://fackel.oeaw.ac.at/f/800,035" type="work"
+                    subtype="fackel">35</rs> der <rs ref="https://fackel.oeaw.ac.at/f/800,0u1"
+                    type="work" subtype="fackel">Nr. 800–805 der<lb
+                        xml:id="uuid_863a9f11-5473-4ce6-b40d-0fc01d43f087"/>Fackel</rs> lautet:
+                    „<quote source="https://fackel.oeaw.ac.at/f/800,034"
+                    xml:id="uuid_3e9491f7-b909-4f53-a679-ec3ca84fe805">… eines kann man sich doch
+                    nicht gut vorstellen:<lb xml:id="uuid_e8a4e7b5-6584-4af2-ae0b-9b994645f983"
+                    />dass es gelingen könnte, <hi hand="#D_000122-001-000-hand01" rend="underlined"
+                        >an</hi> mir satirisch zu werden!</quote>“ </p>
+            <p xml:id="uuid_54adba61-525a-47a3-b924-adee9c3b221f">
+                <lb xml:id="uuid_06aa5a47-9a3a-41b7-8947-104c6e5042fb"/>Sie schreiben: „<quote
+                    source="#56894" xml:id="uuid_30a1ae23-291e-4543-a288-484949a87f78">Dann aber –
+                    um ganz sicher zu gehen – be<lb break="no"
+                        xml:id="uuid_c672d15b-4e37-4c2b-9fea-f9aead106b0f"/>hauptet er dazu noch,
+                    ich hätte dieses <rs ref="#56921" type="work" subtype="pmb">Gedicht</rs>, das er
+                    gar nicht ge<lb break="no" xml:id="uuid_a16b50a8-6e26-4651-b0ba-239a79d1616f"
+                    />lobt habe, von <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37820"
+                        type="person">Paul Zec<add hand="#D_000122-001-000-hand01">h</add></rs>
+                    gestohlen. Doppelt hält besser, sagte sich<lb
+                        xml:id="uuid_ba29039d-5b88-4260-8a20-1fc260a37c0f"/><rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+                    Kraus</rs>, ohne zu bemerken, dass er durch den Plagiat<add
+                        hand="#D_000122-001-000-hand01">s</add>vorwurf <add
+                        hand="#D_000122-001-000-hand01">gegen ein <rs ref="#56921" type="work"
+                            subtype="pmb">Gedicht</rs>,</add> d<del hand="#D_000122-001-000-hand01"
+                        >en</del><add hand="#D_000122-001-000-hand01">as</add> er<lb
+                        xml:id="uuid_aceffed4-b244-49cf-9dc4-9dc4e79f27f8"/>gar nicht meinte, seine
+                    Behauptung einigermassen suspekt macht</quote>“. </p>
+            <p xml:id="uuid_6dd07f6c-1c7e-4ac2-80e7-e3e588d88b37"><lb
+                    xml:id="uuid_892ce650-1576-4340-9471-a8278920d046"/>Diese Darstellung ist
+                unwahr. Wahr ist, dass <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                    type="person">Karl Kraus</rs> keineswegs be<lb break="no"
+                    xml:id="uuid_dd9988de-604b-4ef6-be1b-3d6f415ee683"/>hauptet hat, <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/7834" type="person">Otto Ernst
+                    Hesse</rs> habe dieses <rs ref="#56921" type="work" subtype="pmb">Gedicht</rs>,
+                das er gar nicht<lb xml:id="uuid_00e00fb1-0103-4373-ab1c-99551131cacd"/>gelobt hat,
+                von <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37820" type="person">Paul Zech</rs>
+                gestohlen. Wahr ist, dass er keinen Plagiats<lb break="no"
+                    xml:id="uuid_58a4eeb8-925d-4855-8368-25cbc6e3e22f"/>vorwurf erhoben hat. Wahr
+                ist, dass er in der Kritik des nicht gelob<lb break="no"
+                    xml:id="uuid_a54d0609-c7e5-4105-95b5-91f467b985c7"/>ten <rs ref="#56921"
+                    type="work" subtype="pmb">Gedichtes</rs> bloss von einem „<quote
+                    source="https://fackel.oeaw.ac.at/f/800,120"
+                    xml:id="uuid_28b653d5-d7e9-4014-ad82-980cea929f60">empfangenen künstlerischen
+                    Eindruck</quote>“<lb xml:id="uuid_95e5762c-2ec6-437b-9f1b-355f648ff71a"
+                />gesprochen hat, den <rs ref="https://pmb.acdh.oeaw.ac.at/entity/7834"
+                    type="person">Otto Ernst Hesse</rs> verarbeitet habe, und dass er<lb
+                    xml:id="uuid_1df8a940-35ef-4d38-acc9-424fe8fe32db"/>unter anderen Klangspuren
+                aus der Fügung „<quote source="#56921"
+                    xml:id="uuid_9167504d-f4a1-42c7-aca9-54bf5178b209">Blut und Haut und
+                    Atem</quote>“ da<lb break="no"
+                    xml:id="uuid_ae0d8260-c2b4-48af-9b8b-e1909c06f2c8"/>darauf geschlossen hat, das
+                Gedicht <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37820" type="person">Zechs</rs>
+                    „<rs ref="#56928" type="work" subtype="pmb">Glockentänzerin</rs>“ mit der<lb
+                    xml:id="uuid_3d9dc834-6875-4ec2-8c28-6d43674edece"/>Fügung „<quote
+                    source="#56928" xml:id="uuid_4171a300-a806-4f7a-b1b2-c21cd66e00b4">Atemhauch und
+                    Blut und Haut</quote>“ sei nicht ohne Einfluss geblie<lb break="no"
+                    xml:id="uuid_06881432-e446-4d0c-bd55-66be8d9dacb0"/>ben auf das Zustandekommen
+                von <rs ref="https://pmb.acdh.oeaw.ac.at/entity/7834" type="person">Hesses</rs>
+                Gedicht „<rs ref="#56921" type="work" subtype="pmb">Junge Tänzerin</rs>“, von<lb
+                    xml:id="uuid_e7f3df25-c2fb-4d55-92c2-c331be6eebf3"/>dem der <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/7834" type="person">Autor</rs> selbst
+                gesagt hat, es sei für eine illustrierte Zeit<lb break="no"
+                    xml:id="uuid_9f70e175-7d98-4354-8c2d-c911b3840bc3"/>schrift zu einem Klischee
+                    „<quote source="#56894" xml:id="uuid_3a10d1e9-8612-45ab-b420-6fa066f82dec"
+                    >hergestellt</quote>“ worden und „<quote source="#56894"
+                    xml:id="uuid_8d28808b-622d-405f-a1e5-97d4f1976f95">der <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/7834" type="person"
+                        >Verfertiger</rs><lb xml:id="uuid_426bb978-4caf-4410-bdfb-eb8ff6fdab57"
+                    />schämte sich ein wenig über dies <rs ref="#56921" type="work" subtype="pmb"
+                        >Gedicht</rs></quote>“. Wahr ist, dass <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+                <lb xml:id="uuid_55e9fce8-5a59-4dcd-a83d-8f9f2ad9accf"/>ausdrücklich (<rs
+                    ref="https://fackel.oeaw.ac.at/f/800,121" type="work" subtype="fackel">S.
+                    121</rs>) sagt: „<quote source="https://fackel.oeaw.ac.at/f/800,121"
+                    xml:id="uuid_558eecee-c5e2-47d6-ab46-1945005db2e4">Gewiss, von einem ‚Plagiat‘,
+                    von einer<lb xml:id="uuid_60347f67-8beb-43c6-a16b-e74376169e59"/>unehrlichen
+                    Handlung des Bewusstseins wird auch auf diesem kunstge<lb break="no"
+                        xml:id="uuid_37cc5d90-1e95-459e-92fd-18984b18fd89"/>werblichen Niveau nicht
+                    die Rede sein können</quote>“.</p>
+            <p xml:id="uuid_29dba2cb-b054-485c-aab1-3b8fde1a022d">
+                <lb xml:id="uuid_1dfc7a69-be3d-444b-8dce-5a9e5ce00e09"/>Sie schreiben: „<quote
+                    source="#56894" xml:id="uuid_8de9b323-be6e-49fb-b410-dbd233da28ce">Haltet euch
+                    fest, dass ihr nicht vor</quote>
+                <pb xml:id="D_000122-001-000_p003" facs="#D_000122-001-000-facs001-l003-p004" n="3"/>
+                <lb xml:id="uuid_529a55c3-186b-40a1-8fc2-831e085cd4b2"/><quote source="#56894"
+                    xml:id="uuid_c86f9223-4526-4420-8307-3fa4a32c2202">Lachen von den Stühlen fallt!
+                    Das <rs type="work">Gedicht</rs>, das <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+                        vorgele<lb break="no" xml:id="uuid_8c854314-3632-4aab-843f-8bdce4d67bc9"
+                    />gen hat, bevor er mein <rs ref="#56921" type="work" subtype="pmb">Gedicht</rs>
+                    aus dem <rs ref="#56881" type="work" subtype="pmb">Magazin</rs> kennen lernte,
+                        unter<lb break="no" xml:id="uuid_923d090c-21bc-4d76-a2da-fa1d35a11032"
+                    />scheidet sich in der Tat von diesem. Nämlich in drei ‚<hi rend="underlined"
+                        >wesentlichen</hi>‘<lb xml:id="uuid_6c824841-d8b1-4273-afb5-1209881622c6"
+                    />Punkten. Erstens steht in jener Abschrift, die der <rs ref="#56940"
+                        type="person">Irre</rs> gemacht hatte,<lb
+                        xml:id="uuid_89936d9c-5ae0-4f42-b4cd-8f9cb9e3cf32"/>statt ‚um des Körpers‘
+                    die Lesart ‚an des Körpers‘. Zweitens steht<lb
+                        xml:id="uuid_b2ba66fe-cb0f-4287-a065-7df289e26c64"/>statt ‚wandelt‘ die
+                    Lesart ‚wandeln‘. Und drittens steht statt ‚zarte<lb
+                        xml:id="uuid_d451e215-4ac3-4ade-9198-39c114de1723"/>Glockenblume‘ die Lesart
+                    ‚grosse Glockenblume‘.</quote>“ Es ist unwahr, dass<lb
+                    xml:id="uuid_0f7b7cf3-5dd0-43c9-913a-1dcb34a7631c"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+                sagt, die Fassung der „<rs ref="#56921" type="work" subtype="pmb">Jungen
+                    Tänzerin</rs>“, die ihm vorgele<lb break="no"
+                    xml:id="uuid_860c802f-2591-4ac6-aed1-cabc23712419"/>gen hatte, bevor er das <rs
+                    ref="#56921" type="work" subtype="pmb">Gedicht</rs>
+                <rs ref="https://pmb.acdh.oeaw.ac.at/entity/7834" type="person">Otto Ernst
+                    Hesses</rs> aus <rs ref="#56881" type="work" subtype="pmb">Scherls Magazin</rs>
+                <lb xml:id="uuid_85883243-851e-4ca1-aea0-126704a4b60a"/>kennen lernte, unterscheide
+                sich von diesem in drei „<quote source="#56894"
+                    xml:id="uuid_8eadc761-6d7b-4dda-a948-d474e19fdf3e"><hi rend="underlined"
+                        >wesentlichen</hi></quote>“<lb
+                    xml:id="uuid_6faac0e9-621f-4fdc-9186-7a1a0bc285f7"/>Punkten. Wahr ist es, dass
+                er im Gegenteil ausdrücklich (<rs ref="https://fackel.oeaw.ac.at/f/800,111"
+                    type="work" subtype="fackel">S. 191</rs>) sagt:<lb
+                    xml:id="uuid_35fc5a02-c2c9-4922-ac36-10844d11f8fa"/>„<quote
+                    source="https://fackel.oeaw.ac.at/f/800,111"
+                    xml:id="uuid_c8dfb892-6255-4be0-9dba-2b8a106bda84">Die Variante ‚An‘ (statt
+                    ‚Um‘) … erscheint mir <hi rend="underlined">unwesentlich</hi> …<lb
+                        xml:id="uuid_da5b73e9-b763-447d-b11e-d7ed4e0289fb"/>Wesentlicher ist schon
+                    die Aenderung ‚wandeln‘ (statt ‚wandelt‘) …<lb
+                        xml:id="uuid_3289a519-df75-4045-9c24-b17c2ffbd522"/>Mir ist es jedoch um die
+                    dritte, die eingestandene Variante zu tun<lb
+                        xml:id="uuid_0fdaf87f-54b6-422d-b970-9b08cbb03515"/>(‚Eine grosse
+                    Glockenblume‘ statt ‚Eine zarte Glockenblume‘)</quote>“.<lb
+                    xml:id="uuid_cbe57763-0ec7-4a15-99e2-9d9301c8ffef"/><add
+                    hand="#D_000122-001-000-hand01">Sie schreiben:</add>
+                <subst hand="#D_000122-001-000-hand01">
+                    <del hand="#D_000122-001-000-hand01">Es ist unwahr, dass Karl Kraus „</del>
+                    <add hand="#D_000122-001-000-hand01">„<quote
+                            xml:id="uuid_67e396c2-b066-411d-b7ea-d6c832b3e7c1" source="#56894">man
+                            zitiert ja auch</quote></add>
+                </subst><quote xml:id="uuid_ce6060f1-4ca7-4c38-9e15-bd3e67243568" source="#56894"
+                    >wissentlich falsch<lb xml:id="uuid_e13f3a43-5ba5-48ec-8213-a3eaae7ddabd"/><rs
+                        ref="#11640" type="person">Heine</rs>
+                    <del hand="#D_000122-001-000-hand01">zitiert</del><add
+                        hand="#D_000122-001-000-hand01">,</add> nur um dem Gegner eins auswischen zu
+                    können</quote><add hand="#D_000122-001-000-hand01">“</add>. <del
+                    hand="#D_000122-001-000-hand01">Wahr<lb
+                        xml:id="uuid_489d290c-bc87-4cc3-9c0a-6675b62da0d2"/>ist, dass er wissentlich
+                    und um das Vergleichshafte der Form „<quote source=""
+                        xml:id="uuid_c6adb5ea-062b-43ab-be39-37f3ddf5456f">Eine<lb
+                            xml:id="uuid_c9d29654-f714-4f32-914d-316ba23f6905"/>zarte
+                        Glockenblume</quote>“ durch ein Beispiel aus der Lyrik <rs ref="#11640"
+                        type="person">Heines</rs> zu kenn<lb break="no"
+                        xml:id="uuid_1e2dcdcc-0e2b-4f48-bb6f-fdfc4183c2a4"/>zeichnen, die Wendung
+                    gebraucht: „<quote source="https://fackel.oeaw.ac.at/f/800,112"
+                        xml:id="uuid_4d140e82-41c1-47ba-bd47-fe2da212ad18">Die Tänzerin <hi
+                            rend="underlined">ist wie</hi> eine Glocken<lb break="no"
+                            xml:id="uuid_de90c112-bbb8-4d81-96ab-588802312374"/>blume, so zart und
+                        schön und rein</quote>“, woraus die Absicht, das <rs ref="#11640"
+                        type="person">Heinesche</rs>
+                    <lb xml:id="uuid_aa6695f6-29d1-4294-973f-359b277f8459"/>„<quote source="#59114"
+                        xml:id="uuid_01bc7b8c-62b9-47d6-ad77-b6eb81cc533c">Du bist wie eine Blume,
+                        so hold und schön und rein</quote>“ variierend anzu<lb break="no"
+                        xml:id="uuid_c63a0192-924c-44fe-8eaf-22e0320db9bd"/>wenden, eindeutig
+                    hervorgeht.</del> Es ist unwahr, dass <del hand="#D_000122-001-000-hand01"
+                    >er</del><add hand="#D_000122-001-000-hand01"><rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+                    Kraus</rs></add> mit <del hand="#D_000122-001-000-hand01">dieser</del><add
+                    hand="#D_000122-001-000-hand01">der</add>
+                <lb xml:id="uuid_3e273c56-974a-42b3-847b-fa698788af08"/>Zitierung <rs ref="#11640"
+                    type="person">Heines</rs>
+                <add hand="#D_000122-001-000-hand01">1.)</add> nur den Zweck verfolgt, dem Gegner
+                eins auszuwischen.<lb xml:id="uuid_d2560d89-9f7f-4e1f-b9af-7e744290dd65"/>Wahr ist,
+                dass er mit ihr den Zweck verfolgt, den Unterschied zwischen<lb
+                    xml:id="uuid_c6df2212-2bc2-441f-a8ef-6dad2bb2720c"/>einem dichterischen
+                Gleichnis und einem ornamentalen Vergleich sprach<lb break="no"
+                    xml:id="uuid_d526cddb-7a3f-45df-8099-2e77141b2c09"/>kritisch an einem
+                vorausgesetzten Beispiel <add hand="#D_000122-001-000-hand01">aus der Lyrik <rs
+                        ref="#11640" type="person">Heines</rs></add> darzustellen. Sie schreiben:<lb
+                    xml:id="uuid_2046ab25-28df-4543-8ea8-f35a5b14d33e"/>„<quote source="#56894"
+                    xml:id="uuid_4374143e-7155-47a1-9644-8bf8fff0df6d">man (<rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+                    Kraus</rs>) wirft ja auch nur dem <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/7834" type="person">Gegner</rs>
+                    Fälschung vor, wenn<lb xml:id="uuid_cc8f238c-f2b8-432a-83b9-52a82cac8dc5"
+                    />offensichtlich ein Druckfehler steht</quote>“. Diese Behauptung ist unwahr. </p>
+            <pb xml:id="D_000122-001-000_p004" facs="#D_000122-001-000-facs001-l003-p005" n="4"/>
+            <p xml:id="uuid_52642435-af6f-4a78-a66a-a67961a8a957">
+                <lb xml:id="uuid_263eb693-95d4-4c66-bb80-5916cf137d29"/>Wahr ist, dass dem <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/7834" type="person">Gegner</rs> nie aus
+                einem Druckfehler der Vorwurf der<lb
+                    xml:id="uuid_e9a195be-1eb1-48bb-8c39-50f7962f8f4b"/>Fälschung gemacht wurde.
+                Wahr ist, dass zwar die falsche Zitierung<lb
+                    xml:id="uuid_a5b73966-3501-4b5a-aa24-0e9c6151c61e"/>eines Satzes aus dem <rs
+                    ref="https://fackel.oeaw.ac.at/f/781,0u1" type="work" subtype="fackel">Juniheft
+                    der Fackel</rs> festgestellt, aber ausser<lb break="no"
+                    xml:id="uuid_75ace198-fa61-4475-96a9-373254c578f2"/>dem und ganz unabhängig
+                davon auch der Vorwurf erhoben wurde, dass<lb
+                    xml:id="uuid_d384c389-26b3-47a9-973f-6e80db30616f"/>der Sachverhalt der dortigen
+                Darstellung falsch wiedergegeben war,<lb
+                    xml:id="uuid_97f73ba5-8137-4e56-9661-2d674e131c38"/>indem im Artikel der <rs
+                    ref="#52605" type="work" subtype="pmb">Vossischen Zeitung</rs> „<rs ref="#64057"
+                    type="work" subtype="pmb">Ich bin der grösste lebende<lb
+                        xml:id="uuid_a61248b5-192a-4dc2-abe2-ed1aea9d024d"/>Lyriker</rs>“ (3. Nov.)
+                behauptet wurde, in der <rs ref="#41244" type="work" subtype="pmb">Fackel</rs> seien
+                die Gedichte<lb xml:id="uuid_c4081d1b-9b6d-4a00-9b2c-f83cb1b012b3"/>als das Produkt
+                des <rs ref="#56940" type="person">Irren</rs> ausgegeben worden, was nicht der Fall
+                    war;<lb xml:id="uuid_78edff88-7990-4ce2-9bcd-6223ed08a25b"/>ein Mann namens <rs
+                    ref="#56879" type="person">Borger</rs> habe „<quote source="#64057"
+                    xml:id="uuid_c43f00a5-266e-4bc2-a94c-ebd3cf389f95">sich gemeldet, der <rs
+                        ref="#56940" type="person">Karl Piehowicz</rs>
+                    <lb xml:id="uuid_7ac9b17f-cd02-4e9c-80a9-747af4ae387b"/>desavouiert
+                hat</quote>“, was nicht der Fall war, da <rs ref="#56940" type="person"
+                    >Piehowicz</rs> selbst ihn ge<lb break="no"
+                    xml:id="uuid_46844d39-24d2-4b08-b6ab-7f2f293dd7fc"/>nannt hatte; und indem
+                schliesslich die Anerkennung, die in der<lb
+                    xml:id="uuid_1cd57a8c-dc30-4490-a394-36a69f0c0067"/><rs ref="#41244" type="work"
+                    subtype="pmb">Fackel</rs> ausdrücklich dem Gedicht „<rs type="work"
+                    subtype="pmb" ref="#87830">Einen Trunk der Liebe</rs>“ zuerteilt wur<lb
+                    break="no" xml:id="uuid_2ba18a68-bde0-40db-bcb3-83cc0ab6f1ad"/>de, so zitiert
+                war, als wäre sie dem ganz anders gelobten Gedicht<lb
+                    xml:id="uuid_0b72b7a0-6232-400b-bd81-a83f453688a6"/>„<rs ref="#56921"
+                    type="work" subtype="pmb">Junge Tänzerin</rs>“ zuerteilt worden. </p>
+            <p xml:id="uuid_4477d56a-af07-4ba8-a64a-c09455c244ea">
+                <lb xml:id="uuid_be76656f-134f-4de5-a19d-ff7ede6e5a7a"/>Es ist unwahr, dass man für
+                    „<quote source="#56894" xml:id="uuid_cc45d24f-ffc7-4a27-a308-5aefd42dce64"
+                    >goste</quote>“ „<quote source="#56894"
+                    xml:id="uuid_d057a874-0036-40ee-ab92-2aff434dcf1d">grosse Glocken<lb break="no"
+                        xml:id="uuid_96ee79ab-3115-4bc2-aebf-85f2b6100b6d"/>blume</quote>“
+                interpoliert hat, „<quote source="#56894"
+                    xml:id="uuid_917e96cd-3bbb-4157-92ee-fc1b727fd525">nicht ohne vorher den <rs
+                        ref="#56940" type="person">Irren</rs> vernommen zu<lb
+                        xml:id="uuid_0e057c92-4aa5-4db8-8a01-1c34631192c9"/>haben, der aussagte –
+                    und auch später wiederholte – er habe ‚goste‘<lb
+                        xml:id="uuid_038bb6fd-c2a2-4e79-9666-bbd2a4b7a0b5"/>gewählt, weil erfundene
+                    Worte schöner seien als richtige …</quote>“ Wahr<lb
+                    xml:id="uuid_e722d70c-f605-4dae-acd2-b2c906572263"/>ist, dass die Vernehmung
+                nach dem Druck „<quote source="https://fackel.oeaw.ac.at/f/781,098"
+                    xml:id="uuid_25747f00-ce9e-4679-bd7c-718a40916b9b">grosse Glockenblume</quote>“
+                    er<lb break="no" xml:id="uuid_b9d07b3c-9024-44a3-95b9-9d1a6d3bc400"/>folgte.
+                Wahr ist, dass man „<quote source="https://fackel.oeaw.ac.at/f/781,098"
+                    xml:id="uuid_98912bdd-e954-4fb8-90fb-6f6add6fa4ba">grosse</quote>“ gedruckt
+                hatte, bevor man wusste,<lb xml:id="uuid_ab8cc4f7-1758-4cb1-87a7-c27bf72549a1"/>dass
+                „goste“ „zarte“ bedeutet. Es ist unwahr, dass es in der <rs ref="#41244" type="work"
+                    subtype="pmb">Fackel</rs>
+                <lb xml:id="uuid_3a1d2462-6184-4903-ba3d-2ddd1cbda536"/>heisst: „<quote
+                    source="#56894" xml:id="uuid_72788ee9-7958-4a68-8947-605764b42a36">Die grosse
+                    Glockenblume ist mehr als eine Glockenblume, die<lb
+                        xml:id="uuid_7021ea8a-8c5c-4a03-850e-703e32e94bbc"/>zarte weniger</quote>“.
+                Wahr ist, dass es dort (<rs ref="https://fackel.oeaw.ac.at/f/800,112" type="work"
+                    subtype="fackel">S. 112</rs>) heisst: „<quote
+                    source="https://fackel.oeaw.ac.at/f/800,112"
+                    xml:id="uuid_8cffea2b-0055-4094-a949-b4928c95588a">Die grosse<lb
+                        xml:id="uuid_2f75a7c7-9262-4e1a-8f2b-2993b8a40cf1"/>Glockenblume ist mehr
+                    als eine Glockenblume, die zarte <hi rend="underlined">weit</hi>
+                weniger</quote>“. </p>
+            <p xml:id="uuid_41be8670-964d-4081-949d-d958368ac572">
+                <lb xml:id="uuid_fa82d9d8-c91c-4ec9-8433-11da7ed3b28d"/>Es ist unwahr, „<quote
+                    source="#56894" xml:id="uuid_f2eb1576-5c5a-44df-979d-f48bc207f257">dass <rs
+                        type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl der
+                        Goste</rs> nunmehr mir vor<lb break="no"
+                        xml:id="uuid_01890e11-72c5-4262-ac62-3df9a0359b7e"/>wirft, meine Urfassung
+                    von <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37820" type="person">Paul
+                        Zech</rs> abgeschrieben zu haben. Er drückt<lb
+                        xml:id="uuid_1f404816-c4cd-472c-9945-71c1595909c6"/>seinen Plagiatsvorwurf
+                    unendlich geschickt aus … der Plagiatsvorwurf<lb
+                        xml:id="uuid_83a51c59-9d8e-4731-889b-649e1b576743"/>aber ist absolut
+                    sichtlich</quote>“. Wahr ist, dass <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+                einen Plagiats<lb break="no" xml:id="uuid_a6546d99-1857-4d88-9342-1e9bb2d440f0"
+                />vorwurf nicht erhoben, sondern nur behauptet hat, das Gedicht <pb
+                    xml:id="D_000122-001-000_p005" facs="#D_000122-001-000-facs001-l004-p006" n="5"/>
+                <lb xml:id="uuid_950edd4f-ec91-4ef6-ab66-bc4a252f73cd"/>„<rs ref="#56928"
+                    type="work" subtype="pmb">Glockentänzerin</rs>“ von <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/37820" type="person">Zech</rs> müsse dem
+                    <rs type="person" ref="#7834">Verfasser</rs> der „<rs ref="#56921" type="work"
+                    subtype="pmb">Jungen Tänzerin</rs>“<lb
+                    xml:id="uuid_9c7f6295-2c08-481a-80b2-72a50ebf4828"/>seinerzeit bekannt gewesen
+                und könne nicht ohne Einfluss auf die<lb
+                    xml:id="uuid_e5843bb0-2b4f-4939-8372-2b8222d62632"/>Verfertigung des Gedichtes
+                für <rs ref="#56881" type="work" subtype="pmb">Scherls Magazin</rs> geblieben sein.
+                    Sie<lb xml:id="uuid_a0c75e3a-3072-46e7-917a-190dd2c5e336"/>zitieren: „<quote
+                    source="#56894" xml:id="uuid_7e39fca2-7474-40db-a00d-c0be2e6bc47f">Dass diese
+                    Schöpfung (mein <rs ref="#56921" type="work" subtype="pmb">Gedicht</rs>) von
+                    einer Vorschöpfung<lb xml:id="uuid_73a5c252-f9d9-4b51-8089-96e86b90ad88"/>(<rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/37820" type="person">Zechs</rs>
+                    <rs ref="#56928" type="work" subtype="pmb">Gedicht</rs>) bezogen war, wusste ich
+                    aus dem integrierenden, wert<lb break="no"
+                        xml:id="uuid_b0d4edca-236c-4807-9ac8-3473e5c57802"/>verändernden Wort (goste
+                    statt zarte), in dessen Gefolge alles Weitere<lb
+                        xml:id="uuid_2a3741ed-623f-45a2-82f2-f59d9fecc6c4"/>fremdkörperlich
+                    erschien.</quote>“ Es ist unwahr, dass der Satz (<rs
+                    ref="https://fackel.oeaw.ac.at/f/800,121" type="work" subtype="fackel">S.
+                    121</rs>) so<lb xml:id="uuid_9182c540-ee0a-4ad1-a278-53a25d7cba28"/>lautet, wahr
+                ist, dass er lautet: „<quote source="https://fackel.oeaw.ac.at/f/800,121"
+                    xml:id="uuid_08b139aa-98f3-453f-b3bc-907562934be0">… wusste ich aus dem <hi
+                        rend="underlined">einen</hi>
+                    <lb xml:id="uuid_a5f44240-d172-47f9-aa83-e4291d02ca94"/>integrierenden,
+                    wertverändernden Wort, …</quote>“. Es ist unwahr, dass als<lb
+                    xml:id="uuid_d0770dfc-9bfb-4be6-bcec-c282b9541428"/>dieses eine integrierende,
+                wertverändernde Wort „goste“ statt „zart“<lb
+                    xml:id="uuid_0f4fe7e2-2840-4496-bff7-c50d2bbb6f5b"/>erkannt war. Wahr ist, dass
+                als dieser Wertunterschied das Wort „zarte“<lb
+                    xml:id="uuid_31998688-d666-43a5-9bca-33b98ed85d7e"/>erkannt war, das in der
+                Originalfassung in <rs ref="#56881" type="work" subtype="pmb">Scherls Magazin</rs>
+                    gefunden<lb xml:id="uuid_233d373b-5d0d-4ce3-af40-76b69d000ebf"/>wurde, nachdem
+                die der <rs ref="#41244" type="work" subtype="pmb">Fackel</rs> übermittelte Fassung
+                das Wort von der<lb xml:id="uuid_7554f79c-5003-442a-925f-553a1344d687"/>„<quote
+                    source="https://fackel.oeaw.ac.at/f/781,098"
+                    xml:id="uuid_e68ec61f-658c-44c2-ae4c-75990bbb354b">grossen Glockenblume</quote>“
+                aufgewiesen hatte. </p>
+            <p xml:id="uuid_770d3f19-dee9-4500-ba93-9eca0b934f19">
+                <lb xml:id="uuid_db003f36-e341-4a53-9955-312b8e66828f"/>Rekommandiert.</p>
+            <pb xml:id="D_000122-001-000_p006" facs="#D_000122-001-000-facs001-l004-p007" n="6"/>
+            <p xml:id="uuid_1ff6459e-8723-4dcc-af06-587e02a0dc04">
+                <lb xml:id="uuid_73e473b7-a65d-48ac-939e-27c415d4ea00"/><note resp="law-firm"
+                    type="paratext">Betr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988b"
+                        type="person">Kraus</rs> – <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/29331" type="institution">Vossische
+                        Zeitung</rs>
+                    <lb xml:id="uuid_e05fd82e-8a7a-4e76-a304-0ddee61e0459"/>exp. am
+                    16.3.1929.</note></p>
+        </body>
+    </text>
+</TEI>

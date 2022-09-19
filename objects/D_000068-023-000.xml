@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-024-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-022-001.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000068-023-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Heinrich Fischer an Samek</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000068-023-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-heinrich-fischer-samek-0 </idno>
+            <idno subtype="transkribus" type="ID">203513</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000068" type="collection">Karl
+                    Kraus ca. Alfred Kerr</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000068-023-000-facs001" xml:id="D_000068-023-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000068-023-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38133">Heinrich Fischer</persName>
+               <address>
+                  <street corresp="#11">KAMMERSPIELE IM SCHAUSPIELHAUS </street>
+                  <settlement ref="#45258">MÜNCHEN</settlement> 
+               </address>
+               <date when-iso="1927-06-01">1. Juni 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Rechtsanwalt Dr. SAMEK</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I</settlement>
+               </address>
+               <date when-iso="1927-06-03">3. Juni 1927</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">F/L</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date notAfter-iso="1927-06-01" subtype="produced" type="sortDate">1. Juni
+                    1927</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000068-023-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000068-023-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" status="draft" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" status="draft" when-iso="2021-09-13">Replaced Text with Transcription
+                of Transkribus Document 203513. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2021-12-03"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-12-03" who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-12-03"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-12-03"
+                 who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-12-03"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000068-023-000-facs001">
+      <surfaceGrp xml:id="D_000068-023-000-facs001-l001">
+         <surface type="recto" xml:id="D_000068-023-000-facs001-l001-p001">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552235/full/full/0/default.jpg"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-023-000-facs001-l001-p002">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552236/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000068-023-000_p001"
+             facs="#D_000068-023-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_f0cfe27a-c0b6-4d0f-b6a7-4d1fab3e1795">
+            <lb xml:id="uuid_7eb2b4e1-82bc-4fa2-901f-8ed34c53af02"/>Sehr geehrter <rs ref="#38909" type="person">Herr Doktor</rs>, </p>
+         <p xml:id="uuid_62c4cb46-f7cb-4b55-8b29-c25139d84dc1">
+            <lb xml:id="uuid_db5a6265-f32a-4eed-b538-de408a0edbfb"/>herzlichen Dank für<lb xml:id="uuid_0a3b20a6-00fb-4b57-aaff-236b662d3a73"/>Ihren rekommandierten <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-021-000.xml"
+                type="work"
+                subtype="legal-doc">Brief</rs> vom 31. Mai. Die dem <rs ref="#43724" type="institution">Ver<lb break="no" xml:id="uuid_afff1af3-2887-4cac-b0c2-f679decece35"/>lag</rs> gestern
+                übermittelten <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-022-001.xml"
+                type="work"
+                subtype="legal-doc">Abschriften</rs> werden Sie wohl<lb xml:id="uuid_b7c022a0-2c11-4ebe-8cfd-dca41749611a"/>unterdessen erhalten haben.
+                Weitere Gedichte folgen<lb xml:id="uuid_4208c80e-d5e1-4482-ae20-addd6c327326"/>morgen und Samstag. </p>
+         <p xml:id="uuid_ec670f95-3780-4378-a3e2-6a49dd0d2f4e">
+            <lb xml:id="uuid_db6699ad-4f22-4971-a30d-2923f719f825"/>Was nun Ihre freundliche<lb xml:id="uuid_ba688f9a-4015-4145-8c01-cc4cb4ffd77a"/><rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-021-000.xml"
+                type="work"
+                subtype="legal-doc">Anfrage</rs> wegen meiner <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-018-000.xml"
+                type="work"
+                subtype="legal-doc">Briefstelle</rs> betrifft, so empfinde<lb xml:id="uuid_c7d5ec60-aa69-43bd-87b4-833e726ae5cd"/>ich es als eine Freude, wenn
+                sie Ihnen für diese Ange<lb break="no" xml:id="uuid_c9178804-9aca-4841-b39d-ca146e8d646c"/>legenheit dienlich sein
+                kann. Ich ermächtige Sie zu<lb xml:id="uuid_1495e850-da48-4163-9576-a86597160e8c"/>jeder beliebigen Verwendung. </p>
+         <p xml:id="uuid_baf27cc4-834e-4384-a14c-b2cba14aaf8b">
+            <lb xml:id="uuid_db6de9fa-f09f-42d0-b28e-6e3692b98b23"/>Mit dem Ausdruck der
+                vorzüglichsten Hochachtung<lb xml:id="uuid_b0ea9017-2eec-4b9a-85c8-896cb43185c9"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/38133" type="person">Heinrich
+                    Fischer</rs>
+            <pb xml:id="D_000068-023-000_p002"
+                facs="#D_000068-023-000-facs001-l001-p002"
+                n="2"/>
+         </p>
+         <p xml:id="uuid_1c4267f0-c0c7-4432-9997-25f3fe1ef48a">
+            <lb xml:id="uuid_25811806-fe7a-4cbe-85ba-2d2f86eeccc0"/><note resp="law-firm"
+               type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#11910"
+                  type="person">Kerr</rs>
+               <lb xml:id="uuid_3458bccd-e34d-4385-92c0-50cba4039b83"/>3. Juni 1927</note>
+         </p>
+      </body>
+   </text>
+</TEI>

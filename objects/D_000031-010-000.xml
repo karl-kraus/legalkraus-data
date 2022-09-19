@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000031-011-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000031-009-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000031-010-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Strafantrag Karl Kraus gegen Hans Liebstöckl wegen Ehrenkränkung
+               (Bezirkspolizeikommisariat Alsergrund)</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000031-010-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/1968</idno>
+            <idno subtype="transkribus" type="ID">186580</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000031" type="collection">Hans
+               Liebstöckl ca. Karl Kraus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000031-010-000-facs001" xml:id="D_000031-010-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000031-010-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHU">Durchschlag mit
+                        handschriftlichen Überarbeitungen</objectType>
+                     <objectType source="D_000031-010-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHN">Durchschlag mit
+                        handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1925-08-21">21. August 1925</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote cert="low" medium="black-ink" resp="#IL" scribeRef="#"
+               source="#D_000031-010-000-wit01" xml:id="D_000031-010-000-hand01"/>
+         </handNotes>
+         <handNotes>
+            <handNote cert="low" medium="grey-pencil" resp="#IL" scribeRef="#38909"
+               source="#D_000031-010-000-wit01" xml:id="D_000031-010-000-hand02"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000031-010-000-wit01">Strafantrag</term>
+            </keywords>
+            <classCode source="D_000031-010-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.SAT">D.J.SAT</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2022-01-11" who="#IL"/>
+         <change type="structure" when-iso="2020-11-18" who="#IL"/>
+         <change type="references" when-iso="2020-11-22" who="#IL"/>
+         <change type="typography" when-iso="2022-01-11" who="#IL"/>
+         <change when-iso="2020-02-10T11:19:10.744Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-10T11:33:38.405Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T11:33:39.907Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T11:33:41.867Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T11:33:43.771Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T11:33:46.211Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T11:33:47.634Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-07-13T12:40:31.181Z" who="#IB">Linked to Document in Transkribus by
+            API </change>
+         <change when-iso="2020-07-13T12:40:39.891Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 186580. </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 186580. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000031-010-000-facs001">
+      <surfaceGrp xml:id="D_000031-010-000-facs001-l001">
+         <surface type="recto" xml:id="D_000031-010-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked" source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548179/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000031-010-000-facs001-l001-p002">
+            
+            <graphic ana="status:checked" source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548180/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000031-010-000-facs001-l002">
+         <surface type="recto" xml:id="D_000031-010-000-facs001-l002-p003">
+            
+            <graphic ana="status:checked" source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548181/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek"
+            url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548183/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek"
+            url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548184/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic ana="status:checked" source="wienbibliothek"
+            url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548185/full/full/0/default.jpg"/>
+         
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000031-010-000_p001" facs="#D_000031-010-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_9e550c27-cb02-4d24-b10e-5bdecff8f6f7">
+            <lb xml:id="uuid_28ad5fd6-e189-48b4-8a16-ab6ed01fe7b9"/>An das<lb
+               xml:id="uuid_9212f2c6-4d96-4773-94c9-79154a80b8fb"/><rs ref="#36793"
+               type="institution">Polizeikommissariat <hi rend="spaced">Alsergrund</hi>,<lb
+                  xml:id="uuid_236fd7b5-82a7-4075-b438-2619d41b8b20"/><hi rend="spaced"><hi
+                     rend="underlined">Wien</hi></hi></rs>,</p>
+         <p xml:id="uuid_0698cf7e-c78c-4335-a6de-fa238e4f3654"><lb
+               xml:id="uuid_20a9fcc6-2c7a-4714-8ef6-46c2b5fa12dc"/>Privatankläger: <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl <hi rend="spaced">Kraus</hi></rs>, Schriftsteller in <rs ref="#50" type="place">Wien</rs>
+            <lb xml:id="uuid_0b0f1453-6258-4cd7-85ae-90611a1a3814"/><rs ref="#50496"
+               subtype="address" type="place">III. Hintere Zollamtsstrasse 3</rs>,<lb
+               xml:id="uuid_0b42ed6f-6335-4c95-bd65-0d1a034c33ee"/>durch:</p>
+         <p xml:id="uuid_aaa76f5d-c6ee-4f50-881d-6c8de54daffb"><lb
+               xml:id="uuid_00c80870-2813-4460-9071-55aede8ab4d7"/>Beschuldigter: Dr. <rs
+               ref="#20424" type="person">Hans <hi rend="spaced">Liebstöck</hi>l</rs>, Redakteur<lb
+               xml:id="uuid_687d89c1-4de3-4413-abad-281393224c07"/>in <rs ref="#48804" type="place"
+               >Wien IX. Hahngasse 24</rs>,</p>
+         <p xml:id="uuid_2e2f1dba-7868-46b6-a393-51b83d9bc4e5"><lb
+               xml:id="uuid_27e3d24d-0fec-47d6-a1d9-1b9bad73299f"/>Wegen Ehrenkränkung. </p>
+         <p xml:id="uuid_7549bff2-11d0-4b38-b62d-cf812539c79f"><lb
+               xml:id="uuid_4584760d-c570-4d01-a2b1-51100f1be5d3"/>1 fach,<lb
+               xml:id="uuid_dda0d80a-5b4a-4cb5-8ef4-8cd0c89d26e7"/>1 Beilage,<lb
+               xml:id="uuid_5d50daa3-ad26-4314-9b9c-6f31ab13e94b"/>1 Vollmacht,</p>
+         <p xml:id="uuid_b7ad289c-6dce-4801-a7e8-22f490b7df0a"><lb
+               xml:id="uuid_30801b36-93cc-469d-9d6a-18c735bc657a"/><hi rend="spaced"><hi
+                  rend="underlined">Strafantrag</hi></hi>: <pb xml:id="D_000031-010-000_p002"
+               facs="#D_000031-010-000-facs001-l001-p002" n="2"/></p>
+         <p xml:id="uuid_bafb581f-c024-4764-b18f-1f6e0283d9fa">
+            <lb xml:id="uuid_c3d10b25-52d2-493d-b7bd-405ba18d360c"/>Ich habe mich in mehreren
+            Aufsätzen mit dem<lb xml:id="uuid_d20656b2-b0d9-4786-bcc0-22ef0cecf252"/>Treiben der
+               „<rs ref="#29470" type="institution">Stunde</rs>“ beschäftigt. In einem dieser
+               Aufsätze<lb xml:id="uuid_65f64ab6-d6cc-4121-9d01-b3793244ba70"/>unter dem Titel ‚<rs
+               ref="https://fackel.oeaw.ac.at/f/691,068" type="work" subtype="fackel">Entlarvt durch
+                  <rs ref="#37843" type="person">Bekessy</rs></rs> ‘, erschienen im<lb
+               xml:id="uuid_17faaed4-135c-4ca1-be62-dad1395e883c"/>Juli 1925 in der <rs
+               ref="https://fackel.oeaw.ac.at/f/691,112" type="work" subtype="fackel">Nummer 691–696
+               des 27. Jahres der Zeit<lb break="no"
+                  xml:id="uuid_6d248c47-ef8e-482f-a048-da8006fd53d5"/>schrift ‚Die Fackel‘ Seite
+               112</rs>, sah ich mich genötigt,<lb
+               xml:id="uuid_926fe725-f5f9-45e8-a64e-111aeac72bb3"/>einen Ausspruch des <rs
+               ref="#20424" type="person">Beschuldigten</rs> zu zitieren, dass „<quote
+               source="https://fackel.oeaw.ac.at/f/691,112"
+               xml:id="uuid_93a86c42-2818-4d39-a9ab-1de5ea6cb7aa">‚<rs ref="#50611" type="work"
+                  subtype="pmb">Die<lb xml:id="uuid_f780ea19-a063-4878-8ec9-4e690f5f224e"
+                  />Stunde</rs>‘ ja das reine Banditenblatt geworden sei</quote>“. Daraufhin<lb
+               xml:id="uuid_974fcb38-6508-440c-9e41-1081d70ac998"/>sendete mir der <rs ref="#20424"
+               type="person">Beschuldigte</rs> am 20. Juli 1925 verschlossen<lb
+               xml:id="uuid_f8fc6ad3-3355-43d5-a059-11f74e68376b"/>den in Abschrift beiliegenden <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000031-003-000" type="work"
+               subtype="legal-doc">Brief</rs>. Auf das Verlangen,<lb
+               xml:id="uuid_02c04da1-f62b-41a4-a586-791a9fa38292"/>sich zum öffentlichen Charakter
+            dieses <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000031-003-000" type="work"
+               subtype="legal-doc">Schreibens</rs> zu be<lb break="no"
+               xml:id="uuid_1d7bec08-5ea4-4eec-b233-72b95e500c2d"/>kennen und dadurch die
+            Möglichkeit einer gerichtlichen<lb xml:id="uuid_463cbc24-7ea8-42d1-bf61-998c8ca80d3c"
+            />Feststellung der in Streit stehenden Behauptungen, ob der<lb
+               xml:id="uuid_351c6f57-12a2-4657-b501-a9a5bf678df4"/><rs ref="#20424" type="person"
+               >Beschuldigte</rs> die zitierte Aeusserung getan hat oder nicht,<lb
+               xml:id="uuid_3324afc2-795f-48dd-8480-fd1b2a61f856"/>zu ermöglichen, hat der <rs
+               ref="#20424" type="person">Beschuldigte</rs> geantwortet, dass er<lb
+               xml:id="uuid_eee6794f-18cf-4f93-a2bd-a774717ca0f2"/>den <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000031-003-000" type="work"
+               subtype="legal-doc">Brief</rs> selbst geschrieben habe und dass dieser keine<lb
+               xml:id="uuid_a5d0c3a9-ba76-4adf-b3e1-019c3df872a6"/>Mitwisser habe, sodass der
+            Tatbestand einer gerichtlich zu<lb xml:id="uuid_65785050-610f-4658-9244-b3a1739baeb5"
+            />bestrafenden Ehrenbeleidigung nicht vorliegt. </p>
+         <p xml:id="uuid_ee685619-55e6-4afd-8d38-7ad4a577e22c">
+            <lb xml:id="uuid_baba718d-e17f-4abd-8222-7e8e3fd72a33"/>Wohl aber liegt der Tatbestand
+            einer polizeilich<lb xml:id="uuid_11fb2f5f-7284-4178-827c-fa4399a1ac3d"/>zu bestrafenden
+            Ehrenkränkung vor. In diesem <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000031-003-000" type="work"
+               subtype="legal-doc">Briefe</rs> wirft<lb
+               xml:id="uuid_597d3666-af06-4781-bc13-9cdacaff968d"/>mir der <rs ref="#20424"
+               type="person">Beschuldigte</rs> vor, dass ich durch meine „<quote
+               source="https://id.acdh.oeaw.ac.at/legalkraus/D_000031-003-000.xml"
+               xml:id="uuid_33f4d7c2-2094-4696-8c0a-6dec45f0f2b2">leichtfertige<lb
+                  xml:id="uuid_0be6973a-8889-4fb4-b340-3daa42736919"/>und ihn herabsetzende
+               Behauptung</quote>“ in ihm und bei seinen<lb
+               xml:id="uuid_bdd26e25-c656-4501-a286-48964e514edd"/>Freunden Unmut geweckt habe. Es
+            ist klar, dass der <rs ref="#20424" type="person">Beschuldigte</rs>
+            <lb xml:id="uuid_d880ae62-4451-4155-8b57-da5f64aced60"/>mit Recht darüber unmutig sein
+            könnte, wenn ich ihm einen<lb xml:id="uuid_20754049-34ae-47b9-8b33-8e48c76cbdad"
+            />derartigen Ausspruch in den Mund gelegt hätte, den er niemals<lb
+               xml:id="uuid_8a27000a-7c75-482e-bbf4-d01773fcd84f"/>gemacht hat. Ich bin aber durch
+            Zeugen zu erweisen in der<lb xml:id="uuid_32c6b846-5a88-4ef1-ae55-4c832e7c4729"/>Lage,
+            dass der <rs ref="#20424" type="person">Beschuldigte</rs> die von ihm geleugneten
+               Worte<lb xml:id="uuid_e4267272-7fc6-498b-b349-c0d72f9c9a18"/>tatsächlich gebraucht
+            hat. Umso unerhörter und schwerer ist<lb
+               xml:id="uuid_65e20547-e5a9-4ccc-be2c-70ebb0b86c20"/>daher die durch den <rs
+               ref="#20424" type="person">Beschuldigten</rs> mir zugefügte Beleidigung, <pb
+               xml:id="D_000031-010-000_p003" facs="#D_000031-010-000-facs001-l002-p003" n="3"/>
+            <lb xml:id="uuid_fb259a95-94f3-4847-9f0c-4c46e673cb59"/>dass ich seine Aeusserung
+               „<quote source="https://id.acdh.oeaw.ac.at/legalkraus/D_000031-003-000.xml"
+               xml:id="uuid_a2b26ec2-d8c2-4757-a614-cd253d02d4d8">leichtfertig</quote>“ behauptet
+               habe.<lb xml:id="uuid_443e6e08-d1fa-4418-aa5c-12d8ecbc2df2"/>Es ist gewiss, dass die
+            Behauptung der Leichtfertigkeit<lb xml:id="uuid_91d4bf1c-e7af-4f33-811d-2f2fbaf351b0"
+            />einem Schriftsteller gegenüber speziell in einem Presse<lb break="no"
+               xml:id="uuid_ab488787-9f69-4e31-b24d-dadf95fe7251"/>kampf, in welchem die genaueste
+            Prüfung sämtlicher Tat<lb break="no" xml:id="uuid_8e2ee93e-a4a5-4e80-8ff2-3e957fa21ab7"
+            />sachen sittliche Pflicht ist, zumindestens den Vorwurf<lb
+               xml:id="uuid_f413b314-bc82-4a16-a489-3f9b2898177b"/>einer unehrenhaften Handlung
+               be<subst hand="#D_000031-010-000-hand01">
+               <del hand="#D_000031-010-000-hand01">hauptet</del>
+               <add hand="#D_000031-010-000-hand01">deutet</add>
+            </subst>, ja man könnte sogar<lb xml:id="uuid_58de95ac-20d7-4b12-8532-eb0142e32307"
+            />soweit gehen, darin den Vorwurf einer strafbaren Handlung<lb
+               xml:id="uuid_786d1f38-0667-4b86-89ac-cf3daaa4a1e7"/>zu erblicken, da die Unwahrheit
+            der Aeusserungen des Be<lb break="no" xml:id="uuid_cba2e11c-4c9b-4fdc-993e-a2a190ac7665"
+            />schuldigten vorausgesetzt, <subst hand="#D_000031-010-000-hand02">
+               <del hand="#D_000031-010-000-hand01">darin</del>
+               <add hand="#D_000031-010-000-hand02">in</add>
+            </subst><add hand="#D_000031-010-000-hand02">meiner Behauptung</add> mit <subst
+               hand="#D_000031-010-000-hand01">
+               <del hand="#D_000031-010-000-hand01">Un</del>
+               <add hand="#D_000031-010-000-hand01">R</add>
+            </subst>echt eine Ehren<lb break="no" xml:id="uuid_7671a179-80f7-47ac-9ff3-4810be68526c"
+            />beleidigung des <rs ref="#20424" type="person">Beschuldigten</rs> erblickt werden
+            könnte. </p>
+         <p xml:id="uuid_b1ad55bb-0f0c-4166-b101-094c1ab5dfb5">
+            <lb xml:id="uuid_27ed90db-3d7f-4d70-a1f0-2f1373a632d5"/>Ich fühle mich daher durch den
+            vom <rs ref="#20424" type="person">Be<lb break="no"
+                  xml:id="uuid_65c03e41-4306-4168-8974-41821200d4a0"/>schuldigten</rs> mir gegenüber
+            gemachten Vorwurf der Leicht<lb break="no"
+               xml:id="uuid_577fb828-f4c9-4ee8-acc6-4c0caf0aa529"/>fertigkeit in meiner Ehre
+            gekränkt und beantrage gegen<lb xml:id="uuid_b2462ed4-1fa4-415c-bcd4-a8ef99b69d8b"/>den
+               <rs ref="#20424" type="person">Beschuldigten</rs> eine Tagsatzung anzuberaumen und
+               ihn<lb xml:id="uuid_f29d268e-8ad0-46da-bb50-6d32cfca9886"/>strengstens zu bestrafen. </p>
+         <p xml:id="uuid_e5496f22-e623-447b-b63a-48857c9c0d9f">
+            <lb xml:id="uuid_5c6e8af2-4102-4110-8d4f-58c9df75dc36"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl <hi rend="spaced">Krau</hi>s</rs>. </p>
+         <p xml:id="uuid_568ba660-c928-460e-ade1-c4b753ab37e2">
+            <lb xml:id="uuid_dea21b2b-0bdc-4629-8ecf-ddb4cbcc2a39"/><note
+               hand="#D_000031-010-000-hand02"><rs type="person" ref="#20424">H.L</rs>
+               <lb xml:id="uuid_8c4272fa-328c-4ea9-a72f-55f841e905d5"/>Ich habe den inkriminierten
+                  <rs type="work" subtype="legal-doc"
+                  ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000031-003-000">Brief</rs> selbst
+               aufgesetzt geschrieben und zwar in Unmut darüber, dass vom <rs type="person"
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kläger</rs> eine angebliche
+               Äußerung von mir weiter gegeben<lb xml:id="uuid_d646dc05-9bb8-4105-bcee-c39ea759a547"
+               />wurde, die mich in der Öffentlichkeit herunter setzen musste und die ist genug und
+               die ich und nirgends getan habe: Mir fehlt jede beleidigende Absicht. Ich kann jede
+                  inkriminierte<lb xml:id="uuid_ce6b2d0b-6e5f-40e7-8d2c-bf46c5c18877"/>Äußerung eine
+               Beleidigung sich nicht erblickt, weil das Wort „leichtfertig“ im journalistischen
+               Gebrauch, so viel wie mangelhaft fundiert bedeutet.<lb
+                  xml:id="uuid_eaadde85-bc50-4173-a7a8-16e8c6f3be40"/>Daher nicht die Schärfe wie im
+               sonstigen Sprachgebrauch besitzt. Ich hätte ebenso gut sonderbar oder merkwürdig
+               sagen können. In diesem Sinn habe ich das Wort gebraucht. </note>
+         </p>
+         <note hand="#D_000031-010-000-hand02">
+            <p xml:id="uuid_64de2c91-5599-4c56-8047-22563d59df70">
+               <lb xml:id="uuid_7fb8db38-0b89-42e2-a14b-9eef432678a2"/>Kr. <rs type="person"
+                  ref="#38909">O. S.</rs>
+               <lb xml:id="uuid_be45b6fc-bee5-4954-90dc-4e4278ffc193"/><rs type="person"
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herr Kraus</rs> hat der Einspruch
+               des <rs type="person" ref="#20424">Beklagten</rs> über die Stunde von der <rs
+                  type="place" subtype="address" ref="#302">VI. Mariahilfer 47</rs> I St. Wohnhaften
+               Bankdirektorsgattin <rs type="person" ref="#47126">Alma Pollak</rs>
+               <lb xml:id="uuid_50dfd29a-3c87-4bf9-976b-6ebe3b0cab52"/>erfahren. <rs type="person"
+                  ref="#47126">Frau Pollak</rs> erscheint vollkommen glaubwürdig. Sie hat die
+               Äußerung nicht allein gehört, sodass auch 3 andere<lb
+                  xml:id="uuid_70189ed4-511c-4f5d-b44e-0fb0f0b93035"/>Zeugen, deren Namen und
+               Adressen <rs type="person" ref="#47126">Frau P.</rs> bekannt geben kann<del
+                  hand="#D_000031-010-000-hand02">, was sie <rs type="person"
+                     ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herr Kraus</rs> ausgesagt
+                  hat</del>. Fall<lb xml:id="uuid_9ef43910-194d-414e-9e5e-e626ea382aad"/>Ich möchte
+               darauf hinweisen dass <rs type="person" ref="#20424">Herr D. L</rs> als
+               Schriftsteller so sehr sprachgewandt ist, dass wenn er damals etwas leicht merkwürdig
+               findet, es<lb xml:id="uuid_ab311a05-ee8e-4fab-a108-04a4f68c1d7f"/>nicht leichtfertig
+               bezeichnen würde.</p>
+         </note>
+      </body>
+   </text>
+</TEI>

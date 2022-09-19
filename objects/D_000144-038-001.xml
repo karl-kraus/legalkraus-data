@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-039-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000144-038-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000144-038-001.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief S. Fischer Verlag an Kraus/Verlag Die Fackel</title>
+            <editor ref="#LK">Lena Kovacic</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000144-038-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/</idno>
+            <idno subtype="transkribus" type="ID">275940</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000144" type="collection">Karl
+                    Kraus ca. S. Fischer Verlag (Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000144-038-001-facs001" xml:id="D_000144-038-001-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000144-038-001-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-08-13">13. August
+                    1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="https://pmb.acdh.oeaw.ac.at/entity/29639">S. Fischer / Verlag /
+                        A.-G.</orgName>
+               <address>
+                  <street corresp="#659">Bülowstraße 90</street>
+                  <settlement ref="#168">Berlin W 57</settlement>
+               </address>
+               <date when-iso="1928-07-17">17.7.28</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#11988">Herrn | Karl Kraus | Verlag „Die Fackel“</persName>
+               <address>
+                  <street corresp="#50493">Vordere Zollamtstrasse</street>
+                  <settlement ref="#53">Wien III</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Ma/Hb.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000144-038-001-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000144-038-001-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-08T14:16:09.685Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-08T14:28:44.913Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 275940. </change>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-10-20"
+                 who="#LK"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-10-20"
+                 who="#LK"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-10-20"
+                 who="#LK"/>
+         <change status="draft" type="structure" when-iso="2021-10-20" who="#LK"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000144-038-001-facs001">
+      <surfaceGrp xml:id="D_000144-038-001-facs001-l001">
+         <surface xml:id="D_000144-038-001-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541925/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface></surfaceGrp>
+      <surfaceGrp xml:id="D_000144-038-001-facs001-l002"><surface xml:id="D_000144-038-001-facs001-l002-p002" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541927/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface></surfaceGrp>
+      
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000144-038-001_p001"
+             facs="#D_000144-038-001-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_32270bce-f8ed-4e63-b043-07132bde8d72">
+            <lb xml:id="uuid_dc1f9025-1675-4808-9662-8553317a9a99"/>Sehr geehrter <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herr Kraus</rs>! </p>
+         <p xml:id="uuid_7318f49d-a796-4add-a4b4-6f5e006da05a">
+            <lb xml:id="uuid_29648bfe-3cf3-4b25-81e9-77c66a75f5f1"/>Herr <rs type="person" ref="#38477">Sigismund von Radecki</rs> berichtete uns über eine<lb xml:id="uuid_87ed6b42-8170-4f40-a3f9-377f8d90426f"/>Unterhaltung mit Ihnen, in
+                der Sie Ihre Bereitwilligkeit aussprachen,<lb xml:id="uuid_13e3793e-3410-47aa-b174-3789fac3fa6e"/>einen von uns geplanten <rs type="work" ref="#60281" subtype="pmb">Auswahlband</rs> der Werke <rs type="person" ref="#2147">Peter ALTENBERGS</rs> zu<lb xml:id="uuid_183dcf17-1ce2-4ee4-81c7-c0d3dcbd6f8c"/>redigieren und ihm Ihr <rs type="work"
+                ref="https://fackel.oeaw.ac.at/f/508,011"
+                subtype="fackel">Gedicht
+                    an Peter Altenberg</rs> voranzustellen.<lb xml:id="uuid_c9e29ccb-5225-46f5-8caf-8a6d83689062"/>Wir danken Ihnen für diese
+                Zusage, die uns eine Verewigung der besten<lb xml:id="uuid_6211da5d-1a53-4283-803f-106ebcd89a90"/>Schöpfungen aus dem Werke
+                des <rs type="person" ref="#2147">verstorbenen Dichters</rs> sicherzustellen<lb xml:id="uuid_f600fbd9-62af-4eeb-aadc-4a0a881a8eb8"/>scheint. Die Form, die uns
+                für diesen Band vorschwebt, ist ein Band<lb xml:id="uuid_9b591a7f-5cd0-4fbc-840a-07ed7f13d34d"/>im Umfang von ungefähr 400
+                Seiten im Format der Ihnen gleichzeitig<lb xml:id="uuid_72fef008-3dd0-45a2-ba8d-88259db87c4e"/>zugehenden Dünndruckausgabe
+                des „<rs type="work" ref="#33247" subtype="pmb">Zauberberges</rs>“ von <rs type="person" ref="#12176">Thomas Mann</rs> oder<lb xml:id="uuid_de446851-ad52-4241-a726-c10a1e4541a6"/>auch noch in etwas kleinerer
+                Gestalt. Wir lassen Ihnen weiters sämt<lb xml:id="uuid_3ec06436-e1d2-4f68-85e7-fa387dcf6fff" break="no"/>liche bei uns
+                erschienenen Werke von <rs type="person" ref="#2147">Peter Altenberg</rs> zugehen
+                    und<lb xml:id="uuid_b401e527-67d0-4048-98c9-61afe54e90d7"/>bitten, Sie zu
+                prüfen, ob Ihr Vorhaben sich mit unsern Plänen deckt.<lb xml:id="uuid_88e8d3ea-e42d-4fe2-8643-a5994fbd75c2"/>Wir wären Ihnen sehr
+                dankbar, wenn Sie uns mitteilen wollten, welchen<lb xml:id="uuid_53554e16-5c9d-4380-a8da-1972cc9bb5d0"/>Betrag wir als
+                Herausgeberhonorar anzusetzen hätten, da das Honorar<lb xml:id="uuid_0205419a-270d-4888-aab5-c0151ea1ff2b"/>des Buches selbst der <rs type="institution" ref="#37190">Kinderschutz- und Rettungsgesellschaft</rs>
+                zufällt, die<lb xml:id="uuid_27a41ae6-ba53-4b39-91f6-d01cc684e763"/>nach dem Tode
+                von <rs type="person" ref="#2260">Georg Engländer</rs>, dem Bruder von <rs type="person" ref="#2147">Peter Altenberg</rs>,</p>
+         <pb xml:id="D_000144-038-001_p002"
+             facs="#D_000144-038-001-facs001-l002-p002"
+             n="2"/>
+         <p xml:id="uuid_a1dfeaad-0cbc-4382-bfe5-c3a33a142073">
+            <lb xml:id="uuid_c01b2ebb-2e2d-4ca4-9d77-750152c7c630"/>alleinige Erbin nach <rs type="person" ref="#2147">Peter Altenberg</rs> ist, nehmen wir an, dass es<lb xml:id="uuid_2d33371f-3641-4f50-ac9a-e9a396fa8f11"/>Ihrem Wunsche gemäss sein
+                wird, wenn auch das Herausgeberhonorar<lb xml:id="uuid_8efc5c92-76a5-4b33-b8c8-4d751d0ede88"/>dieser Stelle überwiesen
+                wird. </p>
+         <p xml:id="uuid_d7845533-1ae0-4407-bfab-65114737c64d">
+            <lb xml:id="uuid_ee333025-aee3-48ac-a1b7-4b10a6f2b384"/>Wir erwarten mit Interesse
+                Ihre Nachricht über die Auf<lb xml:id="uuid_db8475cc-c790-4201-b7b1-85bc49a5bcd8" break="no"/>nahme unseres Vorschlages und zeichnen </p>
+         <p xml:id="uuid_481e42ab-bd59-433e-a28c-3bd586c658bf">
+            <lb xml:id="uuid_19093b99-8d01-48e9-9fe5-74a5ab53c94c"/>mit vorzüglicher
+                    Hochachtung<lb xml:id="uuid_a3f68fa8-7763-45a3-975d-febde1ea4058"/><rs type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/29639">S. Fischer
+                    Verlag A.-G.</rs>
+            <lb xml:id="uuid_b3f36591-a3aa-4605-870d-1fa9720b5bbd"/><rs type="person" ref="#4374">Dr. Maril</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

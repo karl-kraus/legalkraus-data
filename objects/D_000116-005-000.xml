@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000116-005-001.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000116-004-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000116-005-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Margarete Minkus-Benesch an Kraus</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000116-005-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3277</idno>
+            <idno subtype="transkribus" type="ID">469817</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000116" type="collection">Angelegenheit Margarethe Minkus-Benesch</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000116-005-000-facs001" xml:id="D_000116-005-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000116-005-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.M">Manuskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-03-11">11. März 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#51552">Margarethe Minkus-Benesch</persName>
+               <address>
+                  <street corresp="#56755">Freiheitsplatz 18</street>
+                  <settlement ref="#33978">dzt. in Znaim</settlement>
+               </address>
+               <date when-iso="1929-03-11">11. März 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#11988">Karl Kraus</persName>
+               <address>
+                  <street corresp="#52568">Lothringerstraße 6</street>
+                  <settlement ref="#51">Wien I</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000116-005-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000116-005-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="typography" when-iso="2021-07-05" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-07-14" who="#IL"/>
+         <change type="structure" when-iso="2021-07-05" who="#IL"/>
+         <change type="intertexts" when-iso="2021-07-05" who="#IL"/>
+         <change type="references" when-iso="2021-07-05" who="#IL"/>
+         <change when-iso="2020-07-28T15:24:52.369Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 469817. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000116-005-000-facs001">
+      <surfaceGrp xml:id="D_000116-005-000-facs001-l001">
+         <surface xml:id="D_000116-005-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556228/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000116-005-000-facs001-l002">
+         <surface xml:id="D_000116-005-000-facs001-l002-p002" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556236/full/full/0/default.jpg"/>
+         </surface>
+         <surface xml:id="D_000116-005-000-facs001-l002-p003" type="verso">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556237/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000116-005-000_p001"
+             facs="#D_000116-005-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_9788c333-70f4-4362-bdef-fa4f4ac577b7">
+            <lb xml:id="uuid_54cc1ec1-1054-43c2-8c56-ed69a5ac748e"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herr</rs>! </p>
+         <p xml:id="uuid_a0e11983-fe9e-4a39-99e2-ad3a4a0d362f">
+            <lb xml:id="uuid_b99e097d-d29d-4112-be91-1f4727aee3f4"/>Meine Eltern stellen mich
+                unter Curatel,<lb xml:id="uuid_7357489f-67b2-4f39-985b-32405dfe2f5f"/>ich bitte Sie
+                um Hilfe. </p>
+         <p xml:id="uuid_a94cf6f3-09b5-4d6c-89da-625fd4444070">
+            <lb xml:id="uuid_475a82a0-65a8-473d-95ae-300646a659b7"/>Ich freue mich aufs
+                Wiedersehen. </p>
+         <p xml:id="uuid_d84e7055-c1cd-455f-9f64-f4e5cf23845f">
+            <lb xml:id="uuid_b61327eb-f27d-4aec-8a0d-4a0b410fc987"/>Herzlichsten Gruß<lb
+               xml:id="uuid_1e09ba20-799d-4cc4-860b-98bccc7729af"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/51553" type="person">Grittls
+               Minkus-Benesch</rs>. </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-008-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-006-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000175-007-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Josef Bartosch an Kraus</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000175-007-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4339</idno>
+            <idno subtype="transkribus" type="ID">349075</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000175" type="collection">Karl
+                    Kraus ca. Wiener Mittags-Zeitung</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000175-007-000-facs001" xml:id="D_000175-007-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000175-007-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.M">Manuskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/51546">Prof. J. Bartosch</persName>
+               <address>
+                  <street corresp="#53086">Böcklinstr. 44</street>
+                  <settlement ref="#52">Wien, II./1.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn | Karl Kraus, |
+                        Herausgeber der Fackel</persName>
+               <address>
+                  <street corresp="#50496">Hintere Zollamtsstraße Nr 3</street>
+                  <settlement ref="#53">Wien, III. Bz.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-02-28">28. Februar 1932
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000175-007-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000175-007-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-05-07" who="#JK"/>
+         <change type="typography" when-iso="2021-05-07" who="#JK"/>
+         <change type="references" when-iso="2021-05-07" who="#JK"/>
+         <change type="structure" when-iso="2021-05-07" who="#JK"/>
+         <change when-iso="2020-10-09T14:17:32.589Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-09T14:23:25.871Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 349075. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000175-007-000-facs001">
+      <surfaceGrp xml:id="D_000175-007-000-facs001-l001">
+         <surface type="recto" xml:id="D_000175-007-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543652/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000175-007-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543653/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000175-007-000-facs001-l002">
+         <surface type="recto" xml:id="D_000175-007-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543656/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000175-007-000-facs001-l002-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543657/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000175-007-000_p001"
+             facs="#D_000175-007-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_7b97bf8f-34a6-463c-926f-e6d147df45ab">
+            <lb xml:id="uuid_165eb1fc-71fe-4ce3-8b0b-3aed6c34fb5f"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herr Kraus</rs>! </p>
+         <p xml:id="uuid_88b20ff7-2dea-46ce-9cae-9c9da74e8b22">
+            <lb xml:id="uuid_95857fea-abd2-43f6-a797-359c59ec7ef5"/>Am Beginn meines Schreibens
+            bitte ich Sie, nicht ungehalten<lb xml:id="uuid_a54a569c-f689-4b92-bb92-bd18b2d1f46d"
+            />sein zu wollen, wenn ich es wieder einmal wage, für<lb
+               xml:id="uuid_ab33e9a5-30d0-425a-8f2f-a56b518e9a85"/>meine blinden Schüler mit einem
+            Anliegen zu kommen.<lb xml:id="uuid_8cec7739-c97d-4ac8-be97-dae1eedfa3a6"/>Die Radio
+            Empfangsanlage des <rs ref="#36935" type="institution">Institutes</rs> ist herzlich<lb
+               xml:id="uuid_1d876a28-fabb-45e7-8aec-d92f4673a57b"/>schlecht. Wir haben wohl vor
+            einigen Jahren von der<lb xml:id="uuid_743417f5-64a7-4b13-895f-42f388bf6be1"/><rs
+               ref="#29441" type="institution">Rawag</rs> einen Apparat mit Lautsprecher erhalten,
+               doch<lb xml:id="uuid_570d0e7a-19dd-4388-9c59-9011560fb861"/>erweist sich diese Anlage
+            heute schon als ganz unzulänglich:<lb xml:id="uuid_31d001e0-fef9-405f-af6f-a1f8ac3aafe4"
+            />Der Apparat hat keinen Netzanschluß und ist vor allem,<lb
+               xml:id="uuid_d24f0faf-b4e9-4c48-9c8b-b35334aad3a5"/>da er 2 Lautsprecher (einen in
+            der Knaben- und einen<lb xml:id="uuid_4d647272-6314-4a83-8ad4-2419a05f46f1"/>in der
+            Mädchenabteilung) betreiben muß, viel zu<lb
+               xml:id="uuid_cc8c3827-6ed8-4eb7-8984-54fd3a707c1f"/>schwach. Nachdem die <rs
+               type="person">Institutsdirektion</rs> über die<lb
+               xml:id="uuid_522bf9f6-d5af-4cf7-bf0b-2b61c3e86eca"/>Mittel zur Anschaffung eines
+            neuen besseren<lb xml:id="uuid_fb957867-1b78-4699-a74c-447ba8459f41"/>Apparates nicht
+            verfügt, wende ich mich als <pb xml:id="D_000175-007-000_p002"
+               facs="#D_000175-007-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_6cfd602a-5b06-4bce-9f04-f9dd3232795a"/>Radio-Referent der <rs
+               type="institution" ref="#36935">Anstalt</rs> mit der Bitte an Sie,<lb
+               xml:id="uuid_db12eae9-f952-42c9-97fe-13b72406d22e"/>unseren Zöglingen zur Anschaffung
+            eines brauchbaren<lb xml:id="uuid_3aded53a-160b-47f1-9080-9d09ce1405d7"/>Radiogerätes
+            eine Spende von 280–300 S gütigst<lb xml:id="uuid_df37b33a-9101-48eb-818b-76b830f4d5b9"
+            />zuwenden zu wollen. 96 des Augenlichtes beraubte<lb
+               xml:id="uuid_6cdaaaf3-8136-4787-aa56-ce98ac35b8eb"/>Kinder und Jugendliche, für die
+            der Rundfunk in der<lb xml:id="uuid_f94e5b52-61d7-4189-b999-8d1333079d7d"/>Tat unendlich
+            viel bedeutet, würden Ihnen von ganzem<lb
+               xml:id="uuid_753fc0a3-32ee-46ea-8426-e42394b37476"/>Herzen danken, wenn Sie,
+            hochgeehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herr
+               Kraus</rs>,<lb xml:id="uuid_2b633b36-4d1e-4111-a73f-74eac74a595b"/>die vorgetragene
+            Bitte gewähren könnten.<lb xml:id="uuid_a14db2b0-7fd3-42d2-81aa-f0110d1d9d04"/>Wollen
+            Sie in diesem Falle die Spende an die Direktion<lb
+               xml:id="uuid_e1d8f98f-90db-48f5-968e-e4bed997f089"/>des <rs ref="#36935"
+               type="institution">Blinden-Erziehungs-Institutes</rs> in <rs ref="#1238"
+               subtype="address" type="place">Wien, II.,<lb
+                  xml:id="uuid_54f10483-6f65-4d1d-9a81-4bd7baf64421"/>Wittelsbachstraße Nr 5</rs>
+            mit der ausdrücklichen<lb xml:id="uuid_c0364b64-625e-4603-a82e-da86fd23fecc"/>Bestimmung
+            ihres Zweckes gütigst überweisen.<lb xml:id="uuid_6bb47822-7041-40f3-ae76-34ada7795845"
+            />Ich sage Ihnen jetzt schon recht herzlichen Dank und<lb
+               xml:id="uuid_3db90515-7e8e-471d-beca-eb0843734648"/>verbleibe mit dem Ausdruck
+            vorzüglichster Hochachtung<lb xml:id="uuid_98dc2fd7-742e-4948-9102-4d33c088a398"/>Ihr
+            sehr ergebener </p>
+         <p xml:id="uuid_1df1f266-47f5-48d9-b726-da173ba995ab">
+            <lb xml:id="uuid_d39aae2a-a810-4635-8fd1-39e997a20cfb"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/51546" type="person">Josef Bartosch</rs><lb
+               xml:id="uuid_68dbd738-d3f8-44d2-8937-decc870c373c"/><rs ref="#53086"
+               subtype="address" type="place">Wien, II./1., Böcklinstraße 44</rs>. </p>
+         <p xml:id="uuid_fe3b8da1-223c-4ecd-8c25-95fe98b20ffa">
+            <lb xml:id="uuid_6de82317-998c-4208-b0fb-201a2c58d046"/>R 43–2–54 </p>
+         <pb xml:id="D_000175-007-000_p003"
+             facs="#D_000175-007-000-facs001-l002-p003"
+             n="3"/>
+         <p xml:id="uuid_270ad08e-259f-4505-bb08-76e113ec2624">
+            <lb xml:id="uuid_21a54460-2475-479e-b8be-a0f4f58a0fd1"/><hi rend="underlined">rekommandiert</hi>. </p>
+      </body>
+   </text>
+</TEI>

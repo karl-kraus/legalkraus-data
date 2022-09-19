@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000125-116-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-115-000.xml"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-117-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Klagebeantwortung (eingereicht von RA Richard Pressburger beim Landesgerichts für
+                    Z.R.S. Wien, G.Z. 7 Cg 322/32)</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000125-116-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3481 </idno>
+            <idno type="ID" subtype="transkribus">296571</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000125">Karl
+                    Kraus ca. Frankfurter Städtisches Schauspielhaus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <ab type="stamp">
+                  <stamp source="#36844" xml:id="uuid_68f5d676-ba35-4472-9cbc-8c4bc47ac380"/>
+               </ab>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000125-116-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSN">Typoskript mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="D_000125-116-000-wit01" facs="#D_000125-116-000-facs001"/>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date type="sortDate" when-iso="1932-08-20" subtype="produced">20. August 1932
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote xml:id="D_000125-116-000-hand01"
+                      source="#D_000125-116-000-wit01"
+                      scribeRef="#38909"
+                      medium="red-pencil"
+                      cert="low"
+                      resp="#JK"/>
+            <handNote xml:id="D_000125-116-000-hand02"
+                      source="#D_000125-116-000-wit01"
+                      scribeRef="#11988"
+                      medium="pencil"
+                      cert="medium"
+                      resp="#JK"/>
+            <handNote xml:id="D_000125-116-000-hand03"
+                      source="#D_000125-116-000-wit01"
+                      scribeRef="#38909"
+                      medium="pencil"
+                      cert="high"
+                      resp="#JK"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000125-116-000-wit01">Klagebeantwortung</term>
+            </keywords>
+            <classCode source="D_000125-116-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.KLB">D.J.KLB</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-08-04" who="#JK"/>
+         <change type="typography" when-iso="2021-08-04" who="#JK"/>
+         <change type="references" when-iso="2021-08-04" who="#JK"/>
+         <change type="structure" when-iso="2021-08-04" who="#JK"/>
+         <change when-iso="2021-04-12T09:10:16.507Z" resp="#IB">created by API</change>
+         <change when-iso="2021-04-12T09:33:15.878Z" resp="#IB">Replaced Text with Transcription
+                of Transkribus Document 296571. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000125-116-000-facs001">
+      <surfaceGrp xml:id="D_000125-116-000-facs001-l001">
+         <surface xml:id="D_000125-116-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557331/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000125-116-000-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557332/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000125-116-000-facs001-l002">
+         <surface xml:id="D_000125-116-000-facs001-l002-p003" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557333/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000125-116-000-facs001-l002-p004" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557334/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000125-116-000-facs001-l003">
+         <surface xml:id="D_000125-116-000-facs001-l003-p005" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557335/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000125-116-000-facs001-l003-p006" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557336/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000125-116-000-facs001-l004">
+         <surface xml:id="D_000125-116-000-facs001-l004-p007" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557337/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000125-116-000-facs001-l004-p008" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557338/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000125-116-000-facs001-l005">
+         <surface xml:id="D_000125-116-000-facs001-l005-p009" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557339/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000125-116-000-facs001-l005-p010" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557340/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000125-116-000-facs001-l006">
+         <surface xml:id="D_000125-116-000-facs001-l006-p011" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557341/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000125-116-000-facs001-l006-p012" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557342/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000125-116-000-facs001-l007">
+         <surface xml:id="D_000125-116-000-facs001-l007-p013" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557343/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000125-116-000-facs001-l007-p014" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557346/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000125-116-000_p001"
+             n="1"
+             facs="#D_000125-116-000-facs001-l001-p001"/>
+         <p xml:id="uuid_503ccde3-886b-42c6-8d9f-5086b1aed78a">
+            <lb xml:id="uuid_4eabb1de-5de2-4845-af64-3fbac014e6e4"/>7 Cg 322/32<lb xml:id="uuid_2022d7c1-5782-4e16-bc2e-940e0d8405ce"/>3 </p>
+         <p xml:id="uuid_59837923-d6d6-4adb-b282-87a53de2cb43">
+                <lb xml:id="uuid_0b5e5ae4-d9b0-4d39-adef-578c4539dc63"/>An das<lb
+                    xml:id="uuid_27e90643-f7cf-44c5-ba59-96ce78ec5a1a"/><rs type="institution"
+                    ref="#36844"><hi rend="spaced">Landesgericht</hi> für Z.R.S.<lb
+                        xml:id="uuid_64864401-a577-4146-8fe1-a2bf7651a4ed"/><hi rend="spaced"
+                        >Wien</hi></rs>. </p>
+         <p xml:id="uuid_f2209cda-9b88-4e62-9c6e-4206dad5f497">
+            <lb xml:id="uuid_c84973ea-2d2a-4916-b130-3cc6a6eeb7c4"/>Klagende Partei: <rs type="institution" ref="#43724">Verlag „Die Fackel“</rs> Herausgeber <rs type="person" ref="#11988">Karl<lb xml:id="uuid_fc5e65c2-0045-4193-a3d4-a094f2027cd8"/><hi rend="spaced">Kraus</hi></rs> prot. Firma in <rs type="place" subtype="address" ref="#50496">Wien
+                        III.,<lb xml:id="uuid_9ff0c352-cb74-4060-a643-0718e77bf83f"/>Hintere
+                    Zollamtsstrasse 3</rs>
+            <lb xml:id="uuid_50f4eccc-64d1-4531-ab9b-d7f1d3d13bf6"/>durch: Dr. <rs type="person" ref="#38909">Oskar <hi rend="spaced">Samek</hi></rs>,
+                    Rechtsanwalt<lb xml:id="uuid_a2c55f32-3acb-4ab5-b20e-c7790e5f11e7"/><rs type="place" subtype="address" ref="#50493">Wien I., Schottenring 14</rs>
+         </p>
+         <p xml:id="uuid_ca76632e-9994-4a6d-8496-fd829345494e">
+            <lb xml:id="uuid_decdb16e-50f0-4a4f-9f3c-0b1bed9b434f"/>Beklagte Partei: Die <rs type="place" ref="#146">Stadt Frankfurt a/Main</rs> als Konzes<lb xml:id="uuid_b4ce31c3-b20f-443f-a3cc-7877acae6556" break="no"/>sionärin der <rs type="institution" ref="#34987">Frankfurter städtischen<lb xml:id="uuid_7a6d615c-db53-4e20-9b81-9f0c79da8cd4"/>Bühnen</rs>, zu Händen
+                des Magistrates <rs type="place" ref="#146">Frank<lb xml:id="uuid_7ee1872d-869b-41e3-9771-1f62e373b03f" break="no"/>furt
+                    a/Main</rs>.<lb xml:id="uuid_e4ef9757-9681-4470-89ca-0a81c9522d63"/>durch: Dr.
+                    <rs type="person" ref="#39338">Richard <hi rend="spaced">Pressburger</hi></rs>
+            <lb xml:id="uuid_8674c8ad-e7ab-4da1-819d-54e4d986add4"/><rs type="place" subtype="address" ref="#501">Wien I., Kärntnerring 12</rs>
+         </p>
+         <p xml:id="uuid_34d4c5ed-101f-46e4-a33d-56d65dd6b245">
+            <lb xml:id="uuid_aa5a4772-265a-45df-83f7-25aa481fff20"/><hi rend="underlined">wegen
+                    RM 2.000,–<lb xml:id="uuid_0d7c7e25-f5d9-49e0-b0a2-2badc71d8068"/>Feststellung
+                    u. Rechnungslegung Mk 1000,–<lb xml:id="uuid_51da7178-84cc-42d3-a7af-6e926ee1692a"/>zus. Mk 3.000,–
+                    Streitwert S 5.000,–</hi>
+         </p>
+         <p xml:id="uuid_d76d181a-c514-492e-873c-4cbdf3a73661">
+            <lb xml:id="uuid_338b8cc7-d73d-4b15-89c5-1f0a14215e1f"/><hi rend="spaced">Klagebeantwortung</hi>: </p>
+         <p xml:id="uuid_d3da4e05-ad4e-4b4f-98b0-0753646f65ea">
+            <lb xml:id="uuid_8b720753-f2c1-418f-a2ae-42d3a07558f4"/>2 fach<lb xml:id="uuid_b7a3c2cf-fa25-40d7-aca1-bad225788fba"/>1 Rubrik </p>
+         <pb xml:id="D_000125-116-000_p002"
+             n="2"
+             facs="#D_000125-116-000-facs001-l001-p002"/>
+         <p xml:id="uuid_85b9d4d2-ece5-47af-a243-10d3b9612da6">
+            <lb xml:id="uuid_8cbe29ec-3353-4a24-b09c-fb5d3e292f21"/>In offener Frist wird hiemit
+                    nachstehende<lb xml:id="uuid_bda26365-7498-44f4-bab6-5d4dfabd68ad"/><hi rend="spaced">Klageantwortung</hi>
+            <lb xml:id="uuid_6d0830df-c5f7-4d9a-9e35-05e6e618a673"/>erstattet: </p>
+         <p xml:id="uuid_c7b7ba08-d7ac-4fa3-a690-76df6adf7a58">
+            <lb xml:id="uuid_7849dd4e-e151-4b25-a164-30b47f365e9d"/>I. </p>
+         <p xml:id="uuid_d5395168-96c9-499a-8893-22f2c4e7bf89">
+                <lb xml:id="uuid_5e162d32-35bd-4c80-81b8-70c5240e6f89"/>Die bei der ersten
+                Tagsatzung eingewendete örtliche<lb
+                    xml:id="uuid_cb109749-2e8e-4e60-978f-d329f0ed8af6"/>Unzuständigkeit ist gegeben,
+                weil die Parteien des <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-005-000" subtype="legal-doc"
+                        >Aufführung<lb xml:id="uuid_3bc08415-b771-40a5-954f-167bd3edc2e4" break="no"
+                    />Vertrages vom 23.V.29</rs> Mitglieder der Vertragsorganisation,<lb
+                    xml:id="uuid_18923814-2567-443a-9fdf-8855179b9f48"/><rs type="institution"
+                    ref="#29769">Deutscher Bühnen Verein</rs> einerseits und <rs type="institution"
+                    ref="#36953">Vereinigung deutscher<lb
+                        xml:id="uuid_4b5fec93-dd6c-4a6e-8387-afd82c2f986e"/>Bühnenverleger</rs>
+                andererseits sind und daher der Tarifvertrag<lb
+                    xml:id="uuid_62ba8d03-6d43-4e3a-a862-01201b505a1d"/>gilt, der zwischen dem <rs
+                    type="institution" ref="#29769">Deutschen Bühnen Verein</rs>, dem <rs
+                    type="institution" ref="#36964">Verban<lb
+                        xml:id="uuid_a7e5f55b-9647-4987-b88c-8d41bb6fa949" break="no"/>der der
+                    deutschen Bühnenschriftsteller und Bühnen Komponisten</rs>
+                <lb xml:id="uuid_b1773aa5-3ded-4421-a998-fe5ce3b1d151"/>und der <rs
+                    type="institution" ref="#36953">Vereinigung der Bühnenverleger</rs>
+                abgeschlossen wurde. </p>
+         <p xml:id="uuid_3427ce80-ed12-417a-8cb1-f0250f6da2ff">
+            <lb xml:id="uuid_d63995fc-8786-4a48-ab63-b7fb20aee4e5"/>In diesem Tarifvertrag
+                heisst es: im § 9, Ziffer 1: </p>
+         <p xml:id="uuid_e33276d8-e869-4b31-98d1-2c9e17bd1758">
+                <lb xml:id="uuid_fe096426-725c-403e-b039-e63f1d34a5a8"/>„<quote
+                    xml:id="uuid_971463f5-e931-4c65-923c-24bf600e7b24" source="">Alle Streitigkeiten
+                    aus Ausführungsverträgen und über<lb
+                        xml:id="uuid_33b4e0c2-8fe6-4292-99e4-802b272dd7e9"/>Aufführungsverträge
+                    zwischen Mitgliedern der vertragschlies<lb
+                        xml:id="uuid_1da7c954-684b-4fdc-9889-2ea495dd401c" break="no"/>senden
+                    Verbände entscheiden unter Ausschluss des ordentli<lb
+                        xml:id="uuid_85671027-7039-4ae6-a7e5-1b992d829f49" break="no"/>chen
+                    Rechtsweges die von den vertragsschliessenden Verbän<lb
+                        xml:id="uuid_e8a23742-d5de-4aa3-9683-b8a7a9c66a9e" break="no"/>den
+                    eingesetzten <rs type="institution" ref="#36795">Schiedsgerichte in Berlin</rs>
+                    und <rs type="institution" ref="#36797">Wien</rs>.<lb
+                        xml:id="uuid_2b95e838-e878-49a2-8369-6d3b1392b3cb"/>Zuständig ist das
+                    Schiedsgericht des Landes, in welchem der<lb
+                        xml:id="uuid_aa61cd38-f137-4e43-9fb2-7c3bc27009f4"/>Beklagte zur Zeit der
+                    Klageerhebung seinen Wohnsitz oder<lb
+                        xml:id="uuid_c1319112-f37b-4714-a935-2459aaf6cff1"/>seine Betriebsstätte
+                    oder in Ermanglung dieser, seinen Auf<lb
+                        xml:id="uuid_39c6adb5-f5a8-4c26-a477-f65b514d96ac" break="no"/>enthalt
+                    hat</quote>“. </p>
+         <p xml:id="uuid_4e63d297-9845-4aac-92e2-95ba35ab4472">
+            <lb xml:id="uuid_afc0a2a1-645c-4ec0-ba9d-74776475bfe1"/>Ist die Bestimmung dieses
+                Tarifvertrages, der am<lb xml:id="uuid_5ad19e33-5ee0-4ed9-904b-665c176a126a"/>12.11.30 zwischen den bereits erwähnten Vertragspartnern ab<lb xml:id="uuid_0cbeb406-91ed-4f23-971f-7ad705aa8be5" break="no"/>geschlossen
+                wurde, sind also beide Teile, sowohl Kläger als auch<lb xml:id="uuid_a33ccd1c-cf70-404e-a1f3-b0e9e72d9e95"/>Beklagter als Mitglieder der
+                beiden Vertragsorganisationen<lb xml:id="uuid_2b8dba68-65ac-4de7-83b3-316f3229ce50"/>gebunden, sodass der <rs type="institution" ref="#43724">klägerische Verlag</rs>
+                in <rs type="place" ref="#168">Berlin</rs> hätte klagen<lb xml:id="uuid_9cc15bf5-6105-4000-adfe-8dc1a86f100d"/>müssen. </p>
+         <p xml:id="uuid_916622d4-70f5-4179-947e-7d6b9de0c9d8">
+            <lb xml:id="uuid_5d84afc6-d9a9-4396-a1ff-0b4b16330e6e"/>Dies hat der <rs type="institution" ref="#43724">klägerische Verlag</rs> auch getan und die<lb xml:id="uuid_d0db68cc-7afe-4098-a0fe-c42b7d2d1f42"/>Zuständigkeit des <rs type="institution" ref="#36795">Berliner Schiedsgerichtes</rs> wortwörtlich in
+                    der<lb xml:id="uuid_20911041-d2aa-4fe4-bdc8-957da34a5202"/><rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-073-000"
+                subtype="legal-doc">Klage an dieses Gericht</rs> wie folgt begründet: </p>
+         <p xml:id="uuid_7c537499-ac3b-4f0e-993c-1e285bbc366d">
+                <lb xml:id="uuid_d44dfe3e-b0c4-48f1-a1b3-fe812356c39d"/>„<quote
+                    xml:id="uuid_e0c95222-d745-4d70-9dc7-ae5c70e2b6b2" source="#D_000125-073-000"
+                    >Der <rs type="institution" ref="#43724">Verlag ‚Die Fackel‘</rs> ist Mitglied
+                    der <rs type="institution" ref="#36953">Vereinigung<lb
+                            xml:id="uuid_1db942e3-26aa-440d-b9ff-f6c93daf99a4"/>der Bühnenverleger
+                        E.V.</rs> Der zwischen den Parteien abge<lb
+                        xml:id="uuid_2e3e4627-b585-440c-8504-a236a483068d" break="no"/>schlossene
+                    Aufführungsvertrag unterliegt den Bestimmungen<lb
+                        xml:id="uuid_83b285b1-80fd-4782-8ee9-623c6c63dbd7"/>des Tarifvertrages
+                    zwischen dem <rs type="institution" ref="#29769">Deutschen Bühnenverein</rs>
+                    <lb xml:id="uuid_9d996a64-b1d4-45cc-bf55-a838a1bc4a14"/>dem <rs
+                        type="institution" ref="#36964">Verbande Deutscher Bühnenschriftsteller</rs>
+                    etc. vom 12.II.<lb xml:id="uuid_dc30dc98-6782-4f71-b417-943e17b803ad"/>30.
+                    Hieraus folgte Zuständigkeit des <rs type="institution" ref="#36795">angerufenen
+                            Gerich<lb xml:id="uuid_3cecb5f0-ca56-407f-bf2c-50bf68348793" break="no"
+                        />tes</rs> (Bühnen Schiedsgericht Berlin)</quote>“ </p>
+         <p xml:id="uuid_0224450e-8e52-47a1-b7ae-c70a665063e1">
+            <lb xml:id="uuid_0adacabe-d9ff-4ffd-96fa-e042b3d45a85"/><hi rend="underlined"><hi rend="spaced">Beweis</hi>:</hi> Der Tarifvertrag vom 12.II.30. </p>
+         <pb xml:id="D_000125-116-000_p003"
+             n="3"
+             facs="#D_000125-116-000-facs001-l002-p003"/>
+         <p xml:id="uuid_556bc025-5adf-421f-8d9d-3a9654d51082">
+            <lb xml:id="uuid_799f1e3f-9a9d-4c33-9531-041cbc154a70"/>Die <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-073-000"
+                subtype="legal-doc">vom <rs type="institution" ref="#43724">klägerischen Verlag</rs> beim <rs type="institution" ref="#36795">Bühnenschieds<lb xml:id="uuid_fecc8b29-303b-4a9f-a5dd-881fb724e9f6" break="no"/>gericht
+                        in Berlin</rs> vorzulegende Klage</rs>.<lb xml:id="uuid_586db802-d980-46b6-a16f-f171f4445ebf"/>Parteienvernehmung. </p>
+         <p xml:id="uuid_b2e8426e-0554-453a-aa24-1d9f6af68c22">
+                <lb xml:id="uuid_7d919ef6-d252-4deb-971c-5bddde2e0f17"/>Der <rs type="institution"
+                    ref="#43724">klägerische Verlag</rs> hat über Einwendung der <rs type="person"
+                    ref="#38954">be<lb xml:id="uuid_6167af3f-9e14-4fd2-a9f9-f34a53a49073" break="no"
+                    />klagten Bühnenleitung</rs> die <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-073-000" subtype="legal-doc"
+                    >Klage beim <rs type="institution" ref="#36795">Bühnenschiedsgericht<lb
+                            xml:id="uuid_9b5a63f3-17e2-40ad-81d4-db956b2ea18f"/>in Berlin</rs></rs>
+                zurückgenommen, wobei jedoch diese Rücknahme<lb
+                    xml:id="uuid_ed6bf6ea-f3fa-429e-8212-b2e20435caf4"/>der <rs type="work"
+                    subtype="legal-doc" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-073-000"
+                    >Klage</rs> nicht wegen Unzuständigkeit des <rs type="institution" ref="#36795"
+                    >Gerichtes</rs> erfolgt<lb xml:id="uuid_2f30c134-c2b0-485b-9bb8-5d7fa35a28bd"
+                />ist, sondern hauptsächlich wegen <hi rend="underlined"
+                    hand="#D_000125-116-000-hand01">absoluter Nichtigkeit</hi> des<lb
+                    xml:id="uuid_7ac078dc-a7ec-49cd-9dd7-524f1dc78dce"/>Aufführungsvertrages. </p>
+         <p xml:id="uuid_0c098f6b-54d8-4c44-b1ee-0dda7c5fa7b2">
+                <lb xml:id="uuid_eb539b79-a962-4a3d-b7e0-6bdeaa8caf77"/>Jedenfalls ist die
+                Zurücknahme der <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-073-000" subtype="legal-doc"
+                    >Klage</rs> seitens<lb xml:id="uuid_cc26faeb-080a-44b6-8090-929071a4498a"/>des
+                    <rs type="institution" ref="#43724">klägerischen Verlages</rs> noch kein
+                Präjudiz für die effek<lb xml:id="uuid_bf6055e5-9bac-4bc8-9cb9-259cbd2950e1"
+                    break="no"/>tive Unzuständigkeit des <rs type="institution" ref="#36795"
+                    >Berliner Bühnen-Schiedsgerichtes</rs>, da<lb
+                    xml:id="uuid_79f5ac48-37de-4019-a388-aa0216aebb5d"/>der Tarifvertrag vom
+                12.II.30 die Zuständigkeit des <rs type="institution" ref="#36795">Bühnen<lb
+                        xml:id="uuid_02f610cc-5d57-47f7-b404-3102b0b8b387" break="no"
+                    />Schiedsgerichtes in Berlin</rs> ausdrücklich normiert. </p>
+         <p xml:id="uuid_beda702b-3b67-4b13-9f49-d58ad247e166">
+            <lb xml:id="uuid_cb1484a3-0de5-48b9-8977-b4ed1c3c0af4"/>Die örtliche Unzuständigkeit
+                des <rs type="institution" ref="#36844">Landesgerichtes<lb xml:id="uuid_e1c8e64a-2654-4111-b3cd-df68d9471755"/>für Z.R.S. in Wien</rs>
+                erscheint damit voll und ganz bewiesen. </p>
+         <p xml:id="uuid_5b60670b-221e-4176-8d1f-92b9ce9f0e72">
+            <lb xml:id="uuid_dd925558-4081-42c2-b8c6-e0d6145af531"/>I. b) </p>
+         <p xml:id="uuid_3bfc4bdf-29ef-4e08-ae32-fda8face34f0">
+            <lb xml:id="uuid_42ef9a1b-d477-4bac-913f-484505b8d63a"/>Ganz abgesehen jedoch von
+                der örtlichen Unzuständig<lb xml:id="uuid_82c2d24a-b6a1-4439-81a9-d76e7279f8c0" break="no"/>keit liegt auch die sachliche Unzuständigkeit oder richtig aus<lb xml:id="uuid_9cf3ff1c-9181-4279-8efe-8363ec7045f2" break="no"/>gedrückt
+                Unzulässigkeit des Rechtsweges vor, weil laut dem<lb xml:id="uuid_9f3e6dfd-bcfd-48b0-95d5-b6f5a7d31cd8"/>zwischen der <rs type="institution" ref="#43724">Klägerin</rs> und der <rs type="person" ref="#38954">beklagten Bühnenleitung</rs> abgeschlos<lb xml:id="uuid_3b7d9ec0-3b51-4636-b2db-9421fa228ff5" break="no"/>senen <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-005-000"
+                subtype="legal-doc">Aufführungsvertrage vom 23.V.29</rs> es im Punkt VIII.)<lb xml:id="uuid_fab6c5e0-a3ed-49a2-8994-788c620a2c77"/>2. Absatz heisst: </p>
+         <p xml:id="uuid_b675cf00-fd81-4729-a403-463f2ca43079">
+            <lb xml:id="uuid_a681c911-4439-49bb-8879-c6a7219b3a5f"/>„<quote xml:id="uuid_826f7c46-e669-48fe-906d-32cabe5568f8"
+                   source="#D_000125-005-000">Die zwischen den Mitgliedern des <rs type="institution" ref="#29769">Bühnen
+                        Vereins</rs>, dem<lb xml:id="uuid_597d7620-085a-4eb6-a2ba-78de2cb55fa3"/><rs type="institution" ref="#36964">Verbande Deutscher Bühnenschriftsteller und
+                        Bühnen Kompo<lb xml:id="uuid_f7fa1deb-2c38-401c-b1f4-89664a77f2e1" break="no"/>nisten E.V.</rs> und der <rs type="institution" ref="#36953">Vereinigung der Bühnenverleger</rs> verein<lb xml:id="uuid_ab7b4c61-5ff5-442a-b6c6-ec567ba0e042" break="no"/>barten
+                    ‚allgemeinen Bestimmungen für den Geschäftsverkehr‘<lb xml:id="uuid_fc401906-b27e-4baf-bd5c-dc3515614249"/>bilden einen
+                    wesentlichen Bestandteil dieses Vertrages.</quote>“ </p>
+         <p xml:id="uuid_7e4e7273-7552-4655-be74-968a397e742e">
+            <lb xml:id="uuid_a1b734b9-282e-42bf-91e9-f60b05ee4f14"/>Wenn aber die allgemeinen
+                Bestimmungen für den Ge<lb xml:id="uuid_e871fe00-a36f-41ea-bfc9-23c52a95c390" break="no"/>schäftsverkehr als wesentliche Bestandteile des <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-005-000"
+                subtype="legal-doc">Aufführungs<lb xml:id="uuid_d15ab334-4a6f-4d3e-861c-648e065c9044" break="no"/>vertrages</rs> gelten, so gilt auch der § 10 dieser
+                    Bestimmungen.<lb xml:id="uuid_f350b207-6c2c-46eb-8f05-37c7ca8794b7"/>Dortselbst
+                heisst es: </p>
+         <p xml:id="uuid_7c3b7490-d3b9-4942-8ea8-a50451ee4069">
+                <lb xml:id="uuid_4ea01036-1ada-47a9-908a-e774ce738832"/>„<quote
+                    xml:id="uuid_439ccdb5-45e0-4820-ae9c-a8d0285d68aa" source="#D_000125-005-000">§
+                    10 Aenderungen, Gerichtsstand.<lb
+                        xml:id="uuid_ed52fea3-742e-4abc-87b6-8e49a4dd63c3"/>Abänderungen des
+                    Vertrages und Nebenabreden haben nur Gül<lb
+                        xml:id="uuid_50bec787-a9f0-42ed-ab0f-3aa709e8c35a" break="no"/>tigkeit, wenn
+                    sie schriftlich vereinbart sind. Als Gericht<lb
+                        xml:id="uuid_c93f64a2-e6e3-4f3d-b1e2-48c19d2de923" break="no"/>stand gilt
+                    das zwischen den vertragsschliessenden Parteien<lb
+                        xml:id="uuid_f487a6e6-c2a8-4819-a687-b3a0901260c8"/><rs type="institution"
+                        ref="#36795"><hi rend="underlined"><hi rend="spaced">vereinbarte</hi>
+                            Schiedsgericht</hi></rs>.</quote>“ </p>
+         <pb xml:id="D_000125-116-000_p004"
+             n="4"
+             facs="#D_000125-116-000-facs001-l002-p004"/>
+         <p xml:id="uuid_5a587d4b-b711-4ede-bcfb-e9bb99c85b24">
+            <lb xml:id="uuid_d66301a9-b471-4403-97c7-410c99b85fc6"/>Wenn also schon auf Grund
+                der urkundlichen<lb xml:id="uuid_e1531d29-33ff-435b-b0e5-30a280a4ead1"/>Vereinbarung
+                des Erfüllungsortes <rs type="place" ref="#50">Wien</rs> als Gerichtsstand gilt,<lb xml:id="uuid_da1dbaa4-a760-4ecb-bc8b-8e0a7f069dc8"/>was, wie noch näher
+                ausgeführt werden wird, begründeter<lb xml:id="uuid_5511acd3-bd0e-4a4d-b14a-edcaecece7fa"/>Massen ganz entschieden
+                bestritten wird, wäre lediglich<lb xml:id="uuid_ec3a2822-3211-45e6-9783-202445dc7ca9"/>das <rs type="institution" ref="#36797">Bühnenschiedsgericht in Wien</rs> für diesen Rechtsstreit zu<lb xml:id="uuid_24fda82a-429d-4641-886f-3ee5f12bd47d" break="no"/>ständig. Das
+                ordentliche Gericht ist eben durch den unter<lb xml:id="uuid_047d49cf-7d49-4e58-a154-26e0ad026e47"/>Punkt I a) erwähnten
+                Tarifvertrag laut Punkt IX., Ziffer 1.<lb xml:id="uuid_1295768b-17ab-4180-b098-3390be5f8a21"/><hi rend="underlined">jedenfalls</hi>; ausgeschlossen, weil sowohl die <rs type="institution" ref="#43724">Klägerin</rs> wie die<lb xml:id="uuid_be301982-d7c8-4f47-802e-4024be8edcec"/><rs type="person" ref="#38954">beklagte Bühnenleitung</rs> in diesem Tarifvertrage gebunden
+                    sind.<lb xml:id="uuid_1d18c1ed-b00e-4c5c-aa6b-184490ab8382"/>Wenn also schon die
+                Vereinbarung des Erfüllungsortes <rs type="place" ref="#50">Wien</rs> im<lb xml:id="uuid_c4e02bb2-5ae2-4cca-83c6-a9a71f9c1b26"/>Sinne des § 10 I. Absatz der
+                allgemeinen Geschäftsbedingungen<lb xml:id="uuid_ae989b1d-37b9-4e50-bd0e-96ecb103214b"/>erlaubt ist, so nur in der
+                Richtung, dass eben statt des<lb xml:id="uuid_6bb1f482-2d35-4e69-a2d0-1a64d4f43518"/><rs type="institution" ref="#36795">Schiedsgerichtes Berlin</rs> das <rs type="institution" ref="#36797">Bühnenschiedsgericht in Wien</rs>
+            <lb xml:id="uuid_e95782af-e779-47e0-948a-1de0f314f627"/>zuständig ist. </p>
+         <p xml:id="uuid_1c28c59a-55db-4c45-b7e1-3f34fbea8c44">
+            <lb xml:id="uuid_91a12152-95ec-4d31-a972-6b781f0393de"/><hi rend="underlined"><hi rend="spaced">Beweis</hi>:</hi> Die allgemeinen Bestimmungen für den<lb xml:id="uuid_3f3525f2-c481-4157-a7ae-6e22f9c2a5f7"/>Geschäftsverkehr zwischen
+                den Mitglie<lb xml:id="uuid_8acd4334-cd45-4bca-9d48-b0ec5e15238c" break="no"/>dern
+                des <rs type="institution" ref="#29769">Deutschen Bühnen Vereins</rs> etc.<lb xml:id="uuid_6d7f8486-0694-4f31-a20b-26a0e282ee83"/>vom 31.XII.24, Tarifvertrag
+                vom 12.III.<lb xml:id="uuid_5ae752b5-7c80-4c50-bd3e-e6634e395f60"/>30;
+                Parteienvernehmung. </p>
+         <p xml:id="uuid_a8371677-09e7-4b24-894d-83921b42b56e">
+                <lb xml:id="uuid_51157cfa-e0df-45b2-8c65-cb175e04f6e9"/>Ueberdies ist die Klausel
+                des § 9 <rs type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-005-000"
+                    subtype="legal-doc">Aufführungs<lb
+                        xml:id="uuid_5f67878a-7f47-4f8c-b293-d7165fbe5060" break="no"/>vertrages vom
+                    23.V.29</rs>: Erfüllungsort <rs type="place" ref="#50">Wien</rs> ein Unding,
+                    weil<lb xml:id="uuid_ed8c945b-07a1-4802-af84-0eb11a3f8c51"/>nach der Absicht der
+                Parteien und nach den Bestimmungen des<lb
+                    xml:id="uuid_87332722-ebec-4a8b-8686-16cd7d6cbbc5"/>Vertrages der Vertrag gemäss
+                § 2 seitens der <rs type="institution" ref="#34987">Beklagten</rs> in<lb
+                    xml:id="uuid_04182f51-cb6a-4667-af64-ae30ff450c23"/><rs type="place" ref="#146"
+                    >Frankfurt a/Main</rs> zu erfüllen war. </p>
+         <p xml:id="uuid_6f64031f-3379-4673-b617-0b1c9219a1cc">
+            <lb xml:id="uuid_33b4e5a0-921d-4f2c-9a29-0828be89be54"/>Das was der <rs type="institution" ref="#43724">klägerische Verlag</rs> offenkundig mit<lb xml:id="uuid_6ec9c5a1-0164-4217-8fd8-2c0815137119"/>diesen § 9 des <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-005-000"
+                subtype="legal-doc">Vertrages</rs> erreichen <hi rend="underlined" hand="#D_000125-116-000-hand02">wollte,</hi> war die Vereinba<lb xml:id="uuid_ac588199-bdfa-45e6-aec1-0770a37767df" break="no"/>rung des
+                Gerichtsstandes <rs type="place" ref="#50">Wien</rs> gemäss <rs type="law"
+                ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1895&amp;page=387&amp;size=45">§ 104 J.N.</rs> aber nicht<lb xml:id="uuid_143e41ce-1995-4869-84fd-19a31be9deb9"/>die Vereinbarung des Gerichtsstandes des Erfüllungsortes<lb xml:id="uuid_ada55736-51eb-40f8-a4c6-58bddac21015"/>gemäss <rs type="law"
+                ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1895&amp;page=385&amp;size=45">§ 88 J.N.</rs>, denn nach Uebereinkunft der Parteien war<lb xml:id="uuid_a0d69ac0-1237-4398-8f42-a01aca133241"/>der Vertrag von der <rs type="person" ref="#38954">beklagten Bühnenleitung</rs> nicht in <rs type="place" ref="#50">Wien</rs>,<lb xml:id="uuid_83a84745-371e-47c4-ad34-58b92573c4d1"/>sondern in <rs type="place" ref="#146">Frankfurt a/Main</rs> zu erfüllen. </p>
+         <p xml:id="uuid_fb96bfa7-9913-4be5-8501-8271990b618b">
+                <lb xml:id="uuid_1d562100-9d81-488c-8a2e-486380d7290c"/>Die <rs type="institution"
+                    ref="#34987">beklagte Partei</rs> ist auch ihrer Aufführungs<lb
+                    xml:id="uuid_b76e98c6-370a-4602-8c03-9584f19e82b5" break="no"/>pflicht als
+                essentielle Vertragsverpflichtung und Hauptver- <pb xml:id="D_000125-116-000_p005"
+                    facs="#D_000125-116-000-facs001-l003-p005" n="5"/>
+                <lb xml:id="uuid_31fc06fa-74b2-499b-b53b-ba54f98c3ded"/>bindlichkeit voll und ganz
+                nachgekommen. Es ist also ganz<lb xml:id="uuid_d3be165a-71ce-4b3d-b8c9-26efed252f18"
+                />abgesehen von der Unzulässigkeit des Rechtsweges, der<lb
+                    xml:id="uuid_e8a14a5d-6eb4-4fbc-9bf3-86c10c47a9b6"/>Gerichtsstand gemäss <rs
+                    type="law"
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1895&amp;page=385&amp;size=45"
+                    >§ 88 J.N.</rs> nicht gegeben und in <hi rend="underlined">Ermanglung<lb
+                        xml:id="uuid_a8bd1f92-cbd9-4c74-996e-b497a27d65e6"/>einer
+                    Gerichtsstands-Klausel gemäss <rs type="law"
+                        ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1895&amp;page=387&amp;size=45"
+                        >§ 104 J.N.</rs> Jedenfalls<lb
+                        xml:id="uuid_389fadb3-3879-4470-af14-7f7de8855ebd"/>der Wohnsitz der <rs
+                        type="institution" ref="#34987">Beklagten</rs> für die Bestimmung des
+                        Gerichts<lb xml:id="uuid_11a741a8-2174-4a54-8118-e8370c7fbf43" break="no"
+                    />standes massgebend</hi> . </p>
+         <p xml:id="uuid_22caf3a2-c438-47b3-9bd5-a3b48f38f49b">
+            <lb xml:id="uuid_7c2440e3-a880-4ba7-8c8a-441581627a89"/><hi rend="spaced">Beweis</hi>: Der <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-005-000"
+                subtype="legal-doc">Vertrag vom 23.V.29</rs>
+            <lb xml:id="uuid_20e9d99b-7858-452b-b412-6f67a5e09c65"/>Parteienvernehmung. </p>
+         <p xml:id="uuid_9a59d360-3d84-40e3-803b-90010831fc2f">
+            <lb xml:id="uuid_59ba1a3e-733a-46ae-b304-e2e8d248f96a"/>II. </p>
+         <p xml:id="uuid_05edab48-050f-4992-90d6-884307163046">
+            <lb xml:id="uuid_2b72590c-c526-476b-a2cb-cb65a231c0b7"/>In der Sache selbst werden
+                sämtliche Klagsangaben<lb xml:id="uuid_4f51f821-2e4c-497d-8c49-7369e6521898"/>soweit
+                sie im Nachfolgenden nicht ausdrücklich zugegeben<lb xml:id="uuid_b4fcd29f-91b7-4a7e-81ff-55be953ebf8e"/>werden, bestritten </p>
+         <p xml:id="uuid_77917ff0-63ff-4ab2-b174-885cd75eb898">
+            <lb xml:id="uuid_f872352c-096f-4729-a6f0-904442cfae99"/>Zwecks übersichtlicher
+                Lösung der einzelnen stritti<lb xml:id="uuid_fa85bd77-85e3-4460-9d58-437729f9d521" break="no"/>gen Fragen, sei folgende Unterteilung vorgenommen: </p>
+         <p xml:id="uuid_baf208ce-e7d3-4ca8-a39e-aaef6e9bc075">
+            <lb xml:id="uuid_25024b45-4174-459c-a5ce-c33889955f27"/>1.) Mit welchen Abänderungen
+                ist der <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-005-000"
+                subtype="legal-doc">Aufführungsver<lb xml:id="uuid_bbe555bc-c632-471b-8936-69002f1f865d" break="no"/>trag vom
+                    23.V.29</rs> endgültig in Kraft getreten? </p>
+         <p xml:id="uuid_a9fb3f16-aeac-43bc-b619-01e0c0a8495a">
+            <lb xml:id="uuid_2a2885bc-0c66-4335-b565-9548d24c6b53"/>2.) Ist das klägerische
+                Begehren auf eine Konventional<lb xml:id="uuid_54aa7a65-26a7-49e5-80eb-ca0a89eebc36" break="no"/>strafe von Mk 2.000.– berechtigt? </p>
+         <p xml:id="uuid_3f5cac92-8c2c-4f84-bee3-0c755a68c960">
+            <lb xml:id="uuid_32bff7f8-75f9-48ca-a8fa-b76a99e1f355"/>3.) Ist Punkt II. des
+                Klagebegehrens formell und ma<lb xml:id="uuid_8785611a-90b7-4660-89d2-ea3ca8a9cc38" break="no"/>teriell begründet? </p>
+         <p xml:id="uuid_b2dc6b76-3fb2-45a1-a0e4-2fb7c0c32bf0">
+                <lb xml:id="uuid_36b42824-cf24-4604-8ca3-017b9e670fac"/>4.) Ist Rechnungslegung
+                seitens der <rs type="institution" ref="#34987">Beklagten</rs> erfolgt? </p>
+         <p xml:id="uuid_a2f82003-8d96-4e4a-9815-00460ab45d31">
+                <lb xml:id="uuid_99fba1e3-ad38-418a-9de7-2e690d5dc860"/>Richtig ist, dass die <rs
+                    type="institution" ref="#34987">Beklagte</rs> mit dem <rs type="institution"
+                    ref="#43724">klägerischen<lb xml:id="uuid_6f94480d-a110-4ccd-a1ea-a8d5f8255965"
+                    />Verlage</rs> den <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-005-000" subtype="legal-doc"
+                    >Vertrag vom 23.V.29</rs> abgeschlossen hat, der dann<lb
+                    xml:id="uuid_5abe5cd6-ab63-4460-bf78-3318edadc77c"/>durch das <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-040-000" subtype="legal-doc"
+                    >Schreiben des <rs type="person" ref="#38909">Anwaltes der <rs
+                            type="institution" ref="#43724">klagenden Partei</rs></rs> vom<lb
+                        xml:id="uuid_426defec-96f6-4f5e-a7d4-7a550298d050"/>30.I.</rs>, <rs
+                    type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-041-000"
+                    subtype="legal-doc">3.II.</rs> und <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-045-000" subtype="legal-doc"
+                    >3.III.31</rs> und die <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-042-000" subtype="legal-doc"
+                    >Antwortschreiben des Theater<lb
+                        xml:id="uuid_2d7dc129-1ac4-447a-9a8c-4d2b623c6af2" break="no"/>Direktors der
+                    beklagten Bühnenleitung, <rs type="person" ref="#38954">Dr. Kronacher</rs> vom
+                    9.II.</rs>,<lb xml:id="uuid_b17c60f7-d2e5-49e6-bcc8-822137fca560"/><rs
+                    type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-044-000"
+                    subtype="legal-doc">25.II.</rs> und <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-046-000" subtype="legal-doc"
+                    >12.III.31</rs> eine Abänderung erfahren hat. </p>
+         <p xml:id="uuid_fc2a61f1-efc9-4ef8-a056-3e556d63947d">
+                <lb xml:id="uuid_16319962-c405-4491-946b-e71010cf5ad0"/>Hier sei nur auf die
+                naturgemässe wichtigste Abän<lb xml:id="uuid_60678b7f-fe4b-4d87-a29b-299e332a24fc"
+                    break="no"/>derung des <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-005-000" subtype="legal-doc"
+                    >Vertrages vom 23.V.29</rs> eingegangen, und zwar auf<lb
+                    xml:id="uuid_90899f4e-0b61-423b-b22b-345c5ecdf26c"/>die beiderseitigen <rs
+                    type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-045-000"
+                    subtype="legal-doc">Schreiben vom 3.III.31 des <rs type="person" ref="#38909"
+                        >Anwaltes</rs></rs> der <pb xml:id="D_000125-116-000_p006"
+                    facs="#D_000125-116-000-facs001-l003-p006" n="6"/>
+                <lb xml:id="uuid_e5f569fd-ce70-40cc-b159-974eeafe941a"/><rs type="institution"
+                    ref="#43724">klagenden Partei</rs> und auf das <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-046-000" subtype="legal-doc"
+                    >Schreiben vom 12.III.31 sei<lb
+                        xml:id="uuid_401386d8-5c7c-4fe2-9d2b-81d1ffef1020" break="no"/>tens der <rs
+                        type="person" ref="#38954">beklagten Bühnenleitung</rs></rs>, weil mit
+                diesen beiden Schrei<lb xml:id="uuid_81ae3047-45e9-42b6-9dfa-8053db0f3523"
+                    break="no"/>ben die Vertragsabänderungsverhandlungen beendet wurden. </p>
+         <p xml:id="uuid_f2fe1e6b-4f74-4127-875a-79168ea2180c">
+                <lb xml:id="uuid_f3f585f6-b39d-4771-87c0-62ff2124076f"/>Das <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-045-000" subtype="legal-doc"
+                    >Schreiben des <rs type="person" ref="#38909">Anwaltes der <rs
+                            type="institution" ref="#43724">klagenden Partei</rs></rs>
+                    <lb xml:id="uuid_e41756a9-ecae-46bf-b33d-998347e33c2c"/>vom 3.III.31</rs> stellt
+                sich juristisch als eine Offerte dar.<lb
+                    xml:id="uuid_2c8f2c29-a541-4f41-9f0a-92a526512949"/>Die <rs type="person"
+                    ref="#38954">beklagte Bühnenleitung</rs> hat dieses Vertragsanbot innerhalb<lb
+                    xml:id="uuid_ff78d839-8441-454f-9828-a5389f6c0794"/>der Erklärungsfrist nicht
+                mit einem vorbehaltlosen „einver<lb
+                    xml:id="uuid_a6f20f8c-8b8a-43a7-8b5e-03b517c05fcb" break="no"/>standen“, sondern
+                mit einer neuen Offerte beantwortet.<lb
+                    xml:id="uuid_905b7dea-1e04-4735-8d1b-88d22f186acc"/>Dies geht aus dem <rs
+                    type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-046-000"
+                    subtype="legal-doc">Schreiben der <rs type="person" ref="#38954">beklagten
+                        Bühnenleitung</rs> vom<lb xml:id="uuid_44f5fa71-558e-4b21-8004-fc190dde4485"
+                    />12.III.31</rs> einwandfrei hervor. Der Inhalt des <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-045-000" subtype="legal-doc"
+                    >Briefes des <rs type="person" ref="#38909">An<lb
+                            xml:id="uuid_d4b3f034-4381-4215-a8e4-cc36543c856a" break="no"/>waltes
+                        der <rs type="institution" ref="#43724">klagenden Partei</rs></rs> vom
+                    3.III.31</rs> wurde von der <rs type="person" ref="#38954">beklagten Bühnen<lb
+                        xml:id="uuid_5cce10cc-4db2-4c56-a13c-e5dc742e3cc3" break="no"/>leitung</rs>
+                nicht zustimmend zur Kenntnis genommen, sondern die<lb
+                    xml:id="uuid_7d468730-b806-4ef1-8ecf-63cd6a352fc5"/><rs type="institution"
+                    ref="#34987">beklagte Partei</rs> erklärt in diesem <hi rend="underlined">Sinne
+                    expressis verbis,<lb xml:id="uuid_8cedbd9a-9b02-430b-ac9b-fc289e798fa1"/>womit
+                    sie einverstanden ist</hi>. </p>
+         <p xml:id="uuid_a0aecacf-c4f9-48e6-a2c0-e5ad60b59aed">
+                <lb xml:id="uuid_41b6887b-a649-4e74-9a43-c9f45103dafc"/>Insoweit sich also der
+                Inhalt des <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-046-000" subtype="legal-doc"
+                    >Briefes der<lb xml:id="uuid_7388ad10-6fd9-4d99-95b4-869cf3984a17"/><rs
+                        type="person" ref="#38954">beklagten Bühnenleitung</rs></rs> mit dem Inhalte
+                des <rs type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-045-000"
+                    subtype="legal-doc">Schreibens des<lb
+                        xml:id="uuid_166cf182-fc7f-4b60-96db-8e51a2cb51f1"/>Klagsanwaltes vom
+                    3.III.31</rs>
+                <hi rend="underlined">nicht deckt</hi>, stellt sich das<lb
+                    xml:id="uuid_ac26c07f-bdb2-4884-8e2a-ed732a1fa396"/><rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-046-000" subtype="legal-doc"
+                    >Schreiben der <rs type="institution" ref="#34987">beklagten Partei</rs></rs>
+                <hi rend="underlined">als neues Vertragsanbot</hi> dar.<lb
+                    xml:id="uuid_9f86162f-a3e8-4930-8a93-081b037b6d8c"/>Insbesondere gilt dies vom
+                Termine zur Aufführungsverpflich<lb
+                    xml:id="uuid_d9f75840-fdf8-4d2f-8157-137fad794f59" break="no"/>tung, den die <rs
+                    type="institution" ref="#34987">beklagte Partei</rs> ausdrücklich in die
+                    nächste<lb xml:id="uuid_cdca94ca-eb3f-4b5d-99da-387a0079b1cc"/>Spielzeit
+                verlegt. </p>
+         <p xml:id="uuid_fc7da957-7d58-41b0-855f-d1059b6d3ae5">
+            <lb xml:id="uuid_862045a8-85f6-4476-85b9-9caf7ac6e004"/>Dass aber unter „<quote xml:id="uuid_92c383b6-a422-4e7b-8768-5b40c58fe32a"
+                   source="#D_000125-046-000">nächste Spielzeit</quote>“ nicht der<lb xml:id="uuid_41b547ed-2e66-4527-aa87-b51d79989717"/>Herbsttermin bis Weihnachten
+                zu verstehen ist, bedarf keiner<lb xml:id="uuid_74993a35-876a-4c5c-ac06-8bd40edae988"/>weiteren Erklärung. </p>
+         <p xml:id="uuid_dab14cfb-97fe-49fc-8951-84542151b988">
+                <lb xml:id="uuid_3000aecc-6aee-47af-b2aa-d8fdb79cf324"/><hi rend="underlined"><hi
+                        rend="spaced">Beweis</hi>:</hi> Die <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-045-000" subtype="legal-doc"
+                    >Briefe des <rs type="person" ref="#38909">Anwaltes der <rs type="institution"
+                            ref="#43724">klagenden<lb
+                                xml:id="uuid_ab5b26b0-0e55-49b7-a2f2-c69135d8eccf"/>Partei</rs></rs>
+                    von 3.III.</rs> und die <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-046-000" subtype="legal-doc"
+                    >Antwort der<lb xml:id="uuid_201cfeb6-fbdc-497d-8bbb-175fdc652e5c"/><rs
+                        type="person" ref="#38954">beklagten Bühnenleitung</rs> vom
+                    12.III.31</rs>.<lb xml:id="uuid_d51be4ea-e546-4032-87ae-a27af846182a"/>Direktor
+                Dr. <rs type="person" ref="#38954">Kronacher</rs>, Direktor des<lb
+                    xml:id="uuid_2588264c-9b99-43a3-a731-0e4fd74ef820"/><rs type="institution"
+                    ref="#34987">Frankfurter Schauspielhauses</rs>, <rs type="place" ref="#146"
+                    >Frankfurt a/M</rs>
+                <lb xml:id="uuid_e42d0a3e-9b32-497a-847d-fef4e8071c8e"/>als Zeuge. </p>
+         <p xml:id="uuid_7f4d65dc-4b4f-419f-bd8f-fde5525157fe">
+            <lb xml:id="uuid_377b75c4-40a9-494e-80e0-02835e4296e1"/>Die <rs type="institution" ref="#43724">klagende Partei</rs> hat auf das <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-046-000"
+                subtype="legal-doc">Schreiben der<lb xml:id="uuid_3bc648bc-3962-4543-a1a5-201757561259"/><rs type="person" ref="#38954">beklagten Bühnenleitung</rs> vom 12.III.31</rs>
+            <hi rend="underlined">nicht mehr geantwortet</hi>.<lb xml:id="uuid_865107b1-4e8d-40c9-88c9-31c75fca0846"/>Gemäss <rs type="law"
+                ref="https://alex.onb.ac.at/cgi-content/alex?aid=jgs&amp;datum=1012&amp;page=577&amp;size=45">§ 863 abGB</rs> konnte also die <rs type="person" ref="#38954">beklagte
+                    Bühnenleitung</rs>
+            <pb xml:id="D_000125-116-000_p007"
+                n="7"
+                facs="#D_000125-116-000-facs001-l004-p007"/>
+            <lb xml:id="uuid_67bd35fd-1878-4c03-8594-0c41e61424c0"/>das Einverständnis der
+                    <rs type="institution" ref="#43724">klagenden Partei</rs> mit dem <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-046-000"
+                subtype="legal-doc">Schreiben<lb xml:id="uuid_3ccba816-c294-44dd-8384-887f485d0a18"/>der <rs type="institution" ref="#34987">Beklagten</rs> vom 12.III.31</rs> annehmen. </p>
+         <p xml:id="uuid_2aea74b7-f3f5-492c-bbb2-a23fc31deea3">
+            <lb xml:id="uuid_0d446435-7cd8-49e5-88fc-548c3b530104"/>Es ergibt sich also, dass
+                der <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-005-000"
+                subtype="legal-doc">Vertrag vom 23.V.<lb xml:id="uuid_cc0d09c1-769c-4b7c-9031-3927faca0ff4"/>29</rs> mit der
+                Abänderung in Wirksamkeit getreten ist, – von dem<lb xml:id="uuid_5bbd9725-44e8-4399-a883-b7f6a9678c1e"/>formellen Mangel der
+                Wirksamkeit dieses Vertrages war bereits<lb xml:id="uuid_a74bb279-9c6c-4ae6-b9f5-3da76bacb85b"/>eingangs die Rede – dass
+                    „<rs type="work" ref="#53397" subtype="pmb">Die Unüberwindlichen</rs>“ in der
+                    näch<lb xml:id="uuid_61607082-5423-4879-8cf6-6b96a8aee251" break="no"/>sten
+                Spielzeit 1931/32 zur Aufführung gelangen. </p>
+         <p xml:id="uuid_99c35a00-7c30-4ae4-8fe9-cb68d733cfd9">
+                <lb xml:id="uuid_b34df492-2656-4aec-a150-c540a812bcf1"/>Die <rs type="institution"
+                    ref="#34987">beklagte Partei</rs> hat sich verpflichtet, den<lb
+                    xml:id="uuid_b53c94fe-f0c3-4939-9a01-9199cb2f34ab"/>definitiven Termin 2 Monate
+                vorher bekanntzugeben, wobei<lb xml:id="uuid_c88622f3-687e-4fe4-84d6-51854f7f3a3c"
+                />gleich hier der Sinn dieser Bestimmung erklärt werden muss.<lb
+                    xml:id="uuid_78b7025c-fc77-40c7-b0a6-e5b6d64c48ec"/>Sinn und Zweck der
+                vorherigen Bekanntgabe der Aufführung mit<lb
+                    xml:id="uuid_267a2d5e-fc6c-4e03-a892-45a7c48ecfd6"/>einem Zeitraume von 2
+                Monaten vor derselben, war die Voraus<lb
+                    xml:id="uuid_03b06f53-36af-46cc-9d77-e2f305ee5a34" break="no"/>setzung, dass dem
+                    <rs type="person" ref="#11988">Autor</rs> die Möglichkeit der Teilnahme an
+                    der<lb xml:id="uuid_e3c59496-8364-4363-9afb-4109e1536e7b"/>Probenarbeit geboten
+                werden sollte. <hi rend="underlined">Nur für diesen Fall</hi> war<lb
+                    xml:id="uuid_14fa07a9-a3cf-4757-819f-294c8b1136c8"/>nach den selbstverständlich
+                geltenden Bühnengewohnheiten die<lb
+                    xml:id="uuid_a3092931-d13b-4eba-9936-215f5f70a2ac" break="no"/>se 2 monatige
+                Frist vereinbart worden und<lb xml:id="uuid_0de44a54-5fda-4b05-8b58-f2411a109577"
+                />für die Nichteinhaltung dieser Bestimmung die Konventional<lb
+                    xml:id="uuid_6b5a21b5-df15-49e2-95a5-9d33a9810d9e" break="no"/>strafe von Mk
+                2.000,– bedungen. De facto war aber an<lb
+                    xml:id="uuid_6eed6229-d0e8-42e6-b317-1d23e13000a5"/>eine Aufführung durch das
+                Ensemble der <rs type="place" ref="#146">Stadt Frankfurt</rs> nicht<lb
+                    xml:id="uuid_2de4e8ea-36a9-4659-bfa1-cb31a6e5bdd4"/>zu denken, wie noch
+                ausgeführt werden wird, und musste daher<lb
+                    xml:id="uuid_7cd6569b-db82-4b95-8e6b-4931511cd32c"/>die Aufführung durch ein
+                Ensemble des <rs type="institution" ref="#37240">Leipziger Komödienhau<lb
+                        xml:id="uuid_71b69045-32a6-4d03-8494-66c28c69c60d" break="no"/>ses</rs>
+                bestritten werden. </p>
+         <p xml:id="uuid_b3727d2a-bd5a-4810-8784-6d215149ae47">
+            <lb xml:id="uuid_fccb2f99-f94b-4993-9c1c-8cf07db6c57f"/>Hier sei unter Beweis
+                gestellt, dass der Autor<lb xml:id="uuid_5408379a-2536-4d73-904b-49be4850b6d7"/><rs type="person" ref="#11988">Karl <hi rend="spaced">Kraus</hi></rs> selbst die
+                Proben des <rs type="institution" ref="#37240">Leipziger Komödienhau<lb xml:id="uuid_852830df-a542-46f1-bf3d-55a50a739d56" break="no"/>ses</rs>
+                hinsichtlich des Stückes „<rs type="work" ref="#53397" subtype="pmb">Die
+                    Unüberwindlichen</rs>“ geleitet<lb xml:id="uuid_f1e9bead-74b4-4859-9527-12271c65b36f"/>hatte, sodass es geradezu
+                sinnlos gewesen wäre, schon 2 Mo<lb xml:id="uuid_0f6ab5d9-9c3d-4386-94b2-b174b1181434" break="no"/>nate vor der
+                Frankfurter Aufführung durch das <rs type="institution" ref="#37240">Leipziger
+                        Komö<lb xml:id="uuid_538f177e-baa9-4b61-ad55-1426f08c3603" break="no"/>dienhaus</rs> den <rs type="person" ref="#11988">Autor</rs> zu verständigen. </p>
+         <p xml:id="uuid_7d8f719c-3226-4281-9402-47e5a7b7fa72">
+            <lb xml:id="uuid_bf134ccf-dbcd-492b-9e67-992d05a9ba36"/>Das Ensemble des <rs type="institution" ref="#37240">Leipziger Kömödienhauses</rs>
+            <lb xml:id="uuid_6714c8bc-8720-4d67-ad0a-295a8d359190"/>führte dann auch „<rs type="work" ref="#53397" subtype="pmb">Die Unüberwindlichen</rs>“ nach den
+                    genauen<lb xml:id="uuid_616fa6df-946b-46c3-a14f-bf471c694d63"/>Verfügungen des
+                    <rs type="person" ref="#11988">Autors</rs> auf, sodass die Voraussetzung für
+                    die<lb xml:id="uuid_f9447444-127b-4c86-911a-36a4faed4ce6"/>Verständigung des <rs type="person" ref="#11988">Autors</rs> 2 Monate vor der Aufführung umso<lb xml:id="uuid_b201ee7d-4dd8-4ffc-9a3a-c61ec7605d20"/>weniger gegeben war, als der
+                    <rs type="person" ref="#11988">Autor</rs> selbst das Ensemble des <pb xml:id="D_000125-116-000_p008"
+                facs="#D_000125-116-000-facs001-l004-p008"
+                n="8"/>
+            <lb xml:id="uuid_444f2112-ff6d-4dde-9bce-e35685be6684"/><rs type="institution" ref="#37240">Leipziger Komödienhauses</rs> einstudierte und die Spielart
+                    dieses<lb xml:id="uuid_36c7c803-19bb-4941-90ea-3ab7ee47edea"/>Ensemble vor der
+                faktischen Aufführung in <rs type="place" ref="#146">Frankfurt</rs> am<lb xml:id="uuid_3cd588cb-e336-44d7-88b2-941459e48dcf"/>10.II.32 genau kannte. </p>
+         <p xml:id="uuid_7018c8d6-4675-4224-aa05-9cf235fe92c3">
+            <lb xml:id="uuid_e2ff0cfc-1796-4118-a961-a2191e3be809"/><hi rend="underlined"><hi rend="spaced">Beweis</hi>:</hi>
+            <rs type="person" ref="#38244">Paul <hi rend="spaced">Verhöven</hi></rs>, <rs type="place" subtype="address" ref="#57067">Frankfurt a/M<lb xml:id="uuid_4b58663c-1d16-42a9-a340-f5f058374a1e"/>Grüner Burgweg 39</rs>
+         </p>
+         <p xml:id="uuid_1b00de38-f749-4e8c-b0cd-98503cb45076">
+            <lb xml:id="uuid_3277c181-957f-482d-aa6d-c16e821d2f36"/><rs type="person" ref="#38954">Dr. <hi rend="spaced">Kronacher</hi></rs>, Direktor des<lb xml:id="uuid_816f7d5f-186f-4414-9141-8374933f43ae"/><rs type="institution" ref="#34987">Frankfurter Schauspielhauses</rs>,<lb xml:id="uuid_9f856f7e-e093-4651-a591-3783cd04f360"/>Sachverständige </p>
+         <p xml:id="uuid_5d3366de-0dd2-4704-b2c4-07e801da314b">
+            <lb xml:id="uuid_cf863495-72f6-4f8a-a774-cd3927ddb5c5"/>ad 2.) </p>
+         <p xml:id="uuid_3b00dbe3-45b9-4041-bf3e-e9416af02010">
+            <lb xml:id="uuid_6a7581f6-4be4-41e0-8edb-f74916e71f9c"/>Schon aus den Ausführungen
+                unter 1.) ergibt sich,<lb xml:id="uuid_e743a6c5-c5f8-4cc4-97e5-e4c37d0cb362"/>dass
+                das Begehren der Konventionalstrafe wegen nicht fristge<lb xml:id="uuid_a2f7c406-459f-42ea-943b-fe9316cc239d" break="no"/>rechter
+                Aufführung überhaupt ins Leere fällt. Hatte doch<lb xml:id="uuid_9ef27ecf-c5dc-4bba-b43d-44a39ddd4500"/>die <rs type="person" ref="#38954">beklagte Bühnenleitung</rs> gemäss § 2 des Aufführungsvertra<lb xml:id="uuid_b30c0431-d0bf-4e12-9d6e-45d9538634c3" break="no"/>ges lediglich die
+                    <hi rend="spaced">Verpflichtung</hi> das Werk<lb xml:id="uuid_d7698256-ff25-4c18-ab9d-68a39f3b5ae8"/>„<rs type="work" ref="#53397" subtype="pmb">Die Unüberwindlichen</rs>“ im <rs type="institution" ref="#34987">städtischen Schauspielhaus in Frank<lb xml:id="uuid_78acd2d0-3fe2-4287-a1f3-86dd833d2c0f" break="no"/>furt a/M</rs>
+                in der nächsten Spielzeit zur Aufführung zu bringen. </p>
+         <p xml:id="uuid_69699790-9c32-427e-94f3-45c1f0c8156a">
+            <lb xml:id="uuid_8be94c59-448c-45d8-be8b-ec0a1cfeec0c"/>Dies ist auch geschehen. </p>
+         <p xml:id="uuid_9e452fec-abb4-40ef-9aab-c4b040af9763">
+            <lb xml:id="uuid_e2b8532e-6e28-4503-9b81-44004b5c521c"/>Das Begehren auf Zahlung der
+                Mk 2.000.– wegen<lb xml:id="uuid_bf52dec5-9db0-4a65-8379-d8778fb6fe34"/>nicht
+                fristgerechter Verständigung, 2 Monate vor der Auffüh<lb xml:id="uuid_9098de6e-fdcf-4b78-af3c-bbecb415e0fc" break="no"/>rung ist aber
+                unbegründet, was im Vorstehenden bereits<lb xml:id="uuid_9ea02a85-e815-4169-aaf4-7be9aa646a71"/>erörtert wurde. </p>
+         <p xml:id="uuid_e6ef192b-0cfd-4090-9013-ab9f0497e760">
+            <lb xml:id="uuid_b576ea97-d520-4e86-a4cc-f8af3eee8ffc"/>Zum Beweis über den Zweck
+                und die Notwendig<lb xml:id="uuid_98eb3080-fd0b-4be6-9a8c-4be1f8bc66b8" break="no"/>keit der vorherigen Verständigung des <rs type="person" ref="#11988">Autors</rs>
+                im Allgemeinen<lb xml:id="uuid_de7750c0-d36c-4b79-9b98-87951cce49f1"/>und die
+                Ueberflüssigkeit der Verständigung 2 Monate vor<lb xml:id="uuid_039a183e-f467-495f-921e-0b8b87850d66"/>der Aufführung im Besonderen
+                gegebenen Falle wird<lb xml:id="uuid_37b5009a-fdfc-4ac6-8313-b2e7f734fc1b"/><hi rend="spaced">beantragt</hi>,<lb xml:id="uuid_64392dd8-a95a-46bb-b28b-4991efda6bda"/>Sachverständige aus der
+                Branche der Bühnen Direktoren zu ver<lb xml:id="uuid_7ed234b8-b383-4cbf-a503-ffe8dadd8711" break="no"/>nehmen, insb.
+                über die Tatsache, dass der <rs type="person" ref="#11988">Autor</rs> über die<lb xml:id="uuid_19de3726-0f73-4af9-8658-a2dc20f36e65"/>Aufführung des <rs type="institution" ref="#37240">Leipziger Komödienhauses</rs> völlig im Bilde
+                    und<lb xml:id="uuid_c91fe544-5b2e-4033-be84-bee47acd8a52"/>mit dieser Aufführung
+                im Grossen und Ganzen einverstanden war,<lb xml:id="uuid_6df47edc-a6e3-4fb5-99b7-c43e1ee90338"/>wird<lb xml:id="uuid_4644ecf5-6967-47a0-a873-cfe65178e517"/><hi rend="spaced">beantragt</hi>
+            <lb xml:id="uuid_05988fab-38d9-4e93-b5d6-4849f9af1db4"/>den Direktor <rs type="person" ref="#38954">Dr. Kronacher</rs>, <rs type="institution" ref="#34987">Frankfurter Schauspielhaus</rs>
+            <pb xml:id="D_000125-116-000_p009"
+                n="9"
+                facs="#D_000125-116-000-facs001-l005-p009"/>
+            <lb xml:id="uuid_08d7a07c-be2b-4e24-aa0c-697a3e0c2c3e"/>und den Regisseur <rs type="person" ref="#38244">Paul <hi rend="spaced">Verhöven</hi></rs> als Zeugen
+                zu ver<lb xml:id="uuid_e58217d4-c92c-47a8-9f92-63c25434305b" break="no"/>nehmen. </p>
+         <p xml:id="uuid_d7639f1f-874d-4b6b-8443-ecf5f277db13">
+            <lb xml:id="uuid_9b151ee5-5703-487f-a537-2caafeb8f16e"/>Beweis: Direktor <rs type="person" ref="#38954">Dr. <hi rend="spaced">Kronacher</hi></rs>, Adresse<lb xml:id="uuid_d61055a2-6f65-4dff-bb70-25f916eac9e9"/>wie oben </p>
+         <p xml:id="uuid_8306ceb4-afc7-497a-b52f-367a1c67cbc1">
+            <lb xml:id="uuid_61117876-3083-4330-9ee7-47f1b22236c8"/><rs type="person" ref="#38244">Paul <hi rend="spaced">Verhöven</hi></rs>, Adresse wie oben<lb xml:id="uuid_2e7274a8-f1b7-4d42-816f-ee629955405d"/>Sachverständige. </p>
+         <p xml:id="uuid_22907268-8232-4297-8fdf-cdb0ac0c43e4">
+            <lb xml:id="uuid_85229de0-aac8-4a55-bc0b-a2ac0bad6a3d"/>Ganz abgesehen jedoch davon,
+                dass die <rs type="institution" ref="#34987">Beklagte</rs>
+            <lb xml:id="uuid_91d30792-acc3-4324-857a-7f9bdfaaffd6"/>angesichts der Aufführung
+                durch ein Ensemble des <rs type="institution" ref="#37240">Leipziger<lb xml:id="uuid_c60a95d6-3650-4609-b8fa-fec8df3edb1c"/>Schauspielhauses</rs>
+                nach den Bühnengewohnheiten gar nicht ver<lb xml:id="uuid_0baf8bba-8b3b-4c2c-9cd9-f4867a91e616" break="no"/>pflichtet war,
+                den <rs type="person" ref="#11988">Kläger</rs> schon 2 Monate vor der Aufführung<lb xml:id="uuid_0f8fab1f-5bbd-4c12-a505-d3a2cd6d98ef"/>zu verständigen, erscheint
+                die, wenn auch für diesen Fall<lb xml:id="uuid_32f61e43-e4f4-4952-8b63-101a33e5e4f3"/>(der Aufführung des Stückes durch Gastspiel-Ensemble) nicht<lb xml:id="uuid_4e7a4cbf-aa0e-4f9d-a6cb-b9572af6bd53"/>vereinbarte
+                Konventionalstrafe in der verlangten Höhe von<lb xml:id="uuid_11770666-a5b1-49d7-ac77-78aeea582bca"/>Mk 2.000.– geradezu horrent,
+                und im Hinblick auf die Schwie<lb xml:id="uuid_003ab37d-97ba-4dca-a474-1b40b4c0e14d" break="no"/>rigkeiten, mit denen die <rs type="person" ref="#38954">beklagte
+                    Bühnenleitung</rs> tatsächlich<lb xml:id="uuid_f614eab4-6d69-41a5-8772-b8f459d5d695"/>die Aufführung durchsetzen
+                musste und in Anbetracht des<lb xml:id="uuid_0d2b5580-23e3-4df6-9890-841f92e9c7a6"/>Schadens, den die <rs type="person" ref="#38954">beklagte Bühnenleitung</rs>
+                hiedurch erlitten<lb xml:id="uuid_b3796a39-449b-4754-a6ca-36c04ec2257c"/>hat, <hi rend="underlined">als übermässig</hi>. </p>
+         <p xml:id="uuid_cf93a6db-7dc4-428c-b30b-4fc49eeecd30">
+            <lb xml:id="uuid_56c230cd-a592-48fd-8999-24f51bd708af"/>Die <rs type="person" ref="#38954">beklagte Bühnenleitung</rs> hat nun ihrer Auf<lb xml:id="uuid_b99df4b3-6566-4e5e-b5d0-e3a4ad2ef5a6" break="no"/>führungsverpflichtung genügt, sofern eine solche überhaupt<lb xml:id="uuid_1afaf445-4a67-4f75-9e96-55e69a9a3236"/>bestanden hat. Das Stück
+                    „<rs type="work" ref="#53397" subtype="pmb">Die Unüberwindlichen</rs>“ ist am
+                    10.II.<lb xml:id="uuid_5326dc35-a79d-461b-bf96-bf389b15e707"/>32 – also in der
+                guten Theaterzeit – mit dem Erfolg aufgeführt<lb xml:id="uuid_2dd48ffe-1ee3-4f60-bf0f-d61b5edbe97d"/>worden, dass die bare
+                Tageseinnahme den Betrag von Mk 141.65<lb xml:id="uuid_5a445069-ce49-48fc-8d39-7bc68e8e1935"/>erbrachte, während allein
+                für das Gastspiel-Ensemble des<lb xml:id="uuid_5dd77aaa-6bb2-4e1a-8bd9-a09e9dad37e6"/><rs type="institution" ref="#37240">Leipziger Komödienhauses</rs> der Betrag
+                von Mk 1750.– bezahlt<lb xml:id="uuid_3c0eb40b-aca4-4173-bab7-340ad0405a3e"/>werden
+                musste. </p>
+         <p xml:id="uuid_d590d0f5-05e2-42f0-a38f-d2c835fa337c">
+            <lb xml:id="uuid_0325433f-b7ab-4ae1-a0b1-f3765e177ad5"/>Dass das <rs type="work" ref="#53397" subtype="pmb">Stück</rs> im übrigen in der heutigen Zelt<lb xml:id="uuid_13a43f5b-7c02-4208-874c-f2225207c657"/>völlig unaufführbar ist,
+                werden die dem <rs type="institution" ref="#36844">Gerichte</rs> vorzulegenden<lb xml:id="uuid_947b36ed-b657-4d40-98a1-35bc3946e714"/>Ausschnitte aus der
+                Frankfurter Presse ergeben. </p>
+         <p xml:id="uuid_538b5df1-9e74-4f97-b8e9-f29bf4c901d7">
+            <lb xml:id="uuid_adcb708e-d9b6-454b-b789-c8f24555f929"/>Vor einem Misserfolg wäre
+                das <rs type="work" ref="#53397" subtype="pmb">Stück</rs> auch dann<lb xml:id="uuid_03c6244a-7372-4c63-b054-dc9cb8a1e04d"/>nicht zu bewahren gewesen,
+                wenn es etwa unter Mitwirkung des<lb xml:id="uuid_13d35c5c-8735-4236-b4a2-ab00cd23cf24"/><rs type="person" ref="#11988">Autors</rs> mit den Kräften des <rs type="institution" ref="#34987">Frankfurter Schauspielhauses</rs> ein- <pb xml:id="D_000125-116-000_p010"
+                facs="#D_000125-116-000-facs001-l005-p010"
+                n="10"/>
+            <lb xml:id="uuid_025c56ff-6943-4c1b-9ab5-ac632a8bd830"/>studiert worden wäre. </p>
+         <p xml:id="uuid_44790fde-9c39-4b2a-813d-dfd71b5acc30">
+            <lb xml:id="uuid_d8c5962b-8fd9-467d-a8cd-ba828b110b38"/>Der Grund hiefür liegt in
+                der bedauerlichen Tat<lb xml:id="uuid_72aee2e4-cf83-43bb-ae36-192b81e74deb" break="no"/><metamark function="marginal" hand="#D_000125-116-000-hand02" rend="marginLeft"/>sache, dass der <rs type="person" ref="#11988">Autor</rs> in völliger
+                Verkennung der vielen<lb xml:id="uuid_01541826-d5ff-439a-8fa7-9edf806bcda3"/>Faktoren, von welchen die Führung eines Theaters heute ab<lb xml:id="uuid_8651eaf3-6315-4898-b28f-d1dee64aa04d" break="no"/>hängig ist, auf
+                die Aufführung seines <rs type="work" ref="#53397" subtype="pmb">Stückes</rs>
+                bestanden hat.<lb xml:id="uuid_56dc5e91-a0b4-4f1f-b359-1ffd42eedcda"/>Die <rs type="person" ref="#38954">beklagte Bühnenleitung</rs> war <hi rend="underlined" hand="#D_000125-116-000-hand02">daher</hi> gezwungen die Inszenie<lb xml:id="uuid_26a2cd12-55d5-4eb1-9e5a-d300288a30a8" break="no"/>rung der
+                Aufführung einem nach den Weisungen des <rs type="person" ref="#11988">Autors</rs>
+            <lb xml:id="uuid_61591550-584d-45bb-a62a-b11f73f0d271"/>einstudierten Ensemble zu übertragen. Dies war das Ensemble<lb xml:id="uuid_04a20600-9c4e-45b4-bec0-f9bbd9aa3513"/>des <rs type="institution" ref="#37240">Leipziger Komödienhauses</rs>, das unter persönlicher Mit<lb xml:id="uuid_3b5e9c90-67ff-43ba-b0e1-3d30d4617b35" break="no"/>Wirkung des <rs type="person" ref="#11988">Autors</rs> „<rs type="work" ref="#53397" subtype="pmb">Die Unüberwindlichen</rs>“ in <rs type="place" ref="#864">Leipzig</rs> in<lb xml:id="uuid_30db2a69-180e-4dba-aeb8-9666abadec20"/>Szene
+                setzte. Für jede Änderung in der Inszenierung hat<lb xml:id="uuid_2b24fc76-bfb3-4182-9d14-07a350201a3b"/><metamark function="marginal" hand="#D_000125-116-000-hand02" rend="marginLeft"/>der <rs type="person" ref="#11988">Autor</rs> sich vom <rs type="institution" ref="#37240">Leipziger Komödienhaus</rs> eine Vertrag<lb xml:id="uuid_eb82ee4f-102d-4e65-9e62-7564a0e27f17" break="no"/>strafe von <hi rend="underlined" hand="#D_000125-116-000-hand02">Mk 1500.</hi>– versprechen
+                lassen, wobei wohl dahin<lb xml:id="uuid_002ea9b2-75b5-49f1-ad6c-2d34d5b4fc40" break="no"/>gestellt bleiben mag, ob ein solches Verhalten nicht überhaupt<lb xml:id="uuid_52dd5dba-c7dd-4814-a9c6-66a89fafc65c"/><metamark function="marginal" hand="#D_000125-116-000-hand02" rend="marginLeft"/>
+            <hi rend="underlined" hand="#D_000125-116-000-hand02">gegen die guten Sitten
+                    verstösst</hi>. </p>
+         <p xml:id="uuid_496726cf-5ca2-4872-b550-20ad76a9da38">
+            <lb xml:id="uuid_b4c58fd8-8222-46fd-b2e0-e2b286b973ba"/>Jedenfalls zeigt es davon,
+                dass der <rs type="person" ref="#11988">Autor</rs> nicht<lb xml:id="uuid_d18c6798-6703-4d1f-8327-ff862480abd4"/><metamark function="marginal" hand="#D_000125-116-000-hand02" rend="marginLeft"/>das geringste
+                Verständnis für die Möglichkeiten einer bühnen<lb xml:id="uuid_7ed125ef-f57c-464d-b67d-067514937449" break="no"/>wirksamen
+                Aufführung besitzt. Dementsprechend kam es auch<lb xml:id="uuid_26ab5120-037d-445a-a777-a8ce85b29e28"/>bei der Berliner Aufführung
+                dazu, dass die <rs type="institution" ref="#36940">Berliner Volks-<lb xml:id="uuid_8a23e4c2-a916-4b4b-bb28-c0a9579c5bf7"/>Bühne</rs>, die gewiss
+                über vorzügliche Kräfte verfügt, mit ihrer<lb xml:id="uuid_8d830cfb-70d5-4bbd-b563-3690305223cd"/><metamark function="marginal" hand="#D_000125-116-000-hand02" rend="marginLeft"/>Inszenierung <hi rend="underlined" hand="#D_000125-116-000-hand02">die Ungnade des <rs type="person" ref="#11988">Autors</rs> erregte</hi> . </p>
+         <p xml:id="uuid_e3507a3d-f165-4841-b03b-0400d4211f24">
+            <lb xml:id="uuid_a58324b2-afb3-44c8-b772-8e906ec604e0"/><hi rend="underlined"><hi rend="spaced">Beweis</hi>:</hi> Regisseure und Direktoren des <rs type="institution" ref="#57345">Leipziger<lb xml:id="uuid_d5d1ea84-017e-4afb-aef9-e32d673f24e5"/>Schauspielhauses</rs>,
+                deren Namen wir noch<lb xml:id="uuid_906a7d2a-7e86-4503-81fc-1942d409d86c"/>bekanntgeben werden.<lb xml:id="uuid_22616867-0817-4ea5-955a-3b0129f25b6c"/><rs type="person" ref="#38244">Paul <hi rend="spaced">Verhöven</hi></rs>, Adresse
+                wie oben. </p>
+         <p xml:id="uuid_27ac103d-82f2-45a3-9423-b7c35d500bec">
+                <lb xml:id="uuid_149c57bd-ad71-4f6e-9d47-0907832690ef"/>Unter diesen Umständen wäre
+                eine Neueinstudierung<lb xml:id="uuid_8ed51e4d-5059-4023-9dfb-20c8b0ab4a89"/>mit den
+                eigenen Kräften des <rs type="institution" ref="#34987">Frankfurter
+                    Schauspielhauses</rs>
+                <lb xml:id="uuid_a6eec2fd-e6a7-4bff-8552-acf7bfc5b11f"/>sinnlos gewese. Die
+                reichsdeutschen Bühnen sind nicht bestimmt<lb
+                    xml:id="uuid_4272d682-4883-4e8e-ab23-d827705a607b"/><metamark
+                    function="marginal" hand="#D_000125-116-000-hand02" rend="marginLeft"/>Wiener
+                Skandalaffären des Jahres 1927 <hi rend="underlined" hand="#D_000125-116-000-hand02"
+                    >wortgetreu</hi> ihrem ver<lb xml:id="uuid_4c2f1213-d020-4995-ade3-a6b17ac19ccb"
+                    break="no"/>ständnislosen Publikum vorzusetzen. Soweit das Stück „<rs
+                    type="work" ref="#53397" subtype="pmb">Die<lb
+                        xml:id="uuid_8e210715-d30b-4abd-9fcb-fc9e0a2cfe91"/>Unüberwindlichen</rs>“
+                Allgemeingültiges zun Ausdruck bringt, kann<lb
+                    xml:id="uuid_7f331c67-f331-4811-80d0-b0f2dfd1e063"/>dies in einer <hi
+                    rend="underlined">west-deutschen Bühnen wirksam</hi> nur in einer frei<lb
+                    xml:id="uuid_f0e5ab52-c354-4cb3-9853-4d53ae45b192" break="no"/><note
+                    type="marginal" hand="#D_000125-116-000-hand02" rend="marginLeft"
+                    >!</note><metamark function="marginal" hand="#D_000125-116-000-hand02"
+                    rend="marginLeft"/>en Inszenierung geschehen. Dieser Gedanke war ausschlagge<lb
+                    xml:id="uuid_c93a78b0-f37f-44a7-b75f-2e853e742fdd" break="no"/>bend bei der
+                Annahme des <rs type="work" ref="#53397" subtype="pmb">Stückes</rs> im Mai 1929. </p>
+         <p xml:id="uuid_6fae1556-6062-4df7-848d-682773054f40">
+            <lb xml:id="uuid_e7bf57e3-05a6-436a-8479-35c0105b8d69"/>Es gründet sich auf § 7, lb
+                der allgemeinen <pb xml:id="D_000125-116-000_p011"
+                facs="#D_000125-116-000-facs001-l006-p011"
+                n="11"/>
+            <lb xml:id="uuid_0490a195-2445-4e67-86da-5ad0877e32b0"/>Bestimmungen für den
+                Geschäftsverkehr, wonach die Auffüh<lb xml:id="uuid_3595ee50-46ea-4590-93e0-38e7fd78fe53" break="no"/><metamark function="marginal" hand="#D_000125-116-000-hand02" rend="marginLeft"/>rung berechtigte
+                Bühnenänderungen vornehmen darf, für wel<lb xml:id="uuid_56511057-f505-4e4c-9a9f-2daaf75c5bf2" break="no"/>che der <rs type="person" ref="#11988">Autor</rs> seine Zustimmung nach Treu und Glauben
+                    nicht<lb xml:id="uuid_db9fbaeb-c48c-4a90-bd92-d06529c84244"/>versagen kann.
+                Ausserdem ist es anerkannter Theaterbrauch,<lb xml:id="uuid_aced230e-fd0d-494f-b905-d5c1ee5e33aa"/>dies sogar die Verpflichtung
+                der Bühnenleitung eines Theaters,<lb xml:id="uuid_560765cc-6cdf-4e11-aaf6-4dea036a6993"/>für eine bühnenwirksame
+                Aufführung unter Berücksichtigung<lb xml:id="uuid_8c4554aa-00fe-4cb7-9b7e-c43fb852775d"/>der örtlichen Verhältnisse,
+                insb. <hi rend="underlined">der Einstellung des Publikums</hi>
+            <lb xml:id="uuid_8a6c2393-4393-4fab-8a77-c132362e88da"/>besorgt zu sein. </p>
+         <p xml:id="uuid_e0bc9fad-77ed-41bd-bf3f-a3a15b80a098">
+            <lb xml:id="uuid_5af774d1-579a-45ee-af8a-d28534f60788"/>Da der <rs type="person" ref="#11988">Autor</rs> sich entgegen dem Vertragsinhalt<lb xml:id="uuid_f0526c1c-030d-4558-b437-382da317c509"/>um dem anerkannten
+                Theaterbrauch auf den entgegengesetzten<lb xml:id="uuid_4fedb130-adfe-4b04-816d-7b76c9541877"/>Standpunkt stellte, blieb
+                dem <rs type="institution" ref="#34987">Frankfurter Schauspielhaus</rs>
+            <lb xml:id="uuid_1cf07210-2dbd-497e-b203-1a9b6a1e9930"/><metamark function="marginal" hand="#D_000125-116-000-hand02" rend="marginLeft"/>nur die
+                Möglichkeit, der etwa bestehenden Aufführungsverpflich<lb xml:id="uuid_86e71077-85d6-4853-98ef-ad1d9ed2e3a5" break="no"/>tung durch eine
+                von <rs type="person" ref="#11988">Herrn Kraus</rs> selbst approbierte Einstudie<lb xml:id="uuid_238e5478-6774-43ee-bb5c-92bd0f8efe37" break="no"/>rung zu genügen. </p>
+         <p xml:id="uuid_f0f6f765-a5bd-478c-8a79-dbb804bb23a1">
+            <lb xml:id="uuid_a851f04f-1779-4b3f-9639-029120c4971d"/><hi rend="underlined"><hi rend="spaced">Beweis</hi>:</hi>
+            <rs type="person" ref="#38954">Dr. <hi rend="spaced">Kronacher</hi></rs>, Adresse
+                    wie<lb xml:id="uuid_b912a5ed-93ab-4693-979d-b94bb703b493"/>oben als Zeuge. </p>
+         <p xml:id="uuid_c5651cde-8907-4f55-b520-1eade9c0d972">
+            <lb xml:id="uuid_d2807792-cae1-4204-b736-68a83417876d"/>Die beklagte Bühnenleitung
+                muss aber auch den<lb xml:id="uuid_4aee713d-4bbe-41e4-9831-81d1254fb23d"/>Standpunkt
+                vertreten, dass es nach Treu und Glauben bei den<lb xml:id="uuid_2583701a-fb20-4b04-acd3-79df4061eea9"/>notorisch <hi rend="underlined" hand="#D_000125-116-000-hand02">völlig veränderten politischen</hi> und sonstigen Ver<lb xml:id="uuid_1547f54a-428f-4f70-ab77-7be007013a19" break="no"/>hältnissen die schliesslich erfolgte Einhaltung des Vertrages<lb xml:id="uuid_8e327a03-76b5-4be7-8621-f423b2b04831"/>und die Erfüllung der
+                Aufführungspflicht vor allem von dem<lb xml:id="uuid_4d00c7b8-46f3-48f6-ad96-2d69fc7661f1"/>Gesichtspunkte aus beurteilt
+                werden muss, dass das Stück<lb xml:id="uuid_e01f5a21-6a35-43b2-a09e-8c3d534b70db"/>„<rs type="work" ref="#53397" subtype="pmb">Die Unüberwindlichen</rs>“ bei
+                Vertragsabschluss als tragbar<lb xml:id="uuid_e296f739-da3e-43b4-adac-0f00e783abff"/>anzusehen war, jedoch zur Zeit der Aufführung <hi rend="underlined">auf die
+                        aller<lb xml:id="uuid_3630432c-5add-480f-a4e7-f05ee0d1feac"/>schärfste
+                    Ablehnung bei weiten</hi> Kreisen des Publikums stiess. </p>
+         <p xml:id="uuid_16f972ba-cf42-485f-89fd-819f0b3f0cb4">
+            <lb xml:id="uuid_50670007-9887-4f24-850a-0e5b66043be7"/>Dass Letzteres der Fall war,
+                geht nicht nur aus<lb xml:id="uuid_0026a89e-c33c-4168-849b-7da9218bf13b"/>den
+                Presseauschnitten hervor, sondern auch aus zahllosen<lb xml:id="uuid_7e80d2ac-1fff-49ac-af62-01c9fc95a524"/>schriftlichen und mündlichen
+                Protesten, aus angekündigten<lb xml:id="uuid_3ae9e278-5846-4afe-8bc6-80f005e0f66c"/>Abbonomentbestellungen und dgl., welche die Aufführung „<rs type="work" ref="#53397" subtype="pmb">Die<lb xml:id="uuid_7ac8825c-9e42-4283-bf79-bba739049e51"/>Unüberwindlichen</rs>“
+                im <rs type="institution" ref="#34987">Frankfurter Schauspielhaus</rs> spontan
+                    ausge<lb xml:id="uuid_edb72c2c-78a9-4f69-8469-a6db8b698a18" break="no"/>löst
+                hat. </p>
+         <p xml:id="uuid_0c928239-9267-4e90-a8f6-661ef1d73490">
+            <lb xml:id="uuid_a0bd8915-25f8-4828-ab96-4303da37412f"/><hi rend="underlined"><hi rend="spaced">Beweis</hi>:</hi>
+            <rs type="person" ref="#38954">Dr. Kronacher</rs>, <rs type="institution" ref="#34987">Frankfurter Schauspielhaus</rs>
+            <lb xml:id="uuid_0d9a1e72-e1e9-4959-9a87-b3a3fedd53bf"/>Zeitungsausschnitte,
+                Rezensionen und <pb xml:id="D_000125-116-000_p012"
+                facs="#D_000125-116-000-facs001-l006-p012"
+                n="12"/>
+            <lb xml:id="uuid_974d36a3-08de-4638-92a6-bda12c744e1e"/>schriftliche Proteste, die
+                vorgelegt werden. </p>
+         <p xml:id="uuid_7f1861bb-ed8b-4d3c-99e9-788775be1f2f">
+            <lb xml:id="uuid_d55e91cb-e696-452c-a626-0f14a6158966"/>Zusammenfassend kann wohl
+                gesagt werden, dass der<lb xml:id="uuid_f240605e-2455-4b2e-a5c1-d96731c1607a"/>Anspruch auf eine Konventionalstrafe mit Rücksicht auf diese<lb xml:id="uuid_734d5177-7b15-42ed-a192-5883cd67ccb9"/>veränderte Situation
+                überhaupt nicht gegeben ist, dass aber,<lb xml:id="uuid_e82cc856-633f-432c-b109-93412aeb9b8a"/>selbst bei Annahme dieses
+                Anspruches dem Grunde nach, mit Rück<lb xml:id="uuid_f6156034-d89c-4d9b-9119-6b49aa700a9a" break="no"/>sicht auf das
+                richterliche Mässigungsrecht der Konventional<lb xml:id="uuid_1cf0be48-1d7a-49ae-ba48-d20f7bc3d18b" break="no"/>strafe in allen
+                Fällen gemäs <rs type="law"
+                ref="https://alex.onb.ac.at/cgi-content/alex?aid=jgs&amp;datum=1012&amp;page=635&amp;size=45">§ 1336 abGB</rs> mit Rück<lb xml:id="uuid_2572da84-b6e4-4f2b-a3a3-247e64af4963" break="no"/><metamark function="marginal" hand="#D_000125-116-000-hand02" rend="marginLeft"/>sicht auf diesen speziellen Fall bis auf <hi rend="underlined">ein
+                    Minimum</hi> des ver<lb xml:id="uuid_e7cec925-24ea-4464-a84c-46fd842b7146" break="no"/>langten Betrages herabgegangen werden muss. </p>
+         <p xml:id="uuid_f6107dff-85b9-4aba-9737-906f738a9ab4">
+            <lb xml:id="uuid_33423bcd-d4a9-4f87-9f4b-cbabc3324b1a"/>Von einem Verfall der
+                Vertragsstrafe kann auch<lb xml:id="uuid_206bfa81-6d34-4f52-b7c1-79b064784262"/>deshalb keine Rede sein, weil sich aus dem <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-044-000"
+                subtype="legal-doc">Schreiben des<lb xml:id="uuid_7c33d950-e9d6-4ae6-a124-950ae63e314f"/>Intendanten <rs type="person" ref="#38954">Dr. Kronacher</rs> vom
+                    25.II.31</rs> ergibt, dass das<lb xml:id="uuid_0a4455fa-9d36-4edb-b7b1-85de3fae03ea"/><rs type="institution" ref="#34987">Frankfurter Schauspielhaus</rs> bereit war im Frühjahr 31 das
+                    Stück<lb xml:id="uuid_dfff76e8-f573-46df-b20c-b63be206e0e6"/>aufzuführen. </p>
+         <p xml:id="uuid_b8a38ce4-ff3f-4c31-9ebe-4054f56b1b12">
+            <lb xml:id="uuid_21fef7c2-ebcf-4758-9360-80b5197899ef"/>Nur mit Rücksicht auf den im
+                    <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-045-000"
+                subtype="legal-doc">Schreiben vom 3.III.<lb xml:id="uuid_1f4334b3-2d71-45e7-897c-7f9cedef048f"/>31</rs> vom <rs type="person" ref="#11988">Autor</rs> geäusserten Wunsch wurde die Aufführung
+                    in<lb xml:id="uuid_a39a21d5-5a9b-4519-8b4f-527cf5c6c516"/><metamark function="marginal" hand="#D_000125-116-000-hand02" rend="marginLeft"/>die Spielzeit
+                1931/32 verschoben. Im Jahre 1931 hätte das<lb xml:id="uuid_6706ec28-67dd-47a9-9dae-3366a43a1e9d"/><rs type="work" ref="#53397" subtype="pmb">Stück</rs> leichter vor einem Misserfolg bewahrt werden können. </p>
+         <p xml:id="uuid_d7cfff6e-ea90-4289-8871-2e12e00e5e5a">
+            <lb xml:id="uuid_03dc1582-4ade-4f46-a2aa-ebbbacf99a82"/><hi rend="underlined">ad 3.)</hi>
+         </p>
+         <p xml:id="uuid_e7688cad-ba66-4750-b00e-dd9091141f3d">
+            <lb xml:id="uuid_9ac2ffa6-9646-4a0c-8f43-19a4cc076f85"/>Aus dem unter 1.) und 2.)
+                Gesagten geht klar her<lb xml:id="uuid_e6b6d05c-c771-4870-afb0-c4e645306687" break="no"/>vor, dass wir unserer Aufführungspflicht im Rahmen der Möglich<lb xml:id="uuid_74d48074-eeea-4c78-82c7-9e071456d8d7" break="no"/>keit voll und
+                ganz nachgekommen sind. </p>
+         <p xml:id="uuid_8ba5a89e-e53c-44ea-9f46-fb8e93fb419c">
+            <lb xml:id="uuid_bacb0e0f-5c82-4ffd-99b6-9099d33db5b6"/>Wir haben den § 2 des <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-005-000"
+                subtype="legal-doc">Aufführungsvertrages</rs> er<lb xml:id="uuid_e59b197c-eee7-4c48-a7b5-7d6d66322da0" break="no"/>füllt und ist
+                daher das klägerische Begehren auf Feststellung<lb xml:id="uuid_039653b9-5dfe-4c95-b670-7c2ca9c3027d"/>laut Punkt 2 des
+                Klagebegehrens meritorisch abzuweisen. Rein<lb xml:id="uuid_d8e59caa-d45f-4f35-bd39-a305654a8c82"/><hi rend="underlined">formell ist aber die <rs type="institution" ref="#43724">Klägerin</rs> gar
+                    nicht berechtigt</hi> ein Feststel<lb xml:id="uuid_d2dc79a1-909f-4834-8399-3061feae773d" break="no"/>lungsbegehren zu
+                stellen, da das alsbaldige Interesse auf<lb xml:id="uuid_927a41c6-d11e-44ec-8f87-8ab6dfbb55d3"/>Feststellung ihr ermangelt
+                und überdies das Feststellungsbege<lb xml:id="uuid_452e7a30-a567-4741-92fb-a1b0a2905044" break="no"/>ren <hi rend="underlined">schon deshalb nicht erfolgen kann</hi>, weil der <rs type="institution" ref="#43724">Klägerin</rs>
+            <lb xml:id="uuid_bb952c00-2320-488f-bfc9-d34ac67e054c"/><hi rend="underlined">die
+                    Leistungsklage ohne weiters möglich ist</hi>, wenn sie be<lb xml:id="uuid_17490882-bbbf-42c9-a450-f86e1824591b" break="no"/>hauptet durch
+                nicht genaue Erfüllung des Vertrages seitens<lb xml:id="uuid_eb00640a-d30c-4ac4-90d9-7bf6f4e36898"/>der <rs type="person" ref="#38954">beklagten Bühnenleitung</rs> geschädigt zu sein. </p>
+         <p xml:id="uuid_6554c5fa-ce13-4a73-937f-3ba1400eb3ca">
+            <lb xml:id="uuid_b0734a6e-c5f1-498b-bc9b-705f3830db49"/>Jedenfalls ist das
+                Klagebegehren ad 2.) rein <pb xml:id="D_000125-116-000_p013"
+                facs="#D_000125-116-000-facs001-l007-p013"
+                n="13"/>
+            <lb xml:id="uuid_120a5725-9f80-44a5-8080-2cbf0a476ff0"/>prozessual im Sinne des <rs type="law" ref="">§ 228 Z.P.O</rs> unzulässig und daher<lb xml:id="uuid_b9ce4679-1ac4-4f38-915a-596859865f8c"/>abzuweisen. </p>
+         <p xml:id="uuid_a84d878e-d685-40cd-b29a-15d11cb03341">
+            <lb xml:id="uuid_832e3841-5ed5-467a-8235-01e298797801"/>ad 4.) </p>
+         <p xml:id="uuid_8e435fbe-3cd1-43b5-9af0-27ab9de89adb">
+            <lb xml:id="uuid_69365623-f20c-4c55-b9f6-29afa88ce89f"/>Was schliesslich das
+                Begehren auf Rechnungsle<lb xml:id="uuid_73da81af-7e57-47ed-a25c-00e320da5499" break="no"/>gung anlangt, ist auch dieses abzuweisen, da die <rs type="person" ref="#38954">beklagte<lb xml:id="uuid_27b82270-b1df-4467-b8e0-f234d9445cf5"/>Bühnenleitung</rs> am 21.V.32 der <rs type="institution" ref="#37037">Stadthaupt-Kassa</rs> den Betrag<lb xml:id="uuid_6d88bb1f-3cf3-4ea7-8461-4f3f3bffba67"/>von <hi rend="underlined" hand="#D_000125-116-000-hand02">RM 95.20</hi> an Tantiemen zur Zahlung an die
+                    <rs type="institution" ref="#43724">Klägerin</rs>
+            <lb xml:id="uuid_e0539704-c5e6-4768-a846-e3c739bd3e29"/>aufgegeben hat. Damit war
+                auch eine <hi rend="underlined" hand="#D_000125-116-000-hand02">ziffermässige
+                        Aufstel<lb xml:id="uuid_485b8ef6-f499-4c49-b9b5-896ea384ea56"/>lung der
+                    Einnahmen verbunden</hi> . </p>
+         <p xml:id="uuid_32701474-c4b1-472c-bc14-6d94f0860ce0">
+                <lb xml:id="uuid_15bd6ba8-a8ca-4a1e-a526-daaba199bb4d"/><hi rend="underlined"><hi
+                        rend="spaced">Beweis</hi>:</hi> Der Zahlungsbeleg der <rs type="institution"
+                    ref="#37037">Stadt-Haupt<lb xml:id="uuid_b1d3715d-3341-4a83-bee1-c57a9f8026ae"
+                        break="no"/>Kassa Frankfurt</rs>
+                <lb xml:id="uuid_4c28e0fd-99cc-4eef-bfff-818d840e1e51"/><rs type="person"
+                    ref="#38954">Dr. Kronacher</rs>, Adresse wie oben<lb
+                    xml:id="uuid_afe07ddb-ab55-4d75-b6ba-ca10b2ac3968"/>Antrag an die <rs
+                    type="institution" ref="#43724">klagenden Partei</rs> zur<lb
+                    xml:id="uuid_478bf618-4dea-418a-8480-38960c8b7391"/>Vorlage dieses
+                Zahlungsbeleges. </p>
+         <p xml:id="uuid_4a35474d-c584-4134-aabf-045db8cff9db">
+            <lb xml:id="uuid_26e5c258-364a-44a5-8b36-a9b335ffa4cd"/>Sohin wird der<lb xml:id="uuid_ad44294f-fbb4-48d2-ab04-280b0c90a854"/><hi rend="spaced">Antrag</hi>
+            <lb xml:id="uuid_e8c5bb2f-7285-4edb-9a47-6579e8c612d3"/>gestellt, auf
+                kostenpflichtige Abweisung des Klagebegehrens. </p>
+         <p xml:id="uuid_8a6e5fdb-a96d-429b-bc09-5fc6b87895d9">
+            <lb xml:id="uuid_1856be31-5f56-4ac5-8106-b2663763a0df"/><rs type="place" ref="#50">Wien</rs>, am 20. August 1932 </p>
+         <p xml:id="uuid_98eabce0-277b-4e91-b4d8-a4af665feda0">
+            <lb xml:id="uuid_3d05f568-2c0d-4c65-b57d-21d3a9b8188b"/><rs type="institution" ref="#34987">Städt. Bühnen</rs>, <rs type="place" ref="#146">Frankfurt
+                    a/M</rs>
+            <lb xml:id="uuid_2dee19a5-9045-44ee-a82f-190dc2642601"/>durch:<lb xml:id="uuid_4965c82a-242a-434f-9066-b2163d2a809e"/><rs type="person" ref="#39338">Pressburger</rs>
+         </p>
+         <pb xml:id="D_000125-116-000_p014"
+             facs="#D_000125-116-000-facs001-l007-p014"
+             n="14"/>
+         <p xml:id="uuid_28659971-3f95-40b0-9690-2b49c05b8dde">
+                <lb xml:id="uuid_d2904be4-7fdb-4d50-a729-9d09231d1047"/><note
+                    hand="#D_000125-116-000-hand03">abschreiben</note>
+            </p>
+         <p xml:id="uuid_924e6b3a-ac84-46c6-a03f-be681bb67965">
+            <lb xml:id="uuid_ac77241c-2cbc-4bab-8927-aeb526104398"/><note type="paratext" resp="law-firm">3. SEP 1932<lb xml:id="uuid_274e5bee-8e26-4a21-8bf4-7b0fce9a7e54"/><rs type="institution" ref="#43724">Fackel</rs> – <rs type="institution" ref="#34987">Frankf.
+                        städt. Bühnen</rs></note>
+         </p>
+      </body>
+   </text>
+</TEI>

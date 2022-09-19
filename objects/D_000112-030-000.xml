@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-031-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-029-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000112-030-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Elfride Schmaltz</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">
+               https://id.acdh.oeaw.ac.at/legalkraus/legalkraus/D_000112-030-000.xml </idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/3189</idno>
+            <idno subtype="transkribus" type="ID">236798</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000112" type="collection">Karl Kraus
+               ca. Theodor Wolff</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000112-030-000-facs001" xml:id="D_000112-030-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000112-030-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHU">Durchschlag mit
+                        handschriftlichen Überarbeitungen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-11-09">9. November 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1929-11-09">9. November 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#43662">Frau | Elfride Schmaltz</persName>
+               <address>
+                  <street corresp="#56174">Halensee. | Nestorstrasse 53</street>
+                  <settlement ref="#168">Berlin</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Kerr – Wolf.</note>
+               <note type="dictation">Dr.S/Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000112-030-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000112-030-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+         <handNotes>
+            <handNote xml:id="D_000112-030-000-hand01" source="#D_000112-030-000-wit01"
+               scribeRef="#38909" medium="black-ink" cert="low" resp="#JK"/>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="typography" when-iso="2021-06-23" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-06-23" who="#IL"/>
+         <change type="structure" when-iso="2021-05-25" who="#IL"/>
+         <change type="intertexts" when-iso="2021-06-21" who="#IL"/>
+         <change type="references" when-iso="2021-05-25" who="#IL"/>
+         <change when-iso="2020-07-22T07:32:38.274Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 236798. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000112-030-000-facs001">
+      <surfaceGrp xml:id="D_000112-030-000-facs001-l001">
+         <surface type="recto" xml:id="D_000112-030-000-facs001-l001-p001">
+            
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555880/full/full/0/default.jpg"
+            />
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000112-030-000-facs001-l002">
+         <surface type="recto" xml:id="D_000112-030-000-facs001-l002-p002">
+            
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555881/full/full/0/default.jpg"
+            />
+         </surface>
+         <surface type="verso" xml:id="D_000112-030-000-facs001-l002-p003">
+            
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555882/full/full/0/default.jpg"
+            />
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000112-030-000-facs001-l003">
+         <surface type="recto" xml:id="D_000112-030-000-facs001-l003-p004">
+            
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555883/full/full/0/default.jpg"
+            />
+         </surface>
+         <surface type="verso" xml:id="D_000112-030-000-facs001-l003-p005">
+            
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555884/full/full/0/default.jpg"
+            />
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         
+         <graphic source="wienbibliothek"
+            url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555885/full/full/0/default.jpg"
+         />
+      </surface>
+      <surface>
+         
+         
+         <graphic source="wienbibliothek"
+            url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555886/full/full/0/default.jpg"
+         />
+      </surface>
+      <surface>
+         
+         
+         <graphic source="wienbibliothek"
+            url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555887/full/full/0/default.jpg"
+         />
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000112-030-000_p001" facs="#D_000112-030-000-facs001-l002-p002" n="1"/>
+         <p xml:id="uuid_d921388a-ebf9-4ede-8cfd-13bc2c131ccf">
+            <lb xml:id="uuid_3d7ddd55-559f-4f93-93ca-8a898822d1bb"/>Sehr geehrte gnädige <rs
+               ref="#43662" type="person">Frau</rs>! </p>
+         <p xml:id="uuid_dda76b06-3c67-4bcc-a2c6-455630fbc201">
+            <lb xml:id="uuid_ca3989d7-1700-4957-a3a5-474266790598"/>Im Auftrag des Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>, dessen<lb
+               xml:id="uuid_0f4ba577-70d3-4cc6-969d-abf4a3bf2414"/>Wiener <rs ref="#38909"
+               type="person">Rechtsanwalt</rs> ich bin, beehre ich mich Ihnen das Folgende<lb
+               xml:id="uuid_ba910709-9518-410b-8df6-4af22d68af1f"/>mitzuteilen:</p>
+         <p xml:id="uuid_416c309d-ca10-4a7e-a713-1a61a96e1a72">
+            <lb xml:id="uuid_b3177a47-a59d-4937-970e-e1be01b60c50"/>Da Sie als Zeuge in seinem
+            Prozess geladen<lb xml:id="uuid_b4317325-2abe-4fdc-8147-834cb8c18cff"/>waren, so erklärt
+            es sich unschwer, dass Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+               type="person">Kraus</rs> vor der Ver<lb break="no"
+               xml:id="uuid_a797c77b-a3c9-4572-baf8-d5d4b9799b19"/>handlung mit Ihnen nicht
+            Rücksprache genommen hat. Aus dem gleichen<lb
+               xml:id="uuid_df3da04e-4362-47ab-9809-9e0e657bb1ec"/>Grund richte auch ich dieses <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-030-000" type="work"
+               subtype="legal-doc">Antwortschreiben</rs> an Sie und nicht Herr<lb
+               xml:id="uuid_2fee204b-9007-4092-928f-835bcac09370"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> selbst.
+            Woraus Sie entnommen haben, er hätte „<quote source=""
+               xml:id="uuid_81073617-24fe-40ad-ad05-624861d12cf8">keine Zeit ge<lb break="no"
+                  xml:id="uuid_f313228c-7a58-40a5-beee-77137373cfd8"/>funden</quote>“ mit Ihnen zu
+            sprechen, als er in <rs ref="#168" type="place">Berlin</rs> war, entzieht sich<lb
+               xml:id="uuid_d7590ed0-adeb-45dd-a3e5-7e091ecdd4d1"/>seiner Kenntnis. Sollten Sie
+            vielleicht aus einer Gesprächswendung<lb
+               xml:id="uuid_780b434a-8b16-4fb8-878d-983945bfae22"/>seines Berliner Vertreters, des
+            Herrn Dr. <rs ref="#38969" type="person">Laserstein</rs>, zu dieser Ver<lb break="no"
+               xml:id="uuid_f6659be8-a05c-4f84-b023-db7c309f6d0f"/>mutung gekommen sein, so dürfte
+            ein Missverständnis vorliegen, da<lb xml:id="uuid_c6bd87ce-175c-4bc1-8844-efaac1bf0918"
+            />ausschliesslich der oben angeführte Grund für das Unterbleiben eine<lb
+               xml:id="uuid_a680786c-55c8-4915-a115-485be8cb1e9e"/>Zusammentreffens massgebend sein
+            konnte. Ueberdies wäre ja, da ein<lb break="no"
+               xml:id="uuid_d4f7116c-8a19-43a6-ba87-74e3bb92600d"/>mal Ihr Wissen um die Materie
+            bekannt und die Bekundung dieses Wis<lb break="no"
+               xml:id="uuid_80829850-93d7-4073-befc-a92751e4d9c9"/>sens von Ihnen selbst und spontan
+            angeboten war, eine Vergewisserung<lb xml:id="uuid_5af10800-22f7-45b2-8de8-f4ff3dab86a7"
+            />über das Ausmass und die Details Ihrer Orientiertheit überflüssig<lb
+               xml:id="uuid_b23ac281-0df7-4d7d-8c77-c341b5bf97e1"/>gewesen, selbst wenn sie Herrn
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>
+            unbedenklich erschienen wäre.<lb xml:id="uuid_985d707c-f280-4d8d-9263-fb505710f58a"
+            />Schon aus dieser Feststellung mögen Sie aber, sehr geehrte gnädige<lb
+               xml:id="uuid_c9f44a0f-62bc-422e-a40f-0ebc5a1358e7"/><rs ref="#43662" type="person"
+               >Frau</rs>, ersehen, dass Ihre Ueberzeugung: Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> wäre „<quote
+               source="" xml:id="uuid_bb6170e9-b3f8-42bb-b899-83f8aaedcbfa">nicht er<lb break="no"
+                  xml:id="uuid_46bfbb2c-eaa0-48d8-a438-685bad880e22"/>staunt gewesen darüber, dass
+               Sie nicht vor Gericht erschienen</quote>“, von<lb
+               xml:id="uuid_80d0b869-3c7a-40ad-8f02-ac00033f7dc6"/>ihm keineswegs angenommen wird.
+            Leider ist gerade das Gegenteil der<lb
+               xml:id="uuid_98b4c08e-d212-4716-a01f-db508dc78802"/>Fall und er möchte Ihnen sagen,
+            dass er in dem Masse, in dem er<lb xml:id="uuid_65acd1f8-75ed-46a8-8779-a002f0b080e4"
+            />Ihren Schmerz und Ihre Entrüstung über die Blosstellung des <rs ref="#11581"
+               type="person">Ver<lb break="no" xml:id="uuid_4c5a46a8-0af9-4245-a729-694e5c4cb78e"
+               />storbenen</rs> begreiflich findet, die Unterlassung der natürlichen <pb
+               xml:id="D_000112-030-000_p002" facs="#D_000112-030-000-facs001-l002-p003" n="2"/>
+            <lb xml:id="uuid_7911233f-cb99-436b-8ed2-bd97b1e857f6"/>Konsequenz unbegreiflich findet:
+            dass der wichtigste <rs ref="#11581" type="person">Zeuge</rs>, der die<lb
+               xml:id="uuid_19c8fcd4-fb94-467e-879d-379571c96c5a"/>Wahrheit bekräftigen und die
+            Unwahrheit abwehren konnte, sich ab<lb break="no"
+               xml:id="uuid_0a559b26-7d78-4c6f-82e1-fa026b6644aa"/>sentiert hat. Dass Sie verehrte
+            gnädige <rs ref="#43662" type="person">Frau</rs> also unterlassen haben,<lb
+               xml:id="uuid_7d1249e0-7cfe-4f49-af11-4844edfe8fd5"/>wozu Sie sich freiwillig
+            angeboten hatten. Der Umstand, dass eine<lb
+               xml:id="uuid_34c99a27-2b4c-4182-b321-5adc593f1391"/><rs ref="#41531" type="work"
+               subtype="pmb">Zeitung</rs> vorher geschrieben hatte, „<quote source=""
+               xml:id="uuid_0d261dee-0579-4b1c-a882-4ec09a7639f5">die langjährige <rs ref="#43662"
+                  type="person">Freundin</rs>
+               <rs ref="#11581" type="person">Hardens</rs>
+               <lb xml:id="uuid_490d9145-17a6-45e3-bcc9-31944eb75b0c"/>werde als Zeugin
+               auftreten</quote>“, erscheint Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> die
+               Fern<lb break="no" xml:id="uuid_fca2bb37-3152-471f-a705-a95d07543b76"/>haltung
+            keineswegs zu rechtfertigen, und bedauerlicherweise ist<lb
+               xml:id="uuid_5abe19ab-097f-40b6-bff5-4860433d1656"/>jetzt nichts anderes erzielt, als
+            dass die <rs ref="#29329" type="institution">Zeitung</rs> Lügen gestraft wur<lb
+               break="no" xml:id="uuid_99a8a95d-563b-40c2-b97a-860c78eb202f"/>de. Jedes Ihrer im
+            Gefühl so berechtigten Worte beweist Ihnen die<lb
+               xml:id="uuid_758d6694-16e2-4781-9ed4-39714ea0e40b"/>Notwendigkeit, dass gerade Sie
+            den natürlichen Schritt unternehmen,<lb
+               xml:id="uuid_408a4ede-fede-46b8-8854-4d853adf1dde"/>der sich aus der Situation und
+            aus Ihrem eigenen Anerbieten ergibt.<lb
+               xml:id="uuid_fb25920a-1b17-496f-a006-72a4d737238d"/>Es versteht sich nach jedem Ihrer
+            Briefe und insbesondere nach dem<lb xml:id="uuid_88d93519-2c91-403c-8e68-9c639e54774e"
+            />letzten – <del hand="#D_000112-030-000-hand01">und</del> gerade in Anerkennung Ihrer
+            Pietätspflicht – von<lb xml:id="uuid_3eaecf4b-60ff-49a3-b20c-0ce11763fdd7"/>selbst, dass
+            auf Ihre Zeugenschaft nicht verzichtet werden kann. Da<lb
+               xml:id="uuid_1d23169f-4df2-49b0-a43d-445420d79e84"/>aber Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> das
+            tiefberechtigte Interesse an der Feststel<lb break="no"
+               xml:id="uuid_b9861a53-b27e-4df3-a5a4-9fcdd29668ec"/>lung der Wahrheit, die sie ihm
+            selbst mitgeteilt haben, mit der<lb xml:id="uuid_e201818a-4cfa-4f9d-bb46-1d8d949421e2"
+            />schonungsvollsten Rücksicht auf Ihre Empfindlichkeit verbinden möchte,<lb
+               xml:id="uuid_50dd8f1e-74e1-4636-8e9f-678d8759ee7c"/>so stelle ich Ihnen anheim mir
+            oder Herrn Dr. <rs ref="#38969" type="person">Laserstein</rs> Ihren Aufent<lb break="no"
+               xml:id="uuid_31aae618-29c1-432d-94ca-132eef359840"/>halt in der Tschechoslovakei, wo
+            Sie ja mehrere Monate verbleiben<lb xml:id="uuid_f44af567-6956-4220-89a1-b12ef3c11d39"
+            />wollen, bekanntzugeben, damit Ihre dortige Einvernahme in die Wege<lb
+               xml:id="uuid_10a48045-04a0-48fa-8e31-9dd761ef60a8"/>geleitet werden kann und Sie vor
+            einer Nervenpein der öffentlichen<lb xml:id="uuid_391ee935-c23c-41ac-9f13-d31a68b78cc4"
+            />Berliner Verhandlung bewahrt bleiben, ohne doch alles Wissenswerte,<lb
+               xml:id="uuid_7e4b833a-7c42-41f3-984f-7971ac591b16"/>was auszusprechen nicht nur ihre
+            Zeugenpflicht ist sondern auch offen<lb break="no"
+               xml:id="uuid_984ffe9b-06fe-43d3-b357-0779753894fc"/>bar von Ihnen als Freundespflicht
+            empfunden wird, unausgesprochen<lb xml:id="uuid_99457920-dca6-4489-8052-52113485ac54"
+            />zu lassen. </p>
+         <p xml:id="uuid_21af2732-2cb8-40cb-b9bf-7dbd91623b8d">
+            <lb xml:id="uuid_6288fc4c-be2d-406f-86eb-4f771fe5eba6"/>Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> sagt
+            Ihnen für alle freundliche Absicht<lb xml:id="uuid_c1d1fb85-1679-4bdf-ab36-1b044a130fcd"
+               /><subst hand="#D_000112-030-000-hand01">
+               <del hand="#D_000112-030-000-hand01">auf</del>
+               <add hand="#D_000112-030-000-hand01">der</add>
+            </subst> Erforschung des wahren Sachverhaltes <del hand="#D_000112-030-000-hand01">durch
+               mich</del> seinen herzlichen<lb xml:id="uuid_0d78049b-ebd8-477f-b46a-8e060b35592b"
+            />Dank, aber es ist selbstverständlich ganz undenkbar, dass es auch <pb
+               xml:id="D_000112-030-000_p003" facs="#D_000112-030-000-facs001-l003-p004" n="3"/>
+            <lb xml:id="uuid_5aeb737e-1da6-47f7-82a6-09f41c92d6ea"/>weiterhin, wenn es schon zu der
+            Katastrophe des erstrichterlichen<lb xml:id="uuid_c57ae888-b907-4224-a8db-49b219573712"
+            />Urteiles gekommen ist, bei dieser blossen Absicht verbleibe. </p>
+         <p xml:id="uuid_79f6a471-a087-4811-ab11-a424ec907ec2">
+            <lb xml:id="uuid_0cf19a2a-f057-4e69-a8f0-85e4adc05110"/>Mit dem Ausdruck der
+            vorzüglichsten Hoch<lb break="no" xml:id="uuid_f549d65c-cc2a-4852-a91e-fb9c3e1821d4"
+            />achtung und in Erwartung Ihrer baldigen freundlichen Nachricht an<lb
+               xml:id="uuid_0015f7b5-6fbc-4f18-95dc-fbc70a0789f0"/>mich oder an Herrn Dr. <rs
+               ref="#38969" type="person">Laserstein</rs> zeichne ich</p>
+         <p xml:id="uuid_9be236b0-1965-4886-8f80-1798ff1f8ac5"><lb
+               xml:id="uuid_83b7f560-1b52-41d6-b897-343d8480978a"/>als Ihr sehr ergebener </p>
+         <p xml:id="uuid_0a46a53e-c494-4246-8e8d-3dc56cb5fa78">
+            <lb xml:id="uuid_e1d1b0c2-55b6-4e59-9d4b-582d2caef581"/>Rekommandiert </p>
+         <pb xml:id="D_000112-030-000_p004" facs="#D_000112-030-000-facs001-l003-p005" n="4"/>
+         <p xml:id="uuid_d25f9408-fbba-4cf8-a6f0-92b48fad4bba">
+            <lb xml:id="uuid_be9bd6e3-f55b-441c-8cec-baa009fa0cbd"/><note resp="law-firm"
+               type="paratext">Betr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  type="person">Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11910"
+                  type="person">Kerr</rs>/<rs ref="https://pmb.acdh.oeaw.ac.at/entity/13163"
+                  type="person">Wolf</rs><lb xml:id="uuid_3dd2bad3-b3a8-48d9-8d78-d91cac0c353b"
+               />exp. 11.11.1929.</note></p>
+      </body>
+   </text>
+</TEI>

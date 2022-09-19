@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-154-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-152-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000196-153-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Julius Katz an Samek</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000196-153-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/5164</idno>
+            <idno subtype="transkribus" type="ID">400806</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000196" type="collection">Karl
+                    Kraus ca. Arbeiter-Zeitung (Brünn)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000196-153-000-facs001" xml:id="D_000196-153-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000196-153-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#60925">ADVOKAT | JUDr. JULIUS KATZ</persName>
+               <address>
+                  <street corresp="#60926">Johannystrasse 22</street>
+                  <settlement ref="#41075">MÄHR. OSTRAU</settlement>
+               </address>
+               <date when-iso="1937-02-06">6.II.1937</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Dr. Oskar Samek, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#52780">Reindorfg. 18</street>
+                  <settlement ref="#65">Wien XIV.</settlement>
+               </address>
+               <date when-iso="1937-02-08">8. FEB. 1937</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">M./</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1937-02-06">6. Februar 1937
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000196-153-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000196-153-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-12T09:52:56.545Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-12T11:11:24.132Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 400806. </change>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-11-10"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-11-10"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-11-10"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-11-10" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000196-153-000-facs001">
+      <surfaceGrp xml:id="D_000196-153-000-facs001-l001">
+         <surface type="recto" xml:id="D_000196-153-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2594173/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000196-153-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2594174/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000196-153-000_p001"
+             facs="#D_000196-153-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_24355ee9-0c24-4a70-8a54-c871bad61bd0">
+            <lb xml:id="uuid_a006a166-dfff-4f31-bd84-798f8cabe070"/>Lieber <rs ref="#38909" type="person">Herr Doktor</rs>! </p>
+         <p xml:id="uuid_a7a9a334-bc34-4658-a673-bfb2e6f94e10">
+            <lb xml:id="uuid_74e6fb82-0388-4e46-86de-7e6e78a1d29a"/><rs type="person" ref="#53889">Frau Anny</rs> befindet sich derzeit mit den<lb xml:id="uuid_02e10327-4656-4ba9-8875-81316e194fcc"/>Kindern auf der Hütte und
+                ich habe erst heute Ihr Schreiben<lb xml:id="uuid_5abc5a37-d201-4283-9bbe-a94462e8999c"/>vom 29. v.M. in der
+                Angelegenheit des Herrn <rs ref="#51575" type="person">Dr. Gallia</rs> vor<lb break="no" xml:id="uuid_3016969a-7c22-412d-bd38-3ea725b3ba4a"/>gelegt erhalten.
+                Leider ist der Betrag von Kč 1.479.10 durch<lb xml:id="uuid_152ba339-8a58-4fe5-ae62-19f4991a26f9"/>mich gleich nach Ihrer
+                Aufforderung an Herrn <rs ref="#51575" type="person">Dr. Gallia</rs> über<lb break="no" xml:id="uuid_bb1258b2-7ec2-410d-b5ed-dd227d1f69f0"/>wiesen worden.
+                Ich könnte allerdings nachträglich um die<lb xml:id="uuid_2dc9997f-0752-4e61-85c4-ecf2005d0afa"/>Genehmigung der Auszahlung
+                an <rs ref="#51575" type="person">Dr. Gallia</rs> bei der <rs ref="#58019" type="institution">National<lb break="no" xml:id="uuid_dd8accb6-5a80-43d7-98f8-252e472628a1"/>bank</rs> ansuchen,
+                müsste aber von Herrn <rs ref="#51575" type="person">Dr. Gallia</rs> ein Schrei<lb break="no" xml:id="uuid_2ba86df8-cf4a-4a80-a64e-8182e3e21564"/>ben ungefähr des
+                Inhaltes erhalten, dass er zur Kenntnis<lb xml:id="uuid_2a136713-31ef-42b6-b850-8df803e645e2"/>nimmt, dass ich von Ihnen
+                beauftragt wurde, zu Ihren Lasten<lb xml:id="uuid_edf862c3-cc5a-4619-ab4b-e76095c5e934"/>an ihn einen Betrag von Kč
+                1.479.10 zu überweisen, weshalb<lb xml:id="uuid_3cecade8-d07e-4e6b-a8b0-f1aaf8e36ebe"/>er mich auffordere, um die
+                Genehmigung bei der <rs ref="#58019" type="institution">čsl. National<lb break="no" xml:id="uuid_635d6b06-c166-4a8e-86f7-01e47d3efec8"/>bank</rs> anzusuchen.
+                Gleichzeitig müsste mir Herr <rs ref="#51575" type="person">Dr. Gallia</rs> eine<lb xml:id="uuid_f43626aa-74ca-4a6a-957b-52f673093ce2"/>spezifizierte Aufstellung
+                seiner Forderung Ihnen gegenüber<lb xml:id="uuid_6f6407cc-f8a4-495c-87d9-3c53cfd294ce"/>einsenden. Ich persönlich
+                halte jedoch diese Ueberweisung<lb xml:id="uuid_c479d7aa-7764-4b83-a919-fd5aa15f0caa"/>auch vom Standpunkt des
+                Herrn <rs ref="#51575" type="person">Dr. Gallia</rs> nicht für all’ zu<lb xml:id="uuid_12e11877-e0c5-4a04-ab29-6ed049b02bd2"/>kompliziert, da er lediglich
+                in seinen Büchern die Forderung<lb xml:id="uuid_734b0546-6910-4d2c-b035-d20e29ed5102"/>formell als unbeglichen
+                ausweisen müsste. </p>
+         <p xml:id="uuid_0dc6c329-9bd9-44c1-87b1-c7872a100780">
+            <lb xml:id="uuid_739ebfe0-1701-4865-a0ab-c81c0c262bb7"/>Ich verbleibe mit den besten
+               Grüssen<lb xml:id="uuid_411c3bc8-de95-4899-ab8d-dfae7dc45b34"/>Ihr ergebener<lb
+               xml:id="uuid_b408ce69-7e46-4c9f-8ef9-5f96311b84fd"/><rs ref="#60925" type="person"
+               >Dr. Katz</rs>
+         </p>
+         <p xml:id="uuid_05db495d-d16d-4d5c-82b7-f19d167b2e5d">
+            <pb xml:id="D_000196-153-000_p002"
+                facs="#D_000196-153-000-facs001-l001-p002"
+                n="2"/>
+         </p>
+         <p xml:id="uuid_55976cb8-1b6e-4012-9cf5-c923ed8614a4">
+            <lb xml:id="uuid_fb8a3db9-9f35-42a3-b3e0-94d4ce46812c"/><note resp="law-firm"
+               type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#29644"
+                  type="institution">Arbeiterzeitung</rs>
+               <lb xml:id="uuid_f8e5729f-3370-4b9f-86e9-fb126aa4625a"/>8. FEB. 1937</note></p>
+      </body>
+   </text>
+</TEI>

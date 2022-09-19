@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000098-026-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000098-024-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000098-025-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Marcella S. Gardner (William Fox Studio)</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000098-025-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/2953</idno>
+            <idno subtype="transkribus" type="ID">420124</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000098" type="collection"
+               >Darlehenssache Berthold Viertel</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000098-025-000-facs001" xml:id="D_000098-025-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000098-025-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHU">Durchschlag mit
+                        handschriftlichen Überarbeitungen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-02-11">11. Februar 1930</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1930-02-11">11. Februar 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#51576">Frau | Marcella S. Gardner</persName>
+               <address>
+                  <street corresp="#54317">William Fox Studio</street>
+                  <settlement ref="#38174">Hollywood, California.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Viertel.</note>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <handNotes>
+            <handNote xml:id="D_000098-025-000-hand01" source="#D_000098-025-000-wit01"
+               scribeRef="#38909" medium="grey-pencil" cert="low" resp="#IL"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000098-025-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000098-025-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2021-04-26" who="#IL"/>
+         <change type="structure" when-iso="2021-04-21" who="#IL"/>
+         <change type="references" when-iso="2021-04-21" who="#IL"/>
+         <change type="typography" when-iso="2021-04-22" who="#IL"/>
+         <change type="intertexts" when-iso="2021-04-21" who="#IL"/>
+         <change when-iso="2020-10-08T12:24:58.572Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T12:30:09.483Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 420124. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000098-025-000-facs001">
+      <surfaceGrp xml:id="D_000098-025-000-facs001-l001">
+         <surface xml:id="D_000098-025-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554748/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000098-025-000-facs001-l001-p002" type="verso">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554749/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000098-025-000-facs001-l002">
+         <surface xml:id="D_000098-025-000-facs001-l002-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554750/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000098-025-000_p001" facs="#D_000098-025-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_401b2ea6-86bf-499d-bf1d-893ce2dc33d1">
+            <lb xml:id="uuid_11fa933c-919a-4557-9a1e-d043d3232db6"/>Sehr geehrte Frau <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/51576" type="person">Gardner</rs>! </p>
+         <p xml:id="uuid_e16c4548-8329-4db2-ba93-f552b2d0b60d">
+            <lb xml:id="uuid_90399a8e-767e-4a52-8421-63a0f8435337"/>Ich habe Ihnen den Empfang der
+            beiden Schecks<lb xml:id="uuid_01cf38b5-355e-4cad-b319-90336b81c96a"/>per Dollar 200.–,
+            von denen einer im November 1929, der andere<lb
+               xml:id="uuid_c1da056f-ffde-4c76-a393-bbbfc730cb63"/>im Jänner 1930 eingelangt ist,
+            bereits in meinem <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000098-022-000"
+               type="work" subtype="legal-doc">Schreiben</rs> vom<lb
+               xml:id="uuid_84f539bc-ace3-49e8-9e49-d7bb20d9012d"/>14. Jänner 1930 bestätigt und in
+            Aussicht gestellt, in Zukunft<lb xml:id="uuid_20cad850-7b85-4472-8ff9-e02af80a5835"
+            />wunschgemäß jede einzelne Ratenzahlung zu bestätigen. Der<lb
+               xml:id="uuid_5e66397e-c627-4718-8386-399b929a8e04"/><rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000098-022-000" type="work"
+               subtype="legal-doc">Brief</rs> vom 14. Jänner 1930 scheint aber verloren gegangen zu
+               sein,<lb xml:id="uuid_5723d576-d212-42c7-b5f3-121c9fb0d055"/>weshalb ich diesen
+            rekommandiert sende. Sie können die Zahlungen<lb
+               xml:id="uuid_2014de33-f46e-4dd0-8acb-c74f6b0f586f"/>beruhig<subst
+               hand="#D_000098-025-000-hand01">
+               <del hand="#D_000098-025-000-hand01">end</del>
+               <add hand="#D_000098-025-000-hand01">t</add>
+            </subst> wieder fortsetzen. </p>
+         <p xml:id="uuid_acff16b3-67ed-462f-92e0-8e32c9846903">
+            <lb xml:id="uuid_d1c49948-34be-4387-9cb9-56e351e438f2"/>Mit vorzüglicher Hochachtung</p>
+         <p xml:id="uuid_585d8389-ad56-4d70-a3fb-8c14881b0278"><lb
+               xml:id="uuid_eeb52f56-1d40-4dc4-97f6-9674ebbbfa49"/>Rekommandiert.</p>
+         <pb xml:id="D_000098-025-000_p002" facs="#D_000098-025-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_6edc372a-d6fb-40fc-ae14-56591aef8d0e">
+            <lb xml:id="uuid_8065023e-3e15-41c0-8eff-86b71e4f91e9"/><note resp="law-firm"
+               type="paratext">Betr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  type="person">Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/10364"
+                  type="person">Viertel</rs>
+               <lb xml:id="uuid_c1862605-2968-4b05-af99-9df6fd30476f"/>exp. 11.2.1930.</note></p>
+      </body>
+   </text>
+</TEI>

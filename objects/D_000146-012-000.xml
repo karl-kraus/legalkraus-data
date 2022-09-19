@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-013-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-011-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000146-012-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Ernst Josef Aufricht an Samek</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000146-012-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3986</idno>
+            <idno subtype="transkribus" type="ID">290672</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000146" type="collection">Karl
+                    Kraus ca. Ernst Josef Aufricht (Theater am Schiffbauerdamm, Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000146-012-000-facs001" xml:id="D_000146-012-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000146-012-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#37761">Ernst Josef Aufricht </persName>
+               <address>
+                  <street corresp="#52608">4a Am Schiffbauerdamm</street>
+                  <settlement ref="#168">BERLIN NW6</settlement>
+               </address>
+               <date when-iso="1930-10-18">18.10.30</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Dr. Oskar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-10-18">18. Oktober 1930
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000146-012-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000146-012-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-08T15:09:21.182Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-08T15:14:40.771Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 290672. </change>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-08-11"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-08-11"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-08-11"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-08-11" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000146-012-000-facs001">
+      <surfaceGrp xml:id="D_000146-012-000-facs001-l001">
+         <surface type="recto" xml:id="D_000146-012-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542159/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000146-012-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542160/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542161/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000146-012-000_p001"
+             facs="#D_000146-012-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_cdaeefa6-2977-478e-b64f-0e36c0e8f4c1">
+            <lb xml:id="uuid_90777bb1-b081-47c6-a4ec-571c01722860"/>Sehr geehrter <rs ref="#38909" type="person">Herr Doktor</rs>! </p>
+         <p xml:id="uuid_b6a0bf8d-1d05-45e6-a528-26eaebc7f388">
+            <lb xml:id="uuid_02d686d1-7051-40a9-8aff-633e4ed46924"/>Mit bestem Dank bestätige ich
+            Ihren eingeschrie<lb break="no" xml:id="uuid_8f02c1c1-5e60-4fba-9a50-d1a17b12b7ae"
+            />benen <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-011-000" type="work"
+               subtype="legal-doc">Brief</rs> vom 13. cr. Es wäre ausserordentlich bedauerlich,
+               wenn<lb xml:id="uuid_f8977565-9548-4136-b501-8089d9e3e9f2"/>Sie durch Ihren <rs
+               ref="#38969" type="person">Berliner Rechtsanwalt</rs> eine Klage über meine Schuld<lb
+               xml:id="uuid_3c9591c7-eec1-4ebf-9539-dc52cb8d9cdc"/>an Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+            einbrächten, denn es ist keinerlei böser Wille,<lb
+               xml:id="uuid_8da4827e-6508-4663-aeba-a54fc3421567"/>ja nicht einmal Fahrlässigkeit,
+            die mich bisher abgehalten hat, Ihnen<lb
+               xml:id="uuid_1c869ab7-d627-4c00-8fef-ca2586d5936d"/>eine Rate zu senden. Ich würde es
+            lieber heute wie morgen tun. Aber<lb xml:id="uuid_15ce792d-1158-4211-85f4-4e9a97f7a7dd"
+            />auch Ihr <rs ref="#38969" type="person">Berliner Substitut</rs> könnte im Augenblick
+            nur das feststellen,<lb xml:id="uuid_366d4a80-a6f2-4a04-a92b-f017243338c6"/>was ich
+            Ihnen schreibe, nämlich, dass ich beim besten Willen das Geld<lb
+               xml:id="uuid_dc047ee8-aa7e-4e07-b746-7d2ea612e0b1"/>im Moment nicht zahlen kann. Ich
+            glaube bestimmt, Ihnen zum Monats<lb break="no"
+               xml:id="uuid_0e7a8193-7f07-47b0-8b3d-91750ea494ac"/>ende einige hundert Mark
+            überweisen zu können und ersuche Sie höf<lb break="no"
+               xml:id="uuid_f8276d72-0f54-4180-8a41-dd340947375f"/>lichst, noch bis dahin mit
+            irgendwelchen Schritten warten zu wollen. </p>
+         <p xml:id="uuid_1a92bc8b-7cf9-4d27-a8d3-d11faf7976eb">
+            <lb xml:id="uuid_d658571d-30aa-4ca2-ad65-a3561a7c7ab8"/>Mit vorzüglichster
+               Hochachtung<lb xml:id="uuid_54628ca4-db8c-4632-84e4-a6dfaa8f1dd4"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/37761" type="person">Ernst Josef
+               Aufricht</rs>
+            <pb xml:id="D_000146-012-000_p002" facs="#D_000146-012-000-facs001-l001-p002" n="2"
+            /></p>
+         <p xml:id="uuid_c7d73c9e-9e85-4a8b-97e2-44a62c9f87a5">
+            <lb xml:id="uuid_636f3f9b-1749-4b7b-8b51-d257a28edbad"/><note resp="law-firm"
+               type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37761"
+                  type="person">Aufricht</rs>
+               <lb xml:id="uuid_45d4599a-71b4-4eab-bc39-65e1981ffcd0"/>20. OKT. 1930</note></p>
+      </body>
+   </text>
+</TEI>

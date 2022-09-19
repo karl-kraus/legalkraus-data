@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-008-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-006-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000193-007-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Johann Turnovsky</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000193-007-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4735</idno>
+            <idno subtype="transkribus" type="ID">375962</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000193" type="collection">Karl
+                    Kraus ca. Sozialdemokrat (Prag)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000193-007-000-facs001" xml:id="D_000193-007-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000193-007-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#52780"/>
+                  <settlement ref="#64"/>
+               </address>
+               <date when-iso="1934-09-18">18. September 1934</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#43593">Herrn | Dr. Johann Turnovsky | Advocat</persName>
+               <address>
+                  <street corresp="#51737">Vodickova 33</street>
+                  <settlement ref="#652">Prag II.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Sozialdemokrat</note>
+               <note type="dictation">Dr.S/Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1934-09-18">18. September 1934
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000193-007-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000193-007-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-08-10" who="#JK"/>
+         <change type="typography" when-iso="2021-08-10" who="#JK"/>
+         <change type="references" when-iso="2021-08-10" who="#JK"/>
+         <change type="structure" when-iso="2021-08-10" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-02" who="#JK"/>
+         <change when-iso="2020-10-12T07:56:29.816Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-12T08:31:06.58Z" who="#IB">Replaced Text with Transcription of
+                Transkribus Document 375962. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000193-007-000-facs001">
+      <surfaceGrp xml:id="D_000193-007-000-facs001-l001">
+         <surface type="recto" xml:id="D_000193-007-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545935/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000193-007-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545936/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545937/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545938/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000193-007-000_p001"
+             facs="#D_000193-007-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_0badf044-561d-43bb-af05-4cc3855678b2">
+            <lb xml:id="uuid_1698dd46-c6a1-42b4-8cda-4cdd8821a64c"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43593" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_a8e54360-6c29-4e4b-a94a-3e9adb6e7707">
+            <lb xml:id="uuid_f8532ad0-9ffd-41fc-9aa6-054fbc516fb1"/>Ihr <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-005-000"
+                type="work"
+                subtype="legal-doc">Schreiben vom 17. September 1934</rs> werde<lb xml:id="uuid_c5b4109d-81b5-47fd-ae8c-d9282859339b"/>ich <rs ref="#11988" type="person">Herrn K.</rs> heute noch nachsenden. Da es immerhin möglich<lb xml:id="uuid_3904ff2b-c27c-4bcb-862f-e39ce6393e82"/>ist, dass ich seine Antwort
+                nicht so rechtzeitig erhalte, um<lb xml:id="uuid_017aebbc-504a-45de-83c2-bb438d76ac07"/>sie Ihnen noch vor der
+                Vergleichsverhandlung vom 22. bekannt<lb break="no" xml:id="uuid_54d7385c-3b08-408b-ae52-dd6846b7db48"/>zugeben, so bitte ich Sie,
+                in diesem Falle die Vergleichs<lb break="no" xml:id="uuid_185646c2-ac3a-4801-be12-88cd03eb2c49"/>verhandlung womöglich
+                vertagen zu lassen, mit Berufung da<lb break="no" xml:id="uuid_16cf85c3-8efd-4c7d-bc42-2ce6a2403852"/>rauf, dass Sie von dem
+                Klienten keine Informationen zum Ver<lb break="no" xml:id="uuid_25c29344-9791-4fdf-83ee-baf608fed76a"/>gleich haben. Damit im Falle
+                des <rs ref="#37264" type="institution">Aufrufs</rs> nicht die gleiche<lb xml:id="uuid_bce5421c-f2cf-4417-a285-23c9d07fdfb2"/>Komplikation eintritt, frage
+                ich bei <rs ref="#11988" type="person">Herrn K.</rs> auch wegen eines<lb xml:id="uuid_a69af8ef-7469-41ed-8f9b-a0328337181f"/>etwaigen Vergleiches in
+                jener Sache an. </p>
+         <p xml:id="uuid_56d43343-1355-4292-af6e-0827e6ce5b54">
+            <lb xml:id="uuid_88ed92bd-b938-4354-8ab1-74f492613d24"/>Ich zeichne mit </p>
+         <p xml:id="uuid_001fceb8-d7c9-445c-8456-8bbbc0379b14">
+            <lb xml:id="uuid_3831b381-7747-481f-a25c-2b7b3cc83605"/>vorzüglicher kollegialer<lb xml:id="uuid_3d1ba8a4-a2a9-4621-995e-1b226d3444cb"/>Hochachtung </p>
+         <pb xml:id="D_000193-007-000_p002"
+             facs="#D_000193-007-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_2225348b-f69e-4e09-b161-18ecb2f88df1">
+            <lb xml:id="uuid_45031598-39ab-48c8-ae90-290831ec8c24"/><note resp="law-firm" type="paratext">Betr. <rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37540" type="institution">Sozialdemokrat</rs>
+               <lb xml:id="uuid_4a446927-5d00-4404-9682-c25d167c0bc0"/>exp. 18.9.1934. </note>
+         </p>
+      </body>
+   </text>
+</TEI>

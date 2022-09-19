@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-015-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-013-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000070-014-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Botho Laserstein</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000070-014-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-samek-ra-botho-laserstein-0 </idno>
+            <idno subtype="transkribus" type="ID">212909</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000070" type="collection">Alfred Kerr ca. Karl Kraus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000070-014-000-facs001" xml:id="D_000070-014-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000070-014-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1928-11-09">9. November 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38969">Herrn | Dr. Botho Laserstein, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#51751">Landsberger Allee 55</street>
+                  <settlement ref="#168">Berlin N.O. 18</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Kerr II.</note>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1928-11-09">9. November
+                    1928</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000070-014-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000070-014-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" status="draft" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" status="draft" when-iso="2021-09-13">Replaced Text with Transcription
+                of Transkribus Document 212909. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2022-01-11"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-01-11" who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2022-01-11"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2022-01-11"
+                 who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2022-01-11"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000070-014-000-facs001">
+      <surfaceGrp xml:id="D_000070-014-000-facs001-l001">
+         <surface type="recto" xml:id="D_000070-014-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553116/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000070-014-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553117/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000070-014-000_p001"
+             facs="#D_000070-014-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_a7d2d834-090d-40e8-b9c9-1859f4c642ce">
+            <lb xml:id="uuid_4f00279a-8b0f-4e02-ac1e-83787746101c"/>Sehr geehrter <rs ref="#38969" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_79771ce0-bfbb-4779-a97e-85f1d37418dd">
+            <lb xml:id="uuid_af5164b2-89c7-4100-8561-d473adaf2299"/>Aus den Zeitungen habe ich
+                die interessante<lb xml:id="uuid_6eddce17-3e5f-45e5-a9fc-1b1be0b21c3c"/>Entscheidung
+                in dieser Sache erfahren und erhoffte mir von Herrn<lb xml:id="uuid_88db85d8-7a07-47c9-b937-c5bdd1e00565"/><rs ref="#11988" type="person">Kraus</rs> nach seiner Rückkehr die juristische Begründung der
+                    Ent<lb break="no" xml:id="uuid_e2802bce-6574-429b-95de-f56e206ec184"/>scheidung
+                erfahren zu können. Da mir aber die Mitteilung des<lb xml:id="uuid_b748962e-cec8-45b9-bfef-62be0ee89ce9"/>Herrn <rs ref="#11988" type="person">Kraus</rs> nicht ganz genügt, so wäre ich Ihnen zu grossem<lb xml:id="uuid_591e85aa-a54c-4f84-b1f6-a0bafba75b0a"/>Danke verpflichtet, wenn Sie
+                mir <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-011-000.xml"
+                type="work"
+                subtype="legal-doc">Abschrift</rs> der jeweiligen Ent<lb break="no" xml:id="uuid_998b9976-0f3f-4b17-82b6-d9f0a121d592"/>scheidungen zukommen
+                liessen. </p>
+         <p xml:id="uuid_88bfb697-8ca7-4200-ab0f-0bab45652091">
+            <lb xml:id="uuid_4847b11f-dbe7-4ea3-a0d5-c39fdf389564"/>Ich danke Ihnen schon jetzt
+                für Ihre<lb xml:id="uuid_a7f71241-62fe-4c59-b60e-a2fe7ce45bdb"/>liebenswürdige Mühe
+                und zeichne mit kollegialer Hochachtung </p>
+         <p xml:id="uuid_5b01e1be-f0fc-4d14-8782-ceb99216c3de">
+            <lb xml:id="uuid_43f1ca91-1d72-4d73-b547-32fa25b3b4f4"/>Ihr ergebener <pb xml:id="D_000070-014-000_p002"
+                facs="#D_000070-014-000-facs001-l001-p002"
+                n="2"/>
+         </p>
+         <p xml:id="uuid_c17f9a42-6cea-4f31-bbf0-6270bce844b3">
+            <lb xml:id="uuid_510137a7-31b6-4a47-8e3c-2d39abc1a337"/><note resp="law-firm" type="paratext">Betr. <rs ref="#11988" type="person">Kraus</rs> – <rs ref="#11910" type="person">Kerr</rs> II<lb xml:id="uuid_4f9ac7eb-5963-49ac-9cb0-f89b7ff77d68"/>exp. am 9.11.1928.
+                </note>
+         </p>
+      </body>
+   </text>
+</TEI>

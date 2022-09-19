@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000136-051-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000136-049-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000136-050-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Botho Laserstein an Kraus</title>
+            <editor ref="#PE">Pia Ebner</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000136-050-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/3806</idno>
+            <idno subtype="transkribus" type="ID">452054</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000136" type="collection">Karl Kraus
+               ca. Volksbühne Berlin</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000136-050-000-facs001" xml:id="D_000136-050-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000136-050-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSU">Typoskript mit
+                        handschriftlichen Überarbeitungen</objectType>
+                     <objectType source="D_000136-050-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP">Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38969">Dr.jur. Botho Laserstein</persName>
+               <address>
+                  <street corresp="#51751">Landsberger Allee 115–116</street>
+                  <settlement ref="#168">Berlin NO 18</settlement>
+               </address>
+               <date when-iso="1931-11-25">25. November 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#11988">Herrn | Karl Kraus</persName>
+               <address>
+                  <street corresp="#50496">Hintere Zollamtsstr. 3</street>
+                  <settlement ref="#53">Wien</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">L/S.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-11-25">25. November 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="german">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote xml:id="D_000136-050-000-hand01" source="#D_000136-050-000-wit01"
+               scribeRef="#38969" medium="black-ink" cert="high" resp="#JK"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000136-050-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000136-050-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" type="references" when-iso="2021-09-25" who="#PE"/>
+         <change status="draft" when-iso="2020-10-08T14:03:55.882Z" who="#IB">created by API
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000136-050-000-facs001">
+      <surfaceGrp xml:id="D_000136-050-000-facs001-l001">
+         <surface type="recto" xml:id="D_000136-050-000-facs001-l001-p001">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558948/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000136-050-000_p001" facs="#D_000136-050-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_17b73d69-846c-4805-a96b-e397a15b5466">
+            <lb xml:id="uuid_8546a8c9-9c37-49f7-b9f7-fe3c9f890f11"/>Sehr verehrter Herr <rs
+               ref="#11988" type="person">Kraus</rs>! </p>
+         <p xml:id="uuid_600b046e-6b8b-4fc3-aeb8-b3b067110fd8">
+            <lb xml:id="uuid_84fde913-34cf-47b5-9089-900fa0cac139"/>In Sachen gegen <rs ref="#36940"
+               type="institution"><hi rend="spaced">Volksbühn</hi>e</rs> teilt<lb
+               xml:id="uuid_74dc110a-b10b-46d5-a46f-89ce2f173b33"/>mir das <rs type="institution"
+               ref="#36832">Gericht</rs> mit, dass Termin für die Vorstel<lb break="no"
+               xml:id="uuid_a95b7887-8c4a-49d6-9b58-64d8f5a8d209"/>lung „<rs ref="#53397"
+               type="work" subtype="pmb">Die Unüberwindlichen</rs>“ auf den 13. Dezember<lb
+               xml:id="uuid_06c91202-1abc-4f06-956e-6d2191247153"/>1931 festgesetzt worden ist. <add
+               hand="#D_000136-050-000-hand01">Das Zwangsverfahren<lb
+                  xml:id="uuid_e5d19ca8-617f-4e4f-8179-73436cf79d73"/>geht weiter.</add>
+         </p>
+         <p xml:id="uuid_f5c2c3ab-5a41-47da-95d5-5c7a0765d9a7">
+            <lb xml:id="uuid_0a3b4538-f7a6-40a1-ac71-4db5be4462da"/>Hochachtungsvoll<lb
+               xml:id="uuid_29c81fea-aa29-4bdd-b086-16349e8735eb"/><rs ref="#38969" type="person"
+               >Dr. Laserstein</rs>
+            <lb xml:id="uuid_f7c4778f-5e03-4f00-851d-353ab59d9f77"/>Rechtsanwalt.</p>
+      </body>
+   </text>
+</TEI>

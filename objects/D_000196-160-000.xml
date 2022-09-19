@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-161-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-159-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000196-160-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Felix Gallia an Samek</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000196-160-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/5178</idno>
+            <idno subtype="transkribus" type="ID">400818</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000196" type="collection">Karl
+                    Kraus ca. Arbeiter-Zeitung (Brünn)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000196-160-000-facs001" xml:id="D_000196-160-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000196-160-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#51575">Dr. FELIX GALLIA</persName>
+               <address>
+                  <street corresp="#51759">MASARYKSTRASSE 25/27</street>
+                  <settlement ref="#833">BRÜNN</settlement>
+               </address>
+               <date when-iso="1937-08-12">12. August 1937</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Wohlgeboren Herrn | Dr. Oskar Samek, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse 18</street>
+                  <settlement ref="#65">Wien XIV.</settlement>
+               </address>
+               <date when-iso="1937-08-13">13. AUG. 1937</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Karl Kraus.</note>
+               <note type="dictation">Dr.G/b</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1937-08-12">12. August 1937
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000196-160-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000196-160-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-12T09:52:56.545Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-12T11:11:24.132Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 400818. </change>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-11-10"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-11-10"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-11-10"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-11-10" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000196-160-000-facs001">
+      <surfaceGrp xml:id="D_000196-160-000-facs001-l001">
+         <surface type="recto" xml:id="D_000196-160-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2594191/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000196-160-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2594192/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000196-160-000_p001"
+             facs="#D_000196-160-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_a82a2507-a0f9-4ae6-9191-aee36d581d1e">
+            <lb xml:id="uuid_66e73eee-94aa-4901-a8c2-a27d22bd718c"/>Sehr geehrter <rs ref="#38909" type="person">Herr Doktor</rs>. </p>
+         <p xml:id="uuid_02f26754-c128-4869-86f3-75434034fbed">
+            <lb xml:id="uuid_39fa0841-a2f2-401e-9b48-18242d24a83c"/>Ich bin wahrscheinlich
+                Sonntag den 15. d.M.<lb xml:id="uuid_84f1876a-40d1-4b2a-8628-e0811a9af59e"/>in <rs ref="#50" type="place">Wien</rs> und würde sehr gern bei dieser Gelegenheit mit
+                    Ihnen<lb xml:id="uuid_04f5dd1a-5387-442b-b528-0ea8bfbd1aac"/>sprechen. Falls Sie
+                Zeit und Lust haben, mit mir zu sprechen,<lb xml:id="uuid_cd99eb47-e005-4166-bfca-0f6ab3c532e3"/>bitte ich um eine
+                telefonische Nachricht an meine Schwägerin<lb xml:id="uuid_7ed8fd86-0faf-42d8-9a41-aa9fc333c91b"/>Frau <rs ref="#60931" type="person">Maria Riese</rs> / R 43-4-45 /. Mir wäre es am liebsten,<lb xml:id="uuid_0ed0396c-7cc4-4013-bbb8-fb38c8f95648"/>wenn wir uns gegen Abend
+                etwa zwischen 6–8 Uhr treffen<lb xml:id="uuid_c5db113a-77db-44fb-98cd-d27d76a83fe0"/>könnten. Wann ich in <rs ref="#50" type="place">Wien</rs> ankomme, weiss ich noch
+                nicht, ver<lb break="no" xml:id="uuid_bfe0211d-7cd8-43d3-a113-e41588751f4f"/>mutlich
+                erst Sonntag Mittag. </p>
+         <p xml:id="uuid_0d6a6c9c-417c-4c9b-94ab-2ca146edb028">
+            <lb xml:id="uuid_0cf91c77-81a3-458e-b0c1-aa898da8146d"/>Mit herzlichen kollegialen
+                Grüssen </p>
+         <p xml:id="uuid_36493594-e6a5-429e-9b24-071397103926">
+            <lb xml:id="uuid_b8311044-2489-404c-a8eb-56b672510d94"/>Ihr sehr ergebener<lb
+               xml:id="uuid_fc3e2d23-01ef-4112-99f9-793fd71a0bac"/><rs ref="#51575" type="person"
+               >Dr. Gallia</rs>. </p>
+         <p xml:id="uuid_4f13f85e-b6d5-4208-9cc1-5fa052d07b47">
+            <pb xml:id="D_000196-160-000_p002"
+                facs="#D_000196-160-000-facs001-l001-p002"
+                n="2"/>
+         </p>
+         <p xml:id="uuid_d8a1d3bd-f65c-4116-a381-df676857cc6f">
+            <lb xml:id="uuid_53170cbb-b4dd-4c5f-adf8-62927451d3d7"/><note resp="law-firm"
+               type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#29644"
+                  type="institution">Arbeiter Ztg.</rs>
+               <lb xml:id="uuid_fa7bc23f-abf1-4b9a-b6ee-adcf797e72a9"/>13. AUG. 1937</note></p>
+      </body>
+   </text>
+</TEI>

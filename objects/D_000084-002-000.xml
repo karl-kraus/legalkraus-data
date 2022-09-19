@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+   xml:id="D_000084-002-000.xml" prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000084-001-000.xml"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000084-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Volkskampf (verantw. Red. Emil Schifter)</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000084-002-000.xml</idno>
+            <idno type="URL" subtype="krausonline"
+               >http://www.kraus.wienbibliothek.at/node/2799</idno>
+            <idno type="ID" subtype="transkribus">252017</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000084">Karl Kraus
+               ca. Volkskampf</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000084-002-000-wit01" facs="#D_000084-002-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000084-002-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T"
+                        >Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909">Dr. Oskar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien, I.</settlement>
+               </address>
+               <date when-iso="1927-05-06">6. Mai 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#43669">den | verantwortlichen Schriftleiter des „Volkskampf“ | Emil Schifter</persName>
+               <address>
+                  <street corresp="#53625">Kellermanngasse Nr. 8/1</street>
+                  <settlement ref="#57">Wien VII.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – „Volkskampf“ II</note>
+               <note type="dictation">Dr.S./W.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date type="sortDate" subtype="produced" when-iso="1927-05-06">6. Mai 1927</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000084-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000084-002-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+         <handNotes>
+            <handNote xml:id="D_000084-002-000-hand01" source="#D_000084-002-000-wit01"
+               scribeRef="#87690" medium="black-ink" cert="high" resp="#JK"/>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-10-07T15:29:48.467Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-07T15:39:53.256Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 252017. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000084-002-000-facs001">
+      <surfaceGrp xml:id="D_000084-002-000-facs001-l001">
+         <surface xml:id="D_000084-002-000-facs001-l001-p001" type="recto">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554159/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+            
+         </surface>
+         <surface xml:id="D_000084-002-000-facs001-l001-p002" type="verso">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554160/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000084-002-000-facs001-l002">
+         <surface xml:id="D_000084-002-000-facs001-l002-p003" type="recto">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554161/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+            
+         </surface>
+         <surface xml:id="D_000084-002-000-facs001-l002-p004" type="verso">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554162/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000084-002-000-facs001-l003">
+         <surface xml:id="D_000084-002-000-facs001-l003-p005" type="recto">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554167/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+            
+         </surface>
+         <surface xml:id="D_000084-002-000-facs001-l003-p006" type="verso">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554168/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic
+            url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554163/full/full/0/default.jpg"
+            source="wienbibliothek"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic
+            url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554164/full/full/0/default.jpg"
+            source="wienbibliothek"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic
+            url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554165/full/full/0/default.jpg"
+            source="wienbibliothek"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic
+            url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554166/full/full/0/default.jpg"
+            source="wienbibliothek"/>
+         
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000084-002-000_p001" facs="#D_000084-002-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_43861aa7-a564-4ad2-82ae-06acc450b4d5">
+            <lb xml:id="uuid_aec72386-b22d-4337-bb45-6cccdfb86724"/>Gemäss <rs type="law"
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45"
+               >§ 23 des Pressgesetzes</rs> fordere ich im<lb
+               xml:id="uuid_95e7b7da-b002-43ca-86df-e1e7f54fc0af"/>Vollmachtsnamen des Herrn <rs
+               type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl <hi rend="spaced"
+                  >Krau</hi>s</rs> die Aufnahme der<lb
+               xml:id="uuid_d4f6eb2e-59c5-48e0-a472-336fc66d5bf2"/>nachfolgenden Berichtigung der in
+            der <rs type="work" subtype="pmb" ref="#53619">Folge 18 des 1. Jahr<lb
+                  xml:id="uuid_c252c992-718c-49b5-9e96-fe851a6aeb65" break="no"/>ganges vom Samstag,
+               den 30. April 1927</rs>, Seite 6, mitgeteil<lb
+               xml:id="uuid_7e2362ef-e2f6-47ad-9475-82e78395cea4" break="no"/>ten, ihn betreffenden
+            Tatsache. </p>
+         <p xml:id="uuid_d81166cc-6d3d-4886-9e29-44f7469d38ab">
+            <lb xml:id="uuid_524ae107-00cb-4616-9ee9-44f35dc6eea3"/>Sie zitieren aus dem Werke des
+            Herrn <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>
+            <lb xml:id="uuid_d49314b2-5a31-4855-b968-4685c02b566c"/>„<rs type="work" ref="#52757"
+               subtype="pmb">Literatur oder Man wird doch da sehn</rs>“, folgende Stelle: </p>
+         <p xml:id="uuid_bce7398f-85da-426b-b3fc-f50d2482071a">
+            <lb xml:id="uuid_7f43b3d7-83bb-451c-808f-5d7a92d57008"/><quote
+               xml:id="uuid_21d8b816-39ab-445f-b35f-345a160363c5" source="#52757">Der Vater.<lb
+                  xml:id="uuid_87e0a1d2-36ab-42c7-8b31-d8646053f307"/>Kinder, ich wer’ euch sagen,
+               was ich weiß.<lb xml:id="uuid_ab28fc0c-dfe6-4579-8789-d84593596f06"/>Wie ihr da alle
+               seids, seids ihr zusammen<lb xml:id="uuid_e034d821-4233-4d4d-85fa-e22faef228fc"/>Und
+               jeder einzeln ganz dasselbe wert<lb
+                  xml:id="uuid_6521a808-157b-441c-86df-efdbb799e82f"/>Wie jeder einzeln, darum ist
+               es möglich,<lb xml:id="uuid_d2b78baa-13c7-48d7-b180-fbd33c8e5c69"/>Daß jeder werd mit
+               jedem <hi rend="spaced">leich</hi>t verwechselt;<lb
+                  xml:id="uuid_17958825-be4f-4e9e-966f-77d8d3981e7b"/>Was einer hat, das kann auch
+               jeder andre,<lb xml:id="uuid_24703a3f-4bda-4012-9505-10b7f3e7c791"/>Drum kann er es
+               von jedem andern haben;<lb xml:id="uuid_65d78ebb-c030-46ce-8c1e-ec9bab6a2c14"/>Denn
+               nix is so <hi rend="spaced">gemeinsa</hi>m wie das Nix.<lb
+                  xml:id="uuid_63bcf5dc-56d1-44ef-846f-5eed821693ca"/>Wenn sich der <hi
+                  rend="spaced">Tinef</hi>f auch absurd gebärdet,<lb
+                  xml:id="uuid_4917995f-506e-434e-9117-993ef523e3e8"/>Es kommt sich doch <hi
+                  rend="spaced">Meschuggene</hi>s nur ’raus.<lb
+                  xml:id="uuid_5ee23f8e-db02-4f1f-b484-16c15d9e7442"/>Ihr seids gewiß talentvoll, so
+               wie wir;<lb xml:id="uuid_1060158f-5108-4857-8b5f-ed782ab0bd41"/>Wie tüchtig wär’ nix
+               jeder von euch Jüngels,<lb xml:id="uuid_b46b2eaa-c8da-4311-88a2-48151712a280"/>Hätt’
+               er sich nix grad <hi rend="spaced">da</hi>s Geschäft gewählt!<lb
+                  xml:id="uuid_2e679da9-0748-4e91-80aa-698ecaafa15c"/>Statt Bücher schreiben, führt
+               sie eppes doch!</quote>
+            <lb xml:id="uuid_f8610d72-a887-4285-9202-98a252400b72"/>(<rs type="person"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>, „<rs type="work" subtype="pmb"
+               ref="#52757">Literatur oder man werd doch da sehn</rs>“, S. 20.) </p>
+         <pb xml:id="D_000084-002-000_p002" facs="#D_000084-002-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_50479543-c945-434e-a9f8-9269b509e6ed">
+            <lb xml:id="uuid_7021972d-b8d4-491a-a414-4446e0576891"/>Es ist unwahr, dass das Werk <rs
+               type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>’<lb
+               xml:id="uuid_4e3c6dd4-2842-45ef-84e9-878134c5f65f"/>den Titel „<quote
+               xml:id="uuid_6a6b7219-a9f0-4016-b015-8d7c3516e8cb" source="#53621">Literatur oder man
+               werd doch da sehn</quote>“ hat,<lb xml:id="uuid_1148d44c-34a7-48be-b4ec-6ac53c701ac7"
+            />wahr ist, dass es „<rs type="work" ref="#52757" subtype="pmb">Literatur oder Man wird
+               doch da sehn</rs>“<lb xml:id="uuid_fb8cff8e-17d2-4a8c-9e10-03515c06fab8"/>heißt. </p>
+         <p xml:id="uuid_bfe61f15-fee3-49f5-8466-f1e4fe5aaaca">
+            <lb xml:id="uuid_3fdce854-6c0e-40a6-9113-897b5a42427b"/>Es ist unwahr, dass die zitierte
+               Stelle<lb xml:id="uuid_24af35fd-5cac-467b-8ffe-654c6ee8d953"/>den von Ihnen
+            angegebenen Wortlaut hat.<lb xml:id="uuid_40a06b67-5925-46de-9a14-371832dbf81d"/>Es ist
+            unwahr, dass Zeile 1 lautet:<lb xml:id="uuid_2beda14a-92b5-42f9-af23-0d134fb5419e"
+               />„<quote xml:id="uuid_6ca96f8e-5f5a-4fa2-8d52-3f9c82737032" source="#53621">Kinder,
+               ich wer’ euch sagen, was ich <hi rend="underlined">weiß.</hi></quote>“,<lb
+               xml:id="uuid_11649ef9-0dfd-4f6c-815f-b505283cc125"/>wahr ist, dass sie lautet:<lb
+               xml:id="uuid_ba3f90fa-e66f-43f2-85c1-8d979da67982"/>„<quote
+               xml:id="uuid_7d911de5-23df-4ba8-b28f-c9a6a7ec8039" source="#52757">Kinder,ich wer’
+               euch sagen, was ich <hi rend="underlined">glaub.</hi></quote>“ </p>
+         <p xml:id="uuid_70380a92-d332-4457-9082-d5d3e4b00392">
+            <lb xml:id="uuid_c5e0c397-307d-466c-b247-823ffb8cfea1"/>Es ist unwahr, dass Zeile 8
+               lautet:<lb xml:id="uuid_d41a6a69-bebc-49a4-a5a3-801adfee1cb5"/>„Denn <hi
+               rend="underlined">nix is</hi> so gemeinsam wie das <hi rend="underlined"
+               >Nix</hi>“,<lb xml:id="uuid_404aa198-5960-4c70-b2e9-a4f4dfdb1cdb"/>wahr ist, dass sie
+               lautet:<lb xml:id="uuid_34a46752-3ba7-435d-b006-d744ec2115d4"/>„<quote
+               xml:id="uuid_c91f6563-a3e1-43db-886c-254ed0f450a0" source="#52757">Denn <hi
+                  rend="underlined">nichts ist</hi> so gemeinsam wie das <hi rend="underlined"
+                  >Nichts</hi>.</quote>“ </p>
+         <p xml:id="uuid_b2f45540-41a0-4748-b439-d1a762f7d9fb">
+            <lb xml:id="uuid_cb4b3905-bd7d-4773-8913-db1ef82acf9c"/>Es ist unwahr, dass Zeile 10
+               lautet:<lb xml:id="uuid_7056abbc-3cae-486c-bdbe-9efb25e3382b"/>„<quote
+               xml:id="uuid_62ae2a76-b69c-4250-90c9-2c7392165e56" source="#53621">Es kommt <hi
+                  rend="underlined">sich doch Meschuggenes nur ’raus</hi>.</quote>“,<lb
+               xml:id="uuid_d3595d31-1ede-4770-afb1-a7bc18d3a658"/>wahr ist, dass sie lautet:<lb
+               xml:id="uuid_6af110e4-c44a-4396-9900-2c55d517791a"/>„<quote
+               xml:id="uuid_5ecbb8fe-bfb6-4a5b-8c9f-be5f39172ca9" source="#52757">Es kommt <hi
+                  rend="underlined">zuletzt nichts anderes heraus</hi>.</quote>“ </p>
+         <p xml:id="uuid_1218b99a-9774-4f3b-a7e5-a57113f6508a">
+            <lb xml:id="uuid_dd8909be-c04c-4e07-998e-fa404aae7f4e"/>Es ist unwahr, dass Zeile 11
+               lautet:<lb xml:id="uuid_c0f4ccb8-c7ba-41a4-9cdb-8d157a4bb88a"/>„<quote
+               xml:id="uuid_fe325218-b213-43c1-8bf5-8ef811c38eea" source="#53621">Ihr <hi
+                  rend="underlined">seids</hi> gewiß <hi rend="underlined">talentvoll</hi>, so wie
+               wir;</quote>“<lb xml:id="uuid_c1d05f08-50cf-46f3-862b-f56a3d4da892"/>wahr ist, dass
+            sie lautet:<lb xml:id="uuid_885e32ac-0301-4cb4-8825-c2867ac6c6eb"/>„<quote
+               xml:id="uuid_052794e4-1f57-477c-ad93-17bf2ebd2798" source="#52757">Ihr <hi
+                  rend="underlined">seid</hi> gewiß <hi rend="underlined">so talentiert</hi> wie
+               wir:</quote>“ </p>
+         <p xml:id="uuid_755c631e-11ef-48c3-9e0a-3d1d88e3eddc">
+            <lb xml:id="uuid_348ed9b2-3116-4585-bfe5-9937c002102d"/>Es ist unwahr, dass Zeile 12
+               lautet:<lb xml:id="uuid_0615a52a-13c5-4ffb-a8f0-34b88970d846"/>„<quote
+               xml:id="uuid_e7a74d36-4b8b-49dc-bdbe-9ece08360e33" source="#53621"><hi
+                  rend="underlined">Wie tüchtig wär’ nix</hi> jeder von euch <hi rend="underlined"
+                  >Jüngels</hi>,</quote>“<lb xml:id="uuid_23cf547a-5505-4eec-9477-5c725d4b5e9a"
+            />wahr ist, dass sie lautet:<lb xml:id="uuid_adebf2e4-0a6c-42b0-9dc6-c8d6e857a532"
+               />„<quote xml:id="uuid_3e5ef83e-47fb-443b-9cdc-4ed939bf20ab" source="#52757"><hi
+                  rend="underlined">Was könnte</hi> jeder von euch <hi rend="underlined">Jungen
+                  leisten</hi>,</quote>“ </p>
+         <pb xml:id="D_000084-002-000_p003" facs="#D_000084-002-000-facs001-l002-p003" n="3"/>
+         <p xml:id="uuid_08647bfd-7b79-4092-a214-abf6bb5aaca0">
+            <lb xml:id="uuid_b4c6db7f-b02b-4e5f-b573-41a3389ba9bb"/>Es ist unwahr, dass Zeile 13
+               lautet:<lb xml:id="uuid_8afb02b6-cd0b-479d-8f5e-4301ae1e2ba6"/>„<quote
+               xml:id="uuid_3eb5dcda-2c12-4373-8fca-353b49c30c16" source="#53621">Hätt’ er sich <hi
+                  rend="underlined">nix</hi> grad das Geschäft gewählt!</quote>“<lb
+               xml:id="uuid_baa79dbd-c463-438f-ab97-3a2cbb9c7224"/>wahr ist, dass sie lautet:<lb
+               xml:id="uuid_6f205174-791f-4682-aca9-44f024fbf416"/>„<quote
+               xml:id="uuid_b2f6d765-0610-4882-9517-2f11ce6ca0ac" source="#52757">Hätt er sich <hi
+                  rend="underlined">nicht</hi> grad das Geschäft gewählt!</quote>“ </p>
+         <p xml:id="uuid_bb0baf95-89a9-478d-b95a-dae904b03190">
+            <lb xml:id="uuid_056b1d85-a0ab-4c38-aeca-d224342f5b4d"/>Es ist unwahr, dass Zeile 14
+               lautet:<lb xml:id="uuid_9233e7d6-aa35-4a48-8e87-f5b37cc8b23b"/>„<quote
+               xml:id="uuid_354fc520-b4d5-43fd-9abc-a4a8357d44df" source="#53621">Statt Bücher
+               schreiben, <hi rend="underlined">führt sie eppes doch</hi>!</quote>“<lb
+               xml:id="uuid_0deb0ea3-4bac-4e0f-bebf-ce1298137f91"/>wahr ist, dass sie lautet:<lb
+               xml:id="uuid_a22a0110-9196-4838-9a91-0c96d16810f4"/>„<quote
+               xml:id="uuid_b7fa94d7-8e60-4c83-bf6b-3f96332eeee1" source="#52757">Statt Bücher
+               schreiben, <hi rend="underlined">solltet ihr sie führen</hi>.</quote>“ </p>
+         <pb xml:id="D_000084-002-000_p004" facs="#D_000084-002-000-facs001-l002-p004" n="4"/>
+         <p xml:id="uuid_53be14a0-a35b-4017-ba35-b0149d020980">
+            <lb xml:id="uuid_3f46c9ad-f24a-4387-9e98-f3e0ac78612c"/><note type="paratext"
+               resp="law-firm"><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  >Kraus</rs> – <rs type="institution" ref="#37553">Volkskampf</rs>
+               <lb xml:id="uuid_73104e33-12a1-4a72-8651-03ddd2a9f093"/>exp. 6.V.1927.</note></p>
+         <pb xml:id="D_000084-002-000_p005" facs="#D_000084-002-000-facs001-l003-p005" n="5"/>
+         <p xml:id="uuid_c1d8d295-faa0-4148-b8da-b66d7e7f2bbe">
+            <lb xml:id="uuid_4220ac70-9bfb-43d9-a21c-a0964a0720a2"/>6. Mai 7.</p>
+         <p xml:id="uuid_9e03f184-627e-4c8a-83df-c7119c3193b3"><lb
+               xml:id="uuid_2950d6b9-09d9-4e5d-8e97-14d006aabdf2"/>Dr.S./W. Betrifft: <rs
+               type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> – „<rs
+               type="institution" ref="#37553">Volkskampf</rs>“ II</p>
+         <p xml:id="uuid_4e7b4c37-5494-4b59-a2a4-96a7a80f7aa4"><lb
+               xml:id="uuid_55b97904-cd2f-45c4-88b3-6b055f2b4538"/>An den<lb
+               xml:id="uuid_ead0eec9-1fe0-460d-b991-587e5a051acd"/>verantwortlichen Schriftleiter
+            des „<rs type="institution" ref="#37553">Volkskampf</rs>“<lb
+               xml:id="uuid_072b6f3e-5ec4-4ddd-af89-e617ca34772b"/><rs type="person"
+               ref="https://pmb.acdh.oeaw.ac.at/entity/43669">Emil <hi rend="spaced"
+               >Schifte</hi>r</rs>
+            <lb xml:id="uuid_127b50bc-39a7-4aaf-a517-16ad277788fd"/><rs type="place"
+               subtype="address" ref="#53625"><hi rend="spaced">Wie</hi>n VII.<lb
+                  xml:id="uuid_f460f62b-3bc9-4b68-8331-216d57f7b46c"/>Kellermanngasse Nr. 8/1</rs>. </p>
+         <p xml:id="uuid_ffd6c9ac-957d-42f6-8079-2d68e49daf50">
+            <lb xml:id="uuid_6ddc024c-750a-4b31-8a74-18f96ac5c399"/>Gemäss <rs type="law"
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45"
+               >§ 23 des Pressgesetzes</rs> fordere ich<lb
+               xml:id="uuid_31583eb2-61fa-4db0-a23e-195a45b858c2"/>im Vollmachtsnamen des Herrn <rs
+               type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs> die
+               Aufnahme<lb xml:id="uuid_e90c4990-ba6f-4fc9-9a4d-e6b9a22cdd78"/>der nachfolgenden
+            Berichtigung der in der <rs type="work" subtype="pmb" ref="#53619">Folge 18 des 1.<lb
+                  xml:id="uuid_73b10dbf-07bb-4091-b9be-05f22b973e60"/>Jahrganges vom Samstag, den
+               30. April 1927</rs>, Seite 1, mit<lb
+               xml:id="uuid_73c399da-d79a-4e09-ade8-c276fc357e60" break="no"/>geteilten, ihn
+            betreffenden Tatsache. </p>
+         <p xml:id="uuid_0508517e-f89d-4179-9dd6-11aa95514d05">
+            <lb xml:id="uuid_466a98e2-bbf1-412b-986c-12a7fbe86c21"/>Sie schreiben:<lb
+               xml:id="uuid_d870d7c4-a088-47fe-a9f8-6951655ba984"/>„<quote
+               xml:id="uuid_e3df4a7e-b8d6-4c22-a653-eb65be2cf79a" source="#53619">‚<rs type="work"
+                  >Zum Manifest</rs>‘ der <rs type="person">Kohn-Kelsen</rs> und ‚<rs type="work" subtype="pmb"
+                  ref="#41244">Fackel</rs>-<lb xml:id="uuid_6156fc63-a2ea-44ae-a353-7a7606c9eb16"
+                  /><rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs>‘ –
+               eine Abrechnung.</quote>“ </p>
+         <p xml:id="uuid_71fbd9df-9046-4584-9f1e-3368282cc289">
+            <lb xml:id="uuid_d74cc317-6773-4493-ae0f-a7ae9f1bf972"/>Es ist unwahr, dass Herr <rs
+               type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl Kraus</rs>,
+               Heraus<lb xml:id="uuid_5d601888-a6c6-4fd2-a3e4-e7c47ec56ef4" break="no"/>geber der
+            „<rs type="work" subtype="pmb" ref="#41244">Fackel</rs>“, ein Manifest unterzeichnet hat, wahr<lb
+               xml:id="uuid_197e6d93-ba55-46f8-928c-1f1623e136da"/>ist, dass er kein Manifest
+            unterzeichnet hat. </p>
+         <pb xml:id="D_000084-002-000_p006" facs="#D_000084-002-000-facs001-l003-p006" n="6"/>
+         <p xml:id="uuid_ffb9efb1-19e1-446f-b08b-86b2a18d1c1a">
+            <lb xml:id="uuid_ed5bc0c3-91fa-44bb-87e7-dd9bcefc79e8"/><note hand="#D_000084-002-000-hand01">Den <rs
+                  type="work">Brief</rs>
+               <lb xml:id="uuid_11dbf678-2a00-4ae2-85bf-86c3a6b3003c"/>übernommen<lb
+                  xml:id="uuid_65aabcf6-64fd-4e78-bf9d-75065a40c60b"/><rs type="person" ref="#87690"
+                  >M. Weltzl</rs>.<lb xml:id="uuid_6cbeef0a-c00d-4736-a3f3-97ceedd1ae64"/>VI. Mai
+               1927</note>
+         </p>
+         <p xml:id="uuid_3f2ab28c-0d44-4531-84da-44e5c28dde03">
+            <lb xml:id="uuid_00c1c423-9ae6-4007-a007-f4d5279ea15f"/><note type="paratext"
+               resp="law-firm">Betrifft: <rs type="person"
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Kraus</rs> – „<rs
+                  type="institution" ref="#37553">Volkskampf</rs>“ II<lb
+                  xml:id="uuid_1d029982-c4ee-4818-a471-78a9f51fc33e"/>expediert am 6. Mai
+               1927.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

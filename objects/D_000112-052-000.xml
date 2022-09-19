@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    next="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-053-000.xml"
+    prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-051-000.xml"
+    xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000112-052-000.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Elfride Schmaltz an RA Botho Laserstein</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2022</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+                </availability>
+                <idno subtype="legalkraus" type="URL">
+                    https://id.acdh.oeaw.ac.at/legalkraus/legalkraus/D_000112-052-000.xml </idno>
+                <idno subtype="krausonline" type="URL"
+                    >http://www.kraus.wienbibliothek.at/node/3211</idno>
+                <idno subtype="transkribus" type="ID">241984</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000112" type="collection">Karl
+                    Kraus ca. Theodor Wolff</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness facs="#D_000112-052-000-facs001" xml:id="D_000112-052-000-wit01"/>
+                </listWit>
+                <msDesc>
+                    <physDesc>
+                        <ab type="materiality">
+                            <objectType source="D_000112-052-000-wit01"
+                                ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHU"
+                                >Durchschlag mit handschriftlichen Überarbeitungen</objectType>
+                        </ab>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date subtype="produced" type="sortDate" when-iso="1931-04-24">24. April 1931</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#43662">Elfride Schmaltz</persName>
+                    <address>
+                        <street corresp="#56238">Klingsorstraße 71</street>
+                        <settlement ref="#168">Berlin-Steglitz</settlement>
+                    </address>
+                    <date when-iso="1931-04-24">24. April 1931</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#38969">Herrn | Rechtsanwalt Dr. Laserstein</persName>
+                    <address>
+                        <street corresp="#51751"/>
+                        <settlement ref="#168">Berlin</settlement>
+                    </address>
+                    <date/>
+                </correspAction>
+                <noteGrp>
+                    <note type="subject"/>
+                    <note type="dictation"/>
+                </noteGrp>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term source="D_000112-052-000-wit01">Brief</term>
+                </keywords>
+                <classCode source="D_000112-052-000-wit01"
+                    scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF"
+                    >D.K.BRF</classCode>
+            </textClass>
+            <handNotes>
+                <handNote xml:id="D_000112-052-000-hand01" source="#D_000112-052-000-wit01"
+                    scribeRef="#" medium="ink" cert="low" resp="#IL"/>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc status="done">
+            <change type="typography" when-iso="2021-06-28" who="#IL"/>
+            <change type="header_facsimile" when-iso="2021-06-28" who="#IL"/>
+            <change type="structure" when-iso="2021-05-25" who="#IL"/>
+            <change type="intertexts" when-iso="2021-06-21" who="#IL"/>
+            <change type="references" when-iso="2021-05-25" who="#IL"/>
+            <change when-iso="2020-07-22T07:34:39.573Z" who="#IB">created by API</change>
+            <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 241984. </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000112-052-000-facs001">
+        <surfaceGrp xml:id="D_000112-052-000-facs001-l001">
+            <surface type="recto" xml:id="D_000112-052-000-facs001-l001-p001">
+                
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555941/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000112-052-000-facs001-l002">
+            <surface type="recto" xml:id="D_000112-052-000-facs001-l002-p002">
+                
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555943/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000112-052-000-facs001-l003">
+            <surface type="recto" xml:id="D_000112-052-000-facs001-l003-p003">
+                
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555945/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000112-052-000-facs001-l004">
+            <surface type="recto" xml:id="D_000112-052-000-facs001-l004-p004">
+                
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555947/full/full/0/default.jpg"
+                />
+            </surface>
+            <surface type="verso" xml:id="D_000112-052-000-facs001-l004-p005">
+                
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555948/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb xml:id="D_000112-052-000_p001" facs="#D_000112-052-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_ba9c9f91-b73a-4249-a910-fe6fddd2fab4">
+                <lb xml:id="uuid_e8c4976c-fdfa-443e-9b30-5960c1ddb365"/><note
+                    hand="#D_000112-052-000-hand01">Abschrift</note>
+            </p>
+            <p xml:id="uuid_c940b6a8-f49b-4e12-8dba-e1b3f522e0a9">
+                <lb xml:id="uuid_197e767e-de32-40ab-a5bc-b026b33635c2"/>Sehr geehrter Herr <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/38969" type="person">Doktor</rs>, Sie
+                hatten die Freundlich<lb break="no"
+                    xml:id="uuid_1a8e9543-740f-466e-9632-9f541df1b384"/>keit, mir zu versprechen,
+                daß Sie Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+                    Kraus</rs> übermitteln<lb xml:id="uuid_29fd181d-c826-4f7c-a5bf-af16ffc64683"
+                />wollen, ich lasse ihn bitten, mir einige Hefte seiner Zeit<lb break="no"
+                    xml:id="uuid_7877033c-effe-4d8e-a5e1-67efbb4a92b1"/>schrift zur Verfügung
+                stellen zu wollen. – Mir sind vor allem<lb
+                    xml:id="uuid_c646945f-60ff-4650-98cc-4deca139dc5a"/>jene Hefte wichtig, in
+                welchen Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                    >Kraus</rs>
+                <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11581" type="person">Maximilian
+                    Harden</rs>
+                <lb xml:id="uuid_7cb74706-2aa3-472a-9c48-b2f9e05ee042"/>angegriffen hat, dann jenes,
+                in welchem, wie <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11581" type="person"
+                    >Harden</rs> sich ausdrück<lb break="no"
+                    xml:id="uuid_bbf60d38-193a-4401-9cc4-1fa504f29dd7"/>te, Herr <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> ihm eine
+                    „<rs ref="https://fackel.oeaw.ac.at/f/234,002" type="work" subtype="fackel"
+                    >Ehrenerklärung</rs>“ abgegeben hat und dann<lb
+                    xml:id="uuid_4ee7b482-cb44-4b6f-9cd2-4b654d7a1e28"/>vielleicht noch das <rs
+                    type="work">Heft</rs>, in welchem er zu <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11581" type="person">Hardens</rs> Tod<lb
+                    xml:id="uuid_eca8f4ee-d291-4d38-b53e-9f4b091af642"/>Einiges über ihn sagte. –
+                Wie ich Ihnen schon mitteilte, brauche<lb
+                    xml:id="uuid_e5b43dc8-65eb-4af3-abfc-fe4d94e2bdf9"/>ich diese Hefte der „<rs
+                    ref="#41244" type="work" subtype="pmb">Fackel</rs>“ dringend. In die <rs
+                    ref="#55758" type="institution">Staatsbibliothek</rs>
+                <lb xml:id="uuid_9d819c0f-a52c-4f70-9a19-7a28376c5a79"/>zu gehen ist mir, zu Folge
+                meines sehr schlechten Gesundheits<lb break="no"
+                    xml:id="uuid_ec13ffc8-6470-4ac2-823e-c47c782120c4"/>zustandes, nicht
+                möglich.</p>
+            <p xml:id="uuid_bc942e2b-4e82-4db0-a431-0a6c821fd862">
+                <lb xml:id="uuid_9ed9cef9-c447-48f5-bf2d-579f9308889a"/>Ich würde mich direkt an
+                Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>
+                wenden, denke aber,<lb xml:id="uuid_c7a82e39-6034-4187-b42d-90aef8e04517"/>daß es
+                ihm lieber ist, ich übermittele ihm meine Bitte um eine<lb
+                    xml:id="uuid_c8d3e9e0-d55a-4723-bbb7-dc41d154419e"/>Gefälligkeit durch Sie.</p>
+            <pb xml:id="D_000112-052-000_p002" facs="#D_000112-052-000-facs001-l002-p002" n="2"/>
+            <p xml:id="uuid_ae799b9d-8595-4504-8d10-5241cb100ff2">
+                <lb xml:id="uuid_95237506-8110-4b6c-a12f-4d1f123be536"/>Dankbar wäre ich auch für
+                eine genaue Auskunft darüber,<lb xml:id="uuid_9ad6e079-a4d3-40f0-a4be-4b2ef05fe659"
+                />ob es <hi rend="underlined">wahr</hi> ist, daß – wie Herr Rechtsanwalt Dr. <rs
+                    ref="#38962" type="person">Landsberger</rs> mir<lb
+                    xml:id="uuid_0c1d4738-3070-41c5-b253-51fedd48b568"/>mitteilte – Herr <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> gesagt
+                hat, <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11581" type="person">Harden</rs>
+                sei ein <hi rend="underlined"><hi rend="spaced">Lügne</hi>r</hi>
+                <lb xml:id="uuid_28b6a887-6fef-49f7-97a9-1b1d11bcf266"/>gewesen. Ich hatte vor dem
+                mich vernehmenden <rs ref="#55760" type="institution">Landgerichtsrat</rs>
+                <lb xml:id="uuid_0955201c-eae5-45cb-b47f-e01e3c6d73c3"/>erklärt: „<q type="spoken"
+                    who="https://pmb.acdh.oeaw.ac.at/entity/43662"><rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11581" type="person">Harden</rs> ist
+                    immer ein sehr wahrhaftiger Mensch gewesen;<lb
+                        xml:id="uuid_ebf910f5-1931-4cbc-8bb2-38300d28b2a4"/>er hat <hi
+                        rend="underlined"><hi rend="spaced">ni</hi>e</hi> gelogen! Und wie sollte er
+                    wohl dazu gekommen<lb xml:id="uuid_105452f2-83a3-4937-9490-ba6f44b9696c"/>sein,
+                    in dieser, für ihn wie für mich höchstens interessanten<lb
+                        xml:id="uuid_7596ce4e-ad3d-4ca0-913d-1dc0e078a37c"/>aber unwichtigen
+                    Angelegenheit, eine <hi rend="underlined"><hi rend="spaced">Lüg</hi>e</hi> zu
+                    sagen? Ich<lb xml:id="uuid_2079959d-f306-45de-a16d-2e3d5d6fd021"/>bin doch auch
+                    kein ‚<hi rend="underlined">öffentlicher</hi>‘ Mensch …</q>“ Auf diese meine<lb
+                    xml:id="uuid_0f4e4110-26cb-4af0-aaae-01aa70357ebb"/>Erklärung behauptete R.A.
+                    <rs ref="#38962" type="person">Landsberger</rs>, Herr <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> habe
+                    selber<lb xml:id="uuid_c75f4570-8db6-44d4-96ed-d995b19ab479"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11581" type="person">Harden</rs> einen
+                Lügner genannt! Ich habe dazu noch weiter erklärt,<lb
+                    xml:id="uuid_983e31cb-a35c-40ce-b867-5d3a12b05403"/>daß ich, obgleich Herr <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> mir ganz
+                unbekannt sei, dies nicht<lb xml:id="uuid_f905114d-f8cf-4ccd-98a0-7d030da30b40"/>von
+                ihm glauben könne, weil ja auch die erbittertsten Feinde<lb
+                    xml:id="uuid_ceaa697c-59f6-40f4-906a-a25070ffd442"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Hardens</rs> ihm
+                niemals eine niedrige Handlungsweise nachsagen konn<lb break="no"
+                    xml:id="uuid_dc6f18d7-985e-4963-aa65-df4946eaf553"/>ten. Ich habe Herrn R.A. <rs
+                    ref="#38962" type="person">Landsberger</rs> auch gefragt, <hi rend="underlined"
+                        ><hi rend="spaced">w</hi>o</hi> Herr<lb
+                    xml:id="uuid_024f0574-6dfd-45a3-8116-776a26fc920d"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>
+                <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11581" type="person">Harden</rs> einen
+                Lügner genannt habe; Herr R.A. <rs ref="#38962" type="person">Landsberger</rs>
+                    ist<lb xml:id="uuid_1fd91b95-6bf4-414d-953a-1ec63cebfc9a"/>mir die Antwort auf
+                diese Frage schuldig geblieben. Er hat sich<lb
+                    xml:id="uuid_cd8e43e0-6111-44ba-902c-3fbda203ca00"/>darauf beschränkt, mit mir
+                sich darüber zu unterhalten, mit wel<lb break="no"
+                    xml:id="uuid_10ef5dba-c2d7-40c8-a546-9bd44df835d3"/>cher Aufführung <rs
+                    ref="#12504" type="person">Max Reinhardt</rs> sein Zirkustheater eröffnet und<lb
+                    xml:id="uuid_5083d874-eecc-463a-b8ef-26b39e8e06c9"/>wer darin mitgespielt habe.
+                Die einzige zur Sache stehende Aeuße<lb break="no"
+                    xml:id="uuid_76c6a356-3411-4bd1-892d-4a5da939540a"/>rung dieses Herrn welche mir
+                verständlich war (ich hatte zwei<lb
+                    xml:id="uuid_2e7f0c67-3f51-46d4-bcc3-264b82b4521c"/>Tage vorher eine Operation
+                an einem Ohr): „Ich bitte der <rs ref="https://pmb.acdh.oeaw.ac.at/entity/43662"
+                    type="person">Zeugin</rs>
+                <lb xml:id="uuid_5ddd3c71-722d-4883-a344-3fbea496726a"/>vorzuhalten, daß <rs
+                    ref="#12504" type="person">Max Reinhardt</rs>
+                <hi rend="underlined">unter seinem Eid</hi> ausgesagt hat,<lb
+                    xml:id="uuid_01fdcef1-ed74-4f99-b0f7-11d9d7430777"/>er habe zu <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/13163" type="person">TW</rs> gesagt, daß
+                    <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11581" type="person">Harden</rs>
+                <add hand="#D_000112-052-000-hand01">ihm</add> gegenüber geäußert habe –<lb
+                    xml:id="uuid_2a2ac6bc-66f0-49a3-9fc6-a008e7968c6f"/>nachdem wieder einmal eine
+                schlechte Kritik des Herrn <rs ref="#11910" type="person">Kerr</rs> im <rs
+                    ref="#41531" type="work" subtype="pmb">BT</rs>
+                <pb xml:id="D_000112-052-000_p003" facs="#D_000112-052-000-facs001-l003-p003" n="3"/>
+                <lb xml:id="uuid_391252be-92fa-42d4-951c-d94e5733b8ac"/>gestanden: ‚<q type="spoken"
+                    who="#11581">Da haben Sie ihren Freund <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/13163" type="person">Wolf</rs></q>‘!
+                wie stellt sich die<lb xml:id="uuid_85089a72-809f-432c-b9ae-cce785f91c3f"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/43662" type="person">Zeugin</rs>
+                <hi rend="underlined">da</hi>zu“? – Ich habe darauf geantwortet: „<q type="spoken"
+                    who="#11581"><hi rend="underlined">Da</hi>zu kann ich <hi rend="underlined"
+                        >nichts</hi><lb xml:id="uuid_60e3a872-1624-412e-81d6-d1273e14474a"/>sagen,
+                    denn ich bin niemals bei Unterredungen, die <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11581" type="person">Harden</rs>
+                        mit<lb xml:id="uuid_7e01eccb-e6f6-4d34-b25c-767f00047830"/><rs ref="#12504"
+                        type="person">Reinhardt</rs> gehabt hat, zugegen gewesen; ich weiß nur, daß
+                        <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11581" type="person"
+                        >Harden</rs><lb xml:id="uuid_4be63624-1e46-48a6-a38a-a4178ccb35a8"/>stets
+                    immer wieder hervorgehoben hat: ‚<rs ref="#12504" type="person">Reinhardt</rs>
+                    ist empfindlich<lb xml:id="uuid_687b4234-64c3-4371-a8ee-4ac0f3d4951d"/>wie ein
+                    Kind; wenn man ihn nicht bis in den Himmel lobt ist er<lb
+                        xml:id="uuid_274e7fb8-7cf4-4b29-acb4-2eb3863b1818"/>unzufrieden; <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11581" type="person">Harden</rs> hat
+                    auch häufiger in der ‚<rs ref="#40042" type="work" subtype="pmb">Zukunft</rs>‘
+                    über diese<lb xml:id="uuid_c4ad6eb5-86af-4beb-8395-e94724cd285a"
+                    />Empfindlichkeit <rs ref="#12504" type="person">Reinhardts</rs>
+                    geschrieben.</q>“ </p>
+            <p xml:id="uuid_a03b91ed-00f8-470e-a5e5-ec2a46f3ba74">
+                <lb xml:id="uuid_821030ee-8631-4bc3-9b94-3a1d68262c5e"/>Ich bin gefragt worden, ob
+                es richtig sei, daß <rs ref="#12504" type="person">Reinhardt</rs>
+                <lb xml:id="uuid_06071a4f-0c94-4d94-b0fe-cde4428023a1"/>mir geschrieben habe, ich
+                solle <hi rend="underlined"><hi rend="spaced">nich</hi>t</hi> aussagen. Auf meine<lb
+                    xml:id="uuid_41fc5ec2-6650-4b00-881e-21c874bf1f61"/>Frage, wer dies aufgebracht
+                habe, wurde mir vom vernehmenden<lb
+                    xml:id="uuid_6f5dd2cc-fc98-40bd-a94c-34f40b35ee31"/><rs type="person"
+                    >Richter</rs> ausweichend geantwortet (ich darf wohl vermuten, daß diese<lb
+                    xml:id="uuid_1ebc0359-6784-447a-9284-aaa5d1cd3656"/>Frage ein sogen.
+                „Anwaltstrick“ gewesen ist? man wollte wohl <add hand="#D_000112-052-000-hand01"
+                    >nur</add><lb xml:id="uuid_59ce9d80-ac96-4ac6-980b-e5a9ad3df07f"/>die Rede auf
+                meine Korrespondenz mit <rs ref="#12504" type="person">Max Reinhardt</rs> bringen?)
+                    Ich<lb xml:id="uuid_144a4651-6d60-4ba2-ba4d-f7721a885257"/>habe zu dieser Frage
+                gesagt: „<q type="spoken" who="https://pmb.acdh.oeaw.ac.at/entity/43662"><rs
+                        ref="#12504" type="person">Reinhardt</rs> wird doch nicht <hi
+                        rend="underlined">so</hi> dumm<lb
+                        xml:id="uuid_b0cb09f0-8f21-48ea-a37b-8531c8499432"/>sein und derartiges
+                    schreiben</q>“?! Worauf der <rs type="person">Richter</rs> sagte, mit<lb
+                    xml:id="uuid_4e1ad923-afa3-41b4-87d4-d5be4fcbc1fd"/>sehr starker ironischer
+                Betonung, die mich erfreute: „<q type="spoken" who="">dergleichen<lb
+                        xml:id="uuid_a31631ae-b9eb-43f2-a20e-9090de0bb37c"/><hi rend="underlined"
+                        >schreibt</hi> man nicht, das <hi rend="underlined">sagt</hi> man
+                    höchstens</q>“! </p>
+            <p xml:id="uuid_9df8c6ee-05b8-4107-a8d2-04f602d781d3">
+                <lb xml:id="uuid_491f988f-277c-4136-83bd-e54e157b1ddf"/>Wie Sie wohl schon wissen,
+                bin ich ersucht worden,<lb xml:id="uuid_1a697424-2714-4083-b027-3dc754cd8fdb"/>den
+                    <rs type="work">Brief</rs>
+                <rs ref="#12504" type="person">Max Reinhardts</rs> zu den Akten zu legen. Ich habe
+                    erklärt,<lb xml:id="uuid_b6c533ca-8635-43b7-9276-4e8fcbbac65c"/>daß meine
+                Auseinandersetzung mit <rs ref="#12504" type="person">M.R.</rs> eine rein private
+                    gewesen<lb xml:id="uuid_803d6a95-4c3a-4489-bd73-439967eef300"/>sei und daß ich
+                deshalb den <rs type="work">Brief</rs> nicht zu den Akten legen möchte.<lb
+                    xml:id="uuid_3c7e251d-f15b-4423-818d-3fa6f7f5d2fc"/>Ich bin dann ersucht worden,
+                wenigstens eine Abschrift zu geben.<lb
+                    xml:id="uuid_509bf283-e1fb-4669-9116-65266149b8c9"/>Ich habe auch dieses
+                abgelehnt, habe gebeten, man möge mir erlauben,<lb
+                    xml:id="uuid_af177422-bbde-4963-a940-d86e30abb665"/>daß ich mir <hi
+                    rend="underlined">überlege</hi>, ob ich eine Abschrift geben kann. Dann wur<lb
+                    break="no" xml:id="uuid_c0fa3b5e-b3aa-4490-955a-5e157cefd35e"/>de ich gebeten,
+                wenigstens den einen Satz aus dem <rs ref="#12504" type="person">R.</rs>-<rs
+                    type="work">Brief</rs>, den<lb
+                    xml:id="uuid_c7f20b62-a164-45f7-86d2-b22476df4452"/>ich citiert hatte, den <rs
+                    type="person">Richter</rs> lesen zu lassen. „<quote source=""
+                    xml:id="uuid_64a00811-4dd6-4068-8c20-46ee5c08396d">Uebrigens habe<lb
+                        xml:id="uuid_48811638-56f6-41a4-8e84-c626548f721a"/>ich gegen einen <rs
+                        type="person">Mann</rs> ausgesagt, der <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11581" type="person">Harden</rs>
+                    zeitlebens in der nied<lb break="no"
+                        xml:id="uuid_d4d3e1c6-08e0-4968-8c6f-4e4f39d95665"/>rigsten <pb
+                        xml:id="D_000112-052-000_p004" facs="#D_000112-052-000-facs001-l004-p004"
+                        n="4"/>
+                    <lb xml:id="uuid_389eb372-71ba-4647-a1c0-cfcb0805d1cc"/>Weise angegriffen
+                    hat</quote>“. Dieser Satz ist auf Wunsch Ihres Herrn<lb
+                    xml:id="uuid_a9522552-7484-41b9-9023-cfb57cdcad8e"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/38969" type="person">Vertreters</rs>
+                protokolliert worden. – (Hier muß ich bedauern, daß<lb
+                    xml:id="uuid_419d6e75-6340-406d-abc6-46bd84fd125e"/>nicht meine Aussage <hi
+                    rend="underlined">in allen Teilen</hi> protokolliert worden ist.)</p>
+            <p xml:id="uuid_17fb083f-e45e-4a0c-bfd6-ecbc111b45a4"><lb
+                    xml:id="uuid_af62e658-f78f-42b0-8916-79dc3a461416"/>Ich wäre froh, wenn die an
+                dieser peinlichen Angelegen<lb break="no"
+                    xml:id="uuid_01b02195-6a86-48fe-ad9c-aa89feb5cfe8"/>heit beteiligten Herren (<rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/13163" type="person">Wolf</rs>, <rs
+                    ref="#12504" type="person">Reinhardt</rs>, <rs ref="#11910" type="person"
+                    >Kerr</rs>) sich bemühen<lb xml:id="uuid_697d86c7-0236-4e56-90c4-c6a88a6446b4"
+                />wollten, den vom <rs type="person">Richter</rs> angeregten Sühnetermin zu einem
+                    für<lb xml:id="uuid_ac0e1b4b-f253-492e-8851-0feff1a2aa9b"/>das Andenken meines
+                verstorbenen <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11581" type="person"
+                    >Freundes</rs> guten Ende zu bringen.<lb
+                    xml:id="uuid_d2ef29a4-39ea-4e06-99fd-b32fba1f3486"/>Ich wäre auch Herrn <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> dankbar,
+                wenn er dazu mithelfen wollte.<lb xml:id="uuid_ccfa072c-c2ca-45a8-b785-25f2fb89479b"
+                />Selbst kann ich nun zu der Sache nichts mehr sagen. </p>
+            <p xml:id="uuid_fa25e79c-f2b7-45b8-8f4b-2b96b9ac00c1">
+                <lb xml:id="uuid_a2ee7d44-1fa2-4ac0-8a43-9a660e7f2fbc"/>Sie hochschätzend und
+                dankbar für die<lb xml:id="uuid_2f1e3cc9-2a07-48f7-896a-6a7f88d305a5"
+                />Uebermittelung meiner Bitte <pb xml:id="D_000112-052-000_p005"
+                    facs="#D_000112-052-000-facs001-l004-p005" n="5"/></p>
+            <p xml:id="uuid_f2fedaaf-1b68-443b-b71d-423c3744b2a6"><lb
+                    xml:id="uuid_855de4e7-adb4-496d-a915-f7cb6a9c3f87"/><note resp="law-firm"
+                    type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                        >Kraus</rs> – <rs ref="#11910" type="person">Kerr</rs>, <rs ref="#10595"
+                        type="person">Wolf</rs></note></p>
+        </body>
+    </text>
+</TEI>

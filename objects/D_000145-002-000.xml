@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000145-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000145-001-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000145-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Max Hirschberg an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000145-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3959</idno>
+            <idno subtype="transkribus" type="ID">288755</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000145" type="collection">Karl
+                    Kraus ca. Augsburger Stadttheater</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000145-002-000-facs001" xml:id="D_000145-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000145-002-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/38381">Dr. MAX HIRSCHBERG</persName>
+               <address>
+                  <street corresp="#54315">Briennerstraße 9/II</street>
+                  <settlement ref="#45258">München 2 NW</settlement>
+               </address>
+               <date when-iso="1930-05-02">2. Mai 30</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Rechtsanwalt Dr. Oskar Samek</persName>
+               <address>
+                  <street corresp="#50496">Schottenring 14</street>
+                  <settlement ref="#51">Wien I</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">2.A.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-05-02">2. Mai 1930</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000145-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000145-002-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-04-22" who="#JK"/>
+         <change type="typography" when-iso="2021-04-22" who="#JK"/>
+         <change type="references" when-iso="2021-04-22" who="#JK"/>
+         <change type="structure" when-iso="2021-04-22" who="#JK"/>
+         <change when-iso="2020-10-08T14:30:13.778Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T15:08:22.684Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 288755. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000145-002-000-facs001">
+      <surfaceGrp xml:id="D_000145-002-000-facs001-l001">
+         <surface type="recto" xml:id="D_000145-002-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542075/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000145-002-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542076/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000145-002-000_p001"
+             facs="#D_000145-002-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_56912fa6-aca6-4e91-bc4a-34e191e9136b">
+            <lb xml:id="uuid_81d032f4-26a7-47b2-8370-b73079ec4b46"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38909" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_24a72987-ecd9-44f1-8c6a-8cf376922830">
+            <lb xml:id="uuid_c94a8fe0-93fa-48a0-a606-1aff790bec91"/>In Sachen <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> ./. <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/36922" type="institution">Stadttheater
+               Augsburg</rs> bitte ich zu<lb xml:id="uuid_bf229a51-35b1-4f8b-82b5-ddc394d1a47d"
+            />entschuldigen, dass ich auf Ihren <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000145-001-000" type="work"
+               subtype="legal-doc">Brief vom 18.</rs>, eingegangen 23.4.30<lb
+               xml:id="uuid_740b5f0c-adfe-4c69-b958-0a92ae3ad88e"/>erst heute antworte. Ich war eine
+            Woche verreist. Ich würde sehr<lb xml:id="uuid_ade10205-852a-491b-8438-56b070c99536"
+            />gerne bereit sein, <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+               >Herrn Kraus</rs> wieder zu vertreten und auf ein Sonder<lb break="no"
+               xml:id="uuid_77c59e94-c151-422c-be85-e7f652fd5611"/>honorar würde ich in einer Sache,
+            deren Erlös den Kriegsblinden zugute<lb
+               xml:id="uuid_608e3360-6097-479a-a0e1-91c918533c86"/>kommt, selbstverständlich keinen
+            Anspruch erheben. Ich bin aber in<lb xml:id="uuid_2e7210a0-046c-4a81-a8fe-f26e2b58f5db"
+            />dieser Sache gehemmt dadurch, dass ich in einer anderen Sache vor<lb
+               xml:id="uuid_9f7157b9-1ba8-4ed2-88bb-dcb1046b948a"/>kurzem in sehr langen und
+            schwierigen Verhandlungen mit Herrn <rs ref="#54313" type="person">Bürger<lb break="no"
+                  xml:id="uuid_5d2c32ce-a9c7-4b51-a135-01724caaf8ef"/>meister Ackermann</rs>
+            zusammengearbeitet habe. Die Führung dieser Sache<lb
+               xml:id="uuid_760119e3-7eb2-4e16-aed2-2cc6b86e3cbf"/>dauert noch fort. Da sich die
+            Ansprüche wegen Urheberrechtsverletzung<lb
+               xml:id="uuid_f02b3dee-6f62-41ce-a637-081558fbfbc6"/>gegen das <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/36922" type="institution">Stadttheater
+               Augsburg</rs> richten, das der Stadt gehört und da<lb
+               xml:id="uuid_c6532b56-0c22-4bef-8923-4e8ea64b0946"/><rs ref="#54313" type="person"
+               >Herr Ackermann</rs> zugleich Vorstand der <rs ref="#36954" type="institution"
+               >Volksbühne</rs> ist, muss ich eine Kollision <pb xml:id="D_000145-002-000_p002"
+               facs="#D_000145-002-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_33abbf48-1cce-427e-be35-bf24a51fafb9"/>für gegeben erachten. Ich
+            empfehle die Führung der Sache Herrn<lb
+               xml:id="uuid_2122a506-fee3-4cb5-8a25-a0041041c04a"/><rs ref="#51559" type="person"
+               >Rechtsanwalt Bernstein</rs>, der auch Syndikus des <rs ref="#29337"
+               type="institution">Journalisten- und<lb
+                  xml:id="uuid_c905f551-60a0-405a-b58d-7bf86474c9ee"/>Schriftsteller-Verbandes</rs>
+            ist, zu übertragen. Im Falle Ihres Ein<lb break="no"
+               xml:id="uuid_359cd753-73cc-4eaa-85e6-227297d45727"/>verständnisses würde ich ihm die
+            Unterlagen hinübergeben. </p>
+         <p xml:id="uuid_a616d95f-2204-4958-8956-0c5e92cb7e97">
+            <lb xml:id="uuid_7d552f01-da65-42a8-8ed4-a556c5b34c7f"/>Mit vorzüglicher kollegialer
+                    Hochachtung<lb xml:id="uuid_1b9f774d-1ab5-4991-a547-88cde418c4ea"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/38381" type="person">Hirschberg</rs>
+            <lb xml:id="uuid_d563a527-19d9-4625-943c-4d92ca7fe0b8"/>Rechtsanwalt. </p>
+         <p xml:id="uuid_ddfbf21c-9342-41f8-ac46-6bccd2d03974">
+            <lb xml:id="uuid_2e4effbe-869a-47ae-8ab9-f47e2ea54178"/><note resp="law-firm"
+               type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/36922"
+                  type="institution">Augsburger Stadt<lb break="no"
+                     xml:id="uuid_6864be4c-fbbc-444c-8d1b-e1c583a167bf"/>theater</rs><lb
+                  xml:id="uuid_94d810d8-1824-4b5b-a851-457bda2df644"/>5. MAI 1929</note>
+         </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-026-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-024-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000070-025-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Fritz Kortner an Kraus</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000070-025-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-fritz-kortner-kraus </idno>
+            <idno subtype="transkribus" type="ID">213307</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000070" type="collection">Alfred Kerr ca. Karl Kraus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000070-025-000-facs001" xml:id="D_000070-025-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000070-025-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                     <objectType source="D_000070-025-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP">Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#11975">FRITZ KORTNER</persName>
+               <address>
+                  <street corresp="#63234">MAX-EYTHSTR. 5</street>
+                  <settlement ref="#168">BERLIN-DAHLEM</settlement>
+               </address>
+               <date when-iso="1929-02-08">8. Februar 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#11988"/>
+               <address>
+                  <street corresp="#50496"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-02-08">8. Februar 1929
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000070-025-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000070-025-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" status="draft" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" status="draft" when-iso="2021-09-13">Replaced Text with Transcription
+                of Transkribus Document 213307. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2022-01-13"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-01-13" who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2022-01-13"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2022-01-13"
+                 who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2022-01-13"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000070-025-000-facs001">
+      <surfaceGrp xml:id="D_000070-025-000-facs001-l001">
+         <surface type="recto" xml:id="D_000070-025-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553155/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000070-025-000_p001"
+             facs="#D_000070-025-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_12ec35d7-bc81-409b-aed3-e95cfa3c84fd">
+            <lb xml:id="uuid_f245b68e-04ba-4ef3-a13d-c91ae7d7f165"/>Sehr geehrter Herr <rs ref="#11988" type="person">Kraus</rs>! </p>
+         <p xml:id="uuid_f251cf8f-1638-4778-b264-b10e0fd3310c">
+            <lb xml:id="uuid_ac4be11a-73c0-4435-a0da-9a86a57720fa"/>Ob ich das Wort „lächerlich“ im
+               Zusammenhang<lb xml:id="uuid_ea2a5241-d7ec-4578-bc35-5e6523be30a4"/>mit Ihrem Kampf
+            gegen <rs ref="#11910" type="person">Kerr</rs> gebraucht habe, weiss<lb
+               xml:id="uuid_5bf6988b-cda5-409f-9379-7faccda1efe6"/>ich nicht.</p>
+         <p xml:id="uuid_dded1f4c-e75d-45fe-906a-9ed327a3b0d9">
+            <lb xml:id="uuid_b7b6e104-5af9-44a4-aa1c-514c1c3aca81"/>Bestimmt aber habe ich mich, wie
+            in den Fällen<lb xml:id="uuid_cb537fbb-c877-43d4-b1c6-2fb93b45f4f8"/><rs ref="#63225"
+               type="person">Jacobson</rs> und <rs ref="#11585" type="person">Hardt</rs>, dem Sinne
+            nach prinzipiell gegen<lb xml:id="uuid_95d7b32c-8d66-435a-999a-c5bfdd2963ba"/>diese Art
+            der Bekämpfung geäussert.</p>
+         <p xml:id="uuid_6bc7091a-9fce-452a-b7c1-f4885869a7f7">
+            <lb xml:id="uuid_c8a79c87-753b-4c10-b4bb-dd6686f0697b"/>Die von Ihnen zitierte
+                Bemerkung (anlässlich<lb xml:id="uuid_4c9f0770-c780-4288-86be-f148aa5ffa8a"/>der <rs ref="#11910" type="person">Kerr</rs>feier) habe ich nicht gemacht. Es kann
+                    sich<lb xml:id="uuid_3ca0fa3f-d713-4b4e-9c9b-203fd129a7dc"/>nur um die
+                sinnentstellt zugetragene Wiedergabe einer<lb xml:id="uuid_8110ee79-c5e1-478f-a8f9-5780fb7c3789"/>anderen Bemerkung handeln. </p>
+         <p xml:id="uuid_581fb31b-c19b-4ff8-af79-7714c8f8d047">
+            <lb xml:id="uuid_f3943ba8-2934-4fcd-81d6-b8ec043c05d9"/>Ihre Charakterisierung
+                meiner Motive ist falsch.<lb xml:id="uuid_4b8a16a0-8bda-49d7-8be8-ef14e9cb373d"/>Ich
+                weise Sie als beleidigende Unterstellung zurück. </p>
+         <p xml:id="uuid_e55e5beb-911c-4aa4-b899-ba80fc674e8b">
+            <lb xml:id="uuid_692e7055-cccc-415e-a3f9-ff6f0a7b2add"/>Ihre Kennzeichnung meiner
+                Beziehung zu Ihnen<lb xml:id="uuid_96a31b9f-8414-44fb-85d6-a16061604264"/>ist
+                unzutreffend. </p>
+         <p xml:id="uuid_172c3aa3-fe64-4f5e-85b1-a2a05dd2a667">
+            <lb xml:id="uuid_33e6a84b-4fd9-490a-b913-3febb03ea329"/>Ihre Auffassung, mein
+            Einverständnis mit grossen<lb xml:id="uuid_957cd79e-e72e-474b-97fa-4429594f274e"
+            />Abschnitten der <rs ref="#41244" type="work" subtype="pmb">Fackel</rs> sei „<hi
+               rend="spaced">Glaube(n) an<lb xml:id="uuid_9a0a25d3-c340-4d18-a412-3ebaebbdc9e0"/>das
+               Wort der </hi><rs ref="#41244" type="work" subtype="pmb"><hi rend="spaced"
+               >Facke</hi>l</rs>“ ist erschreckend. </p>
+         <p xml:id="uuid_97c8ccdd-ce89-47ec-ab07-9310f2acbff9">
+            <lb xml:id="uuid_de45475c-21bd-4689-9dbe-344985f2bf26"/>Sollte es Sie interessieren,
+                mehr über meine Ein<lb break="no" xml:id="uuid_88fae5b6-05c3-4489-af11-da136e3b7319"/>stellung zu hören, stehe ich Ihnen zur Verfügung.<lb xml:id="uuid_e0bd89c1-1ae3-44a0-8089-562837017b84"/>Nur müsste ich mir einen
+                Termin vorbehalten, an dem ich<lb xml:id="uuid_a0ea1212-0a17-484a-867f-157168b8ac32"/>beruflich nicht so überlastet bin, wie in diesen Wochen. </p>
+         <p xml:id="uuid_f1346abc-8dca-4ab6-990d-0045f635aff6">
+            <lb xml:id="uuid_9f00f52d-c3be-41a9-9cc2-b332bf8a1d2f"/>Mit vorzüglicher
+                    Hochachtung<lb xml:id="uuid_66f9e6d7-803d-4488-a48c-904cb806dedf"/><rs ref="#11975" type="person">Fritz Kortner</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

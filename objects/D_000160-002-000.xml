@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000160-003-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000160-001-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000160-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Neue Freie Presse (verantw. Red. Julian Sternberg)</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000160-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/4142</idno>
+            <idno subtype="transkribus" type="ID">306270</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000160" type="collection">Karl Kraus
+               ca. Neue Freie Presse</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000160-002-000-facs001" xml:id="D_000160-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000160-002-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHU">Durchschlag mit
+                        handschriftlichen Überarbeitungen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-06-26">26. Juni 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1930-06-26">26. Juni 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#3021">Herrn | Dr. Julian Sternberg | verantwortlichen Redakteur der
+                  „Neuen Freien Presse“</orgName>
+               <address>
+                  <street corresp="#53721">Lagergasse 1</street>
+                  <settlement ref="#53">Wien, III.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Neue Freie Presse</note>
+               <note type="dictation">Dr.S/M</note>
+            </noteGrp>
+         </correspDesc>
+         <handNotes>
+            <handNote xml:id="D_000160-002-000-hand01" source="#D_000160-002-000-wit01"
+               scribeRef="#38909" medium="black-ink" cert="low" resp="#IL"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000160-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000160-002-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-09-28" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-09-28" who="#IL"/>
+         <change type="structure" when-iso="2021-07-27" who="#IL"/>
+         <change type="references" when-iso="2021-07-27" who="#IL"/>
+         <change type="typography" when-iso="2021-09-28" who="#IL"/>
+         <change when-iso="2020-10-08T15:34:58.017Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T15:35:26.04Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 306270. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000160-002-000-facs001">
+      <surfaceGrp xml:id="D_000160-002-000-facs001-l001">
+         <surface type="recto" xml:id="D_000160-002-000-facs001-l001-p001">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542801/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000160-002-000-facs001-l002">
+         <surface type="recto" xml:id="D_000160-002-000-facs001-l002-p002">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542802/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000160-002-000-facs001-l002-p003">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542803/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic
+            url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542804/full/full/0/default.jpg"
+            source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic
+            url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542805/full/full/0/default.jpg"
+            source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000160-002-000_p001" facs="#D_000160-002-000-facs001-l002-p002" n="1"/>
+         <p xml:id="uuid_381d2a7f-18cd-43e3-933e-a5195258ee70">
+            <lb xml:id="uuid_a584af78-2b69-4c84-b7fa-b3e8b4abb6d3"/>Im Vollmachtsnamen des Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl <hi rend="spaced"
+                  >Krau</hi>s</rs>
+            <lb xml:id="uuid_0e7d58fb-5f35-4285-9b1b-0d0b46193c98"/>fordere ich Sie auf, die in
+            Ihrer <rs ref="#59335" type="work" subtype="pmb">Nummer 23.973 vom 11. Juni<lb
+                  xml:id="uuid_bd565e8c-4d88-405e-bb69-29b4a4a02253"/>1931</rs> mitgeteilte, meinen
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Mandanten</rs>
+            betreffende unrichtige Tat<lb break="no"
+               xml:id="uuid_60e7efa7-e62b-4e99-a143-e00d7656c735"/>sache gemäss <rs
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45"
+               type="law">§ 23 des Pressgesetzes</rs> zu berichtigen. </p>
+         <p xml:id="uuid_d358dd40-d2ac-47af-954b-614d7cd5ca17">
+            <lb xml:id="uuid_ee7d07a9-75fb-484c-8344-f3f8d3e3a041"/><note type="intertext"
+               source="https://fackel.oeaw.ac.at/f/857,084">Sie veröffentlichen unter dem Titel „<rs
+                  ref="#59334" type="work" subtype="pmb"><rs ref="#11461" type="person">Go<add
+                        hand="#D_000160-002-000-hand01">e</add>the</rs><lb
+                     xml:id="uuid_5fdae42b-8434-488f-a007-cd7af7c6c61d"/>und die Jugend</rs>“ eine
+               Zuschrift, in der es heisst: „<quote source="#59334"
+                  xml:id="uuid_cd3ee758-ef42-4499-b099-8cf574517f53">Aber<del
+                     hand="#D_000160-002-000-hand01">,</del> auch<lb
+                     xml:id="uuid_6f3b947f-bf91-4f83-ad1f-8ca12db53481"/>das Schlusswort eines
+                  anderen schönen <rs ref="#11461" type="person">Goethe</rs>-Spruches sollte hier<lb
+                     xml:id="uuid_eab0a391-a096-465b-88a0-6369f743f948"/>Erwähnung finden. Nach der
+                     ‚<rs ref="#32951" type="work" subtype="pmb">Iphigenie</rs>‘ hat er es denen um
+                     <rs type="person" ref="#39343">Pust<lb break="no"
+                        xml:id="uuid_eab36fb0-b633-4ba8-ab64-a9564a633f91"/>kuchen</rs> (den
+                  bekannten <rs ref="#11461" type="person">Goethe</rs>-Nörgler) mit stolzer
+                     Bescheidenheit<lb xml:id="uuid_d6a28eac-be12-4e78-b023-5aa0c90b8614"
+                  />zugerufen, die dem ‚Jung und Uralten‘ klassizistischen Epigonen<lb break="no"
+                     xml:id="uuid_9a94e50d-a28f-4bb9-9f76-0b54b09d819a"/>tum zum Vorwurf gemacht
+                  hatten:</quote>
+            </note></p>
+         <note type="intertext" source="https://fackel.oeaw.ac.at/f/857,084">
+            <p xml:id="uuid_0aa057df-30ea-471d-b118-efbfb5a5a708">
+               <quote source="#59334" xml:id="uuid_dcffb9b0-8f34-41de-999c-80890dfd2364">
+                  <lb xml:id="uuid_9fbaf617-1205-4fbe-bdfa-e30cfcb73b64"/>‚<quote
+                     xml:id="uuid_06bc0723-45ad-475e-a67b-de7bd280995a" source="#59331">Bin Epigone,
+                     ahnenswertes Ahner.<lb xml:id="uuid_9886c4db-2ddb-4f54-8901-2e7478f0a4a1"/>Ihr
+                     aber seid die kundigen Thebaner!</quote>‘</quote>“</p>
+            <p xml:id="uuid_b34e4741-2b3b-4ebf-8ca0-8999117a9f4b"><lb
+                  xml:id="uuid_72e0d96f-85b7-42fa-bb98-85584721ae15"/>Die in diesem Satz enthaltene
+               Behauptung, dass<lb xml:id="uuid_19168914-e907-4f38-8214-38cb86da2a03"/><rs
+                  ref="#11461" type="person">Goethe</rs> diese Worte denen um <rs type="person"
+                  ref="#39343">Pustkuchen</rs> (den bekannten <rs ref="#11461" type="person"
+                  >Goethe</rs><lb break="no" xml:id="uuid_ae721ab8-828b-43c1-8649-2838cb75c338"
+               />Nörgler) zugerufen habe, ist unwahr. Wahr ist vielmehr, dass diese<lb
+                  xml:id="uuid_a57f4685-66cf-4ecd-b365-6526eda5f00a"/>Worte den Schluss des
+               Gedichtes „<rs ref="#59331" type="work" subtype="pmb">Bekenntnis</rs>“ von <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+               <pb xml:id="D_000160-002-000_p002" facs="#D_000160-002-000-facs001-l002-p003" n="2"/>
+               <lb xml:id="uuid_ae77cae9-6c91-4410-898b-1875a5b0cb76"/><add
+                  hand="#D_000160-002-000-hand01">(</add><rs ref="#59325" type="work" subtype="pmb"
+                  >„Worte in Versen“ Band II</rs> Seite 24<add hand="#D_000160-002-000-hand01"
+                  >)</add> bilden; wahr ist, dass die<lb
+                  xml:id="uuid_dd02d1b9-2fb6-40a2-b8be-64d6dec1ccad"/>erste Zeile der zitierten
+               Stelle nicht lautet:</p>
+            <p xml:id="uuid_c18b2575-06bb-4d3c-8a97-48db0a78b4c1">
+               <lb xml:id="uuid_5b35a6a2-1c55-467d-871f-b40490378938"/>„<quote source="#59334"
+                  xml:id="uuid_b8ec26a5-80b9-4ebb-9567-5bfdadf10309">Bin Epigone, <hi
+                     rend="underlined">a</hi>hnen<hi rend="underlined">s</hi>wertes
+                  Ahner</quote>“.<lb xml:id="uuid_c2dae6e1-1126-42da-b70b-cde66e595c27"/>sondern:<lb
+                  xml:id="uuid_214140cc-101f-4d00-8a97-9b77fb158628"/>„<quote source="#59331"
+                  xml:id="uuid_c25de378-421c-456f-82ad-4a19a8591afb">Bin Epigone, <hi
+                     rend="underlined">A</hi>hne<hi rend="underlined">nw</hi>ertes Ahner</quote>“.
+            </p>
+         </note>
+         <p xml:id="uuid_4140435d-3509-4a7f-a1e6-2d9e4e39d837">
+            <lb xml:id="uuid_07084db0-5bb0-4f4e-a04c-fc0d28c47850"/><note resp="law-firm"
+               type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29351"
+                  type="institution">Neue Freie Presse</rs>
+               <lb xml:id="uuid_5ea21b8d-6205-4381-a278-a1a2eea00b1d"/>26.6.31.</note></p>
+      </body>
+   </text>
+</TEI>

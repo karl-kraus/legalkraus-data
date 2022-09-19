@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-014-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-012-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000112-013-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Botho Laserstein an Verlag Die Fackel</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">
+                    https://id.acdh.oeaw.ac.at/legalkraus/legalkraus/D_000112-013-000.xml </idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3172</idno>
+            <idno subtype="transkribus" type="ID">236782</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000112" type="collection">Karl
+                    Kraus ca. Theodor Wolff</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000112-013-000-facs001" xml:id="D_000112-013-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000112-013-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                     <objectType source="D_000112-013-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP">Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-01-03">3. Januar 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38969">Dr. jur. Botho Laserstein | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#51751">Landsberger Allee 55</street>
+                  <settlement ref="#168">Berlin NO 18</settlement>
+               </address>
+               <date when-iso="1929-01-03">DEN 3. Januar 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="43724">Verlag | „Die Fackel“</orgName>
+               <address>
+                  <street corresp="#50496">Hintere Zollamtsstr. 3</street>
+                  <settlement ref="#53">Wien</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000112-013-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000112-013-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="typography" when-iso="2021-06-02" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-06-02" who="#IL"/>
+         <change type="structure" when-iso="2021-05-25" who="#IL"/>
+         <change type="intertexts" when-iso="2021-06-02" who="#IL"/>
+         <change type="references" when-iso="2021-05-25" who="#IL"/>
+         <change when-iso="2020-07-22T07:31:31.313Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 236782. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000112-013-000-facs001">
+      <surfaceGrp xml:id="D_000112-013-000-facs001-l001">
+         <surface type="recto" xml:id="D_000112-013-000-facs001-l001-p001">
+            
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555789/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000112-013-000_p001"
+             facs="#D_000112-013-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_2d299b7c-83ea-43fc-b174-2a60f55dbc68">
+            <lb xml:id="uuid_4f91e3b6-9b70-4f28-9f11-41fa822bbcd7"/>In Sachen ./. <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/13163" type="person">Theodor <hi
+                  rend="spaced">Wolf</hi>f</rs> teile ich Ihnen mit,<lb
+               xml:id="uuid_a1fd1055-0e43-4135-9b4c-bdefb6ec4c7f"/>daß leider bis heute noch nicht
+            der Vortermin angesetzt<lb xml:id="uuid_519eb1bc-8d75-4eb0-9951-1297754105e0"/>ist. Ich
+            habe Beschleunigung angemahnt und hoffe, daß<lb
+               xml:id="uuid_9f1c8a32-1e83-4ae4-a4e4-65a6e06d125d"/>sich die rechtzeitige Anberaumung
+            des Termins ermöglichen<lb xml:id="uuid_60543f16-4c02-45a6-9c66-3d86f831cb0a"/>lässt.
+            Sie erhalten telegrafisch Nachricht. </p>
+         <p xml:id="uuid_f7ad3ac5-d5e5-41a4-a92c-b893b6d28780">
+            <lb xml:id="uuid_a453cd9a-08de-4fb4-9ae1-afebe838d8a0"/>Bei dieser Gelegenheit bitte
+                ich Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> alles<lb xml:id="uuid_0394108c-1118-495c-9dbc-f44d5cda62bd"/>Gute
+                und viel Erfolg für das neue Jahr wünschen und ihn<lb xml:id="uuid_850cca14-ee84-44d8-8ead-075b0e50f5af"/>nochmals all der Liebe
+                versichern zu dürfen, die man ihm<lb xml:id="uuid_809b7eb3-958d-4634-b42c-7129dcd33235"/>entgegenbringen muß – in
+                einer industrialisierten Zeit<lb xml:id="uuid_3a164f93-fbf2-4aa1-ba50-959f895499cc"/>dem reinen Herzen, dem klaren Geist, dem gläubigen Kämpfer. </p>
+         <p xml:id="uuid_57596fe8-2800-471e-bd60-21e055cab42c">
+            <lb xml:id="uuid_cd0c5c50-0a96-4b6a-ae26-77c3f5a2cd34"/>Mit besten Grüßen<lb xml:id="uuid_7ae98d79-9837-4ddb-ab09-2fa4bbe62c59"/>ergebenst<lb xml:id="uuid_056e14a5-dd1a-4d1c-87a0-ff8b7fc9d965"/>Dr. <rs ref="#38969" type="person">Laserstein</rs>
+            <lb xml:id="uuid_bd161e2b-5cf9-4b89-b368-1ced056c4722"/>Rechtsanwalt. </p>
+      </body>
+   </text>
+</TEI>

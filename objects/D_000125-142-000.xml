@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-143-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-141-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000125-142-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Amtsgericht Berlin-Mitte an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000125-142-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3507</idno>
+            <idno subtype="transkribus" type="ID">328875</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000125" type="collection">Karl
+                    Kraus ca. Frankfurter Städtisches Schauspielhaus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000125-142-000-facs001" xml:id="D_000125-142-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000125-142-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.D">Druck</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#36735">Die Geschäftsstelle des Amtsgerichts |
+                        Berlin-Mitte</orgName>
+               <address>
+                  <street corresp="#57381">Stralauerstr. 44/45</street>
+                  <settlement ref="#168">Berlin C 2</settlement>
+               </address>
+               <date when-iso="1933-06-14">14. Juni 1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn Rechtsanwalt | Dr. Oskar Samek</persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse 18</street>
+                  <settlement ref="#64">Wien XIV.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">196 E.R.651.33.</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1933-06-14">14. Juni 1933</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000125-142-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000125-142-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-08-05" who="#JK"/>
+         <change type="typography" when-iso="2021-08-05" who="#JK"/>
+         <change type="references" when-iso="2021-08-05" who="#JK"/>
+         <change type="structure" when-iso="2021-08-05" who="#JK"/>
+         <change resp="#IB" when-iso="2021-04-12T09:14:13.94Z">created by API</change>
+         <change resp="#IB" when-iso="2021-04-12T09:33:15.878Z">Replaced Text with Transcription
+                of Transkribus Document 328875. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000125-142-000-facs001">
+      <surfaceGrp xml:id="D_000125-142-000-facs001-l001">
+         <surface type="recto" xml:id="D_000125-142-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557453/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000125-142-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557454/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000125-142-000_p001"
+             facs="#D_000125-142-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_aa1f4247-cabd-48ed-8223-33a038f8e8ab">
+            <lb xml:id="uuid_f25c5c17-89bf-404b-b3fd-83d8ba17c516"/>Geschäftsnummer:<lb xml:id="uuid_86278519-168d-40fa-8c69-e5a4dc2ec28b"/>196 E.R.651.33. </p>
+         <p xml:id="uuid_970dfb46-8d78-4509-b7b8-3383d1611a7f">
+            <lb xml:id="uuid_cbc62a68-b7d0-41d4-b6e1-570f1eeff98b"/>In dem Rechtsstreit<lb xml:id="uuid_240066a1-feaf-424e-9c70-ec23143f0f0d"/><rs ref="#43724" type="institution">Verlag „Die Fackel“</rs> gegen <rs ref="#146" type="place">Stadt Frankfurt a.M.</rs>
+         </p>
+         <p xml:id="uuid_7a5e9ea6-9d39-4986-bf81-bb0f9054fe9e">
+            <lb xml:id="uuid_2a08af55-7592-452b-8763-86718b0ba8d5"/>ist der auf den 27. Juni 1933
+            anberaumte Termin auf Anordnung des <rs ref="#36735" type="institution">Gerichts</rs>
+            <lb xml:id="uuid_77de9532-ae94-48d0-b55c-4d85dcede03f"/>aufgehoben worden, weil der
+            Zeuge Schauspieler <rs ref="#43661" type="person">Peter Ihle</rs>,<lb
+               xml:id="uuid_84cbd6df-72fb-4c32-9b9c-d1323e8c61dd"/><rs ref="#57093"
+               subtype="address" type="place"><hi rend="underlined">Berlin – Charlottenburg</hi><lb
+                  xml:id="uuid_c7cc9065-c536-457f-94fa-3db8afbcaf7c"/>Savignyplatz 9/10</rs>.<lb
+               xml:id="uuid_4de42e62-7146-4dda-a800-76423a990282"/>unbekannt verzogen ist. </p>
+         <p xml:id="uuid_c51fc4dd-fff9-414a-8fef-47cfc13e1c07">
+            <lb xml:id="uuid_b1a71cbd-0a84-447d-846d-9b18d33b83eb"/>Sie brauchen daher zu diesem
+                Termin nicht zu erscheinen. </p>
+         <p xml:id="uuid_e92a70dc-c956-4483-8e06-b5e40631ca01">
+            <lb xml:id="uuid_e49ffc53-d99c-4dc5-be55-3d273593d73b"/><rs ref="#57392" type="person">Liescak</rs>
+            <lb xml:id="uuid_f535104c-ef20-48eb-a4bb-6dc6d29508e2"/>Justizangestellte. </p>
+         <pb xml:id="D_000125-142-000_p002"
+             facs="#D_000125-142-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_e0a6c706-7f79-4a3a-a8a4-5f9982331870">
+            <lb xml:id="uuid_2c1b92f0-e66e-4b62-8938-f50ec3ff1c4c"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#34987" type="institution">Frankf. städt.<lb xml:id="uuid_66e728d8-2909-4b7e-a0d3-bdb4df742a86"/>Bühnen</rs>
+               <lb xml:id="uuid_27d5c35e-c28d-4357-933c-6301f504827f"/>16. JUNI 1933 </note>
+         </p>
+      </body>
+   </text>
+</TEI>

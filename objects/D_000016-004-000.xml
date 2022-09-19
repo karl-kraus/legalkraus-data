@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000016-005-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000016-003-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000016-004-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Verlag die Fackel</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000016-004-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1717</idno>
+            <idno subtype="transkribus" type="ID">176196</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000016" type="collection">Karl
+                    Kraus ca. Die Stunde</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000016-004-000-facs001" xml:id="D_000016-004-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000016-004-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1925-08-15">15. August 1925</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#43724">den | Verlag der „Fackel“</orgName>
+               <address>
+                  <street corresp="#50496">Hintere Zollamtsstr. 3</street>
+                  <settlement ref="#53">Wien III.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – „Stunde“</note>
+               <note type="dictation">Dr.S./W.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1925-08-15">15. August 1925
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000016-004-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000016-004-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-06" who="#JK"/>
+         <change type="typography" when-iso="2021-10-06" who="#JK"/>
+         <change type="references" when-iso="2021-10-06" who="#JK"/>
+         <change type="structure" when-iso="2021-10-06" who="#JK"/>
+         <change when-iso="2020-02-04T13:33:40.471Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-04T13:43:03.006Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-04T13:43:04.396Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-04T13:43:05.853Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 176196. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000016-004-000-facs001">
+      <surfaceGrp xml:id="D_000016-004-000-facs001-l001">
+         <surface type="recto" xml:id="D_000016-004-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540899/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000016-004-000-facs001-l001-p002">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540901/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000016-004-000-facs001-l002">
+         <surface type="recto" xml:id="D_000016-004-000-facs001-l002-p003">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540900/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000016-004-000_p001"
+             facs="#D_000016-004-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_f0a770c0-436b-4f84-8532-c4736b825d09">
+            <lb xml:id="uuid_ed88a2aa-4de5-4469-b72f-758dad734bb7"/>Die Hauptverhandlung gegen
+                    <rs ref="#50431" type="person">Dr. Fritz<lb xml:id="uuid_f1d7f616-f24a-43b9-92d5-bfc9a1796aae"/>Kaufmann</rs> wegen <rs ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=484&amp;size=45"
+                type="law">§ 24 Absatz 6 Pr.G.</rs> (Erschei<lb break="no" xml:id="uuid_43b53956-6355-4884-8df6-f7b1a67abf15"/>nung der <rs ref="#50611" type="work" subtype="pmb">Zeitung</rs> vor Erfüllung zur Aufnahme der<lb xml:id="uuid_cf4792d3-6c3c-4bc7-a5ec-763d2ee789bc"/>Berichtigung) findet am 2.
+                September 1925 12½<lb xml:id="uuid_a7fe1cd1-7e16-41ea-b83a-3afcf626899c"/>Uhr
+                nachmittag vor dem <rs ref="#50491" type="institution">Strafbezirksgericht I<lb xml:id="uuid_ded6eb9b-b4e6-49c6-8602-68c57060a9e8"/><rs ref="#50" type="place">Wien</rs></rs>
+            <rs ref="#50664" type="place">II.,
+                    Schiffamtsgasse 1</rs>, Verhandlungssaal<lb xml:id="uuid_1e3bb383-0d70-4b79-96fe-1b56edffdc58"/>29, 1. Stock statt. Das
+                Erscheinen des <rs ref="#11988" type="person">Herrn<lb xml:id="uuid_d57d54d3-b9da-445e-862f-b15f3c96785e"/>Kraus</rs> zu dieser
+                Verhandlung ist nicht erforderlich. </p>
+         <p xml:id="uuid_7d2ddff4-f4b6-4bb8-9c4e-f84b2377a7a5">
+            <lb xml:id="uuid_8ef9aad1-f330-4fa5-8010-c07f90f3d86f"/>Gleichzeitig übersende ich
+                Ihnen 3<lb xml:id="uuid_e21325b7-29b5-4a36-995c-8b03613cb36e"/>Abschriften des <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000012-008-000"
+                type="work"
+                subtype="legal-doc">Urteiles</rs> der Berufungsinstanz<lb xml:id="uuid_2912f393-cc6a-40a3-b84d-278e3b1dc2b4"/>in der Angelegenheit wegen
+                    <rs ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=484&amp;size=45"
+                type="law">§ 24 Pr.G.</rs>
+            <lb xml:id="uuid_350aa88c-476f-4752-ac06-52b1941172bd"/>Hochachtungsvoll </p>
+         <p xml:id="uuid_5fa86a67-898e-4952-8dc1-cc5e84eba1d7">
+            <lb xml:id="uuid_71994989-fc00-45ab-845a-6fcc2e15413d"/>rek. </p>
+         <pb xml:id="D_000016-004-000_p002"
+             facs="#D_000016-004-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_a55a22e4-28a2-44d8-839e-3fc63b14ec78">
+            <lb xml:id="uuid_eb0703aa-976c-425d-ae0d-c5575c591f6e"/><note resp="law-firm" type="paratext">Betr: <rs ref="#11988" type="person">Kraus</rs> – <rs ref="#29470" type="institution">Stunde</rs>.<lb xml:id="uuid_1c4f9cde-c7e2-4791-b845-acc60f6e7b9e"/>exp. am 15. Aug. 1925
+                </note>
+         </p>
+      </body>
+   </text>
+</TEI>

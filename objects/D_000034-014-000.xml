@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    next="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-015-000.xml"
+    prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-013-000.xml"
+    xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000034-014-000.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Berufungsausführung von Anton Kuh</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2022</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+                </availability>
+                <idno subtype="legalkraus" type="URL"
+                    >https://id.acdh.oeaw.ac.at/legalkraus/D_000034-014-000.xml</idno>
+                <idno subtype="krausonline" type="URL"
+                    >http://www.kraus.wienbibliothek.at/node/2009</idno>
+                <idno subtype="transkribus" type="ID">187833</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000034" type="collection">Karl
+                    Kraus ca. Anton Kuh</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness facs="#D_000034-014-000-facs001" xml:id="D_000034-014-000-wit01"/>
+                </listWit>
+                <msDesc>
+                    <physDesc>
+                        <ab type="materiality">
+                            <objectType source="D_000034-014-000-wit01"
+                                ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.M"
+                                >Manuskript</objectType>
+                        </ab>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date subtype="produced" type="sortDate" when-iso="1926-12-14">14. Dezember
+                    1926</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term source="D_000034-014-000-wit01">Berufungsausführung</term>
+                </keywords>
+                <classCode source="D_000034-014-000-wit01"
+                    scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.BAF"
+                    >D.J.BAF</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="done">
+            <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+            <change type="header_facsimile" when-iso="2022-01-17" who="#IL"/>
+            <change type="structure" when-iso="2020-11-18" who="#IL"/>
+            <change type="references" when-iso="2020-11-22" who="#IL"/>
+            <change when-iso="2020-02-10T12:10:05.534Z" who="#IB">created by API</change>
+            <change when-iso="2020-02-10T12:21:14.391Z" who="#JM">Checked Images Wienbibliothek </change>
+            <change when-iso="2020-02-10T12:21:15.829Z" who="#JM">Checked Images Wienbibliothek </change>
+            <change when-iso="2020-02-10T12:21:17.452Z" who="#JM">Checked Images Wienbibliothek </change>
+            <change when-iso="2020-02-10T12:21:19.03Z" who="#JM">Checked Images Wienbibliothek </change>
+            <change when-iso="2020-02-10T12:21:20.628Z" who="#JM">Checked Images Wienbibliothek </change>
+            <change when-iso="2020-02-10T12:21:22.877Z" who="#JM">Checked Images Wienbibliothek </change>
+            <change when-iso="2020-02-10T12:21:24.148Z" who="#JM">Checked Images Wienbibliothek </change>
+            <change when-iso="2020-02-10T12:21:26.469Z" who="#JM">Checked Images Wienbibliothek </change>
+            <change when-iso="2020-07-13T12:59:46.841Z" who="#IB">Linked to Document in Transkribus
+                by API </change>
+            <change when-iso="2020-07-13T12:59:56.518Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 187833. </change>
+            <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 187833. </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000034-014-000-facs001">
+        <surfaceGrp xml:id="D_000034-014-000-facs001-l001">
+            <surface xml:id="D_000034-014-000-facs001-l001-p001" type="recto">
+                
+                <graphic ana="status:checked" source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548369/full/full/0/default.jpg"/>
+                
+            </surface>
+            <surface xml:id="D_000034-014-000-facs001-l001-p002" type="verso">
+                
+                <graphic ana="status:checked" source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548370/full/full/0/default.jpg"/>
+                
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000034-014-000-facs001-l002">
+            <surface xml:id="D_000034-014-000-facs001-l002-p003" type="recto">
+                
+                <graphic ana="status:checked" source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548371/full/full/0/default.jpg"/>
+                
+            </surface>
+            <surface xml:id="D_000034-014-000-facs001-l002-p004" type="verso">
+                
+                <graphic ana="status:checked" source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548372/full/full/0/default.jpg"/>
+                
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000034-014-000-facs001-l003">
+            <surface xml:id="D_000034-014-000-facs001-l003-p005" type="recto">
+                
+                <graphic ana="status:checked" source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548373/full/full/0/default.jpg"/>
+                
+            </surface>
+            <surface xml:id="D_000034-014-000-facs001-l003-p006" type="verso">
+                
+                <graphic ana="status:checked" source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548374/full/full/0/default.jpg"/>
+                
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000034-014-000-facs001-l004">
+            <surface xml:id="D_000034-014-000-facs001-l004-p007" type="recto">
+                
+                <graphic ana="status:checked" source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548375/full/full/0/default.jpg"/>
+                
+            </surface>
+            <surface xml:id="D_000034-014-000-facs001-l004-p008" type="verso">
+                
+                <graphic ana="status:checked" source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548376/full/full/0/default.jpg"/>
+                
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb xml:id="D_000034-014-000_p001" facs="#D_000034-014-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_3d02c0d0-bd80-4f39-913e-b689a6b36c0d">
+                <lb xml:id="uuid_7e160a79-671e-47c9-a935-dcc776a3b117"/>Dr. <rs ref="#43658"
+                    type="person">Schnepp</rs>
+                <lb xml:id="uuid_f9d32e00-f1a1-46f1-b1d2-2b8fddaba117"/><rs type="institution"
+                    ref="#50491">Strafbez. Ger. I</rs> U IV 570/26/12<lb
+                    xml:id="uuid_adcbc5ba-1a97-4c7e-893f-e1b06b6c4e16"/>14. Dez. 26</p>
+            <p xml:id="uuid_8ecc5bd1-57b5-4a23-a327-edd7ba59146b">
+                <lb xml:id="uuid_2b83d1b6-ad99-4255-95ec-ebc17c221718"/>An das<lb
+                    xml:id="uuid_a5b18b36-e673-4538-9dc3-524cf983c8bf"/><rs ref="#50491"
+                    type="institution">Strafbezirkgericht I</rs>
+                <lb xml:id="uuid_2011437f-f19a-4c2c-9314-e63f7982c395"/><hi rend="underlined"><rs
+                        type="place" ref="#50">Wien</rs></hi>
+            </p>
+            <p xml:id="uuid_ef2c4eee-cf5d-4746-b668-06dbab81af0f">
+                <lb xml:id="uuid_99b42c2f-d81b-449d-b29a-3acb181be00f"/>Antragsteller:<lb
+                    xml:id="uuid_d868d307-c288-4c14-892d-ccd3b5759b59"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/8363" type="person">Anton Kuh</rs>,<lb
+                    xml:id="uuid_d706d07d-aeb0-4e55-b345-86f509292893"/>Schriftsteller<lb
+                    xml:id="uuid_35a98939-034f-4c73-9868-572685e3ea3d"/><rs ref="#50695"
+                    type="place">Wien III., Hotel Beatrix</rs>
+                <lb xml:id="uuid_8058c66f-a0c3-40e2-ab9c-15d254d67cda"/>durch: R.A. Dr. <rs
+                    ref="#43658" type="person">Friedrich Schnepp</rs>
+                <lb xml:id="uuid_0de56a7d-6719-4416-9d06-e91e9bfca463"/><rs ref="#436"
+                    subtype="address" type="place">IX. Porzellang. 22a</rs>
+                <lb xml:id="uuid_0cd499d2-a78e-466d-bc6f-a0c580ab7af7"/>(Vollmacht ausgewiesen)</p>
+            <p xml:id="uuid_f5399dfd-4772-44a0-9ecd-89b87119775a"><lb
+                    xml:id="uuid_e1468efd-e993-4adb-a810-34b481f45541"/><hi rend="underlined"
+                    >Berufungsausführung</hi></p>
+            <p xml:id="uuid_68a7bcee-735e-4a23-8c67-5ebc4a6c2ff0"><lb
+                    xml:id="uuid_647657d1-c772-47b6-9f35-cfed3c04ff2d"/>1 fach </p>
+            <pb xml:id="D_000034-014-000_p002" facs="#D_000034-014-000-facs001-l001-p002" n="2"/>
+            <p xml:id="uuid_2c00fa39-19ad-43ab-aa7e-773c2e23b900">
+                <lb xml:id="uuid_247293eb-9850-4534-b60a-55064fb0c227"/>Ich habe gegen
+                umseitig<lb/>rubriziertes <rs type="work" subtype="legal-doc"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/https://id.acdh.oeaw.ac.at/legalkraus/D_000034-012-000"
+                    >Urteil</rs><lb xml:id="uuid_80ba2c15-7470-4c08-8389-df7dfd894057"/><hi
+                    rend="underlined">Berufung</hi>
+                <lb xml:id="uuid_1cf58f69-3652-427d-a416-b289e26afede"/>pto. Nichtigkeit, Schuld und
+                Strafe an<lb break="no" xml:id="uuid_df128842-73a7-4e2b-b969-afeac5409b48"
+                />gemeldet, welche ich in offener Frist<lb
+                    xml:id="uuid_2559ab42-3771-4843-90a5-85d5b35b259c"/>folgendermaßen ausführe: </p>
+            <p xml:id="uuid_adfc4d35-63f5-4d96-a9a1-30ae7bde0a8d">
+                <lb xml:id="uuid_d601a77e-a075-4335-98da-acd828209bde"/><hi rend="underlined">1)
+                    Nichtigkeit und Schuld</hi>
+            </p>
+            <p xml:id="uuid_4a5b9081-97d4-4a5a-8df0-71cf41ac4702">
+                <lb xml:id="uuid_e3d99f49-21a5-4a1e-8656-0ed38e284b43"/>Ich mache den
+                    Nichtigkeitsgrund<lb xml:id="uuid_bd7f87ab-73b0-484f-aeff-22195c683fad"/>gemäß
+                    <rs
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1873&amp;page=455&amp;size=45"
+                    type="law">§ 9a, St.P.O.</rs> geltend. </p>
+            <p xml:id="uuid_34d933ec-dd86-4e75-9d05-5f02558ffb01">
+                <lb xml:id="uuid_cf2ee5e3-d333-483e-b9e6-8128d71f9486"/>Der Herr <rs ref="#47151"
+                    type="person">Erstrichter</rs> hat zu<lb
+                    xml:id="uuid_7e183d40-b2bd-4ff1-a3f1-6737119a8831"/>Unrecht angenommen, daß die
+                    mir<lb xml:id="uuid_4f3dd010-50c7-43f5-9ac8-d00f6dba22ed"/>zur Last fallende Tat
+                eine durch<lb xml:id="uuid_0c108897-70be-4281-a03b-3a2e74a71550"/>das Strafgericht
+                verfolgbare Übertretung<lb xml:id="uuid_8ea511b4-d471-4ff7-8cb8-3a92ff366ac4"
+                />begründe. </p>
+            <p xml:id="uuid_07db786d-c9c3-4b58-aede-913269eb107b">
+                <lb xml:id="uuid_0372fbb0-9d15-4a4a-bc31-bc84bae69f5b"/>Die in meinem Vortrage<lb
+                    xml:id="uuid_58ad0db2-1875-4449-9d98-0a80a6cee610"/>„<rs ref="#51907"
+                    type="work" subtype="pmb">Der Affe Zarathustra</rs>“ vorgebrachten<lb
+                    xml:id="uuid_533774fd-8374-4941-ba59-dcad96557062"/>Äußerungen, durch die sich
+                der <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Privat<lb
+                        xml:id="uuid_bfd334bb-a3a4-4bd4-9ba4-4e870b8ddbf9"/>ankläger</rs> beleidigt
+                fühlt, können nicht<lb xml:id="uuid_47c8923c-2527-4af9-a4de-b56faa3e850e"/>als
+                Übertretungen gemäß <rs type="law"
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1852&amp;page=668&amp;size=45"
+                    >§ 491 St.G.</rs>
+                <lb xml:id="uuid_b8c1a7b6-195b-4c06-b7a5-af353c245938"/>angesehen werden, da die
+                    beleidigende<lb xml:id="uuid_9cc24dbc-7ec4-4b15-b905-ec63c23c9197"/>Absicht
+                vollkommen fehlt. </p>
+            <p xml:id="uuid_6cebf6c8-1ab2-4beb-850e-0f261d2e3cfa">
+                <lb xml:id="uuid_d6603b72-0732-42d3-b43d-5b8945e94f4a"/>Wie ich bereits vor dem <rs
+                    type="person" ref="#47151">Herrn Erst-</rs>
+                <pb xml:id="D_000034-014-000_p003" facs="#D_000034-014-000-facs001-l002-p003" n="3"/>
+                <lb xml:id="uuid_891cc4bd-a89b-4056-a5db-b422e55c4bda"/><rs ref="#47151"
+                    type="person">richter</rs> zu meiner Verantwortung<lb
+                    xml:id="uuid_a7864756-a153-4b82-b7bc-e4037c390d6a"/>ausgeführt habe, ist
+                zwischen dem<lb xml:id="uuid_8a0b0c9b-b303-4321-baf0-1187cc2be328"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Privatankläger</rs>
+                und mir eine li<lb break="no" xml:id="uuid_be7c35b3-0f2c-4a6e-b4d9-ddb21e61b140"
+                />terarische Fehde entbrannt und sind<lb
+                    xml:id="uuid_8b209e79-6faa-4654-8f9f-a8d7ea01053b"/>die in der Privatanklage
+                    inkriminierten<lb xml:id="uuid_cf7ea9f1-6a2c-4367-a039-8fde1744c96c"/>Äußerungen
+                als berechtigte Kritik,<lb xml:id="uuid_06e894cf-b3d1-4533-b1b9-76dfd794bac5"/>nicht
+                aber als Ehrenbeleidigungen<lb xml:id="uuid_688a0bc7-dad5-4f4f-9497-c707313d8117"
+                />anzusehen. Es liegt im Wesen eines<lb
+                    xml:id="uuid_e8fa5d52-1ffa-4eec-a77a-738ced9d980c"/>literarischen Kampfes die
+                    Schwäche<lb xml:id="uuid_49706885-fef4-476c-86e6-6f05bbf41bdc"/>des Gegners und
+                seines Systems<lb xml:id="uuid_fdefcab9-e354-40b7-b815-3feb4c6fcde7"/>zu
+                brandmarken. Wird dies nach<lb xml:id="uuid_55b24c95-83cd-4f14-a31e-5bbab847393a"
+                />Ansicht des Erstgerichtes als eine Ehren<lb break="no"
+                    xml:id="uuid_adfd7d65-6b84-4f68-b772-281e66d423d9"/>beleidigung angesehen, so
+                müßte jeder<lb xml:id="uuid_df9c8443-2df0-4479-a1c4-c94bf121160d"/>literarische
+                Krampf und jede Kritik<lb xml:id="uuid_4a8596da-2f78-4f13-b9bf-6ca163d7df17"/>ein
+                Ende finden. </p>
+            <p xml:id="uuid_3a971241-b039-4b34-aae3-4bcd37a673c3">
+                <lb xml:id="uuid_8da24983-cabb-4996-bdb9-ba7e5cf823c8"/>Insbesonders ist aber zu
+                    unrecht<lb xml:id="uuid_bcab7f1e-4207-4362-9c46-0911aa39da6c"/>der Schuldspruch
+                der Äußerungen<lb xml:id="uuid_4371279f-ccb8-4da4-a7c6-497f6f1e6320"/>„<quote
+                    ref="#52663" xml:id="uuid_22f71d18-ab9f-4262-9c1e-ebc6711a837b"
+                    >Itzigseuche</quote>“<lb xml:id="uuid_6721f248-cc54-405e-9b52-f0a569e1db09"
+                    />„<quote ref="#52663" xml:id="uuid_05fde77c-cf16-434b-bd22-77b84cef4df2">die
+                    besten Witze hat er von mir</quote>“<lb
+                    xml:id="uuid_aebd0898-7ab8-4497-95dd-40bba9f49671"/>„<quote ref="#52663"
+                    xml:id="uuid_34cc5f39-44fd-4d1c-ae9a-47f929c5ff1a">als <rs type="person"
+                        ref="#11988">Kraus</rs> vor ungefähr 30 Jahren –<lb
+                        xml:id="uuid_f17bd1aa-a938-4ad6-b80f-6561d8472188"/>er sagt vor 48 Jahren –
+                    nach <rs type="place" ref="#50">Wien</rs> kam</quote>“<lb
+                    xml:id="uuid_6f1ba81c-ddea-4aab-b6f1-582cbf6eb28c"/>„<quote ref="#52663"
+                    xml:id="uuid_0a49d6d6-31f8-458c-8f85-55ae4a3a89ce">von reinen Händen allein kann
+                        man<lb xml:id="uuid_633ac3f8-c326-4d39-92ce-da94912a7343"/>nicht
+                    leben</quote>“ <pb xml:id="D_000034-014-000_p004"
+                    facs="#D_000034-014-000-facs001-l002-p004" n="4"/>
+                <lb xml:id="uuid_5f62977f-5f72-44a6-b5ae-625f5ff8c406"/>„<quote ref="#52663"
+                    xml:id="uuid_8b7f3390-d7b4-4997-becb-4dbe30c1c05d">das nenne ich die Geburt
+                        des<lb xml:id="uuid_6cd3c5a8-3dbc-47c0-9da0-7d88106e8075"/>Ethos an dem
+                    Geiste des Ases</quote>“<lb xml:id="uuid_bbf1f26b-6b74-4248-93db-0ddb360e5d2f"
+                />erfolgt. </p>
+            <p xml:id="uuid_10349d1b-6515-4b40-b974-21cd56e7c346">
+                <lb xml:id="uuid_0579c2ac-777f-4ef1-867b-bf9899e80393"/>Wie aus dem Inhalte der
+                    An<lb break="no" xml:id="uuid_c4df73a7-3edd-420a-b996-4e81bf519d8c"
+                />klageschrift selbst hervorgeht, habe ich<lb
+                    xml:id="uuid_0819e4fb-0f5a-4c96-a46f-de880574786e"/>mit „<quote ref="#52663"
+                    xml:id="uuid_a9052e87-7d67-41e0-9ebe-b21e13395489">Itzigseuche</quote>“ die
+                Zustände bezeichnet,<lb xml:id="uuid_eba2eadd-6a84-48a4-83c4-5d11526048f2"/>die
+                infolge Tätigkeit des <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                    type="person">Privatan<lb break="no"
+                        xml:id="uuid_08be03f3-a078-4c74-bf42-972f394b7239"/>klägers</rs> entstanden
+                sind, wobei ich<lb xml:id="uuid_7dba257c-5a10-44cc-8803-329312249cd1"/>ausdrücklich
+                hervorgehoben habe, daß<lb xml:id="uuid_27e9c95b-0c51-4fda-aec0-9463af2d56f9"/>diese
+                möglicherweise sogar ohne Ver<lb break="no"
+                    xml:id="uuid_4220549a-8596-4a06-82b1-1ccdeb4be867"/>schulden des <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                    >Privatanklägers</rs> ent<lb break="no"
+                    xml:id="uuid_f9b130f9-8514-4224-8490-a5b1ba784d2a"/>standen sind. </p>
+            <p xml:id="uuid_7191b1f9-1392-4d5d-9435-ee3883b34dba">
+                <lb xml:id="uuid_c3ca3440-9213-4b48-bef3-1ec14e943e4e"/>Ich wollte daher mit der
+                    Be<lb break="no" xml:id="uuid_72968f9e-2b0c-4673-ac94-7f5660c07203"/>zeichnung
+                    „<quote ref="#52663" xml:id="uuid_2be1ea27-2e42-40b6-b9d5-06ef64d4cddb"
+                    >Itzigseuche</quote>“ nicht den<lb
+                    xml:id="uuid_fac12ef4-a950-4de6-91f9-35f5a94bb9b5"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Privatankläger</rs>
+                selbst, sondern seine<lb xml:id="uuid_cba22ef7-b1d6-4876-a02a-b375818c247e"
+                />Anhänger, die auch allein legitimiert<lb
+                    xml:id="uuid_1730d3ca-39c1-4b85-8aaf-5cc962c29942"/>gewesen wären die Anklage zu
+                    erheben,<lb xml:id="uuid_4eb40b44-bf6a-4a4a-8bbd-b205c8c450ac"/>kennzeichnen. </p>
+            <p xml:id="uuid_4b9ccee2-f37e-414a-aa20-abe2fb625c10">
+                <lb xml:id="uuid_7ce29049-b48f-45d4-9c32-35b1d48581cc"/>Die Äußerung „<quote
+                    ref="#52663" xml:id="uuid_e5aa2dfe-8c68-4436-b0e9-a9a052799bca">als <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>
+                        vor<lb xml:id="uuid_23cdcf3e-a60a-4769-ad74-132755ffb047"/>ungefähr 30
+                    Jahren – er sagt vor 48 Jahren –<lb
+                        xml:id="uuid_cacea959-20dc-4189-b632-77d5147de893"/>nach <rs ref="#50"
+                        type="place">Wien</rs> kam</quote>“ beinhaltet auch keine<lb
+                    xml:id="uuid_537c9aaa-967e-465f-a6a5-fe2b34ddf9b6"/>Ehrenbeleidigung – da, wie
+                ich schon<lb xml:id="uuid_24e2cc4f-1703-4530-9dca-30d64b0d18a1"/>vor dem Herrn <rs
+                    type="person" ref="#47151">Erstrichter</rs> erklärte, <pb
+                    xml:id="D_000034-014-000_p005" facs="#D_000034-014-000-facs001-l003-p005" n="5"/>
+                <lb xml:id="uuid_7f3e48b4-ec40-44a8-8cb1-805396e75d76"/>mir nicht darum zu tun ist,
+                    den<lb xml:id="uuid_0d77c2a4-0f61-45a4-bf50-d559c64cc496"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Privatankläger</rs>
+                einer Lüge zu zeihen,<lb xml:id="uuid_00fdcf26-df73-4740-9740-d0e36dfe8438"
+                />vielmehr wollte ich nur festhalten,<lb
+                    xml:id="uuid_a9b36acc-210f-4ef9-9f5a-0ad87243e04b"/>daß <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> geistig
+                zu den Boden<lb break="no" xml:id="uuid_6972a03f-b8da-45fb-a81f-582c496c06a6"
+                />ständigen zählt, was ja an sich nichts<lb
+                    xml:id="uuid_0aa296c7-bafc-4113-84d1-cca795cf6aba"/>unehrenhaftes ist. </p>
+            <p xml:id="uuid_99b990a7-7785-43b6-9d1b-40e718e1bc3a">
+                <lb xml:id="uuid_ad161689-918c-49e4-abf3-fcba268e7bbf"/>Die Äußerung „<quote
+                    ref="#52663" xml:id="uuid_16572703-d570-4384-a141-d94da88b2d0e">von reinen<lb
+                        xml:id="uuid_1af565b1-c6aa-4eee-8c00-81344ef90a4a"/>Händen allein kann man
+                        nicht<lb xml:id="uuid_b80165d2-c07c-47b4-b5ae-b305eded7a0f"/>leben</quote>“
+                ist ein geflügeltes Wort, welches<lb
+                    xml:id="uuid_27b6e91d-ca14-4d71-a790-2f2e630d0a09"/>der <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Privatankläger</rs>
+                selbst geschaffen<lb xml:id="uuid_f57b8f34-f99f-4481-841c-ec6ca2cbbefb"/>hat und
+                beinhaltet ebenfalls keine Ehren<lb break="no"
+                    xml:id="uuid_5e61bc4b-ea9f-4d5a-b6c6-3906abfa8146"/>beleidigung. Ich habe durch
+                dieses Vor<lb break="no" xml:id="uuid_2760210e-f14d-408b-b031-82177e681847"/>bringen
+                niemals die Absicht gehabt<lb xml:id="uuid_6e18c78a-ff0a-4b9c-b33c-24801ae885b1"
+                />Behauptung aufzustellen, daß der<lb
+                    xml:id="uuid_c42fb20d-e3b9-4805-923a-93f770f46aff"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Privatankläger</rs>
+                keine reinen Hände<lb xml:id="uuid_72afe4af-71db-43ee-a1e8-6bb6348afd91"/>habe,
+                wollte vielmehr nur darauf<lb xml:id="uuid_d905f10d-b7e1-4c00-9a5d-b358800a8752"
+                />hinweisen, daß Ehrlichkeit allein keine<lb
+                    xml:id="uuid_45b2f9d1-285c-48d2-815e-d5d52a097a7c"/>besondere Leistung, sondern
+                etwas Selbst<lb break="no" xml:id="uuid_a948605a-043e-4a48-8f83-df167760841a"
+                />verständliches sei, daher kein besonderer<lb
+                    xml:id="uuid_25bc64f1-c872-4330-acee-f4080dbc679a"/>Grund bestehe irgend jemand
+                    wegen<lb xml:id="uuid_81de8834-17b7-441d-99d8-7cd9980e0312"/>seiner Ehrlichkeit
+                allein zu ver<lb break="no" xml:id="uuid_f9cbe57c-9d68-4747-9124-133b4a3be001"
+                />herrlichen. </p>
+            <p xml:id="uuid_cb78f704-6d9f-4746-b713-ad0d05d191aa">
+                <lb xml:id="uuid_75c65851-88d6-4817-8e98-7ef9a5e40265"/>Zum Schuldspruche wegen <pb
+                    xml:id="D_000034-014-000_p006" facs="#D_000034-014-000-facs001-l003-p006" n="6"/>
+                <lb xml:id="uuid_47f4ebac-2a09-4ea8-bfc3-9ca85b8d261e"/>der Äußerung, „<quote
+                    xml:id="uuid_1ff593cb-0a33-4933-8bdf-7f879b138cc8">die Geburt des Ethos<lb
+                        xml:id="uuid_45794dda-fce3-4d85-a60e-6de73a4bcfe9"/>aus dem Geiste des
+                    Ases</quote>“ ist der Herr<lb xml:id="uuid_d228868c-0b47-4690-a7d3-c26ce6d7042f"
+                    /><rs ref="#47151" type="person">Erstrichter</rs> dadurch gekommen, daß er<lb
+                    xml:id="uuid_0e80f490-ce98-4e78-84c7-8b036dc1ebbd"/>meine Beweisanträge
+                    betreffend<lb xml:id="uuid_5961f76f-b449-405a-8785-aa0966e35583"/>die Bedeutung
+                des Wortes „Ases“<lb xml:id="uuid_737753c3-881e-42ba-b90b-ed6bf1d27052"/>abgelehnt
+                hat und dem Worte<lb xml:id="uuid_78b9b368-4f04-4bfa-b2b9-73f70f5643a5"/>„Ases“ die
+                Bedeutung zugrundelegte,<lb xml:id="uuid_e0e4e237-063e-4272-bca7-3a565ac8e9cf"
+                />welche ihm der <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                    >Privatankläger</rs>
+                <lb xml:id="uuid_5e2533aa-cc5c-47dd-859a-2786fed2d34e"/>gab ohne sich von der
+                    Richtigkeit<lb xml:id="uuid_deacf291-72ab-4044-8d8c-5256bb7a21fb"/>dieser
+                Interpretation zu überzeugen.<lb xml:id="uuid_5a0ceb8f-3502-473d-ae5f-dd8265ab3ca6"
+                />Ebenso zu Unrecht ist die Ver<lb break="no"
+                    xml:id="uuid_2868d4c4-1eb4-46ed-a032-4bd4c18859eb"/>urteilung wegen des
+                    Vorwurfes<lb xml:id="uuid_ae3a4ca9-a4f8-4e6d-bf75-c6dfe8076f37"/>„<quote
+                    xml:id="uuid_023512a0-1ccc-47f4-88df-76b9dec9e869"><rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> habe
+                    die besten Witze von mir</quote>“<lb
+                    xml:id="uuid_8e26df45-1c26-47ac-8eea-61cc1b3f45c1"/>erfolgt, da ich
+                diesbezüglich den Wahr<lb break="no"
+                    xml:id="uuid_49b096c3-9501-47c1-b487-0708b3eadf90"/>heitsbeweis anbot, welcher
+                    unge<lb break="no" xml:id="uuid_ab18a79d-7aa6-4567-a26e-9018956691bc"
+                />rechtfertigter Weise abgelehnt wurde. </p>
+            <p xml:id="uuid_66e8df29-d2f0-447a-a70f-3aaf706c5604">
+                <lb xml:id="uuid_50a2584d-5585-4fcc-a976-7863ed3c2873"/><hi rend="underlined">2.)
+                    Strafe</hi><lb xml:id="uuid_158d09d6-5159-40e4-81c1-551e5dd6e1b4"/>Jedoch selbst
+                für den Fall als<lb xml:id="uuid_e22275a1-59b0-473b-a5ce-e941031801d1"/>der
+                Schuldspruch gerechtfertigt wäre,<lb
+                    xml:id="uuid_f5fe2f88-d603-4014-9aa8-8391fc656f38"/>erscheint die verhängte
+                Strafe, mit<lb xml:id="uuid_9495c837-4ff9-4238-bcca-8983be959f37"/>Rücksicht auch
+                die schwerwiegenden<lb xml:id="uuid_c7e939c6-71b4-41d9-aaa2-d86420328acf"
+                />Milderungsgründe, denen <pb xml:id="D_000034-014-000_p007"
+                    facs="#D_000034-014-000-facs001-l004-p007" n="7"/>
+                <lb xml:id="uuid_ca1baaaa-b3e7-435b-b9aa-8f6d33b00e0c"/>keine erschwerende
+                    Umstände<lb xml:id="uuid_daeaecf3-f00b-4c17-ba4b-7c8f5fd7387f"/>entgegenstehen,
+                    unverhältnismäßig<lb xml:id="uuid_ec4a539e-80ec-4721-b187-17ed6d4c852b"/>hoch.
+                Es handelt sich im gegenständ<lb break="no"
+                    xml:id="uuid_7c66f851-27b1-4c44-8600-c3fffb91956d"/>lichen Fall nicht um eine
+                    land<lb break="no" xml:id="uuid_dc51eb72-dd96-40a0-b1a3-690394389d44"/>läufige
+                Ehrenbeleidigung. Es war<lb xml:id="uuid_69ae4a1c-11e9-49cd-a257-7219323457bd"
+                />niemals meine Absicht den <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                    type="person">Privat<lb xml:id="uuid_00d0550d-3eab-4c6d-afbb-c65503d94836"
+                        break="no"/>ankläger</rs> persönlich zu verspotten.<lb
+                    xml:id="uuid_d8853e9e-4fa7-4773-8bba-09c6e3870882"/>Ich habe in Erfüllung meiner
+                    Pflicht<lb xml:id="uuid_c2b3cddb-0082-47de-a50f-90aa130faf06"/>im Kampfe gegen
+                eine nach meiner<lb xml:id="uuid_2986d082-70ea-41ba-80fc-a79f0efa0df9"/>Überzeugung
+                für die Allgemeinheit<lb xml:id="uuid_5e1fddb1-d396-4644-a054-e21837192948"
+                />schädlichen Strömung, die Schwächen<lb
+                    xml:id="uuid_6e75e09b-45a0-4ba4-88f9-36eced0bba7f"/>dieser Strömung und deren
+                    Be<lb break="no" xml:id="uuid_24841b57-b9da-42cb-a030-b51a7fc1a0fc"/>gründers an
+                den Pranger gestellt,<lb xml:id="uuid_7c5ad42a-dc55-4b61-b604-51043ded3863"/>worin
+                nur eine berechtigte Kritik,<lb xml:id="uuid_1831c103-8a35-4753-9ea8-d6bba1fa3370"
+                />die überhaupt nicht strafrechtlich<lb
+                    xml:id="uuid_cc8fad14-2b80-4ad3-b4f6-3c7e07603b44"/>verfolgbar ist, erblickt
+                werden kann. </p>
+            <p xml:id="uuid_06b2f365-8353-4963-a067-8bbbea622b81">
+                <lb xml:id="uuid_6cf00f16-db61-4839-aed2-d7d6f1bc38b7"/>Wenn der Herr <rs
+                    ref="#47151" type="person">Erstrichter</rs> den<lb break="no"
+                    xml:id="uuid_83aae8d0-2737-4ea8-b7d9-8eb8c33ce0e6"/>noch, der Ansicht war, daß
+                    ich<lb xml:id="uuid_5e20212b-18f2-4496-966d-a70470ccbbc6"/>in der Ergänzung
+                etwas zu weit<lb xml:id="uuid_5c7e1a46-2484-48ca-8afb-ac393ac47a76"/>gegangen bin
+                und daß daher<lb xml:id="uuid_301f23cd-d9cb-4e2c-ade0-462f0bfdf722"/>der Tatbestand
+                des <rs
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1852&amp;page=668&amp;size=45"
+                    type="law">§ 491 St.G.</rs>
+                <pb xml:id="D_000034-014-000_p008" facs="#D_000034-014-000-facs001-l004-p008" n="8"/>
+                <lb xml:id="uuid_ec4ef62c-5ae3-405c-8087-3e78b03944cd"/>vorliege, so wäre doch mit
+                    Rück<lb break="no" xml:id="uuid_26a0e929-716b-4c46-8c8d-3ddb708080bb"/>sicht auf
+                diese mildernden Um<lb break="no" xml:id="uuid_3fb2008d-8056-495e-8a7b-9890b3ee41e3"
+                />stände eine geringe bedingte<lb xml:id="uuid_d745b149-4dbb-4e66-9a00-b94da5c322ac"
+                />Strafe angemessen gewesen. </p>
+            <p xml:id="uuid_3570cf30-8908-42c8-82e2-e98a11736c2c">
+                <lb xml:id="uuid_2565c9f6-7053-4cd0-840a-1c4c882183d9"/>Ich stelle daher den<lb
+                    xml:id="uuid_9a5dcae7-b50b-433a-9b16-7f7bc26a735c"/><hi rend="underlined"
+                    >Antrag</hi>
+                <lb xml:id="uuid_5126031f-a232-44b9-8002-3f381dc66719"/>das erstrichterliche <rs
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000034-012-000" type="work"
+                    subtype="legal-doc">Urteil</rs> aufzuheben<lb
+                    xml:id="uuid_18cfdd95-e7b8-4a25-9781-d35faa1a8647"/>und mich von der
+                    Übertretung<lb xml:id="uuid_6869f631-d054-45e7-a72e-ea855684c819"/>gemäß <rs
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1852&amp;page=668&amp;size=45"
+                    type="law">§ 491 St.G.</rs> freizusprechen,<lb
+                    xml:id="uuid_8c0b9752-1cb2-40e8-8614-196ba22e78c3"/>eventuell die Strafe nach
+                    Ermessen<lb xml:id="uuid_261dc30a-068d-4050-b5de-ef908fd0b4ca"/>des hohen
+                Berufungsgerichtes zu er<lb break="no"
+                    xml:id="uuid_7e01a281-9f5b-4ca5-a8b5-8c2df35a4f5d"/>mächtigen. </p>
+            <p xml:id="uuid_7ff03082-3d06-4ae8-9fef-205d8bf1e282">
+                <lb xml:id="uuid_6e1f4052-cb66-4829-9727-d624e4d8e007"/><rs ref="#8363"
+                    type="person">Anton Kuh</rs> – </p>
+        </body>
+    </text>
+</TEI>

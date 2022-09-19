@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-079-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-077-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000112-078-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Willy Katz an Samek</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">
+               https://id.acdh.oeaw.ac.at/legalkraus/legalkraus/D_000112-078-000.xml </idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/3237</idno>
+            <idno subtype="transkribus" type="ID">248538</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000112" type="collection">Karl Kraus
+               ca. Theodor Wolff</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000112-078-000-facs001" xml:id="D_000112-078-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000112-078-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T"
+                        >Typoskript</objectType>
+                     <objectType source="D_000112-078-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP"
+                        >Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-09-05">5. September 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#19200"/>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#54988">Wertheim a.Main, | Gasthof z. Schwan.</settlement>
+               </address>
+               <date when-iso="1931-09-05">5./9. 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000112-078-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000112-078-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="typography" when-iso="2021-07-01" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-07-01" who="#IL"/>
+         <change type="structure" when-iso="2021-05-25" who="#IL"/>
+         <change type="intertexts" when-iso="2021-06-21" who="#IL"/>
+         <change type="references" when-iso="2021-05-25" who="#IL"/>
+         <change when-iso="2020-07-22T07:36:34.394Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 248538. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000112-078-000-facs001">
+      <surfaceGrp xml:id="D_000112-078-000-facs001-l001">
+         <surface type="recto" xml:id="D_000112-078-000-facs001-l001-p001">
+            
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556028/full/full/0/default.jpg"
+            />
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000112-078-000-facs001-l002">
+         <surface type="recto" xml:id="D_000112-078-000-facs001-l002-p002">
+            
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2556030/full/full/0/default.jpg"
+            />
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000112-078-000_p001" facs="#D_000112-078-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_209b4362-6af5-4cce-a36b-85ef987db299">
+            <lb xml:id="uuid_d597ca90-510e-46f8-8a6e-e530941e5de6"/><hi rend="spaced"
+            >Abschrif</hi>t. </p>
+         <p xml:id="uuid_cdd23bfc-a1dc-4801-962e-cc9262a5562e">
+            <lb xml:id="uuid_3a4b71c6-0a7b-46ee-aca8-f1a8a803af50"/>Sehr verehrter Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/38909" type="person">Kollege</rs>! </p>
+         <p xml:id="uuid_55923a1b-5b5b-4c72-825a-bda17202ca95">
+            <lb xml:id="uuid_f5d5e669-2004-4cbb-ba85-b2a018e0fe1e"/>Ihre beiden Schreiben vom 25./8.
+            und 2./9.1931 sind<lb xml:id="uuid_aef52299-c89c-4786-a240-9bed315226db"/>mir hierher
+            übersandt worden. In Sachen <rs ref="https://pmb.acdh.oeaw.ac.at/entity/13163"
+               type="person">Woll</rs>-<rs ref="#11910" type="person">Kerr</rs> hatte ich vor mei<lb
+               break="no" xml:id="uuid_47aae1fa-27a0-4df0-82b5-f805d27630fe"/>ner Abreise dem Zeugen
+            Dr. <rs ref="#39469" type="person">Lapp</rs>, der erst nach einer Vorschuss-Ein<lb
+               break="no" xml:id="uuid_c3aecc34-49d2-48b6-8dab-b57051cf3862"/>Zahlung von RM. 250.–
+            durch uns amtlich geladen wird, mitgeteilt, dass<lb
+               xml:id="uuid_22c39207-783b-4f8e-bfc1-037bf9ad9434"/>am 17./9. Termin ansteht. <rs
+               ref="#39469" type="person">Lapp</rs> hat daraufhin dem <rs ref="#36832"
+               type="institution">Gericht</rs> und Dr. <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/38969" type="person">Laser<lb break="no"
+                  xml:id="uuid_74997286-04fa-449e-b342-e346d5ac21e2"/>stein</rs> abgeschrieben; er
+            sei auf Reisen in der Schweiz und am 17./9.<lb
+               xml:id="uuid_2c5d2deb-e0e1-4b9d-8281-660cdc0eb8ce"/>noch nicht zurück. <rs
+               ref="#39469" type="person">Lapp</rs> hatte bisher noch niemals abgesagt. Seine<lb
+               xml:id="uuid_4538434f-cb6e-4f72-9742-ce5b014c715d"/>Vernehmung halte ich für
+            unverzichtbar. Ich sprach gestern telepho<lb break="no"
+               xml:id="uuid_92206bb0-2fc7-4209-a8e2-e2c14d7573b7"/>nisch mit Dr. <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/38969" type="person">Laserstein</rs> und bat
+            ihn, auch mündlich beim <rs type="person">Vorsitzenden</rs>
+            <lb xml:id="uuid_d221c132-0092-4cb8-a221-abd15d535a40"/>eine möglichst kurze Verlegung
+            des Termines zu erwirken. Ich bin über<lb break="no"
+               xml:id="uuid_d98ffc4c-b56e-4f48-a1de-cd4f5d866c0f"/>zeugt, dass auch Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> eine
+            Hauptverhandlung ohne den Zeugen <rs ref="#39469" type="person">Lapp</rs>
+            <lb xml:id="uuid_7e0fce3f-838d-43d4-88ce-9aed2239a074"/>für unmöglich hält. Der <rs
+               ref="#39469" type="person">Zeuge</rs> hatte mir vor dem vorletzten Termin noch<lb
+               xml:id="uuid_434bbc11-ee9c-4a6c-b929-4dc4c80c3321"/>schriftlich mitgeteilt, er hätte
+            seinerzeit <rs ref="#11910" type="person">Kerr</rs> – vor dessen Ueber<lb break="no"
+               xml:id="uuid_dd8be5fa-e19a-4283-9093-12c8c886c736"/>tritt zu <rs ref="#37223"
+               type="institution">Mosse</rs> – von seiner (des <rs ref="#39469" type="person"
+               >Zeugen</rs>) Bedrängung, pro <rs ref="#12504" type="person">Reinhardt</rs> zu<lb
+               xml:id="uuid_05ef6853-de36-4b96-9dd7-0fd653035d2f"/>kritisieren, persönlich
+            unterrichtet, <rs ref="#11910" type="person">K.</rs> hätte dazu nur geschwiegen.<lb
+               xml:id="uuid_b8f719bf-3568-4a2f-af5d-5dcb1c572374"/>Dr. <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/38969" type="person">Laserstein</rs> wird
+            sicherlich von der zu erwartenden Terminsverlegung<lb
+               xml:id="uuid_831c1cc4-2a0b-4737-8b59-97a7dd180764"/>Ihnen Nachricht geben. </p>
+         <p xml:id="uuid_936b1e75-3c89-46f9-a3af-12c9d7059c65">
+            <lb xml:id="uuid_d623835f-61fb-49b7-9ee8-75bce4b091a7"/>In der Sache <rs ref="#12126"
+               type="person">Ludwig</rs> teile ich Ihre sachlichen Bedenken,<lb
+               xml:id="uuid_c3e39bbd-5782-4133-8ceb-b549cc1a969f"/>hinsichtlich einer sicheren
+            Verurteilung <rs ref="#29756" type="institution">Rowohlts</rs> durchaus. Auch bei<lb
+               xml:id="uuid_ec864bbb-b363-46b4-96b1-6db5ca1ccd3e"/>uns ist Vorsatz, für die
+            strafbare Beleidigung erforderlich. Ihn im<lb
+               xml:id="uuid_9e194f6e-b493-45aa-af58-4ebb94eb859a"/>Vorverfahren zu vernehmen, wird
+            nicht möglich sein, da für den konkreten<lb
+               xml:id="uuid_62dcb4dd-e22d-44d3-9f4a-bd5c9f8864e9"/>Fall das Sühneverfahren
+            fortfällt. Den Vorteil, die Privatanklage auch<lb
+               xml:id="uuid_d2dfe32d-e209-40fd-b1d9-4d6fd5c91e29"/>gegen ihn auszudehnen, sehe ich
+            gleich Ihnen in erster Linie darin, dass<lb
+               xml:id="uuid_297a0321-9e0d-44c1-b927-ac46bddae266"/>es so leichter sein würde,
+            überhaupt zu einer Hauptverhandlung zu kom<lb break="no"
+               xml:id="uuid_4e8ee429-7d71-4fb6-ba6a-171b1272ec10"/>men. Ich hatte vor Jahren eine
+            Sache, bei der nur durch ein entsprechen<lb break="no"
+               xml:id="uuid_d7b5db26-e80d-4540-96f9-501a5d064e80"/>des Prozedieren das Erscheinen
+            des im Ausland sich aufhaltenden direk<lb break="no"
+               xml:id="uuid_75cc3b81-72d6-4f0d-85d7-5f8ecd685109"/>ten Beleidigers zu erreichen war.
+            Allerdings war damals nicht der Ver-<pb xml:id="D_000112-078-000_p002"
+               facs="#D_000112-078-000-facs001-l002-p002" n="2"/>
+            <lb xml:id="uuid_32b1b4d3-705b-4163-b765-61e027996748"/>leger eines Buches, sondern der
+            Herausgeber einer Zeitschrift mit<lb break="no"
+               xml:id="uuid_a2b09e3a-5db2-4f61-a6f0-7030c4aa9fd0"/>zuverklagen, der Fall lag also
+            einfacher und günstiger. Einen voll<lb break="no"
+               xml:id="uuid_cef3896b-3825-4ffa-a953-fa82c852ffd1"/>kommen entsprechenden Fall habe
+            ich noch nicht in meiner Praxis<lb xml:id="uuid_e20e2002-6841-4244-9d48-b91339515182"
+            />gehabt. – <rs ref="#9600" type="person">R.</rs> im Verfahren gegen <rs ref="#12126"
+               type="person">Ludwig</rs> erst als Zeugen zu benennen,<lb
+               xml:id="uuid_bd16ef15-45d6-4265-ada0-117478fe20dc"/>scheint mir nicht recht
+            aussichtsvoll zu sein. Vielleicht wird ihm<lb
+               xml:id="uuid_c50207a7-7a0b-4fa9-840c-863064913685"/>das Gericht auch als Angeklagten
+            nicht glauben, dass er das <rs type="work">Buch</rs>
+            <lb xml:id="uuid_3bcd6fbe-a6e9-498c-a57a-24e82eff1c1e"/>seines erfolgreichsten <rs
+               ref="#12126" type="person">Autors</rs> überhaupt nicht – auch nach der Druck<lb
+               break="no" xml:id="uuid_19851d46-ad77-41e4-a431-e710877eb55a"/>legung nicht – gelesen
+            hat. </p>
+         <p xml:id="uuid_7aef2b26-5fde-48fa-8667-fd2550ebdb6c">
+            <lb xml:id="uuid_c47d8d16-d304-48ea-a811-5bcffc72958e"/>Ich wäre Ihnen sehr verbunden,
+            nochmals Ihre<lb xml:id="uuid_89b2eb5e-8b4f-4fa5-ae5d-a4148f81396e"/>Meinung über den
+            aussichtsvollsten Modus des Vorgehens gegen <rs ref="#9600" type="person">R.</rs><lb
+               xml:id="uuid_822cdb2c-2003-49a2-9565-f6a13bfd90c7"/>und die Entschliessung von Herrn
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> zu hören.
+            In der Annahme,<lb xml:id="uuid_feea9845-a2ba-4059-881e-029454f4abc9"/>dass der Termin
+            vom 17./9. in Sachen <rs ref="https://pmb.acdh.oeaw.ac.at/entity/13163" type="person"
+               >Wolff</rs> – <rs ref="#11910" type="person">Kerr</rs> aufgehoben und<lb
+               xml:id="uuid_73a9ec37-a3d7-456a-b10a-0bf9377f44bd"/>mir das baldigst mitgeteilt wird,
+            beabsichtige ich bis ca. den<lb xml:id="uuid_3408f4de-357c-46f2-871a-cbbb140f5317"
+            />10./9. in den Ferien zu bleiben. </p>
+         <p xml:id="uuid_c71cc75a-c516-4a6a-9c38-43a777974092">
+            <lb xml:id="uuid_e6aca05f-8cc9-44b5-ad27-2b9929174227"/>Mit vorzüglicher Hochachtung und
+            der Bitte,<lb xml:id="uuid_60b3a760-d83a-412b-9909-bc99865e20c5"/>Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>, meine besten
+            Empfehlungen auszu<lb break="no" xml:id="uuid_67780006-3687-48f8-8fb6-ea46e60cc271"
+            />richten, bin ich Ihr sehr ergebener</p>
+         <p xml:id="uuid_310ab70f-c859-4eb0-95df-f6a8028aebb6"><lb
+               xml:id="uuid_1a9c2e52-89bc-43bf-99ca-e42d68faaab4"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/19200" type="person">Katz</rs> m.p. </p>
+      </body>
+   </text>
+</TEI>

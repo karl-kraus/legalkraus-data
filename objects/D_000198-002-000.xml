@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000198-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000198-001-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000198-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Bund junger Autoren Österreichs (Rudolf Weys) an Samek</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000198-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/5250</idno>
+            <idno subtype="transkribus" type="ID">417517</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000198" type="collection">Korrespondenz Samek – Kleinkunstbühne Stachelbeere</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <ab type="stamp">
+                  <stamp source="#36956" xml:id="uuid_a5ca843b-e7be-4410-8ba5-2369520487dc"/>
+               </ab>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000198-002-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSU">Typoskript mit handschriftlichen Überarbeitungen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness facs="#D_000198-002-000-facs001" xml:id="D_000198-002-000-wit01"/>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1935-06-20">20. Juni 1935</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#36956">Bund junger Autoren Österreichs
+               </orgName>
+               <address>
+                  <street corresp="#61869">Getreidemarkt 1</street>
+                  <settlement ref="#56">Wien VI.</settlement>
+               </address>
+               <date when-iso="1935-06-20">20. Juni 1935</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn Dr. Oskar Samek | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#52780"/> 
+                  <settlement ref="#64">Wien XIV</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <handNotes>
+            <handNote cert="high"
+                      medium="grey-pencil"
+                      resp="#IL"
+                      scribeRef="#11988"
+                      source="#D_000198-002-000-wit01"
+                      xml:id="D_000198-002-000-hand01"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000198-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000198-002-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-11-30" who="#IL"/>
+         <change type="structure" when-iso="2021-11-18" who="#IL"/>
+         <change type="references" when-iso="2021-11-22" who="#IL"/>
+         <change type="typography" when-iso="2021-11-29" who="#IL"/>
+         <change when-iso="2020-10-12T12:11:59.159Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-12T12:34:18.813Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 417517. </change>
+         <change when-iso="2020-10-12T13:10:41.622Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 417517. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000198-002-000-facs001">
+      <surfaceGrp xml:id="D_000198-002-000-facs001-l001">
+         <surface type="recto" xml:id="D_000198-002-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2594327/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000198-002-000_p001"
+             facs="#D_000198-002-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_a71df7a1-dd65-419b-9162-c589b9e619dd">
+            <lb xml:id="uuid_a9d93dc9-c201-45dc-9343-0c21071a7c32"/><add
+               hand="#D_000198-002-000-hand01"><hi rend="underlined">col</hi> 2)</add>
+         </p>
+         <p xml:id="uuid_05d5780f-2d01-4d95-803c-7a1cf3fbd1bb">
+            <lb xml:id="uuid_72b40ddd-d356-49b9-8bba-07f55553d3cb"/><note
+               source="https://fackel.oeaw.ac.at/f/912,013" type="intertext"><del
+                  hand="#D_000198-002-000-hand01"><rs ref="#50" type="place">WIEN</rs>, <note
+                     type="intertext" source="https://fackel.oeaw.ac.at/f/912,013">20. Juni
+                     1935</note><lb xml:id="uuid_1eab5405-4019-4139-822f-3401363de8c6"/><del
+                     hand="#D_000198-002-000-hand01">VI. GETREIDEMARKT 1</del></del></note></p>
+            <p xml:id="uuid_4bf8a0e6-eee6-4983-9906-c437c5ecd2ba">
+            <lb xml:id="uuid_2ae187b6-892f-4809-9673-7c4a3490a64c"/><del
+               hand="#D_000198-002-000-hand01">Herrn Dr. <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/38909" type="person">Oskar Samek</rs>
+               <lb xml:id="uuid_cbefe181-ad98-4011-8f60-b8aef1dfe4ed"/>Rechtsanwalt<lb
+                  xml:id="uuid_6d741ab7-1b04-412f-9de3-6dc5ddcc79e2"/><rs ref="#68" type="place"><hi
+                     rend="underlined">Wien XIV</hi></rs></del>
+         </p>
+            <p xml:id="uuid_3e03cc87-e199-4aee-bb53-c5077b5bfc72">
+            <lb xml:id="uuid_64718f47-3801-40ac-8842-b1a124243115"/><note type="intertext"
+               source="https://fackel.oeaw.ac.at/f/912,013">Sehr geehrter Herr <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/38909" type="person"
+            >Doktor</rs>!</note></p>
+            <p xml:id="uuid_02f13bed-6d1d-47d9-864f-9bb48ce01753"><note type="intertext"
+               source="https://fackel.oeaw.ac.at/f/912,013">
+               <lb xml:id="uuid_3876f161-90ee-4a81-9b6e-50b742b3c719"/>Zu Ihrem <rs
+                  ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000198-001-000.xml" type="work"
+                  subtype="legal-doc">Schreiben</rs> vom 31. Mai d.J. haben wir Ihnen telepho<lb
+                  break="no" xml:id="uuid_eb34b400-dfa2-4892-ab28-6feb88a588fa"/>nisch mitgeteilt,
+               dass <hi hand="#D_000198-002-000-hand01" rend="underlined">über</hi> Verfügung
+               unseres Vorstandes vom „<rs ref="#36956" type="institution">Bund jun<lb break="no"
+                     xml:id="uuid_1da20f24-0979-454a-83a6-e28ac52d3853"/>ger Autoren
+                  Österreichs</rs>“ „<quote
+                  source="https://id.acdh.oeaw.ac.at/legalkraus/D_000198-001-000.xml"
+                  xml:id="uuid_fb39e0c6-c602-4883-9872-c550ad308cd4">… die Einreihung des Namens des
+                     Herrn<lb xml:id="uuid_01776cac-00c5-48a6-a799-3aee0784a324"/><rs
+                     ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+                  (wie auch einer blossen Andeutung)…</quote>“ in das mit der Ope<lb break="no"
+                  xml:id="uuid_df29bf9d-3373-43b7-a6f8-666e66a0fa77"/>rette „<rs ref="#61844"
+                  type="work" subtype="pmb">Der Walzerkavalier</rs>“ gekennzeichnete Milieu im
+               Programme der<lb xml:id="uuid_6ff7d9b5-a3ca-4f2e-8ecf-464f240fe55f"/><rs ref="#37039"
+                  type="institution">Kleinkunstbühne „Die Stachelbeere“</rs> am Tage des <hi
+                  hand="#D_000198-002-000-hand01" rend="underlined">Erhalts</hi> Ihres <rs
+                  ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000198-001-000.xml" type="work"
+                  subtype="legal-doc">Schreibens</rs>
+               <lb xml:id="uuid_f35d6cb8-1c44-4048-9df4-2c1b5efb40b0"/>abgestellt worden ist.</note>
+         </p>
+            <p xml:id="uuid_f1334705-85f5-46af-a5bb-c2916f21568f">
+            <lb xml:id="uuid_ca3ca90a-03c2-47a2-b86c-1c9d2d148863"/><note type="intertext"
+               source="https://fackel.oeaw.ac.at/f/912,014">Zur Sache selbst erlauben wir uns zu
+               bemerken: Wir stehen<lb xml:id="uuid_8d478106-11da-4fa3-a766-d5bda3a02116"/>im
+               Allgemeinen auf dem Standpunkt, dass Autoren in ihrer satirischen<lb
+                  xml:id="uuid_ff77c7c7-363b-45c6-af7f-4a10bbb92763"/>Zeitkritik nicht beschränkt
+               werden sollen, selbst dann nicht, wenn sie<lb
+                  xml:id="uuid_358abee1-b9fd-494f-9f47-b120da1a97cb"/>– was vorkommen kann – ihr
+               Ziel verfehlen. Das Recht zu solcher „dichte<lb break="no"
+                  xml:id="uuid_685ff603-1a3b-46ce-8022-14fb4e0d252f"/>rischer Freiheit“ muss in
+               besonderem Mass das Kabarett für sich in An<lb break="no"
+                  xml:id="uuid_7b65f7a2-0de0-4f52-9b18-2f8a146dbb07"/>spruch nehmen. </note></p>
+         <note type="intertext" source="https://fackel.oeaw.ac.at/f/912,014">
+            <p xml:id="uuid_02b8d084-53b5-43c8-82f2-ea7a6ad55fae">
+               <lb xml:id="uuid_935072f2-ab9f-4363-98a5-b70fd89064e3"/>Im Falle des Herrn <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+               gingen bezüglich der inkrimi<lb break="no"
+                  xml:id="uuid_460b6f3f-69cc-4cb7-ad30-965a2f255750"/>nierten Stelle schon
+               ursprünglich die Meinungen weit auseinander.<lb
+                  xml:id="uuid_f06bc74c-381d-4cbe-a1fb-55ec51ce2fe7"/>Einige vertreten den
+               Standpunkt, Satire habe sich nicht um Verdienst,<lb
+                  xml:id="uuid_1041b5e1-7732-4148-aea1-f1738a4e3db2"/>Rang und Ansehen der Person zu
+               kümmern, andere lehnen diese Auffas<lb break="no"
+                  xml:id="uuid_b7b175ee-8f90-4a67-b595-c8cc95c659bb"/>sung ab. Einige erwarten
+               gerade von <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+                  Kraus</rs> Unbeugsamkeit, ja mehr<lb
+                  xml:id="uuid_a6c6c2a5-d03c-47fa-b478-7c80063ab21f"/>als das: Unversöhnlichkeit in
+               „beiden Sphären“, andere finden eine<lb
+                  xml:id="uuid_519cadfc-fb68-47f9-a3f8-a4d8d612f068"/>„<quote
+                  source="https://id.acdh.oeaw.ac.at/legalkraus/D_000198-001-000.xml"
+                  xml:id="uuid_5a62c9ff-b11f-4c9d-bd19-1870eb54e06c">Notwehr</quote>“-Haltung in
+               Tagen „<quote source="https://id.acdh.oeaw.ac.at/legalkraus/D_000198-001-000.xml"
+                  xml:id="uuid_ff59c676-79c3-4ee6-9255-9ac843bf128c">schwersten
+                  Abwehrkampfes</quote>“ für selbstver<lb break="no"
+                  xml:id="uuid_506367b2-a141-493e-943f-c04a59ef44a6"/>ständlich, die Mehrzahl geht
+               noch weiter und sieht überhaupt keinen<lb
+                  xml:id="uuid_3ad86b55-466e-4805-bbea-7316d2364c73"/>Widerspruch zwischen der
+               früheren und der jetzigen Haltung des Herrn<lb
+                  xml:id="uuid_28d42d57-449a-4f01-82bc-896ed759d168"/><rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>. </p>
+            <p xml:id="uuid_1a6e4b1b-2b9a-44ac-b032-94afeeff41ab">
+               <lb xml:id="uuid_c676610e-a87b-4bdc-8295-c35b69d1f61c"/>Eine letzte Entscheidung über
+               solche interne Meinungsver<lb break="no"
+                  xml:id="uuid_99c9f09f-121a-441b-8601-a6045730ce7c"/>schiedenheiten ist in diesem
+               speziellen wie in allen andern Fällen<lb
+                  xml:id="uuid_c90abc1b-c926-4501-aed3-45b12d2d7d64"/>sehr schwer zu <hi
+                  hand="#D_000198-002-000-hand01" rend="underlined">fällen und sieht sich</hi> der
+               Vorstand des „<rs ref="#36956" type="institution">Bundes</rs>“ dazu<lb
+                  xml:id="uuid_6ceeace8-94c9-425c-a57f-4608c1ded9e6"/>auch nicht berufen.</p>
+            <p xml:id="uuid_188c4f6e-6a1f-4a5d-a7e7-1332a61e1ada">
+               <lb xml:id="uuid_55460920-2c5d-4ed9-93de-9f2b59e24305"/>Da sich unsere Meinung jedoch
+               in überwiegender Mehrheit<lb xml:id="uuid_4439481b-400f-4a73-bc45-abb3d28aa343"/>mit
+               dem Verhalten des Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  type="person">Karl Kraus</rs> deckt, sind wir in diesem spe<lb break="no"
+                  xml:id="uuid_ad863cd1-790f-4b5b-8694-69652a3521de"/>ziellen Falle Ihrem Wunsch <hi
+                  hand="#D_000198-002-000-hand01" rend="underlined">um</hi> Abstellung des
+               inkriminierten <rs ref="#61844" type="work" subtype="pmb">Textes</rs>
+               <lb xml:id="uuid_8e4004de-ddca-4a73-95b1-b3a9ba580fbb"/>nachgekommen. Wäre jenes
+               nicht der Fall, hätten wir Ihrer Aufforderung<lb
+                  xml:id="uuid_afd5a90a-7b3c-49eb-8f08-6ce972337c78"/>nicht folgen können.</p>
+            <p xml:id="uuid_cc4b810c-cc3c-4c0d-9c3a-31d8e4f9521a">
+               <lb xml:id="uuid_758bf6e2-2e6f-4b6f-9780-c6acd5b593bb"/>Ihre materiellen Ansprüche an
+               uns ersuchen wir Sie, fallen<lb xml:id="uuid_43bfd402-910f-45d1-914f-8d55b45e9e36"
+               />zu lassen, da wir einerseits nicht in der Lage sind, dieselben zu<lb
+                  xml:id="uuid_223c7572-c59c-43d8-aac4-68db4a98d18e"/>tragen, anderseits sie – offen
+               gestanden – für ungerechtfertigt halten.</p>
+         </note>
+            <p xml:id="uuid_1cd45726-e5ae-438d-ba6c-c2dc891a72b3"><note type="intertext"
+               source="https://fackel.oeaw.ac.at/f/912,014">
+               <lb xml:id="uuid_865eceba-9d2b-4742-ba3f-618b4c8df8e2"/>Hochachtungsvoll<lb
+                  xml:id="uuid_9713610a-01ef-47ea-b6a8-7d49b057a7b9"/>für <rs ref="#36956"
+                  type="institution">Bund junger Autoren<lb
+                     xml:id="uuid_eafccb8d-45df-4f50-8464-bfaff8c3bdc6"/>Österreichs</rs></note>
+            <lb xml:id="uuid_07503eeb-271c-4255-9472-7e2449dc3f64"/><del
+               hand="#D_000198-002-000-hand01">Dr. <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/38391" type="person">Rudolf
+               Weys</rs></del></p>
+            <p xml:id="uuid_b6700a8a-6237-41c0-942e-1881d90cf5ee">
+            <lb xml:id="uuid_01e3361a-04fd-4d6f-a8c9-5fc6a1c2266b"/><del
+               hand="#D_000198-002-000-hand01"><rs ref="#37039" type="institution"
+                  >KLEINKUNSTBÜHNE</rs><lb xml:id="uuid_8bed0aac-6fba-44ee-9075-3af41e6ae123"
+               />LITERATUR AM NASCHMARKT </del>
+            <del hand="#D_000198-002-000-hand01">TELEFON B25-100</del></p>
+         
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000003-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000003-001-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000003-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Der Tag (Hugo Bettauer) an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000003-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/1558</idno>
+            <idno subtype="transkribus" type="ID">376246</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000003" type="collection">Karl Kraus
+               ca. Der Tag</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000003-002-000-facs001" xml:id="D_000003-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000003-002-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSU"
+                        >Typoskript mit handschriftlichen Überarbeitungen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#6294">Bettauer</persName>
+               <address>
+                  <street corresp="#50643">Canisiusgasse 8/10</street>
+                  <settlement ref="#50">Wien</settlement>
+               </address>
+               <date when-iso="1922-12-19">19. Dezember 1922</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Rechtsanwalt Dr. Oscar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1922-12-19">19. Dezember 1922</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000003-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000003-002-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+         <handNotes>
+            <handNote xml:id="D_000003-002-000-hand01" source="#D_000003-002-000-wit01" scribeRef="#6294" medium="black-ink" cert="medium" resp="#IL"/>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-09-30" who="#JK"/>
+         <change type="typography" when-iso="2021-09-30" who="#JK"/>
+         <change type="references" when-iso="2021-09-30" who="#JK"/>
+         <change type="structure" when-iso="2021-09-30" who="#JK"/>
+         <change type="header-facsimile" when-iso="2022-01-13" who="#JK"/>
+         <change when-iso="2020-02-03T14:10:44.035Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-03T14:24:07.186Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-03T14:24:08.448Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 376246. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000003-002-000-facs001">
+      <surfaceGrp xml:id="D_000003-002-000-facs001-l001">
+         <surface type="recto" xml:id="D_000003-002-000-facs001-l001-p001">
+            
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540182/full/full/0/default.jpg"/>
+         </surface>
+         <surface type="verso" xml:id="D_000003-002-000-facs001-l001-p002">
+            
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540183/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000003-002-000_p001"
+             facs="#D_000003-002-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_6960d5ce-89a0-4fb4-8f06-74cd4a9a5c2e">
+            <lb xml:id="uuid_32c21819-5998-478e-94d1-2853fd05edfe"/>Sehr verehrter <rs ref="#38909" type="person">Herr Doktor</rs>! </p>
+         <p xml:id="uuid_15a41b8e-a1e5-4e4b-babf-8660a0019fca">
+            <lb xml:id="uuid_dbdeb099-a3a0-4c24-9e7d-757845caf945"/>Wenn wir Ihre <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000003-001-000" type="work"
+               subtype="legal-doc">Zuschrift in Sachen <rs ref="#11988" type="person"
+               >Kraus</rs></rs> veröffent<lb break="no"
+               xml:id="uuid_b7551132-f636-401d-a791-5ab6a7ef0eba"/>lichen, so geschieht es lediglich
+            aus Bereitwilligkeit, nicht aber<lb xml:id="uuid_656f0d55-fe5e-40af-bd8e-2c8ff2680ac8"
+            />unter dem Zwange des <rs type="law"
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45"
+               >§ 22</rs>. Ihre <rs type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000003-001-000">Berichtigung</rs> ist
+            nämlich, wie wir<lb xml:id="uuid_06de1f18-c848-4a76-994e-7ccb01311bc0"/>Ihnen zur
+            Darnachrichtigung mitteilen, alles andere nur keine Be<lb break="no"
+               xml:id="uuid_732975dc-a873-440c-9a37-6a4395f0ad49"/>richtigung. Sie schreiben nicht
+            einmal, wer Ihr <rs ref="#11988" type="person">Mandant</rs> ist. Sie<lb
+               xml:id="uuid_20d4853d-dfcf-4982-ad7f-fb8346b7d3bc"/>unterlassen es, eine Vollmacht
+            beizulegen und ausserdem ist der<lb xml:id="uuid_c579f841-65ea-4a24-8033-ecbddbc08121"
+            />ganze zweite Teil eine Berichtigung, zu der nur <rs ref="#4431" type="person">Herr
+               Forest</rs> er<lb break="no" xml:id="uuid_89e8b1a7-1c25-4476-bcf7-cc6949c30849"
+            />mächtigt wäre, nicht aber Herr <rs ref="#11988" type="person">Karl Kraus</rs>. </p>
+         <p xml:id="uuid_90a6b9d2-d582-4d7d-960a-8639b5d0b8e6">
+            <lb xml:id="uuid_5bc0dc5c-f214-4348-b9d2-1a80820c6a98"/>Nur <del hand="#D_000003-002-000-hand01">auf</del>
+            unsere ausserordentliche Wertschätzung<lb
+               xml:id="uuid_310a4325-6b63-4267-b336-7d146fb495f8"/>für Herrn <rs ref="#11988"
+               type="person">Karl Kraus</rs> veranlasst uns, die <rs type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000003-001-000">Zuschrift</rs>
+               unverändert<lb xml:id="uuid_f953989b-1d55-4300-a2f5-ef3d5df4f3f2"/>zum Abdruck zu
+            bringen. </p>
+         <p xml:id="uuid_ea609f7e-9fa8-48e0-9408-16abe3310df3">
+            <lb xml:id="uuid_2b5937d4-e426-4f0e-8149-3684743e7bb1"/>Hochachtungsvoll<lb xml:id="uuid_6ff642fc-4441-4204-8172-ae697c8c44a7"/><rs ref="#6294" type="person">Bettauer</rs>
+         </p>
+         <pb xml:id="D_000003-002-000_p002"
+             facs="#D_000003-002-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_725a2e98-0ffc-4f60-a8ae-9949245e8032">
+            <lb xml:id="uuid_cd4bdd92-977c-40a0-ad61-e1f77af955e6"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">K. Kraus</rs> – <rs ref="#42964" type="institution">Tag</rs>.<lb xml:id="uuid_6ab1feff-41e6-4c4d-8ac9-8607ddc5e8d9"/>Eingelangt am 21. DEZ.
+                        1922<lb xml:id="uuid_26bf8f07-c970-4380-a79c-0283ba96ca7d"/>exped. </note>
+         </p>
+      </body>
+   </text>
+</TEI>

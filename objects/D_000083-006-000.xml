@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000083-007-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000083-005-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000083-006-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Hamburger Fremdenblatt</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000083-006-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2790</idno>
+            <idno subtype="transkribus" type="ID">251124</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000083" type="collection">Karl
+                    Kraus ca. Hamburger Fremdenblatt</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000083-006-000-facs001" xml:id="D_000083-006-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000083-006-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1928-03-24">24. März 1928</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1928-03-24">24. März 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#37344">Hamburger Fremdenblatt | Broschek &amp; Co.
+                        m.b.H.</orgName>
+               <address>
+                  <street corresp="#"/>
+                  <settlement ref="#506">Hamburg 36</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – „Hamburger Fremdenblatt“</note>
+               <note type="dictation">Dr.S./F.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000083-006-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000083-006-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-04-19" who="#JK"/>
+         <change type="typography" when-iso="2021-04-19" who="#JK"/>
+         <change type="references" when-iso="2021-04-19" who="#JK"/>
+         <change type="structure" when-iso="2021-04-19" who="#JK"/>
+         <change when-iso="2020-10-07T15:42:28.154Z" who="#IB">created by API</change>
+         <change resp="#IB" when-iso="2021-04-12T10:28:52.879Z">Replaced Text with Transcription
+                of Transkribus Document 251124. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000083-006-000-facs001">
+      <surfaceGrp xml:id="D_000083-006-000-facs001-l001">
+         <surface type="recto" xml:id="D_000083-006-000-facs001-l001-p001">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554124/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000083-006-000-facs001-l001-p002">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554126/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000083-006-000-facs001-l002">
+         <surface type="recto" xml:id="D_000083-006-000-facs001-l002-p003">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554125/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000083-006-000_p001"
+             facs="#D_000083-006-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_9a9719fe-4dfc-4367-a5c1-4b45ebcc260a">
+            <lb xml:id="uuid_af89d618-03a4-4a49-b55c-67a13af909d0"/>Der von mir vertretene Herr
+                    <rs ref="#11988" type="person">Karl Kraus</rs>,<lb xml:id="uuid_055d8901-b8dd-4fef-b833-01373f799d37"/>Herausgeber der <rs ref="#41244" type="work" subtype="pmb">Fackel</rs>, erhielt unter einer Schleife
+                „<rs ref="#37344" type="institution">Ham<lb break="no" xml:id="uuid_4b55a534-fc01-4b53-b846-c37510e42c0f"/>burger
+                Fremdenblatt</rs>“ je zwei Nummern Ihres Blattes vom<lb xml:id="uuid_aeafa1fd-fa31-4cfd-ba5c-10b40ee0ce68"/><rs ref="#53862" type="work" subtype="pmb">4. April 1927</rs> und <rs ref="#53866" type="work" subtype="pmb">5. April 1927</rs>. Es sind dies die beiden<lb xml:id="uuid_19a2bf19-8c42-4684-be0a-e0fdfed6ae0f"/>Nummern, in welchen das
+                Plagiat seines Aufsatzes „<rs ref="https://fackel.oeaw.ac.at/f/305,057"
+                type="work"
+                subtype="fackel">Der<lb xml:id="uuid_f7d4abeb-8f98-45a1-9cc4-60a8939a2209"/>Biberpelz</rs>“ unter der Bezeichnung „<rs ref="#53868" type="work" subtype="pmb">Opfer der Berühmtheit<lb xml:id="uuid_3f447bd1-6ab7-4059-ba8e-2df37a1acba8"/>von Willy Reese</rs>“
+                abgedruckt war. Ich erinnere Sie daran,<lb xml:id="uuid_2b0f0df8-b67a-4782-8260-7f90e758f26e"/>dass ich wegen dieses
+                Plagiats bereits in brieflicher Ver<lb break="no" xml:id="uuid_cb0701bf-7fc8-4ae0-be65-b22743dc1344"/>bindung mit Ihnen gestanden
+                bin, Ihnen einen <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000083-002-000"
+                type="work"
+                subtype="legal-doc">Brief am 31.<lb xml:id="uuid_6cc1c984-a8bb-478d-a827-09d6261e28f1"/>Mai 1927</rs> schickte,
+                den Sie am <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000083-003-000"
+                type="work"
+                subtype="legal-doc">4. Juni 1927</rs> beantworteten,<lb xml:id="uuid_c25d4984-e239-4682-9521-0be59419268c"/>dass ich Ihnen einen
+                weiteren <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000083-005-000"
+                type="work"
+                subtype="legal-doc">Brief am 14. Dezember 1927</rs>
+            <lb xml:id="uuid_ae2fc9a4-5347-424f-95a3-1be9a9fada00"/>zukommen liess, der
+                unbeantwortet blieb. Ich ersuche Sie<lb xml:id="uuid_07f031ae-a2d8-49f7-ad72-a152436cb302"/>nun höflichst mir
+                mitzuteilen, aus welchem Anlass Sie<lb xml:id="uuid_d52991f3-6d5f-4724-8fe1-f78027564c34"/><rs ref="#11988" type="person">Herrn Kraus</rs> die oben zitierten Nummern ohne Begleitschrei<lb break="no" xml:id="uuid_660ea93d-a019-4698-9a9b-3d932125bc91"/>ben eingeschickt
+                haben, ferner ob ich die Beantwortung<lb xml:id="uuid_6efb62bb-3c47-46e8-bb62-343bc90b8ff3"/>meines <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000083-005-000"
+                type="work"
+                subtype="legal-doc">Schreibens vom 14. Dezember 1927</rs> überhaupt noch<lb xml:id="uuid_68dc9cfd-72f3-4674-9da1-210323322aed"/>erwarten darf. </p>
+         <p xml:id="uuid_03e3e9a7-905d-4b5c-aca3-a08120c4cace">
+            <lb xml:id="uuid_a88bf149-8600-4a4a-81d8-2e8a250b879d"/>Hochachtungsvoll </p>
+         <p xml:id="uuid_bd133d51-b8df-4b56-8d42-b141008f3ae6">
+            <lb xml:id="uuid_0d4bb1c9-addd-4fac-887f-80cdb7ef3a16"/>rekommandiert. </p>
+         <pb xml:id="D_000083-006-000_p002"
+             facs="#D_000083-006-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_9f832806-a9d0-44f2-ad45-6cb0f1fdad6e">
+            <lb xml:id="uuid_557e801f-3a98-49ea-83c5-ef2f3871b55e"/><note resp="law-firm" type="paratext">Betrifft: <rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37344" type="institution">Hamburger</rs>
+               <lb xml:id="uuid_649e119b-02a0-4260-92dc-13aa5a9cfbb1"/>expediert am 24. März
+                    1928. </note>
+         </p>
+      </body>
+   </text>
+</TEI>

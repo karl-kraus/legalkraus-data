@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-051-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000035-049-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000035-050-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Eugen Robert (Deutsches Künstlertheater/Robertbühnen) an
+               Obergerichtsvollzieher Ringe (Berlin)</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000035-050-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2072</idno>
+            <idno subtype="transkribus" type="ID">191048</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000035" type="collection">Straf-
+                    und Exekutionsverfahren Karl Kraus ca. Anton Kuh</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000035-050-000-facs001" xml:id="D_000035-050-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000035-050-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#12537">Dr. Eugen Robert</persName>
+               <address>
+                  <street corresp="#1056">Nürnbergerstr. 70/71</street>
+                  <settlement ref="#168">Berlin</settlement>
+               </address>
+               <date when-iso="1932-10-29">29. Oktober 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="52602">Herrn | Obergerichtsvollzieher Ringe</persName>
+               <address>
+                  <street corresp="52604">Martin Lutherstr. 80</street>
+                  <settlement ref="#168"/>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" notBefore-iso="1932-10-29">29. Oktober 1932
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000035-050-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000035-050-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-19" who="#JK"/>
+         <change type="typography" when-iso="2021-10-19" who="#JK"/>
+         <change type="references" when-iso="2021-10-19" who="#JK"/>
+         <change type="structure" when-iso="2021-10-19" who="#JK"/>
+         <change when-iso="2020-02-10T13:30:21.65Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-10T14:22:17.245Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-10T14:22:18.461Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 191048. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000035-050-000-facs001">
+      <surfaceGrp xml:id="D_000035-050-000-facs001-l001">
+         <surface type="recto" xml:id="D_000035-050-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548663/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000035-050-000-facs001-l001-p002">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548664/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000035-050-000_p001"
+             facs="#D_000035-050-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_ac84532a-f0f2-4470-9f37-b19c68fc3654">
+            <lb xml:id="uuid_af2f0b6a-e01c-4af0-aca9-e147dc23f4ae"/><hi rend="underlined">Abschrift.</hi>
+         </p>
+         <p xml:id="uuid_a8002b1a-5953-4063-9cce-bd59c4f37417">
+            <lb xml:id="uuid_b9af2dac-3abe-4626-8d99-04ac603760ad"/>In Sachen des Schriftstellers
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl <hi
+                  rend="spaced">Kraus</hi></rs>, <rs ref="#50" type="place">Wien</rs>,<lb
+               xml:id="uuid_43c23257-7847-4e7b-9034-5463b615f047"/>gegen den Schriftsteller <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/8363" type="person">Anton <hi rend="spaced"
+                  >Kuh</hi></rs>, <rs ref="#168" type="place">Berlin</rs>, ging mir eine<lb
+               xml:id="uuid_ea1db400-1527-4621-848d-d807fea28c8c"/>vorläufige <rs type="work"
+               subtype="legal-doc">Benachrichtigung</rs> darüber zu, dass eine Pfändung<lb
+               xml:id="uuid_645c8bdf-b50d-49be-afba-52733b3d3e54"/>gegen Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/8363" type="person">Anton <hi rend="spaced"
+                  >Kuh</hi></rs>, den Betrag von M. 377.84 betreffend,<lb
+               xml:id="uuid_e96673cf-da0e-4e6a-af31-61d942d399f2"/>bevorsteht. </p>
+         <p xml:id="uuid_822bb4ef-c867-4347-9cae-11081f3565db">
+            <lb xml:id="uuid_ae4cfe9d-aecf-45c2-892b-89a26dc5eed3"/>Ich teile Ihnen zur Weitergabe
+            an den Rechtsanwalt<lb xml:id="uuid_363c0bc5-71ec-430c-b7d5-b594c9c89634"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/19200" type="person">Dr. Katz</rs>, dessen
+            Adresse nicht ersichtlich ist, mit, dass Herr<lb
+               xml:id="uuid_6112fdb9-4884-4705-9df5-2591ab7e31d9"/><rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/8363" type="person">Anton <hi rend="spaced"
+                  >Kuh</hi></rs> keinerlei wie immer geartete Forderungen an mich<lb
+               xml:id="uuid_70768fb6-3a5a-4f9a-a4d6-8590afbee370"/>hat. Der Vortrag <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/8363" type="person">Anton Kuh</rs>, der am
+            Sonntag im <rs ref="#37076" type="institution">Deutschen Künstler<lb
+                  xml:id="uuid_4f8c597f-ffb2-48d6-be6f-6d84139ed8a8" break="no"/>Theater</rs>
+            stattfindet, ist nicht mit <rs ref="https://pmb.acdh.oeaw.ac.at/entity/8363"
+               type="person">Herrn Kuh</rs>, sondern mit<lb
+               xml:id="uuid_50a85ea0-927e-452b-9c80-d6be0ec53cbe"/>einem anderen Veranstalter
+            abgeschlossen. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/8363" type="person">Herr
+               Kuh</rs> hat <hi rend="underlined">an mich</hi>
+            <lb xml:id="uuid_6b52478a-9c41-4522-9f2e-4c845239070d"/>keinerlei Ansprüche. Ich
+            bedauere daher, von der <rs type="work" subtype="legal-doc">Pfändungs<lb break="no"
+                  xml:id="uuid_7ee03a35-3e6a-4f10-8d72-c361a4995165"/>benachrichtigung</rs> keine
+            Kenntnis nehmen zu können. </p>
+         <p xml:id="uuid_13aa10ae-156c-4630-bc47-8ece3e98c845">
+            <lb xml:id="uuid_e08f7093-74c9-4715-878a-3011e689aae1"/>A. Herrn Ra. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/19200" type="person">Dr. Katz</rs>
+            <lb xml:id="uuid_0da50cc4-a14c-453d-bbc2-6396eb508d9b"/><rs ref="#168" type="place"><hi rend="underlined">Berlin</hi></rs>
+            <lb xml:id="uuid_53b6be33-13c3-4399-9321-58c1d92d15b3"/>zur Kenntnisnahme übersandt. </p>
+         <p xml:id="uuid_baf6f390-7c64-4061-884a-c9f1a9120e6b">
+            <lb xml:id="uuid_04f0905f-5dfc-4899-8e52-efa512607b19"/><rs ref="#168" type="place">Berlin</rs>, den 30.10.32<lb xml:id="uuid_cf97910d-8e0e-4c48-a0c0-a183c472d556"/><rs ref="#52602" type="person">Ringe</rs>, Obergerichtsvollzieher </p>
+         <pb xml:id="D_000035-050-000_p002"
+             facs="#D_000035-050-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_a01554ac-d925-4c7c-a32e-835b817347ca">
+            <lb xml:id="uuid_4f9324e5-e068-4b48-bbd1-7e25d4e884ee"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#8363" type="person">Kuh</rs>
+               <lb xml:id="uuid_268995cd-a3ef-4f4e-b26b-8652f8855d63"/>2. NOV. 1932 </note>
+         </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000076-007-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000076-005-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000076-006-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Richard Flatter an Kraus</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000076-006-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2712</idno>
+            <idno subtype="transkribus" type="ID">226055</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000076" type="collection">Korrespondenz mit Richard Flatter</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000076-006-000-facs001" xml:id="D_000076-006-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000076-006-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSU">Typoskript mit handschriftlichen Überarbeitungen</objectType>
+                     <objectType source="D_000076-006-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSN">Typoskript mit handschriftlichen Annotationen</objectType>
+                     <objectType source="D_000076-006-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP">Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-10-18">18. Oktober
+                    1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#16309">Richard Flatter</persName>
+               <address>
+                  <street corresp="#302">Mariahilferstr. 1B</street>
+                  <settlement ref="#56">Wien, | 6.</settlement>
+               </address>
+               <date when-iso="1932-10-18">18. Oktober 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#11988"/>
+               <address>
+                  <street corresp="#50496"/>
+                  <settlement ref="#50"/>
+               </address>
+               <date/>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote xml:id="D_000076-006-000-hand01"
+                      source="#D_000076-006-000-wit01"
+                      scribeRef="#16309"
+                      medium="black-ink"
+                      cert="low"
+                      resp="#IL"/>
+         </handNotes>
+         <handNotes>
+            <handNote xml:id="D_000076-006-000-hand02"
+                      source="#D_000076-006-000-wit01"
+                      scribeRef="#11988"
+                      medium="grey-pencil"
+                      cert="low"
+                      resp="#IL"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000076-006-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000076-006-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2022-01-27" who="#IL"/>
+         <change type="structure" when-iso="2021-03-15" who="#IL"/>
+         <change type="references" when-iso="2021-03-15" who="#IL"/>
+         <change type="typography" when-iso="2021-03-17" who="#IL"/>
+         <change type="intertexts" when-iso="2021-03-17" who="#IL"/>
+         <change when-iso="2020-10-07T14:47:18.775Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-07T15:06:32.442Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 226055. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000076-006-000-facs001">
+      <surfaceGrp xml:id="D_000076-006-000-facs001-l001">
+         <surface xml:id="D_000076-006-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553751/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000076-006-000-facs001-l002">
+         <surface xml:id="D_000076-006-000-facs001-l002-p002" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553753/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000076-006-000-facs001-l003">
+         <surface xml:id="D_000076-006-000-facs001-l003-p003" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553755/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000076-006-000-facs001-l004">
+         <surface xml:id="D_000076-006-000-facs001-l004-p004" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553757/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile>
+      <surface>
+         
+         <graphic source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553741/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553743/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553745/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553747/full/full/0/default.jpg"/>
+         
+      </surface>
+      <surface>
+         
+         <graphic source="wienbibliothek"
+                  url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553749/full/full/0/default.jpg"/>
+         
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000076-006-000_p001"
+             facs="#D_000076-006-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_7836988e-a14b-402e-a7e3-d50e7255ab83">
+            <lb xml:id="uuid_e9e2827e-2738-4070-9fb1-a2eee29d886b"/>Sehr geehrter Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>! </p>
+         <p xml:id="uuid_a57066e2-d9ce-4335-ad66-5c223b7eff1f">
+            <lb xml:id="uuid_96f12d21-9956-4e84-94f2-c409e03c77a0"/>Es ist mir – vor langer Zeit,
+            gleichfalls in <rs ref="#2412" type="person">Shakespeare</rs><lb break="no"
+               xml:id="uuid_1410865b-f1fe-40fe-9f5b-1943cc3663df"/>Dingen – schon einmal
+            widerfahren, dass ich auf ein an Sie gerichte<lb break="no"
+               xml:id="uuid_92c5c52b-bce5-46a4-9c4c-b5e507004084"/>tes <rs type="work"
+               subtype="legal-doc" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000076-001-000"
+               >Schreiben</rs> vom <rs ref="#43724" type="institution">Verlag „Die Fackel“</rs> die
+               <rs type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000076-002-000">Antwort</rs> erhielt.
+            Das glei<lb break="no" xml:id="uuid_b3668f56-4bbd-403c-9fb1-da812de1aa58"/>che ist jetzt
+            geschehen. Ich nehme das nicht als Unfreundlichkeit,<lb
+               xml:id="uuid_d3ae5344-ad39-4666-8d06-15b695f4d99e"/>zu der ich auch keinen Anlass
+            gegeben habe. Sie werden für Ihr Ver<lb break="no"
+               xml:id="uuid_f875cd01-c3d4-4848-9a5c-8b3085505180"/>halten sicherlich Gründe haben
+            und ich bin auch weder erstaunt noch<lb
+               xml:id="uuid_860734c7-d4d6-42f4-8a75-2a7ff6e97ad4"/>gekränkt; ich bitte nur, mir zu
+            gestatten, dass ich, gewohnt, jedem<lb
+               xml:id="uuid_4df9499e-7647-4904-96e8-2f1364d07be2"/>in die Augen zu schauen, dabei
+            bleibe, Ihnen direkt zu schreiben. </p>
+         <p xml:id="uuid_40d9278f-5e34-4901-b61a-4c1b7accf102">
+            <lb xml:id="uuid_a538a1ad-f6f1-458a-aeed-f0feab28dfef"/>Sie haben meine Absicht
+                missverstanden. Es war mir, so<lb xml:id="uuid_508eaff1-b878-4b86-8603-59b94e466139"/>sonderbar dies vielleicht auch klingen mag, wirklich nur darum zu tun,<lb xml:id="uuid_b1c9b2c7-db1b-4bea-a394-2a0980de2a17"/>Ihnen eine Freude zu machen.
+                Es ist wahr, Sie haben damals über mich<lb xml:id="uuid_47ce69d1-6fd9-431c-a201-4aaf52096edf"/>Dinge geschrieben, die man
+                kaum anders als Beschimpfungen be<lb break="no" xml:id="uuid_19dba7b5-fc2c-4a70-8094-5fdd7842e262"/>zeichnen kann, haben die <rs ref="https://fackel.oeaw.ac.at/f/845,016"
+                type="work"
+                subtype="fackel">Gstanzeln</rs> über mich sogar bis in die letz<lb break="no" xml:id="uuid_c3748718-3002-471b-9398-53209b5fe711"/>te Zeit öffentlich
+                vorgetragen; aber: </p>
+         <p xml:id="uuid_80dde344-c1b7-4f96-9669-36b5c7c7c7ae">
+            <lb xml:id="uuid_48160ae0-a02e-48e3-bf15-d1a623c20914"/>„<quote source=""
+               xml:id="uuid_d9489918-72d6-4b40-81d8-fcfce4edd423">Weil ihr mir Unrecht tut, sollt’
+               ich genau so handeln?<lb xml:id="uuid_26e4f846-adb6-4a26-8ee3-5091636ee368"
+               />Misshandeln könnt ihr mich, doch niemals mich verwandeln.</quote>“ </p>
+         <p xml:id="uuid_631fc38d-fbf1-4284-a6f1-eb2b187d4901">
+            <lb xml:id="uuid_b4b084dc-7299-431e-9cc7-0b5d8e9c3b0b"/>Ich war damals, wie es sich
+            gehört, – und bin es auch jetzt noch<lb
+               xml:id="uuid_d373b8b1-aaab-4ee5-8ae7-6fc9e221a71f"/>zum Teil – beleidigt; aber dieses
+            rein persönliche Gefühl konnte<lb xml:id="uuid_4cd57cb5-118a-4cbe-b9cb-9306b78b857b"
+            />und kann meinen Respekt vor Ihrem Geist und Ihrer Sprachmeister<lb break="no"
+               xml:id="uuid_f5bc1586-4294-4557-8642-e939c9116d21"/>schaft nicht mindern. Warum
+            sollte ich also einem, mit dem ich mich,<lb
+               xml:id="uuid_c844a4da-9e72-44d9-9534-ba6ecf52d53e"/>über alles Persönliche hinweg, in
+            einer Sache, in der <rs ref="#2412" type="person">Shakespeare</rs><lb break="no"
+               xml:id="uuid_e5b93168-828d-4a0c-8270-8eaea7b46a27"/>Verehrung, verbunden fühle und
+            dem ich so viel Freude verdanke, nicht<lb
+               xml:id="uuid_969ffebe-f03f-4c28-807d-5f394350a35b"/>auch eine Freude machen? Es ist
+            ja nur zu einem geringen Teil Eige<lb break="no"
+               xml:id="uuid_5843c1c5-b33e-46bc-90f5-ac26391bda7d"/>nes, was ich darbot; es ist ja
+               <rs ref="#2412" type="person">Shakespeare</rs>, den ich Ihnen schickte! </p>
+         <p xml:id="uuid_dbad7db9-027d-4c70-b9cc-8172b94a2cd3">
+            <lb xml:id="uuid_d60fba21-c8bd-46e5-a438-20c014fd6746"/>Gänzlich fern lag es mir,
+                Sie zu einer Revision Ihres<lb xml:id="uuid_db7936d0-c2fa-468b-aaed-f922e7ddcdbc"/>Tadels meiner „<rs ref="#41244" type="work" subtype="pmb">Mass für
+                Mass</rs>“-Übersetzung oder gar zu seiner öffent<lb break="no" xml:id="uuid_6378e7ef-987f-4835-9d76-ce1d6635fcba"/>lichen Widerrufung
+                veranlassen zu wollen. Ich selbst verurteile heu<lb break="no" xml:id="uuid_a62840bc-64a7-4613-b329-d9cf23c9b35d"/>te meinen „<rs ref="#41244" type="work" subtype="pmb">Mass für Mass</rs>“-Text – aus andern Gründen
+                allerdings als<lb xml:id="uuid_16a75611-4d55-4121-9bf1-42c164c0cdcb"/>den Ihrigen –
+                und würde ihn keiner Bühne mehr überlassen oder gar<lb xml:id="uuid_e80f3505-3233-4b24-b289-4126d2138888"/>zum Druck liefern. Auch wäre
+                es unsinnig, von Ihnen verlangen zu wol- <pb xml:id="D_000076-006-000_p002"
+                facs="#D_000076-006-000-facs001-l002-p002"
+                n="2"/>
+            <lb xml:id="uuid_e0a332a4-0afc-484f-b142-0ba7b2460152"/>len, Sie sollten meine
+                damalige Übersetzung eines Dramas nachträglich<lb xml:id="uuid_f931236b-7569-416c-a7ab-f3ca506f366e"/>bloss deshalb für gut
+                halten, weil ich seither ein paar <rs ref="#53289" type="work" subtype="pmb">Sonette</rs> vielleicht<lb xml:id="uuid_4ea961e4-4dbd-4408-9074-5cee6673c01b"/>besser übersetzt habe, als dies andern gelungen ist. Nicht Ihr Urteil<lb xml:id="uuid_37e9efea-d904-415e-afa4-2df073953735"/>über die eine Verdeutschung
+                von damals sollten Sie umstürzen, sondern –<lb xml:id="uuid_f31acfe7-df3a-4a8d-a463-b7915940a396"/>vielleicht! – Ihr Urteil
+                über meine Übersetzerfähigkeiten überhaupt. Das<lb xml:id="uuid_25d505f4-9dce-4790-b138-9b656c3e8585"/>Urteil über das Jugendwerk
+                eines Malers, von ihm selbst mitunterschrieben,<lb xml:id="uuid_aaf79c25-07e3-4d38-97a2-aee34c6f3b43"/>soll aufrecht bleiben; aber
+                der Maler hat seither Anderes, vielleicht Bes<lb break="no" xml:id="uuid_46ebd5bf-6262-4999-844a-60f5f5fd46d9"/>seres gemalt! Es wäre
+                Unrecht, jenes eine Urteil unrevidiert auf das ge<lb break="no" xml:id="uuid_bb4a25f5-7cf3-4b20-a561-2f453d74d3b2"/>samte spätere Werk des
+                Malers auszudehnen. </p>
+         <p xml:id="uuid_c3ae9622-20e4-460a-8306-fdeb03158bee">
+            <lb xml:id="uuid_0c323386-b310-45e5-a643-e6eca1c0b3d1"/>Sie drei Tage blind sein und
+                obendrein dürsten und hungern<lb xml:id="uuid_5c5b2733-8a9f-4f92-a1f3-86bfd02098fa"/>zu lassen, das habe ich Ihnen wirklich nicht zugedacht; nicht einmal für<lb xml:id="uuid_ae00233e-b0fc-4ad8-9c58-19f80df3423e"/>die Beleidigungen hätte ich
+                Ihnen diesen Dunkelarrest zudiktiert. Nein,<lb xml:id="uuid_285f31de-09c1-4ec0-8ae4-f68b9148d493"/>so bin ich wahrhaftig nicht!
+                Mir aber ist es – nicht gerade wörtlich –<lb xml:id="uuid_d3972785-6e66-4ed7-b864-ef3960f08ff5"/>so widerfahren; ich bin
+                tatsächlich als <rs ref="#2412" type="person">Shakespeare</rs>-Übersetzer den Weg<lb xml:id="uuid_499208ba-e8ae-48dc-8c83-7349dfd15d81"/>nach <rs ref="#51663" type="place">Damaskus</rs> gegangen: Von meinen nun bald 13 Übersetzungen
+                bewerte ich<lb xml:id="uuid_307aed98-ea2d-4d5b-9960-80c52793bde7"/>selbst nur die
+                letzten drei als gut und <rs ref="#2412" type="person">Shakespeare</rs> würdig; die
+                    früheren,<lb xml:id="uuid_40256924-f315-449e-855b-dc732ea371ad"/>einschliesslich
+                    „<rs ref="#41244" type="work" subtype="pmb">Mass für Mass</rs>“, betrachte ich
+                heute nur noch als Vorar<lb break="no" xml:id="uuid_db76b894-32c6-415b-a631-41f3a9836fdf"/>beiten, die ich in ihrer
+                jetzigen Gestalt niemals veröffentlichen oder<lb xml:id="uuid_fcfc8eeb-e490-4f30-8fe9-14d90117c720"/>aufführen lassen würde. Die
+                Gründe darzulegen, würde zu weit führen und<lb xml:id="uuid_26fb6d86-f672-4240-8d4e-10ae302b33d1"/>ich möchte auch Ihre Zeit
+                und Geduld nicht allzu sehr in Anspruch nehmen;<lb xml:id="uuid_af7de440-378a-4959-8b43-812b2192ab85"/>aber diese
+                Selbsteinschätzung meiner früheren Arbeiten zeigt wohl, dass<lb xml:id="uuid_309c2ad7-2bfe-41fa-a07f-641fe0f5e66e"/>mein Weg zu <rs ref="#2412" type="person">Shakespeare</rs> – spät, aber doch nicht zu spät – eine völlige<lb xml:id="uuid_bc3f4d63-fa6f-4c55-8645-7ee7e458057e"/>Umkehr erfahren hat, dass
+                ich heute ein anderer bin als ich damals war.<lb xml:id="uuid_4ce35583-b1ab-47a1-acca-1ef405e627e6"/>Und sie zeigt vor allem
+                auch, dass es mir unmöglich darum zu tun sein<lb xml:id="uuid_a1413c8a-335e-470b-a8c0-7c5110711bf4"/>konnte, Sie zu einer
+                Änderung Ihrer von mir selbst geteilten „<rs ref="#41244" type="work" subtype="pmb">Mass für<lb xml:id="uuid_e139ac51-5c75-4013-b616-cea2f941d53e"/>Mass</rs>“-Beurteilung bewegen zu wollen. </p>
+         <p xml:id="uuid_ec1a6c60-f4f6-4268-a7b8-2f0580968e7b">
+            <lb xml:id="uuid_faa58a27-5198-42dd-b61f-104378feb8e5"/>Ich konnte mir auch nicht
+                einfallen lassen, zu glauben, Sie<lb xml:id="uuid_f732a246-b336-459f-9fde-cbb6485f6792"/>könnten meine <rs ref="#53289" type="work" subtype="pmb">Sonett</rs>-Übersetzungen
+                veröffentlichen; weiss ich doch, dass<lb xml:id="uuid_ae0386ce-2594-4dba-998d-05cc13575d15"/>Sie schon seit vielen Jahren
+                fremde Arbeiten in die „<rs ref="#41244" type="work" subtype="pmb">Fackel</rs>“
+                nicht mehr<lb xml:id="uuid_7cde48ab-5272-4c39-964b-6c93480aa929"/>aufnehmen. Und
+                dass Sie die verschiedenen Verdeutschungen der <rs ref="#53289" type="work" subtype="pmb">Sonette</rs> zum<lb xml:id="uuid_c2a2d64e-d1fa-40ec-89b3-fec73d888e4a"/>Gegenstand einer „<quote source="https://legalkraus.acdh.oeaw.ac.at/id/D_000076-005-000"
+                   xml:id="uuid_2c6743f8-8726-4195-8d2b-a9a255c1bf06">sprachkritischen
+                    Untersuchung</quote>“ machen wollen, hätte<lb xml:id="uuid_debf7b50-901c-41f7-ba37-ff3541deda8e"/>ich, in Erinnerung an das
+                    <rs ref="#33366" type="work" subtype="pmb">Macbeth</rs>- und <rs ref="#31623" type="work" subtype="pmb">Lear</rs>-<rs ref="https://fackel.oeaw.ac.at/f/724,0u1"
+                type="work"
+                subtype="fackel">Heft</rs>, vielleicht ahnen können,<lb xml:id="uuid_79e6178f-0e43-477b-8709-1e4c53e52cf6"/>aber – was hilft’s? – ich
+                ahnte es nicht. Es bleibt also, sehr geehrter<lb xml:id="uuid_434f0173-e933-4370-bd96-316f5f6fc540"/>Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>, keine
+                andere Erklärung für mein sicherlich absonderliches<lb xml:id="uuid_9af025b6-7fd0-4ffd-b419-19794e748931"/>Vorgehen, als dass ich mit
+                meiner Zusendung Ihnen eine Freude machen woll<lb break="no" xml:id="uuid_495448b1-6dd4-4645-a066-384fc6a58f80"/>te. Nehmen Sie mir’s nicht
+                übel, es war nicht bös gemeint! </p>
+         <p xml:id="uuid_f15fe845-301c-44c7-ba73-1f69d16fe505">
+            <lb xml:id="uuid_3d16861c-f9c0-4276-9288-48432d5dde1e"/>Obwohl also meine Absicht
+            durchaus privat und keinesfalls<lb xml:id="uuid_5dc74828-dae6-47bf-9043-a26ca021f928"
+            />auf eine Veröffentlichung gerichtet war, so bin ich trotzdem, da ja mein<lb
+               xml:id="uuid_d66671ad-74ed-422e-a472-c204f6c02905"/><rs ref="#2412" type="person"
+               >Shakespeare</rs>-Wirken, ob früher oder später, doch in die Öffentlichkeit <pb
+               xml:id="D_000076-006-000_p003" facs="#D_000076-006-000-facs001-l003-p003" n="3"/>
+            <lb xml:id="uuid_a5fca084-a8a6-4089-9813-c717f0734e1d"/>münden muss, ohne weiters damit
+            einverstanden, dass Sie von meinen Über<lb break="no"
+               xml:id="uuid_67a643b8-a68d-424a-b708-a421c22481d1"/>tragungen den angedeuteten
+            Gebrauch machen. Diese Zustimmung zum Abdruck<lb
+               xml:id="uuid_7bd2e631-6ad4-4312-a120-3a10dd88ba2c"/>bezieht sich, Ihrem Wunsch
+            gemäss, auf die Sonette <rs ref="#53291" type="work" subtype="pmb">81</rs>, <rs
+               ref="#53294" type="work" subtype="pmb">116</rs>, <rs ref="#53297" type="work"
+               subtype="pmb">129</rs>. (Nicht<lb xml:id="uuid_3d78feec-8afc-4123-a2a4-59438a5d4bf8"
+            />aber auf meine Briefe, die, wie ich wohl kaum betonen muss, jedenfalls pri<lb
+               break="no" xml:id="uuid_cba27b5a-c07c-400e-8e15-47048ba7c3e7"/>vat gemeint und nur
+            für Sie persönlich bestimmt sind.) Ich will sogar mehr<lb
+               xml:id="uuid_099c1514-69b5-4688-aa18-7867511f7147"/>tun: Ich weiss zwar, dass ich
+            Ihnen damit Werkzeug zu meiner eigenen Hin<lb break="no"
+               xml:id="uuid_15f1d692-b50d-434a-8932-dd395b39bde7"/>richtung liefere; ich weiss aber
+            auch, wie packend und aufwühlend Ihre<lb
+               xml:id="uuid_a67a2975-702f-4338-9645-37ee0404a3a8"/>sprachkritische Vergleichung oder
+            gar Ihre eigene Nachdichtung wäre – und<lb
+               xml:id="uuid_53a5ab9f-010c-4097-b489-1ab31207da04"/>diese Dinge sind zweifellos
+            wichtiger als meine Reputation. Ich mache mich<lb
+               xml:id="uuid_610927bb-0c17-4d7b-9750-a3d421ac2f05"/>daher erbötig, Ihnen alles etwa
+            noch fehlende Material zur Verfügung zu<lb
+               xml:id="uuid_0f0ddfb9-cf6e-4b3d-b8b4-672cc8dd2e6f"/>stellen, so das Original der drei
+               <rs ref="#53289" type="work" subtype="pmb">Sonette</rs> samt einer möglichst
+               wortgetreuen<lb xml:id="uuid_ca49852b-c3e8-4e16-bf47-858ead8bbcc7"/>Prosaübersetzung,
+            weiters die Übersetzungen, die mir noch zur Verfügung<lb
+               xml:id="uuid_243dc98d-a799-48e2-95ee-50d4135d6f1e"/>stehen; es sind dies die von <rs
+               ref="#10973" type="person">Bodenstedt</rs>, <rs ref="#53306" type="person"
+               >Gelbcke</rs> und <rs ref="#53307" type="person">Simrock</rs>. Sollten Sie<lb
+               xml:id="uuid_ef50fb08-2101-4a87-b0b1-a7cfcfa45e6e"/>etwas gebrauchen wollen, so bitte
+            ich um Verständigung. </p>
+         <p xml:id="uuid_9969bb05-b812-41b4-a12a-2b82edc36699">
+            <lb xml:id="uuid_98943b83-9aa1-449d-b3a1-246c57b7e89e"/>Mit vorzüglicher
+                    Hochachtung<lb xml:id="uuid_3a7279c4-c781-4e4f-8c95-6e5dfea5df39"/>Dr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/16309" type="person">Flatter</rs>
+         </p>
+         <p xml:id="uuid_b65c4035-dbf3-4500-9b9c-29c79be1e322">
+            <lb xml:id="uuid_117a40dc-9462-493c-86e6-9e2d35fb937f"/>Ich habe kürzlich über
+            Aufforderung eines Freundes einen Aufsatz<lb
+               xml:id="uuid_3b3a5dc1-348e-4060-b512-4c6d1e5307e3"/>darüber geschrieben, warum und zu
+            welchem Zwecke ich es unternehme, <rs ref="#2412" type="person">Shake<lb break="no"
+                  xml:id="uuid_81a4860a-f55c-4895-9334-a18ee56d799d"/>speare</rs> neu zu übersetzen.
+            Der erste Teil enthält meine Stellungnahme zu<lb
+               xml:id="uuid_de9222f5-08e8-407c-80a5-cc1828ab3f87"/><metamark function="marginal"
+               hand="#D_000076-006-000-hand02" rend="marginLeft"/>den Arbeiten von <rs ref="#12668"
+               type="person">Schlegel</rs>, <rs ref="#53308" type="person"><hi rend="underlined"
+                  hand="#D_000076-006-000-hand02">Rothe</hi></rs> und <rs ref="#3824" type="person"
+               >Gundolf</rs>; ich habe ihn weggenommen, weil<lb
+               xml:id="uuid_a6080ad3-6a1e-4283-850e-690d51ad212b"/>er Sie kaum interessieren dürfte.
+            Dagegen erlaube ich mir, den übrigen Auf<lb break="no"
+               xml:id="uuid_20f138cb-6a63-46b7-a9be-4bf76a9a1efb"/>satz zu übersenden, der
+            vielleicht – wenn Sie die Freundlichkeit haben soll<lb break="no"
+               xml:id="uuid_1ec54fca-4d07-4900-a208-3e02cb578466"/>ten, ihn durchzusehen – imstande
+            ist, das Besondere darzulegen, das ich<lb
+               xml:id="uuid_ba045fe3-7d06-410d-b76e-769c4f4ab5da"/>nunmehr bei meiner Art, <rs
+               ref="#2412" type="person">Shakespeare</rs> zu übersetzen, verfolge. Diese Inten<lb
+               break="no" xml:id="uuid_cbb25277-95a3-4c24-a88d-54e086143650"/>tionen, nämlich über
+            die philologische Wörtlichkeit hinaus trotz Einhaltung<lb
+               xml:id="uuid_769f05ec-d601-4e29-9470-2875eea6645a"/>des Rhythmus und allenfalls auch
+            noch des Reims das wiederzugeben, was man<lb
+               xml:id="uuid_52f5252c-5093-4d20-b225-842ba87490f7"/>mit einem allerdings
+            unzulänglichen Wort als den Tonfall <rs ref="#2412" type="person">Shakespeares</rs>
+               be<lb break="no" xml:id="uuid_6243b4db-7e72-4437-a256-70db3b6363db"/>zeichnen kann,
+            hatte ich bei meinen früheren Arbeiten nicht. Und das ist<lb
+               xml:id="uuid_21ecf01e-ecb9-4498-bbed-05e44f0d3efb"/>der Grund, warum ich <subst
+               hand="#D_000076-006-000-hand01">
+               <del hand="#D_000076-006-000-hand01">sie</del>
+               <add hand="#D_000076-006-000-hand01">diese</add>
+            </subst> heute verurteile und warum ich gezwungen bin, sie<lb
+               xml:id="uuid_a705b8e6-640a-4c2f-9695-d4c12688b473"/>später einmal neu zu arbeiten. </p>
+         <p xml:id="uuid_8ed1334f-6e12-456b-81a2-18118843c584">
+            <lb xml:id="uuid_385cc3ae-fec7-4436-8984-4ba90e42cacc"/>Ich weiss, dass Sie die
+                Aufgabe des Übersetzers anders auffas<lb break="no" xml:id="uuid_6e99b361-9c8b-4982-b83b-341ae0d7a8ef"/>sen; ich weiss dies nicht
+                nur aus Ihrem letzten <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000076-005-000"
+                type="work"
+                subtype="legal-doc">Brief</rs>, sondern auch aus<lb xml:id="uuid_46cc37e0-0a85-46cb-8c39-da5d1b2880a8"/>dem <rs ref="#33366" type="work" subtype="pmb">Macbeth</rs>- und <rs ref="#31623" type="work" subtype="pmb">Lear</rs>-<rs ref="https://fackel.oeaw.ac.at/f/724,0u1"
+                type="work"
+                subtype="fackel">Heft der „Fackel“</rs>. Es ist wohl richtig, dass
+                bei den<lb xml:id="uuid_1f5fce5e-90d2-409d-8b46-7a31a0174428"/><rs ref="#53289" type="work" subtype="pmb">Sonetten</rs> und den übrigen in den Dramen
+                verstreuten Gedichten die Aufgabe<lb xml:id="uuid_f0cee9a8-ddc8-4e6f-a9a8-16336db33bef"/>vor allem darin bestehen
+                muss, ein Gedicht zu schaffen und nicht ein müh- <pb xml:id="D_000076-006-000_p004"
+                facs="#D_000076-006-000-facs001-l004-p004"
+                n="4"/>
+            <lb xml:id="uuid_7f51943e-b1e8-445e-89d8-a3f131858d6b"/>selig dahinkriechendes
+                Produkt eines anglistischen Seminars, dass daher<lb xml:id="uuid_f25a0ff5-5d74-4228-add7-14cf592b9c56"/>dem Übersetzer <add hand="#D_000076-006-000-hand01">hier</add> mehr Freiheiten als sonst zugebilligt
+                werden müssen; bei<lb xml:id="uuid_2ebe1b0d-18ce-4167-b504-2b3849cbd0ec"/>den Dramen
+                meine ich aber, dass nicht nur eine möglichst getreue, wenn<lb xml:id="uuid_eedf111a-fc2b-4129-9e99-1b84930bd718"/>auch nicht gequälte
+                Wörtlichkeit wiedergegeben werden muss, sondern auch<lb xml:id="uuid_6e258e44-7170-4a4f-8610-a851007a5c39"/>das, was den spezifischen
+                Tonfall der eben sprechenden Person in eben<lb xml:id="uuid_ab47f018-0d92-4265-8672-9637f30d186e"/>diesem Augenblick darstellt.
+                Aber damit bin ich bereits mitten in dem,<lb xml:id="uuid_0d073f31-603e-4331-8e8a-074d7ef5e4c8"/>was Sie selbst, sehr
+                geehrter Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>, in Ihrer kritischen Abhandlung<lb xml:id="uuid_e557a299-f271-4e08-8492-60a442a668ce"/>untersuchen wollen; ich
+                schweige daher, bin aber schon heute auf das<lb xml:id="uuid_9064f588-16a5-4a8a-bb1a-2c45cf38fb2b"/>höchste gespannt, Ihre
+                Arbeit kennenzulernen. </p>
+         <p xml:id="uuid_0f287869-1453-4759-9f5b-27feec9d752c">
+            <lb xml:id="uuid_cfb5c4f6-aca8-4554-aa01-b259d270c6f3"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/16309" type="person">F</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

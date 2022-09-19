@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-094-001.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-093-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000196-094-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Felix Gallia</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000196-094-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/5080</idno>
+            <idno subtype="transkribus" type="ID">400677</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000196" type="collection">Karl
+                    Kraus ca. Arbeiter-Zeitung (Brünn)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000196-094-000-facs001" xml:id="D_000196-094-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000196-094-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#52780"/> 
+                  <settlement ref="#65"/> 
+               </address>
+               <date when-iso="1936-05-12">12. Mai 1936</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#51575">Herrn | Dr. Felix Gallia, Advokat</persName>
+               <address>
+                  <street corresp="#51759">Masarykstrasse 25/27</street>
+                  <settlement ref="#833">Brünn</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Arbeiter-Zeitung</note>
+               <note type="dictation">Dr.S/Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1936-05-12">12. Mai 1936</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000196-094-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000196-094-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-12T09:52:56.545Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-12T11:11:24.132Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 400677. </change>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-10-20"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-10-20"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-10-20"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-10-20" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000196-094-000-facs001">
+      <surfaceGrp xml:id="D_000196-094-000-facs001-l001">
+         <surface type="recto" xml:id="D_000196-094-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593943/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000196-094-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593944/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593945/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2593946/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000196-094-000_p001"
+             facs="#D_000196-094-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_fa42516b-4364-4619-aab8-92256d74b659">
+            <lb xml:id="uuid_1ee3d95e-3849-40ec-ad16-00820f0f9374"/>Sehr geehrter <rs ref="#51575" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_8301933f-fb81-4621-a9a1-cb7439240aef">
+            <lb xml:id="uuid_40e4f101-91fe-47ba-8400-b1195fab42af"/>Ich habe Ihnen durch den
+                Verlag ‚<rs ref="#43724" type="institution">Die Fackel</rs>‘<lb xml:id="uuid_d01d3403-1de0-489b-b4b6-75ed00e8562f"/>je ein Exemplar der <rs ref="https://fackel.oeaw.ac.at/f/426,0u1"
+                type="work"
+                subtype="fackel">Nr.
+                    426–430</rs> und <rs ref="https://fackel.oeaw.ac.at/f/454,0u1"
+                type="work"
+                subtype="fackel">454–456</rs> (das sind die beiden<lb xml:id="uuid_684dc12d-77cb-4d7e-b39e-372f1ab84708"/>Nummern, die <rs ref="#11988" type="person">Herr K.</rs> zur Einvernahme nach <rs type="place" ref="#833">Brünn</rs> mitgebracht hatte)<lb xml:id="uuid_4fa40e0c-9242-42f0-a34c-9f0b673c2d93"/>und zwei Exemplare der <rs ref="https://fackel.oeaw.ac.at/f/484,0u1"
+                type="work"
+                subtype="fackel">Nr.
+                    484–498</rs> zuschicken lassen. Auf der<lb xml:id="uuid_a9873bab-94be-4fa8-89e5-66a4f81e712b"/>Seite 213 dieses Heftes
+                befindet sich die Glosse „<rs ref="https://fackel.oeaw.ac.at/f/484,213"
+                type="work"
+                subtype="fackel">Verstaatlichung</rs>“,<lb xml:id="uuid_c18530ad-34b6-4c10-9f3b-711ada90870a"/>die <rs ref="#11988" type="person">Herr K.</rs> im Auge hatte, als er sagte, dass er schon im
+                    Krieg<lb xml:id="uuid_0c397a26-10cf-4311-bc08-d6b9cb57e4d4"/>für den Anspruch
+                der tschechischen Nation auf Selbständigkeit<lb xml:id="uuid_0ad4f296-1d53-4080-99be-9537f47b03db"/>eingetreten sei. Weitere
+                Stellen haben wir leider nicht ge<lb break="no" xml:id="uuid_6fbcacda-c569-47a4-a611-2f0ab5185325"/>funden. Ich glaube aber,
+                dass diese Stelle in ihrer kurzen<lb xml:id="uuid_9c65a9be-70ca-4fae-ba2b-1dae598add88"/>Deutlichkeit genügen wird. </p>
+         <p xml:id="uuid_afe3930d-8af0-4f9b-a282-4ea27ef1515c">
+            <lb xml:id="uuid_9c7bb924-6084-46ae-a8c6-931e6439398b"/>Als Zeugen über das Werk des
+                    <rs ref="#11988" type="person">Herrn K.</rs> wären<lb xml:id="uuid_d213b209-2afe-4a68-8429-e5fd3306c482"/>am besten Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38133" type="person">Heinrich
+                    Fischer</rs> und Herr Professor Ingenieur<lb xml:id="uuid_cfe4fc6d-410e-4640-870c-b026272b20b8"/>Dr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/41669" type="person">Karl Jaray</rs>,
+                Architekt in <rs ref="#60395" subtype="address" type="place">Wien XIX.,
+                    Langackergasse 22</rs> zu führen.<lb xml:id="uuid_d5934c2d-ac45-44d0-a2fb-d455c053ac68"/>Herr Professor <rs ref="#41669" type="person">Jaray</rs> ist bereit, zur Hauptverhandlung nach <rs ref="#833" type="place">Brünn</rs>
+            <lb xml:id="uuid_cdba633f-0431-4d3b-9eee-6590aacf0696"/>zu kommen. Ich weiss nicht,
+                ob es möglich ist, dass Sie einen<lb xml:id="uuid_64890303-f3c8-4c03-8ef8-696d2a29fc52"/>Einfluss darauf nehmen,
+                welche Fragen an Herrn <rs ref="#38133" type="person">Fischer</rs> bei<lb xml:id="uuid_ad1cae7a-b3b5-4ad8-ab88-1c83093c6de5"/>seiner Einvernahme in <rs ref="#652" type="place">Prag</rs> gestellt werden. Wenn diese Möglich<lb break="no" xml:id="uuid_8b599248-4ed3-4c5c-8f83-932e8c0797d8"/>keit besteht,
+                würde ich die folgenden Fragen vorschlagen: </p>
+         <p xml:id="uuid_d2eccbab-c0f9-4703-8441-e5f4d5089500">
+            <lb xml:id="uuid_950b5833-9928-46ee-a6ac-302daf58ce2d"/>1.) Was ist Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38133" type="person">Heinrich
+                    Fischer</rs> bekannt über den Verkehr des<lb xml:id="uuid_7d72280f-2b14-4a43-b87e-898335c36b77"/>Herrn <rs ref="#11988" type="person">Kraus</rs> in <rs ref="#168" type="place">Berlin</rs> in
+                kommunistischen Kreisen insbesondere<lb xml:id="uuid_f8ec019e-ea72-464c-a6e0-7a74bc8826c0"/>im Jahre 1925? </p>
+         <p xml:id="uuid_d0c26424-ae03-4b1a-8e32-0b3dea7dd542">
+            <lb xml:id="uuid_37737a2c-a0ac-43d8-9a96-31e7f0775720"/>2.) Was ist Herrn <rs
+               ref="#38133" type="person">Fischer</rs> über eine Rede des Herrn <rs ref="#25105"
+               type="person">Sonnenschein</rs>-<lb
+               xml:id="uuid_ba263668-0e5d-4a33-ab34-65d41f42b8ec"/>Sonka bezüglich des Abwehrkampfes
+            des österreichischen Regimes<pb xml:id="D_000196-094-000_p002"
+               facs="#D_000196-094-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_7c380a3c-1e83-46d6-8419-84025a0ff179"/><rs ref="#56719" type="person"
+               >Dollfuss</rs> und <rs ref="#38774" type="person">Schuschnigg</rs> bekannt? </p>
+         <p xml:id="uuid_e68902b7-7930-400d-af1b-1959fe7b8d55">
+            <lb xml:id="uuid_2b054768-8e4c-4817-9c33-df22451a1df9"/>3.) Was kann Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38133" type="person">Heinrich
+                    Fischer</rs> als langjähriger Leser der<lb xml:id="uuid_6156a8b1-a750-4b3e-8d5a-5335a7f119e3"/><rs ref="#41244" type="work" subtype="pmb">Fackel</rs> über den angeblichen Gesinnungswechsel des Herrn <rs ref="#11988" type="person">Kraus</rs>
+            <lb xml:id="uuid_8906f83f-02fd-4c4c-9bad-20cce82af9ef"/>und insbesondere über
+                etwaige unlautere Motive aussagen? </p>
+         <p xml:id="uuid_c8bfd330-6c64-4fcb-af77-e800762808d3">
+            <lb xml:id="uuid_baa1d834-e1a5-4dd4-b513-7e9c1e2ce9d0"/>4.) Welches ist der Inhalt
+                der Stelle aus der <rs ref="https://fackel.oeaw.ac.at/f/912,0u1"
+                type="work"
+                subtype="fackel">Nr. 912–915</rs>, <rs ref="https://fackel.oeaw.ac.at/f/912,061"
+                type="work"
+                subtype="fackel">Seite<lb xml:id="uuid_96651b54-5690-451a-b4c2-9725447cdace"/>61</rs>, zitiert auf
+                Seite 39 des <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000196-084-000"
+                type="work"
+                subtype="legal-doc">Schriftsatzes</rs> und bezieht sie<lb xml:id="uuid_cfcd3ed9-921d-4fa9-be0f-143b1e630d06"/>sich überhaupt auf die
+                tschechoslowakische Republik? </p>
+         <p xml:id="uuid_8082e5b1-2138-4fdd-9a7d-40edaafc8930">
+            <lb xml:id="uuid_a57b3786-13a3-41e2-b799-137e465e4686"/>Herr Professor <rs ref="#41669" type="person">Jaray</rs> wäre über die Punkte<lb xml:id="uuid_0654c692-8357-4302-aa3e-7feb8d169425"/>3 und 4 zu befragen. </p>
+         <p xml:id="uuid_fb4ee6cd-552f-44ce-8028-f0e631136838">
+            <lb xml:id="uuid_1c7cb403-b6d2-4674-992e-f2cdda0c2c79"/>Ein weiterer <rs ref="#57751" type="person">Zeuge</rs> ist noch vorgesehen,<lb xml:id="uuid_d0ebfbb1-bbb6-424c-9ee5-55ce32c56e26"/>doch haben wir, bevor wir
+                Ihnen dessen Anschrift bekanntgeben,<lb xml:id="uuid_e0ed04c5-35c1-48ea-aea5-42bfa48f8b04"/>noch Erkundigungen über ihn
+                eingezogen. </p>
+         <p xml:id="uuid_de7e26b6-4809-4cf9-bda6-8765886f0f1f">
+            <lb xml:id="uuid_5f77c589-655f-4f30-9812-1edcb0b4a51d"/>In der Anlage übersende ich
+                Ihnen ferner<lb xml:id="uuid_aaa641a1-9b06-42a0-892b-12e409b099d4"/>die beiden
+                gewünschten <rs ref="#12766" type="person">Seitz</rs>-Briefe im Original. </p>
+         <p xml:id="uuid_a1db83f0-3283-40c2-8fa2-ac1dabdfb189">
+            <lb xml:id="uuid_492ebc76-38a8-4f1b-910e-3ffee0792eb8"/>Vielleicht ist es auch von
+                Bedeutung, wenn<lb xml:id="uuid_3ced0f73-b525-466d-a26e-7fc874838f21"/>Sie zur
+                Begegnung des Vorwurfes der Profitmacherei die Summen<lb xml:id="uuid_380745b7-8051-4b05-a4c1-daa599b96a52"/>wissen, die <rs ref="#11988" type="person">Herr K.</rs> auf den Verlag ‚<rs ref="#43724" type="institution">Die Fackel</rs>‘ in den letzten<lb xml:id="uuid_a92e4ee7-2647-44f5-b6e2-5afac94f7842"/>Jahren daraufgezahlt hat,
+                aus denen wohl zur Genüge hervorgeht,<lb xml:id="uuid_90cbac8f-7fd8-4c66-a72f-1543d0d7e65e"/>dass es sich ihm bei der
+                Aufrechterhaltung dieser <rs ref="#41244" type="work" subtype="pmb">Zeitschrift</rs>
+                    ledig<lb break="no" xml:id="uuid_49a4b98e-43cb-452e-87e9-451cda753285"/>lich um
+                geistige und kulturelle Ziele handelt. </p>
+         <p xml:id="uuid_cb5a6ec0-ec66-48c7-9032-3f508f56c81d">
+            <lb xml:id="uuid_6f68910a-b127-4177-a1a0-67cc6a266d9d"/>Die Verluste betragen: im
+                Jahre 1930 … S 15.509.49<lb xml:id="uuid_90f10a5b-99b3-4211-88f6-3d4b1041f9fa"/>im
+                Jahre 1931 … S 10.309.76<lb xml:id="uuid_5783522c-d688-4c7b-ac48-bf31832cdddd"/>im
+                Jahre 1932 … S 12.679.29<lb xml:id="uuid_ef57069c-d864-469b-88d4-91e50cbd60eb"/>im
+                Jahre 1933 … S 12.891.84<lb xml:id="uuid_481d188b-ecc9-4b94-a24e-e5f5921b3baf"/>im
+                Jahre 1934 … S 15.391.75<lb xml:id="uuid_f58fdc1d-d505-4a59-96b9-a542aa776a6a"/>im
+                Jahre 1935 … S 16.994.76. </p>
+         <p xml:id="uuid_a793e679-db3d-40b3-b1f5-b3378a52852c">
+            <lb xml:id="uuid_a3109514-e649-4b23-a592-a7a31fee1be6"/>Indem ich Sie herzlichst
+            begrüsse und auch<lb xml:id="uuid_f4a7ce93-429f-40ed-9c54-8d2878a5946c"/>die besten
+            Grüsse des <rs ref="#11988" type="person">Herrn K.</rs> übermittle, zeichne ich mit<lb
+               xml:id="uuid_fa6783bf-7b4c-4e7d-a0e2-9bcb8235db9c"/>vorzüglicher kollegialer
+            Hochachtung </p>
+         <p xml:id="uuid_6ee75933-8b6a-42a0-8f1d-c188223fa900">
+            <lb xml:id="uuid_c741e97e-26cd-4f83-90f8-017e4570fc17"/>als Ihr ergebener </p>
+         <p xml:id="uuid_95fd4941-e02c-40f4-a96e-adfb497206bc">
+            <lb xml:id="uuid_0f8e7e29-f65a-46fb-ad13-3db504073add"/>2 Beilagen. </p>
+         <p xml:id="uuid_07b4d816-805e-485f-b356-990a1207e39f">
+            <lb xml:id="uuid_cd0ca46d-9d09-46e9-8626-b4c1e7359993"/>N.S. Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38133" type="person">Heinrich
+                    Fischer</rs> ist auch der Verfasser<lb xml:id="uuid_ad2a96fc-403f-4713-b555-9aa20429c4ab"/>einer Broschüre „<rs ref="#60398" type="work" subtype="pmb"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+                    und die Jugend</rs>“, die ich<lb xml:id="uuid_81961283-0241-49f1-95d8-2ac65bee8195"/>Ihnen einsenden lasse. Es
+                bleibt Ihnen überlassen, ob man diese<lb xml:id="uuid_71d06048-34d4-4d21-ac6b-195b08fad76a"/><rs ref="#60398" type="work" subtype="pmb">Broschüre</rs> dem <rs ref="#36818" type="institution">Gericht</rs> vorlegen soll und wenn, ob Herr <rs ref="#38133" type="person">Fischer</rs> selbst<lb xml:id="uuid_b6090625-fb20-4999-bc3f-84f8e4755186"/>sie
+                bei der Zeugenaussage vorzulegen hat oder ob Sie das tun wollen. </p>
+      </body>
+   </text>
+</TEI>

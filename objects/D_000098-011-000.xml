@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000098-012-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000098-010-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000098-011-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Berthold Viertel</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000098-011-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/2939</idno>
+            <idno subtype="transkribus" type="ID">420106</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000098" type="collection"
+               >Darlehenssache Berthold Viertel</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000098-011-000-facs001" xml:id="D_000098-011-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000098-011-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL"
+                        >Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-08-16">16. August 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1929-08-16">16. August 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#10364"/>
+               <address>
+                  <street corresp="#54317">William Fox Studios</street>
+                  <settlement ref="#38174">Hollywood California</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Viertel</note>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000098-011-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000098-011-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2021-04-22" who="#IL" status="draft"/>
+         <change type="structure" when-iso="2021-04-21" who="#IL" status="draft"/>
+         <change type="references" when-iso="2021-04-21" who="#IL" status="draft"/>
+         <change type="typography" when-iso="2021-04-22" who="#IL" status="draft"/>
+         <change type="intertexts" when-iso="2021-04-21" who="#IL" status="draft"/>
+         <change when-iso="2020-10-08T12:24:58.572Z" who="#IB" status="draft">created by
+            API</change>
+         <change when-iso="2020-10-08T12:30:09.483Z" who="#IB" status="draft">Replaced Text with
+            Transcription of Transkribus Document 420106. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000098-011-000-facs001">
+      <surfaceGrp xml:id="D_000098-011-000-facs001-l001">
+         <surface xml:id="D_000098-011-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554713/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000098-011-000-facs001-l002">
+         <surface xml:id="D_000098-011-000-facs001-l002-p002" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554715/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000098-011-000-facs001-l003">
+         <surface xml:id="D_000098-011-000-facs001-l003-p003" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554717/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000098-011-000-facs001-l004">
+         <surface xml:id="D_000098-011-000-facs001-l004-p004" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554719/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000098-011-000_p001" facs="#D_000098-011-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_94ea870c-260c-43ab-8609-5e9d8c173d0f">
+            <lb xml:id="uuid_663031de-460f-454c-b317-0bde63f98298"/>Sehr geehrter Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/10364" type="person">Viertel</rs>! </p>
+         <p xml:id="uuid_e9f8a99b-eda0-4319-bac9-39246b3d6861">
+            <lb xml:id="uuid_734fd1e5-2696-413b-b916-3f9248a998ec"/>Ich bestätige Ihnen mit bestem
+            Dank den<lb xml:id="uuid_4ee1e7b7-1e68-4b8a-889b-beae0b6e6489"/>Empfang Ihrer beiden
+            freundlichen <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000098-008-000"
+               type="work" subtype="legal-doc">Schreiben</rs> vom 6. und 11. Juli 1929<lb
+               xml:id="uuid_768f04b1-9bb1-40b8-badf-af8fcb5d556d"/>und zweier Tratten über je $
+            100.–– zusammen $ 200.––. Ihrem Wunsche<lb
+               xml:id="uuid_63acde82-c0d5-45b5-9d25-24ea0b82dc6e"/>entsprechend gebe ich Ihnen eine
+            Zusammenstellung Ihrer Schuld<lb xml:id="uuid_0f0623a9-1c4c-421c-88cb-809984455ed9"/>von
+            Rmk. 60.000.–– samt den von mir erhobenen in <rs ref="#168" type="place">Berlin</rs> für
+               gebun<lb break="no" xml:id="uuid_1a759cf7-a1af-489c-917d-d951a474a0cc"/>denes Geld
+            bezahlten und jährlich kapitalisierten Zinsen, ferner<lb
+               xml:id="uuid_5f174deb-0d41-4bcb-b069-3ea948b44a5e"/>der kleineren Summen, welche in
+            österreichischen Schilling gegeben<lb xml:id="uuid_5135b3fe-61a1-4ad4-a35b-4c9d278eecf9"
+            />wurden und für welche ich die in <rs ref="#50" type="place">Wien</rs> übliche
+            Verzinsung berechnete,<lb xml:id="uuid_3d71086b-f3bf-4907-95ba-3150646ddce8"/>mit dem
+            Stichtage vom 15. August 1929. Die endgiltige Zinsenver<lb break="no"
+               xml:id="uuid_cf59e9b0-8bc0-47a3-8b47-70894fa963a4"/>rechnung behalte ich einer
+            Schlussabrechnung vor, die natürlich<lb
+               xml:id="uuid_ad2a9ac3-35d1-4faf-a4a1-f61ffc4a088d"/>erst dann erfolgen kann, wenn die
+            stufenweise Verzinsung nach den<lb xml:id="uuid_92569421-ade9-41a9-9a83-215721db39fb"
+            />erfolgten Zahlungen errechenbar sein wird. </p>
+         <p xml:id="uuid_7ca29ec1-19a3-4eaa-9893-7bc1b69b9289">
+            <lb xml:id="uuid_0f5e72e6-fd1a-4686-937e-e4af85fa706b"/>Ferner ersuche ich Sie, die
+               zukünftigen<lb xml:id="uuid_83d767f4-a382-403b-b692-442d666c5324"/>Ueberweisungen
+            womöglichst nicht an den <rs ref="#54296" type="institution">Wiener Bank-Verein</rs>
+               sondern<lb xml:id="uuid_bce2a00a-688f-4ff7-964f-4053a1480353"/>an die <rs
+               ref="#37174" type="institution">Oesterreichische Credit-Anstalt für Handel und
+               Gewerbe</rs> vor<lb break="no" xml:id="uuid_4c060933-aac2-495c-9c92-705486a309be"
+            />zunehmen, mit welcher ich in Bankverbindung stehe. </p>
+         <p xml:id="uuid_c1ebf924-eb9f-4ac0-9cb4-c13bee170885">
+            <lb xml:id="uuid_e9dbf7e2-78b9-4a18-b3dc-eb70f9bd2aa0"/>Ich zeichne mit vorzüglicher<lb
+               xml:id="uuid_5644549b-65a4-4d55-8b76-0a5d3127b8f9"/>Hochachtung</p>
+         <p xml:id="uuid_74cc5bc5-81b6-4890-9a72-4a84616f52ac"><lb
+               xml:id="uuid_0beaa864-eac7-4b1e-84e8-7d654dfcf162"/>3 Beilagen</p>
+         <pb xml:id="D_000098-011-000_p002" facs="#D_000098-011-000-facs001-l002-p002" n="2"/>
+         <pb xml:id="D_000098-011-000_p003" facs="#D_000098-011-000-facs001-l003-p003" n="3"/>
+         <pb xml:id="D_000098-011-000_p004" facs="#D_000098-011-000-facs001-l004-p004" n="4"/>
+      </body>
+   </text>
+</TEI>

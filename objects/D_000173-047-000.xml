@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-048-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-046-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000173-047-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Gustav Scheu</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000173-047-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4312</idno>
+            <idno subtype="transkribus" type="ID">312423</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000173" type="collection">Briefwechsel zwischen dem Verlag Die Fackel, dem Verlag Universal Edition und
+                    dem Deutschen Theater Prag bezüglich Aufführungen von Offenbachstücken in der
+                    Kraus’schen Bearbeitung und Verlagsproblemen</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000173-047-000-facs001" xml:id="D_000173-047-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000173-047-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+                  <ab type="materiality">
+                     <objectType source="D_000173-047-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP"
+                        >Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1932-05-09">9. Mai 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38870">Herrn | Dr. Gustav Scheu, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#717">Opernring Nr. 3</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Universal-Edition</note>
+               <note type="dictation">Dr.S/Fa</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-05-09">9. Mai 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000173-047-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000173-047-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-12-09" who="#JK"/>
+         <change type="typography" when-iso="2021-12-09" who="#JK"/>
+         <change type="references" when-iso="2021-12-09" who="#JK"/>
+         <change type="structure" when-iso="2021-12-09" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-09" who="#JK"/>
+         <change when-iso="2020-10-09T14:07:30.839Z" who="#IB">created by API</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000173-047-000-facs001">
+      <surfaceGrp xml:id="D_000173-047-000-facs001-l001">
+         <surface type="recto" xml:id="D_000173-047-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543543/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface></surfaceGrp>
+      <surfaceGrp xml:id="D_000173-047-000-facs001-l002">
+         <surface type="recto" xml:id="D_000173-047-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543545/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000173-047-000_p001"
+             facs="#D_000173-047-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_49a21c48-cb0f-4de3-8d22-1a8cbda29d6b">
+            <lb xml:id="uuid_b6539a1d-35dd-4b77-b09d-cab844c0438b"/><hi rend="underlined">Durchschlag.</hi>
+         </p>
+         <p xml:id="uuid_3e0ca4fc-ea1f-4857-bc53-a3fd3e1c507d">
+            <lb xml:id="uuid_1b54cae7-a1ab-493a-8fc0-b5ed6485679a"/>Sehr geehrter <rs ref="#38870" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_11f89718-4fca-4d82-89cc-ed4b5af31c16">
+            <lb xml:id="uuid_e87d39c8-5478-459c-8e48-aecdb95b76ab"/>Nach Rücksprache mit Herrn <rs
+               ref="#11988" type="person">Karl Kraus</rs> er<lb break="no"
+               xml:id="uuid_2c430c7c-3282-4221-b71c-e15fede28ac7"/>widere ich das Folgende auf Ihr
+               <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-046-000" type="work"
+               subtype="legal-doc">Schreiben vom 3. Mai</rs>: Ihre<lb
+               xml:id="uuid_82b58a50-925f-42f6-94cd-fcdeb19456b2"/>telephonische Bemerkung, die ihm
+            wie mir in durchaus zutref<lb break="no"
+               xml:id="uuid_f91c4b1a-95ea-4eba-b09b-94d637d66e19"/>fender Weise den Grund für die
+            Nichtaufnahme der Klausel, also<lb xml:id="uuid_3022b798-c175-4033-8964-57fe9adb919c"
+            />für die Verletzung des Vertrags, zu bezeichnen schien, mag<lb
+               xml:id="uuid_3187b097-f05f-4200-9854-609d740fbf1e"/>keiner <hi rend="underlined"
+               >informativen</hi> Kenntnis des Falles entsprungen sein, sondern<lb
+               xml:id="uuid_959b0fb2-1fe5-40ee-b016-307360f3ad26"/>nur einer Vermutung, wird sich
+            aber nach Rücksprache mit Ihrer<lb xml:id="uuid_880f0a34-81d8-4de8-a577-6e3f64bd6a46"
+               /><rs ref="#36971" type="institution">Klientin</rs> als die einzig in Betracht
+            kommende sachliche Begrün<lb break="no"
+               xml:id="uuid_b3453e07-6391-44e8-a6fd-9042e011a26d"/>dung für deren Vorgehen
+            herausstellen. Es ist ganz so, wie Sie<lb
+               xml:id="uuid_cd42de9d-1ead-4312-83af-83730cc95cb0"/>telephonisch gesagt haben und
+            nunmehr brieflich wiederholen, dass<lb
+               xml:id="uuid_ebe99c43-3800-452f-b774-b4d0ca698826"/>die <rs ref="#36971"
+               type="institution">Universal-Edition</rs> „<quote source="#D_000173-046-000"
+               xml:id="uuid_d02ada61-b770-42ed-8102-5cce22bd6be0">die Stücke überhaupt nicht
+                  angebracht<lb xml:id="uuid_155beaab-7de6-4096-ab89-5f50a7bd4ffc"/>hätte, wenn sie
+               die Klausel hineingenommen hätte</quote>“. Dass Sie, als<lb
+               xml:id="uuid_d61edc1b-7e58-4fbf-9ea3-3089009780e3"/>Sie diese den Nagel auf den Kopf
+            treffende Bemerkung machten, da<lb break="no"
+               xml:id="uuid_e7c7d140-62d7-48ca-837a-0bd43b1b40d6"/>rüber noch nicht informiert
+            waren, dass dies tatsächlich der<lb xml:id="uuid_0fd66507-4c1c-470e-9671-569f317fb227"
+            />Grund sei, nimmt Herr <rs ref="#11988" type="person">Karl Kraus</rs> gerne zur
+            Kenntnis. Dagegen<lb xml:id="uuid_34960264-58e8-44cd-bb9c-22368b4d14f2"/>wendet er sich
+            nunmehr gegen Ihre Bemerkung, die „<quote source="#D_000173-046-000"
+               xml:id="uuid_9265cc4f-e3c7-45ad-8a77-89cdc482eb93">gewünschte Be<lb break="no"
+                  xml:id="uuid_b094f761-4395-4c59-a31e-ef66e5613cba"/>stimmung</quote>“ sei „<quote
+               source="#D_000173-046-000" xml:id="uuid_7cb2f2b4-c803-4185-8eae-90fe9288e88e">nicht
+               in der von Herrn <rs ref="#11988" type="person">Karl Kraus</rs>
+               <hi rend="underlined">vielleicht er<lb break="no"
+                     xml:id="uuid_c979a933-c8c0-4b78-b805-938453c98dff"/>warteten Form</hi> in den
+               Vertrag aufgenommen</quote>“ worden. Sie ist in gar<lb
+               xml:id="uuid_f2450056-c237-4924-beb8-b7dd5542f37b"/>keiner Form, sie ist überhaupt
+            nicht aufgenommen worden, und dies<lb xml:id="uuid_f424fe25-dcd0-4ece-a0d0-4a211eb160e5"
+            />eben kann keinen anderen Grund haben, als den von Ihnen als so <pb
+               xml:id="D_000173-047-000_p002" facs="#D_000173-047-000-facs001-l002-p002" n="2"/>
+            <lb xml:id="uuid_0949d885-6277-4e2c-b850-80281240dd5f"/>berechtigte <hi
+               rend="underlined">Vermutung</hi> ausgesprochenen. Sie gehen da durchaus nicht<lb
+               xml:id="uuid_3bf43f4b-5dcf-4b95-a046-eb21a797180a"/>in die Irre. Wieso „<quote
+               source="#D_000173-046-000" xml:id="uuid_44fec403-64f5-4cc2-9eff-66e30dcaddcf"><hi
+                  rend="underlined">daher</hi></quote>“ auch meine Schlussfolgerung, dass die<lb
+               xml:id="uuid_fbdb853f-a200-42df-ab1e-291c9f7b5f18"/><rs ref="#36971"
+               type="institution">Universal-Edition</rs> bewusst und in der Hoffnung, <rs
+               ref="#11988" type="person">Herr Kraus</rs> werde<lb
+               xml:id="uuid_9e959b28-c02d-4770-8ebf-d70bcd6c737d"/>ihr nicht darauf kommen, den
+            Vertrag nicht erfüllt habe, „<quote source="#D_000173-046-000"
+               xml:id="uuid_f09e64eb-42f1-4b76-a517-84c88dcbbe1b">eine<lb
+                  xml:id="uuid_7707a14f-5446-496e-a318-03a0f91ef9c9"/>absolut unzutreffende</quote>“
+            sein soll, ist weder <rs ref="#11988" type="person">Herrn Kraus</rs> noch mir<lb
+               xml:id="uuid_3f62eaa9-e89c-4930-995b-47ff5617c6d3"/>verständlich, unabhängig davon,
+            ob Ihre Aeusserung bloss einer<lb xml:id="uuid_70788a9a-aad1-441d-870e-8f9df59edc2b"
+            />Vermutung oder einem Wissen zuzuschreiben war, bleiben wir dabei,<lb
+               xml:id="uuid_e4570b1e-6e9b-455c-b84d-7cbe0875144c"/>dass die <rs ref="#36971"
+               type="institution">Universal-Edition</rs> bewusst und in der Hoffnung, <rs
+               ref="#11988" type="person">Herr<lb xml:id="uuid_c2ed5ab8-8260-48e7-8ef0-4f560d98734b"
+               />Kraus</rs> werde ihr nicht darauf kommen, den Vertrag nicht erfüllt<lb
+               xml:id="uuid_9c4185f5-013f-40e9-9990-80ecf541b178"/>hat. Wir verstehen auch nicht,
+            wieso „<quote source="#D_000173-046-000"
+               xml:id="uuid_c25d29ee-0b12-4fbc-a4eb-99cb730e51a2">eine solche
+               Schlussfolgerung</quote>“<lb xml:id="uuid_3adceb55-3aa2-4ce9-876f-afd72b1e0490"/>–
+            die gar keine ist, sondern eine Behauptung –, „<quote source="#D_000173-046-000"
+               xml:id="uuid_b80614a4-8f67-49e6-9988-9468a1355ca6">auch schon deswe<lb break="no"
+                  xml:id="uuid_867e1cd1-6019-4cfd-b4b8-17f9e24c5197"/>gen verfehlt wäre, weil ja der
+               Autor auch dann gegen Entstellungen<lb
+                  xml:id="uuid_6eab28cf-b643-46e2-8a1c-fe179c33e26e"/>seines Werkes geschützt ist,
+               wenn eine solche Klausel im Vertrag<lb
+                  xml:id="uuid_c7920ce7-a90f-4d28-b45d-4baf63803c78"/>nicht enthalten ist</quote>“.
+            Besser geschätzt wäre er ohne Zweifel, wenn<lb
+               xml:id="uuid_fa146505-c4c1-42f3-9229-72b99ed92a86"/>sie darin enthalten wäre. Die <rs
+               ref="#36971" type="institution">Universal-Edition</rs> hat aber auch den<lb
+               xml:id="uuid_96a7bb9a-8483-4ab2-b682-15c686ca53a2"/>Schutz, der nach Ihrer
+            Rechtsansicht ohnedies gegeben ist, in<lb
+               xml:id="uuid_14f64ac9-18c0-40e8-ad6a-eb7859e9d73a"/>meiner Weise betätigt. </p>
+         <p xml:id="uuid_063be697-326f-43c9-9e1c-552677535432">
+            <lb xml:id="uuid_af9c3915-eadd-4b85-aaff-23b029602b5c"/>Was das Intermezzo mit
+                meiner <rs ref="#56355" type="person">Kanzleibeamtin</rs> betrifft, so<lb xml:id="uuid_35ea362e-367a-4252-9dcf-d2cda8cc0772"/>scheint mir der von Ihnen
+                gebrauchte Hinweis auf den Umstand, dass<lb xml:id="uuid_b202bbd6-d518-4da7-9540-31cc5ea849ad"/>in der <rs ref="#36971" type="institution">Universal-Edition</rs> durchwegs hochgebildete und
+                    kultivierte<lb xml:id="uuid_bd5b4212-75ec-4b70-bf5e-5a2cf54df51d"/>Personen
+                tätig sind, in keiner Weise der mir bekannten Wahrheits<lb break="no" xml:id="uuid_5d4fe3f4-7ceb-4c5e-a133-759428069537"/>liebe meiner <rs ref="#56355" type="person">Kanzleibeamtin</rs> zu widersprechen, die, mag
+                    Herrn<lb xml:id="uuid_2f6cf28f-5da8-4100-a576-fc2f25c8be11"/><rs ref="#38370" type="person">Dr. Heinsheimer</rs> auch jede Absicht ferne gelegen sein, sie
+                    unwirsch<lb xml:id="uuid_d0117baf-e378-45a4-8f95-da70f0c3708a"/>zu behandeln,
+                dabei bleibt, dass Herr <rs ref="#38370" type="person">Dr. Heinsheimer</rs> sie
+                    unwirsch<lb xml:id="uuid_39d5332f-2831-4b26-8b5b-8dea73ad610d"/>behandelt hat. </p>
+         <p xml:id="uuid_bf34f625-4117-4bf2-8f1d-9e8efc1a70c6">
+            <lb xml:id="uuid_8d14bb39-0ec0-4270-b856-2c633fb41a73"/>Mit kollegialer Hochachtung<lb
+               xml:id="uuid_e98d711a-d0d9-4ebe-a38e-3f0939dcd9e1"/><rs ref="#38909" type="person"
+               >Dr. Samek</rs> m.p.</p>
+      </body>
+   </text>
+</TEI>

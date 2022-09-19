@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000158-033-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000158-031-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000158-032-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Willy Katz</title>
+            <editor ref="#SH">Susanna Hufsky</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000158-032-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4135</idno>
+            <idno subtype="transkribus" type="ID">304914</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000158" type="collection">Karl
+                    Kraus ca. Oper am Platz der Republik (Kroll-Oper, Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000158-032-000-facs001" xml:id="D_000158-032-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000158-032-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1932-03-03">3. März 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#19200">Herrn | Dr. Willy Katz, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#482">Friedrichstrasse Nr. 204</street>
+                  <settlement ref="#168">Berlin SW 68</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Kroll-Oper</note>
+               <note type="dictation">Dr.S/Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-03-03">3. März 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000158-032-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000158-032-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-10-08T15:28:44.009Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T15:32:04.577Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 304914. </change>
+         <change type="intertexts" when-iso="2021-07-27" who="#SH"/>
+         <change type="structure" when-iso="2021-07-27" who="#SH"/>
+         <change type="references" when-iso="2021-07-27" who="#SH"/>
+         <change type="typography" when-iso="2021-07-27" who="#SH"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000158-032-000-facs001">
+      <surfaceGrp xml:id="D_000158-032-000-facs001-l001">
+         <surface xml:id="D_000158-032-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542782/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000158-032-000-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542783/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000158-032-000_p001"
+             facs="#D_000158-032-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_48e47dca-9026-46a6-874e-2e87c6aaccc9">
+            <lb xml:id="uuid_02487d3b-7cb6-4c79-a4e0-5d427eb3720e"/>Sehr geehrter <rs ref="#19200" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_66bd99b2-3b6c-438a-af44-a656232673d8">
+            <lb xml:id="uuid_26fcdbd2-c224-4370-b0fe-4f0bdbfc7d3e"/><rs ref="#11988" type="person">Herr Kraus</rs> bittet mich, bei Ihnen anzu<lb break="no" xml:id="uuid_3c0fa680-3b8b-439f-b4dd-43bac1aacd92"/>fragen, was in dieser
+                Angelegenheit unternommen wurde. </p>
+         <p xml:id="uuid_b830d98f-d4d6-4920-88de-09a0e76b8e28">
+            <lb xml:id="uuid_21f73211-5329-4488-a564-c34ca7083a47"/>Mit vorzüglicher kollegialer
+                    Hochachtung<lb xml:id="uuid_07ee38a6-8866-4f54-9316-dbb6d850cceb"/>und besten
+                Grüssen </p>
+         <p xml:id="uuid_d58a5bf2-5cc8-48a1-b5f7-d97bab4bc93b">
+            <lb xml:id="uuid_961a89ba-775b-4652-9370-f99e2ed2067c"/>bin ich Ihr ergebener </p>
+         <pb xml:id="D_000158-032-000_p002"
+             facs="#D_000158-032-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_1363a913-5f87-403b-a8a7-89c72066e050">
+            <lb xml:id="uuid_36a1d57a-9cff-481c-ab5f-0ab7e3edde7f"/><note type="paratext"
+               resp="law-firm">Betr. <rs ref="#11988" type="person">Kraus</rs> – <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/37183" type="institution">Kroll-Oper</rs>
+               <lb xml:id="uuid_88981a2b-dce6-4c29-aea3-52eaf29ba523"/>exp. 3.3.1932.</note></p>
+      </body>
+   </text>
+</TEI>

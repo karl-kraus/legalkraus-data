@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-050-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-048-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000068-049-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Sigismund von Radecki</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000068-049-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-samek-sigismund-von-radecki </idno>
+            <idno subtype="transkribus" type="ID">205528</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000068" type="collection">Karl
+                    Kraus ca. Alfred Kerr</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000068-049-000-facs001" xml:id="D_000068-049-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000068-049-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51"/> 
+               </address>
+               <date when-iso="1927-10-05">5. Oktober 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38141">Wohlgeboren | Herrn Sigismund von Radecki, | bei Pantzer</persName>
+               <address>
+                  <street corresp="#61572">Augsburgerstrasse 15</street>
+                  <settlement ref="#168">Berlin W.50</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Kerr.</note>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-10-05">5. Oktober 1927
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000068-049-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000068-049-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" status="draft" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" status="draft" when-iso="2021-09-13">Replaced Text with Transcription
+                of Transkribus Document 205528. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2021-12-14"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-12-14" who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-12-14"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-12-14"
+                 who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-12-14"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000068-049-000-facs001">
+      <surfaceGrp xml:id="D_000068-049-000-facs001-l001">
+         <surface type="recto" xml:id="D_000068-049-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552542/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-049-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552543/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000068-049-000_p001"
+             facs="#D_000068-049-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_0cae1f65-d2ff-4917-adc1-107549d92fd4">
+            <lb xml:id="uuid_0694c4b3-d284-42b1-a2cd-f91d4a38bc7c"/>Sehr geehrter <rs ref="#38477" type="person">Herr</rs>! </p>
+         <p xml:id="uuid_bf2fa813-a25c-4ffc-b745-b5d4de44dbc4">
+            <lb xml:id="uuid_6025df24-9434-43f4-9ead-3f6baed8777b"/>Wie Ihnen bekannt ist, führt
+                Herr <rs ref="#11988" type="person">Kraus</rs> einen<lb xml:id="uuid_ddbf852c-2516-4d52-9506-876cf7e9bb91"/>Ehrenbeleidigungsprozess
+                gegen <rs ref="#11910" type="person">Kerr</rs>. In diesem hat Herr <rs ref="#11910" type="person">Kerr</rs> einen<lb xml:id="uuid_6a251e01-9fdb-4cf8-b303-dcbdf34bbe2a"/><rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-044-000.xml"
+                type="work"
+                subtype="legal-doc">Schriftsatz</rs> eingebracht, in dem er auf eine Bemerkung
+                in der<lb xml:id="uuid_3dc01beb-7557-420c-a77b-50ccf17e6a89"/>„<rs ref="#41244" type="work" subtype="pmb">Fackel</rs>“ vom <rs ref="https://fackel.oeaw.ac.at/f/649,0u1"
+                type="work"
+                subtype="fackel">Juni
+                    1924</rs>
+            <rs ref="https://fackel.oeaw.ac.at/f/649,080"
+                type="work"
+                subtype="fackel">Seite 80</rs>, <rs ref="#11988" type="person">Kraus</rs> wisse,
+                dass er mit <rs ref="#11910" type="person">Kerr</rs> nie,<lb xml:id="uuid_dff6b2c1-064e-43d5-afcf-3f0516eff87f"/>auch nicht 1897 in einer
+                anderen persönlichen Verbindung gestanden<lb xml:id="uuid_3326a004-32c5-4665-826c-c0f402c9b4ce"/>ist, als dass er ihn einmal,
+                vor der scheusslichen Gerichtsver<lb break="no" xml:id="uuid_28dd50f2-d4d0-49a9-839a-6c968a7fb1d9"/>handlung, durch die <rs ref="#11910" type="person">Kerr</rs> den greisen Musikschriftsteller <rs ref="#38336" type="person">Tappert</rs>
+            <lb xml:id="uuid_6ec3885b-e229-475c-9295-74f42db656d6"/>um sein Brot brachte, einen
+                Moment sah und dann angewidert nicht<lb xml:id="uuid_03aa3329-abdc-4d08-b1e0-d4220129b32b"/>mehr kannte, reagierte. <rs ref="#11910" type="person">Kerr</rs> behauptet nun, dass „<quote source="#D_000068-044-000.xml"
+                   xml:id="uuid_a50d4d8d-a451-46aa-aa4c-4bd63dc31a26">der Musikschrift<lb break="no" xml:id="uuid_8dc2a565-2865-4345-b569-c12018c36006"/>steller <rs ref="#38336" type="person">Wilhelm Tappert</rs>, dessen Bestechlichkeit
+                    damals durch das<lb xml:id="uuid_fadbb5c2-9c7a-461e-92c7-27517b7f6a55"/>Gericht
+                    festgestellt wurde, gar nicht um sein Brot kam, da seine<lb xml:id="uuid_cca54dee-e5c5-48db-bdcc-0bfd333f05e3"/>Zeitung, das ‚<rs ref="#62216" type="institution">Kleine Journal</rs>‘, es bei einer
+                    öffentlichen Abbitte<lb xml:id="uuid_dbec375d-d133-4912-9921-6fa5a138044c"/>des
+                    durch Geld bestochenen <rs ref="#38336" type="person">Musikkritikers</rs>
+                    bewenden liess.</quote>“ Nach<lb xml:id="uuid_adac7642-bc0f-4248-8a69-b341214eb024"/>der Erinnerung des Herrn <rs ref="#11988" type="person">Kraus</rs> hat <rs ref="#11910" type="person">Kerr</rs> im Jahre 1897 dem Musik<lb break="no" xml:id="uuid_38672ce8-458d-4f4e-ab92-34d9f4ca1bc7"/>schriftsteller <rs ref="#38336" type="person">Tappert</rs>, einem weltfremden alten Mann,
+                    Bestechlich<lb break="no" xml:id="uuid_0021c837-e97b-43c3-a02d-22ec9254f2af"/>keit vorgeworfen und es stellte sich schliesslich heraus, dass von <pb xml:id="D_000068-049-000_p002"
+                facs="#D_000068-049-000-facs001-l001-p002"
+                n="2"/>
+            <lb xml:id="uuid_68f80488-8845-4dce-b530-c4ab1d93441c"/>einer solchen keine
+                Rede sein konnte, sondern die Ungehörigkeit,<lb xml:id="uuid_9e3be517-d048-4ae5-80e7-401a7ccbbe43"/>die Herr <rs ref="#38336" type="person">Tappert</rs> begangen hatte, darin lag, dass er die Leistung<lb xml:id="uuid_87fdbbed-587f-4aa5-9228-fd2b23684df8"/>gen Schülerinnen, denen er
+                Gesangsunterricht erteilt hatte, in<lb xml:id="uuid_a133a4f4-9983-462b-81cb-eccef6f79b9a"/>Kritiken besprach. Auf
+                Veranlassung seines Blattes, des „<rs ref="#62216" type="institution">Kleinen<lb xml:id="uuid_a05b056a-5fe3-421f-b72a-20e5dbce0134"/>Journals</rs>“, musste
+                    <rs ref="#38336" type="person">Tappert</rs> eine Ehrenbeleidigungsklage gegen
+                    <rs ref="#11910" type="person">Kerr</rs>
+            <lb xml:id="uuid_62c60408-f611-42da-b290-e63421267540"/>einbringen. Wie diese
+                geendet hat, ist Herrn <rs ref="#11988" type="person">Kraus</rs> nicht mehr in<lb xml:id="uuid_6e306723-bc57-4c34-9b99-fa00d5787e07"/>Erinnerung. Jedenfalls ist
+                es unwahrscheinlich, dass der Beleidigte<lb xml:id="uuid_139e003d-fc50-4c31-92fe-131260fa0155"/><rs ref="#38336" type="person">Tappert</rs> eine öffentliche Abbitte geleistet haben soll. </p>
+         <p xml:id="uuid_4a4d47e8-5864-454c-8307-6982a95d4543">
+            <lb xml:id="uuid_fe04c294-a227-4197-aab5-4a0fc7abb30c"/>Ich ersuche Sie nun, sich der
+            Mühe zu unterziehen, in<lb xml:id="uuid_7e2aa4e2-401f-4853-88af-564c6e7b3e73"/>den
+            Berliner Zeitungen aus dem Jahre 1897 die Prozessberichte<lb
+               xml:id="uuid_8055c516-ae5a-4540-a909-2f39c9caee82"/><rs ref="#38336" type="person"
+                  ><hi rend="spaced">Tapper</hi>t</rs> - <rs ref="#11910" type="person"><hi
+                  rend="spaced">Ker</hi>r</rs> anzusehen, besonders im „<rs ref="#62394" type="work"
+               subtype="pmb">Kleinen Journal</rs>“,<lb
+               xml:id="uuid_8ed61b62-4ba7-40dd-82e9-97b4b0532041"/>zu erheben, ob in ihm eine
+            öffentliche Abbitte des Herrn <rs ref="#38336" type="person">Tappert</rs>
+            <lb xml:id="uuid_8442238c-d8fd-4d8a-b855-0222599d743d"/>enthalten war, und mit eine
+            kurze Sachverhaltsdarstellung zu geben.<lb
+               xml:id="uuid_d09b9a5b-f593-4887-817b-28f14c37394b"/>Die Verhandlung dürfte im Mai
+            oder Juni 1897 stattgefunden<lb xml:id="uuid_cde8f04a-cb25-4651-8201-acaf9b2d8a00"
+            />haben. Wenn Ihnen dies möglich ist, so wäre es gut, bei dem Ge<lb break="no"
+               xml:id="uuid_896932dd-403e-41d8-ad60-542cef2add04"/>richte selbst einen Aktenauszug
+            zu verfertigen. Ich benötige Ihren<lb xml:id="uuid_b2abe104-0dc6-4731-be87-74774ddf1b65"
+            />Bericht unbedingt in den nächsten 10 Tagen. Die Zeitungen dürften<lb
+               xml:id="uuid_e7eeab37-3045-4563-a7a7-c1373f749a0f"/>Sie in der <rs ref="#55758"
+               type="institution">Nationalbibliothek</rs> finden. </p>
+         <p xml:id="uuid_f2028f92-19ec-4853-8dd5-2dfa785067ec">
+            <lb xml:id="uuid_58afc782-c2c4-42c1-a080-cbe77a9624f9"/>Ich bitte Sie, zu
+                entschuldigen, dass ich mich mit einer<lb xml:id="uuid_b00d0cc4-d079-49d5-b2e3-31cafe771eda"/>derartigen Angelegenheit an
+                Sie wende und zeichne mit bestem Danke<lb xml:id="uuid_c53960ab-15f5-438d-842d-48dc28fe4318"/>und herzlichsten Grüssen </p>
+         <p xml:id="uuid_bdad95a3-e66c-41df-8277-90c2a9682d63">
+            <lb xml:id="uuid_cb9d99ab-128f-448b-8315-4aa165597a38"/>Ihr ergebener </p>
+         <p xml:id="uuid_4d9c01cf-0751-46d1-a6a5-bb8b71d3e1ad">
+            <lb xml:id="uuid_5d6840eb-87e9-43be-8b90-d7d02e7fb855"/><note resp="law-firm"
+               type="paratext">Betr. <rs ref="#11988" type="person">Kraus</rs> – <rs ref="#11910"
+                  type="person">Kerr</rs>
+               <lb xml:id="uuid_1fbb34b5-20a8-496e-a59a-d3bc89c4a642"/>exp. am 5. Okt. 1927.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

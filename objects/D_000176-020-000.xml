@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-021-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-019-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000176-020-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Otto Elias</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                  Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000176-020-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4370</idno>
+            <idno subtype="transkribus" type="ID">349106</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000176" type="collection">Karl
+                    Kraus ca. Städtische Bühnen Essen</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000176-020-000-facs001" xml:id="D_000176-020-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000176-020-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-06-10">10. Juni 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51"/> 
+               </address>
+               <date when-iso="1932-06-10">10. Juni 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38103">Herrn | Dr. Otto Elias, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#60424">Hansastrasse Nr. 50</street>
+                  <settlement ref="#915">Dortmund</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Essener städtische | Bühnen</note>
+               <note type="dictation">Dr.S/Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000176-020-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000176-020-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-07" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-10-27" who="#IL"/>
+         <change type="structure" when-iso="2021-10-01" who="#IL"/>
+         <change type="references" when-iso="2021-10-11" who="#IL"/>
+         <change type="typography" when-iso="021-10-19" who="#IL"/>
+         <change status="draft" when-iso="2020-10-09T14:32:15.76Z" who="#IB">created by API </change>
+         <change when-iso="2021-09-06" who="#LU">Replaced Text with Transcription of Transkribus
+                Document 349106. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000176-020-000-facs001">
+      <surfaceGrp xml:id="D_000176-020-000-facs001-l001">
+         <surface type="recto" xml:id="D_000176-020-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543792/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000176-020-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543793/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="furtherwitnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543794/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543795/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000176-020-000_p001"
+             facs="#D_000176-020-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_6eb6ae76-e1a2-4b0a-a284-a54fbb1bea07">
+            <lb xml:id="uuid_58e252db-d63b-4748-92bf-2de748eb8c49"/>Sehr geehrter Herr <rs ref="#38103" type="person">Kollege</rs>!</p>
+         <p xml:id="uuid_3387bf7f-eb6f-4463-a737-a284dcada808">
+            <lb xml:id="uuid_aa597d3d-4ee0-40c7-8670-1f9678be5a76"/>Ihr <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-018-000"
+                type="work"
+                subtype="legal-doc">Schreiben</rs> vom 6. Juni 1932 habe ich Herrn<lb xml:id="uuid_3dfd38ac-7080-416a-badb-e27758c9d2f2"/><rs ref="#11988" type="person">Kraus</rs> zur Kenntnis gebracht. Er lässt Ihnen herzlichst
+                danken.</p>
+         <p xml:id="uuid_8a4fb67c-7ca2-483f-9bdf-fead892570cb">
+            <lb xml:id="uuid_12851e9b-3686-479f-8e08-f862b11006bb"/>Unterdessen werden Sie ja auch
+            schon meinen<lb xml:id="uuid_48674012-1029-4201-8191-2c5aad883b69"/><rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-019-000" type="work"
+               subtype="legal-doc">Brief</rs> mit der Abschrift des <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-015-000" type="work"
+               subtype="legal-doc">Vertrages</rs> bekommen haben und aus<lb
+               xml:id="uuid_49e9f609-eb75-407b-b6d2-b3b99a0b0eec"/>ihm ersehen, dass ich selbst
+            grosse juristische Bedenken habe,<lb xml:id="uuid_0b582519-9cc9-4d9f-891e-e8d3d6a94281"
+            />eine Zivilklage einzubringen; die Bedenken allerdings mehr in<lb
+               xml:id="uuid_12a2d090-f769-46a6-90b8-118c450b1367"/>der Richtung hin, dass der <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-015-000" type="work"
+               subtype="legal-doc">Vertrag</rs> zwischen der <rs ref="#36971" type="institution"
+                  >Universal<lb break="no" xml:id="uuid_92b22051-689e-4b10-b49e-354d03400d43"
+               />Edition A.G.</rs> und der <rs ref="#37029" type="institution">Essener städtischen
+               Bühne</rs> respektive der<lb xml:id="uuid_422fcb20-cc5d-4c3e-901f-c58f1f4628af"
+            />Stadtgemeinde <rs type="place" ref="#49970">Essen</rs> abgeschlossen wurde und man
+               vielleicht<lb xml:id="uuid_183d8db7-8702-46bc-b781-258623fe9dbe"/>Herrn <rs
+               ref="#11988" type="person">Kraus</rs> die Aktivlegitimation abstreiten könnte. Ob
+               in<lb xml:id="uuid_454cf1fa-36d7-4496-88d6-62d313a78a54"/>der eigenmächtigen
+            Rücksendung des <rs type="work" subtype="pmb" ref="#55390">Werkes</rs>, ohne dass
+               dagegen<lb xml:id="uuid_6b4f9225-b9e8-462b-9a4f-f0a82106e1d5"/>ein Protest erhoben
+            worden wäre, ein stillschweigendes Ein<lb break="no"
+               xml:id="uuid_dbc05907-353f-404e-a9b6-55db81785f45"/>verständnis mit dem Verzicht auf
+            weitere Aufführungsansprüche<lb xml:id="uuid_a41c3f8f-3c1d-4bcd-ac32-b3c2afec0815"/>zu
+            erblicken ist, möchte ich allerdings nach österreichischer<lb
+               xml:id="uuid_a03b08bc-193d-4d84-8645-894c2936e37d"/>Judikatur bestreiten, da Herr <rs
+                  ref="#11988" type="person">Kraus</rs> ja in seinem <rs type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-005-000">Brief</rs> vom<lb
+               xml:id="uuid_b4b64958-eb62-4413-8aeb-cd30cf41ab11"/>6. April 1932 die „<quote
+               source="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-005-000"
+               xml:id="uuid_6420dea9-6a0a-4475-9054-713a260896d4">volle Wiederherstellung des <rs
+                  ref="#55390" type="work" subtype="pmb">Werkes</rs></quote>“ verlangt<lb
+               xml:id="uuid_0bf5ebfc-3738-4865-9ece-50108b142ca9"/>hatte und Stillschweigen als
+            Einverständnis wohl nur dann anzu<lb break="no"
+               xml:id="uuid_3d04bd47-030d-4ac0-8284-f67c8dd47299"/>nehmen ist, wenn eine Pflicht zur
+            unmittelbaren Beantwortung<lb xml:id="uuid_882a2499-022f-413f-b47e-96eeac1493f2"
+            />besteht und das Stillschweigen schlüssig nicht anders als ein<lb
+               xml:id="uuid_6556652a-42ae-4e1d-910b-8f0f5b397ad1"/>Einverständnis erklärt werden
+            kann.</p>
+         <pb xml:id="D_000176-020-000_p002"
+             facs="#D_000176-020-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_394cbd25-d839-47f7-9316-6b887255edd6">
+            <lb xml:id="uuid_d241f53f-434c-4fe4-82b3-41ff0b82d1fb"/>Für die Frage der Führung eines
+               Zivilpro<lb break="no" xml:id="uuid_c6046dd0-5888-4374-9bfe-3ad110dfd130"/>zesses
+            erscheint mir weiter wesentlich der von Ihnen berührte<lb
+               xml:id="uuid_64644efc-216f-4cc7-bf92-37b332c47464"/>Umstand, es müssen Erklärungen
+            von Kommunalbehörden, soweit sie<lb xml:id="uuid_e652e8b1-626f-48f2-ac8c-27ba8cd7278e"
+            />rechtlich verbindender Natur sind, die Unterschriften des Ober<lb break="no"
+               xml:id="uuid_976b3a98-04a7-4814-b215-8c9fd93ea7d1"/>bürgermeisters oder seines
+            Stellvertreters und eines zweiten<lb xml:id="uuid_9db326b4-42ca-4341-ace4-4d845672e191"
+            />Mitgliedes des Magistrats tragen. Dieser Umstand wäre gewiss<lb
+               xml:id="uuid_bdc41340-5a5c-4bb3-9b5d-ef465f36d388"/>nicht ausseracht zu lassen, wenn
+            das <rs ref="#55390" type="work" subtype="pmb">Werk</rs> überhaupt nicht auf<lb
+               break="no" xml:id="uuid_da00e558-4c45-405d-8c1e-50ddabe28180"/>geführt worden wäre
+            und man nunmehr auf Grund des <rs type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-015-000">Vertrages</rs><lb
+               xml:id="uuid_1af05786-8ca1-49b3-8b12-5f8d3fbf4c37"/>auf Erfüllung klagen wollte. Nun
+            ist aber das <rs ref="#55390" type="work" subtype="pmb">Werk</rs> aufgeführt<lb
+               xml:id="uuid_12743219-ce54-4f22-96f7-3c523aec31f0"/>worden, der <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-015-000" type="work"
+               subtype="legal-doc">Vertrag</rs> also erfüllt, aber mangelhaft erfüllt<lb
+               xml:id="uuid_e3b83a58-6ae6-4f07-818c-50bd3c94bd4d"/>worden. Es könnte nach
+            österreichischem Recht keinem Zweifel<lb
+               xml:id="uuid_8611366d-2317-493e-98c9-43ae93c8a4b0"/>unterliegen, dass die fehlende
+            zweite Unterschrift dadurch<lb xml:id="uuid_4f4caa87-fb60-4533-8a17-b0ff3a1a974f"
+            />überflüssig geworden ist, dass das <rs ref="#55390" type="work" subtype="pmb"
+               >Werk</rs> offenbar mit Genehmi<lb break="no"
+               xml:id="uuid_28df60da-1104-4551-a86a-b4e0d23662ae"/>gung des Magistrates aufgeführt
+            wurde. Es ist ja kaum anzu<lb break="no"
+               xml:id="uuid_9cd02408-6fd8-49f3-9c69-47c3880f4d7f"/>nehmen, dass Herr <rs
+               ref="#38784" type="person">Schulz-Dornburg</rs> eigenmächtig und ohne die<lb
+               xml:id="uuid_9cfd5c66-2fa4-43ed-9770-18f98f4bb1fd"/>juristischen Voraussetzungen das
+               <rs ref="#55390" type="work" subtype="pmb">Werk</rs> zur Aufführung gebracht<lb
+               xml:id="uuid_0f942fc3-baf0-417c-a87e-34b601a362ab"/>hat. In solchem Fall könnte nun
+            unbedingt verlangt werden, dass<lb xml:id="uuid_be5bf5d0-d112-4139-be00-bb4b13fc6209"
+            />der Mangel bei der Erfüllung des Vertrages behoben und das<lb
+               xml:id="uuid_9a14845f-8176-40db-908d-00d399be3356"/><rs type="work" subtype="pmb"
+               ref="#55390">Werk</rs> unverstümmelt aufgeführt werde. Ich weiss allerdings nicht,<lb
+               xml:id="uuid_f0788881-64e1-414e-a1e9-854065640cf0"/>ob alle die nach österreichischem
+            Recht zur Anwendung gelangen<lb break="no"
+               xml:id="uuid_0a1643b0-617a-4351-87d6-76299b85f827"/>den Grundsätze auch dem deutschen
+            Recht entsprechen. Ehe Herr<lb xml:id="uuid_4dd21379-decc-4956-a1a6-1bb738429102"/><rs
+               ref="#11988" type="person">Kraus</rs> und ich uns darüber entscheiden, ob ein
+            Zivilprozess zu<lb xml:id="uuid_aa66e3d4-7ead-4856-9ad4-36f9f1ed99f6"/>führen ist,
+            möchte ich Sie also bitten, mir die im letzten <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000176-019-000" type="work"
+               subtype="legal-doc">Brief</rs>
+            <lb xml:id="uuid_60a17cde-59c0-4309-bc22-77ce1e2cf03c"/>und nunmehr verlangten
+            juristischen Aufklärungen zu geben. </p>
+         <p xml:id="uuid_6f510852-d697-4b80-8728-7580cd2f16dd">
+            <lb xml:id="uuid_71c8c96b-8be1-4c40-8cbb-b7222dcc9129"/>Bei dieser Gelegenheit
+                erlaube ich mir die<lb xml:id="uuid_fa613c03-8fe6-4fbe-b752-0b80f5878b89"/>Frage, ob
+                Sie das Strafverfahren gegen Herrn <rs ref="#38784" type="person">Schulz-Dornburg</rs>
+            <lb xml:id="uuid_ceb6ddde-1d15-4519-924b-8780e03b864b"/>und
+                gegen die unbekannten weiteren Täter beantragt haben. </p>
+         <p xml:id="uuid_5bb771a8-7053-4eff-a250-40153349babc">
+            <lb xml:id="uuid_0e4a461e-6cd2-48e2-859d-5c0eaed4e1e7"/>Mit vorzüglicher kollegialer
+                Hochachtung </p>
+         <p xml:id="uuid_fdd3ea8c-4bf7-4b07-bc69-77095f360ed9">
+            <lb xml:id="uuid_38b3195c-7655-4bb4-88f1-b6920054297b"/><note resp="law-firm"
+               type="paratext">Betr. <rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37029"
+                  type="institution">Essener städt. Bühnen</rs>
+               <lb xml:id="uuid_dcfe7a3a-4604-4a27-8618-effde85d6a38"/>exp. 10.6.1932.</note></p>
+      </body>
+   </text>
+</TEI>

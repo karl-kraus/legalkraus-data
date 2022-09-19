@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    next="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-041-000.xml"
+    prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-039-000.xml"
+    xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000134-040-000.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Urteil des Strafbezirksgerichts I Wien (G.Z. 4 U 114/30, Landesgerichtsrat
+                    Leopold Wenger)</title>
+                <editor ref="#AR">Alexandra Rausch</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+                </availability>
+                <idno subtype="legalkraus" type="URL"
+                    >https://id.acdh.oeaw.ac.at/legalkraus/D_000134-040-000.xml</idno>
+                <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/urteil-des-strafbezirksgerichts-i-wien-g-z4-u-11430-landesgerichtsrat-leopold-wenger </idno>
+                <idno subtype="transkribus" type="ID">437411</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000134" type="collection">Paul
+                    Amadeus Pisk ca. Karl Kraus</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc status="draft">
+                    <ab type="stamp">
+                        <stamp source="#50491" xml:id="uuid_bb832df0-7f53-40a0-81ee-08c07a363973"/>
+                    </ab>
+                    <physDesc>
+                        <ab type="materiality">
+                            <objectType source="D_000134-040-000-wit01"
+                                ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHU"
+                                >Durchschlag mit handschriftlichen Überarbeitungen</objectType>
+                            <objectType source="D_000134-040-000-wit01"
+                                ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHN"
+                                >Durchschlag mit handschriftlichen Annotationen</objectType>
+                        </ab>
+                    </physDesc>
+                </msDesc>
+                <listWit>
+                    <witness facs="#D_000134-040-000-facs001" xml:id="D_000134-040-000-wit01"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date subtype="produced" type="sortDate" when-iso="1930-12-04">4. Dezember
+                    1930</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term source="D_000134-040-000-wit01">Urteil</term>
+                </keywords>
+                <classCode source="D_000134-040-000-wit01"
+                    scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.URT"
+                    >D.J.URT</classCode>
+            </textClass>
+            <handNotes>
+                <handNote xml:id="D_000134-040-000-hand01" source="#D_000134-040-000-wit01" scribeRef="#" medium="black-ink" cert="high" resp="#JK"></handNote>
+                <handNote xml:id="D_000134-040-000-hand02" source="#D_000134-040-000-wit01" scribeRef="#" medium="blue-pencil" cert="high" resp="#JK"></handNote>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            <change resp="#LU" when-iso="2021-09-13" status="draft">created XML Document</change>
+            <change resp="#LU" when-iso="2021-09-13" status="draft">Replaced Text with Transcription
+                of Transkribus Document 437411. </change>
+            <change status="draft" type="header_facsimile" when-iso="2022-02-15" who="#AR"/>
+            <change status="draft" type="typography" when-iso="2022-02-15" who="#AR"/>
+            <change status="draft" type="references" when-iso="2022-02-15" who="#AR"/>
+            <change status="draft" type="structure" when-iso="2022-02-15" who="#AR"/>
+            <change status="draft" type="intertexts" when-iso="2022-02-15" who="#AR"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000134-040-000-facs001">
+        <surfaceGrp xml:id="D_000134-040-000-facs001-l001">
+            <surface xml:id="D_000134-040-000-facs001-l001-p001" type="recto">
+                <graphic
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558431/full/full/0/default.jpg"
+                    source="wienbibliothek"/>
+            </surface>
+            <surface xml:id="D_000134-040-000-facs001-l001-p002" type="verso">
+                <graphic
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558432/full/full/0/default.jpg"
+                    source="wienbibliothek"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000134-040-000-facs001-l002">
+            <surface xml:id="D_000134-040-000-facs001-l002-p003" type="recto">
+                <graphic
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558433/full/full/0/default.jpg"
+                    source="wienbibliothek"/>
+            </surface>
+            <surface xml:id="D_000134-040-000-facs001-l002-p004" type="verso">
+                <graphic
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558434/full/full/0/default.jpg"
+                    source="wienbibliothek"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000134-040-000-facs001-l003">
+            <surface xml:id="D_000134-040-000-facs001-l003-p005" type="recto">
+                <graphic
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558435/full/full/0/default.jpg"
+                    source="wienbibliothek"/>
+            </surface>
+            <surface xml:id="D_000134-040-000-facs001-l003-p006" type="verso">
+                <graphic
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558436/full/full/0/default.jpg"
+                    source="wienbibliothek"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000134-040-000-facs001-l004">
+            <surface xml:id="D_000134-040-000-facs001-l004-p007" type="recto">
+                <graphic
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558437/full/full/0/default.jpg"
+                    source="wienbibliothek"/>
+            </surface>
+            <surface xml:id="D_000134-040-000-facs001-l004-p008" type="verso">
+                <graphic
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2558438/full/full/0/default.jpg"
+                    source="wienbibliothek"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb xml:id="D_000134-040-000_p001" facs="#D_000134-040-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_c0fc4867-0071-4abd-a713-76f2931ca2f5">
+                <lb xml:id="uuid_9e54fb9a-1f7d-4bfd-bac9-f7c0ff80a595"/>Geschäftszahl 4 U 114/30</p>
+            <p xml:id="uuid_35bbeefe-73fe-4b88-a787-d3bba0d5b669">
+                <lb xml:id="uuid_6fbad35d-3f12-44a4-bcd8-21a15cd73982"/>Im Namen der Republik!</p>
+            <p xml:id="uuid_f9ca221d-60ec-49ee-8417-6adad1c70e93">
+                <lb xml:id="uuid_2f34bfe8-b901-4080-bd8e-35d48c9438fd"/>Das <rs type="institution"
+                    ref="#50491">Strafbezirksgericht I</rs> in <rs type="place" ref="#50">Wien</rs>
+                hat heute in Gegenwart<lb xml:id="uuid_9361a058-3cd9-4a23-8126-b2b897026dd5"/>des
+                staatsanw. Funktionärs ./.<lb xml:id="uuid_e20aa6ab-9265-40a0-9adb-1b18bfaf041d"
+                />des Privatanklägers Dr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/39325"
+                    type="person">Paul Amadeus Pisk</rs> vertr. Dr. <rs type="person" ref="#57697"
+                    >Otto Pisk</rs>
+                <lb xml:id="uuid_2176edd2-f650-450f-b081-85d600f227d8"/>des Privatbeteiligten ./.<lb
+                    xml:id="uuid_db7c76e6-66b5-44f1-92a3-3731cfb83355"/>des Angeklagten <rs
+                    type="person" ref="#11988">Karl Kraus</rs> n.e.<lb
+                    xml:id="uuid_94352c9b-e2d4-4857-b420-00fe73f5494b"/>und des Verteidigers Dr. <rs
+                    type="person" ref="#38909">Samek</rs>
+                <lb xml:id="uuid_43161535-201d-40ff-8d5f-706ef3e3183a"/>über die Anklage verhandelt,
+                die der <rs type="person" ref="#39325">Privat<lb
+                        xml:id="uuid_ec33ba0d-c636-4b0b-a7f3-87b52b49d2a1" break="no"/>ankläger</rs>
+                    gegen<lb xml:id="uuid_063598dc-603f-4b20-bdb6-ae661037717b"/><rs type="person"
+                    ref="#11988">Karl Kraus</rs>, 56 Jahre alt, <rs type="place" ref="#41660"
+                    >Dzidzin Csl.</rs> geb. kfl. ledig,<lb
+                    xml:id="uuid_4dcf0cf0-1ad1-471c-86ec-4660ef1a08dc"/><rs type="place" ref="#50"
+                    >Wien</rs> wohnhaft vorbestraft<lb
+                    xml:id="uuid_728209ce-a228-4893-a975-be2f55f283e0"/>wegen der Übertretung gegen
+                die Sicherheit der Ehre erhoben hatte,<lb
+                    xml:id="uuid_2ad63c03-deb3-4de7-8611-5f3643cdd46a"/>und über den vom <rs
+                    type="person" ref="#39325">Ankläger</rs> gestellten Antrag auf Bestrafung<lb
+                    xml:id="uuid_279e7e7a-466d-40d3-865b-3f46f56fddff"/>und den Antrag des
+                Privatbeteiligten auf Zuspruch von<lb
+                    xml:id="uuid_09eb3830-6e25-49a5-a8ab-ecb290c04ea4"/>zu Recht erkannt: </p>
+            <p xml:id="uuid_c4ce99dd-3563-4c39-8165-372700489af6">
+                <lb xml:id="uuid_84bce018-c879-41c8-9516-6b64c9b3c016"/>Der Angeklagte <rs
+                    type="person" ref="#11988">Karl Kraus</rs> ist schuldig, in <rs type="place"
+                    ref="#50">Wien</rs> im Saale<lb
+                    xml:id="uuid_b1e94f85-afc3-45d3-8dd8-d5233e43ca25"/>des Ingenieur und
+                Architektenvereines schon öffentlich<lb
+                    xml:id="uuid_45931602-51e9-4776-9bd2-9b3d116af2c4"/>durch nachstehende in Bezug
+                auf den P.A. <rs type="person" ref="#39325">Paul A. Pisk</rs>
+                <lb xml:id="uuid_cbfb18b5-2030-41e6-9972-e3113a8fbe12"/>erfolgten Äusserungen und
+                zwar: </p>
+            <p xml:id="uuid_97ab4799-fed8-443c-8907-6074950e6629">
+                <lb xml:id="uuid_3788e304-02b3-449b-ae21-a7640026be31"/>a) am 7.VI.1929 durch die
+                Äusserung: „<q type="spoken" who="#11988">denn ein <rs type="person" ref="#39325"
+                        >Vertreter</rs>
+                    <lb xml:id="uuid_fc6cc51c-6470-4278-bb4a-81cad36a994e"/>des <rs
+                        type="institution" ref="#29644">Zentralorganes</rs>, ein Schlieferl ist hier
+                    im Saale anwesend</q>“ </p>
+            <p xml:id="uuid_b9439bc2-e2b2-4398-9160-6d445165b703">
+                <lb xml:id="uuid_56d98fc8-7942-4372-9a49-065ea7054f77"/>b) am 19.VI.1929 durch die
+                Äusserung: „<q type="spoken" who="#11988">Das Schlieferl<lb
+                        xml:id="uuid_65b9caef-0029-4df0-b241-486fe4ede694"/>schreibt, das [???] in
+                    solcher Fachkritik eine Petite eine<lb
+                        xml:id="uuid_4ea8a384-625b-4a05-8aa7-228de7010edb"/>Correpetite erkenne,
+                    diese armen Teufel nennen sich Fachmänner<lb
+                        xml:id="uuid_fef09b2f-b968-4bc5-813c-7f6e0c3cba11"/>mit ihrem armseligen
+                    Fachwissen, Schlieferl und Tinterprak<lb
+                        xml:id="uuid_018b01a6-2822-4887-9554-8e94877c4314" break="no"/>tiken,
+                    kümmerlicher <rs type="person" ref="#12743">Schönberg</rs>schüler</q> und
+                wiederholten Ge-<pb xml:id="D_000134-040-000_p002"
+                    facs="#D_000134-040-000-facs001-l001-p002" n="2"/><lb
+                    xml:id="uuid_628857e6-4e83-4d86-9589-c83b1a004293"/>brauch der Äusserung
+                Schlieferl, denselben verächtlicher<lb
+                    xml:id="uuid_f45443a3-66b1-473f-bfbb-c48469b23196"/>Eigenschaften und
+                Gesinnungen geziehen zu haben.</p>
+            <p xml:id="uuid_de3dbc2b-9b3f-45f1-9782-5f8aa553b0ed"><lb
+                    xml:id="uuid_85447d7b-74d3-43ac-8a9c-459811c8c52d"/>Er hat hiedurch die
+                Uebertretungen gegen die Sicherheit der<lb
+                    xml:id="uuid_af14be70-9377-47a9-a13a-8a462bcd7cb9"/>Ehre nach <rs type="law"
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1852&amp;page=668&amp;size=45"
+                    >§ 491 St.G.</rs> begangen und wird gemäß <rs type="law"
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1852&amp;page=668&amp;size=45"
+                    >§ 493 St.G.</rs>
+                <lb xml:id="uuid_77ea3c2d-be9e-4636-beae-050dbfe4cda5"/>uter Anwendung der <rs
+                    type="law"
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1852&amp;page=628&amp;size=45"
+                    >§§ 261 St.G.</rs> zu <lb xml:id="uuid_080e64f9-829f-4d65-96db-1780e8e9db69"/>S
+                500.– (fünfhundert Schilling) <lb xml:id="uuid_6adac9a7-a9e7-4fbb-93e0-7ff0a2605034"
+                />im N.E.F. 1 Woche Arrest<lb xml:id="uuid_d5b2c3e4-464b-45eb-b717-2054f0f83bfb"
+                />und gemäss <rs type="law"
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1873&amp;page=531&amp;size=45"
+                    >§ 389 St.P.O.</rs> zum Ersatze der Kosten des<lb
+                    xml:id="uuid_45e42c13-a087-4136-91e9-837a2c43ec61"/>Strafverfahren und
+                Strafvollzuges verurteilt. </p>
+            <p xml:id="uuid_48b31c35-5231-47c4-96b7-35c5c3a0c96f">
+                <lb xml:id="uuid_52b485fe-0278-4080-a19f-a9d1b6e29612"/><hi rend="underlined"><hi
+                        rend="spaced">Gründ</hi>e</hi>
+            </p>
+            <p xml:id="uuid_45f8c72c-abfc-427c-8315-f5f1b4faaf42">
+                <lb xml:id="uuid_55bd3704-bdc2-490f-8c1d-e29e902a4256"/>Auf Grund der Verantwortung
+                des <rs type="person" ref="#11988">Beschuldigten</rs> im Zusammen<lb
+                    xml:id="uuid_4224948d-93a2-4d60-b20f-d2e223ec3aa6" break="no"/>halte mit den
+                Aussagen sämtlicher vernommener Zeugen ist<lb
+                    xml:id="uuid_4352a3f1-95bb-464e-aa90-1ce709083cd7"/>zunächst festgestellt und
+                erwiesen, dass der Angeklagte<lb xml:id="uuid_4053099e-07e2-4900-a17a-75ececf549dc"
+                    /><rs type="person" ref="#11988">Karl Kraus</rs> im Ingenieur und
+                Architektenvereinssaale einen<lb xml:id="uuid_5151d119-ad19-4c16-8376-d8806a4a2a5e"
+                />Vortrag über <rs type="person" ref="#9131">Offenbach</rs> Operetten gehalten hat
+                und im Verlaufe<lb xml:id="uuid_b00154c5-78e0-47be-9a56-2ec20885d924"/>desselben am
+                7. und 10. Juni 1930 im allgemeinen, die in<lb
+                    xml:id="uuid_25e3977e-cf7a-46fd-8068-06f7d29e5063"/>der <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-001-000" subtype="legal-doc"
+                    >Anklage</rs> erwähnten Äusserungen als Kritik abgegeben hat.<lb
+                    xml:id="uuid_3abde805-6503-4ea1-be00-20d26f2ba608"/>Der <rs type="person"
+                    ref="#11988">Angeklagte</rs> bestreitet, dass diese Kritik genau demselben<lb
+                    xml:id="uuid_a16af41d-a291-4cb8-bc90-8e7ea1c149c0"/>Wortlaute, wie er in der <rs
+                    type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-001-000"
+                    subtype="legal-doc">Anklage</rs> angegeben ist, gehabt hat,<lb
+                    xml:id="uuid_bfe5e50f-46c6-439c-a600-c96de2a4f740"/>und insbesondere, dass diese
+                Äusserungen derart gehalten<lb xml:id="uuid_5166512d-8fff-4f3c-8a28-53d4fe0a3e5f"
+                />waren, dass aus denselben und den Begleitumständen für<lb
+                    xml:id="uuid_86982528-f1ca-4694-a3cb-2951627e3118"/>die Oeffentlichkeit
+                erkennbar gewesen sei, dass sie sich nur<lb
+                    xml:id="uuid_03f913d4-c99c-43cf-bd3c-7ae196cb7daa"/>auf den <rs type="person"
+                    ref="#39325">P.A.</rs> bezogen haben können. Hinsichtlich des Vorfalles<lb
+                    xml:id="uuid_52ae32c4-9d98-4822-87fb-fab0a822d9ff"/>vom 10. Juni 1930 wird vom
+                    <rs type="person" ref="#11988">Angeklagten</rs> allerdings nicht<lb
+                    xml:id="uuid_0105ec0e-de1c-4970-829d-f9b20e0fc6eb"/>bestritten, dass er die
+                seitens des <rs type="person" ref="#39325">P.A.</rs> in der <rs type="work"
+                    ref="#41202" subtype="pmb">Arbeiter<lb
+                        xml:id="uuid_6e58922c-3009-4c96-b8fa-15c26f844629" break="no"/>zeitung vom
+                    9. Juni 1930</rs> erschienene <rs type="work" ref="#57723" subtype="pmb"
+                    >Kritik</rs> im Saale verteilen<lb
+                    xml:id="uuid_79931f64-c3dc-4f5e-bfab-392476407636"/>liess, diese <rs type="work"
+                    ref="#57723" subtype="pmb">Kritik</rs> auch besprochen hat und einer weiteren<lb
+                    xml:id="uuid_816f4e48-1a1e-4cb5-8fef-9add470145f5"/>Kritik seinerseits
+                unterzogen hat. Doch seien seine Bemerkun<lb
+                    xml:id="uuid_1019dce0-c4b7-41b5-b344-82f41490c267" break="no"/>gen derart
+                allgemeiner Natur gewesen, dass unter den Ausdrücken <pb
+                    xml:id="D_000134-040-000_p003" facs="#D_000134-040-000-facs001-l002-p003" n="3"/>
+                <lb xml:id="uuid_4aee15bf-5de7-4e0c-86ab-368b97ada445"/>armseliges Fachwissen,
+                Tinterl und Praktikentum, Schlieferltum<lb
+                    xml:id="uuid_939495a6-cf01-4919-8687-836a8cc4d1d0"/>nicht der <rs type="person"
+                    ref="#39325">P.A.</rs> erkennbar gewesen sei, und dass mit der<lb
+                    xml:id="uuid_d802d0eb-5a8d-451e-8ef5-496d5b251af7"/>Aeusserung: „<q
+                    type="spoken" who="#11988">einer aus der <rs type="institution" ref="#29644"
+                        >Arbeiterzeitung</rs> usw …</q>“<lb
+                    xml:id="uuid_49e69dff-ada3-46ec-9864-ac56a50451bf"/>nur derjenige Kenntnis haben
+                konnte, dass <rs type="person" ref="#39325">P.A.</rs> gemeint war,<lb
+                    xml:id="uuid_cb356b81-90d6-4ee0-b2de-e2c73c727a35"/>welcher wusste, dass <rs
+                    type="person" ref="#39325">P.A.</rs> in der früheren Vorlesung des<lb
+                    xml:id="uuid_9b62c059-04b2-41ba-93db-07464d33b9fb"/><rs type="person"
+                    ref="#11988">Beschuldigten</rs> anwesend war und an einer Zusatzstrophe
+                    Anstoss<lb xml:id="uuid_4e01420e-53b9-4e82-8071-576a32365d0f"/>genommen hat.
+                Seitens des <rs type="person" ref="#11988">Angeklagten</rs> werden jedoch
+                    unbedingt<lb xml:id="uuid_edb4df3b-460d-498f-a194-a41a275d6cc9"/>bestritten die
+                Äusserungen kümmerlicher <rs type="person" ref="#12743">Schönberg</rs>schüler und<lb
+                    xml:id="uuid_604d2604-84c5-4f0b-876f-b5f93bed6ea5"/>die Äusserung: „<quote
+                    xml:id="uuid_39df683c-c093-4e36-b504-885f7ffc602a"
+                    source="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-001-000.xml">Das
+                    Schlieferl schreibt</quote>“. Der <rs type="person" ref="#11988">Angeklagte</rs>
+                <lb xml:id="uuid_8715c410-4076-4567-b090-84fb46ee40ab"/>verweist diesbezüglich auf
+                die in den <rs type="work" ref="https://fackel.oeaw.ac.at/f/811,0u1"
+                    subtype="fackel">Fackel Nummer 811 bis<lb
+                        xml:id="uuid_4faccafb-eb0f-43e0-8b5c-655eac36a3eb"/>819</rs> auf <rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/811,075" subtype="fackel">Seite
+                    75</rs> bis <rs type="work" subtype="fackel"
+                    ref="https://fackel.oeaw.ac.at/f/811,084">84</rs> zum Abdruck gelangten
+                Vorträge, und<lb xml:id="uuid_284350a1-db81-4d29-a705-2a171e362b3a"/>insbesondere
+                darauf, dass es seit jeher Gewohnheit des<lb
+                    xml:id="uuid_77d1a1ae-7387-4595-8268-a494f19ffe77"/><rs type="person"
+                    ref="#11988">Beschuldigten</rs> sei, seine Vorträge aus dem Manuskripte abzu<lb
+                    xml:id="uuid_0b54c42f-16a9-4b8b-8b4a-a93289181cc8" break="no"/>lesen und dieses
+                Manuskript zum Abdrucke in den <rs type="work" ref="#41244" subtype="pmb"
+                    >Fackeln</rs>
+                <lb xml:id="uuid_fa26d183-3b42-41e5-8b64-e7c6d2291927"/>zu bringen. Diese seien
+                schon der geeignetste Beweis für die<lb
+                    xml:id="uuid_238c95f3-8c16-478f-9b17-4326048deac6"/>Wiederholung der von der <rs
+                    type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-001-000"
+                    subtype="legal-doc">Anklage</rs>
+                <add hand="#D_000134-040-000-hand01">auf</add>gestellten Behauptungen.<lb
+                    xml:id="uuid_dac9f19a-5139-47fc-982a-51078880618a"/>Was den Vorfall vom 7. Juni
+                anlangt, so hat die Zeugin <rs type="person" ref="#43645">Johanna<lb
+                        xml:id="uuid_023483c0-c1e7-419b-b9c8-a8fa66f53915"/>Schwarz</rs> jedoch
+                ausdrücklich bestätigt, dass der <rs type="person" ref="#11988">Beschuldigte</rs>
+                <lb xml:id="uuid_de53dfe2-4f6e-4467-b9cc-ae19c6145d73"/>nicht nur Schlieferl,
+                sondern ausdrücklich gesagt hat „<q type="spoken" who="#11988">Ein<lb
+                        xml:id="uuid_4b0b49ea-0ac1-41cc-a75d-7b40ca8946ba"/><hi rend="underlined"
+                            hand="#D_000134-040-000-hand02">Schlieferl hat sich in den Saal verirrt</hi></q>“ und ferner: „<q
+                            type="spoken" who="#11988"><hi rend="underlined" hand="#D_000134-040-000-hand02">Es<lb
+                            xml:id="uuid_c79b8d84-61ab-4a18-8cd1-bc1c8107cbfc"/>wird Ihnen morgen
+                        ein Schlieferl erzählen, dass ich nicht<lb
+                            xml:id="uuid_dc614155-bb21-4493-895f-6fe2886470ed"/>singen
+                kann</hi></q>“. Diese <rs type="person" ref="#43645">Zeugin</rs> hat auch ihre
+                damalige Wahrnehmung<lb xml:id="uuid_65614cee-f97e-4ee1-88cb-5f7025fec7b4"
+                />schriftlich niedergelegt, dieselben sind vom 10. November 1929<lb
+                    xml:id="uuid_51ad6340-3b76-4043-87d7-8066fc5818df"/>datiert und mit <rs
+                    type="person" ref="#43645">Johanna Schwarz</rs> unterfertigt. Ausserdem hat<lb
+                    xml:id="uuid_5fcf0a74-4c63-4a20-adec-2dc97b10c733"/>auch <rs type="person"
+                    ref="#39325">P.A.</rs> als Zeuge deponiert, dass er Musikreferent der<lb
+                    xml:id="uuid_0b297b0d-79b1-4335-86c5-af3a42abdada"/><rs type="institution"
+                    ref="#29644">Arbeiterzeitung</rs> ist, diese Tatsache auch der Öffentlichkeit<lb
+                    xml:id="uuid_93c0d246-29eb-4661-80a8-622baf184fbb"/>bekannt ist, weshalb das <rs
+                    type="institution" ref="#50491">Gericht</rs> mit Rücksicht auf diese<lb
+                    xml:id="uuid_93e23c34-a4a1-46f5-8c65-4cfd0a4fc88b"/>beiden Zeugenaussagen und
+                insbesondere den Umstand, dass<lb xml:id="uuid_982c15ea-3b04-43a6-8ab8-7bf73923c45f"
+                    /><rs type="person" ref="#11988">Angeklagter</rs> 3 Tage nachher nämlich am 10.
+                Juni 1929 einen<lb xml:id="uuid_26608b3b-ddc7-4927-8fab-469b3b528733"/>vom <rs
+                    type="person" ref="#39325">P.A.</rs> mit vollen Namen gezeichneten <rs
+                    type="work" ref="#57723" subtype="pmb">Artikel</rs> der <rs type="work"
+                    ref="#41202" subtype="pmb">Arbeiter<lb
+                        xml:id="uuid_a73106f9-554a-432e-b76c-86bea7ee4886" break="no"/>zeitung</rs>
+                besprochen hat, annehmen musste, dass unter Schlieferl <pb
+                    xml:id="D_000134-040-000_p004" facs="#D_000134-040-000-facs001-l002-p004" n="4"/>
+                <lb xml:id="uuid_848be5f6-812d-4a4b-873c-ca5b22ef9277"/>nur der <rs type="person"
+                    ref="#39325">P.A.</rs> erkennbar sein konnte. </p>
+            <p xml:id="uuid_80e5deff-5abe-4221-b7d5-1c3d555a5948">
+                <lb xml:id="uuid_52d10cd7-b178-4c83-9875-5c0490a30436"/>Auf Grund der Aussage der
+                Zeugin <rs type="person" ref="#51578">Gropper</rs> und der Zeugen<lb
+                    xml:id="uuid_0044aec9-5315-4b86-856c-3123b709b454"/><rs type="person"
+                    ref="#57711">Fritz Löwy</rs> und <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/43629" type="person">Otto
+                    Silbermann</rs> ist ferner festgestellt<lb
+                    xml:id="uuid_11ee4497-1778-4e64-abce-aa7e8b2d5f7c"/>und erwiesen, dass der <rs
+                    type="person" ref="#11988">Beschuldigte</rs> den <rs type="work" ref="#57723"
+                    subtype="pmb">Artikel</rs> vom 9. Juni<lb
+                    xml:id="uuid_5d95585e-201f-4197-a3f1-6be81dfd73ba"/>welcher eine Kritik des <rs
+                    type="person" ref="#39325">P.A.</rs> über den früheren Vortrag des<lb
+                    xml:id="uuid_4c3d3cf9-bfdd-43fa-b041-6521041184be"/><rs type="person"
+                    ref="#11988">Beschuldigten</rs> beinhaltet und mit seinem Namen unterfertigt<lb
+                    xml:id="uuid_6bf110fc-352a-462d-8d93-6e4026f943fb"/>ist, im Saale verteilen
+                liess und anknüpfend daran, einer<lb
+                    xml:id="uuid_493b9031-2aa1-4aa7-ac13-3db79e47ce87"/>Kritik unterzogen hat, wobei
+                die in der <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-001-000" subtype="legal-doc"
+                    >Anklage</rs> erwähnten<lb xml:id="uuid_406738a5-2ce7-4bf2-98d4-22bde9b87645"
+                />Äusserungen und zwar auch kümmerlicher <rs type="person" ref="#12743"
+                    >Schönberg</rs>schüler<lb xml:id="uuid_bcc94e92-6af2-413b-ac4c-10cc08676b19"
+                />gefallen sind. Es unterliegt keinem Zweifel, dass dem <rs type="person"
+                    ref="#11988">Ange<lb xml:id="uuid_a6ff3272-e3b2-4b33-8b89-6065f90510d0"
+                        break="no"/>klagten</rs> hiebei die Absicht geleitet haben muss, den <rs
+                    type="person" ref="#39325">P.A.</rs>
+                <lb xml:id="uuid_7bf3c46f-32a5-43a6-976c-f86d14a66e1d"/>persönlich einer Kritik zu
+                unterziehen und dieser Umstand<lb xml:id="uuid_b4577e60-6f59-4627-aa7c-f3c70f3e2ba9"
+                />insbesondere darin zum Ausdruck gekommen ist, dass diese<lb
+                    xml:id="uuid_35a2ba20-85ff-4859-9c89-87a5175b5d7e"/>Kritik <hi rend="underlined"
+                        hand="#D_000134-040-000-hand02">anschliessend</hi> an die Besprechung des <rs type="work" ref="#57723"
+                    subtype="pmb">Artikels</rs> des <rs type="person" ref="#39325">P.A.</rs>
+                <lb xml:id="uuid_56014521-694c-4561-8b83-3bdd7ce2b7ae"/>erfolgt ist und die
+                Zuhörerschaft den <rs type="person" ref="#39325">P.A.</rs> als den Ver<lb
+                    xml:id="uuid_7d90b54a-7766-4b49-b901-359b648d740c" break="no"/>spotteten ansehen
+                muss. </p>
+            <p xml:id="uuid_8c4d959d-41ed-4d2c-badb-8d34c5354072">
+                <lb xml:id="uuid_f3d68135-c3f2-4af8-9136-de6ecef22107"/>Das <rs type="institution"
+                    ref="#50491">Gericht</rs> hatte hinsichtlich der Angaben der Zeugin <rs
+                    type="person" ref="#51578">Gropper</rs>
+                <lb xml:id="uuid_34297990-80c4-4352-94dd-2847c003a7c7"/>umsoweniger Bedenken, als
+                diese <rs type="person" ref="#51578">Zeugin</rs> ausdrücklich angab,<lb
+                    xml:id="uuid_5a73cec0-a31a-469f-b2aa-298d1dc872f8"/>sie habe diesen Vortrag in
+                erster Linie deshalb angehört,<lb xml:id="uuid_d031ea1f-1730-42b3-9910-a03fb1cc9884"
+                />um gerade diejenigen Bemerkungen, die sich auf die <rs type="institution"
+                    ref="#29644">Arbeiter-<lb xml:id="uuid_a916349c-5b4f-492d-9d1a-8f9e3da9a96c"
+                    />Zeitung</rs> bezw. auf den <rs type="person" ref="#39325">P.A.</rs> bezogen
+                haben, stenografisch fest<lb xml:id="uuid_98ac760e-f3bc-420c-b8e0-29398dc51580"
+                    break="no"/>zuhalten. Auffallend ist auch, dass der <rs type="person"
+                    ref="#11988">Beschuldigte</rs> bei<lb
+                    xml:id="uuid_541fc22a-8f54-4a20-aa1d-a95958adb8dd"/>dieser Gelegenheit die
+                charakteristische Bemerkung machte:<lb
+                    xml:id="uuid_425288d8-ec1d-400f-8cc5-d9c36881acac"/><metamark
+                        function="marginal" hand="#D_000134-040-000-hand02" rend="marginLeft"/>„<q type="spoken" who="#11988">Ich weiss
+                    nicht, ob sich das <rs type="person" ref="#39325">Schlieferl</rs>
+                    <hi rend="underlined">wieder</hi> in den Saal<lb
+                        xml:id="uuid_b12b54f5-cdab-4800-a0c1-61b939c672db"/>verirrt hat.</q>“ Diese
+                Aussagen finden eine glaubwürdige Er<lb
+                    xml:id="uuid_4c2702f6-13e9-40ba-9402-8fd78202e0f8" break="no"/>gänzung und
+                Stütze in den Deponierungen der Zeugen <rs type="person" ref="#57711">Löwy</rs>
+                    und<lb xml:id="uuid_4c78a994-5abe-4693-b738-5d9554ac3082"/><rs type="person"
+                    ref="#43629">Silbermann</rs>. </p>
+            <p xml:id="uuid_8167bcf3-cf64-481e-a36a-10e912e4cb6c">
+                <lb xml:id="uuid_9a70e9af-5623-452c-88db-5045cbee63e9"/>Hiezu kommt noch, dass <add
+                    hand="#D_000134-040-000-hand01">selbst</add> einer vom <rs type="person"
+                    ref="#11988">Beschuldigten</rs> geführter Zeuge<lb
+                    xml:id="uuid_64b83112-5328-4238-9cb3-ee0a92ab3273"/>Dr. <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/41669" type="person">Karl Jaray</rs>,
+                der bei beiden Vortragsabenden anwesend war,<lb
+                    xml:id="uuid_dd5a26c1-5ce5-40d9-88a1-abc9832183b9"/>erwähnte, der <rs
+                    type="person" ref="#11988">Beschuldigte</rs> habe am 7. Juni bei der <rs
+                    type="work" ref="#54326" subtype="pmb">Blaubart</rs>
+                <lb xml:id="uuid_a395a579-a310-4291-9258-023fcb707afc"/>Vorlesung in der Ansprache
+                des Grafen Oskar an die Höflinge:<lb
+                    xml:id="uuid_a8886ae2-ed29-491f-a1de-be4d0769de30"/>gesagt: „<q type="spoken"
+                    who="#11988">Ein Vertreter des Zentralorganes (<rs type="institution"
+                        ref="#29644">Arbeiterzeitung</rs>)<lb
+                        xml:id="uuid_6d1c15e3-389d-47ba-a896-dc060ed5aafe"/>ein Schlieferl hat sich
+                    in den Saal verirrt, jetzt werden die <pb xml:id="D_000134-040-000_p005"
+                        facs="#D_000134-040-000-facs001-l003-p005" n="5"/>
+                    <lb xml:id="uuid_f8a51d90-ab2a-46da-ad5b-78ad2a1e4a8b"/>Informationen dieses <rs
+                        type="work" ref="#41202" subtype="pmb">Blattes</rs> anders klingen.</q>“
+                    Allerdings<lb xml:id="uuid_4be83061-61e2-449e-af31-cfcfaaf3ed23"/>behauptet
+                dieser <rs type="person" ref="#41669">Zeuge</rs>, der <rs type="person" ref="#11988"
+                    >Beschuldigte</rs> ha<subst hand="#D_000134-040-000-hand01">
+                    <del hand="#D_000134-040-000-hand01">tt</del>
+                    <add hand="#D_000134-040-000-hand01">b</add>
+                </subst>e nicht gesagt:<lb xml:id="uuid_32f165d8-d296-440e-9bde-558b8d64fd51"
+                    />„<quote xml:id="uuid_af25ad18-b9e1-49d5-a838-1062434ac06c"
+                    source="https://id.acdh.oeaw.ac.at/legalkraus/D_000134-001-000.xml">Das
+                    Schlieferl schreibt</quote>“ vielmehr sprach er nur ganz<lb
+                    xml:id="uuid_5e9f6801-58fc-413c-b651-94427af32d0e"/>allgemein vom
+                Schlieferlgeist und nicht von einem bestimmten<lb
+                    xml:id="uuid_642dbbfb-b5fa-45a4-9c48-080a42bacce7"/>Schlieferl. Ferner seien die
+                Vorlesungen des <rs type="person" ref="#11988">Beschuldigten</rs>
+                <lb xml:id="uuid_cba272ce-bc36-4823-a1a4-23bbd301b905"/>stets wörtlich dann später
+                in der <rs type="work" ref="#41244" subtype="pmb">Fackel</rs> zum Abdruck
+                    gelangt.<lb xml:id="uuid_b0b954bf-b7fc-4cef-92d7-93f05bcf64d2"/>Die vom <rs
+                    type="person" ref="#11988">Angeklagten</rs> weiters geführten Zeugen bestätigen
+                    im<lb xml:id="uuid_1b822419-faf2-4bcb-8b7a-1516799b4c40"/>allgemeinen die
+                Wiedergabe der Äusserung des <rs type="person" ref="#11988">Beschuldigten</rs>
+                <lb xml:id="uuid_8c9b6ea9-cc97-43c2-86a3-cc16768193f9"/>im Sinne seiner eigenen
+                Verantwortung, doch konnte das <rs type="institution" ref="#50491">Gericht</rs>
+                <lb xml:id="uuid_36357dbb-f040-462d-b6ba-d36a01b1e00e"/>diesen Aussagen keine
+                Bedeutung beilegen, da diese Zeugen<lb
+                    xml:id="uuid_b55f2b33-6c24-4a02-bc1e-e11fc64009cf"/>im allgemeinen nur den
+                Inhalt der Äusserungen so wie sie in <add hand="#D_000134-040-000-hand01"
+                    >der</add><lb xml:id="uuid_764a8e14-fe2a-4bf4-9607-612641bfbc83"/><rs
+                    type="work" ref="https://fackel.oeaw.ac.at/f/811,0u1" subtype="fackel"
+                    >Fackel</rs> erwähnt sind, wiedergeben und ihnen zweifellos hiebei<lb
+                    xml:id="uuid_382d247b-9d53-4428-9fff-6e3f85a9850a"/>mit Rücksicht auf den
+                Zeitablauf Irrtümer unterlaufen sein<lb
+                    xml:id="uuid_65852133-8dab-4cfb-904d-14c2dd9aa429"/>können. Es sind sohin diese
+                Aussagen nicht geeignet, die<lb xml:id="uuid_32c65856-fb61-4ef0-80ec-2c7b1200ac7d"
+                />verlässlichen Angaben der Zeugin <rs type="person" ref="#51578">Gropper</rs>,
+                welche stenografisch<lb xml:id="uuid_1102a45a-ceaf-42af-a8a6-5c4056909802"
+                />festgehalten sind, zu widerlegen. </p>
+            <p xml:id="uuid_f50a0a9e-02cc-4573-98fc-0cf131c5e02f">
+                <lb xml:id="uuid_e6b4f350-6602-4a03-8cc1-480a6e4c3e72"/>Der seitens des <rs
+                    type="person" ref="#38909">Verteidigers</rs> gestellte Antrag, die
+                    Manuskripte<lb xml:id="uuid_be29cd76-0205-4e29-8a67-959e167ab92a"/>des Vortrages
+                vom 7. und 10. Juni zur Verlesung zu bringen,<lb
+                    xml:id="uuid_688bb8cf-4a30-4163-bea4-f923424cefe5"/>und mit dem Inhalte der in
+                der <rs type="work" ref="https://fackel.oeaw.ac.at/f/811,0u1" subtype="fackel"
+                    >Fackel</rs> erschienenen diesbezügli<lb
+                    xml:id="uuid_e43f3b18-f0e6-4095-9973-d97702ae33e1" break="no"/>chen Vorträge zu
+                vergleichen, musste mit Rücksicht auf obige<lb
+                    xml:id="uuid_b86fc87b-a3b5-47bf-b328-cc4754c1bca1"/>Ergänzungen als unerheblich
+                abgewiesen werden, zumal ja das<lb
+                    xml:id="uuid_65620fc5-b555-4d52-80ab-30418fe373d2"/>Manuskript keine
+                verlässliche Unterlage dafür bieten kann,<lb
+                    xml:id="uuid_fe547ebe-fda0-4558-b689-933812d6c0c8"/>dass sämtliche <add hand="#D_000134-040-000-hand01"
+                    >mündlichen</add> Äusserungen des <rs type="person" ref="#11988"
+                    >Beschuldigten</rs> in dasselbe<lb
+                    xml:id="uuid_303208b7-762c-4f56-a67f-92ab61a1d6f5"/>Aufnahme gefunden haben. </p>
+            <p xml:id="uuid_41d734f3-c026-47b8-8811-1593c72ef084">
+                <lb xml:id="uuid_9d80e5f6-e108-49b6-bac8-f497cb0c0baa"/>Das <rs type="institution"
+                    ref="#50491">Gericht</rs> vertritt den Standpunkt, dass sich sämtliche<lb
+                    xml:id="uuid_dba2539b-0d54-4660-9f80-e506e5d9f72b"/>Äusserungen des <rs
+                    type="person" ref="#11988">Beschuldigten</rs>, soweit sie unter Anklage<lb
+                    xml:id="uuid_dbb8fc0d-40b8-4473-bc8f-a9db0755fe08"/>stehen, keine
+                Beschimpfungen, vielmehr als ein über den <rs type="person" ref="#39325">P.A.</rs>
+                <lb xml:id="uuid_8b6dd472-7ce9-4c99-b463-72181f1a7a90"/>im Bezug auf seinen Beruf
+                als Musikkritiker bezw. Rezensenten<lb
+                    xml:id="uuid_7d883478-6164-4f5d-b248-ff2c62b67242"/>abgegebenes Werturteil und
+                daher dem Tatbestände<lb xml:id="uuid_dcb3b6ac-8079-41dc-8bbe-67930af49fd9"/>des <rs
+                    type="law"
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1852&amp;page=668&amp;size=45"
+                    >§ 491 St.G.</rs> zu unterstellen sind. Demzufolge war auch<lb
+                    xml:id="uuid_dfba6e8d-01fa-4bb5-9124-d3b90a79d8f1"/>der Wahrheitsbeweis als
+                solcher zuzulassen. <pb xml:id="D_000134-040-000_p006"
+                    facs="#D_000134-040-000-facs001-l003-p006" n="6"/></p>
+            <p xml:id="uuid_78c0f9ab-a2b0-4f66-a8f7-8ec2ca7dec99">
+                <lb xml:id="uuid_1315157d-c3f0-4a6f-93f5-a34db174d491"/>Was nun insbesondere den
+                Ausdruck Schlieferl anlangt,<lb xml:id="uuid_a9239112-20f4-4b01-84e8-000f0de688ce"
+                />ist derselbe zweifellos als Kritik bezw. Werturteil und<lb
+                    xml:id="uuid_cd7455f0-30f8-4428-8971-24b4ac5e1a97"/>nicht als Schimpfname
+                aufzufassen. Wenngleich die Bedeutung<lb
+                    xml:id="uuid_2f45c6f1-34f7-40ab-9ff3-e5d567e2ed14"/>des Wortes Schlieferl als
+                keineswegs fest umschriebene<lb xml:id="uuid_113e3817-7afd-428a-8391-a88474f661a4"
+                />angesehen werden kann, so vertritt das <rs type="institution" ref="#50491"
+                    >Gericht</rs> die Ansicht,<lb xml:id="uuid_baad1f59-8afe-415c-83a2-da811b996422"
+                />dass man unter Schlieferl im allgemeinen einen Menschen<lb
+                    xml:id="uuid_0bf782fc-745b-49cf-8f08-f822c980a150"/>ansehen muss, der sich im
+                Gesellschaftskreise oder Berufs<lb
+                    xml:id="uuid_db399d23-08d8-4a01-b6fb-c89f13dec44c" break="no"/>zweige
+                hineindrängt, bezw. aufdrängt, ohne dass die hiezu<lb
+                    xml:id="uuid_f8e79bb5-87f5-4ff9-9261-498af7ac0d56"/>erforderlichen persönlichen
+                Voraussetzungen vorliegen.<lb xml:id="uuid_c02adc5a-b7a7-47b7-9902-1383ce0b57aa"
+                />Das Hineindrängen bezw. Aufdrängen ist aus dem Worte<lb
+                    xml:id="uuid_5c18f9cd-6772-4621-a46c-0701a2f9e972"/>schliefen abzuleiten. Im
+                speziellen Falle hat der <rs type="person" ref="#11988">Be<lb
+                        xml:id="uuid_bfbb0a6d-c2e1-4309-aa7a-3139891ee1ca" break="no"
+                    />schuldigte</rs> hiemit die angebliche <hi rend="underlined"
+                    hand="#D_000134-040-000-hand02">Unfähigkeit</hi> des <rs type="person"
+                    ref="#39325">P.A.</rs>
+                <lb xml:id="uuid_c8b7ea93-7a45-47d0-83a7-28f8b78eb165"/>als Musikreferent der <rs
+                    type="institution" ref="#29644">Arbeiterzeitung</rs> geisseln wollen.<lb
+                    xml:id="uuid_ff81d879-de2f-4ed4-bbd8-61a0b5e31242"/>Zum Wahrheitsbeweis hat der
+                    <rs type="person" ref="#11988">Beschuldigte</rs> darauf hingewiesen<lb
+                    xml:id="uuid_d1078dc2-e797-4527-b6af-c94f7860024b"/>dass der <rs type="person"
+                    ref="#39325">P.A.</rs> einerseits im Dienste eines sozialistischen<lb
+                    xml:id="uuid_880a0d67-975e-46f8-8fd0-c4d0fff8667e"/>Blattes nämlich der <rs
+                    type="institution" ref="#29644">Arbeiterzeitung</rs> und zugleich im Dienste<lb
+                    xml:id="uuid_8392e67b-524b-4b75-bd73-784c5f8f0330"/>des <rs type="institution"
+                    ref="#29406">Berliner Börsenkourier</rs> einem bürgerlichen Blatte berufs<lb
+                    xml:id="uuid_3bdf9730-de02-4d8a-85ea-eb76e52be948" break="no"/>mässig tätig
+                    ist<subst hand="#D_000134-040-000-hand01">
+                    <del hand="#D_000134-040-000-hand01">.</del>
+                    <add hand="#D_000134-040-000-hand01">, andererseits</add>
+                </subst> dass ferner <rs type="person" ref="#39325">P.A.</rs> nicht aus rein sach<lb
+                    xml:id="uuid_d23c4a0f-0acb-454c-b78c-c270043d0708" break="no"/>lichen Gründen
+                sondern nur aus Liebedienerei für die<lb
+                    xml:id="uuid_2eeeacfd-2d46-487b-9390-b87830222929"/><rs type="institution"
+                    ref="#29644">Arbeiterzeitung</rs> gegen den <subst
+                    hand="#D_000134-040-000-hand01">
+                    <del hand="#D_000134-040-000-hand01">Angeklagten</del>
+                    <add hand="#D_000134-040-000-hand01"><rs type="person" ref="#11988"
+                            >Beschuldigten</rs></add>
+                </subst> polemisiere und sohin<lb xml:id="uuid_0423ba47-d840-4a22-8a81-ef64cce92339"
+                />auch seine Kritik der Vorträge des <rs type="person" ref="#11988"
+                    >Beschuldigten</rs> nur aus<lb
+                    xml:id="uuid_246832ca-7063-4e49-98a8-43609d3f0ded"/>dieser Erwägung erfolgt sei.
+                Diese Argumente sind<lb xml:id="uuid_f845cab3-1fbc-4217-88bf-e78d5541facb"/>jedoch
+                nicht geeignet, um die gegen den <rs type="person" ref="#39325">P.A.</rs>
+                    erhobenen<lb xml:id="uuid_ed0438fe-cf67-4db5-a6ae-0f415fbea910"/>Anschuldigungen
+                zu rechtfertigen und <add>waren</add> daher als zur<lb
+                    xml:id="uuid_5615b73b-7449-46a6-818e-63721a9c8162"/>Führung des
+                Wahrheitsbeweises vollkommen ungeeignet von<lb
+                    xml:id="uuid_bcb478cb-5161-4ff0-bd2b-dcb9a1ebaa6d"/>vorneherein abzuweisen.
+                Insbesondere ist der Umstand,<lb xml:id="uuid_c9d5de17-696c-4ecb-b1f0-05ea033d705e"
+                />dass <rs type="person" ref="#39325">P.A.</rs> zugleich für Zeitungen verschiedener
+                    politischer<lb xml:id="uuid_10cc785d-82d2-4e56-8a4d-ff011266e9d5"/>Richtung
+                tätig ist, nicht geeignet, ihn als Schlieferl zu<lb
+                    xml:id="uuid_67006646-cff2-48fe-ae2b-370960ba11fd"/>bezeichnen und seine
+                Tätigkeit als Schlieferl und Tinterl<lb
+                    xml:id="uuid_5b8c23f1-ec73-44b4-936e-3d497006cab7" break="no"/>praktiken zu
+                kennzeichnen. <pb xml:id="D_000134-040-000_p007"
+                    facs="#D_000134-040-000-facs001-l004-p007" n="7"/></p>
+            <p xml:id="uuid_30e26360-7301-44d6-b481-4aadea12ae6a">
+                <lb xml:id="uuid_bf0373e6-091c-4097-9de8-eaad9dd5b35c"/>Die seitens des <rs
+                    type="person" ref="#11988">Beschuldigten</rs> im Wesentlichen darauf aufge<lb
+                    xml:id="uuid_4f668129-1d8f-4811-9a58-cb6b2348562a" break="no"/>baute
+                Verantwortung, dass seine Kritik nicht <subst hand="#D_000134-040-000-hand01">
+                    <del hand="#D_000134-040-000-hand01">notwendig</del>
+                    <add hand="#D_000134-040-000-hand01">zwingend</add>
+                </subst><lb xml:id="uuid_899aa43b-58d4-498a-9e38-47169622dbfb"/>erweise, als auf den
+                    <rs type="person" ref="#39325">P.A.</rs> bezughabend, aufzufassen war,<lb
+                    xml:id="uuid_1fade144-9050-46d0-bdd3-99ae57b11db9"/>ist mit Rücksicht auf obige
+                Darlegung <del hand="#D_000134-040-000-hand01">als widerlegt anzu<lb
+                        xml:id="uuid_29084a9b-0bdd-4484-b07e-b6b1fc6e2563" break="no"/>sehen, da für
+                    eine Reihe von Zeugen</del> und insbesondere<lb
+                    xml:id="uuid_1ba15fb5-6bb0-442b-b690-90c9ecbb7518"/>die Besprechung der <rs
+                    type="work" ref="#57723" subtype="pmb">Kritik</rs> des <rs type="person"
+                    ref="#39325">P.A.</rs>
+                <add hand="#D_000134-040-000-hand01">als widerlegt anzusehen, da für eine Reihe von
+                    Zeugen der <rs type="person" ref="#39325">Privatankläger</rs></add> sohin durch
+                    besondere<lb xml:id="uuid_e26ea6d6-6d3d-4ba0-8968-eacd5c6f063d"/>Kennzeichen
+                <del hand="#D_000134-040-000-hand01">der P.A.</del> als Beleidigter deutlich erkennbar war.<lb
+                    xml:id="uuid_44e28e83-37cf-4ee9-b08d-32492f7864a7"/>Bei der Strafbemessung
+                wurden als mildernd das teilweise<lb
+                    xml:id="uuid_dcb3083c-0391-43de-b188-f8dcfc860ffb"/>Geständnis des
+                Tatsächlichen, als erschwerend jedoch die<lb
+                    xml:id="uuid_a2b710d2-1d32-42ba-9f81-58ae3c074c8c"/>Mehrheit und Empfindlichkeit
+                der Beleidigungen und der Umstand<lb
+                    xml:id="uuid_cd5bbf70-570a-4858-a3e8-c83e010ae64c"/>dass <rs type="person"
+                        ref="#39325">P.A.</rs> durch diese Äusserung<add hand="#D_000134-040-000-hand01">en</add> in seiner
+                gleichsam öffent<lb xml:id="uuid_1362deb4-bec3-44f2-b9e2-056659d8eaf6" break="no"
+                />lichen Stellung als Musikrezensent der <rs type="institution" ref="#29644"
+                    >Arbeiterzeitung</rs>
+                <lb xml:id="uuid_1b34b06c-7f8d-4fe6-a31e-9a1eafa57356"/>getroffen wurde. </p>
+            <p xml:id="uuid_457dd65d-84ca-43ee-82b1-bb1fe65ba1dc">
+                <lb xml:id="uuid_96e03e4c-b9cf-47a9-9639-bc1fdf9ed610"/>Mit Rücksicht auf den
+                gewichtigen Milderungsumstand konnte<lb
+                    xml:id="uuid_2836469d-b537-4fda-bbca-eb2a3c998d76"/>das <rs type="institution"
+                    ref="#50491">Gericht</rs> vom Strafumwandlungsrechte des <rs type="law"
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1852&amp;page=628&amp;size=45"
+                    >§ 261 St.G.</rs>
+                <lb xml:id="uuid_a8098d5d-cfa7-4f2b-97b8-9d4a1820fa57"/>Anwendung machen. </p>
+            <p xml:id="uuid_11561eb7-db0b-4b5f-a59b-35fa88cd69a0">
+                <lb xml:id="uuid_6b613281-d69b-4a63-82dc-b4f1b2b3e729"/>Die übrigen Entscheidungen
+                gründen sich auf die bezogenen<lb xml:id="uuid_d111cff5-06dd-4d66-8b31-c274c60143c9"
+                />Gesetzesstellen. </p>
+            <p xml:id="uuid_684de61d-329b-492f-918f-19eaf6275016">
+                <lb xml:id="uuid_31a0b929-7c5c-412e-b56d-f04eab97917e"/><rs type="place" ref="#50"
+                    >Wien</rs>, am 4. Dezember 1930<lb
+                    xml:id="uuid_5e7290da-4088-4544-90c0-80dbb67ea67e"/>LG.R. Dr. <rs type="person"
+                    ref="#38451">Wenger</rs> mp. <rs type="person" ref="#63972">Erich Singer</rs>
+                mp. </p>
+            <p xml:id="uuid_7162c566-5eb1-4bda-8fef-e82668375afe">
+                <lb xml:id="uuid_201a6399-5ae9-42b5-ac74-919f823196f7"/><note hand="#D_000134-040-000-hand01">Dem Originale
+                    gleichlautend.</note>
+            </p>
+            <p xml:id="uuid_3c350547-706a-4299-9be3-1bb5d5b542c2">
+                <lb xml:id="uuid_20a15d00-823e-4f22-93ba-1279eb56003b"/><rs type="place" ref="#50"
+                    >Wien</rs>, am 22. Dez. 1930<lb
+                    xml:id="uuid_1e0f443f-2907-4877-8fd9-b8572866bc1a"/><rs type="person"
+                    ref="#61395">Ruzicska</rs>
+                <pb xml:id="D_000134-040-000_p008" facs="#D_000134-040-000-facs001-l004-p008" n="8"
+                /></p>
+            <p xml:id="uuid_bee9654d-4411-42c5-924d-a86f601a29c1">
+                <lb xml:id="uuid_53d81a68-d810-4cdd-97a8-e1c4d96b74ea"/><note type="paratext"
+                    resp="law-firm"><rs type="person" ref="#11988">Kraus</rs> – Dr.
+                        <rs type="person" ref="#39325">Pisk</rs>
+                    <lb xml:id="uuid_59331220-83a3-4b12-84ca-f48904607f2c"/>eing.
+                31.12.1930.</note></p>
+        </body>
+    </text>
+</TEI>

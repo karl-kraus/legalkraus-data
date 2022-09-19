@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000098-033-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000098-031-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000098-032-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Verlag Die Fackel</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000098-032-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2960</idno>
+            <idno subtype="transkribus" type="ID">420134</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000098" type="collection">Darlehenssache Berthold Viertel</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000098-032-000-facs001" xml:id="D_000098-032-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000098-032-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-06-18">18. Juni 1930</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1930-06-18">18. Juni 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#43724">den | Verlag „Die Fackel“</orgName>
+               <address>
+                  <street corresp="#50496">Hintere Zollamtsstr. 3</street>
+                  <settlement ref="#53">Wien III.</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Viertel.</note>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000098-032-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000098-032-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2021-04-26" who="#IL"/>
+         <change type="structure" when-iso="2021-04-21" who="#IL"/>
+         <change type="references" when-iso="2021-04-21" who="#IL"/>
+         <change type="typography" when-iso="2021-04-22" who="#IL"/>
+         <change type="intertexts" when-iso="2021-04-21" who="#IL"/>
+         <change when-iso="2020-10-08T12:24:58.572Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T12:30:09.483Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 420134. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000098-032-000-facs001">
+      <surfaceGrp xml:id="D_000098-032-000-facs001-l001">
+         <surface xml:id="D_000098-032-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554766/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000098-032-000-facs001-l001-p002" type="verso">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554767/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000098-032-000_p001"
+             facs="#D_000098-032-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_7af99dcb-fc2e-4fec-baaf-a47dedaa02eb">
+            <lb xml:id="uuid_25d007d0-442b-463d-8653-b02e08ccd85a"/>Ich teile Ihnen mit, dass
+                Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/10364" type="person">Berthold<lb xml:id="uuid_3227813d-c7a7-4a1d-8aaa-4571815ba92f"/>Viertel</rs> neuerlich
+                eine Rate von Dollar 400.–– eingesendet hat,<lb xml:id="uuid_7fdf3146-86bf-42ce-a4d2-2719f07b9c56"/>die ich in schw. Franken
+                umwechseln liess. Ich habe den Erlös<lb xml:id="uuid_4427007e-c38d-43a5-b16d-f00cc5a0e221"/>per schw. Frs. 2.057.–– auf
+                das Konto des Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> bei der<lb xml:id="uuid_8bc6fb18-9995-407f-82a6-2bfe66a9acb5"/><rs ref="#37057" type="institution">Schweizerischen Kredit-Anstalt in Zürich</rs>
+                eingezahlt. </p>
+         <p xml:id="uuid_fbe6ab9b-5216-4782-b457-1024d5041bc7">
+            <lb xml:id="uuid_524514f1-6b53-4d76-8277-b4a47ced6645"/>Ich zeichne<lb xml:id="uuid_6f12cca8-2451-48b0-9620-cc9378bcdd43"/>hochachtungsvoll </p>
+         <pb xml:id="D_000098-032-000_p002"
+             facs="#D_000098-032-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_f79b5826-d669-419c-86c7-a8c30288b117">
+            <lb xml:id="uuid_1b2b1e90-edd5-4ce2-b578-146666049d5f"/><note resp="law-firm"
+               type="paratext">Betr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  type="person">Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/10364"
+                  type="person">Viertel</rs>
+               <lb xml:id="uuid_3f506f27-3724-4ede-b8cc-7d9c2ee476bd"/>exp. 18.6.1930.</note></p>
+      </body>
+   </text>
+</TEI>

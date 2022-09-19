@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000080-006-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000080-004-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000080-005-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Arnold Eisler</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000080-005-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2767</idno>
+            <idno subtype="transkribus" type="ID">249809</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000080" type="collection">Angelegenheit Familienrente</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000080-005-000-facs001" xml:id="D_000080-005-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000080-005-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHN">Durchschlag mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-02-28">28. Februar
+                    1927</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1927-02-28">28. Feber 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38087">Wohlgeboren | Herrn Dr. Arnold Eisler, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#790">Tuchlauben 12</street>
+                  <settlement ref="#51">Wien, I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Familienrente.</note>
+               <note type="dictation">Dr.S./W.</note>
+            </noteGrp>
+         </correspDesc>
+         <handNotes>
+            <handNote xml:id="D_000080-005-000-hand01"
+                      source="#D_000080-005-000-wit01"
+                      scribeRef="#38087"
+                      medium="black-ink"
+                      cert="low"
+                      resp="#IL"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000080-005-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000080-005-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2021-04-08" who="#IL"/>
+         <change type="structure" when-iso="2021-04-01" who="#IL"/>
+         <change type="references" when-iso="2021-04-01" who="#IL"/>
+         <change type="typography" when-iso="2021-04-08" who="#IL"/>
+         <change type="intertexts" when-iso="2021-04-01" who="#IL"/>
+         <change when-iso="2020-10-07T15:14:52.08Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-07T15:20:29.762Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 249809. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000080-005-000-facs001">
+      <surfaceGrp xml:id="D_000080-005-000-facs001-l001">
+         <surface xml:id="D_000080-005-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554055/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000080-005-000-facs001-l001-p002" type="verso">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554056/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000080-005-000_p001"
+             facs="#D_000080-005-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_3613226c-6c99-4777-856f-21805ba38cd7">
+            <lb xml:id="uuid_ad45bd2e-ed32-4089-b48f-cdcb217e8541"/>Sehr geehrter Herr <rs type="person" ref="#38087">Kollege</rs>! </p>
+         <p xml:id="uuid_8e68df9d-bb79-4329-863d-b416fd94bd2e">
+            <lb xml:id="uuid_c1533650-e423-4b51-ac49-bde5522f6fbc"/>Mit bestem Dank für Ihre
+            freundliche <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000080-004-000" type="work"
+               subtype="legal-doc">Mitteilung</rs>
+            <lb xml:id="uuid_7656321a-42a4-4c2b-9b07-69bda67d351c"/>vom 11. Feber 1927 erlaube ich
+            mir, nach Rücksprache mit<lb xml:id="uuid_7697e90d-5e6a-421a-8ef0-94dfe26c330a"/>Herrn
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"><hi rend="spaced"
+                  >Krau</hi>s</rs> Ihnen bekanntzugeben, dass der Betrag<lb
+               xml:id="uuid_d0f47a13-9f1b-464f-a053-ca7a3ba61754"/>von S 100.– nach seiner Ansicht
+            in keinem Verhältnis zu<lb xml:id="uuid_55814040-d90f-4867-bfb4-2439995c288a"/>der
+            aufgewendeten Mühe zu stehen scheint, weshalb er Ihnen<lb
+               xml:id="uuid_13439d37-33aa-457e-b478-a09b854aba53"/>durch mich den Betrag von S 500.–
+            übersenden lässt, indem<lb xml:id="uuid_b10008a7-9777-4df4-bab1-f38df7824534"/>er es
+            Ihnen anheimstellt, den Mehrbetrag einem wohltätigen<lb
+               xml:id="uuid_a4430cbb-53d9-4238-baaa-ce719c2fa855"/>Zweck zuzuführen. </p>
+         <p xml:id="uuid_c2b6555f-e952-484d-a414-e1e7933de9bd">
+            <lb xml:id="uuid_435c08b6-f2bf-4487-8fc7-133b8378d179"/>Ich zeichne mit
+                    vorzüglicher<lb xml:id="uuid_054fbc81-728e-4e4f-b0b8-01af85f57b32"/>kollegialer
+                Hochachtung </p>
+         <p xml:id="uuid_8f0de73a-c236-406a-80aa-7eb3e7292a7d">
+            <lb xml:id="uuid_94a22b91-3f60-4e15-b335-ae72ff184c7f"/><del
+               hand="#D_000080-005-000-hand01"><note hand="#D_000080-005-000-hand01">S 500
+                  erhalten.</note></del></p>
+         <pb xml:id="D_000080-005-000_p002"
+             facs="#D_000080-005-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_692b5557-750d-4bd3-b1ab-0a9dcf659b9e">
+            <lb xml:id="uuid_fff2abbf-1068-4d30-b044-4bd3dcf8875b"/><note resp="law-firm"
+               type="paratext">Betrifft: <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  type="person">Kraus</rs> – Familienrente<lb
+                  xml:id="uuid_94818ecb-ea22-4ccc-bae9-ae7c3f26d61b"/>expediert am 28. Feber
+               1927.</note></p>
+      </body>
+   </text>
+</TEI>

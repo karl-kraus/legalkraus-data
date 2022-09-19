@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000125-097-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-096-000.xml"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-098-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Willy Katz an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000125-097-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/3462 </idno>
+            <idno type="ID" subtype="transkribus">292962</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000125">Karl
+                    Kraus ca. Frankfurter Städtisches Schauspielhaus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000125-097-000-wit01" facs="#D_000125-097-000-facs001"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000125-097-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#19200">Dr. Willy Katz</persName>
+               <address>
+                  <street corresp="#482">Friedrichstraße 204</street>
+                  <settlement ref="#168">Berlin SW 68</settlement>
+               </address>
+               <date when-iso="1932-03-11">11. März 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Rechtsanwalt | Dr. Oskar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus gegen Städt. Bühnen</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date type="sortDate" when-iso="1932-03-11" subtype="produced">11. März 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000125-097-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000125-097-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-07-28" who="#JK"/>
+         <change type="typography" when-iso="2021-07-28" who="#JK"/>
+         <change type="references" when-iso="2021-07-28" who="#JK"/>
+         <change type="structure" when-iso="2021-07-28" who="#JK"/>
+         <change when-iso="2021-04-12T09:07:09.225Z" resp="#IB">created by API</change>
+         <change when-iso="2021-04-12T09:33:15.878Z" resp="#IB">Replaced Text with Transcription
+                of Transkribus Document 292962. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000125-097-000-facs001">
+      <surfaceGrp xml:id="D_000125-097-000-facs001-l001">
+         <surface xml:id="D_000125-097-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557230/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000125-097-000-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557231/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000125-097-000_p001"
+             facs="#D_000125-097-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_53775245-7732-4275-aa5f-f8e006759df9">
+            <lb xml:id="uuid_ef97f744-f7df-4fe8-9f69-8e7a9f6ae12d"/>Sehr geehrter <rs type="person" ref="#38909">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_a31bb0c9-1c02-4e8d-95ec-c9095c185aff">
+            <lb xml:id="uuid_7ec5422b-663b-4aa2-8af9-b4dfe8ac7397"/>Ich übersende Ihnen das bei
+            meinen Akten befindliche<lb xml:id="uuid_4983d7d9-7f11-4833-a262-34ca7a03224d"
+            />Korrespondenzmaterial sowie eine <rs type="work" ref="#57054" subtype="pmb">Nummer der
+                  Frankfurter<lb xml:id="uuid_56a5806c-7b06-4a05-9c86-5766e4500e79"/>Zeitung</rs>
+            und <rs type="work" ref="#57060" subtype="pmb">des  <subst><del>Berliner</del><add>Montag</add></subst> Morgen</rs>. Die bei
+            den Gerichtsakten<lb xml:id="uuid_7d5b4524-c1ec-4ca0-b486-d347d9cc70a8"/>befindlichen
+            Abschriften werde ich Ihnen nach Erhalt zu<lb
+               xml:id="uuid_a1fa972a-7559-43c5-8d18-f54015a75749" break="no"/>senden. Wollen Sie von
+            dort aus etwas gegen den Kollegen<lb xml:id="uuid_61145351-14ec-45bd-bf77-4b25994d0525"
+               /><rs type="person" ref="#11472">Wenzel Goldbaum</rs> veranlassen? Sie schreiben
+            nichts darüber,<lb xml:id="uuid_2dfba084-1a25-44f0-9963-c345db7dd4dc"/>ob <rs
+               type="person" ref="#11988">Herr Kraus</rs> mit meinem Verhalten im Terrain
+               einverstanden<lb xml:id="uuid_128ac05e-417f-4425-aaef-85d38ddf7189"/>ist. Nach meiner
+            Ansicht musste man nach der klar kundgege<lb
+               xml:id="uuid_fd027eec-a692-47d3-a467-fef28e530f05" break="no"/>benen Stellung des
+            Gerichts zu den materiellen Streitfragen<lb
+               xml:id="uuid_f5496c04-71aa-4c67-b77b-170489edfe81"/>den Prozess vor dem <rs
+               type="institution" ref="#36795">Bühnenschiedsgericht</rs> abbrechen. In<lb
+               xml:id="uuid_345d1f19-8fbe-442d-a2d1-c21807ff0a1f"/>prozessualer Hinsicht bin ich
+            nach wie vor der Meinung, dass<lb xml:id="uuid_cbca1b0c-b608-4d7f-9a8b-cc7d233a66c1"
+            />die Zuständigkeit des <rs type="institution" ref="#36795">Schiedsgerichts</rs> von der
+            Frage der<lb xml:id="uuid_e31cfe4f-a794-443d-b840-bff1fd2f90e5"/>Zugehörigkeit des <rs
+               type="person" ref="#11988">Autors</rs> zu einem der Verbände nicht in<lb
+               xml:id="uuid_e54f71c2-56b9-4e56-b188-470be61ec80d"/>Abhängigkeit gebracht werden
+            durfte, wenngleich auch hier<lb xml:id="uuid_9318f321-75c3-40d5-a509-aac9d8a3f519"/>das
+               <rs type="institution" ref="#36795">Schiedsgericht</rs> einen anderen Standpunkt
+            einnahm. Ich<lb xml:id="uuid_f7351830-6b76-4d52-8823-9185101bdcf6"/>wäre Ihnen sehr
+            verbunden, wenn Sie mir hierzu Ihre Ansicht <pb xml:id="D_000125-097-000_p002"
+               facs="#D_000125-097-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_fae10e18-5036-46f4-a4a3-c7d2f458446b"/>mitteilten. </p>
+         <p xml:id="uuid_d8873f8d-d7f5-4ea0-b2af-99f448473f46">
+            <lb xml:id="uuid_3c4f46f3-498c-4b15-a2f6-475c9a9b4517"/>Mit herzlichen Grüssen und
+                    verhrungs<lb xml:id="uuid_4a969c1e-b46c-44cb-b436-1d8fda11ebb4" break="no"/>voller Empfehlung an <rs type="person" ref="#11988">Herrn Kraus</rs> bin ich </p>
+         <p xml:id="uuid_d1155e11-0689-4e5c-a0d5-184a11332e25">
+            <lb xml:id="uuid_2b4ec7f5-a29e-4ae8-b12d-d66641f166c2"/>Ihr sehr ergebener<lb xml:id="uuid_3946c44c-ba0b-4f58-a28f-700a2112f097"/><rs type="person" ref="#19200">Dr. Katz</rs>
+         </p>
+         <p xml:id="uuid_e18582f5-9a9f-4afc-8be4-0d8fe330439e">
+            <lb xml:id="uuid_fbd304e4-3f08-41c1-9302-2b694b333b5c"/><note type="paratext" resp="law-firm"><rs type="person" ref="#11988">Kraus</rs> – <rs type="institution" ref="#34987">städt. Bühnen</rs>
+               <lb xml:id="uuid_3ac08ad1-8c2e-49b5-a660-d58365fd04d4"/>14. MRZ. 1932 </note>
+         </p>
+      </body>
+   </text>
+</TEI>

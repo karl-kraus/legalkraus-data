@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-034-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-032-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000103-033-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Max Hirschberg an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000103-033-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3088</idno>
+            <idno subtype="transkribus" type="ID">292202</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000103" type="collection">Karl
+                    Kraus ca. Fränkischer Kurier</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000103-033-000-facs001" xml:id="D_000103-033-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000103-033-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38637">Dr. MAX HIRSCHBERG</persName>
+               <address>
+                  <street corresp="#51755">Kaufingerstraße 30</street>
+                  <settlement ref="#45258">München 2 C</settlement>
+               </address>
+               <date when-iso="1928-12-17">17. Dez. 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn | Rechtsanwalt Dr. Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">2.A.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1928-12-17">17. Dezember 1928
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000103-033-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000103-033-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-03-17" who="#JK"/>
+         <change type="typography" when-iso="2021-03-17" who="#JK"/>
+         <change type="references" when-iso="2021-03-17" who="#JK"/>
+         <change type="structure" when-iso="2021-03-17" who="#JK"/>
+         <change when-iso="2020-07-21T12:54:16.685Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 292202. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000103-033-000-facs001">
+      <surfaceGrp xml:id="D_000103-033-000-facs001-l001">
+         <surface type="recto" xml:id="D_000103-033-000-facs001-l001-p001">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555417/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000103-033-000-facs001-l001-p002">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555418/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000103-033-000-facs001-l002">
+         <surface type="recto" xml:id="D_000103-033-000-facs001-l002-p003">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555419/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000103-033-000-facs001-l002-p004">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555420/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000103-033-000_p001"
+             facs="#D_000103-033-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_280100a4-f60b-4d3f-b468-2cac0e6d868a">
+            <lb xml:id="uuid_eb37b4e9-5be4-4cfa-b8c7-94fa58892ef7"/>Sehr geehrter <rs ref="#38909" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_e6e92a75-bb5b-4cac-8b56-757b06aa1ae7">
+            <lb xml:id="uuid_6c27d697-fc54-42f0-b3ac-19fb825a2ae5"/>In Sachen <rs ref="#11988" type="person">Kraus</rs> gegen <rs ref="#43673" type="person">Schardt</rs> bitte
+                ich von meinem anliegenden<lb xml:id="uuid_b38c6e49-6ea4-421a-b146-e94f8096537b"/><rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000103-034-000"
+                type="work"
+                subtype="legal-doc">Brief an Herrn Kollegen Süssheim</rs> Kenntnis zu nehmen. Es
+                ist auf<lb xml:id="uuid_00e7cafc-4b61-4f1d-a15a-c7255d410040"/>22.XII. Termin
+                anberaumt. Herr <rs ref="#38637" type="person">Kollege Süssheim</rs> hat bei mir
+                    ange<lb break="no" xml:id="uuid_a8e1eaf4-a15e-4c40-8591-c8fc848a9e07"/>fragt, ob
+                    <rs ref="#11988" type="person">Herr Kraus</rs> zum Termin erscheinen würde. Ich
+                empfehle das<lb xml:id="uuid_5a8b5191-f102-44ee-a823-df5cf0ddd177"/>abzulehnen. Auch
+                die Frage, ob <rs ref="#11988" type="person">Herr Kraus</rs> am Krieg
+                    teilgenommen<lb xml:id="uuid_f5ba73df-df4e-44ec-9132-f935c0241564"/>hat, habe
+                ich mit der entsprechenden Formulierung als missverständ<lb break="no" xml:id="uuid_34be9255-232d-49fa-bce1-5dfcf364aae7"/>lich abgelehnt. Meines
+                Erachtens muss die Rechtsfrage ganz klarge<lb break="no" xml:id="uuid_036cebe1-ec40-42a3-9359-d7f743b58639"/>stellt werden und das <rs ref="#36836" type="institution">Gericht</rs> muss gezwungen werden, zu
+                    entscheiden,<lb xml:id="uuid_00d217bb-91d7-4e04-acb4-146b090cc2f5"/>ob derartige
+                schwere Verbalinjurien zum Schutze des <rs ref="#11988" type="person">Herrn
+                        Privat<lb break="no" xml:id="uuid_882ac247-4df5-4928-a485-ceb259f12489"/>klägers</rs> bestraft werden oder nicht. Jede Konzession an der Tendenz<lb xml:id="uuid_9c141fe8-9295-44be-bce9-bd1e67e790a0"/>der <rs ref="#43673" type="person">Gegenpartei</rs> wäre ein schwerer Fehler und würde sicherlich
+                    auch<lb xml:id="uuid_08f3f4fc-ab86-4a5a-bc68-64cde47f1281"/>von <rs ref="#11988" type="person">Herrn Kraus</rs> mit Recht missbilligt werden. Es ist nur noch
+                    die<lb xml:id="uuid_f580013d-5fe3-4d19-8235-89623e7a6d85"/>Frage zu entscheiden
+                ob ein Vergleich angesichts der gemachten<lb xml:id="uuid_bb500e27-4065-44cd-904f-8054912f688f"/>Erfahrungen auch in <rs ref="#36836" type="institution">2. Instanz</rs> abgelehnt werden soll oder
+                    nicht.<lb xml:id="uuid_86140616-429d-4db7-9f83-48a10ccbe21b"/>Ich würde
+                empfehlen, auch in <rs ref="#36836" type="institution">2. Instanz</rs> ohne
+                Rücksicht auf die ge<lb break="no" xml:id="uuid_b4c9859b-e718-4a91-9a12-10c6263a514e"/>machten Erfahrungen und
+                selbst ohne Rücksicht auf die durch eine<lb xml:id="uuid_13131bf2-7766-4e04-9cd6-eca687ba8480"/>Verwerfung der Berufung
+                eatstehenden Kosten einen Vergleich abzulehnen, <pb xml:id="D_000103-033-000_p002"
+                facs="#D_000103-033-000-facs001-l001-p002"
+                n="2"/>
+            <lb xml:id="uuid_579e63af-ea10-44e7-8bb8-d9edd649983b"/>es sei denn, dass die <rs ref="#43673" type="person">Gegenpartei</rs> die Beleidigungen mit dem
+                    Ausdruck<lb xml:id="uuid_c22a0d22-121e-478e-b0b6-c660da2e951b"/>des Bedauerns
+                zurücknimmt und sämtliche Kosten trägt. Ich bitte<lb xml:id="uuid_5e8a27c6-5b88-49ee-bcc3-bc75785b12d4"/>darüber, ob <rs ref="#11988" type="person">Herr Kraus</rs> mit dieser Stellungnahme zur Vergleichsfrage<lb xml:id="uuid_9f8db2ec-03a0-4726-98cc-f94a045cbd87"/>und mit meinen Informationen
+                an Herrn <rs ref="#38637" type="person">Kollegen Süssheim</rs> einver<lb break="no" xml:id="uuid_8d2de853-6470-49fc-88ec-8bd32a52179a"/>standen ist, diesem direkt
+                unter der Adresse: Justizrat <rs ref="#38637" type="person">Dr. Süssheim</rs>,<lb xml:id="uuid_959a2702-bade-4a57-8844-baabfdba28bf"/><rs ref="#53241" subtype="address" type="place">Nürnberg, Adlerstr. 35</rs> umgehend Mitteilung
+                zu machen, damit er vor<lb xml:id="uuid_d28b42c4-fadd-4e0a-b884-ee0eb38fd468"/>dem
+                Termin vom 22. XII. rechtzeitig in den Besitz der Weisungen<lb xml:id="uuid_66ce6b63-d699-465f-83ed-b0d973d8081a"/>des <rs ref="#11988" type="person">Herrn Privatklägers</rs> kommt. Je schärfer und klarer unsere<lb xml:id="uuid_839546f7-c65f-49d4-9465-ef8cdf960577"/>Stellungnahme ist, desto
+                klarer muss das <rs ref="#36836" type="institution">Gericht</rs> zu der meines<lb xml:id="uuid_37cec817-9a7f-4531-9867-b566417d43b6"/>Erachtens völlig
+                unbestreitbaren Rechtsfrage Stellung nehmen,<lb xml:id="uuid_ea355aa1-c685-49da-ac33-16d275b66b96"/>ob strafbare Beleidigungen
+                vorliegen oder nicht. Sollte das <rs ref="#36836" type="institution">Gericht</rs>
+            <lb xml:id="uuid_9b37863a-584a-4014-960f-e37c31625630"/>die Berufung verwerfen, so
+                müssten sämtliche in dieser Sache ergan<lb break="no" xml:id="uuid_7ca58a41-e4a1-4b9c-9a1a-a85998733aa0"/>genen 4 Entscheidungen im
+                Wortlaut veröffentlicht werden. Das wäre<lb xml:id="uuid_af18f907-da6c-427a-a523-324b7aaa52d3"/>immer noch das kleinere
+                Uebel gegenüber dem geringsten Zurückweichen<lb xml:id="uuid_0015d643-373e-4fab-a52e-9d8bdd79e6f1"/>vor der <rs ref="#43673" type="person">Gegenpartei</rs>. Der Gegner hat wieder <rs ref="#38422" type="person">Dr. Hohenstadter</rs>, eine<lb xml:id="uuid_a3a55636-cebb-46df-b590-8256d3c0c1c2"/><rs type="person">Stenotypistin des Fränkischen Kurier</rs> geladen und als „Sachverstän<lb break="no" xml:id="uuid_cdfd7deb-9f46-4f78-a16d-39097fea9bd9"/>digen“ einen <rs type="person">Gymnasialprofessor in Nürnberg</rs>. Ich empfehle, Herrn<lb xml:id="uuid_5479e911-84c9-42f6-8b8e-6e041df34c38"/><rs ref="#38637" type="person">Rechtsanwalt Süssheim</rs> direkt, damit er rechtzeitig vor dem
+                    Termin<lb xml:id="uuid_85bafab7-b775-4354-a9c0-14275dbe2fd0"/>Nachricht hat,
+                Mitteilung zu machen, ob von unserer Seite ein Gegen<lb break="no" xml:id="uuid_57aabea8-4ac1-4b09-92b9-5d0a50089e3d"/>sachverständiger benannt
+                werden soll, zu welchem Zweck eine Verlegung<lb xml:id="uuid_748cabca-09ae-4b4f-ab2f-ba7d9b6a81fc"/>des Termins zu beantragen
+                wäre. Ich würde auch davon abraten, nicht<lb xml:id="uuid_0e49c612-99f2-455d-b886-97314001bd54"/>nur wegen der entstehenden
+                Kosten, sondern weil dadurch die gerade<lb xml:id="uuid_a57bb15d-7bbc-4f64-a6f1-098a756b9fda"/>Linie der <hi rend="underlined">Rechtsentscheidung</hi> über die Frage der Beleidigung
+                    verlassen<lb xml:id="uuid_ea6418b5-cada-47e7-b570-4eff11d4ecbc"/>wird. Es kommt
+                für diese Frage weder auf die Gesinnung oder Gesamt- <pb xml:id="D_000103-033-000_p003"
+                facs="#D_000103-033-000-facs001-l002-p003"
+                n="3"/>
+            <lb xml:id="uuid_b1d12474-8458-43f4-8b24-a2a64aa89359"/>einstellung der einen
+                noch der anderen Partei an. </p>
+         <p xml:id="uuid_587f83b9-cd14-4c1d-92ce-e8e9a566833e">
+            <lb xml:id="uuid_749c5961-a110-45db-98ab-cb02a090c7b0"/>Hochachtungsvoll<lb xml:id="uuid_4c996598-e1cc-4406-bd1b-a92e325d04e1"/>ergebener Kollege<lb xml:id="uuid_0b2da925-9989-4560-9bd7-37e3bad70fc3"/><rs ref="#38381" type="person">Hirschberg</rs>
+            <lb xml:id="uuid_38c4762c-9384-4f1c-b4cb-ffdbe3a5d3a9"/>Rechtsanwalt. </p>
+         <pb xml:id="D_000103-033-000_p004"
+             facs="#D_000103-033-000-facs001-l002-p004"
+             n="4"/>
+         <p xml:id="uuid_d5a84373-dc00-4a6f-ade4-21e732c5d64c">
+            <lb xml:id="uuid_34847843-e15b-4d47-bdd2-a773e0204dc8"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37336" type="institution">Fränkischer Kurier</rs>
+               <lb xml:id="uuid_6628a58a-4ba7-45d3-8de0-eb399470d8e1"/>19. DEZ. 1928 </note>
+         </p>
+      </body>
+   </text>
+</TEI>

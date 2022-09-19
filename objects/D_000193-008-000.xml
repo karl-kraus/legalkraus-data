@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000193-008-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-007-000.xml"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-009-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Strafanzeige gegen Sozialdemokrat (verantw. Red. Emil Strauss) wegen des
+                    Vergehens der Nachrede und Verleumdung (eingebracht von Karl Kraus beim
+                    Strafkreisgericht Prag)</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno type="URL" subtype="legalkraus">https://id.acdh.oeaw.ac.at/legalkraus/D_000193-008-000.xml</idno>
+            <idno type="URL" subtype="krausonline">http://www.kraus.wienbibliothek.at/node/4736 </idno>
+            <idno type="ID" subtype="transkribus">375963</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="collection" ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000193">Karl
+                    Kraus ca. Sozialdemokrat (Prag)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="D_000193-008-000-wit01" facs="#D_000193-008-000-facs001"/>
+               <witness xml:id="D_000193-008-000-wit02" facs="#D_000193-008-000-facs002"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000193-008-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHU">Durchschlag mit handschriftlichen Überarbeitungen</objectType>
+                     <objectType source="D_000193-008-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHN">Durchschlag mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date type="sortDate" notBefore-iso="1934-09-18" subtype="produced">18. September
+                    1934</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote xml:id="D_000193-008-000-hand01"
+                      source="#D_000193-008-000-wit01"
+                      scribeRef="#43593"
+                      medium="pencil"
+                      cert="high"
+                      resp="#JK"/>
+            <handNote xml:id="D_000193-008-000-hand02"
+                      source="#D_000193-008-000-wit02"
+                      scribeRef="#38909"
+                      medium="red-ink"
+                      cert="low"
+                      resp="#JK"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000193-008-000-wit01">Strafanzeige</term>
+            </keywords>
+            <classCode source="D_000193-008-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.SFE">D.J.SFE</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-08-10" who="#JK"/>
+         <change type="typography" when-iso="2021-08-10" who="#JK"/>
+         <change type="references" when-iso="2021-08-10" who="#JK"/>
+         <change type="structure" when-iso="2021-08-10" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-02" who="#JK"/>
+         <change when-iso="2020-10-12T07:56:29.816Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-12T08:31:06.58Z" who="#IB">Replaced Text with Transcription of
+                Transkribus Document 375963. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000193-008-000-facs001">
+      <surfaceGrp xml:id="D_000193-008-000-facs001-l001">
+         <surface xml:id="D_000193-008-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545939/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000193-008-000-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545940/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000193-008-000-facs001-l001-p003" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545941/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000193-008-000-facs001-l001-p004" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545942/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000193-008-000-facs001-l002">
+         <surface xml:id="D_000193-008-000-facs001-l002-p005" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545943/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000193-008-000-facs001-l002-p006" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545946/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile xml:id="D_000193-008-000-facs002">
+      <surfaceGrp xml:id="D_000193-008-000-facs002-l001">
+         <surface xml:id="D_000193-008-000-facs002-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545947/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000193-008-000-facs002-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545948/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000193-008-000-facs002-l002">
+         <surface xml:id="D_000193-008-000-facs002-l002-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545949/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000193-008-000-facs002-l002-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545950/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545951/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545952/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545953/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545954/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000193-008-000_p001"
+             facs="#D_000193-008-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_f3bb5957-c91a-4303-bba1-afc8a73e805c">
+            <lb xml:id="uuid_836518b9-7a6f-471b-b9ff-f80d59c15d3d"/>An das<lb
+               xml:id="uuid_e9e6e3d1-f8b1-4afd-a9a7-9c3148314ef2"/><rs type="institution"
+               ref="#36822"><hi rend="spaced">Strafkreisgerich</hi>t <lb
+                  xml:id="uuid_388dee4c-ca58-4612-8fbc-a46021beaf08"/><hi rend="underlined">in
+                  Prag</hi></rs><hi rend="underlined">.</hi>
+         </p>
+         <p xml:id="uuid_7a0d5066-91d5-47d7-94a9-f1988a70211b">
+            <lb xml:id="uuid_3fe0d570-a892-46d9-9320-3e32d7049a6f"/><hi rend="underlined"
+               >Privatkläger:</hi>
+            <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Karl <hi rend="spaced"
+                  >Krau</hi>s</rs>, Herausgeber und Eigentümer<lb
+               xml:id="uuid_8238b35a-2ab4-467a-a35a-0c5bdcccfd43"/>der Zeitschrift „<rs type="work"
+               ref="#41244" subtype="pmb">FACKEL</rs>“ in <rs type="place" ref="#50">Wien</rs>, </p>
+         <p xml:id="uuid_a88842ec-ccdb-432b-96b0-1a01032bd982">
+            <lb xml:id="uuid_f5985b59-d2e4-46d8-8cdf-389e4762c1ee"/>vertreten durch: </p>
+         <p xml:id="uuid_5b1162d9-c48e-48fe-8c3b-cfb0e91c26b1">
+            <lb xml:id="uuid_17917ef7-682c-45af-b385-be00973828f4"/><hi rend="underlined"
+               >Beklagter:</hi> Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38644"
+               >Emil <hi rend="spaced">Straus</hi>s</rs>, verantwortlicher<lb
+               xml:id="uuid_e16dc235-c995-4c87-be1a-9413c60c9157"/>Redakteur der Zeitschrift „<rs
+               type="work" ref="#56392" subtype="pmb">SOZIALDEMOKRAT</rs>“,<lb
+               xml:id="uuid_4aba3023-6a92-4e12-aefc-7f8e4b27f59b"/><rs type="place"
+               subtype="address" ref="#57416">Prag VII., Janovského ul.čp. 1251</rs>
+         </p>
+         <p xml:id="uuid_aea539e9-95e6-4ebe-a1da-3bb58ea98023">
+            <lb xml:id="uuid_1d1c1d80-bcfe-4525-880b-5b32338ce856"/><hi rend="underlined"
+               >STRAFANZEIGE resp. KLAGE</hi>
+            <lb xml:id="uuid_57993643-a73c-42c9-90e2-540429dada2a"/>gemäss <rs type="law" ref="">§§ 2</rs> und <rs type="law" ref="">3 des Ges.<lb xml:id="uuid_dded2cfc-ee33-45b4-a7a1-278253c24992"/>vom 28.6.1933
+                    Slg.N.108.</rs>
+         </p>
+         <p xml:id="uuid_ecdeba5b-69d5-4bdf-991c-a480d6e202a0">
+            <lb xml:id="uuid_ebbb701a-4105-4a30-b259-91b358c17f0f"/><hi rend="underlined"><hi
+                  rend="spaced">Zweifac</hi>h</hi>
+            <lb xml:id="uuid_abb54d69-e45f-413a-a231-d4e511a784a5"/>Rubrik. </p>
+         <pb xml:id="D_000193-008-000_p002"
+             facs="#D_000193-008-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_6f2264e4-5597-4dc9-baad-2bdc41d7621b">
+            <lb xml:id="uuid_08245a0c-0690-4d74-8991-6dc160702342"/>In <rs type="work" ref="#56394" subtype="pmb">Nro. 185 der Zeitschrift „Sozialdemokrat“<lb xml:id="uuid_2d2ea2b8-4757-4877-a68f-13fb3c347b42"/>vom 10.8.1934</rs> ist
+                ein „<rs type="work" ref="#56397" subtype="pmb">Die Fackel als fascistische
+                    Hetzschrift?</rs>“<lb xml:id="uuid_6fc9d38a-ca5b-42c4-be4b-37ec973a2a62"/>überschriebener, nicht unterzeichneter Artikel erschienen. </p>
+         <p xml:id="uuid_ed4cae71-7418-438e-92cc-6563785f5472">
+            <lb xml:id="uuid_b411cef2-7da9-46f7-8f99-a41cdac8b649"/>In diesem <rs type="work" ref="#56397" subtype="pmb">Artikel</rs>, der eine Aeusserung zum In<lb xml:id="uuid_cc6054d7-a9d1-4dc8-9080-f8748814ac14" break="no"/>halte der <rs type="work"
+                ref="https://fackel.oeaw.ac.at/f/890,0u1"
+                subtype="fackel">letzten
+                    Nummer der vom <rs type="person" ref="#11988">Privatkläger</rs>
+                        herausgegebenen<lb xml:id="uuid_cd081e99-c4c0-4add-ad4d-38de99396aaa"/>Zeitschrift „<rs type="work" ref="#41244" subtype="pmb">Die Fackel</rs>“</rs>
+                enthält, werden über den <rs type="person" ref="#11988">Privatkläger</rs>
+            <lb xml:id="uuid_0219ce80-2045-4da3-a224-5a3c1abb25a0"/>Tatsachen behauptet, die
+                geeignet sind, ihn in der allgemeinen<lb xml:id="uuid_47999161-5b31-4606-8084-cce9f147da3e"/>Meinung verächtlich zu
+                machen und herabzusetzen, wobei feststeht,<lb xml:id="uuid_b50720ec-8489-4122-8eb5-ce9b552973cd"/>dass der <rs type="person">Autor des <rs type="work" ref="#56397" subtype="pmb">Artikels</rs></rs> wusste,
+                dass die von ihm angeführten<lb xml:id="uuid_89d082d3-2fdb-4e12-a23e-fe6e4dd189a0"/>Tatsachen unwahr sind. </p>
+         <p xml:id="uuid_a724517f-0608-440f-8931-54e301377eea">
+            <lb xml:id="uuid_c4f7a453-9399-4e45-bedc-d02c3d0f369e"/>Der <rs type="work" ref="#56397" subtype="pmb">inkriminierte Artikel</rs> wird im Original<lb xml:id="uuid_be3c91eb-5834-44cb-a132-ce34674778a3"/>sowie in beglaubigter
+                Uebersetzung in die Staatssprache vorgelegt. </p>
+         <p xml:id="uuid_9b563d9d-808b-4d23-9cd9-d8c0ff7982f9">
+            <lb xml:id="uuid_0dd1a8c4-92fd-41fb-8303-6170daa0c544"/>Aus dem <rs type="work" ref="#56397" subtype="pmb">Artikel</rs> geht Folgendes hervor: </p>
+         <p xml:id="uuid_2c03aeed-2a70-4315-b7d2-ae320b1ee0ce">
+            <lb xml:id="uuid_e906df7c-2bfb-424b-88b9-ac1edf051e69"/>Es wird behauptet, dass der <rs
+               type="person" ref="#11988">Privatkläger</rs>, an<lb
+               xml:id="uuid_bf8e5d87-2721-49d6-9273-243597671ed9"/>dem leider seine 60 Jahre nicht
+            spurlos vorübergegangen zu sein<lb xml:id="uuid_66ad08d2-2fe1-4409-8321-6d294d11a706"
+            />scheinen, sich in der <rs type="work" ref="https://fackel.oeaw.ac.at/f/890,0u1"
+               subtype="fackel">letzten Nummer der von ihm herausgegebenen<lb
+                  xml:id="uuid_981f34b1-ac3f-43bc-96f5-d26cf3f4e6e4"/>Zeitschrift „<rs type="work"
+                  ref="#41244" subtype="pmb">Die Fackel</rs>“</rs> wilde und zugleich läppische
+               Ausfäl<lb xml:id="uuid_002fa5a9-a501-4a8c-b766-8a5565bdb75f" break="no"/>le gegen den
+            Marxismus und die Sozialdemokratie geleistet habe.<lb
+               xml:id="uuid_485ca46e-cada-43b4-a536-e65f9a8eb1ee"/>Ferner, dass er es den Arbeitern
+            nicht verzeihen könne, dass sie<lb xml:id="uuid_72da3507-a134-4b56-8b99-ab03f6fb0547"
+            />ihm den elektrischen Strom abgeschnitten haben und dass er einen<lb
+               xml:id="uuid_693c0a5d-492f-4a5b-894f-627661f84301"/>ausgewachsenen Zuchthäusler über
+               <rs type="person" ref="#3471">Lassalle</rs> stelle. Es sei ein Ver<lb
+               xml:id="uuid_ccc38485-db18-44bb-96d2-12bac4a371c4" break="no"/>fall, der in der Tiefe
+            des Absturzes wohl den <rs type="person" ref="#11617">Gerhart Hauptmanns</rs>
+            <lb xml:id="uuid_3a417eae-4691-4a9a-86d9-366a734c2527"/>übertreffe. Der leitende Gedanke
+            sei die kurzsichtige Erwägung,<lb xml:id="uuid_bbae36c5-ae29-46ed-bde5-cce695ffb56a"
+            />dass der Fascismus in Oesterreich und Italien die Juden ungescho<lb
+               xml:id="uuid_cd8d7e99-f6d9-446e-aa8e-e1e11a4d50ee" break="no"/>ren <subst
+               hand="#D_000193-008-000-hand01">
+               <del hand="#D_000193-008-000-hand01">lässt</del>
+               <add hand="#D_000193-008-000-hand01">lasse</add>
+            </subst> und darum das kleinere Uebel gegenüber dem Hitlerfas<lb
+               xml:id="uuid_40c863aa-0d4b-4fec-8fa3-dfa8003ade0f" break="no"/>cismus darstelle. Der
+               <rs type="person" ref="#11988">Privatkläger</rs> versuche auch, die čechoslo<lb
+               xml:id="uuid_c60735be-3ecc-4fe7-871f-dccc23e9be3c" break="no"/>vakischen Behörden
+            gegen die österreichische Emigration und ge<lb
+               xml:id="uuid_8fe94193-17e9-43a1-a115-9608a10dd7e3" break="no"/>gen einzelne
+            Schriftsteller aufzuputschen. Die čechoslovakische<lb
+               xml:id="uuid_59fa8478-a891-4235-a365-5ecc3462152d"/>Politik werde zwar noch nicht
+            durch die Ressentiments und Interes- <pb xml:id="D_000193-008-000_p003"
+               facs="#D_000193-008-000-facs001-l001-p003" n="3"/>
+            <lb xml:id="uuid_34e80f59-8b0a-4118-91df-2b386364e76a"/>sen der Wiener israelitischen
+            Kultusgemeinde bestimmt, doch<lb xml:id="uuid_9e86b358-0184-4505-b003-7bda8e9e3bd4"/>sei
+            es nicht ausgeschlossen, dass untergeordnete und entsprechend<lb
+               xml:id="uuid_3dcdcadf-e415-49ae-a59d-79de04441270"/>bornierte Organe den
+            Denuntiantionen zu genügen suchen. Der <rs type="person" ref="#11988">Pri<lb
+                  xml:id="uuid_90ddcf8d-ce41-4b91-9b17-62a026f53c33" break="no"/>vatkläger</rs>
+            könnte sich den Ruhm erwerben, aus dem Dichter der<lb
+               xml:id="uuid_e490d1e5-e9e4-417d-a718-874573bed567"/>„<rs type="work" ref="#32544"
+               subtype="pmb">Letzten Tage der Menschheit</rs>“ der Zutreiber des österreichi<lb
+               xml:id="uuid_5bbca854-7f0a-406c-ae81-9616920fe1d0" break="no"/>schen Henkers geworden
+            zu sein. Er sei wahrscheinlich, wie<lb
+               xml:id="uuid_f24f0013-27fd-48bd-809b-cf07ea686e2c"/>alle Literaten, die einmal den
+            Weg der Gleichschaltung gegan<lb xml:id="uuid_2001d211-8ead-44f0-b846-91be0d57cd00"
+               break="no"/>gen sind, bereits zu verblendet, um in dem Spiel der <rs type="person"
+               ref="#56720">Fey</rs>, <rs type="person" ref="#38707">Star<lb
+                  xml:id="uuid_672ffb68-107d-4793-ab67-7dfc1beee865" break="no"/>hemberg</rs> und
+               <rs type="person" ref="#38774">Schuschnigg</rs> die Kopie der deutschen Metzeleien
+               zu<lb xml:id="uuid_307c0d69-bcbf-4e8e-a661-52eb259e94a0"/>erkennen. </p>
+         <p xml:id="uuid_c9881ec0-0de8-4a02-931a-5832b6805b09">
+            <lb xml:id="uuid_91a7133e-3f0a-4290-92de-d9a29f253f87"/><hi rend="underlined">Beweis</hi>: Der <rs type="work" ref="#56397" subtype="pmb">inkriminierte
+                    Artikel</rs>. </p>
+         <p xml:id="uuid_f42d783a-529b-4274-b1af-5e0d74ebbc86">
+            <lb xml:id="uuid_03500b3d-d892-4a74-928a-140f7ae65b73"/>Die Tendenz dieses <rs type="work" ref="#56397" subtype="pmb">Artikels</rs> ist klar. Es handelt<lb xml:id="uuid_d2186b95-13a0-40da-a7a2-0414d2b851ba"/>sich darum, den <rs type="person" ref="#11988">Privatkläger</rs> durch die Behauptung unwahrer
+                    Tat<lb xml:id="uuid_4a60680f-c25a-4122-ac36-784c8d8f6329" break="no"/>sachen
+                wissentlich zu verleumden und ihn in der allgemeinen<lb xml:id="uuid_19085245-0b41-4bc0-906d-d61ab5054930"/>Meinung verächtlich zu
+                machen und herabzusetzen. Es wird fäl<lb xml:id="uuid_4cff62f2-6e1a-452d-8c35-935f5d4b1ba4" break="no"/>schlich
+                behauptet, der <rs type="person" ref="#11988">Privatkläger</rs>, an dem seine 60
+                    Jahre<lb xml:id="uuid_2f1b97b9-6849-4e1c-be67-fff085ba5749"/>nicht spurlos
+                vorübergegangen zu sein scheinen, habe in der<lb xml:id="uuid_7cfdedb9-c6ea-46a1-913f-909b5bb22a91"/><rs type="work"
+                ref="https://fackel.oeaw.ac.at/f/890,0u1"
+                subtype="fackel">letzten Fackel</rs>
+                wilde und zugleich läppische Ausfälle gegen<lb xml:id="uuid_ef909e23-c673-4e67-b431-0f080da2e15e"/>den Marxismus und die
+                Sozialdemokratie unternommen. Dies ist<lb xml:id="uuid_332d7d55-0b45-46f1-bafc-9b285a68b8d4"/>unwahr und tendenziös, da in
+                de <subst hand="#D_000193-008-000-hand01">
+               <del hand="#D_000193-008-000-hand01">r</del>
+               <add hand="#D_000193-008-000-hand01">m</add>
+            </subst> angeführten <rs type="work"
+                ref="https://fackel.oeaw.ac.at/f/890,0u1"
+                subtype="fackel">letzten <subst hand="#D_000193-008-000-hand01">
+                  <del hand="#D_000193-008-000-hand01">Nummer</del>
+                  <add hand="#D_000193-008-000-hand01">Hefte</add>
+               </subst>
+               <lb xml:id="uuid_613ea7b7-5e65-4519-a2dd-581128726745"/>der Fackel</rs>
+                keine, also auch weder wilde noch läppische Aus<lb xml:id="uuid_05426f20-60e4-460f-9ce7-ed1f652963b5" break="no"/>fälle gegen den
+                Marxismus und die Sozialdemokratie unter<lb xml:id="uuid_000c36dd-9f3c-40c8-acac-ddc04809e84e" break="no"/>nommen, sondern
+                lediglich die Haltung und Politik der Führer<lb xml:id="uuid_f32cd3f0-aa5e-4415-991a-e018367248fc"/>der österreichischen
+                Sozialdemokratie im Kampfe der Regie<lb xml:id="uuid_8efc0c82-b98e-46f0-baec-3eff05d7c791" break="no"/>rung gegen den
+                Nationalsozialismus einer durchaus berechtigten<lb xml:id="uuid_65970e1c-19c5-45df-bba9-79240bb285b1"/>Kritik unterzogen worden
+                sind. Die Behauptung, der <rs type="person" ref="#11988">Privat<lb xml:id="uuid_7700b655-a092-49d0-978f-2bb1bd76aabb" break="no"/>kläger</rs>
+                könne es den Arbeitern nicht verzeihen, dass sie ihm<lb xml:id="uuid_5417e7ea-a111-464e-b136-468951131a52"/>den elektrischen Strom
+                abgeschnitten haben, verfolgt die Ab<lb xml:id="uuid_b97011a1-076f-4d13-bfad-4a2b5d983ca0" break="no"/>sicht, den <rs type="person" ref="#11988">Privatkläger</rs> lächerlich zu machen, und ist
+                    unwahr.<lb xml:id="uuid_0441e49e-3523-4480-a366-f34ecb43961d"/>In der vom <rs type="person">Autor des <rs type="work" ref="#56397" subtype="pmb">inkriminierten Artikels</rs></rs> angeführten<lb xml:id="uuid_dca7f8d0-c61d-466a-a474-264704c0b9ca"/><rs type="work"
+                ref="https://fackel.oeaw.ac.at/f/890,0u1"
+                subtype="fackel">Fackel</rs> ist gegen
+                die Arbeiter überhaupt nichts vorgebracht <pb xml:id="D_000193-008-000_p004"
+                facs="#D_000193-008-000-facs001-l001-p004"
+                n="4"/>
+            <lb xml:id="uuid_c9e8ddf2-e618-4c0c-b056-06ab89d7ea55"/>worden, daher auch nichts,
+                was die Behauptung begründen könnte,<lb xml:id="uuid_b4e6bd73-cf06-4e87-8195-32f0483673d2"/>der <rs type="person" ref="#11988">Privatkläger</rs> sei wegen der Störung des elektrischen Lich<lb xml:id="uuid_3baa548e-130a-4c0e-acd7-dbcd8dd0132a" break="no"/>tes gegen die
+                Arbeiter aufgebracht worden. Die weitere Behaup<lb xml:id="uuid_c3bab82b-1e8e-4ce4-81f5-e6683b43e135" break="no"/>tung, der <rs type="person" ref="#11988">Privatkläger</rs> stelle einen ausgewachsenen
+                    Zuchthäusler<lb xml:id="uuid_77676144-f47f-42bc-90d1-f5ebcdd427bc"/>über eine
+                Persönlichkeit wie <rs type="person" ref="#3471">Lassalle</rs>, verfolgt die
+                    Absicht,<lb xml:id="uuid_9227e14f-e072-4801-a574-3d0c9b12079e"/>den <rs type="person" ref="#11988">Privatkläger</rs> in der allgemeinen Meinung herabzusetzen.<app>
+               <lem wit="#D_000193-008-000-wit01"/>
+               <rdg wit="#D_000193-008-000-wit02" hand="#D_000193-008-000-hand02">Die
+                        Beleidigung liegt darin, daß er nicht sagt, wen er meint. Gemeint ist der
+                        österr. <rs type="person" ref="#38707">Vizekzl. F. St.</rs> Wenn er ihn
+                        nennen würde, wäre es eine Beleidigung d. <rs type="person" ref="#38707">Starhemberg</rs>
+               </rdg>
+            </app>
+         </p>
+         <p xml:id="uuid_c0ded618-9bb9-4444-b27a-af6444950c32">
+            <lb xml:id="uuid_33d98dfe-931e-4511-a412-31a23de19fff"/>Der Satz, an dem <rs type="person" ref="#11988">Privatkläger</rs> sei ein Verfall zu<lb xml:id="uuid_3982e2cd-3f4e-411e-853e-7e599b98ca07"/>konstatieren, der in der
+                Tiefe des Absturzes wohl den <rs type="person" ref="#11617">Gerhart<lb xml:id="uuid_2c8a989d-bbfb-48f5-acd1-c91b26cc0b69"/>Hauptmanns</rs>
+                übertrifft, ist, in diesem Zusammenhange und in der<lb xml:id="uuid_b2d65510-01ca-4bce-9268-fb031827493f"/>Zeitschrift „<rs type="work" ref="#56392" subtype="pmb">Sozialdemokrat</rs>“ vorgebracht, im höchsten
+                    Masse<lb xml:id="uuid_a4fa9bdf-41cf-43de-aa7f-7377a1980414"/>beleidigend. Beim
+                Leser soll der Eindruck erweckt werden, der<lb xml:id="uuid_f6d2ddbd-2d31-4f55-bc0a-653c6df82956"/><app>
+               <lem wit="#D_000193-008-000-wit01"/>
+               <rdg wit="#D_000193-008-000-wit02" hand="#D_000193-008-000-hand02">
+                  <note type="marginal" hand="#D_000193-008-000-hand02" rend="leftMargin">Hitlergruß geleistet. Gedicht zu Ehren <rs type="person" ref="#37894">Horst Wessels</rs>.</note>
+               </rdg>
+            </app>
+            <rs type="person" ref="#11988">Privatkläger</rs> habe, so wie es <rs type="person" ref="#11617">Gerhart Hauptmann</rs>
+            <app>
+               <lem wit="#D_000193-008-000-wit01"/>
+               <rdg wit="#D_000193-008-000-wit02" hand="#D_000193-008-000-hand02">[</rdg>
+            </app>von der antifas<lb xml:id="uuid_59c34cdf-b3d6-44b2-884d-3862ec740f4e" break="no"/>cistischen Presse vorgeworfen wird,<app>
+               <lem wit="#D_000193-008-000-wit01"/>
+               <rdg wit="#D_000193-008-000-wit02" hand="#D_000193-008-000-hand02">]</rdg>
+            </app> die Sache des Geistes und<lb xml:id="uuid_a5d186ca-fce6-456f-90a3-0ed38b9a81a2"/>der Menschlichkeit verraten
+                und sich „gleichgeschaltet“. </p>
+         <p xml:id="uuid_c6635398-2d42-4566-887b-1d169aa2592b">
+            <lb xml:id="uuid_fa2fa3cf-5c46-4260-be37-415d79634ccb"/>Es wird ferner dem <rs type="person" ref="#11988">Privatkläger</rs> zum Vorwurfe ge<lb xml:id="uuid_6c9c7ed9-8e72-45c4-8cf4-9345a2a5a81a" break="no"/>macht, dass er
+                sich gegen die in Oesterreich und Italien herr<lb xml:id="uuid_cbf685bd-a44b-4b3d-85e2-cfd7708b0944" break="no"/>schenden Zustände
+                deswegen nicht gewendet habe, weil er den<lb xml:id="uuid_a9c16aac-80ff-48d1-b296-23d81800c012"/>österreichischen und
+                italienischen Fascismus gegenüber dem Hit<lb xml:id="uuid_4f59c97f-af71-4405-a4fa-8b5c5647c100" break="no"/>lerfascismus
+                deshalb für das kleinere Uebel halte, weil sie die<lb xml:id="uuid_10268e36-5c86-4f57-befc-724991f801e7"/>Juden ungeschoren lassen.
+                Dann wird auch der <rs type="person" ref="#11988">Privatkläger</rs> der<lb xml:id="uuid_52ce5e54-a247-472d-a2b6-e6e6dbd801d2"/>Denuntiation
+                österreichischer Emigranten und Schriftsteller<lb xml:id="uuid_d274e304-5974-4293-afcb-a8ec38017ad4"/>bei der čsl. Regierung
+                beschuldigt, wobei spottend darauf hin<lb xml:id="uuid_faccd310-7b0a-4e43-992d-8da6a3531e03" break="no"/>gewiesen wird,
+                dass diese Regierung bisher noch nicht durch<lb xml:id="uuid_e7dd0486-6f0a-4b41-a8c0-6ebea7e492b1"/>die Ressentiments und der
+                Interessen der Wiener israelitischen<lb xml:id="uuid_bdd13489-b4bb-4f10-9c3b-566ba04892b3"/>Kultusgemeinde bestimmt
+                wird. Damit soll zum Ausdrucke gebracht<lb xml:id="uuid_f792be20-0fc7-4e57-94d3-f35a4416b448"/>werden, dass <app>
+               <lem wit="#D_000193-008-000-wit01"/>
+               <rdg wit="#D_000193-008-000-wit02" hand="#D_000193-008-000-hand02">
+                  <note type="marginal" hand="#D_000193-008-000-hand02" rend="leftMargin">Zu
+                            Tode gefoltert werden viele jüdische Genossen.</note>
+               </rdg>
+            </app>sich der <rs type="person" ref="#11988">Privatkläger</rs> für diese
+                „Ressentiments“ und<lb xml:id="uuid_15826700-48d1-463c-affa-aa46d171475e"/>Interessen einsetze. Gegen den <rs type="person" ref="#11988">Privatkläger</rs>
+                wird die Beschul<lb xml:id="uuid_a426dccc-f3c7-4228-a90b-424d8f4f56ce" break="no"/>digung erhoben, der Zutreiber des österreichischen Henkers ge<lb xml:id="uuid_a404947c-ed42-49d8-bb1c-da308cbfd389" break="no"/>worden und den
+                Weg <app>
+               <lem wit="#D_000193-008-000-wit01"/>
+               <rdg wit="#D_000193-008-000-wit02" hand="#D_000193-008-000-hand02">
+                  <note type="marginal" hand="#D_000193-008-000-hand02" rend="leftMargin">österr. Zensor</note>
+               </rdg>
+            </app>der Gleichschaltung gegangen zu sein. </p>
+         <p xml:id="uuid_fb8834b2-7aed-477c-b74a-44f3265e96da">
+            <lb xml:id="uuid_c851d4f1-a174-4327-aff5-2f63b36944a4"/><hi rend="underlined">Beweis</hi>: Der <rs type="work" ref="#56397" subtype="pmb">inkriminierte
+                    Artikel</rs>. </p>
+         <pb xml:id="D_000193-008-000_p005"
+             facs="#D_000193-008-000-facs001-l002-p005"
+             n="5"/>
+         <p xml:id="uuid_968141a5-5c90-41cf-a26a-7ebd0d68a076">
+            <lb xml:id="uuid_abb54ad4-3653-4e60-acff-61b0a5c4005d"/>Es handelt sich hier also um
+                einen Fall der<lb xml:id="uuid_ba8e5463-ac43-4236-940e-af578848571d"/>üblen
+                Nachrede, bei dem sich der <rs type="person">Autor des <rs type="work" ref="#56397" subtype="pmb">inkriminierten<lb xml:id="uuid_ab5093ae-0d86-4a3d-91f4-38af2813d1a5"/>Artikels</rs></rs>
+                der Unwahrheit der von ihm angeführten und mitgeteil<lb xml:id="uuid_bf2b36c2-c588-43dd-b2fc-177a0600acb9" break="no"/>ten Tatsachen
+                bewusst war und bewusst sein musste. Da der<lb xml:id="uuid_bb89d153-c78f-4701-9e94-20577d7db848"/><rs type="work" ref="#56397" subtype="pmb">Artikel</rs> nicht unterzeichnet war, muss die Anklage bis zu <add hand="#D_000193-008-000-hand01">r </add>
+            <del hand="#D_000193-008-000-hand01">des<lb xml:id="uuid_f66535de-6663-4c69-94cf-f423e4c709fe" break="no"/>sen </del>
+                Eruierung <add hand="#D_000193-008-000-hand01">des <rs type="person">Verfassers</rs>
+            </add> vorläufig nur gegen den unbekannten Täter so<lb xml:id="uuid_bc313aac-306e-405f-b54d-7033536347f3" break="no"/>wie gegen den <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38644">verantwortlichen
+                    Redakteur der Zeitschrift<lb xml:id="uuid_4d2f404d-e01e-4487-ab47-bb57c87266da"/>„<rs type="work" ref="#56392" subtype="pmb">Sozialdemokrat</rs>“</rs>
+                erhoben werden. </p>
+         <p xml:id="uuid_3494bf7e-3b0d-40a2-a009-dc73ec907e2d">
+            <lb xml:id="uuid_19bf41aa-3be5-4e81-80d8-7dabf4d6d1da"/>Es wird also der Antrag
+                gestellt, gegen den bis<lb xml:id="uuid_77fd4106-c697-44af-be0e-2707111fe23b" break="no"/>her <rs type="person">unbekannten Autor des in <rs type="work" ref="#56394" subtype="pmb">Nro. 185 der Zeitschrift „Sozial<lb xml:id="uuid_2e6f53a6-e675-4d18-881b-e68f6943270d" break="no"/>demokrat“
+                        vom 10.8.1934</rs> erschienen Artikels „<rs type="work" ref="#56397" subtype="pmb">Die Fackel als<lb xml:id="uuid_7dfb7612-4c9b-4f20-b3e5-8ab183fc7a14"/>fascistische
+                        Hetzschrift</rs>“</rs> sowie gegen den verantwortlichen<lb xml:id="uuid_0ccdecfa-392d-4af5-ada6-f8605afe7b82"/>Redakteur Dr. <rs type="person" ref="https://pmb.acdh.oeaw.ac.at/entity/38644">Emil Strauss</rs>
+                wegen des Vergehens der Nachrede<lb xml:id="uuid_74f91c3c-85a3-4332-a31d-cae0e34b507b"/>und Verleumdung gemäss <rs type="law" ref="">§ 2</rs> und <rs type="law" ref="">3 des Gesetzes vom
+                        28.6.1933,<lb xml:id="uuid_115ba656-4ea9-4751-9afc-6336a2aca711"/>No. 108
+                    der Gesetzessammlung</rs> das Strafverfahren einzuleiten. </p>
+         <p xml:id="uuid_18eb8be5-01ed-4215-8da7-64a7e992cd14">
+            <lb xml:id="uuid_cb3b5423-794b-4d7e-a102-71c0f2fc9ee6"/><rs type="place" ref="#652">Prag</rs>, am </p>
+         <pb xml:id="D_000193-008-000_p006"
+             facs="#D_000193-008-000-facs001-l002-p006"
+             n="6"/>
+         <p xml:id="uuid_e7e650c1-c0a5-4708-ae5e-6c9d95098ba4">
+            <lb xml:id="uuid_77f6f772-1dd1-4684-a616-5915f9f76aac"/><note type="paratext" resp="law-firm"><rs type="person" ref="#11988">Kraus</rs> – <rs type="institution" ref="#37540">Sozialdemokrat</rs></note>
+         </p>
+      </body>
+   </text>
+</TEI>

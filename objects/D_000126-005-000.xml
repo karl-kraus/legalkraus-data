@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-006-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-004-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000126-005-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Urteil des Strafbezirksgerichts I Wien (G.Z. I U 186/29, Richter: Christoph
+                    Höflmayr, Verteidiger: Fritz Oberländer)</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000126-005-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/urteil-des-strafbezirksgerichts-i-wien-g-z1-u-18629-richter-christoph-hoeflmayr-verteidiger </idno>
+            <idno subtype="transkribus" type="ID">333197</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000126" type="collection">Karl
+                    Kraus ca. Der Tag</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <ab type="stamp">
+                  <stamp source="#50491" xml:id="uuid_7a2e0e18-bfd3-413a-83fd-aa4f3fae8d3c"/>
+               </ab>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000126-005-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSU">Typoskript mit handschriftlichen Überarbeitungen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness facs="#D_000126-005-000-facs001" xml:id="D_000126-005-000-wit01"/>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-05-28">28. Mai 1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote xml:id="D_000126-005-000-hand01"
+                      source="#D_000126-005-000-wit01"
+                      scribeRef="#38909"
+                      medium="red-pencil"
+                      cert="low"
+                      resp="#JK"/>
+            <handNote xml:id="D_000126-005-000-hand02"
+                      source="#D_000126-005-000-wit01"
+                      scribeRef="#51912"
+                      medium="black-ink"
+                      cert="high"
+                      resp="#JK"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000126-005-000-wit01">Urteil</term>
+            </keywords>
+            <classCode source="D_000126-005-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.URT">D.J.URT</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" when-iso="2021-09-13">Replaced Text with Transcription of Transkribus
+                Document 333197. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2022-01-28"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-01-28" who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2022-01-28"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2022-01-28"
+                 who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2022-01-28"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000126-005-000-facs001">
+      <surfaceGrp xml:id="D_000126-005-000-facs001-l001">
+         <surface type="recto" xml:id="D_000126-005-000-facs001-l001-p001">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557647/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000126-005-000-facs001-l001-p002">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557648/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000126-005-000-facs001-l002">
+         <surface type="recto" xml:id="D_000126-005-000-facs001-l002-p003">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557649/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000126-005-000-facs001-l002-p004">
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557650/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000126-005-000_p001"
+             n="1"
+             facs="#D_000126-005-000-facs001-l001-p001"/>
+         <p xml:id="uuid_d69de659-1f64-46de-8a78-91ba4179abce">
+                <lb xml:id="uuid_a8163924-40fc-4eb7-b87a-d6a8f1a657cb"/>1 U 186/29/3 </p>
+         <p xml:id="uuid_23b33b89-fa92-4810-ab01-2b2b019970f2">
+                <lb xml:id="uuid_fbc6929c-a4a2-4dc4-bf75-1c887430add9"/><hi rend="underlined"><hi
+                        rend="spaced">Im Namen der Republi</hi>k!</hi>
+            </p>
+         <p xml:id="uuid_994d6e59-78f9-4209-b6d5-ab054d6c7e13">
+                <lb xml:id="uuid_8690021a-7e05-4779-b558-ac9b94b4d327"/>Das <rs type="institution"
+                    ref="#50491">Strafbezirksgericht I</rs> in <rs type="place" ref="#50">Wien</rs>
+                als Pressegericht hat heute in<lb xml:id="uuid_05fe7811-058a-46ec-99a9-2dd1825f2bfb"
+                />Gegenwart des Privatanklagevertreters <rs type="person" ref="#38909">Dr. Oskar <hi
+                        rend="spaced">Same</hi>k</rs>, des Angeklag<lb break="no"
+                    xml:id="uuid_bd73bb12-6cd8-4ebc-b80d-c17af12ec659"/>ten <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/51602" type="person">Josef <hi
+                        rend="spaced">Kolle</hi>r</rs> und des Verteidigers <rs type="person"
+                    ref="#63531">Dr. Fritz <hi rend="spaced">Oberlän<lb break="no"
+                            xml:id="uuid_1b587ef9-3fbf-4f35-94ac-caec0fe44f15"/>de</hi>r</rs> über
+                die Anklage verhandelt, die der Privatankläger <rs type="person" ref="#11988">Karl
+                    Kraus</rs>
+                <lb xml:id="uuid_3fcaf15f-bc39-4b23-b858-13cd7ba95f88"/>gegen <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/51602" type="person">Josef <hi
+                        rend="spaced">Kolle</hi>r</rs>, 43 Jahre alt, verheiratet,
+                    verantwortlicher<lb xml:id="uuid_7caf6288-6a7a-48eb-adef-b29c92eb8f19"
+                />Schriftleiter der Zeitung: „<rs ref="https://pmb.acdh.oeaw.ac.at/entity/37568"
+                    type="institution">Der Tag</rs>“ wegen der Uebertretung nach <rs type="law"
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=484&amp;size=45"
+                    >§ 24<lb xml:id="uuid_bb4a4b8c-5e63-466b-ae9e-85e85da5f661"/>(2) 3
+                    Pressgesetz</rs> erhoben hatte und über den vom <rs type="person" ref="#11988"
+                    >Ankläger</rs> gestellten<lb xml:id="uuid_b256a61f-a31b-4a6e-9704-2aaf0eeee345"
+                />Antrag auf Bestrafung des <rs type="person" ref="#51602">Beschuldigten</rs> und
+                Verpflichtung zur Veröffent<lb break="no"
+                    xml:id="uuid_5e4252ea-cd5c-4b93-afae-7b985e63d803"/>lichung der Berichtigung in
+                der Zeitung: „<rs ref="https://pmb.acdh.oeaw.ac.at/entity/37568" type="institution"
+                    >Der Tag</rs>“ zu Recht erkannt:<lb
+                    xml:id="uuid_831cbcd1-28e8-436f-a5a3-33ecd7fe6d98"/>I. Es wird festgestellt, von
+                der <rs type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-002-000.xml"
+                    subtype="legal-doc">Berichtigung</rs>, die der <rs type="person" ref="#11988"
+                    >Privatankläger</rs>
+                <lb xml:id="uuid_e7fcfcdb-eef8-4722-8093-e0e73ad00a8b"/>mit Bezug auf den in der <rs
+                    type="work" ref="#57288" subtype="pmb">Nummer 2282</rs> der Zeitung: „<rs
+                    type="work" ref="#41560" subtype="pmb">Der Tag</rs>“ vom 7. Mai<lb
+                    xml:id="uuid_7b53f80e-810a-4fad-b30f-7cf50106c33a"/>1929 mit der Ueberschrift:
+                    „<rs type="work" ref="#57287" subtype="pmb">Theaterskandal in <rs type="place"
+                        ref="#866">Dresden</rs></rs>“ abgedruckten<lb
+                    xml:id="uuid_6c7e5d45-0c5e-4a65-9200-cc91540df0ad"/>Artikel dem verantwortlichen
+                Schriftleiter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/51602" type="person">Josef
+                        <hi rend="spaced">Kolle</hi>r</rs> der<lb
+                    xml:id="uuid_98e78c2b-97d4-4194-a98a-24838f7929b8"/>erwähnten <rs
+                    type="institution" ref="#37568">Zeitung</rs> zur Veröffentlichung zukommen ließ,
+                ist zu veröffent<lb break="no" xml:id="uuid_eba36064-c990-4d17-9974-7f913a6575cd"
+                />lichen </p>
+         <p xml:id="uuid_45ae3f90-451c-4f2c-b897-3cc4ad7679ed">
+                <lb xml:id="uuid_4eb9f679-ca66-4230-9703-27fac30f222d"/>Sie schreiben: „<quote
+                    xml:id="uuid_c69e2e62-5b35-4da6-97dd-cb8fca82b379" source="#57287">Zwei Akte
+                    waren anstandslos gespielt worden,<lb
+                        xml:id="uuid_ed5655fa-62e1-4858-be42-70c5d36b920f"/>als dem Publikum
+                    mitgeteilt wurde, daß <rs type="person" ref="#6599">Camillo <hi rend="spaced"
+                                >Castiglio<lb break="no"
+                                xml:id="uuid_5230e20e-400c-49da-8eea-319d150089c9"/>n</hi>i</rs>
+                    gegen die Verwendung einer Figur, durch die er verkörpert<lb
+                        xml:id="uuid_e04c2ad5-a00f-499b-a3ee-9e75b6d67002"/>werden sollte, <hi
+                        rend="spaced">Einspruch erhobe</hi>n habe und daß<lb
+                        xml:id="uuid_4747eeac-d01b-4322-8400-ecea3c20ceb8"/>diesem <hi rend="spaced"
+                        >Einspruch stattgegebe</hi>n worden sei.<lb
+                        xml:id="uuid_ab305356-73e0-4a54-a1af-1e5656d68320"/>Ein Schauspieler trat
+                    dann vor die Rampe und erzählte den In<lb break="no"
+                        xml:id="uuid_77f18700-627b-4986-91ce-475a05d9d255"/>halt des dritten
+                    Aktes.</quote>“ Die Behauptung, daß dem Publikum mitge<lb break="no"
+                    xml:id="uuid_0557834a-a02b-42de-8325-913a448f1033"/>teilt wurde, einem Einspruch
+                des Herrn <rs type="person" ref="#6599">Castiglioni</rs> sei stattge<lb break="no"
+                    xml:id="uuid_70c5b561-c9a7-4987-b9cf-8a828a7d4314"/>geben worden, ist unwahr.
+                Wahr ist, daß eine solche Mitteilung<lb
+                    xml:id="uuid_ebfd4668-7bd4-4234-85d5-108d76db35b5"/>dem Publikum nicht gemacht
+                wurde. Wahr ist, daß dem Publikum mit<lb break="no"
+                    xml:id="uuid_71a4c63f-d23f-49c8-9243-efa4975387ab"/>geteilt wurde, daß eine
+                lebende Person, die sich in einer Figur<lb
+                    xml:id="uuid_4d0c5814-10f6-4bea-8ea3-fd50703fd6c7"/>zu erkennen glaubte, die
+                Veranstalter der Aufführung mit der<lb
+                    xml:id="uuid_5da1f1d4-3e1f-4954-be07-fd98567f5158"/>Einbringung einer
+                einstweiligen Verfügung habe bedrohen lassen,<lb
+                    xml:id="uuid_4de091ed-720f-470a-a949-b2da4ea94ec9"/>wenn nicht jede Beziehung
+                auf sie eliminiert würde. </p>
+         <p xml:id="uuid_9ef2619c-2bb9-40a0-ac1b-e2427467d084">
+                <lb xml:id="uuid_0925a511-9601-492e-884a-19dcc5ef3aff"/>Sie schreiben: „<quote
+                    xml:id="uuid_77601001-bf0e-4c5d-95cd-97d33b51b147" source="#57287">Während die
+                    Sozialdemokraten applaudierten, be<lb break="no"
+                        xml:id="uuid_4124c71c-5cda-4655-8a0c-076c8eabf956"/>gannen die Bürgerlichen
+                    ein <hi rend="spaced">Pfeifkonzer</hi>t und <hi rend="spaced">wa</hi>r-<pb
+                        xml:id="D_000126-005-000_p002" n="2"
+                        facs="#D_000126-005-000-facs001-l001-p002"/><lb
+                        xml:id="uuid_50edc9df-a676-4b4e-9d28-c47df2f1d66f"/><hi rend="spaced">fen
+                        Stinkbombe</hi>n.</quote>“ Diese Behauptung ist unwahr.<lb
+                    xml:id="uuid_5d15a1e7-abe6-459a-ace8-7c02b41d149a"/>Wahr ist, daß während der
+                    <rs type="person">Schauspieler</rs> vor die Rampe trat, um<lb
+                    xml:id="uuid_e2c06a93-14aa-47ac-b20f-acaeebb99bc0"/>dem Publikum die Weglassung
+                des dritten Aktes mitzuteilen, ein<lb
+                    xml:id="uuid_176cda84-bb3a-44c9-be24-c8a854f18e32"/><rs type="person"
+                    >Zuschauer</rs> den Namen „<rs type="person" ref="#6599">Castiglioni</rs>“ rief,
+                worauf eine oder zwei<lb xml:id="uuid_c84f87bc-5e3a-4678-8bed-60fea613eba3"
+                />Personen pfiffen und ein Mann eine übelriechende Flüssigkeit ver<lb break="no"
+                    xml:id="uuid_d27aaf04-878f-48a0-ac87-894d38b4fe74"/>schüttete. </p>
+         <p xml:id="uuid_95bb657f-34f5-46fb-86d8-c0aee6e2063f">
+            <lb xml:id="uuid_a6757a89-7831-4ff8-92b9-806db43bb340"/>Sie schreiben: „<quote xml:id="uuid_2ef85c63-ce51-42d1-b9de-951705f61acb" source="#57287">Unter
+                    allgemeinen Lärm konnte die Vorstellung<lb xml:id="uuid_d66482ec-a5f3-48b5-a553-094d7592eb79"/>schließlich doch zu Ende
+                    geführt werden.</quote>“ Diese Behauptung ist<lb xml:id="uuid_33733b18-44d1-4593-97f7-fe9247799552"/>unwahr. Wahr ist, daß bei
+                der fortgesetzten Vorstellung an kei<lb break="no" xml:id="uuid_639c1a4b-44a8-4af3-b5b2-1e70195d018b"/>ner einzigen stelle Lärm
+                entstand und die Vorstellung in keiner<lb xml:id="uuid_bb8ebca8-7f9f-42a6-a9bc-f56829d6c2aa"/>Weise gestört wurde. </p>
+         <p xml:id="uuid_a29390e5-75d4-456e-9565-012c64fc6318">
+                <lb xml:id="uuid_c10ed5e1-040f-4863-843b-263bffe9ad77"/>II. <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/51602" type="person">Josef <hi
+                        rend="spaced">Kolle</hi>r</rs> wird verpflichtet, diesen Teil der <rs
+                    type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-002-000.xml"
+                    subtype="legal-doc">Berichtigung</rs>
+                <lb xml:id="uuid_07876696-c77e-4a83-8c4c-422a4e6c1946"/>in der nächsten oder
+                zweitnächsten Nummer die nach Verkündigung des<lb
+                    xml:id="uuid_1c5739fd-f064-424e-97c7-264f1404955d"/>Urteiles erscheinen wird in
+                demselben Teil der genannten <rs type="work" ref="#41560" subtype="pmb">Zeitung</rs>
+                    und<lb xml:id="uuid_7038b6a1-6e87-4bce-a91a-28ac4ccc1035"/>in der gleichen
+                Schrift, wie die zu berichtigende <rs type="work" ref="#57287" subtype="pmb"
+                    >Mitteilung</rs> zu ver<lb break="no"
+                    xml:id="uuid_03c95b70-fa92-4db1-8d46-a9cac8432d99"/>öffentlichen, widrigenfalls
+                die genannte <rs type="work" ref="#41560" subtype="pmb">Zeitung</rs> nicht mehr
+                    erscheinen<lb xml:id="uuid_feec4f87-af6e-4fa7-84a4-319ed35c94b8"/>dürfte. </p>
+         <p xml:id="uuid_0de8a30c-7b19-4306-bd38-9c858e99cfff">
+                <lb xml:id="uuid_4afe2ab6-a636-41e4-820f-89f3b78c8d31"/>III. <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/51602" type="person">Josef <hi
+                        rend="spaced">Kolle</hi>r</rs> wird von der Anklage wegen Uebertretung nach
+                    <rs type="law"
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45"
+                    >§ 23</rs>
+                <lb xml:id="uuid_4ad381fa-6b99-48b7-81c0-efcaaa8b9ddf"/>und <rs type="law"
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=484&amp;size=45"
+                    >§ 24 (2) 3 Pressgesetz</rs>, angeblich begangen dadurch, daß er als ver<lb
+                    break="no" xml:id="uuid_15398cec-3fe2-4a4c-94be-4101580d5ec5"/>antwortlicher
+                Schriftleiter der genannten <rs type="institution" ref="#37568">Zeitung</rs> sich
+                grundlos weige<lb break="no" xml:id="uuid_01b85b00-e29e-483b-9fa9-ede859fca40c"
+                />gerte, die vorerwähnte <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-002-000.xml"
+                    subtype="legal-doc">Berichtigung</rs> zu veröffentlichen, gemäß <rs type="law"
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1873&amp;page=503&amp;size=46"
+                    >§ 259/3<lb xml:id="uuid_38bfecaa-5e6d-4842-a917-5c34e30e8e41"/>St.P.O.</rs>
+                freigesprochen. </p>
+         <p xml:id="uuid_2302b945-f665-4055-b851-dc30c35ee6f5">
+                <lb xml:id="uuid_fecceb87-79b1-4282-b4cf-10d068018b85"/>IV. Der Privatankläger <rs
+                    type="person" ref="#11988">Karl <hi rend="spaced">Krau</hi>s</rs> hat gemäß <rs
+                    type="law"
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1873&amp;page=532&amp;size=45"
+                    >§ 390 St.P.O.</rs> die Kosten<lb
+                    xml:id="uuid_71b8e130-1279-4230-97c4-04f4c922f383"/>des Strafverfahrens zu
+                tragen.</p>
+         <p xml:id="uuid_2440bde9-6796-4b14-aa6a-4d88d7113d6c">
+                <lb xml:id="uuid_a9c129f4-42be-42a8-95b4-dee3de662271"/><hi rend="underlined"><hi
+                        rend="spaced">Entscheidungsgründ</hi>e:</hi>
+            </p>
+         <p xml:id="uuid_8c7908f9-67f3-47f2-8da7-1c2acd639ee5">
+            <lb xml:id="uuid_dc68e6d8-33a8-4315-a9d2-c4958588471d"/>Durch das Impressum, bzw.
+                die Angaben des <rs type="person" ref="#51602">Beschuldigten</rs> ist erwiesen,<lb xml:id="uuid_4654845a-273d-477c-be65-34bda52898cb"/>daß <rs type="person" ref="#51602">Beschuldigter</rs> in der in Betracht kommenden Zeit der
+                    verantwortliche<lb xml:id="uuid_e3893cfb-e2bb-407c-ae96-d286e8f9545b"/>Schriftleiter der Zeitung: „<rs ref="https://pmb.acdh.oeaw.ac.at/entity/37568" type="institution">Der Tag</rs>“ war, daß er das in Betracht kommende<lb xml:id="uuid_7099860e-2c8a-48c4-a22f-75d9939ac404"/><rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-002-000.xml"
+                subtype="legal-doc">Berichtigungsschreiben</rs> vom 13./5.1929 erhalten hat und
+                daß seit Erhalt<lb xml:id="uuid_f39d1ba8-286e-4933-8f4a-28b72b80231f"/>desselben
+                mehr als zwei Nummern der genannten <rs type="work" ref="#41560" subtype="pmb">Zeitung</rs> erschienen sind,<lb xml:id="uuid_d0d3ec0b-71eb-40e0-9f5b-ce2e1897585d"/>die verlangte <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-002-000.xml"
+                subtype="legal-doc">Berichtigung</rs> aber nicht veröffentlicht wurde. </p>
+         <p xml:id="uuid_7d0ea59d-055b-4079-a54b-7e72347ebd1e">
+            <lb xml:id="uuid_b80ca121-dd16-444b-8578-88a8c691002f"/>Das <rs type="institution" ref="#50491">Gericht</rs> hatte zu prüfen, ob die Weigerung des <rs type="person" ref="#51602">Beschuldigten</rs>, die<lb xml:id="uuid_da59912f-df67-4d82-a0a5-48851b3ae329"/>verlangte <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-002-000.xml"
+                subtype="legal-doc">Berichtigung</rs> zu veröffentlichen, grundlos war. <pb xml:id="D_000126-005-000_p003"
+                n="3"
+                facs="#D_000126-005-000-facs001-l002-p003"/>
+         </p>
+         <p xml:id="uuid_57e30199-5925-4df2-8c9c-a68bb4a4ee81">
+            <lb xml:id="uuid_6b7c6214-d6a9-4c4f-8748-d7f14959581a"/>Das <rs type="institution" ref="#50491">Gericht</rs> ist der Ansicht, daß die gegenständliche <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-002-000.xml"
+                subtype="legal-doc">Berichti<lb break="no" xml:id="uuid_1ef6dd70-df20-47cf-b1d6-4c5dfb54a1a2"/>gung</rs> in einigen
+                Belangen dem Pressgesetz nicht entspricht. </p>
+         <p xml:id="uuid_58798426-136b-4ed1-adeb-a05d10e9bcb9">
+            <lb xml:id="uuid_9d4fed72-73a1-489f-954f-b96c06026a6b"/>Entgegen der Einwendung des
+                    <rs type="person" ref="#51602">Beschuldigten</rs> kommt dem <rs type="person" ref="#11988">Privatan<lb break="no" xml:id="uuid_3e42d34c-1281-41cd-9ee7-e632ff50753b"/>kläger</rs> die Stellung
+                eines Beteiligten im Sinne des <rs type="law"
+                ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45">§ 23 Pressgesetz</rs>
+            <lb xml:id="uuid_3e26e8f9-2d68-417b-b172-cd7936116330"/>zu, da der <rs type="person" ref="#11988">Autor</rs> eines <rs type="work" ref="#53397" subtype="pmb">Theaterstückes</rs> ein Interesse an der Aufnahme<lb xml:id="uuid_d9a5f115-44cd-442d-b4ec-60cf30a148b6"/>seines Werkes seitens der
+                Zuhörer hat. </p>
+         <p xml:id="uuid_29211f6f-2320-48a3-9214-eb75c83fa201">
+                <lb xml:id="uuid_4adc2f25-2b83-44eb-8e40-0e373c6ad1fd"/>Die <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-002-000.xml"
+                    subtype="legal-doc">Berichtigung</rs> entspricht aber dem Pressgesetz insoferne
+                    nicht,<lb xml:id="uuid_d4282681-4ffb-420a-b483-3bfe1fff9696"/>als berichtigt
+                wird: „<quote xml:id="uuid_fdfe7ac0-11f5-4a82-bef6-491255efd122"
+                    source="#D_000126-002-000.xml">Wahr ist, daß <hi rend="spaced">einem solchen
+                            Ein<lb break="no" xml:id="uuid_48f85419-8386-4845-8ac2-773de4d9d4fe"
+                        />spruch nicht stattgegeben wurd</hi>e und<lb
+                        xml:id="uuid_8da7e804-dc67-42ca-b268-e21c4c3fbe2d"/>…</quote>“ </p>
+         <p xml:id="uuid_1f2f399f-3cfb-4986-85e6-bb67f0828291">
+                <lb xml:id="uuid_273b3528-2b74-4790-9a6b-673a33a71fa8"/>Zu dieser Antithese fehlt
+                die bezügliche Behauptung in dem berich<lb break="no"
+                    xml:id="uuid_15b8918a-4526-46b1-bef8-76b8ba87342c"/>tigten <rs type="work"
+                    ref="#57287" subtype="pmb">Aufsatze</rs>. In dem berichtigten <rs type="work"
+                    ref="#57287" subtype="pmb">Aufsatze</rs> wurde behauptet, daß dem<lb
+                    xml:id="uuid_fef98887-88cb-4597-a16b-40d8326e0cdb"/>Publikum <hi rend="spaced"
+                    >mitgeteil</hi>t wurde, daß … Einspruch erhoben<lb
+                    xml:id="uuid_df0e61a3-36b1-43a0-b928-eb0888c4a30c"/>und demselben stattgegeben
+                wurde. Es kann daher diesbezüglich ledig<lb break="no"
+                    xml:id="uuid_0fe4d9ad-52fa-4621-8a0f-5588d1aa639c"/>lich berichtigt werden, daß
+                dies <hi rend="underlined">nicht mitgeteilt</hi> wurde; <hi rend="underlined"
+                    hand="#D_000126-005-000-hand01">der Inhalt<lb
+                        xml:id="uuid_2d48a544-ed08-4024-a94a-866420e17b66"/>der Mitteilung aber
+                    konnte nicht berichtigt werden.</hi>
+            </p>
+         <p xml:id="uuid_8f691cec-3fda-46b8-b390-c63c5ae58dfa">
+            <lb xml:id="uuid_a1c3828a-ab93-409c-8a8d-a14fb552b237"/>Weiters ist in der
+                berichtigten <rs type="work" ref="#57287" subtype="pmb">Mitteilung</rs> nichts
+                    enthalten,<lb xml:id="uuid_616456bf-6631-47cc-86e6-697ba555a40d"/>was den Satz
+                der <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-002-000.xml"
+                subtype="legal-doc">Berichtigung</rs>: „<quote xml:id="uuid_f302ce29-8dc8-4da7-b49a-ac1dd4423263"
+                   source="#D_000126-002-000.xml">Wahr ist, daß der dritte Akt schon<lb xml:id="uuid_6ce70bf9-3a0a-46e2-90f1-91e13fbdfb90"/>auf die Drohung mit der
+                    Einbringung der einstweiligen Verfügung hin<lb xml:id="uuid_3b3c688d-d4af-4fd8-8b71-416fe42f6745"/>ausgelassen
+                    wurde.</quote>“ rechtfertigen könnte. </p>
+         <p xml:id="uuid_7d9bbaa3-e9bb-4c6b-a79d-790163769d2e">
+            <lb xml:id="uuid_54077e9e-4e4c-4ae9-84b9-2cb426e0cbbd"/>Es war daher die <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-002-000.xml"
+                subtype="legal-doc">Berichtigung</rs> auch in diesem Belange nicht<lb xml:id="uuid_0775a6cb-ed23-4e43-80ac-11eb657f692d"/>gesetzesgemäß. </p>
+         <p xml:id="uuid_542a25ec-f412-47c1-a431-746526e160d2">
+            <lb xml:id="uuid_58ff2ffa-5622-480e-aca2-a7311375c76b"/>Insoweit der Hergang der
+                Störung berichtigt wurde, entspricht<lb xml:id="uuid_57b10076-b27a-4d38-b88d-23e1be65422a"/>die <rs type="work"
+                ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-002-000.xml"
+                subtype="legal-doc">Berichtigung</rs> den pressgesetzlichen Bestimmungen, da
+                    berichtigt<lb xml:id="uuid_3cc2949d-d5be-48fc-a5d1-8f33bbee4ce5"/>wurde, daß die
+                in dem berichtigten Aufsatze mitgeteilten Störungen<lb xml:id="uuid_767c2abb-f551-4323-a360-727253bca1c6"/>in <hi rend="underlined">anderer</hi> Weise erfolgten. </p>
+         <p xml:id="uuid_7ca2f7a8-34ec-4e91-8888-7bf011774e38">
+                <lb xml:id="uuid_919234d5-9608-4812-b04e-e2d018673e32"/>Da die verlangte <rs
+                    type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-002-000.xml"
+                    subtype="legal-doc">Berichtigung</rs> – wie früher ausgeführt – auch<lb
+                    xml:id="uuid_a1bf23bd-8c0d-4fd4-bf05-1161f8dd895c"/>Stellen enthielt, die keine
+                    <subst hand="#D_000126-005-000-hand02">
+                    <del hand="#D_000126-005-000-hand02">Mitteilung</del>
+                    <add hand="#D_000126-005-000-hand02">Berichtigung</add>
+                </subst> mitgeteilter Tatsachen sind,<lb
+                    xml:id="uuid_1ad092b4-94f6-44de-bea5-40a790c310ea"/>war der <rs type="person"
+                    ref="#51602">Beschuldigte</rs> berechtigt, die Veröffentlichung der <rs
+                    type="work" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-002-000.xml"
+                    subtype="legal-doc">Berichti<lb break="no"
+                        xml:id="uuid_4d22a4fb-49eb-4bf2-afd2-02f396977f76"/>gung</rs> ihrem ganzen
+                Umfange nach abzulehnen, seine Weigerung war nicht<lb
+                    xml:id="uuid_07851003-ba90-4a94-96f4-f5f46cdc54fd"/>grundlos, weshalb mit einem
+                Freispruch vorzugehen, jedoch gemäß <rs type="law"
+                    ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=484&amp;size=45"
+                    >§ 24<lb xml:id="uuid_bb6c5dfd-7baf-4021-ad5c-609e753da3ee"/>(3) PrG.</rs>
+                festzustellen war, was von der verlangten <rs type="work"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000126-002-000.xml"
+                    subtype="legal-doc">Berichtigung</rs> zu<lb
+                    xml:id="uuid_7e2aa03f-0ee7-4b10-a733-3257f12b3912"/>veröffentlichen ist und
+                dieser Feststellung gemäß auf Veröffentlich- <pb xml:id="D_000126-005-000_p004"
+                    n="4" facs="#D_000126-005-000-facs001-l002-p004"/>
+                <lb xml:id="uuid_96671a19-bd32-4af4-8ec4-596f8e61dad1"/>chung zu erkennen. </p>
+         <p xml:id="uuid_49771664-b3db-46d3-b733-8bbd05503823">
+            <lb xml:id="uuid_7238c247-f47f-4fae-91b2-d4db0713f98b"/>Der Ausspruch über die
+                Kosten stützt sich zur <rs type="law"
+                ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1873&amp;page=532&amp;size=45">§ 390 St.P.O.</rs>
+         </p>
+         <p xml:id="uuid_800d8c8d-15c5-4a5f-98ed-20f15031474e">
+                <lb xml:id="uuid_4bb12056-0867-4b42-9a02-61d34c53069a"/><rs type="place" ref="#50"
+                        ><hi rend="spaced">Wie</hi>n</rs>, am 28. <hi rend="spaced">Ma</hi>i
+                    1929.<lb xml:id="uuid_ea572477-5049-4544-875c-f6e730111c77"/><rs type="person"
+                    ref="#51912">Kahlert</rs>
+            </p>
+         <p xml:id="uuid_811394e8-dddf-4035-8a15-affe012505ad">
+                <lb xml:id="uuid_795ab975-ec09-4195-a42d-f9d43a6733b5"/><note type="paratext"
+                    resp="law-firm"><rs type="person" ref="#11988">Kraus</rs> – der „<rs
+                        type="institution" ref="#37568">Tag</rs>“<lb
+                        xml:id="uuid_4bffdd4f-a039-4634-86e6-9d4173471821"/>6. JUNI 1929</note></p>
+      </body>
+   </text>
+</TEI>

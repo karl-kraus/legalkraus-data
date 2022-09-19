@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-012-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-010-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000023-011-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Miksa Rosenberg</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000023-011-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1819</idno>
+            <idno subtype="transkribus" type="ID">178884</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000023" type="collection">Karl
+                    Kraus ca. Die Stunde</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000023-011-000-facs001" xml:id="D_000023-011-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000023-011-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#50"/>
+               </address>
+               <date when-iso="1925-11-16">16. November 1925</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#39166">Wohlgeboren | Herrn Dr. Miksa Rosenberg</persName>
+               <address>
+                  <street corresp="#52064">Rakoczakut No. 70</street>
+                  <settlement ref="#43471">Budapest VII.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – „Stunde“</note>
+               <note type="dictation">Dr.S./W.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1925-11-16">16. November 1925
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000023-011-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000023-011-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-12" who="#JK"/>
+         <change type="typography" when-iso="2021-10-12" who="#JK"/>
+         <change type="references" when-iso="2021-10-12" who="#JK"/>
+         <change type="structure" when-iso="2021-10-12" who="#JK"/>
+         <change when-iso="2020-02-05T14:17:47.964Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-05T14:26:12.252Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-05T14:26:13.387Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 178884. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000023-011-000-facs001">
+      <surfaceGrp xml:id="D_000023-011-000-facs001-l001">
+         <surface type="recto" xml:id="D_000023-011-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541411/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface type="verso" xml:id="D_000023-011-000-facs001-l001-p002">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541412/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000023-011-000_p001"
+             facs="#D_000023-011-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_d741c32c-66c8-4edc-a985-8b4a7e612d4c">
+            <lb xml:id="uuid_32f51cd2-2bdc-44ee-b35e-719dc275a541"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/39166" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_0af4e7b1-07de-4224-8598-357a3a55f202">
+            <lb xml:id="uuid_220c9c12-2f15-4c88-b561-63d5ce90d2a9"/>Empfangen Sie meinen
+                verbindlichsten Dank für die<lb xml:id="uuid_c77961bd-d1bb-4c67-827b-e8f139e534e6"/>Übersendung des <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000023-007-000"
+                type="work"
+                subtype="legal-doc">Rechtsanwaltsverzeichnisses</rs> der Rechtsan<lb break="no" xml:id="uuid_9db50c17-7b43-4e1e-98d1-bbe4ba1fc668"/>wälte in <rs ref="#43471" type="place">Budapest</rs>. </p>
+         <p xml:id="uuid_be45029d-5e1a-40ed-b766-11ce911e271d">
+            <lb xml:id="uuid_7c0d0174-a0f5-4186-ab8c-51d753cd3b74"/>Allerdings ist mit diesem
+                allein der Nachweis dass<lb xml:id="uuid_2b48bfbe-7e81-46be-a534-5ddcf6a33b91"/>ein
+                2. Dr. Miksa Rosenberg nicht existiert nicht erbracht,<lb xml:id="uuid_17537b0e-661b-4117-846a-01d62c1b81a7"/>da ja die „<rs ref="#29470" type="institution">Stunde</rs>“ behauptet, dass dieser verurteilt und<lb xml:id="uuid_c5f1f648-09de-4a07-acbf-a24e6a0fd621"/>suspendiert sei, wodurch er
+                ja in der Liste nicht vorkommen<lb xml:id="uuid_057489bd-bcb3-4424-b2c9-f92bb0b5ac0c"/>kann. Wenn es Ihnen nicht
+                allzugrosse Schwierigkeit macht,<lb xml:id="uuid_ae78a4ae-5ca9-4af2-a77e-a9f12ec6957b"/>wäre ich Ihnen daher sehr zu
+                Dank verpflichtet, wenn Sie sich<lb xml:id="uuid_2d414830-a11e-4639-b9bd-e5303e4fb5af"/>von der <rs ref="#52076" type="institution">Anwaltskammer</rs> bestätigen liessen, dass ein zweiter<lb xml:id="uuid_9f909c2b-fac8-48d5-b099-affd29ea4ab5"/>Dr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/39166" type="person">Miksa
+                    Rosenberg</rs> niemals in der Liste eingetragen war,<lb xml:id="uuid_01b8e997-bf70-4b87-ac56-214c6d63d07d"/>daher auch nicht verurteilt
+                und suspendiert worden sein konnte. </p>
+         <p xml:id="uuid_8786ebba-cdfe-48be-aa04-4550ab4f00fb">
+            <lb xml:id="uuid_b27763e2-f8bb-438d-b4f9-f28904340f83"/>Empfangen Sie den
+            verbindlichsten Dank im Vorhinein<lb xml:id="uuid_80402596-e14c-40ed-8998-5cba5354f63d"
+            />von Ihrem ergebenen <rs type="person" ref="#38909">Kollegen</rs>
+         </p>
+         <pb xml:id="D_000023-011-000_p002"
+             facs="#D_000023-011-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_78f3c433-b7be-4acd-a1bf-f0dc8c3fb6b5">
+            <lb xml:id="uuid_cac14ad5-c417-48f7-9ce2-343da4e648ba"/><note resp="law-firm" type="paratext">Betrifft: <rs ref="#11988" type="person">Kraus</rs> – <rs ref="#29470" type="institution">Stunde</rs>
+               <lb xml:id="uuid_a078ce67-0104-467e-8c62-fffa5d80a9fd"/>expediert am 16.
+                    November 1925 </note>
+         </p>
+      </body>
+   </text>
+</TEI>

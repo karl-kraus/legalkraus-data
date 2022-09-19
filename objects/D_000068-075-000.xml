@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-076-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-074-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000068-075-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Justizrat Viktor Fraenkl</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000068-075-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-samek-justizrat-viktor-fraenkl-15 </idno>
+            <idno subtype="transkribus" type="ID">207917</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000068" type="collection">Karl
+                    Kraus ca. Alfred Kerr</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000068-075-000-facs001" xml:id="D_000068-075-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000068-075-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51"/> 
+               </address>
+               <date when-iso="1928-01-28">28. Jänner 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38141">Wohlgeboren | Herrn Justizrat Victor Fraenkl</persName>
+               <address>
+                  <street corresp="#362">Potsdamerstrasse 86b</street>
+                  <settlement ref="#168">Berlin W 57</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Kerr.</note>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1928-01-28">28. Januar 1928
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000068-075-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000068-075-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" status="draft" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" status="draft" when-iso="2021-09-13">Replaced Text with Transcription
+                of Transkribus Document 207917. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2022-01-05"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-01-05" who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2022-01-05"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2022-01-05"
+                 who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2022-01-05"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000068-075-000-facs001">
+      <surfaceGrp xml:id="D_000068-075-000-facs001-l001">
+         <surface type="recto" xml:id="D_000068-075-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552905/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000068-075-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2552906/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000068-075-000_p001"
+             facs="#D_000068-075-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_439d13aa-b704-446b-8707-8f40b20d2685">
+            <lb xml:id="uuid_46f9e835-ae0a-430f-8042-176a4a1db6e0"/>Sehr geehrter <rs ref="#38141" type="person">Herr Justizrat</rs>! </p>
+         <p xml:id="uuid_22f90225-588d-4bf1-acb8-3ed0e9978ce4">
+            <lb xml:id="uuid_50ac5cac-12d3-4646-9343-424676e2ea0f"/>Ich weiss nicht ob es im Prozess
+            von irgend<lb break="no" xml:id="uuid_a9def035-a8b7-4456-9e1c-70c2cfb3ddbe"/>einer
+            Bedeutung sein wird, will aber doch nicht unberichtet lassen,<lb
+               xml:id="uuid_2114d1a3-f5c3-4420-a7c9-eccab68693e0"/>dass im letzten Heft der „<rs
+               ref="#36156" type="work" subtype="pmb">Neuen Rundschau</rs>“ (<rs ref="#62918"
+               type="work" subtype="pmb">Januar Heft 1928</rs>
+            <lb xml:id="uuid_5152fb82-fc8a-4c29-89d3-68d694e89f64"/>Glosse „<rs ref="#62920"
+               type="work" subtype="pmb">Eulenspiegel</rs>“, Absatz VIII) folgende, offensichtlich
+               Herrn<lb xml:id="uuid_3a2d0eee-5cc3-4a4d-9d58-1e3fc696866d"/><rs ref="#11988"
+               type="person">Kraus</rs> betreffende Stelle von <rs ref="#11910" type="person"
+               >Kerr</rs> zu lesen war: </p>
+         <p xml:id="uuid_3130898a-45a3-4f07-bcaf-f47af1d656ed">
+            <lb xml:id="uuid_8d585edf-2574-43a4-855b-07828e786b07"/>„<quote source="#62920" xml:id="uuid_7c7202d9-8485-4240-ac63-0d2ab058fd2c">… nur die Tierisch-Forschen
+                    oder die Mechanisch-Frei<lb break="no" xml:id="uuid_f014c3b0-a8a6-43c8-a0e3-a373290ae3a6"/>heitlichen, beide mit
+                    immer derselben Walze; die auch ihre bis<lb break="no" xml:id="uuid_c296cc4d-6faf-4417-a416-33fd0222c5e7"/>herige Walze nicht,
+                    nicht, nicht empfunden, sondern geleiert<lb xml:id="uuid_a5c42d3d-368c-42ee-8317-ebbad6d942c7"/>hatten; ganz unfähig zu
+                    jemals starkem Anteil; die darum ent<lb break="no" xml:id="uuid_2e0dcf03-017d-4a23-878a-f4093d38677f"/>weder in fettesten
+                    Imperialismus versanken – oder hämische<lb xml:id="uuid_7238efb9-3da0-4a08-9342-28c56b642a26"/>Knirpse blieben und zur
+                    Vertuschung ihrer Nullheit im Prophe<lb break="no" xml:id="uuid_a3eef492-08e0-4c3d-8949-904682bca36d"/>tischen Kaftan ein
+                    urkomisches Winkelpathos fingerten: bloss<lb xml:id="uuid_451bfa52-6625-4425-85e5-1686479e3a97"/>die waren vor einem
+                    Irrtum, bloss die waren gefeit gegen<lb xml:id="uuid_b6efee3c-d8b0-4b8b-b446-b7b3448f1745"/>Zwiespalt.</quote>“ </p>
+         <p xml:id="uuid_310879af-914e-4773-8409-8a0ee6796232">
+            <lb xml:id="uuid_fc398b46-fff5-4206-8ebb-4bd56de41f5c"/>Ich zeichne mit ergebener
+            Hochachtung <pb xml:id="D_000068-075-000_p002"
+               facs="#D_000068-075-000-facs001-l001-p002" n="2"/></p>
+         <p xml:id="uuid_be8674a8-ef80-4ec5-b748-c420289c5fb4">
+            <lb xml:id="uuid_e09cc0f2-8195-4aae-af31-be198db6bd95"/><note resp="law-firm"
+               type="paratext">Betr. <rs ref="#11988" type="person">Kraus</rs> – <rs ref="#11910"
+                  type="person">Kerr</rs><lb xml:id="uuid_8c763123-7f28-4dde-9af2-d8099472ce26"
+               />exp. am 28. Jänner 1928.</note></p>
+      </body>
+   </text>
+</TEI>

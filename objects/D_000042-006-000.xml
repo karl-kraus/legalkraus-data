@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-007-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000042-005-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000042-006-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Albert Klein an Samek</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000042-006-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/2115</idno>
+            <idno subtype="transkribus" type="ID">191736</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000042" type="collection">Diverse
+               Korrespondenzen betr. Emmerich Békessy</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000042-006-000-facs001" xml:id="D_000042-006-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000042-006-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHN">Durchschlag mit
+                        handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="received" type="sortDate" when-iso="1928-01-25">25. Januar 1928</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#52880">Albert Klein</persName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref=""/>
+               </address>
+               <date/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1928-01-25">25. Jan. 1928</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <handNotes>
+            <handNote xml:id="D_000042-006-000-hand01" source="#D_000042-006-000-wit01"
+               scribeRef="#" medium="grey-pencil" cert="low" resp="#IL"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000042-006-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000042-006-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2022-01-17" who="#IL"/>
+         <change type="structure" when-iso="2020-11-18" who="#IL"/>
+         <change type="references" when-iso="2020-11-22" who="#IL"/>
+         <change type="typography" when-iso="2022-01-17" who="#IL"/>
+         <change when-iso="2020-02-11" who="#IB">created by API</change>
+         <change when-iso="2020-02-11T08:55:15.577Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change when-iso="2020-02-11T08:55:16.938Z" who="#JM">Checked Images
+            Wienbibliothek</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 191736. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000042-006-000-facs001">
+      <surfaceGrp xml:id="D_000042-006-000-facs001-l001">
+         <surface xml:id="D_000042-006-000-facs001-l001-p001" type="recto">
+            
+            <graphic ana="status:checked" source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548792/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000042-006-000-facs001-l001-p002" type="verso">
+            
+            <graphic ana="status:checked" source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2548793/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000042-006-000_p001" facs="#D_000042-006-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_1f02efb1-426f-4f6f-a16e-b1ef3f7e4e62">
+            <lb xml:id="uuid_b124bcdb-539c-4d75-81f0-f88d159b6019"/>Sehr geehrter Herr <rs
+               type="person" ref="#38909">Doktor</rs>! </p>
+         <p xml:id="uuid_e9bf1a02-f2e3-4fe5-b1a5-8ee21dd075b3">
+            <lb xml:id="uuid_1fd41adb-7164-479d-83fc-42774e897a29"/>Auf mein grösstes Bedauern
+            konnte ich die wichtige<lb xml:id="uuid_e359f8ee-bfb1-48cf-8330-a0432bfd0e67"
+            />Schriften, die Sie mir in <rs ref="#50" type="place">Wien</rs> übergeben haben, noch
+            nicht zurück<lb xml:id="uuid_336bd7f9-2fc2-4786-80c3-71d2adc64512" break="no"/>schicken.
+            Sie wurden aber mehrfach mit Erfolg benützt in anderen<lb
+               xml:id="uuid_443a1d9c-bf60-4d50-9895-5a1c990fe1b2"/>Prozessen die von <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/37843" type="person">Imre Békessy</rs> gegen
+            Ungarische Zeitungen eingelei<lb xml:id="uuid_b7c3e0b6-83be-4a83-8435-0fe8104a759e"
+               break="no"/>tet wurden. In zwei Fälle wurde er abgewiesen in seinen Richtigstel<lb
+               xml:id="uuid_942599d9-56db-4156-9df3-5b2f569a035f" break="no"/>lungsversuchen. </p>
+         <p xml:id="uuid_5cbc0143-03ba-4e75-a9a5-2107bf8c8cd4">
+            <lb xml:id="uuid_d64eba60-9e92-41a8-8309-c0703132515d"/>Ich hoffe Herr <rs ref="#38909"
+               type="person">Doktor</rs> hat die Artikeln die ich Ihnen<lb
+               xml:id="uuid_78de2a66-7a23-4bb9-bde3-230d82a9e6d4"/>eingesandt habe, pünktlich
+            erhalten. Die „<rs ref="#52882" type="institution">Uj Nemzedék</rs>“ führte eine<lb
+               xml:id="uuid_37878f8a-2f00-42a9-926f-b2126623cecd"/>sehr erfolgreiche Kampagne gegen
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37843" type="person">Békessy</rs> die in
+            jederzeit fortgesetzt<lb xml:id="uuid_a6ec42d3-29a1-4fa6-a5a5-b219001844be"/>wird, wenn
+            dass notwendig zu sein scheint. Jedoch unterhandelt <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/37843" type="person">Békessy</rs>
+            <lb xml:id="uuid_de388399-48c2-4819-94a3-0281345be452"/>mit Druckereien und Zeitungen
+            zwecks Neugründungen. Ausserdem ist er<lb
+               xml:id="uuid_fb9f752e-b691-4e93-a957-b98392e075a4"/>jetzt interessiert an einen
+            volkswirtschaftlichen Fachblatt, wo er<lb
+               xml:id="uuid_d6f0d339-0c4b-4025-99b1-856516791ccc"/>prominente ungarische
+            Persönlichkeiten zur Zeit <rs ref="#52881" type="person">Simon von Krausz</rs> at<lb
+               xml:id="uuid_ffeb4412-dbbb-4d1d-8321-f22d013ae96f" break="no"/>tackiert. Natürlich
+            ohne Erfolg nachdem dies Blatt in 50 Exemplare<lb
+               xml:id="uuid_d185add7-8204-412e-8c50-6a46c1706b6e"/>erscheint. </p>
+         <p xml:id="uuid_ba8193b1-e1f7-4c6e-bcac-560dcd98d4e9">
+            <lb xml:id="uuid_600f8cab-6a36-4c8e-9919-fa0756b535dc"/>Ich war längere Zeit verreist
+            und habe erst jetzt die<lb xml:id="uuid_e7926f1d-4ceb-4e52-b78a-d6cef2318196"/>Zeilen
+            des Herrn <rs ref="#38716" type="person">Spitz</rs> erhalten. Ich will sofort seiner
+            Bitte nachkom<lb xml:id="uuid_be9ec994-9d11-4889-9220-09e370d754e0" break="no"/>men und
+            schicke ihm noch heute circa 60 Schilling. Ich werde Ihm wei<lb
+               xml:id="uuid_5aa3c307-aacc-4b8c-b980-bc4ce3a569a9" break="no"/>tere Sendungen auch
+            schicken zwar meine Verhandlungen mit den Zeitungen<lb
+               xml:id="uuid_16e0ad8e-dbff-4456-be40-fe00b98c6122"/>werden keine grosse materielle
+            Ergebnisse haben. </p>
+         <p xml:id="uuid_8a659d2a-9dda-439e-8183-a948c6fa5895">
+            <lb xml:id="uuid_3233e03e-6fa0-483a-baa1-8b9a197aafd2"/>Ich hoffe, dass ich in der
+            Zukunft den Herrn <rs ref="#38909" type="person">Doktor</rs> zur<lb
+               xml:id="uuid_cfbb317d-0667-496f-8675-9a203c482f41"/>Verfügung stehen kann und spreche
+            für Ihre Liebenswürdigkeit meinen<lb xml:id="uuid_42340ee6-4231-4560-997e-f8e4bddae46a"
+            />verbindlichsten Dank aus. </p>
+         <p xml:id="uuid_6978ee40-e5c9-4ca8-aab2-a103b67edc73">
+            <lb xml:id="uuid_f2c1471f-ddcb-4fc4-8b11-d73488fd74cc"/><rs ref="#52880" type="person"
+               >Albert Klein</rs>
+         </p>
+         <p xml:id="uuid_77ebab97-f78d-4f39-bad1-a5704bd633b4">
+            <lb xml:id="uuid_8661b539-6745-423e-b117-5c79ae50ecf5"/><note
+               hand="#D_000042-006-000-hand01">Strafgesetzbuch heute per Post versandt.<lb
+                  xml:id="uuid_76eb0d6d-c72b-4d1a-81be-12cd14658e78"/>Beiliegend 1
+               Zeugenladung</note>
+         </p>
+         <pb xml:id="D_000042-006-000_p002" facs="#D_000042-006-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_fd45db38-ee16-47bd-bed9-8eb6fee1c500">
+            <lb xml:id="uuid_8417f380-249b-4564-b1d6-5bbf4228afd1"/><note type="paratext"
+               resp="law-firm"><rs ref="#11988" type="person">Kraus</rs> – <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/29470" type="institution">Stunde</rs>
+                  div<lb xml:id="uuid_f8bc1eb9-31bb-42a7-b1b9-65866a0239af"/><del><rs ref="#38716"
+                     type="person">Spitz</rs> – Diverses</del>
+               <lb xml:id="uuid_853e3a0d-dca4-4ec7-b489-243d810f5a12"/>25. Jan. 1928</note>
+         </p>
+      </body>
+   </text>
+</TEI>

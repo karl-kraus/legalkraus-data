@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-085-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-083-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000193-084-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Johann Turnovsky an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000193-084-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4812</idno>
+            <idno subtype="transkribus" type="ID">376047</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000193" type="collection">Karl
+                    Kraus ca. Sozialdemokrat (Prag)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000193-084-000-facs001" xml:id="D_000193-084-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000193-084-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#43593">JUDr. JOHANN TURNOVSKY | Advokat</persName>
+               <address>
+                  <street corresp="#51737">Vodičkova 33</street>
+                  <settlement ref="#652">Prag</settlement>
+               </address>
+               <date when-iso="1936-02-20">20.II.1936</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/38909">P.T. | Herrn Dr. Oskar
+                        Samek, | Advokat </persName>
+               <address>
+                  <street corresp="#52780">Reindorfgasse 18</street>
+                  <settlement ref="#64">Wien – XIV</settlement>
+               </address>
+               <date when-iso="1936-02-22">22.FEB.1936</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Sozialdemokrat</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1936-02-20">20. Februar 1936
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000193-084-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000193-084-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-08-19" who="#JK"/>
+         <change type="typography" when-iso="2021-08-19" who="#JK"/>
+         <change type="references" when-iso="2021-08-19" who="#JK"/>
+         <change type="structure" when-iso="2021-08-19" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-06" who="#JK"/>
+         <change when-iso="2020-10-12T07:56:29.816Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-12T08:31:06.58Z" who="#IB">Replaced Text with Transcription of
+                Transkribus Document 376047. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000193-084-000-facs001">
+      <surfaceGrp xml:id="D_000193-084-000-facs001-l001">
+         <surface type="recto" xml:id="D_000193-084-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545380/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000193-084-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2545381/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000193-084-000_p001"
+             facs="#D_000193-084-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_da8f60e4-8330-4743-8917-889e1e0064c0">
+            <lb xml:id="uuid_90c764d8-4aca-429d-a923-4819819a85a6"/>Sehr geehrter <rs ref="#38909" type="person">Herr Doktor</rs>. </p>
+         <p xml:id="uuid_e46f8c55-a7ec-4007-9f75-0b4e23b303d7">
+            <lb xml:id="uuid_8bd9722a-4b2a-4d45-bd4c-cc451c72ed34"/>Ich bestätige mit bestem
+                Dank Ihr<lb xml:id="uuid_da59bcef-90a2-4069-a1d3-ff05e2b946f3"/>freundliches <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000193-082-000"
+                type="work"
+                subtype="legal-doc">Schreiben vom 18. d.M.</rs> und gestatte mir, Ihnen
+                    folgen<lb break="no" xml:id="uuid_46048c58-4252-463b-b184-7aa1c70a9c9d"/>des
+                mitzuteilen: Gerade heute habe ich die ofizielle Verständi<lb break="no" xml:id="uuid_bffc94a8-690a-4ff1-9131-1a5f5176997f"/>gung erhalten, dass die
+                Einvernahme der Zeugen vorgenommen wor<lb break="no" xml:id="uuid_133a011a-3e82-4387-9c77-35c04af596c9"/>den ist und dass ich im
+                Sinne des <rs ref="https://alex.onb.ac.at/cgi-content/alex?aid=rgb&amp;datum=1873&amp;page=497&amp;size=46"
+                type="law">§ 224 St.P.O.</rs> in die Akten<lb xml:id="uuid_89a9ebda-c810-4c98-879f-1bc9efac6fed"/>Einsicht nehmen und weitere
+                Anträge stellen kann. </p>
+         <p xml:id="uuid_9cfdd77c-dd86-438e-b779-75916c0e398c">
+            <lb xml:id="uuid_e7b89ac9-b31e-4381-a69c-8cc3c2a986f2"/>Ich will in der achttägigen
+                Frist, d.i. bis zum 28. d.M., den An<lb break="no" xml:id="uuid_0ccf7316-f8db-44d6-bb25-5b31f4b7ac87"/>trag stellen, dass die
+                Zeugen zu der Hauptverhandlung vorgela<lb break="no" xml:id="uuid_2489072a-7033-4de0-8022-c6b85490e32c"/>den werden und diesen Antrag
+                möchte ich mit dem Antrag auf An<lb break="no" xml:id="uuid_ee2f0d01-a49a-45e2-9bf7-7f6349ec800d"/>ordnung der Hauptverhandlung
+                für die Zeit zwischen dem 2. und 9.<lb xml:id="uuid_28e0a6ff-e954-41d7-8698-bd5b1e9cbb58"/>III. d.J. verbinden.
+                Gleichzeitig möchte ich aber allfällige wei<lb break="no" xml:id="uuid_afcafe6f-2a2c-4889-972c-cfdb6f7d40d5"/>tere Beweisanträge schon in
+                dieser Eingabe stellen, um zu er<lb break="no" xml:id="uuid_a4a03bb4-77b3-4de7-a921-a9ddc9aaf82c"/>wirken, dass sie in der
+                entsprechenden Formulierung bei der<lb xml:id="uuid_8c627f3f-459d-487a-b419-2d0757a6d454"/>nächsten Hauptverhandlung
+                bereits vorliegen und nicht durch eine un<lb break="no" xml:id="uuid_5ade6bd6-fd0b-4125-8b08-d25e858b955d"/>angemessene Protokollierung
+                entstellt werden. Gegen diese ist sehr<lb xml:id="uuid_23c4faa6-c64d-4b1f-975d-cf8609c99f7b"/>schwer anzukämpfen und man
+                hat eigentlich bei jedem Satz Wider<lb break="no" xml:id="uuid_03b76d28-298c-4612-8cb5-2c9f5c2fa463"/>stände zu überwinden und mit
+                dem Vorsitzenden um jedes Wort hart<lb xml:id="uuid_534c8fe6-d4c3-4e1b-840e-ce7622b6182b"/>zu kämpfen. </p>
+         <pb xml:id="D_000193-084-000_p002"
+             facs="#D_000193-084-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_72dccd28-f754-4aae-b95c-38588e027bc1">
+            <lb xml:id="uuid_edf15b21-33ca-4aa5-baab-c15222253c06"/>Ich bitte Sie, sehr geehrter
+                    <rs ref="#38909" type="person">Herr Doktor</rs>, mir<lb xml:id="uuid_2e703085-9121-4347-87af-8405121e129e"/>möglichst bald die Wünsche
+                des <rs ref="#11988" type="person">Herrn K.</rs> betreffend die weiteren<lb xml:id="uuid_1a601be3-6b01-42c4-bb63-5e6bc2cc9eb8"/>Beweisanträge
+                bekanntzugeben, damit ich die Eingabe fristgemäss<lb xml:id="uuid_11482963-bad6-4cf6-a5d5-fe876210a2de"/>überreichen kann. Diese
+                achttägige Frist kann allerdings nicht<lb xml:id="uuid_fa4550b2-6ed7-4ea4-99d7-c08809d068ce"/>erstreckt werden. Je früher
+                die Eingabe überreicht wird, desto<lb xml:id="uuid_2377a2cc-5b7a-49cb-83b4-41c1175164ab"/>eher kann ich beim
+                Referenten wegen Anordnung der Hauptverhand<lb break="no" xml:id="uuid_8d21c944-b928-4ebb-82dd-51c75a76b8d8"/>lung zu dem gewünschten
+                Termin intervenieren. </p>
+         <p xml:id="uuid_00547729-540e-42f7-8ace-d603d243b100">
+            <lb xml:id="uuid_94361331-7554-490a-8a0d-36d0ecb5e639"/>Mit dem Ausdrucke
+                vorzüglichster Hochachtung<lb xml:id="uuid_a6da779b-33dc-40b0-bff9-8f069b02a226"/>und mit den besten Grüssen an <rs ref="#11988" type="person">Herrn Kraus</rs> und
+                Sie bin ich </p>
+         <p xml:id="uuid_0997b0a2-4709-4b74-a364-d402073a26fe">
+            <lb xml:id="uuid_6d44fd72-f4f1-43c2-a1d0-022834b94d5f"/>Ihr ergebener:<lb xml:id="uuid_462be82c-f202-4618-a2a6-f1a22d5fea89"/><rs ref="https://pmb.acdh.oeaw.ac.at/entity/43593" type="person">Dr. Turnovsky</rs>
+         </p>
+         <p xml:id="uuid_765d1a5c-34ca-46b5-a7c8-b66be24ae440">
+            <lb xml:id="uuid_fd4c6ffa-5081-4e53-ae16-f32bd27fd2c7"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37540" type="institution">Sozialdemokrat</rs>
+               <lb xml:id="uuid_dfe55cbd-dcfe-4971-b752-edfaa3d1005d"/>22. FEB. 1936 </note>
+         </p>
+      </body>
+   </text>
+</TEI>

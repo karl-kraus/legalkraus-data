@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000163-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000163-001-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000163-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Telegrafen-Direktion für Wien, Niederösterreich und Burgenland an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000163-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4160</idno>
+            <idno subtype="transkribus" type="ID">306285</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000163" type="collection">Telefonbeschwerde</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <ab type="stamp">
+                  <stamp source="#37025" xml:id="uuid_a15ded9d-3375-450a-8af2-d2908d928ed8"/>
+               </ab>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000163-002-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness facs="#D_000163-002-000-facs001" xml:id="D_000163-002-000-wit01"/>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#37025">Telegraphendirektion für Wien, Nied.Österr. und Burgenland</orgName>
+               <address>
+                  <street corresp=""/>
+                  <settlement ref="#50">Wien</settlement>
+               </address>
+               <date when-iso="1931-09-10">10. September 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn Dr. Oskar Samek | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">TDZl.18233/1931</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-09-10">10. September 1931
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000163-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000163-002-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-04-26" who="#JK"/>
+         <change type="typography" when-iso="2021-04-26" who="#JK"/>
+         <change type="references" when-iso="2021-04-26" who="#JK"/>
+         <change type="structure" when-iso="2021-04-26" who="#JK"/>
+         <change when-iso="2020-10-08T15:37:40.979Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T15:38:06.389Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 306285. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000163-002-000-facs001">
+      <surfaceGrp xml:id="D_000163-002-000-facs001-l001">
+         <surface type="recto" xml:id="D_000163-002-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542866/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000163-002-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542867/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000163-002-000_p001"
+             facs="#D_000163-002-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_3a65f6e5-9ecc-4bfc-91fb-927649cc4c48">
+            <lb xml:id="uuid_64b9fa26-a92f-4d9b-b141-aa82c9c46039"/><hi rend="underlined">Zu
+                    Ihrer <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000163-001-000"
+                   type="work"
+                   subtype="legal-doc">Beschwerde vom 14. Juli 1931</rs>:</hi>
+         </p>
+         <p xml:id="uuid_22dc0c59-e156-4a33-9bd6-191257340b2f">
+            <lb xml:id="uuid_ba141e51-2c67-420d-8893-1aeda661556f"/>Unsere eingehendsten
+                Erhebungen über die Beschwerde Ihres<lb xml:id="uuid_85743529-5e65-4668-9d40-c38c071e86a5"/>Klienten Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+                ergaben in erster Linie, dass diese be<lb break="no" xml:id="uuid_b3d8c783-d48a-4d9d-9bea-77a72656464c"/>klagte Verzögerung bei der
+                versuchten fernmündlichen Aufgabe<lb xml:id="uuid_a7745a81-fb59-44e7-8a51-36e1b38cc118"/>eines Telegrammes am 8. Juli
+                l.J. auf technische Ursachen zurück<lb break="no" xml:id="uuid_aa633fa8-61c3-4f39-8c55-dc75c2a61d8c"/>zuführen ist, welche
+                bedauerlicherweise im vorliegenden Falle das<lb xml:id="uuid_567feb4f-0175-421d-a3d3-537ce7122f54"/>Versagen des Rückrufes zur
+                Folge hatten, sodass eine längere Pause<lb xml:id="uuid_de5a3172-78e9-4194-ae2a-007b1ea34282"/>entstand, bis es einer <rs type="person">Beamtin</rs> der fernmündlichen Telegrammver<lb break="no" xml:id="uuid_b4d66066-1ea2-404e-8166-fd87f8ffaedb"/>mittlungsstelle nach
+                wiederholten, vergeblichen Rückrufen gelang,<lb xml:id="uuid_3ed34f5c-67aa-4874-879f-f84e4b3d0589"/>eine Verbindung mit dem
+                Teilnehmer auf ihrem Arbeitsplatze herzu<lb break="no" xml:id="uuid_1e3d4f35-e012-4245-992a-4af1b086c1ca"/>stellen. </p>
+         <p xml:id="uuid_1df7fb05-b489-410a-9f23-4a05b1af86bd">
+            <lb xml:id="uuid_47f74e8d-1d40-43a0-98e1-1802ad6363c0"/>Keineswegs liegt aber nach
+                unseren Untersuchungen ein Ver<lb break="no" xml:id="uuid_97a4c0dc-c9c6-4aa6-975b-a79e5c598143"/>schulden der <rs type="person">Beamtin</rs> an der beklagten Verzögerung vor. Auch eine<lb xml:id="uuid_c5f9cb07-fd51-401a-88be-f7a2da461652"/>Verletzung des dienstlichen
+                Umganges des betreffenden Aufsichts<lb break="no" xml:id="uuid_464a9a74-c9a8-477f-b3c8-9924fdb24ba1"/>organes konnten wir nicht
+                feststellen. </p>
+         <p xml:id="uuid_410f207f-af27-417c-95f8-7482345c9624">
+            <lb xml:id="uuid_4494f8b3-6c59-4653-9891-a45b390adc36"/>Dagegen hat unser an dem
+                Vorfalle beteiligtes Beamten<lb break="no" xml:id="uuid_9279d81a-3956-41f8-95a9-2e4093a6a014"/>personal allgemein die
+                ausserordentliche Erregtheit des Teilnehmers,<lb xml:id="uuid_895724de-dea0-4e8e-b3aa-7d336a9c1dc6"/>Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+                wahrgenommen. </p>
+         <pb xml:id="D_000163-002-000_p002"
+             facs="#D_000163-002-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_a2f0d4da-6fb0-4d41-8dba-02c2814c5bdb">
+            <lb xml:id="uuid_6a1b9b95-2bfb-48e9-8e9a-a8ba905c3dec"/>Wir haben den vorliegenden
+                Fall zum Anlass genommen,<lb xml:id="uuid_c1ee9bc8-61df-4861-a963-c7f95347faee"/>versuchsweise eine technische Anordnung einzuführen, welche eine<lb xml:id="uuid_7ddcaa94-57a9-434f-85d4-de3430c80b20"/>länger andauernde
+                Unterbrechung bei Versagen des Rückrufes ver<lb break="no" xml:id="uuid_7f55e23d-805d-40cc-8820-6c8a3d678222"/>hindern soll. </p>
+         <p xml:id="uuid_2ddd98ab-44b5-40f8-9b51-9db8df6eaac6">
+            <lb xml:id="uuid_17530e07-463c-4f47-a43f-7b7589fdaaaf"/>Für den Präsidenten:<lb xml:id="uuid_a9dcc65b-52f8-4019-9f2f-ad6030e681fa"/>Ing. <rs ref="#54815" type="person">Krause</rs>.<lb xml:id="uuid_30f1bb43-3c64-415c-89c9-12aaa4eb54cc"/>[<rs type="person">Unterschrift</rs>] </p>
+         <p xml:id="uuid_87bc08f4-435f-4916-9bc9-b75a5603a600">
+            <lb xml:id="uuid_d0ec7fd6-366a-4b19-97a5-13d5ed403955"/><note resp="law-firm"
+               type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs><lb xml:id="uuid_83981b7c-74bd-4b52-bd43-7161a43db0c7"/><rs
+                  type="institution" ref="#37025">Telephon</rs><lb
+                  xml:id="uuid_1e74f967-d6b8-43e9-945c-af5d09ba42f5"/>12. SEP. 1931</note>
+         </p>
+      </body>
+   </text>
+</TEI>

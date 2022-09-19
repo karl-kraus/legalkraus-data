@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000094-002-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000093-009-002.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000094-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Erwin Grünbaum (Teschen)</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000094-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/2909</idno>
+            <idno subtype="transkribus" type="ID">232324</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000094" type="collection">Berichtigungen in tschechischen Zeitungen betr. Plakat gegen Schober</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000094-001-000-facs001" xml:id="D_000094-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000094-001-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1927-09-26">26. September
+                    1927</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#50">Wien</settlement>
+               </address>
+               <date when-iso="1927-09-26">26. September 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#53891">Wohlgeboren | Herrn Dr. Erwin Grünbaum, |
+                        Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#53913">Saská Kupa 21</street>
+                  <settlement ref="#53893">Tschech. Teschen</settlement>
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Schober</note>
+               <note type="dictation">Dr.S./Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000094-001-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000094-001-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2021-04-19" who="#IL"/>
+         <change type="structure" when-iso="2021-04-14" who="#IL"/>
+         <change type="typography" when-iso="2021-04-19" who="#IL"/>
+         <change type="references" when-iso="2021-04-19" who="#IL"/>
+         <change type="intertexts" when-iso="2021-04-19" who="#IL"/>
+         <change when-iso="2020-07-16T09:23:16.908Z" who="#IB">created by API</change>
+         <change when-iso="2020-07-16T09:25:26.389Z" who="#IB">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-07-16T09:25:27.549Z" who="#IB">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-07-16T09:25:29.429Z" who="#IB">Checked Images
+                Wienbibliothek</change>
+         <change when-iso="2020-07-16T09:26:33.176Z" who="#IB">Linked to Document in Transkribus
+                by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 232324. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000094-001-000-facs001">
+      <surfaceGrp xml:id="D_000094-001-000-facs001-l001">
+         <surface xml:id="D_000094-001-000-facs001-l001-p001" type="recto">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554609/full/full/0/default.jpg"/>
+            
+         </surface>
+         <surface xml:id="D_000094-001-000-facs001-l001-p002" type="verso">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554610/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000094-001-000-facs001-l002">
+         <surface xml:id="D_000094-001-000-facs001-l002-p003" type="recto">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2554611/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000094-001-000_p001"
+             facs="#D_000094-001-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_a9ae5d23-b742-4188-8395-d14b5e2f51c9">
+            <lb xml:id="uuid_4ffe3604-a61a-4b0d-9237-7cdb31fd6725"/>Sehr geehrter Herr <rs type="person" ref="#53891">Kollege</rs>! </p>
+         <p xml:id="uuid_d4f8632f-5ad3-4932-8ba8-b764ce0edfdd">
+            <lb xml:id="uuid_f7242ad1-28e8-4c6d-95b8-6cac4482833c"/>Herr <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>, dessen
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38909" type="person">österreichischer
+                  An<lb break="no" xml:id="uuid_4f222c62-d989-4070-9cb3-882ccc100571"/>walt</rs> ich
+            bin, ersucht mich Ihnen zu schreiben und Ihnen seinen<lb
+               xml:id="uuid_5d4cee9e-c416-4799-9070-64b577fb44d1"/>Dank für die Uebersendung der <rs
+               ref="#53877" type="work" subtype="pmb">Silesia</rs> mit der ihn betreffenden<lb
+               xml:id="uuid_f7e96e7d-4a71-4dc7-90ad-58127becc570"/>Mitteilung zu übermitteln. Er
+            lässt Sie ferner durch mich ersu<lb break="no"
+               xml:id="uuid_f3313227-ad27-46b2-85b2-e1a957237fd2"/>chen, an den verantwortlichen <rs
+               type="person">Redakteur</rs> der „<rs ref="https://pmb.acdh.oeaw.ac.at/entity/37537"
+               type="institution">Silesia</rs>“ die fol<lb break="no"
+               xml:id="uuid_d108d109-cbfc-4cb6-b09d-27d4911be156"/>gende Berichtigung mit der in der
+            Cechoslovakei üblichen Eingangs<lb break="no"
+               xml:id="uuid_9487f812-34e1-4406-bc38-644f453ff332"/>formel abzusenden und wenn die
+            Berichtigung nicht erscheinen<lb xml:id="uuid_8d4ea941-0c70-4968-88f2-6f1125b20fbe"
+            />sollte, mir eine Vollmacht einzusenden, um gerichtliche Schritte<lb
+               xml:id="uuid_8fa04755-91d5-4e67-b569-57e9521ad085"/>zur Durchsetzung der Aufnahme der
+            Berichtigung einzuleiten. </p>
+         <p xml:id="uuid_f3c8db17-2098-40e2-846f-b1e6f902317a">
+            <lb xml:id="uuid_1f796e17-d1ff-4bdc-b64e-fbb7bdb0c07a"/><hi rend="underlined"
+               >Berichtigung</hi>: <rs ref="#53879" type="work" subtype="pmb">Sie betiteln Ihre
+               Notiz „<hi rend="underlined"><rs ref="#41244" type="work" subtype="pmb">Fackel</rs>-
+                     <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                  >Kraus</rs></hi><lb xml:id="uuid_8ecb0a19-b57a-45c1-ac82-c54bc85ffae6"/><hi
+                  rend="underlined">als Plakat-Ankleber.</hi></rs>“ Die in diesem <rs ref="#53879"
+               type="work" subtype="pmb">Titel</rs> enthaltene Mitteilung<lb
+               xml:id="uuid_05992f65-24fb-4e53-80bb-2b74ba238a52"/>ist unwahr. Wahr ist, dass <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> kein
+            Plakat angeklebt hat. </p>
+         <p xml:id="uuid_0cfe8604-f5fd-4191-88f8-33b5c395eaf9">
+            <lb xml:id="uuid_8fd95648-548c-4c50-b3f8-8157c57fa2c6"/>Sie schreiben: „<quote
+               source="#53879" xml:id="uuid_a1fc4ff6-8c81-430e-a5c6-9f445e833da1">Samstag mittag
+               wurden die Plakate <hi rend="underlined">von <rs
+                     ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl <lb
+                        xml:id="uuid_9be3c0fe-ea18-41e9-ac38-f0db3a2ce6e6"/><hi rend="spaced"
+                        >Krau</hi>s</rs> selbst an den Litfassäulen angeklebt</hi>.</quote>“ Diese
+               Behauptung<lb xml:id="uuid_0d80e8b7-b4d0-498a-b432-230e16e9461f"/>ist unwahr. Wahr
+            ist, dass die Plakate mit der Aufforderung an den<lb
+               xml:id="uuid_66003846-3a7f-4185-ae3a-b6e6d35b01b6"/><rs ref="#24444" type="person"
+               >Polizeipräsidenten</rs> von <rs ref="#50" type="place">Wien</rs>, abzutreten am
+            Samstag um 1/2 10 Uhr<lb xml:id="uuid_4e0ed7d0-d746-44b4-85c1-7a818f522159"/>vormittags
+            von den Angestellten des Plakatierungsinstitutes<lb
+               xml:id="uuid_f36d1cb6-a3db-4dc5-96a0-65f6ec0d61de"/>„<rs ref="#36916"
+               type="institution">Wipag</rs>“ angeklebt wurden. Es ist unwahr, dass die bürgerlichen
+               <pb xml:id="D_000094-001-000_p002" facs="#D_000094-001-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_7eca15f7-640e-4333-8117-57b78ec5c125"/>Blätter die Polizei auffordern,
+            diese Plakate entfernen zu lassen.<lb xml:id="uuid_47def381-c1af-43b0-bdf8-80efabc24d28"
+            />Wahr ist, dass eine solche Aufforderung in keinem bürgerlichen<lb
+               xml:id="uuid_963ad5f5-8df3-468e-9b2b-878fd83d85af"/>Blatte enthalten war. </p>
+         <p xml:id="uuid_facc63ce-ba1b-4684-88a4-4042e65b72a0">
+            <lb xml:id="uuid_e4b68480-a583-4d07-ac29-b12e3cd0069d"/>Ich ersuche Sie ferner, mir
+                ein Belegexemplar<lb xml:id="uuid_12929854-372e-464e-a846-249f1d40c642"/>über die
+                eventuell veröffentlichte <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000094-001-000"
+                type="work"
+                subtype="legal-doc">Berichtigung</rs> einzusenden und<lb xml:id="uuid_f05e004c-fe2d-4366-b471-354c67ab201a"/>zeichne, Ihnen im Namen des
+                Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+                    Kraus</rs> nochmals bestens<lb xml:id="uuid_ce4aeb13-c16c-4f53-b34a-f82e4766ba06"/>dankend, mit vorzüglicher
+                    kollegialer<lb xml:id="uuid_c092bb1b-f088-4e43-9c7d-b378f86da1ce"/>Hochachtung </p>
+         <p xml:id="uuid_119c7e28-8252-4a53-b54b-4b4f3eedbd0a">
+            <lb xml:id="uuid_1aa79325-3783-4195-8878-9123c82a3a6f"/>Rekommandiert </p>
+         <p xml:id="uuid_f64bdb91-9f60-41a2-8a97-081a012c5317">
+            <lb xml:id="uuid_f9ebc4c7-cb9e-46b7-95f8-f1f70d0bb7e2"/><note resp="law-firm" type="paratext">Betr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>. <rs ref="#24444" type="person">Schober</rs>
+               <lb xml:id="uuid_cb435926-187f-4bfc-814f-5d43a761381f"/>exp. am 26. Sept. 1927.
+                </note>
+         </p>
+      </body>
+   </text>
+</TEI>

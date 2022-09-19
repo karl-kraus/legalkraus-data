@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000143-002-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000142-033-001.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000143-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Verlag Die Fackel an Frankfurter Künstlertheater</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000143-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/3874</idno>
+            <idno subtype="transkribus" type="ID">275852</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000143" type="collection">Karl Kraus
+               ca. Frankfurter Künstlertheater</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000143-001-000-facs001" xml:id="D_000143-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000143-001-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHN">Durchschlag mit
+                        handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#43724">Verlag Die Fackel</orgName>
+               <address>
+                  <street corresp="#50496"/>
+                  <settlement ref="#53"/>
+               </address>
+               <date when-iso="1930-03-26">26. März 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#37121">das | Frankfurter Künstlertheater für Rhein und Main
+                  G.m.b.H.</orgName>
+               <address>
+                  <street corresp="#54286">Schöne Aussicht 16</street>
+                  <settlement ref="#146">Frankfurt a/Main</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-03-26">26. März 1930</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000143-001-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000143-001-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+         <handNotes>
+            <handNote cert="low"
+               medium="pencil"
+               resp="#IL"
+               scribeRef="#43584"
+               source="#D_000143-001-000-wit01"
+               xml:id="D_000143-001-000-hand01"/>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-04-21" who="#JK"/>
+         <change type="typography" when-iso="2021-04-21" who="#JK"/>
+         <change type="references" when-iso="2021-04-21" who="#JK"/>
+         <change type="structure" when-iso="2021-04-21" who="#JK"/>
+         <change when-iso="2020-10-08T14:14:24.392Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T14:15:38.835Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 275852. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000143-001-000-facs001">
+      <surfaceGrp xml:id="D_000143-001-000-facs001-l001">
+         <surface type="recto" xml:id="D_000143-001-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2541758/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000143-001-000_p001"
+             facs="#D_000143-001-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_d9a77b06-a926-4a4d-84cf-9ad2f2497451">
+            <lb xml:id="uuid_04564b1f-97de-4a86-be17-137322dec987"/><note
+               hand="#D_000143-001-000-hand01">Kopie</note>
+         </p>
+         <p xml:id="uuid_a44beb22-526a-47b0-b91a-af479af416ce">
+            <lb xml:id="uuid_960ab7d5-3336-4ae2-954a-d030b5fafdbe"/>26. März 1930. </p>
+         <p xml:id="uuid_820244ad-23e0-47d1-bea7-b85066c0f342">
+            <lb xml:id="uuid_8a9078de-fdd3-4af6-8087-da377ade16ea"/>Sehr geehrte Herren! </p>
+         <p xml:id="uuid_c06d2551-00eb-474a-bdee-0a39de0c9be9">
+            <lb xml:id="uuid_1d004590-438a-47c1-b82c-79d83a6d2833"/>In Ihrem <rs ref="#54276"
+               type="work" subtype="pmb">Programmheft Nr. 8</rs> veröffentlichen Sie<lb
+               xml:id="uuid_7c6ff3a8-ab42-40a9-ad32-5368811b112e"/>einen Artikel „<rs ref="#54279"
+               type="work" subtype="pmb">Theater in Berlin</rs>“ von <rs ref="#54278" type="person"
+               >S.N.</rs>, in welchem der<lb xml:id="uuid_e67c51d4-f126-4b8e-80ee-8a855a502cf5"
+            />Verfasser die Erfolge der <rs ref="#36940" type="institution">Volksbühne</rs> aufzählt
+            und auch<lb xml:id="uuid_5b217a89-e217-4b1f-afaf-fa817b57570f"/>ein Stück erwähnt,
+            dessen Stoff, der jüngsten Vergangen<lb break="no"
+               xml:id="uuid_91bc7e27-104f-4480-8627-eb9513fda544"/>heit angehörend, für die
+            Gegenwart voll aktueller Bezie<lb break="no"
+               xml:id="uuid_784da14a-3758-4d19-a84b-85c4214f6faf"/>hungen sei, aber auch für sich
+            betrachtet, genügend Reize<lb xml:id="uuid_b3a0c0c7-1979-4e10-a795-e7308b2fe6f9"
+            />aufweise; es könne „<quote source="#54279"
+               xml:id="uuid_1ee1e555-688f-473c-9124-707bca5da677">nicht wundern</quote>“, heißt es,
+               „<quote source="#54279" xml:id="uuid_c64d4cf6-a00c-4102-95b2-db750bf63869">daß die<lb
+                  xml:id="uuid_7309e7d0-10eb-4aba-a814-484444f88687"/><rs ref="#36940"
+                  type="institution">Volksbühne</rs> mit diesem Drama einen fast sensationellen
+                  Er<lb break="no" xml:id="uuid_1842932d-fc21-4488-b022-247a18d76d2a"/>folg
+               davontrug</quote>“. Das so besprochene Drama ist aber „<rs ref="#77693" type="work"
+               subtype="pmb">Die<lb xml:id="uuid_e0dba452-efac-458e-8280-f0af8c7bcee1"/>Affaire
+               Dreifus</rs>“, nicht etwa „<rs ref="#53397" type="work" subtype="pmb">Die
+               Unüberwindlichen</rs>“, die<lb xml:id="uuid_eab701eb-514b-4d32-ae3b-1464c4e43ed4"
+            />die <rs ref="#36940" type="institution">Volksbühne</rs> trotz dem fast sensationellen
+            Erfolg, je<lb break="no" xml:id="uuid_86ad7843-6781-4165-af22-f65c1dcb068d"/>doch wegen
+            der aktuellen Beziehungen nach der Erstauf<lb break="no"
+               xml:id="uuid_7a31b424-86a2-49fc-b291-0733556a6cba"/>führung unterdrückt hat und die
+            füglich auch in einer<lb xml:id="uuid_bb789ede-1d71-49ab-bb03-d2f617ef7d60"/>Rückschau
+            über die Erfolge der <rs ref="#36940" type="institution">Volksbühne</rs> keinen Platz<lb
+               xml:id="uuid_abc03c31-9278-4617-b712-6410c45dae63"/>haben können. Dagegen wird des
+               <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Autors</rs> der „<rs
+               ref="#53397" type="work" subtype="pmb">Unüberwindlichen</rs>“<lb
+               xml:id="uuid_82fd7abe-1bb3-467a-bad8-9e7ec3106f03"/>in einem anderen Zusammenhang
+            gedacht, indem es in dem<lb xml:id="uuid_f26e13c8-bdc2-451e-a19e-00abc018bdc1"/>Artikel
+            heißt: „<quote source="#54279" xml:id="uuid_60bceed7-cbe8-4d93-b383-f632ae015f58">Das
+                  <rs ref="#37123" type="institution">Renaissance-Theater</rs>
+               <rs ref="#7713" type="person">Gustav Hartungs</rs> be<lb break="no"
+                  xml:id="uuid_a3f5e8dc-9c12-417d-a9d3-1dc9170af30e"/>mühte sich um eine
+               Wiedererweckung von <rs ref="#9131" type="person">Offenbachs</rs> Operette<lb
+                  xml:id="uuid_075f4475-b322-406c-8a05-034bd07c7ed8"/>‚<rs ref="#53311" type="work"
+                  subtype="pmb">Pariser Leben</rs>‘, bearbeitet von <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs> und
+               damit in die<lb xml:id="uuid_1f265b7d-85ec-470f-817e-190fed01a1be"/>Sphäre des
+               Literarischen gerückt …</quote>“ In diesem Punkt ist<lb
+               xml:id="uuid_66e83f67-f044-4f24-8142-75893c9e3fce"/>der <rs ref="#54278"
+               type="person">Verfasser des Artikels</rs> weniger gut informiert als be<lb break="no"
+               xml:id="uuid_a3662264-a6e3-433f-97ea-b23ce7edbbf9"/>züglich der Volksbühne. Abgesehen
+            davon, daß durch die Be<lb break="no" xml:id="uuid_ad1a55cb-c06c-445b-8170-36de1469b74a"
+            />arbeitung von <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+               Kraus</rs> „<rs ref="#53311" type="work" subtype="pmb">Pariser Leben</rs>“ nicht so
+            sehr ins<lb xml:id="uuid_fe975b80-7849-4fc3-a239-32aec34d8345"/>Literarische wie ins
+            Theatralische gerückt wird, aus dem es<lb
+               xml:id="uuid_a145e216-f3c7-4d3e-bc90-40f589d5d0e5"/>die Verschandler entfernt haben,
+            hat das <rs ref="#37123" type="institution">Renaissance-Theater</rs>
+            <lb xml:id="uuid_f805e8cf-40a3-43e8-94a6-5758823c7bc6"/><rs ref="#7713" type="person"
+               >Gustav Hartungs</rs>, das sich um eine Wiedererweckung von <rs ref="#9131"
+               type="person">Offen<lb break="no" xml:id="uuid_2ec29f21-f924-491f-b6c2-df0a168dd1c4"
+               />bachs</rs> Operette „<rs ref="#53311" type="work" subtype="pmb">Pariser Leben</rs>“
+            bemühte, hiebei der Mitwirkung<lb xml:id="uuid_d8dd0152-03ab-4eb1-af83-c3d8cf9ce39f"
+            />des Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+               Kraus</rs> entbehren müssen. Er hatte es im Gegen<lb break="no"
+               xml:id="uuid_1e61b309-423c-4ac4-981d-8f6d457527d3"/>teil seinerzeit abgelehnt, dem
+               <rs ref="#37123" type="institution">Renaissance-Theater</rs> seine Be<lb break="no"
+               xml:id="uuid_6a7790cf-d85e-4bd6-928b-5b985e262a6e"/>arbeitung zur Verfügung zu
+            stellen, und ein Zusammenhang wäre<lb xml:id="uuid_f6881c05-c25c-4ba4-bc21-2f89ea0cc837"
+            />höchstens darin zu erblick, daß die Veranstalter der Auf<lb break="no"
+               xml:id="uuid_9d6a8e9e-6f23-4421-8612-0ffb18e85cc7"/>führung einem Vortrag von „<rs
+               ref="#53311" type="work" subtype="pmb">Pariser Leben</rs>“ durch Herrn <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl<lb
+                  xml:id="uuid_d7da5493-3a29-4e07-b185-2813d34700cc"/>Kraus</rs> beigewohnt, jedoch
+            nur wenig davon profitiert haben.<lb xml:id="uuid_421673fe-63ef-4dbf-993d-267a0ffc74a9"
+            />Wir fordern Sie auf, von diesem Sachverhalt in Ihrem nächsten<lb
+               xml:id="uuid_9647cfca-3200-4a9e-83f4-cd2f99c90a0a"/>Heft Notiz zu nehmen, also die
+            Behauptung, daß im <rs ref="#37123" type="institution">Renaissance-<lb
+                  xml:id="uuid_8889cad6-6349-4ab3-aa28-a124b357338d"/>Theater</rs> „<rs ref="#53311"
+               type="work" subtype="pmb">Pariser Leben</rs>“ in der Bearbeitung von <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+            <lb xml:id="uuid_9a919ee6-5d5d-49b0-9def-b974a1b2f3d9"/>aufgeführt wurde, zu berichtigen
+            und uns ein Belegexemplar<lb xml:id="uuid_eac40511-3da9-4efe-a160-86e749107c2c"
+            />einzusenden. Sollten Sie dies unterlassen, so werden wir<lb
+               xml:id="uuid_53b7516c-6753-48d4-b05a-69bea72e645c"/>Ihnen eine Berichtigung gemäß dem
+            Preßgesetz zusenden. </p>
+         <p xml:id="uuid_32991464-7aab-4676-954e-b41f607e8e40">
+            <lb xml:id="uuid_b1636e28-f663-40b6-9fe1-5c0c880739a5"/>Hochachtungsvoll </p>
+      </body>
+   </text>
+</TEI>

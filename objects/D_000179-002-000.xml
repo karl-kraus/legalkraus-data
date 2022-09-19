@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000179-003-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000179-001-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000179-002-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Willy Katz an Samek</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000179-002-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4420</idno>
+            <idno subtype="transkribus" type="ID">349163</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000179" type="collection">Karl
+                    Kraus ca. Berliner Tageblatt (Hermann Sinsheimer)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000179-002-000-facs001" xml:id="D_000179-002-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000179-002-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSU">Durchschlag mit handschriftlichen Überarbeitungen</objectType>
+                  </ab>
+                  <ab type="materiality">
+                     <objectType source="D_000179-002-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP"
+                        >Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#19200">Dr. Willy Katz</persName>
+               <address>
+                  <street corresp="#482">Friedrichstraße 204</street>
+                  <settlement ref="#168">Berlin SW. 68</settlement>
+               </address>
+               <date when-iso="1932-07-23">23. Juli 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/38909">Herrn | Rechtsanwalt |
+                        Dr. Oskar Samek </persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Diverses</note>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-07-23">23. Juli 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote cert="high"
+                      medium="black-ink"
+                      resp="#JK"
+                      scribeRef="#51596"
+                      source="#D_000179-002-000-wit01"
+                      xml:id="D_000179-002-000-hand01"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000179-002-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000179-002-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-05-10" who="#JK"/>
+         <change type="typography" when-iso="2021-05-10" who="#JK"/>
+         <change type="references" when-iso="2021-05-10" who="#JK"/>
+         <change type="structure" when-iso="2021-05-10" who="#JK"/>
+         <change when-iso="2020-10-09T15:25:57.809Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-09T15:26:19.961Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 349163. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000179-002-000-facs001">
+      <surfaceGrp xml:id="D_000179-002-000-facs001-l001">
+         <surface type="recto" xml:id="D_000179-002-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544020/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000179-002-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544022/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000179-002-000-facs001-l002">
+         <surface type="recto" xml:id="D_000179-002-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544024/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000179-002-000-facs001-l002-p004">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2544026/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000179-002-000_p001"
+             facs="#D_000179-002-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_1c63458c-2edd-4a1d-a88e-ed0182ae011d">
+            <lb xml:id="uuid_ce0f9540-b17a-4d59-b70b-178d6bf8448d"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/38909" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_e9c5d7ea-6397-4d14-a203-a22be712a891">
+            <lb xml:id="uuid_de7d4ff6-7569-48d2-8a0c-8a7f69987bfe"/>Auf Ihre <rs type="work">Anfrage vom 16. Juli 1932</rs> erlaube ich mir folgen<lb break="no" xml:id="uuid_b89c5db0-c411-4e9e-9f4b-d90dd1dc895d"/>des zu erwidern: </p>
+         <p xml:id="uuid_92bf9751-6496-4280-b062-a0d266190fe3">
+            <lb xml:id="uuid_edcdbc42-dd8b-4543-9136-07f0ea020a46"/>Ich bin damit einverstanden,
+            dass mein <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000179-001-000" type="work"
+               subtype="legal-doc">Brief</rs> in der <rs ref="#41244" type="work" subtype="pmb"
+               >Fackel</rs>,<lb xml:id="uuid_b21b0c89-fdd6-4852-b281-f71e861a653c"/>nach dem Wunsch
+            von <rs ref="#11988" type="person">Herrn Kraus</rs>, ganz oder zum Teil abgedruckt<lb
+               xml:id="uuid_51338bc6-d7e1-41ba-aefb-6f02cb03f075"/>wird. Allerdings ist mir bekannt,
+            dass die hiesige <rs ref="#55427" type="institution">Anwalts<lb break="no"
+                  xml:id="uuid_403bc0d9-82a7-421d-9df3-62b090649f2f"/>kammer</rs> die
+            Veröffentlichung von Prozessberichten durch an dem<lb
+               xml:id="uuid_4f99b2e8-e200-4ec9-a384-9580ec467dda"/>Verfahren beteiligte Anwälte
+            missbilligt. Wird dieses <rs type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000179-001-000">Schreiben</rs><lb
+               xml:id="uuid_b3b1266a-099f-4029-a164-ace40e662bb7"/>unter meinem Namen abgedruckt, so
+            ist eine Beschwerde des<lb xml:id="uuid_f5caf899-507a-4dd7-8166-82182cec864a"/><rs
+               ref="#37872" type="person">Herrn Beradt</rs> bei der <rs ref="#55427"
+               type="institution">Anwaltskammer</rs> vorauszusehen und ein an<lb
+               xml:id="uuid_05246a93-bc88-4bb0-9d6b-cccc91900930"/>meine Adresse gerichteter Verweis
+            zu erwarten, insbesondere<lb xml:id="uuid_dcbe2894-06ca-41ce-aa49-706c8d6b7d97"/>darum,
+            weil nach Auffassung der <rs ref="#55427" type="institution">Anwaltskammer</rs> mein <rs
+               type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000179-001-000">Schreiben</rs><lb
+               xml:id="uuid_5aa69912-8661-42df-8aab-0132740010ea"/>als Glossierung eines Kollegen
+            vor der Oeffentlichkeit an<lb break="no"
+               xml:id="uuid_883408ef-213c-4a6b-80c0-1cbb4c271292"/>gesehen werden dürfte. Man könnte
+            derartigen Weiterungen aus dem<lb xml:id="uuid_281fc75b-5a6f-408f-b785-e21cc1aea551"
+            />Wege gehen, wenn beim Abdruck des <rs type="work" subtype="legal-doc"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000179-001-000">Briefes</rs> nicht
+               ausdrücklich<lb xml:id="uuid_c27aaf59-f98c-4c9e-a2dc-365001ca88ed"/>betont würde,
+            dass ich sein Verfasser sei. Glaubt indessen<lb
+               xml:id="uuid_a94c1f47-97e9-4b12-8a56-10ea14d61890"/><rs ref="#11988" type="person"
+               >Herr Kraus</rs>, die Wirkung des Abdruckes ohne die Nennung meines<lb
+               xml:id="uuid_0d172628-482c-416f-ba21-ec027b7d08dd"/>Namens abzuschwächen, so bin ich
+            auch mit dem Abdruck unter<lb xml:id="uuid_6bafaefd-300a-45ad-a0f8-ac7459d5488e"/>meinem
+            Namen einverstanden. Jedenfalls möchte ich aber für den<lb
+               xml:id="uuid_8a59abca-9544-4442-9cc5-c778fbf54388"/>Abdruck einige Stellen wie folgt
+            ändern: </p>
+         <pb xml:id="D_000179-002-000_p002"
+             facs="#D_000179-002-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_ca579ed8-8927-42b7-aa30-fd6cdd939859">
+            <lb xml:id="uuid_9fa9737c-4731-4d55-920c-efd2807ca1ee"/>Auf Seite 2, Absatz 2, Zeile
+                16, müsste es heissen: </p>
+         <p xml:id="uuid_30da78cf-7082-47b4-a893-3d788fff1fe7">
+            <lb xml:id="uuid_2633db64-cea3-4b99-a609-d08cf4530d94"/>„<quote source="#D_000179-001-000"
+                   xml:id="uuid_347fc273-c4c6-4d00-85ec-7bc4c2c68339">auch Personen, die mit Recht <rs ref="#11988" type="person">Herrn Kraus</rs>
+                    hochschätzen.</quote>“<lb xml:id="uuid_51e1985e-2903-4eae-842e-f23f5eedce62"/>Dafür, dass das Wort „<quote source="#D_000179-001-000"
+                   xml:id="uuid_2350b542-7bba-44d1-9194-32a58b0b9e0b">Verehrung</quote>“ gebraucht
+                ist, kann ich nicht<lb xml:id="uuid_05a0ce29-7b2c-4be2-a5a6-161c71f3eb90"/>einstehen; auch andere Personen, die der Verhandlung beigewohnt<lb xml:id="uuid_29d7434d-c424-462d-98b9-4033293f572b"/>haben, können sich an diesen
+                Ausdruck nicht erinnern, sondern<lb xml:id="uuid_5504a23e-dd73-41b0-a50b-05d360e20cc0"/>nur daran, dass <rs ref="#37872" type="person">Herr Beradt</rs> die Hochschätzung von <rs ref="#11988" type="person">Herrn Kraus</rs>
+            <lb xml:id="uuid_2206060b-0613-424e-b88b-4879f7533e0c"/>durch Redaktionsmitglieder
+                hervorgehoben hat. Im nächsten Ab<lb break="no" xml:id="uuid_18d98bf8-1b25-4adb-9f83-91110ea572de"/>satz möchte ich die in
+                Parenthese gehaltene Stelle so fassen: </p>
+         <p xml:id="uuid_0b15e42f-2008-4afb-b27c-ffb9eab94323">
+            <lb xml:id="uuid_9f53c963-af99-4e82-a968-d0cf37743373"/>„<quote
+               source="#D_000179-001-000" xml:id="uuid_ffa832ca-ab9f-49c8-b82f-ae0f3cb0b588"
+               >offenbar aus taktischen Gründen.</quote>“ </p>
+         <p xml:id="uuid_06bad22a-fbd1-4d5e-99fc-4c0cfb439142">
+            <lb xml:id="uuid_2d63f891-d626-4408-aceb-5e3b7d0457ee"/>Der Sinn dieser Bemerkung war,
+            dass meiner Auffassung nach<lb xml:id="uuid_cecbe2b7-03ab-430e-8173-a3496cc9c520"/><rs
+               ref="#37872" type="person">Herr Beradt</rs> meine Ergebenheit gegenüber <rs
+               ref="#11988" type="person">Herrn Kraus</rs> hervorheben<lb
+               xml:id="uuid_94f37a15-0e8c-4c9a-a9c4-69a94583dd59"/>und unterstreichen wollte, um die
+            Stichhaltigkeit der von mir<lb xml:id="uuid_4cdb4d79-274d-46b5-b206-cd967d1b9fc7"
+            />vorgebrachten Argumente stärker zu erschüttern. Er wollte mich,<lb
+               xml:id="uuid_79e8b340-d10b-4cca-8714-eafa63e88a3f"/>um es kurz zu sagen, in dieser
+            Sache als ungewöhnlich befangen<lb xml:id="uuid_ae886291-910e-4d42-9afd-eee6788af076"
+            />hinstellen. Im dritten Absatz auf Seite 2 möchte ich hinter<lb
+               xml:id="uuid_073b0cc8-6620-494f-bfc4-4782520f0c9e"/>„<quote
+               source="#D_000179-001-000" xml:id="uuid_84467663-5afd-401e-ae85-acee89fdccf7">zur
+               Schau</quote>“ fortfahren: „was er unter anderem damit begründete, der <rs
+               ref="#41244" type="work" subtype="pmb">Fackel</rs><lb
+               xml:id="uuid_07ec1621-4abb-4825-be3d-a77ed4eebbf5"/>keinen Anlass zu einer
+            sprachkritischen Glosse geben zu wollen.“<lb
+               xml:id="uuid_2d7191fe-0f01-49d8-a88c-276468a62cc5"/>Mit dem Worte „<quote
+               source="#D_000179-001-000" xml:id="uuid_0d3f5bbc-b924-4e5c-a2d2-edee08cb259a"
+               >angeblich</quote>“ hatte ich zweierlei zum Ausdruck brin<lb break="no"
+               xml:id="uuid_016bfc55-143d-4566-808f-45a9953c9f9c"/>gen wollen. Einmal, dass er
+            tatsächlich die eben erwähnte Be<lb break="no"
+               xml:id="uuid_16c7877d-5a63-4171-8906-6e2af734fe8b"/>sorgnis geäussert hatte, und
+            zweitens, dass mir diese Moti<lb break="no"
+               xml:id="uuid_ae2eeb3f-8586-421c-88ff-3b1d9c916335"/>vierung nicht ganz ernst gemeint
+            erschien. Er gab u.a. auch an,<lb xml:id="uuid_f81942c9-2bbe-42f9-b4ce-80c11abc2d3e"
+            />dass er kein schlechtes Deutsch <del xmlns="">von sich aus</del> in den Druck zu<lb
+               xml:id="uuid_7496036e-25cc-4dfc-a4b3-35874f2d6f02"/>geben gewohnt sei. In der
+            Hauptsache aber hatte ich das Gefühl,<lb
+               xml:id="uuid_4d161e6b-185c-46dd-a1b9-9746774e8918"/>dass er unter dem Mantel der
+            Ausdruckskorrektheit gerne eine<lb xml:id="uuid_54a0ede4-9b5e-49f6-95c1-ca103a8a3ca4"
+            />Verschlechterung des Inhalts durchgeschmuggelt hätte. </p>
+         <p xml:id="uuid_e970c76d-142c-426d-a30b-d8ac21256584">
+            <lb xml:id="uuid_392a70e8-58e7-4056-bfc1-b10eb03cb92f"/>Die Verhandlung hat am 4. Juli
+            1932 stattgefunden. Die<lb xml:id="uuid_2ebf05a2-a5ae-4cbf-9451-3219ce84f473"/><rs
+               type="work" subtype="pmb"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000179-003-000.xml">Berichtigung</rs>
+            ist im <rs ref="#55429" type="work" subtype="pmb">Morgenblatt vom 6. Juli 1932</rs>
+               erschienen.<lb xml:id="uuid_8a8fa8b3-9b88-4b15-a0c3-b3dad9cf8897"/>In der <rs
+               ref="#55431" type="work" subtype="pmb">Abendausgabe vom gleichen Datum</rs> ist <rs
+               ref="#11910" type="person">Kerr’s</rs> Feuilleton<lb
+               xml:id="uuid_90cffa95-366b-4f14-bacd-caff5ddbf807"/>„<rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000179-004-000" type="work"
+               subtype="legal-doc">Clarence und die Nutzniesser</rs>“ erschienen. </p>
+         <pb xml:id="D_000179-002-000_p003"
+             facs="#D_000179-002-000-facs001-l002-p003"
+             n="3"/>
+         <p xml:id="uuid_572a3d63-14c6-42f1-a831-f194561ed270">
+            <lb xml:id="uuid_1c03ce72-7792-40f0-bc85-db8ecd715757"/>Auf die Frage, ob die von Ihnen
+            angegebene Stelle in III<lb xml:id="uuid_157f1172-8b64-4edc-bf40-8521b4affbb8"/>dieses
+               <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000179-004-000" type="work"
+               subtype="legal-doc">Feuilletons</rs> eine strafbare Beleidigung des <rs ref="#11988"
+               type="person">Herrn Kraus</rs>
+            <lb xml:id="uuid_a57cb86e-b011-4a11-af23-4cded609d9b3"/>enthält, möchte ich mit ja
+            antworten. Dagegen beurteile ich<lb xml:id="uuid_ea821902-0a7d-41aa-8cf5-0e764c950c98"
+            />die Aussichten eines Beleidigungsprozesses gegen <rs ref="#11910" type="person"
+               >Kerr</rs> wegen<lb xml:id="uuid_0f11a71d-d542-4cc3-8b19-9c1d7f934704"/>dieser
+            Äusserung für ausserordentlich gering, wenn nicht für<lb
+               xml:id="uuid_1efa3880-f216-4eb8-b525-f58d20ef6955"/>hoffnungslos. Ich bin nicht
+            einmal sicher, ob <rs ref="#11910" type="person">Kerr</rs> zu einer<lb
+               xml:id="uuid_fecf3226-1ef9-451e-a7ee-42c32bf99621"/>Äusserung auf eine zu erhebende
+            Privatklage vom <rs ref="#36832" type="institution">Gericht</rs> auf<lb break="no"
+               xml:id="uuid_99f5a8de-887b-4d0b-8b24-a6fd6bb02e14"/>gefordert werden würde, sondern
+            halte es für denkbar, dass<lb xml:id="uuid_715d8bd4-49c3-430d-9a45-4ee44c351f77"/>das
+            Verfahren von Amtswegen eingestellt wird. Die Notver<lb break="no"
+               xml:id="uuid_140a988a-6230-4a75-a4af-3f596a66a0e8"/>ordnung vom Oktober 1931 bietet
+            Handhaben genug, um das Ver<lb break="no"
+               xml:id="uuid_de1c50bb-2e2d-48dd-800a-1330d0ac8861"/>fahren einzustellen. Es ist
+            meiner Meinung nach als wahrschein<lb break="no"
+               xml:id="uuid_d6c205ad-3ca7-4199-a6ed-44381aa696cb"/>lich anzusehen, dass das <rs
+               ref="#36832" type="institution">Gericht</rs> bei der Unbestimmtheit des<lb
+               xml:id="uuid_5480cac5-6f78-41c6-8f66-7059cf99ca25"/>Ausdrucks und der mangelnden
+            Kenntlichmachung des Adressanten <add hand="#D_000179-002-000-hand01">für
+               Unbeteiligte</add><lb xml:id="uuid_49e51309-2250-497d-9fa5-8e667c5b7a49"/>der
+            Beleidigung die Schwere der Ehrenkränkung verneint und die<lb
+               xml:id="uuid_78349482-1e1d-44a6-8c7d-2d81e0268c76"/>Folgen als geringfügig
+            bezeichnet. In diesem Fall kann auf<lb
+               xml:id="uuid_05d824a2-6c18-40d6-9811-14343c00072d"/>Grund der Notverordnung das
+            Verfahren eingestellt werden. Vor<lb xml:id="uuid_d7cd6b1c-c803-4ee8-ba3e-cd69ced53ecd"
+            />allem aber stützt sich mein Bedenken auf die Geistesver<lb break="no"
+               xml:id="uuid_af917b71-a32b-4cfd-a0ac-4950a49d41f8"/>fassung der Richter, mit denen
+            man es bei Erhebung der Klage<lb xml:id="uuid_918220d6-469e-4ca6-8174-3da720773018"/>zu
+            tun hätte, eine Geistesverfassung, die durch die gegen<lb break="no"
+               xml:id="uuid_2a232e30-c564-4e95-b543-bd2059140637"/>wärtige politische Situation noch
+            bösartiger geworden ist, und<lb xml:id="uuid_6ad4fd12-b375-4856-a511-2b1a4fb95cff"/>in
+            deren Horizont der Rechtstreit nur als die Austragung<lb
+               xml:id="uuid_8dcd592b-9623-4d4a-b3af-f3a9232db65a"/>eines Literatengezänkes, für das
+            die Zeit zu ernst sei er<lb break="no"
+               xml:id="uuid_39a1a07f-4b99-4d24-9cde-d7a533817297"/>scheinen dürfte. Selbst der <rs
+               type="person">Charlottenburger-Richter</rs>, der sich<lb
+               xml:id="uuid_e72ba15a-7a7b-4cb7-abe3-df06cbc01b53"/>in dem Verfahren gegen <rs
+               ref="#38735" type="person">Sinsheimer</rs> mir gegenüber so ausser<lb break="no"
+               xml:id="uuid_17bff19d-67d6-4e5c-9019-dd1652bc547b"/>ordentlich günstig verhielt,
+            dürfte ein tieferes Verständnis<lb xml:id="uuid_16c65bef-3417-4366-b8b3-223e9197ffa9"
+            />für die Materie nicht aufbringen können. Auch er hatte übri<lb break="no"
+               xml:id="uuid_0650040e-ccf2-4dd0-8282-12cb6538adde"/>gens vorher aus Gründen der
+            Notverordnung das Verfahren ein<lb break="no"
+               xml:id="uuid_4b152628-8579-4299-b0a0-8dba1b658343"/>gestellt und war erst durch den
+               <rs type="work" subtype="legal-doc">Beschluss</rs> des <rs ref="#36832"
+               type="institution">Landgerichts</rs>
+            <lb xml:id="uuid_ec93b984-c514-4114-977e-33bdbfd88299"/>zur Tätigkeit erweckt worden.
+            Sollte <rs ref="#11910" type="person">Kerr</rs> zur Rede gestellt <pb
+               xml:id="D_000179-002-000_p004" facs="#D_000179-002-000-facs001-l002-p004" n="4"/>
+            <lb xml:id="uuid_4933c05c-b2dd-44a6-a0d3-0cc0ed3cb2a2"/>werden, so wird er meiner
+            Meinung nach sogar nicht einmal die<lb
+               xml:id="uuid_c0f02db1-3a1f-4c24-add3-87f74323129e"/>beleidigende Tendenz der
+            inkriminierten Stelle ableugnen, bezw.<lb
+               xml:id="uuid_61acccac-e318-46f8-bd40-0390d68ee20e"/>um eine Ableugnung herumzugehen
+            versuchen. Vielleicht versucht<lb xml:id="uuid_50aa7b4a-8178-4a06-9e4c-d71e7474f9dc"/>er
+            es auch mit seinem früheren Trick, dass er kurz vorher erst<lb
+               xml:id="uuid_53858c27-42bf-46cc-8489-b06fabd624fb"/>das letzte Heft der <rs
+               ref="https://fackel.oeaw.ac.at/f/873,0u1" type="work" subtype="fackel">Fackel vom
+               April 1932</rs> gelesen hätte, in dem<lb
+               xml:id="uuid_0a0c4932-9211-4902-9909-48e45e46ede2"/>sich jedenfalls eine Reihe gegen
+            Journalisten und Kritiker<lb xml:id="uuid_8bad9d05-142a-41c6-959e-43978203b8cb"
+            />gerichtete Stellen befinden,und gibt vor, sich dadurch belei<lb break="no"
+               xml:id="uuid_dd76f2fd-3123-434f-8b51-a825745773a0"/>digt gefühlt zu haben. Unter
+            Umständen, denn bei unserer<lb xml:id="uuid_88f2ba09-8b53-4d87-bddf-1285fd5e07fa"
+            />Rechtsprechung ist alles möglich, kommt er auch damit durch und<lb
+               xml:id="uuid_8518b777-3f3b-4caf-a2e4-5f6def74a2da"/>erlangt so Straffreiheit, weil er
+            eine Beleidigung auf der<lb xml:id="uuid_f3bd938d-a568-4128-9336-8164a2ef5b9e"/>Stelle
+            mit einer anderen erwidert habe. </p>
+         <p xml:id="uuid_8c3daa13-846d-4b24-b5b3-056f4b4bed3c">
+            <lb xml:id="uuid_bbfcdb06-e81f-4a7e-8f04-248712148d9d"/>Ich möchte nochmals nicht im
+            Zweifel lassen, dass ich an<lb xml:id="uuid_1f987381-f186-47a9-9ee3-0991f54dbec2"/>und
+            für sich die <rs type="person" ref="#11910">Kerr’sche</rs> Äusserung für eine
+            theoretisch durch<lb break="no" xml:id="uuid_20027261-41b8-44da-9c60-2d919ec9307e"/>aus
+            fassbare Beleidigung halte. Mein Bedenken richtet sich<lb
+               xml:id="uuid_f2c5eff1-6a10-467b-bd9c-bdacdc40e3e7"/>lediglich gegen die praktische
+            Durchsetzbarkeit des Straf<lb break="no"
+               xml:id="uuid_b76b3b6c-4422-4ec2-b9c9-fbedae3d7d88"/>anspruches. Selbstverständlich
+            bin ich bereit, falls <rs ref="#11988" type="person">Herr Kraus</rs>
+            <lb xml:id="uuid_f135b53c-4984-4cc0-8ce3-2a322e2adbab"/>dies wünscht, die
+            Beleidigungsklage einzureichen und bitte für<lb
+               xml:id="uuid_3b47a805-4475-455c-862b-077be7ab374c"/>diesen Fall um Angabe der
+            Personen, die jene Äusserung als<lb xml:id="uuid_237f3590-5049-4642-af56-0fa310fcd5d0"
+            />gegen <rs ref="#11988" type="person">Herrn Kraus</rs> gerichtet empfunden haben, und
+            die es auch<lb xml:id="uuid_173eab96-524e-4a3d-864d-887b258658fc"/>bekunden werden. </p>
+         <p xml:id="uuid_8eb54c25-8c4e-4836-8d6b-b1aae508dbf7">
+            <lb xml:id="uuid_476bd0aa-89fd-4cd9-8df7-83c80ee91c1e"/>In der Anlage übersende ich
+                Ihnen die gewünschte Nummer<lb xml:id="uuid_119aab8b-e936-4b2c-8b5b-72b6ae4e755a"/>des <rs ref="https://pmb.acdh.oeaw.ac.at/entity/29329" type="institution">Berliner
+                    Tageblatt</rs>s. </p>
+         <p xml:id="uuid_05db9dbb-74e6-473a-8127-60edc878f541">
+            <lb xml:id="uuid_dd48a702-05b6-4188-9eeb-c94dcbe7c117"/>Ich bitte, <rs ref="#11988" type="person">Herrn Kraus</rs> den Ausdruck meiner herzlichen<lb xml:id="uuid_9acaea94-2777-471a-b571-247e8e8f3b9b"/>Verehrung zu übermitteln und
+                bin mit herzlichen Grüssen </p>
+         <p xml:id="uuid_77c0189e-c913-46de-820a-e94c035d08aa">
+            <lb xml:id="uuid_6648ffb7-4dda-49c1-85ae-1d48e7a4d13c"/>Ihr sehr ergebener<lb xml:id="uuid_e14e6934-2d43-44e7-a24a-fd0b48511910"/><rs ref="#19200" type="person">Katz</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-004-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-002-001.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000175-003-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Egon Friedell</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000175-003-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4335</idno>
+            <idno subtype="transkribus" type="ID">349071</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000175" type="collection">Karl
+                    Kraus ca. Wiener Mittags-Zeitung</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000175-003-000-facs001" xml:id="D_000175-003-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000175-003-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1932-02-12">12. Februar 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/2771">Herrn | Dr. Egon
+                        Friedell</persName>
+               <address>
+                  <street corresp="">Deutsches Theater</street>
+                  <settlement ref="#168">Berlin</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Wiener Mittags-|Zeitung</note>
+               <note type="dictation">Dr.S/Fa</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-02-12">12. Februar 1932
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000175-003-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000175-003-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-05-07" who="#JK"/>
+         <change type="typography" when-iso="2021-05-07" who="#JK"/>
+         <change type="references" when-iso="2021-05-07" who="#JK"/>
+         <change type="structure" when-iso="2021-05-07" who="#JK"/>
+         <change when-iso="2020-10-09T14:17:32.589Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-09T14:23:25.871Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 349071. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000175-003-000-facs001">
+      <surfaceGrp xml:id="D_000175-003-000-facs001-l001">
+         <surface type="recto" xml:id="D_000175-003-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543639/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000175-003-000-facs001-l002">
+         <surface type="recto" xml:id="D_000175-003-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543640/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000175-003-000-facs001-l002-p003">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543641/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543643/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000175-003-000_p001"
+             facs="#D_000175-003-000-facs001-l002-p002"
+             n="1"/>
+         <p xml:id="uuid_4bf2ce85-8c8b-4083-a0c4-e92fc3d951a2">
+            <lb xml:id="uuid_7c40ec58-5afa-48d0-ab18-33f7147073c6"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/2771" type="person">Herr</rs>! </p>
+         <p xml:id="uuid_f0ecb1ab-132b-40ab-bc3b-16a040dddf30">
+            <lb xml:id="uuid_e4ea6dbf-aed0-4f3b-ba2c-1685a8a91232"/>In der <rs ref="#55414"
+               type="work" subtype="pmb">‚Wiener Mittags-Zeitung‘ vom 9. Fe<lb break="no"
+                  xml:id="uuid_e6ddb9a4-7a45-4cdc-9d20-92bae7354606"/>bruar 1932</rs> ist das
+            Folgende erschienen: </p>
+         <p xml:id="uuid_bdb520bb-4b2b-4977-8f19-0372b35872d1">
+            <lb xml:id="uuid_cc4918dd-a09a-4ea9-a235-f53466a0db52"/><quote
+               source="#D_000175-001-000" xml:id="uuid_4564f08b-9ee4-453a-862b-5da50232c25d"><hi
+                  rend="underlined">Anekdote des Tages<lb
+                     xml:id="uuid_2de0849a-81ef-45fc-b4ec-35e737361fd6"/>Neues von <rs
+                     ref="https://pmb.acdh.oeaw.ac.at/entity/2771" type="person">Egon
+                  Friedell</rs></hi><lb xml:id="uuid_ae2ab012-791d-4dae-afad-cfedbe921e15"/><rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/2771" type="person">Egon Friedell</rs>
+               soll einmal <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl
+                  Kraus</rs><lb xml:id="uuid_755cc0e7-6214-4006-b4eb-0282c2e9a8f4"/>gefragt haben,
+               ob er sich schon duelliert habe.<lb
+                  xml:id="uuid_51389b47-967b-4dd0-a5c8-b50b27c5999c"/>Dieser antwortete: „<q
+                  type="spoken" who="https://pmb.acdh.oeaw.ac.at/entity/11988">O ja! <hi
+                     rend="spaced">Ich bin schon<lb
+                        xml:id="uuid_f061be50-c59c-4dfa-8a7a-8381d1134433"/>oft geohrfeigt
+                     worden</hi>!</q>“</quote>
+         </p>
+         <p xml:id="uuid_299716dd-330f-4d96-8c0f-0ec776afe696">
+            <lb xml:id="uuid_690b26b2-a819-4864-ba07-a7cb926cead6"/>Ich ersuche Sie, mir eine
+            Aeusserung darüber<lb xml:id="uuid_93c8f6e3-037a-417b-8fa1-ad668fda58a8"/>zukommen zu
+            lassen, ob Sie von einem derartigen Gespräch, von<lb
+               xml:id="uuid_75cf5258-dd2b-4226-bc43-55df6e070206"/>dem Sie natürlich wissen, dass es
+            erfunden ist, irgend jemandem<lb xml:id="uuid_78370270-6fee-4499-a781-22a4f340f476"
+            />Mitteilung gemacht haben. Ich nehme keineswegs an, dass Sie<lb
+               xml:id="uuid_1a5c9186-8532-4f6c-9687-b8bb10dfa7c2"/>auch nur den geringsten Anteil an
+            der Erfindung und Verbreitung<lb xml:id="uuid_604620d5-d22d-4634-9e6b-ed0b9a24d112"
+            />dieser „<rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000175-001-000" type="work"
+               subtype="legal-doc">Anekdote</rs>“ haben, weil Ihnen ja doch der lebhafte Kon<lb
+               break="no" xml:id="uuid_def1959d-d5d7-46cf-b660-e4a97ed474a1"/>trast der Gesinnung,
+            die sich in ihr ausspricht, mit Ihrem<lb
+               xml:id="uuid_49a3608e-9baf-44a2-9120-d41545c4665c"/>öffentlich bekundeten Urteil über
+            meinen <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Mandanten</rs>
+               bewusst<lb xml:id="uuid_8b344027-5990-451c-b809-38bce2a1e4ff"/>sein müsste. </p>
+         <p xml:id="uuid_d1920d79-d02f-4a12-bea9-6f8e8f8b2420">
+            <lb xml:id="uuid_61388de9-29d1-4635-8832-6e783d2ac169"/>Mit vorzüglicher Hochachtung </p>
+         <p xml:id="uuid_2e557b07-6814-4727-83c2-4e4c981ea6f1">
+            <lb xml:id="uuid_62746205-87a5-4e74-a76c-bffde434e105"/>Rekommandiert </p>
+         <pb xml:id="D_000175-003-000_p002"
+             facs="#D_000175-003-000-facs001-l002-p003"
+             n="2"/>
+         <p xml:id="uuid_da417a71-151d-4be0-a031-a0bad8520826">
+            <lb xml:id="uuid_d813a653-ee06-44c7-a99d-5e3c0d984aed"/><note resp="law-firm"
+               type="paratext">Betr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  type="person">Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37560"
+                  type="institution">Wiener Mittags-Zeitun[g]</rs><lb
+                  xml:id="uuid_25c89c1c-9a8b-4b48-ac68-e30a4e9d3016"/>exp. 12.2.1932.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

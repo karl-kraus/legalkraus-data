@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-019-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-017-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000130-018-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA H. Wahnschaff an Samek</title>
+            <editor ref="#SH">Susanna Hufsky</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000130-018-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3598</idno>
+            <idno subtype="transkribus" type="ID">399044</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000130" type="collection">Karl
+                    Kraus ca. Hamburger Nachrichten</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000130-018-000-facs001" xml:id="D_000130-018-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000130-018-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#43581">Dr. H. Wahnschaff</persName>
+               <address>
+                  <street corresp="#55861">Gr. Bleichen 12-14</street>
+                  <settlement ref="#506">Hamburg 36</settlement>
+               </address>
+               <date when-iso="1929-08-19">19. August 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38909">Herrn Rechtsanwalt | Dr. Oskar Samek</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date when-iso="1929-08-21"/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">E.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1929-08-19">19. August
+                    1929</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000130-018-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000130-018-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-06-02T14:46:11.035Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 399044. </change>
+         <change type="structure" when-iso="2021-07-13" who="#SH"/>
+         <change type="references" when-iso="2021-07-13" who="#SH"/>
+         <change type="typography" when-iso="2021-07-13" who="#SH"/>
+         <change type="intertexts" when-iso="2021-07-13" who="#SH"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000130-018-000-facs001">
+      <surfaceGrp xml:id="D_000130-018-000-facs001-l001">
+         <surface xml:id="D_000130-018-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557860/full/full/0/default.jpg"/>
+         </surface>
+         <surface xml:id="D_000130-018-000-facs001-l001-p002" type="verso">
+            
+            <graphic source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557861/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000130-018-000_p001"
+             facs="#D_000130-018-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_bfddd797-4da3-4c93-94f7-7bfd53c0a92f">
+            <lb xml:id="uuid_de3a1dbf-5193-4edc-beb2-18060306ac5c"/>Sehr geehrter <rs ref="#38909" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_b0293e43-bddf-4b3e-b1fd-e639cf672d6b">
+            <lb xml:id="uuid_320c875a-2fee-43fa-81cb-dba285c4c33d"/>In der Sache <rs ref="#11988"
+               type="person">Kraus</rs> ./. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/37346"
+               type="institution">Hamburger Nachrichten</rs>
+            <lb xml:id="uuid_b456bf15-3fbc-4d41-82f9-5af276e11a36"/>empfing Ihr gefl. <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-017-000" type="work"
+               subtype="legal-doc">Schreiben vom 16. ds.Mts.</rs>. Herr <rs ref="#51612"
+               type="person">Dr. Lion</rs>
+            <lb xml:id="uuid_7d9b0499-cfb6-4d43-ac8a-e2319a946dc6"/>ist zurzeit verreist, ich habe
+            ihm daher Ihr <rs type="work"
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000130-017-000" subtype="legal-doc"
+               >Schreiben</rs> mit<lb xml:id="uuid_2f325bac-7a13-4fcc-972d-766908ae178e"/>der Bitte
+            um Instruktion eingesandt. Sobald mir seine Ant<lb break="no"
+               xml:id="uuid_01d8df08-a388-4edc-a0da-34cfbf42f7c8"/>wort zugeht, werde ich Sie
+               benachrichtigen.<lb xml:id="uuid_3bf3a27c-09a3-4535-8cdc-44cab02de341"
+            />Hochachtungsvoll </p>
+         <p xml:id="uuid_51266ced-2846-41ee-a4a6-ee356db4a00b">
+            <lb xml:id="uuid_c60d6fef-4352-43cd-ad55-1a7f2be5d19a"/><rs type="person" ref="#43581">Wahnschaff</rs>
+         </p>
+         <pb xml:id="D_000130-018-000_p002"
+             facs="#D_000130-018-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_2789e4c2-3fc9-48c9-9908-e25fb0936053">
+            <lb xml:id="uuid_32f043e6-7f2a-458b-8a57-58f85632ec49"/><note type="paratext" resp="law-firm"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37346" type="institution">Hamburger Nach<lb xml:id="uuid_15383575-21dd-4624-9777-37184f03acee" break="no"/>richten</rs>
+               <lb xml:id="uuid_ad20f337-2d24-4a7e-881c-c2755c8a1cce"/>21.
+                    AUG. 1929</note>
+         </p>
+      </body>
+   </text>
+</TEI>

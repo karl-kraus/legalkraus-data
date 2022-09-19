@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-014-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-012-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000070-013-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Botho Laserstein an Kraus</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000070-013-000.xml</idno>
+            <idno subtype="krausonline" type="URL">
+                    https://www.kraus.wienbibliothek.at/content/brief-ra-botho-laserstein-kraus </idno>
+            <idno subtype="transkribus" type="ID">212908</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000070" type="collection">Alfred Kerr ca. Karl Kraus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000070-013-000-facs001" xml:id="D_000070-013-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000070-013-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.M">Manuskript</objectType>
+                     <objectType source="D_000070-013-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP">Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38969">Dr. jur. Botho Laserstein | RECHTSANWALT </persName>
+               <address>
+                  <street corresp="#51751">LANDSBERGER ALLEE 55</street>
+                  <settlement ref="#168">BERLIN NO 18</settlement>
+               </address>
+               <date when-iso="1928-10-28">28./10.28</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#11988"/>
+               <address>
+                  <street corresp="#50496"/>
+                  <settlement ref="#53"/>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1928-10-28">28. Oktober 1928
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000070-013-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000070-013-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change resp="#LU" status="draft" when-iso="2021-09-13">created XML Document</change>
+         <change resp="#LU" status="draft" when-iso="2021-09-13">Replaced Text with Transcription
+                of Transkribus Document 212908. </change>
+         <change status="draft"
+                 type="header_facsimile"
+                 when-iso="2022-01-11"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2022-01-11" who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2022-01-11"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2022-01-11"
+                 who="#AR"/>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2022-01-11"
+                 who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000070-013-000-facs001">
+      <surfaceGrp xml:id="D_000070-013-000-facs001-l001">
+         <surface type="recto" xml:id="D_000070-013-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553112/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000070-013-000-facs001-l002">
+         <surface type="recto" xml:id="D_000070-013-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553114/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000070-013-000_p001"
+             facs="#D_000070-013-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_cc9d9fc5-4fd6-44ac-8c8b-b952e56d442b">
+            <lb xml:id="uuid_ace105f1-e391-4f70-b6bf-1c0549484ff5"/>Sehr verehrter Herr <rs ref="#11988" type="person">Kraus</rs>, </p>
+         <p xml:id="uuid_891538eb-8660-4332-ac02-db170b516195">
+            <lb xml:id="uuid_b3d6dc96-a295-4359-8bc9-b7858760e78a"/>soeben erhalte ich das <rs
+               ref="#63201" type="work" subtype="pmb">Dreckblatt</rs> des<lb
+               xml:id="uuid_9fc165be-b834-45cf-a69a-cd2c8895ed48"/><rs ref="#63199" type="person"
+               >Hirschberg</rs>. Ich bin unbedingt dagegen, daß man diesem<lb
+               xml:id="uuid_5b680196-181c-4aca-9820-413b38739dba"/>geballten und gestuften Vorwurf
+            auch nur die Ehre<lb xml:id="uuid_983fda8b-3791-4222-821a-1f4166d75977"/>einer
+            Beleidigungsklage erweist. Das würde dem bisher völlig<lb
+               xml:id="uuid_124e5dbe-d721-4719-931d-93f769f5464a"/>unbekannten Lausejungen, der
+            nicht mal einen Schulaufsatz<lb xml:id="uuid_cefc9b47-4d17-476a-8339-698d1ede9c7a"/>für
+            Tertia zusammenbringt, sich aber am Teetisch oder im<lb
+               xml:id="uuid_964ebe36-3ba8-4305-95e2-a328260d3b44"/>Bett – da ist kein Unterschied –
+            der Frau Bankier <rs ref="#21379" type="person">Meyer-<lb
+                  xml:id="uuid_72773f5b-20eb-41a5-b578-16b6216ed3a5"/>Cohn</rs> (die den <rs
+               ref="#63199" type="person">Hirschberg</rs> mitsamt dem <rs ref="#63203"
+               type="institution">Revolverblatt</rs>
+            <add>(vgl. Seite <hi rend="underlined">9</hi>)</add> wohl<lb
+               xml:id="uuid_c8b4b402-3648-4d1a-87c9-f990dc545782"/>aushält) recht respektabel
+            ausnehmen mag, nur die Gelegenheit<lb xml:id="uuid_5628c53c-ae41-4d85-acd2-15b1b49b446e"
+            />geben, für sich Reklame zu machen und sich in eine Rolle<lb
+               xml:id="uuid_c686d805-0ade-4303-acf7-a379775f526d"/>hineinzuspielen, die er nicht zu
+            spielen hat. </p>
+         <p xml:id="uuid_5110a5e1-a7af-451f-8d33-3f7577610509">
+            <lb xml:id="uuid_7ce4881f-b7e3-45ac-8b99-ad4595663a8c"/>Nach dieser Lektüre gebe ich
+                Ihnen recht:<lb xml:id="uuid_42d5b56e-d10c-4f6d-b8b4-fde8e4f1db5e"/>man muß sich
+                darauf beschränken, den Hauptdreckfinken zu <pb xml:id="D_000070-013-000_p002"
+                facs="#D_000070-013-000-facs001-l002-p002"
+                n="2"/>
+            <lb xml:id="uuid_eb89ec81-37b5-42e7-b84b-0b0ce3e3ab65"/>erledigen und alles Gewürme,
+                was um ihn kriecht, durch<lb xml:id="uuid_f4c6a178-a161-4fd6-bdd0-70f37b656116"/>Nichtachtung zu vertreten. </p>
+         <p xml:id="uuid_3baeb8e6-2aad-45ad-935b-9c180f8707a2">
+            <lb xml:id="uuid_0f3b3ae5-49e7-4fbb-8975-0a86d6668cb7"/>Den „<quote source="#D_000070-012-000.xml"
+                   xml:id="uuid_6035ef92-9852-468b-8557-68f698318a9c">wehmütigen Zug auf dem
+                    Rücken</quote>“ hat der<lb xml:id="uuid_2387bc17-573c-4725-937e-257c89132bbd"/>weltberühmte Kritiker meines Wissens übrigens dem <rs ref="#11640" type="person">Heine</rs>
+            <lb xml:id="uuid_df80b8fd-885a-4c52-bb61-756bc81f6bec"/>contra <rs ref="#14780" type="person">Börne</rs> – welche Vergleichsmöglichkeit! – oder
+                    dem<lb xml:id="uuid_c97814e4-2165-4ce5-a1a2-6ce4c32583d2"/>Denunzianten-<rs type="person" ref="#64142">Menzel</rs> gestohlen! </p>
+         <p xml:id="uuid_c443fd20-58a2-4f08-b819-134135315031">
+            <lb xml:id="uuid_36e8e929-7c43-4deb-b03a-5a9986d98233"/>NB! Die Gedichte des <rs ref="#11910" type="person">Kerr</rs> kostenlos, schenkweise –<lb xml:id="uuid_247100b4-66eb-4ef6-b740-8eb7d396f335"/>also nicht gewerbsmässig –
+                in Deutschland zu vertreiben (z.B.<lb xml:id="uuid_8ae2c597-1e99-427b-8ea0-bcc27370895f"/>an alle Redaktionen zu
+                senden), verbietet Ihnen die einstweilige Verfügung<lb xml:id="uuid_cff5e366-22ae-437f-8132-c1011c9d3881"/>nicht. Ein sehr guter Weg,
+                dem Zivilrechts-<rs ref="#11910" type="person">Kerr</rs> ein Schnippchen<lb xml:id="uuid_7dc239d0-6407-4e2e-8b30-13366368cf81"/>zu schlagen, wäre deshalb:
+                ein dünnes Heftchen schmierigster Gottlieb-<lb xml:id="uuid_31f3d0ad-c573-4689-884b-b542bef42211"/>Gedichte (1 Bogen – keine
+                    <rs ref="#41244" type="work" subtype="pmb">Fackel</rs>-Nummer – herauszubringen
+                    und<lb xml:id="uuid_1ee9e708-428f-4073-9cfa-1a0cf017fde6"/>unter <rs ref="#11910" type="person">Kerrs</rs> Namen allen geistigen und zahlreichen
+                    Zeitungen<lb xml:id="uuid_2ab83620-5e00-4f3a-b165-8a68ebe8fe22"/>kostenlos zu
+                übersenden (Kostenpunkt m.E. etwa 3–400 Mk). </p>
+         <p xml:id="uuid_ff594ff3-c9b0-4a26-89c3-de1a4c2e8089">
+            <lb xml:id="uuid_edb1cc7e-d81e-4842-b2ff-93b902101e55"/>Mit besten Grüssen<lb xml:id="uuid_78f06934-e905-4d2f-b94b-56d2bc8743eb"/>Ihnen ergeben<lb xml:id="uuid_a1666219-7323-4582-b2a1-ce16f5f0057a"/><rs ref="#38969" type="person">Laserstein</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

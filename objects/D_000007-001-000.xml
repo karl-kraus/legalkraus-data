@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000007-001-001.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000006-007-002.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000007-001-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Neues 8 Uhr Blatt (verantw. Red. Friedrich Oppenheimer)</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000007-001-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1589</idno>
+            <idno subtype="transkribus" type="ID">376763</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000007" type="collection">Karl
+                    Kraus ca. Neues 8 Uhr Blatt</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000007-001-000-facs001" xml:id="D_000007-001-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000007-001-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1923-03-03">3. März 1923</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#39270">den verantwortlichen Redakteur des „Neuen 8 Uhr-Blatts“</persName>
+               <address>
+                  <street corresp="#50667">Fleischmarkt 5</street>
+                  <settlement ref="#51">Wien I.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1923-03-03">3. März 1923</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000007-001-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000007-001-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-09-30" who="#JK"/>
+         <change type="typography" when-iso="2021-09-30" who="#JK"/>
+         <change type="references" when-iso="2021-09-30" who="#JK"/>
+         <change type="structure" when-iso="2021-09-30" who="#JK"/>
+         <change when-iso="2020-02-04T10:47:17.949Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-04T10:49:55.395Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-04T10:49:56.739Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 376763. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000007-001-000-facs001">
+      <surfaceGrp xml:id="D_000007-001-000-facs001-l001">
+         <surface type="recto" xml:id="D_000007-001-000-facs001-l001-p001">
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540279/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000007-001-000_p001"
+             facs="#D_000007-001-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_79fe6b0b-0e2d-4c2b-a940-efd13e03a130">
+            <lb xml:id="uuid_04497a13-45b3-49ec-b3d8-40e402827636"/>Im Vollmachtsnamen des Herrn <rs
+               ref="#11988" type="person">Karl Kraus</rs> fordere ich Sie<lb
+               xml:id="uuid_ebdf5691-e967-4939-95db-32b749492958"/>auf, die folgende Berichtigung
+            des in <rs ref="#50670" type="work" subtype="pmb">Nr. 2509 vom 24. Februar</rs>
+            <lb xml:id="uuid_e55da55d-5b03-47d8-98bc-dfbed1c9e76b"/>veröffentlichten ihn
+            betreffenden Artikels <hi rend="underlined"><rs ref="#50672" type="work" subtype="pmb"
+                     >„<rs ref="#50465" type="work" subtype="pmb">Die letzte Nacht</rs>“ in<lb
+                     xml:id="uuid_035d6c24-f3dc-430a-bb58-62c728d79eaf"/><rs ref="#652" type="place"
+                     >Prag</rs> verboten</rs></hi> gemäss <rs
+               ref="https://alex.onb.ac.at/cgi-content/alex?aid=bgb&amp;datum=1922&amp;page=483&amp;size=45"
+               type="law">§ 23 P.G.</rs> abzudrucken: </p>
+         <p xml:id="uuid_f65703f3-ca81-4914-9fe3-acf4253b2703">
+            <lb xml:id="uuid_b695a5d1-499e-4f02-8547-3e4898973f34"/>Es ist unwahr, dass die
+                Prager Behörden die Aufführungen<lb xml:id="uuid_fc11db26-3663-430e-a701-1e0745e3ff90"/>von <rs ref="#11988" type="person">Karl Kraus</rs>’ „<rs ref="#50465" type="work" subtype="pmb">Die
+                    letzte Nacht</rs>“ durch das Ensemble der <rs ref="#37214" type="institution">Neuen<lb xml:id="uuid_41e9226b-19a4-4900-abd1-0879685e8393"/>Wiener
+                    Bühne</rs> verboten haben. Wahr ist, dass kein behördliches Ver<lb break="no" xml:id="uuid_03f48eac-e365-4afd-8e37-ca284508642b"/>bot erfolgt ist, sondern
+                dass die <rs ref="#37080" type="person">Direktion der <rs ref="#37080" type="institution">Prager Bühne</rs></rs> in<lb break="no" xml:id="uuid_173b1748-d274-451c-adf8-e660b48c7a3e"/>folge eines von privater
+                Seite auf sie ausgeübten Druckes die Er<lb break="no" xml:id="uuid_12bc5ed3-c956-4a09-a89f-3ac0def96446"/>füllung des
+                Aufführungsvertrages verweigert hat. </p>
+      </body>
+   </text>
+</TEI>

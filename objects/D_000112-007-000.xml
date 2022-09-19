@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    next="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-008-000.xml"
+    prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-006-000.xml"
+    xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000112-007-000.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief Verlag Die Fackel an RA Botho Laserstein</title>
+                <editor ref="#IL">Isabel Langkabel</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+                    <address>
+                        <street>Sonnenfelsgasse 19</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Ludwig Boltzmann Institut für Digital History</name>
+                    <address>
+                        <street>Hofburg, Batthianystiege</street>
+                        <postCode>1010</postCode>
+                        <settlement>Wien</settlement>
+                        <country>Österreich</country>
+                    </address>
+                    <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+                </publisher>
+                <publisher>
+                    <name>Wienbibliothek im Rathaus</name>
+                    <address>
+                        <street>Friedrich-Schmidt-Platz 1</street>
+                        <postCode>1010</postCode>
+                        <country>Wien</country>
+                        <settlement>Österreich</settlement>
+                    </address>
+                    <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+                </publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>2022</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+                </availability>
+                <idno subtype="legalkraus" type="URL">
+                    https://id.acdh.oeaw.ac.at/legalkraus/legalkraus/D_000112-007-000.xml </idno>
+                <idno subtype="krausonline" type="URL"
+                    >http://www.kraus.wienbibliothek.at/node/3166</idno>
+                <idno subtype="transkribus" type="ID">236775</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000112" type="collection">Karl
+                    Kraus ca. Theodor Wolff</title>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness facs="#D_000112-007-000-facs001" xml:id="D_000112-007-000-wit01"/>
+                </listWit>
+                <msDesc>
+                    <physDesc>
+                        <ab type="materiality">
+                            <objectType source="D_000112-007-000-wit01"
+                                ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHU"
+                                >Durchschlag mit handschriftlichen Überarbeitungen</objectType>
+                        </ab>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date subtype="produced" type="sortDate" when-iso="1928-11-16">16. November 1928</date>
+            </creation>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName ref="#43724"/>
+                    <address>
+                        <street corresp="#50496"/>
+                        <settlement ref="#53"/>
+                    </address>
+                    <date when-iso="1928-11-16">16. November 1928</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#38969">Herrn Dr. jur. Botho Laserstein</persName>
+                    <address>
+                        <street corresp="#51751">Landsberger Allee 55 I</street>
+                        <settlement ref="#168">Berlin N O 18</settlement>
+                    </address>
+                    <date/> 
+                </correspAction>
+                <noteGrp>
+                    <note type="subject"/>
+                    <note type="dictation"/>
+                </noteGrp>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term source="D_000112-007-000-wit01">Brief</term>
+                </keywords>
+                <classCode source="D_000112-007-000-wit01"
+                    scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF"
+                    >D.K.BRF</classCode>
+            </textClass>
+            <handNotes>
+                <handNote xml:id="D_000112-007-000-hand01" source="#D_000112-007-000-wit01"
+                    scribeRef="#43584" medium="grey-pencil" cert="high" resp="#IL"/>
+                <handNote xml:id="D_000112-007-000-hand02" source="#D_000112-007-000-wit01"
+                    scribeRef="#43584" medium="black-ink" cert="high" resp="#IL"/>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc status="done">
+            <change type="typography" when-iso="2021-06-02" who="#IL"/>
+            <change type="header_facsimile" when-iso="2021-06-02" who="#IL"/>
+            <change type="structure" when-iso="2021-05-25" who="#IL"/>
+            <change type="intertexts" when-iso="2021-06-02" who="#IL"/>
+            <change type="references" when-iso="2021-05-25" who="#IL"/>
+            <change when-iso="2020-07-22T07:30:55.606Z" who="#IB">created by API</change>
+            <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 236775. </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="D_000112-007-000-facs001">
+        <surfaceGrp xml:id="D_000112-007-000-facs001-l001">
+            <surface type="recto" xml:id="D_000112-007-000-facs001-l001-p001">
+                
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555742/full/full/0/default.jpg"
+                />
+            </surface>
+            <surface type="verso" xml:id="D_000112-007-000-facs001-l001-p002">
+                
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555744/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000112-007-000-facs001-l002">
+            <surface type="recto" xml:id="D_000112-007-000-facs001-l002-p003">
+                
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555746/full/full/0/default.jpg"
+                />
+            </surface>
+            <surface type="verso" xml:id="D_000112-007-000-facs001-l002-p004">
+                
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555748/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="D_000112-007-000-facs001-l003">
+            <surface type="recto" xml:id="D_000112-007-000-facs001-l003-p005">
+                
+                
+                <graphic source="wienbibliothek"
+                    url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2555750/full/full/0/default.jpg"
+                />
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <pb xml:id="D_000112-007-000_p001" facs="#D_000112-007-000-facs001-l001-p001" n="1"/>
+            <p xml:id="uuid_4ca2cf29-a1cd-4c6a-a01b-4ee9ee788d18">
+                <lb xml:id="uuid_55fd6911-00a8-423e-a910-6be3a2a895b4"/>Hochgeehrter Herr <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/38969" type="person">Doktor</rs>! </p>
+            <p xml:id="uuid_1f1e71ff-ee34-4e40-bd50-36479db549fc">
+                <lb xml:id="uuid_9bc4f3fa-c8dd-4842-8019-8bed9db388c0"/>Mit dem besten Dank für Ihre
+                freundliche <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-006-000"
+                    type="work" subtype="legal-doc">Einsendung</rs> vom 10.<lb
+                    xml:id="uuid_7f3f0444-fe25-4599-a51a-48ae650735be"/>November antworten wir: <add
+                    hand="#D_000112-007-000-hand01">1.</add> Herr <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">K.</rs>, der Ihre
+                Grüße herzlich erwidert, erin<lb break="no"
+                    xml:id="uuid_784d31f6-576a-4874-9c8b-ebe192f4632c"/>nert sich wohl an die
+                Bemerkung, die Sie im Künstlerzimmer gemacht haben,<lb
+                    xml:id="uuid_f796fce4-32e8-4056-8ecf-6801e6c1fd37"/>aber auch daran, daß davon
+                die Rede war, durch die Erörterung könne die<lb
+                    xml:id="uuid_efd8751a-6fc2-4653-9ce9-8ecdecc678a4"/>feste juridische Grundlage
+                des geschlossenen Inseratenvertrags nicht tan<lb break="no"
+                    xml:id="uuid_39264fd3-dcbb-4116-9126-c7941b14526f"/>giert werden. Ein
+                juristisches Argument konnte ja auch der Hinweis des<lb
+                    xml:id="uuid_7cf2be97-aa05-4fa1-b067-e99d9ad6a5db"/>gegnerischen <rs
+                    ref="#38962" type="person">Anwaltes</rs> nicht bilden. Im Gegenteil ist doch
+                gerade die Offen<lb break="no" xml:id="uuid_fd38ba66-ca02-42b4-b487-2f735eb9520f"
+                />heit und Öffentlichkeit der Erörterung der Inseratenfrage ein Beweis gegen<lb
+                    xml:id="uuid_d7eedea0-23eb-4644-9ef7-60d3a0efb034"/>die „<quote
+                    source="https://id.acdh.oeaw.ac.at/legalkraus/D_000068-062-000"
+                    xml:id="uuid_e902cf6d-326a-44f3-a8cc-674392e9620e">Irreführung</quote>“ oder
+                gegen die Annahme, daß „<quote source=""
+                    xml:id="uuid_79c39492-e910-4363-8ef7-8c06f96493e3">Treu und Glauben</quote>“
+                    verletzt<lb xml:id="uuid_9bb57ed9-a407-48c0-b2cb-45f742dfd147"/>worden sei.
+                Falls Sie Berufung für geraten halten, kommt wohl dieses Argu<lb break="no"
+                    xml:id="uuid_d406b116-f946-4ba9-928c-35fa12a6e5a2"/>ment in Betracht. Auch ganz
+                besonders, daß die seinerzeit <hi rend="underlined">erbetene</hi> Annonce<lb
+                    xml:id="uuid_396b2746-1eac-4795-9529-52ebc251beba"/>doch ein <rs type="work"
+                    subtype="fackel" ref="https://fackel.oeaw.ac.at/f/787,0u1">Heft</rs> betraf,
+                das, wie auch aus der Einleitung der Notiz „<rs type="work" subtype="fackel"
+                    ref="https://fackel.oeaw.ac.at/f/657,189">Die für<lb
+                        xml:id="uuid_a3458de5-fe2e-499a-bcfe-3c4cdde50ad7"/>mich geeignete
+                Ware</rs>“ hervorgeht, eine Abrechnung mit demselben <rs type="person"
+                    >Mitarbeiter</rs>
+                <lb xml:id="uuid_3b19daaa-fa31-4da7-a06a-fee848bb6422"/>des <rs ref="#41531"
+                    type="work" subtype="pmb">Blattes</rs> betraf. Ganz lustig ist auch die Stelle
+                in dem <rs type="work">Bettelbrief</rs>, wo<lb
+                    xml:id="uuid_2dc2ce39-24cb-421e-b6d3-5866fc1ee7f5"/>der Auftrag „<quote
+                    source="" xml:id="uuid_b6631ed9-f920-4d58-bb3a-82808731e48f">An <hi
+                        hand="#D_000112-007-000-hand01" rend="underlined">jedes</hi> Büro</quote>“
+                erbeten wird. Am wichtigsten ist aber, daß ge<lb break="no"
+                    xml:id="uuid_96b46538-986d-456d-8dcd-574b4c04808a"/>rade der öffentliche Vortrag
+                (der vom <rs ref="#41531" type="work" subtype="pmb">Blatt</rs> inseriert wurde) der
+                Beweis da<lb break="no" xml:id="uuid_d26778ac-de7c-43b6-9930-ecad3a5ca6e8"/>für ist,
+                daß Treu und Glauben nicht verletzt wurde, während im Gegenteil<lb
+                    xml:id="uuid_817d5a08-6270-4a45-b36c-dc8de1da15ef"/>die Geheimhaltung einer
+                listigen Absicht auf <hi rend="underlined">Durchsetzung</hi> der Annonce<lb
+                    xml:id="uuid_ab2f634a-5924-47eb-9af0-c7297179a5b1"/>gleichgekommen wäre. Wenn
+                der <rs type="person">Büroleiter</rs> gefragt hätte, <hi
+                    hand="#D_000112-007-000-hand01" rend="underlined">was</hi> es für „<quote
+                    source="https://fackel.oeaw.ac.at/f/787,0u1"
+                    xml:id="uuid_8a72b052-b466-4b41-8c4d-97ffead66ddc">Akten</quote>“<lb
+                    xml:id="uuid_4ff00d27-f6f0-4131-9ab1-ecc92fd60170"/>seien, hätte man ihm doch
+                ohneweiters Bescheid gegeben. Ihr <rs type="work" subtype="legal-doc"
+                    >Schriftsatz</rs> ist<lb xml:id="uuid_ada818dc-9d0e-4e32-9628-32a7dfb98b6f"/>in
+                allen Teilen <hi hand="#D_000112-007-000-hand01" rend="underlined">durchaus</hi>
+                <hi rend="underlined">richtig</hi>. Es ist einfach ungeheuerlich, daß ein<lb
+                    xml:id="uuid_75c49df7-255d-456b-aac9-00894f828cf7"/>Inseratengeschäft, das noch
+                nie die Ware <add hand="#D_000112-007-000-hand01">selbst</add> geprüft hat,
+                ermächtigt wird,<lb xml:id="uuid_09fc9a16-8c8d-49a7-977e-af6af2d6baa5"/>mißliebige
+                Kunden selbst nach Vertragschließung abzuweisen, wo doch schon<lb
+                    xml:id="uuid_2423164f-d285-4c2c-8cc8-592a0228e7cb"/>die vorherige Abweisung
+                offenbar unerlaubt wäre. Unrichtig ist im <rs type="work" subtype="legal-doc"
+                        >Schrift<lb break="no" xml:id="uuid_4071a7bd-1074-4aa5-a2e5-40f7a5b558f5"
+                    />satz</rs> – was freilich heute irrelevant ist – nur die Erwiderung auf den<lb
+                    xml:id="uuid_ed0e4dbe-41fc-435b-9f70-850c7021e6ba"/>Punkt des
+                Geschworenenurteils. Das Stimmenverhältnis ist <hi rend="underlined">nicht</hi>
+                geheim, und<lb xml:id="uuid_f0217441-36a8-473a-af50-787968998a20"/>die Verurteilung
+                erfolgte (infolge totalen Nichtverständnisses der Materie)<lb
+                    xml:id="uuid_7de941fd-afb6-4341-bd08-83e088043945"/>tatsächlich einstimmig. Die
+                Lüge bestand nur in der Behauptung, das <rs type="work" subtype="legal-doc"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-011-000">Urteil</rs>
+                <lb xml:id="uuid_32c0ef71-298e-40ce-abc6-d39045373707"/>wäre gegen eine bewußte
+                Wahrheitswidrigkeit, gegen eine „<quote source=""
+                    xml:id="uuid_e8d3d8d0-33a9-4ea8-ac63-421289c1741b">Verleumdung</quote>“ er<lb
+                    break="no" xml:id="uuid_e9cebc0e-5d4c-488c-a61f-6de7fa12a9be"/>gangen. </p>
+            <p xml:id="uuid_3522ab62-a8ea-4486-9346-627bd9c89193">
+                <lb xml:id="uuid_6810592b-1fae-49f0-be8d-a1222d5f7ffd"/>2.) Der Ausschnitt wurde
+                Ihnen von uns zugesandt, da er mögli-<pb xml:id="D_000112-007-000_p002"
+                    facs="#D_000112-007-000-facs001-l001-p002" n="2"/>
+                <lb xml:id="uuid_a62dbe88-fb94-4ce0-b161-f28f3670ca58"/>cherweise im <rs
+                    ref="#13163" type="person">Wolff</rs>-Fall, in einem Zusammenhang mit den
+                Pariser Renomma<lb break="no" xml:id="uuid_bce13681-2dae-4d1b-89de-440288428f12"
+                />gen des <rs ref="#11910" type="person">Kerr</rs> zu verwenden wäre. Unsere Frage,
+                ob Sie den ersten <rs type="work" subtype="legal-doc">Brief</rs> er<lb break="no"
+                    xml:id="uuid_54f6c050-9d74-4a90-acf6-166b541a670c"/>halten haben, ist noch nicht
+                von Ihnen beantwortet worden; auch ob die<lb
+                    xml:id="uuid_2aa2585a-2ae4-43be-b472-f770b78a9e2d"/>zwei Telegramme eingelangt
+                sind. Die Kopien der <rs ref="#13163" type="person">Wolff</rs>-Briefe treffen<lb
+                    xml:id="uuid_5780e0dd-7027-4227-94aa-76870232fc38"/>hoffentlich noch heute ein.
+                    <note type="marginal">Die drei Kopien sind soeben eingelangt.</note>
+            </p>
+            <p xml:id="uuid_2e47f636-9133-4c30-ba29-26574840ccfb">
+                <lb xml:id="uuid_cc707d20-dc4b-4023-814a-2eaced84d5fc"/>3.) Herr <rs ref="#13163"
+                    type="person">Wolff</rs> scheint zu glauben, daß „Lüge“ so viel bedeutet<lb
+                    xml:id="uuid_8bf4a4ea-dd06-495c-b645-c016b850af7c"/>wie Unwahrheit. Immerhin
+                beschuldigt er aber den <rs ref="#11581" type="person">Sterbenden</rs> der Lüge
+                    als<lb xml:id="uuid_91b7a008-81cf-4df6-8a3b-2023bcf36b62"/>einer bewußten
+                Unwahrheit. Sehr drollig ist, daß der Herr <rs ref="#13163" type="person">Wolff</rs>
+                die Ver<lb break="no" xml:id="uuid_5049be66-6018-49c8-b9d1-530151f65dfc"/>wendung
+                der Lithfaßsäulen für eine unerlaubte Reklame hält, den Annoncen<lb break="no"
+                    xml:id="uuid_222dd54f-ee6c-4d7f-9ac8-88f5c917a064"/>teil seines <rs ref="#41531"
+                    type="work" subtype="pmb">Blattes</rs> jedoch, den er versperrt, für eine
+                Gelegenheit zu er<lb break="no" xml:id="uuid_ceec882e-e796-424e-8f94-6fc778f809d8"
+                />laubter Reklame, d.h. wenn er sie erlaubt. Die Plakatierung einer Zeit<lb
+                    break="no" xml:id="uuid_d06875b2-3c64-47d3-878d-359297866dcc"/>schrift mit einem
+                Hymnus auf den <rs ref="#11910" type="person">Kerr</rs> würde er für keine
+                unerlaubte Rekla<lb break="no" xml:id="uuid_05aee9f5-db9b-4293-9824-b2eeb2a20955"
+                />me halten. Die Idee, daß die bezahlte Verwendung eines legitimen Mittels<lb
+                    xml:id="uuid_d494225b-ef1c-446e-a3a8-394c2c0fa0f9"/>der Ankündigung der Beweis
+                für „<quote source="#55774" xml:id="uuid_ccde1817-575b-4987-9ba3-c0cf352595aa"
+                    >Reklamesucht</quote>“ sei, ist hirnrissig oder Ton<lb break="no"
+                    xml:id="uuid_58d57828-003b-4c75-b2d8-2247a58469c4"/>fallsschwindel. Von einem
+                    „<quote source="" xml:id="uuid_70aca514-2a50-456f-84fc-de239248fb2d">Herumtragen
+                    lassen</quote>“ von Plakaten kann natürlich<lb
+                    xml:id="uuid_892bbedf-c155-40c2-8a74-053bd888ab8c"/>keine Rede sein. Herr <rs
+                    ref="#13163" type="person">Wolff</rs>, der das <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/29329" type="institution">Berliner
+                    Tageblatt</rs> doch sicherlich<lb
+                    xml:id="uuid_039682ff-3dd4-421a-aafe-feeff85e3fb4"/>herumtragen läßt, scheint in
+                jedem andern Fall etwas gegen die Errungen<lb break="no"
+                    xml:id="uuid_cab6f96e-c405-4d17-a8dc-4595b7f5dc5e"/>schaft der freien Kolportage
+                zu haben. „<quote source="" xml:id="uuid_6e91f38f-a810-4aac-b162-909258811df6"
+                    >Hervorhebung von allerlei Schimpf<lb break="no"
+                        xml:id="uuid_0351f3bb-7530-4823-b880-16aa80970509"/>worten</quote>“ ist
+                gleichfalls eine Unwahrheit. Das einzige war „<quote
+                    source="https://fackel.oeaw.ac.at/f/787,0u1"
+                    xml:id="uuid_f9448367-d5fe-46f6-ac67-335754deb3be">Schuft</quote>“ und<lb
+                    xml:id="uuid_36a1f1d9-6918-4159-ba69-1e6d030bf056"/>dies ist im vorliegenden
+                Fall keines, sondern die Charakterisierung des<lb
+                    xml:id="uuid_d56c35d4-44f9-450f-87be-650a20bbfef7"/>Denunzianten (durch ein
+                Zitat). Vielleicht hält er aber den Eigennamen in<lb
+                    xml:id="uuid_87910796-e20f-44cc-a16b-84585caa0169"/>dem Satz „<rs
+                    ref="https://fackel.oeaw.ac.at/f/787,0u1" type="work" subtype="fackel">Die Akten
+                    zum Fall <rs ref="#11910" type="person">Kerr</rs></rs>“ für ein Schimpfwort. Der
+                Feldzug gegen<lb xml:id="uuid_bf9a941b-4727-4860-b4c6-5258743e6531"/>Herrn <rs
+                    ref="#11910" type="person">Kerr</rs> verdiente es durchaus, zur „<quote
+                    source="" xml:id="uuid_46d07f68-739d-4d82-b1e0-abfa8df18d8a">Sensation</quote>“
+                zu werden, und es ist<lb xml:id="uuid_4106029f-b3d3-4035-b0a5-89e818a2205e"/>nur
+                traurig, daß man da durch Affichen noch nachhelfen muß. </p>
+            <p xml:id="uuid_4a03a1b5-f00a-4c92-ad5c-b27bc5acb117">
+                <lb xml:id="uuid_9dd5a75b-fb67-4563-82e9-f42e67ef0041"/>Was der <rs ref="#13163"
+                    type="person">Wolff</rs> über den Vortrag sagt und durch einen Zeugen be<lb
+                    break="no" xml:id="uuid_1ae61792-b5bb-4061-9345-870bb066a564"/>weisen lassen
+                will, ist eine Unwahrheit. Es war nicht gesagt worden, der<lb
+                    xml:id="uuid_b01736c1-12b3-45d0-92bb-78d2f20f7c9b"/><rs ref="#13163"
+                    type="person">Angeschuldigte</rs> habe den <rs ref="#11910" type="person"
+                    >Kerr</rs> unter der gewissen Bedingung verpflichtet,<lb
+                    xml:id="uuid_8863d608-9f8d-4db3-972c-3e120993a589"/>sondern bloß: daß diese
+                Behauptung <hi rend="underlined">unwidersprochen</hi> geblieben sei. Das war<lb
+                    xml:id="uuid_62d86c21-2ec2-417e-8c3e-139a200a5d71"/>gegen die Notiz „<rs
+                    ref="#55774" type="work" subtype="pmb">Verleumdungsparadies</rs>“ ausdrücklich
+                auseinandergehalten. <lb xml:id="uuid_75f8f12b-b30f-4f61-a9e0-95d0ad0721f8"/>Die
+                Stelle in dem Vortrag lautet wörtlich:</p>
+            <p xml:id="uuid_b2b7094d-d75a-45d9-ab02-828d427b0c3c"><lb
+                    xml:id="uuid_1058fdee-0c81-4ca2-aca8-b3ed9d21622b"/>„<quote
+                    source="https://fackel.oeaw.ac.at/f/795,081"
+                    xml:id="uuid_eed750d9-5003-4dd1-8b8c-220cc96c2a28"> Ich weiß, daß es ein frecher
+                    Schwindel (des <rs ref="#11910" type="person">Kerr</rs>) ist, wenn vor<lb
+                        xml:id="uuid_a575ef62-6b28-41e8-8699-bf75b84d6bcb"/>den Lesern des <rs
+                        ref="#41531" type="work" subtype="pmb">Berliner Tageblatts</rs> so getan
+                    wird, als ob ich mir diese<lb xml:id="uuid_f03f34d3-9086-4b49-a578-3d5def19114f"
+                    />Worte eines Sterbenden, das von ihm behauptete <hi
+                        hand="#D_000112-007-000-hand01" rend="underlined">Faktum</hi>, unmittelbar
+                        zu<lb xml:id="uuid_bbe100c7-efac-4b1a-8407-a07028a788f9"/>eigen gemacht
+                    hätte. Denn ich habe bloß <hi rend="underlined">darin</hi> die Schande erblickt,
+                        daß<lb xml:id="uuid_3e889918-1da3-4eae-8bf0-5de09ad1f985"/>die in der ‚<rs
+                        ref="#55458" type="work" subtype="pmb">Prager Presse</rs>‘ enthaltene
+                    Beschuldigung unwidersprochen geblie<lb break="no"
+                        xml:id="uuid_1589fb20-ab64-4ac1-b6b7-fc429620fd1d"/>ben ist. Dieser Umstand
+                    macht sie allerdings hinreichend glaubhaft, selbst <pb
+                        xml:id="D_000112-007-000_p003" facs="#D_000112-007-000-facs001-l002-p003"
+                        n="3"/>
+                    <lb xml:id="uuid_2d2e5b57-3917-4621-a1fa-23fc0670bdd6"/>wenn es nicht die Worte
+                    eines <rs ref="#11581" type="person">Sterbenden</rs> wären, die als Lüge
+                        hinzustellen<lb xml:id="uuid_10ba69ed-8682-4f5b-873e-bb3660e1c92b"/>schon
+                    psychologisch schwer fiele. Was aber den Herrn <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/13163" type="person">Theodor
+                        Wolff</rs> anbelangt,<lb xml:id="uuid_b252ae5e-5e2d-494c-b8c7-2064c48fcb62"
+                    />so werde ich ihm geeigneten Ortes Gelegenheit bieten, zu <hi rend="underlined"
+                        >beweisen</hi>, daß sie<lb
+                        xml:id="uuid_0935379e-0071-48ae-a796-c0655072ee3d"/><hi rend="underlined"
+                        >unwahr</hi> sind. Sollte ihm dies gelingen, so würde ihm immer noch der
+                        Beweis<lb xml:id="uuid_484bf28b-e779-4cf7-ad15-72b6e6b65da3"/>mißlingen, daß
+                    ich gelogen habe, als ich behauptete, der <rs ref="#11581" type="person"
+                        >Sterbende</rs> habe<lb xml:id="uuid_c96d7e0e-6be2-4314-afc4-e59ad9734172"
+                    />jene Worte gesprochen.</quote>“ </p>
+            <p xml:id="uuid_0215c4ca-a894-4c75-9284-2aa5e0bdbd64">
+                <lb xml:id="uuid_1d58dcb4-96fe-4e97-a96f-4c9030588753"/>Daß dem Herrn <rs
+                    ref="#13163" type="person">Wolff</rs>, der es „<quote source=""
+                    xml:id="uuid_7ddd74c0-8a91-4c8b-bbbe-0de474d8d61b">weit</quote>“ von sich weist,
+                daß ungünsti<lb break="no" xml:id="uuid_c0b4884f-a385-42cc-b68b-a47911914589"/>ge
+                Kritiken, die einer seiner „<quote source=""
+                    xml:id="uuid_6ba1fbe7-2942-4723-8f59-abf65c1e2172">Schöpfungen</quote>“ gelten,
+                ihn zu Gehässigkeiten<lb xml:id="uuid_87b48537-0f7a-4c50-8029-ea5bd7919619"/>gegen
+                den Kritiker veranlassen könnten – daß ihm also die <rs
+                    ref="https://fackel.oeaw.ac.at/f/003,027" type="work" subtype="fackel"
+                    >Kritik</rs> der <rs ref="#41244" type="work" subtype="pmb">Fackel</rs>
+                <lb xml:id="uuid_3a667bc5-f912-422e-a335-ee748f02c53c"/>aus dem Jahre 1899 erst
+                jetzt bekannt geworden ist, ist so glaubhaft, wie<lb
+                    xml:id="uuid_89161986-e071-415d-9dbc-a07320c128f3"/>daß den Herren <rs
+                    ref="#11910" type="person">Kerr</rs> und <rs ref="#13163" type="person"
+                    >Wolff</rs> die „<rs ref="#55458" type="work" subtype="pmb">Prager Presse</rs>“
+                nicht eher zu Gesicht<lb xml:id="uuid_f810081c-df46-4698-bf71-c2e7645da636"/>kam.
+                Eher möglich ist, daß Herr <rs ref="#13163" type="person">Wolff</rs> in den
+                Jahrzehnten <hi rend="underlined">vergessen</hi> hat, was<lb
+                    xml:id="uuid_3a745bac-db1b-44b0-8b7b-050bc0132721"/>eigentlich sozusagen der
+                Grundstein zu seiner Mißgunst war; aber nun wurde<lb
+                    xml:id="uuid_d25ad97b-273d-4fbe-a8a3-a3966ec765be"/>er gewiß erinnert. </p>
+            <p xml:id="uuid_824e75f8-14bb-498f-b10f-9ae8488b77bb">
+                <lb xml:id="uuid_fa63d290-7a25-4d32-a4be-0e8c93b9d05d"/>Vielleicht können Sie alle
+                diese Gesichtspunkte für die Antwort<lb
+                    xml:id="uuid_d2f3688b-072b-4d6e-a7e2-56302aff71a2"/>verwenden. </p>
+            <p xml:id="uuid_c3cbd573-e06a-4bbe-a186-a716fc848510">
+                <lb xml:id="uuid_54dbfce6-d651-4f63-a876-b218890e53f9"/>Zu Ihrer frdl. <rs
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000112-006-000" type="work"
+                    subtype="legal-doc">Einsendung</rs> vom 13. Nov., für die wir gleichfalls<lb
+                    xml:id="uuid_50f77c03-434c-402c-a318-8a9b87452072"/>bestens danken: Der Rat
+                betr. Herrn <rs type="person" ref="#5967">Alsberg</rs> ist unverständlich. Solange
+                    wir<lb xml:id="uuid_3068d9be-5448-4c94-8345-c6467989313a"/>die Gründe, die Herr
+                    <rs type="person" ref="#5967">Dr. A.</rs> dafür angibt, nicht kennen, schließen
+                wir uns<lb xml:id="uuid_11c894c9-acb8-4cea-b3bc-8d08ae38be91"/>selbstverständlich
+                Ihrer Ansicht an, umsomehr, als wir doch wohl annehmen<lb
+                    xml:id="uuid_8f3857d5-776f-4e80-b1e8-8ae048b9306c"/>können, daß Sie es nach wie
+                vor für eine sichere und gar nicht kostspielige<lb
+                    xml:id="uuid_6fd55f73-43bc-4907-96d9-ca01c11e1a91"/>Angelegenheit halten. </p>
+            <p xml:id="uuid_e3f86f4c-63dc-42d3-b244-7439b250dd67">
+                <lb xml:id="uuid_63c213bd-cce3-4ac6-b6c8-dc5976c68422"/>Das „<quote source=""
+                    xml:id="uuid_c46c1691-a563-4940-b0ea-1ca3480c9435">Losschlagen in breitester
+                    Öffentlichkeit</quote>“ ist ja längst be<lb break="no"
+                    xml:id="uuid_2dc27d76-c59f-4a93-b807-5fb6a7c77a04"/>gonnen. Der Weg zur „<quote
+                    source="" xml:id="uuid_59d7b69d-7b1d-4d67-bcdc-bdfb1e45a229">Nachwelt</quote>“,
+                auf den ja allerdings die gesamte Berliner <lb
+                    xml:id="uuid_d99e26d3-7bdd-4905-90ac-d86d1d2b0fd6"/>Justiz zu verweisen scheint,
+                würde aber unseres Erachtens kaum mit der<lb
+                    xml:id="uuid_6cb09f0e-330e-4dcb-b396-29137ff71cc7"/>Durchführung Ihres
+                Vorschlags betreten werden können. Sie wollten in dem<lb
+                    xml:id="uuid_6be36602-5bdc-4e8e-a051-277cd8e5d4dc"/>vorgeschlagenen Titel wohl
+                sagen: „In den <hi rend="underlined">Tumult</hi> gerufen“ und der Unter<lb
+                    break="no" xml:id="uuid_dfec9b1a-1684-4a74-90f1-23f5970b9503"/>titel hätte nicht
+                „Du bist so schön“ zu lauten, sondern wieder: „… es war<lb
+                    xml:id="uuid_531a795e-e425-45ff-8848-06a60727e4fc"/>doch so schön“. Das Motto
+                wäre gewiß gut, aber nur in seinem zweiten Teil;<lb
+                    xml:id="uuid_416f73e9-7111-40bc-9d67-2060cec44dd8"/>mit der Bezeichnung
+                „sadistisch“ wäre das Niveau der Kriegslyrik erhöht.<lb
+                    xml:id="uuid_d3edd44b-1382-4927-bba6-4cf3428e7b2d"/>Wir halten aber die
+                Publikation des Herrn X. für unmöglich. Das Autorrecht<lb
+                    xml:id="uuid_1fb99dab-ee4f-4f7b-83c8-9a8fef4c2d68"/>wäre auch auf diesem Wege,
+                auch im Falle der Gratisverbreitung, verletzt<lb
+                    xml:id="uuid_f9c533fc-fa00-4b43-8a75-91e13213a496"/>und selbstverständlich würde
+                die Klage gegen den eingebracht werden, der<lb
+                    xml:id="uuid_f5f5fafa-f978-4621-a952-df2dfcb453aa"/>mit Recht als der X.
+                vermutet wird.</p>
+            <p xml:id="uuid_76192374-f748-4788-89fb-48fa9cbde849">
+                <lb xml:id="uuid_463913e3-71f0-43d9-a3a9-d1de38d62deb"/><add
+                    hand="#D_000112-007-000-hand02">Herr Dr. <rs ref="#38909" type="person">S.</rs>
+                    beschäftigt sich Ihrem Wunsch gemäß mit der Angelegenheit.<lb
+                        xml:id="uuid_2a320a63-8e4d-4997-9a4f-3d8e6aa00dd1"/>Für heute nur so
+                    viel:</add></p>
+            <p xml:id="uuid_d0adca77-66f0-4efc-9d0b-7ce301c3860a">
+                <lb xml:id="uuid_72591121-ec99-4bd8-ab09-71c4077aa40e"/>S. 8 des <rs type="work" subtype="legal-doc"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-011-000">Urteils</rs>. Nie
+                ist eine Ankündigung des <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                    type="person">Antragsgegners</rs> er<lb break="no"
+                    xml:id="uuid_3b94da0e-d076-40a7-a874-0bb5f213725f"/>folgt, er werde die Werke
+                des <rs ref="#11910" type="person">Antragstellers</rs> veröffentlichen, „<quote
+                    source="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-011-000"
+                    xml:id="uuid_619d18d8-d621-438a-8773-4ccdee3206fe">um ihn<lb
+                        xml:id="uuid_d0226679-357b-431a-b0fb-9e820f35b42c"/>lächerlich zu
+                    machen</quote>“; sondern um wahrheitsgetreu zu offenbaren, zu welchen<lb
+                    xml:id="uuid_87eabd80-4dec-44e6-a9e4-00f5154bc4fb"/>Leistungen er im Gegensatz
+                zu seiner heutigen Gesinnung damals fähig war.<lb
+                    xml:id="uuid_6ef05be7-bad7-443c-a9da-01684832fb04"/>Hier hat das <rs
+                    type="institution" ref="#36832">Gericht</rs> seine Interpretation in den <hi
+                    rend="underlined">Text</hi> des <rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Antragsgegners</rs>
+                <pb xml:id="D_000112-007-000_p004" facs="#D_000112-007-000-facs001-l002-p004" n="4"/>
+                <lb xml:id="uuid_4aa81300-4c31-4050-945c-980437df79a9"/><hi rend="underlined"
+                    >verwandelt</hi>. S. 10: „<quote
+                    source="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-011-000"
+                    xml:id="uuid_a99c2299-17da-4220-b9f9-7ad2338db5f8">… in der gesagt ist, der <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                        >Antragsgegner</rs>
+                    <hi rend="underlined">werde</hi> über<lb
+                        xml:id="uuid_3a697f19-a42a-4952-b895-42e12a39c396"/>das Autorrecht des <rs
+                        ref="#11910" type="person">Antragstellers</rs> verfügen. Diese Wendung gibt
+                        <hi rend="underlined">klar</hi> die<lb
+                        xml:id="uuid_c1663525-32d6-414c-a5ed-37ac5c4a2af3"/>Absicht des <rs
+                        ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person"
+                        >Antragsgegners</rs> wieder, den <rs ref="#11910" type="person"
+                        >Antragsteller</rs> durch Veröffentli<lb break="no"
+                        xml:id="uuid_402f6b51-8a63-49fe-b733-bc3500c56914"/>chung von <hi
+                        rend="underlined">Gedichten</hi> zu schädigen, um ihn lächerlich zu
+                    machen</quote>“. Hier ist<lb xml:id="uuid_9bd22d88-bafb-44f9-b33a-72987dfefbb2"
+                />nicht nur falsch interpretiert, sondern auch der Text gefälscht. Die<lb
+                    xml:id="uuid_82b3067b-c034-4fb8-88bb-9e533996ed44"/>Stelle lautet ganz anders
+                und ist auf S. 4 richtig zitiert, freilich auch<lb
+                    xml:id="uuid_825e7483-30cb-4621-908a-15a492ff82a7"/>dort schon falsch
+                herangezogen. Die Stelle lautet: „<quote
+                    source="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-011-000"
+                    xml:id="uuid_c5255cdf-d06a-46eb-8f70-d7b7c26a2bdd"><hi rend="underlined">verfüge
+                        ich</hi></quote>“ und be<lb break="no"
+                    xml:id="uuid_e288eb79-8ff9-4415-b92f-369172747c77"/>zieht sich überhaupt nicht
+                auf die Gedichte, sondern drückt aus, der <rs ref="#11910" type="person">Kerr</rs>
+                <lb xml:id="uuid_9f11450e-604d-4311-b60b-04371004ab3e"/>sei in der Polemik
+                schlechter dran, müsse den Kürzeren ziehen, weil Herr<lb
+                    xml:id="uuid_bf145993-5712-47fd-b19d-bbed70b356fc"/><rs
+                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">K.K.</rs> ihn, d.h.
+                seine <hi rend="underlined">späteren polemischen Antworten</hi> bloß abzudrucken<lb
+                    xml:id="uuid_a0f83b3b-145a-45d8-aa66-ee4c3c62a2a6"/>braucht, um mit ihm fertig
+                zu werden, genau wie er seine <hi rend="underlined">Schriftsätze</hi><lb
+                    xml:id="uuid_bfb083d4-4cde-4275-b755-801e0b3721f0"/>bloß abzudrucken brauchte.
+                Dieses Motiv ist stilgemäß die Wiederaufnahme<lb
+                    xml:id="uuid_bcc9c36c-7d3e-4fe7-aaef-373f33a88b12"/>eines Motivs aus dem Anfang
+                der Schrift „<rs ref="https://fackel.oeaw.ac.at/f/787,0u1" type="work"
+                    subtype="fackel">Der größte Schuft</rs>“. Dort und<lb
+                    xml:id="uuid_00e3d55b-42ee-4f02-809e-240cd4f254d8"/>hier ist nur davon die Rede,
+                daß Herr <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">K.K.</rs>
+                das Autorrecht des <rs ref="#11910" type="person">Kerr</rs>, das<lb
+                    xml:id="uuid_dddfdf45-31ac-4e62-b014-a15c126ab114"/>dieser <hi rend="underlined"
+                    >nicht</hi> ausübt, da er seine eigenen <hi rend="underlined">Schriftsätze</hi>
+                nie abzudrucken<lb xml:id="uuid_79f0e00f-5526-4516-b971-df8e75d40846"/>wagte, nur
+                verwenden muß, um Oberhand zu behalten. Ein altes Motiv aus<lb
+                    xml:id="uuid_f88fb260-f790-4c09-9750-d902510608a5"/>diesem Kampf, schon im Jahre
+                1911 gesetzt: nach <hi rend="underlined">Abdruck</hi> des <rs ref="#11910"
+                    type="person">Kerr</rs>-Angriffs<lb
+                    xml:id="uuid_08fa07cb-379f-4d85-a6ac-32639eed8806"/>im „<rs ref="#36133"
+                    type="work" subtype="pmb">Pan</rs>“ heißt es dort: „<quote
+                    source="https://fackel.oeaw.ac.at/f/326,030"
+                    xml:id="uuid_8c24c93b-7eed-4bda-bd0b-d3714ffd7a48">Es ist das Stärkste, was ich
+                    bisher gegen den <rs ref="#11910" type="person">K.</rs><lb
+                        xml:id="uuid_1bcda870-f77b-42c4-9fcc-ee67366993c5"/>unternommen
+                habe</quote>“. Immer wieder steht das in der <rs ref="#41244" type="work"
+                    subtype="pmb">Fackel</rs>; immer wieder<lb
+                    xml:id="uuid_48d0af87-8388-48eb-9cca-699a3b9be687"/>ist gesagt, daß man seine
+                    <hi rend="underlined">Antworten</hi> bloß abzudrucken braucht. An jener<lb
+                    xml:id="uuid_18c6e819-5570-4bd0-b0b7-096ab9cd2ba1"/>Stelle ist an die
+                Kriegsgedichte überhaupt nicht gedacht, geschweige denn<lb
+                    xml:id="uuid_59ab7c28-7dfe-4dbb-86fb-35abc8e6e0a3"/>der Plan ausgesprochen, sie
+                abzudrucken. Es liegt das gröbste Mißverständ<lb break="no"
+                    xml:id="uuid_505cda17-9b16-4093-b06e-a5afd2c4f9b0"/>nis vor, vielleicht ein
+                absichtliches. In Ihrem vorzüglichen Gutachten<lb
+                    xml:id="uuid_2061d858-5bb8-48c0-a4ff-3a3d082cb1b2"/>scheinen Sie selbst diesem
+                Mißverständnis sich nicht entzogen zu haben<lb
+                    xml:id="uuid_baed01b0-dd3c-4fbe-8543-43dece59a4cf"/>(Punkt a von II). Wenn man
+                dieses Argument im Hauptprozeß verwenden kann,<lb
+                    xml:id="uuid_7c9fefa6-0f71-4761-b9a1-f8bb339118d3"/><hi rend="underlined"
+                    >ohne</hi> gegen das <rs type="work" subtype="legal-doc"
+                    ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-011-000">Urteil</rs> berufen
+                zu müssen, so könnte man auf die Berufung<lb
+                    xml:id="uuid_8344e5f1-def5-4ac7-911a-886858c809f0"/>verzichten.</p>
+            <p xml:id="uuid_a327b691-f40f-447e-8be3-aaf77ad56c39"><lb
+                    xml:id="uuid_7850afa2-d987-4079-9951-4e3ee0965675"/>In I ist nicht ganz
+                verständlich, wieso die Beschwerung nur<lb
+                    xml:id="uuid_565a8ba0-3f85-480f-8129-795712957873"/>eine unwesentliche ist. Ein
+                Heft der Zeitschrift, die man in Österreich<lb
+                    xml:id="uuid_af8a480a-74c5-44e9-b865-01b21197b9c3"/>verbreitet und das
+                Kriegsgedichte enthielte, kann man in Deutschland<lb
+                    xml:id="uuid_a4f88e10-6e15-4b67-93f6-c846fd267d52"/><hi rend="underlined"
+                    >nicht</hi> verbreiten. Die kostenlose Sammlung der Kriegsgedichte kommt aus<lb
+                    xml:id="uuid_284bf6c9-2bf8-4a32-977e-968ea46c4ac2"/>den oben angegebenen Gründen
+                wohl nicht in Betracht.</p>
+            <p xml:id="uuid_b34fd48b-5095-4fb3-81fd-7cd0b9bd58aa"><lb
+                    xml:id="uuid_394687d3-3031-47d8-9cbb-815a4886196d"/>Den letzten Satz haben wir
+                nicht ganz verstanden. („<quote source=""
+                    xml:id="uuid_2f4d6784-fb48-436b-a950-7b6d397af466">Sonst gäbe<lb
+                        xml:id="uuid_20a7f1b9-1b26-4a08-9c8b-6831a94f709d"/>es ja …</quote>“) </p>
+            <p xml:id="uuid_0ffa9514-628f-484c-a978-1669a518b620">
+                <lb xml:id="uuid_b3dd971c-29f5-4025-8021-da1bee21e088"/>Die Rücksendung der frdl.
+                übersandten Schriftstücke erfolgt<lb
+                    xml:id="uuid_b968f361-29d9-4df7-85bc-a0d58053f228"/>heute oder morgen durch Dr.
+                    <rs ref="#38909" type="person">Samek</rs>. </p>
+            <pb xml:id="D_000112-007-000_p005" facs="#D_000112-007-000-facs001-l003-p005" n="5"/>
+            <p xml:id="uuid_99053abc-9e13-4bf4-afc7-4b48c09e1a9c">
+                <lb xml:id="uuid_7a8a2ef7-0a40-4f02-9ad3-a4e3f891c72d"/>Mit wiederholtem Dank
+                zeichnen wir<lb xml:id="uuid_be5f91a6-ef05-4471-9262-5da91802311f"/>in
+                vorzüglichster Hochachtung </p>
+            <p xml:id="uuid_88d4a131-80cb-4d5c-b8dc-2b19b0dc7233">
+                <lb xml:id="uuid_8c4e5ac7-6e99-4f35-a63a-f2fd1c9002f8"/>P.S.<lb
+                    xml:id="uuid_0d93cfeb-7bf6-4081-8f0a-7181f5e62f26"/>In der <rs type="work"
+                    subtype="legal-doc" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000070-005-000"
+                    >Klage</rs> des <rs ref="#11910" type="person">Kerr</rs> S. 6 ist eine grobe
+                Fälschung enthalten. Das Zitat<lb xml:id="uuid_f04bc424-c21b-484e-a25c-00105bac3dbf"
+                    /><rs ref="https://fackel.oeaw.ac.at/f/781,020" type="work" subtype="fackel">S.
+                    20 Juniheft</rs> enthält die Ankündigung des Drucks der <hi rend="underlined"
+                    >Schriftsätze</hi>, nicht<lb xml:id="uuid_19717c2d-ab33-48e5-911c-67f8d8314a2c"
+                />der <hi rend="underlined"> Gottlieb-Gedichte</hi>. Der „<quote
+                    source="https://fackel.oeaw.ac.at/f/781,020"
+                    xml:id="uuid_9168e68b-c267-44e1-885f-52dc22f39f36">stürmische Beifall</quote>“
+                folgte <hi rend="underlined">diesem</hi> Versprechen. </p>
+        </body>
+    </text>
+</TEI>

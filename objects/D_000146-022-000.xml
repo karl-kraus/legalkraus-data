@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-023-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-021-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000146-022-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA Botho Laserstein</title>
+            <editor ref="#AR">Alexandra Rausch</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History </name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000146-022-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3996</idno>
+            <idno subtype="transkribus" type="ID">290686</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000146" type="collection">Karl
+                    Kraus ca. Ernst Josef Aufricht (Theater am Schiffbauerdamm, Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000146-022-000-facs001" xml:id="D_000146-022-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000146-022-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909">DR. OSKAR SAMEK</persName>
+               <address>
+                  <street corresp="#50493">Schottenring 14</street>
+                  <settlement ref="#51">Wien, I.</settlement>
+               </address>
+               <date when-iso="1931-03-05">5. März 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#51751">Herrn | Dr. Botho Laserstein, | Rechtsanwalt </persName>
+               <address>
+                  <street corresp="#51751">Landsberger Allee 55</street>
+                  <settlement ref="#168">Berlin NO. 18</settlement>
+               </address>
+               <date when-iso="1931-03-07">7. MRZ. 1931</date>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Aufricht</note>
+               <note type="dictation">Dr. S/Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-03-05">3. März 1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000146-022-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000146-022-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change status="draft" when-iso="2020-10-08T15:09:21.182Z" who="#IB">created by API </change>
+         <change status="draft" when-iso="2020-10-08T15:14:40.771Z" who="#IB">Replaced Text with
+                Transcription of Transkribus Document 290686. </change>
+         <change status="draft"
+                 type="intertexts"
+                 when-iso="2021-08-13"
+                 who="#AR"/>
+         <change status="draft"
+                 type="typography"
+                 when-iso="2021-08-13"
+                 who="#AR"/>
+         <change status="draft"
+                 type="references"
+                 when-iso="2021-08-13"
+                 who="#AR"/>
+         <change status="draft" type="structure" when-iso="2021-08-13" who="#AR"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000146-022-000-facs001">
+      <surfaceGrp xml:id="D_000146-022-000-facs001-l001">
+         <surface type="recto" xml:id="D_000146-022-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542210/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000146-022-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542211/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542212/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542213/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000146-022-000_p001"
+             facs="#D_000146-022-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_baccc8ee-c514-4f3d-868b-b9e740cab719">
+            <lb xml:id="uuid_0eecff80-06a2-4d9e-95ad-a1815ad7661c"/>Sehr geehrter <rs ref="#38969" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_3b42404c-085a-4d09-b47a-4aa2a00fd2fd">
+            <lb xml:id="uuid_d656d888-b3ae-452a-b068-d5c570aff06c"/>In der Sache <rs ref="#37761" type="person">Aufricht</rs> kam das <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000146-019-000"
+                type="work"
+                subtype="legal-doc">Schreiben</rs> des<lb xml:id="uuid_e16d1a85-ff56-44fb-abff-d53f40b00bee"/>gegnerischen <rs ref="#36360" type="person">Anwaltes</rs> vom 25. Februar 1931, da es erst am 28.
+                    Februar<lb xml:id="uuid_84ca1365-4c25-4aae-a44f-6b3ca91f52ca"/>1931 abgeschickt
+                wurde, am 2. März 1931 an, an dem Tag, an dem<lb xml:id="uuid_cd874061-c3f3-432d-8be0-afb711b4b9f9"/>die Verhandlung war. Es war
+                also nicht möglich, sich dazu zu äus<lb break="no" xml:id="uuid_dae364f6-a946-4b2f-8c81-2a11883f724a"/>sern. Nachträglich stimme
+                ich Ihrer Ansicht zu, dass darauf<lb xml:id="uuid_af276456-ddb6-4b26-aede-0f9e8bffada9"/>nicht einzugehen war, ganz
+                abgesehen davon, dass nach meiner Er<lb break="no" xml:id="uuid_aa99d08c-723c-4230-a272-4c7b673e9602"/>innerung die überdies vor
+                Jahren bezahlte Summe von Raten nicht<lb xml:id="uuid_4858ef60-c996-4576-ac7c-bd6c77cea2ac"/>die Höhe von Mk. 1700.––
+                ausgemacht hat. </p>
+         <p xml:id="uuid_1754eaa2-6223-4b6f-9a5e-8ce4ef80c748">
+            <lb xml:id="uuid_ed6fcc5e-3b78-4a4d-92ea-e0862c7fdc96"/>Leider ist auch in der <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000156" type="work" subtype="legal-doc"
+               >Berichtigungssache</rs>
+            <lb xml:id="uuid_0a7b19fb-476c-4409-9fa4-8445f236e3eb"/>der bei Ihnen am 28. Februar
+            eingelangte <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000156-001-000" type="work"
+               subtype="legal-doc">Brief</rs> des Herrn <rs ref="#51603" type="person">Köppen</rs>
+            <lb xml:id="uuid_ad3570a4-ee98-4abc-b6d2-9cc4c4577464"/>von der <rs ref="#37270"
+               type="institution">Börsenzeitung</rs> von Ihnen erst mit <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000156-002-000" type="work"
+               subtype="legal-doc">Schreiben</rs> vom 2. März<lb
+               xml:id="uuid_381a64fb-eac6-4da7-8e05-5ce72ed77e6c"/>übersendet worden und erst am 4.
+            hier eingelangt. Es war also<lb xml:id="uuid_e8425685-43eb-45da-9db5-e84c5821f478"/>auch
+            in diesem Falle nicht möglich eine Aeusserung abzugeben, wenn<lb
+               xml:id="uuid_a6cfac48-b755-483a-b9bc-ad8075f3ceca"/>man nicht Telegramm- oder
+            Telephonspesen noch an diesen grotesken<lb
+               xml:id="uuid_4dcf61e6-b5fc-4bc7-a3cc-8660e6e8b42f"/>Fall wenden wollte. Sie werden
+            hoffentlich mit uns der Ansicht<lb xml:id="uuid_d07fe1c1-28f3-4528-b0a5-b8fe689d1dac"
+            />sein, dass das Ersuchen des Herrn <rs ref="#51603" type="person">Köppen</rs> nicht zu
+               berücksichtigen<lb xml:id="uuid_ae43bc41-e8f2-4543-a1dc-72425f8324f6"/>war. Im
+            allgemeinen halte ich ein Entgegenkommen an Presseleute<lb
+               xml:id="uuid_74999db3-01b6-4892-8343-5c14dfa64dd6"/>für untunlich, ganz besonders in
+            dem vorliegenden Fall, es wäre<lb xml:id="uuid_50c1a48c-378e-44c2-a7a7-68fd8cff9c6a"
+            />denn, dass eine zweifelhafte Prozessituation es erfordert. Der <pb
+               xml:id="D_000146-022-000_p002" facs="#D_000146-022-000-facs001-l001-p002" n="2"/>
+            <lb xml:id="uuid_c19b3bf8-e31d-4313-b218-559985039ddb"/>Fall der <rs ref="#37270"
+               type="institution">Börsenzeitung</rs> ist ein besonders arger, die Berufung<lb
+               xml:id="uuid_c0c2ca07-593a-4f5e-9a95-b46a4ae9196c"/>des Herrn <rs ref="#51603"
+               type="person">Köppen</rs> darauf, dass die Berichtigung, die „<quote
+               xml:id="uuid_420b02ae-6b9f-42b7-a183-4ede2307c5a2"
+               source="https://id.acdh.oeaw.ac.at/legalkraus/D_000156-001-000">durch<lb
+                  xml:id="uuid_47872ed1-2216-4406-9168-825f251a9c4a"/>mehrere Instanzen</quote>“ (er
+            meint: redaktionelle) „<quote xml:id="uuid_4a3f26d2-f460-4d7f-a5b5-dd05bdb898e1"
+               source="https://id.acdh.oeaw.ac.at/legalkraus/D_000156-001-000">gegangen
+               war</quote>“,<lb xml:id="uuid_bac01965-06f2-454c-8841-1d22dac61be0"/>in Vergessenheit
+            geraten sei, ist einfach absurd. Dass Herr<lb
+               xml:id="uuid_dc886f06-875a-4f3d-bec9-38d3d711aaaf"/><rs ref="#51603" type="person"
+               >Köppen</rs> verhindert ist, der Vorladung Folge zu leisten, ist<lb
+               xml:id="uuid_6b591d76-57fa-422e-b9a5-b8ad3c851dd1"/>ausschliesslich seine Sache, da
+            er sich durch einen Anwalt ver<lb break="no"
+               xml:id="uuid_a283d66e-0952-4da6-88a4-3d1e616ce66c"/>treten lassen kann. </p>
+         <p xml:id="uuid_edca0bea-69c9-4309-ad77-fc58c386c917">
+            <lb xml:id="uuid_015f06d8-1ef3-451b-8387-4c143c3fce86"/>Ich zeichne mit vorzüglicher
+                    kollegialer<lb xml:id="uuid_99a0d338-09f3-4702-819d-7bc229d0805b"/>Hochachtung<lb xml:id="uuid_a7646540-d034-4824-a586-28e5b9f7f5f7"/><rs ref="#38909" type="person">Dr Samek</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

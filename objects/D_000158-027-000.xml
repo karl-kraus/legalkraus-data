@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000158-028-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000158-026-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000158-027-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief RA Botho Laserstein an Verlag Die Fackel</title>
+            <editor ref="#SH">Susanna Hufsky</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000158-027-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4130</idno>
+            <idno subtype="transkribus" type="ID">304909</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000158" type="collection">Karl
+                    Kraus ca. Oper am Platz der Republik (Kroll-Oper, Berlin)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000158-027-000-facs001" xml:id="D_000158-027-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000158-027-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38969">Dr.jur. Botho Laserstein</persName>
+               <address>
+                  <street corresp="#51751">Landsberger Allee 115-116</street>
+                  <settlement ref="#168">Berlin NO 18</settlement>
+               </address>
+               <date when-iso="1931-10-27">27. Oktober 1921</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#43724">den | Verlag „Die Fackel“</orgName>
+               <address>
+                  <street corresp="#50496">Hintere Zollamtsstr. 3</street>
+                  <settlement ref="#53">Wien</settlement>
+               </address>
+               <date when-iso="1931-10-29"/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">L/S.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-10-27">27. Oktober
+                    1931</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000158-027-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000158-027-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change when-iso="2020-10-08T15:28:44.009Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T15:32:04.577Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 304909. </change>
+         <change type="intertexts" when-iso="2021-07-27" who="#SH"/>
+         <change type="structure" when-iso="2021-07-27" who="#SH"/>
+         <change type="references" when-iso="2021-07-27" who="#SH"/>
+         <change type="typography" when-iso="2021-07-27" who="#SH"/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000158-027-000-facs001">
+      <surfaceGrp xml:id="D_000158-027-000-facs001-l001">
+         <surface xml:id="D_000158-027-000-facs001-l001-p001" type="recto">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542767/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface xml:id="D_000158-027-000-facs001-l001-p002" type="verso">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542768/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000158-027-000_p001"
+             facs="#D_000158-027-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_d9bc6b82-1177-4534-b197-a01868807c0a">
+            <lb xml:id="uuid_7f0a8b6a-fa51-4ad4-8b54-2b2be80c0879"/>Im Einverständnis des <rs
+               ref="#11988" type="person">Herrn Kraus</rs> bitte ich<lb
+               xml:id="uuid_9f1a7e25-e2a8-4b3a-b14d-2fa291eb4268"/>Sie, zwecks Absendung der Klage
+            gegen den Fiskus<lb xml:id="uuid_c0ce84cf-747a-4f39-951d-ab46ae23068a"/>in Sachen <rs
+               type="institution" ref="https://pmb.acdh.oeaw.ac.at/entity/37183">Opernhaus</rs> mir
+            folgende Urkunden zu über<lb break="no"
+               xml:id="uuid_d0cdb3ea-388e-4ccc-85cd-5ad169ff8dfe"/>senden: </p>
+         <p xml:id="uuid_69dc6a0a-58f8-40f2-be2c-34232d9f9e2c">
+            <lb xml:id="uuid_d5e5a3b8-22cd-4066-9a31-6b5b77e67fa9"/>1. Abschrift des <rs type="work"
+               subtype="legal-doc" ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000158-016-000"
+               >Briefes</rs>, den ich unverändert an<lb
+               xml:id="uuid_96d83e18-30b9-4856-84dd-5cb151a2cfa2"/>den <rs ref="#38318"
+               type="person">Generalintendanten Titiens</rs> abgesandt habe,<lb
+               xml:id="uuid_3c3273a9-d63e-4db4-a498-c97b0cc9889d"/>und der Ihrem <rs type="work"
+               subtype="legal-doc">Schreiben vom 2. Oktober</rs> beilag. </p>
+         <p xml:id="uuid_d53dbfbe-0b49-4d10-bd97-c48f80afb34a">
+            <lb xml:id="uuid_18f18cd2-2964-4a52-a455-59acb77c868c"/>2.) Das <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000158-018-000"
+                type="work"
+                subtype="legal-doc">Memorandum</rs>, dass Herr <rs ref="#38318" type="person">Generalintendant<lb xml:id="uuid_14fb61a6-eb81-4fd6-b309-98da47de8443"/>Titiens</rs> durch Sie bezw. Herrn <rs ref="#38909" type="person">D.
+                    Samek</rs> erhal<lb break="no" xml:id="uuid_ec98bfdc-c09d-45f1-a374-2e2988afe4a4"/>ten hat. </p>
+         <p xml:id="uuid_a9911eb4-c575-4a86-a759-bd0b758f8c48">
+            <lb xml:id="uuid_9eee8454-0ad5-4dcb-9a49-42bae241117d"/>Hochachtungsvoll<lb xml:id="uuid_ed798908-f7ff-4165-a559-80ceb68ba38d"/>gez. <rs ref="#38969" type="person">Dr. Laserstein</rs>
+            <lb xml:id="uuid_fa30857a-683c-49f7-be6f-537989e047f0"/>Rechtsanwalt. </p>
+         <pb xml:id="D_000158-027-000_p002"
+             facs="#D_000158-027-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_71d3da51-11c3-4cd4-ae9a-f4d1b36f8a78">
+            <lb xml:id="uuid_ca469144-6771-47f7-935b-3550f04c3aac"/><note type="paratext"
+               resp="law-firm"><rs ref="#11988" type="person">Kraus</rs> – <rs
+                  ref="https://pmb.acdh.oeaw.ac.at/entity/37183" type="institution"
+                  >Krolloper</rs><lb xml:id="uuid_8c161f97-63db-47dd-abf6-edaad3c9fbdc"/>29. OKT.
+               1931</note></p>
+      </body>
+   </text>
+</TEI>

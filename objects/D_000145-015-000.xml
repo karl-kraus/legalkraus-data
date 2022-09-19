@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000145-015-001.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000145-014-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000145-015-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an RA H.H. Bernstein</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000145-015-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3972</idno>
+            <idno subtype="transkribus" type="ID">288769</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000145" type="collection">Karl
+                    Kraus ca. Augsburger Stadttheater</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000145-015-000-facs001" xml:id="D_000145-015-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000145-015-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1930-11-26">26. November 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/51559">Herrn | Dr. H.H.
+                        Bernstein, | Rechtsanwalt</persName>
+               <address>
+                  <street corresp="#54315">Briennerstrasse 8A</street>
+                  <settlement ref="#45258">München 2 NW 5</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Augsburger Stadttheater</note>
+               <note type="dictation">Dr.S/Fa</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1930-11-26">26. November 1930
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000145-015-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000145-015-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-04-22" who="#JK"/>
+         <change type="typography" when-iso="2021-04-22" who="#JK"/>
+         <change type="references" when-iso="2021-04-22" who="#JK"/>
+         <change type="structure" when-iso="2021-04-22" who="#JK"/>
+         <change when-iso="2020-10-08T14:30:13.778Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-08T15:08:22.684Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 288769. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000145-015-000-facs001">
+      <surfaceGrp xml:id="D_000145-015-000-facs001-l001">
+         <surface type="recto" xml:id="D_000145-015-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542111/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000145-015-000-facs001-l001-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2542112/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000145-015-000_p001"
+             facs="#D_000145-015-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_0dd386cc-6413-44f9-a9a7-6b1d3f4fb301">
+            <lb xml:id="uuid_a2df1773-39ee-452c-96fe-f4844e55640d"/>Sehr geehrter <rs ref="https://pmb.acdh.oeaw.ac.at/entity/51559" type="person">Herr Kollege</rs>! </p>
+         <p xml:id="uuid_26880b6d-7d8b-4fbf-8eb3-79ac2fca006d">
+            <lb xml:id="uuid_a983d058-c234-43a1-91c1-85be176a5219"/>Ich bestätige den Empfang Ihres
+               Schecks<lb xml:id="uuid_c4357bf2-cfaa-4b7e-acb5-defd19391f38"/>per R.Mk. 91.– und
+            danke Ihnen für Ihre Bemühung, auch im<lb
+               xml:id="uuid_4c9d7500-9505-4fc2-818b-679a97178fdc"/>Namen des <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herrn Kraus</rs>. </p>
+         <p xml:id="uuid_551879de-04e4-40e2-b11a-9cc75a77f557">
+            <lb xml:id="uuid_f25d4c32-b387-4480-9822-f7088ef19684"/>Mit vorzüglicher kollegialer
+                Hochachtung </p>
+         <pb xml:id="D_000145-015-000_p002"
+             facs="#D_000145-015-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_7b55a330-c831-419c-9269-de8635a62e00">
+            <lb xml:id="uuid_1ca7d980-ac9a-4b43-a304-7751956c2d37"/><note resp="law-firm"
+               type="paratext">Betr. <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+                  type="person">Kraus</rs> – <rs ref="https://pmb.acdh.oeaw.ac.at/entity/36922"
+                  type="institution">Augsburger Stadt<lb break="no"
+                     xml:id="uuid_6bd03820-bb12-4511-aca1-a222799b7708"/>theater</rs><lb
+                  xml:id="uuid_84232e17-86d0-4661-955a-c04f69c0ac63"/>exp. 26.11.1930.</note>
+         </p>
+      </body>
+   </text>
+</TEI>

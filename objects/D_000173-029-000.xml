@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-030-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000173-028-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000173-029-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Postkarte Universal-Edition an Kraus</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000173-029-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/4294</idno>
+            <idno subtype="transkribus" type="ID">312405</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000173" type="collection">Briefwechsel zwischen dem Verlag Die Fackel, dem Verlag Universal Edition und
+                    dem Deutschen Theater Prag bezüglich Aufführungen von Offenbachstücken in der
+                    Kraus’schen Bearbeitung und Verlagsproblemen</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000173-029-000-facs001" xml:id="D_000173-029-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000173-029-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T">Typoskript</objectType>
+                  </ab>
+                  <ab type="materiality">
+                     <objectType source="D_000173-029-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP"
+                        >Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="https://pmb.acdh.oeaw.ac.at/entity/36971"/>
+               <address>
+                  <street corresp="#56742"/>
+                  <settlement ref="#51">Wien</settlement>
+               </address>
+               <date when-iso="1932-03-24">24. März 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://pmb.acdh.oeaw.ac.at/entity/11988">Herrn | Karl Kraus</persName>
+               <address>
+                  <street corresp="#50496"/>
+                  <settlement ref="#53">Wien III.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">He.</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-03-24">24. März 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000173-029-000-wit01">Postkarte</term>
+            </keywords>
+            <classCode source="D_000173-029-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.PKT">D.K.PKT</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-12-07" who="#JK"/>
+         <change type="typography" when-iso="2021-12-07" who="#JK"/>
+         <change type="references" when-iso="2021-12-07" who="#JK"/>
+         <change type="structure" when-iso="2021-12-07" who="#JK"/>
+         <change type="header-facsimile" when-iso="2021-12-07" who="#JK"/>
+         <change when-iso="2020-10-09T14:11:40.774Z" who="#IB">created by API</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000173-029-000-facs001">
+      <surfaceGrp xml:id="D_000173-029-000-facs001-l001">
+         <surface type="recto" xml:id="D_000173-029-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543454/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000173-029-000_p001"
+             facs="#D_000173-029-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_446c2a14-8413-41f3-bdc0-4d0ba3125146">
+            <lb xml:id="uuid_6ee40d4c-be42-42d7-a73a-78d535b4554a"/>Sehr geehrter <rs ref="#11988" type="person">Herr</rs>! </p>
+         <p xml:id="uuid_c5599f61-ae17-402f-8a21-0dadf5dd6868">
+            <lb xml:id="uuid_3c81eee2-ece2-4cb8-a74f-a3f1725c31f8"/>Soeben ist das Textbuch zu „<rs
+               ref="#55390" type="work" subtype="pmb">Madame<lb
+                  xml:id="uuid_0e585fc5-0359-49fc-8d6f-dba8685ca98a"/>L’Archiduc</rs>“ von <rs
+               ref="#9131" type="person">J. Offenbach</rs> aus dem Druck erschie<lb break="no"
+               xml:id="uuid_bc2faa7a-189c-46e0-8b81-42cad0e90cd0"/>nen und wir erlauben uns, Ihnen
+            mit gleicher Post<lb xml:id="uuid_6ca9b362-8fb6-40d1-9534-d887429ef411"/>ein
+            Belegexemplar zu senden. </p>
+         <p xml:id="uuid_840e1cd0-acfe-4ec5-a7ed-1289f2419b03">
+            <lb xml:id="uuid_37dc4447-5306-45c5-95f2-8e2fd974f519"/>Wir empfehlen uns<lb xml:id="uuid_ceb86e15-624d-492a-b716-e6f49ec91e38"/>mit vorzüglicher
+                    Hochachtung<lb xml:id="uuid_ca8a9c22-f5e8-4142-a68a-ffcae509be79"/>[<rs type="person">Unterschrift</rs>] </p>
+      </body>
+   </text>
+</TEI>

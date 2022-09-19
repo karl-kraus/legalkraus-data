@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-058-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-056-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000125-057-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Frankfurter Städtisches Schauspielhaus und an Justitiar der
+                    Stadt Frankfurt am Main (Heun)</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000125-057-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/3422</idno>
+            <idno subtype="transkribus" type="ID">280428</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000125" type="collection">Karl
+                    Kraus ca. Frankfurter Städtisches Schauspielhaus</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000125-057-000-facs001" xml:id="D_000125-057-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000125-057-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL">Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#50"/>
+               </address>
+               <date when-iso="1931-12-30">30. Dezember 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#38954">die | Schauspielintendanz der städtischen Bühnen </persName>
+               <address>
+                  <street corresp="#56867">Hochstrasse Nr. 46</street>
+                  <settlement ref="#146">Frankfurt am Main</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Frankfurter städt. | Bühnen</note>
+               <note type="dictation">Dr.S/Fa</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1931-12-30">30. Dezember 1931
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term source="D_000125-057-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000125-057-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-07-26" who="#JK"/>
+         <change type="typography" when-iso="2021-07-26" who="#JK"/>
+         <change type="references" when-iso="2021-07-26" who="#JK"/>
+         <change type="structure" when-iso="2021-07-26" who="#JK"/>
+         <change resp="#IB" when-iso="2021-04-12T08:57:50.043Z">created by API</change>
+         <change resp="#IB" when-iso="2021-04-12T09:33:15.878Z">Replaced Text with Transcription
+                of Transkribus Document 280428. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000125-057-000-facs001">
+      <surfaceGrp xml:id="D_000125-057-000-facs001-l001">
+         <surface type="recto" xml:id="D_000125-057-000-facs001-l001-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557037/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000125-057-000-facs001-l002">
+         <surface type="recto" xml:id="D_000125-057-000-facs001-l002-p001">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557036/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000125-057-000-facs001-l002-p002">
+            
+            <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557038/full/full/0/default.jpg"
+                     source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <facsimile ana="further-witnesses">
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557039/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557040/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557041/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557042/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557043/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557044/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+      <surface>
+         
+         <graphic url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2557045/full/full/0/default.jpg"
+                  source="wienbibliothek"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000125-057-000_p001"
+             facs="#D_000125-057-000-facs001-l002-p001"
+             n="1"/>
+         <p xml:id="uuid_1ebe2bef-93d3-45a5-a2dc-a044461dd798">
+            <lb xml:id="uuid_2a246a01-1c6b-4956-9e9d-3773e61f6fc8"/>Sehr geehrter <rs ref="#38954" type="person">Herr Intendant</rs>! </p>
+         <p xml:id="uuid_e1706c19-ccb2-4fb4-9963-4a5d54029515">
+            <lb xml:id="uuid_d26effd3-be6d-4242-9646-33bd48dc5f8f"/>Den in Ihrem Auftrag von
+                Frau <rs ref="#57004" type="person">Hedwig Levi<lb break="no" xml:id="uuid_26773cbf-b7f1-4d7d-ac56-cc4c461d8c80"/>Michel</rs> an mich
+                gesendeten <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-055-000"
+                type="work"
+                subtype="legal-doc">Brief vom 24. Dezember 1931</rs> habe ich<lb xml:id="uuid_cc665d66-3e2e-4cc4-9db9-ef8ff9803339"/><rs ref="#11988" type="person">Herrn Kraus</rs>, der inzwischen wieder für einige Tage nach <rs ref="#50" type="place">Wien</rs>
+            <lb xml:id="uuid_15a7daa4-4b6a-431f-81c2-a737d7f926da"/>gekommen ist, zur Kenntnis
+                gebracht und die Angelegenheit mit<lb xml:id="uuid_1c7a783e-d661-4e31-a337-0e74b639e78a"/>ihm besprochen. Er ist, ohne
+                dadurch die Aufführung des <rs ref="#37240" type="institution">Leip<lb break="no" xml:id="uuid_35096bf8-bf2d-47cf-a8a8-4af8fa8dbff4"/>ziger
+                    Komödienhauses</rs>, die ja gewiss ehrliches Bestreben zeigte<lb xml:id="uuid_70e2c97d-d16f-4a0f-a636-f1451df02fbe"/>und manches Gute bot,
+                herabsetzen zu wollen, nicht damit ein<lb break="no" xml:id="uuid_93322a02-7195-4ecb-b814-4a57cd889d5d"/>verstanden, dass nunmehr
+                sämtliche kontraktbrüchigen Theater<lb xml:id="uuid_069ea0b8-aa3f-44f5-9aac-bae7311fe6a6"/>ihrer
+                Aufführungsverpflichtung durch Heranziehung des <rs ref="#37240" type="institution">Leipziger<lb xml:id="uuid_a42cf312-e0d2-47d8-be98-3bd77eff3dc2"/>Komödienhauses</rs> genügen möchten. </p>
+         <p xml:id="uuid_e6d201cd-5c16-4928-a1f7-1f5365e2161e">
+            <lb xml:id="uuid_706f03ca-5d5d-44bd-b155-5164825af9c7"/>Was aber meinen <rs ref="#11988" type="person">Mandanten</rs> und mich vor allem<lb xml:id="uuid_9df61261-f865-4d31-b71d-6eb7b9fbaa76"/>interessieren würde, ist
+                Ihre und Ihres <rs ref="#56998" type="person">Justitiärs</rs> Stellung<lb break="no" xml:id="uuid_ede9a952-bc2b-4008-91e3-dc2cdd6a8551"/>nahme zu der von uns
+                begehrten Konventionalstrafe, die ja ganz<lb xml:id="uuid_a0a268f5-b0eb-4b51-8099-86c5d1e6ed39"/>unabhängig von der
+                Aufführungsverpflichtung zu behandeln ist. </p>
+         <p xml:id="uuid_f091126a-a139-435e-8608-c0efd6829efd">
+            <lb xml:id="uuid_bbeeed47-95fb-4975-895f-dc6d74e4a027"/>Im <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-050-000"
+                type="work"
+                subtype="legal-doc">Schreiben vom 14. Dezember</rs> kündigt Herr<lb xml:id="uuid_248ae67d-5548-44b0-97ae-42f37259152b"/>Magistratsrat <rs ref="#56998" type="person">Dr. Heun</rs> die Antwort auf diese Frage für die<lb xml:id="uuid_60b2e19b-9d68-4da5-a7f0-758bc5d26616"/>nächsten Tage an. Im <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-054-000"
+                type="work"
+                subtype="legal-doc">Schreiben vom 23. Dezember</rs> dagegen erklärt<lb xml:id="uuid_1e3a7706-c927-4ac5-98c2-aa484d699b97"/>er sich <hi rend="underlined">vorerst</hi> der Stellungnahme zu enthalten. Nach meiner<lb xml:id="uuid_f43ad413-7616-4158-baf5-c6d53a4106d3"/>Ansicht hätte aber vorerst
+                eine Stellungnahme zu der be- <pb xml:id="D_000125-057-000_p002"
+                facs="#D_000125-057-000-facs001-l002-p002"
+                n="2"/>
+            <lb xml:id="uuid_cf67f5e4-c607-4c80-a3f0-8c5c6a953f09"/>rechtigten Forderung auf
+                Konventionalstrafe erfolgen müssen,<lb xml:id="uuid_d5add991-9ccb-47b2-a7d8-29e94c763f12"/>ehe überhaupt in weitere
+                Verhandlungen wegen der Aufführung<lb xml:id="uuid_fce9c6a7-8237-4abc-8a60-be2ed5716746"/>getreten wird. </p>
+         <p xml:id="uuid_ec2678e0-dc43-4b53-b0f3-05eb34db0d81">
+            <lb xml:id="uuid_918c0850-75cb-4ba3-9e83-8b93172bb1e1"/>Mit ausgezeichneter
+                Hochachtung </p>
+         <p xml:id="uuid_f9f0f48b-f5f9-4f66-8804-e6aa6a4d82ec">
+            <lb xml:id="uuid_f6a1f8e6-1ccc-4021-8e1b-46003f0e8aef"/>Herrn<lb xml:id="uuid_5525f13e-4b50-4c9a-ae27-50dd6dc1afb2"/>Magistratsrat <rs ref="#56998" type="person">Dr. Heun</rs>
+            <lb xml:id="uuid_5e01befb-f4a1-4245-911d-ba71f5097fd5"/><rs ref="#146" type="place">Frankfurt a/Main</rs>.<lb xml:id="uuid_77dee1b5-d86d-470c-845c-5c375811b30e"/>Rathaus. Zimmer 214. </p>
+         <p xml:id="uuid_793e6016-2bc0-4c32-8025-572990739efe">
+            <lb xml:id="uuid_c3d174f3-f395-4637-b05b-f38fa060f96d"/>Sehr geehrter <rs ref="#56998" type="person">Herr Magistratsrat</rs>! </p>
+         <p xml:id="uuid_e718f797-1d54-492d-9ff8-e77555b049cc">
+            <lb xml:id="uuid_a7c7a3b6-678a-45e8-b371-dace3b4612d3"/>Obiges, an die <rs ref="#38954" type="person">Schauspielintendanz der<lb xml:id="uuid_0cfd823f-e088-47a5-8505-9e159b08d1cb"/><rs ref="#34987" type="institution">städtischen Bühnen</rs></rs> gerichtete Schreiben, das
+                auch Ihre beiden<lb xml:id="uuid_25bec022-d71f-44da-95c7-8d59c8f877cb"/><rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-050-000"
+                type="work"
+                subtype="legal-doc">Schreiben vom 14.</rs> und <rs ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000125-054-000"
+                type="work"
+                subtype="legal-doc">23. Dezember 1931</rs> erledigt, bringe ich<lb xml:id="uuid_a6153d10-c99a-414f-ad40-4472e87ca444"/>Ihnen zur Kenntnis, mit der
+                Bitte, um eheste juristische<lb xml:id="uuid_15e82c3e-75e1-4e47-be74-21c2106e3960"/>Stellungnahme. </p>
+         <p xml:id="uuid_a117308b-f237-4b9a-b724-0fab3a2c9699">
+            <lb xml:id="uuid_902675ea-6799-4936-913f-028e5e686b66"/>In vorzüglicher Hochachtung </p>
+         <p xml:id="uuid_afa8f3a3-23bf-426a-abc5-aa4fbd7539f3">
+            <lb xml:id="uuid_d8c70616-745f-47dd-aca3-27bec724a621"/><note resp="law-firm" type="paratext">Betr. <rs ref="#11988" type="person">Kraus</rs> – <rs ref="#34987" type="institution">Frankfurter städt.<lb xml:id="uuid_8f0fc415-76ff-4ca8-a407-85467c4623f3"/>Bühnen</rs>
+               <lb xml:id="uuid_0d1582f9-41aa-4f9e-9d31-52e3d7eae6ae"/>exp. 30.12.1931. </note>
+         </p>
+      </body>
+   </text>
+</TEI>

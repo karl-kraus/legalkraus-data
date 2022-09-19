@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-012-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-010-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000002-011-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mitteilung Kanzlei Samek an Verlag Die Fackel</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000002-011-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1551</idno>
+            <idno subtype="transkribus" type="ID">365683</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000002" type="collection">Karl
+                    Kraus ca. Reichspost</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000002-011-000-facs001" xml:id="D_000002-011-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000002-011-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.M">Manuskript</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1923-03-03">3. März 1923</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#52930"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51">Wien</settlement>
+               </address>
+               <date when-iso="1922-11-30">3.III.1923</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#43724">Verlag Die Fackel</orgName>
+               <address>
+                  <street corresp="#50496"/> 
+                  <settlement ref="#53"/> 
+               </address>
+               <date/> 
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation"/>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000002-011-000-wit01">Mitteilung</term>
+            </keywords>
+            <classCode source="D_000002-011-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.J.MIT">D.J.MIT</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-11-25" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-12-07" who="#IL"/>
+         <change type="structure" when-iso="2020-11-18" who="#IL"/>
+         <change type="references" when-iso="2020-11-22" who="#IL"/>
+         <change type="typography" when-iso="2021-12-07" who="#IL"/>
+         <change when-iso="2020-02-03T11:24:28.171Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-03T14:05:32.163Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-03T14:05:33.465Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 365683. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000002-011-000-facs001">
+      <surfaceGrp xml:id="D_000002-011-000-facs001-l001">
+         <surface type="recto" xml:id="D_000002-011-000-facs001-l001-p001">
+            
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540153/full/full/0/default.jpg"/>
+         </surface>
+         <surface type="verso" xml:id="D_000002-011-000-facs001-l001-p002">
+            
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540154/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000002-011-000_p001"
+             facs="#D_000002-011-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_ba62a425-db4b-43a0-a72a-57c4ba98ed06">
+            <lb xml:id="uuid_4cbd4d97-bccd-4efc-b49e-4157ff7bbdb1"/>[Steno] </p>
+         <p xml:id="uuid_f541fd27-2fc9-4338-a14a-117a8c3d9f55">
+            <lb xml:id="uuid_36370059-f9e8-4035-9405-3bd86a691323"/><rs ref="#50" type="place">Wien</rs> 3. III 1923 </p>
+         <p xml:id="uuid_c79df7a0-761e-44d9-b564-9f27180361b0">
+            <lb xml:id="uuid_7eb6c384-625b-4e90-8302-ece26babe043"/>Herr <rs ref="#43545"
+               type="person">Hofrat Wessely</rs> hat das <rs
+               ref="https://id.acdh.oeaw.ac.at/legalkraus/D_000002-010-000.xml" type="work"
+               subtype="legal-doc">Urteil</rs> heute<lb
+               xml:id="uuid_0bf325c9-4e27-46cf-b1ed-b920d7596eab"/>noch nicht diktieren können, da
+            das <rs type="person">Kanzlei<lb break="no"
+                  xml:id="uuid_0a0d644f-6a65-4865-adde-3a727dc5ba25"/>frl.</rs> nicht hier war. Wird
+            es Montag vormittag<lb xml:id="uuid_93818fdd-c9e4-4629-af00-db023d8b53e7"/>diktieren,
+            hat mir ein in den<lb xml:id="uuid_52536b19-5f2d-4d39-8fdc-83cb33301e69"/>grossen Zügen
+            analoges Urteil anno 1920 gegeben<lb xml:id="uuid_7d4b7c4c-ed78-4714-a8c3-aa9c11c0d3e3"
+               /><rs ref="#38909" type="person">Hr. Doktor</rs> mögen es sich durchsehen<lb
+               xml:id="uuid_51016f75-0fda-4c62-8051-1324255f50e0"/>das Urteil in unserer Sache wird
+               <del>auch</del><lb xml:id="uuid_1562669a-5a7f-40db-8054-3d7e0e949a70"/>ähnlich
+            begründet sein. </p>
+         <p xml:id="uuid_5c911fe8-e27c-45fd-84bc-b3f1faa1c933">
+            <lb xml:id="uuid_b2bf6778-a227-4295-80fa-a87043ba286c"/>Ausserdem hat Herr <rs ref="#43545" type="person">Hofrat Wessely</rs> mir noch<lb xml:id="uuid_191c9b67-8dd3-4f1b-919b-cf6250699345"/>einiges aufgetragen worüber
+                ich Montag berichten<lb xml:id="uuid_25bba219-c8ab-4773-b475-5b7c09dee98e"/>werde. </p>
+         <p xml:id="uuid_4aad8c25-8eff-481a-b62d-342bbe4c6b28">
+            <lb xml:id="uuid_433626cf-d9f3-443a-aafb-4f0c40585507"/>Montags soll ich dieses Urteil
+               mittags<lb xml:id="uuid_c5d9887c-e320-4048-b31a-38ccce3023ee"/>zurückbringen dasselbe
+            gegen unser Urteil<lb xml:id="uuid_41bd5dde-a210-4561-b673-6e5f565690fe"/>umtauschen.
+            Herr <rs ref="#43545" type="person">Hofrat Wessely</rs> bittet<lb
+               xml:id="uuid_2764d780-e6af-4d07-9944-61d19f0966a3"/>dieses Urteil nicht zu verlieren
+            da er nur<lb xml:id="uuid_a5c09a95-1678-4065-bb48-e5c6c0239624"/>mehr ein Exemplar hat. </p>
+         <p xml:id="uuid_bd10abaa-294b-447d-8c86-3c5b1092c98a">
+            <lb xml:id="uuid_3a76d7f0-8c01-47bc-a773-f40e2e9692fc"/>[<rs type="person"
+               >Unterschrift</rs>] </p>
+         <pb xml:id="D_000002-011-000_p002"
+             facs="#D_000002-011-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_d964dae6-eb14-4d28-8bbc-1698b932fcc8">
+            <lb xml:id="uuid_d68115a3-659d-4d98-b7c5-7e7ed783daf6"/><note resp="law-firm" type="paratext"><rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs> – <rs ref="#29637" type="institution">Reichspost</rs></note>
+         </p>
+      </body>
+   </text>
+</TEI>

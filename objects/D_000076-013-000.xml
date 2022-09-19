@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000076-014-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000076-012-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000076-013-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Richard Flatter an Verlag Die Fackel</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000076-013-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/2719</idno>
+            <idno subtype="transkribus" type="ID">229634</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000076" type="collection"
+               >Korrespondenz mit Richard Flatter</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000076-013-000-facs001" xml:id="D_000076-013-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000076-013-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSU">Typoskript mit
+                        handschriftlichen Überarbeitungen</objectType>
+                     <objectType source="D_000076-013-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.HSN">Typoskript mit
+                        handschriftlichen Annotationen</objectType>
+                     <objectType source="D_000076-013-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.S.KOP"
+                        >Kopie</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1935-09-10">10. September 1935</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#16309">Richard Flatter</persName>
+               <address>
+                  <street corresp="#53342">Mariahilferstr. 1b</street>
+                  <settlement ref="#50">Wien, | 6.</settlement>
+               </address>
+               <date when-iso="1935-09-10">10. September 1935</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#43724">den | Verlag der „Fackel“</persName>
+               <address>
+                  <street corresp="#50496"/>
+                  <settlement ref="#50">Wien</settlement>
+               </address>
+               <date/>
+            </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote xml:id="D_000076-013-000-hand01" source="#D_000076-013-000-wit01"
+               scribeRef="#53342" medium="black-ink" cert="high" resp="#IL"/>
+         </handNotes>
+         <handNotes>
+            <handNote xml:id="D_000076-013-000-hand02" source="#D_000076-013-000-wit01"
+               scribeRef="#11988" medium="grey-pencil" cert="low" resp="#IL"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000076-013-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000076-013-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="header_facsimile" when-iso="2022-01-27" who="#IL"/>
+         <change type="structure" when-iso="2021-03-15" who="#IL"/>
+         <change type="references" when-iso="2021-03-15" who="#IL"/>
+         <change type="typography" when-iso="2021-03-17" who="#IL"/>
+         <change type="intertexts" when-iso="2021-03-17" who="#IL"/>
+         <change when-iso="2020-10-07T14:47:18.775Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-07T15:06:32.442Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 229634. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000076-013-000-facs001">
+      <surfaceGrp xml:id="D_000076-013-000-facs001-l001">
+         <surface xml:id="D_000076-013-000-facs001-l001-p001" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553840/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="D_000076-013-000-facs001-l002">
+         <surface xml:id="D_000076-013-000-facs001-l002-p002" type="recto">
+            
+            <graphic source="wienbibliothek"
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2553842/full/full/0/default.jpg"/>
+            
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000076-013-000_p001" facs="#D_000076-013-000-facs001-l001-p001" n="1"/>
+         <p xml:id="uuid_96f2b2c9-c804-466c-8ee6-44fe091d596e">
+            <lb xml:id="uuid_79717053-2c98-4ee4-9475-f990760689ec"/>Meinem mir selbst gegebenen
+            Versprechen getreu, Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988"
+               type="person">Karl<lb xml:id="uuid_9a034b6b-3f2c-42e4-93f6-34cf87f470e6"/>Kraus</rs>
+            keine unwahre Behauptung über mich durchgehen zu lassen, bitte<lb
+               xml:id="uuid_b6fb1a9d-dfc4-419b-a4c9-f3076c722040"/>ich Sie, dem <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Herausgeber</rs> der
+               „<rs ref="#41244" type="work" subtype="pmb">Fackel</rs>“ die nachstehenden
+               Mitteilungen<lb xml:id="uuid_43e81621-327d-45b7-82ea-5ea982c7a0fe"/>weitergeben zu
+            wollen. (Die Verspätung meiner Zuschrift ist darauf<lb
+               xml:id="uuid_63557e06-6140-495f-ac94-3e7398d87133"/>zurückzuführen, dass ich lange
+            Zeit krank war.) </p>
+         <p xml:id="uuid_041503d2-8202-41ce-9d87-0df0cd6f8371">
+            <lb xml:id="uuid_eababc13-e281-424b-b0bf-a5858f71046f"/>In der <rs
+               ref="https://fackel.oeaw.ac.at/f/909,0u1" type="work" subtype="pmb">Ende Mai 1935
+               erschienenen „Fackel“</rs> heisst es, ich<lb
+               xml:id="uuid_fd5eb202-9f39-4157-8c70-a99c052fa67c"/>bestünde – in der „<rs
+               ref="#41265" type="work" subtype="pmb">Wiener Zeitung</rs>“ – auf meinem Schein, den
+               „<rs ref="#32047" type="work" subtype="pmb">Kauf<lb break="no"
+                  xml:id="uuid_0b3f35cf-07d1-4bb2-b5e5-06a7682ac54b"/>mann von Venedig</rs>“
+            verdeutscht und dargestellt zu haben, und setze<lb
+               xml:id="uuid_f8bd9d4b-0c35-4ec8-8ef1-8c76359cba0b"/>die günstige Lesart durch, es sei
+            vor überfülltem Saal geschehen; zum<lb
+               xml:id="uuid_497e3e98-3757-470a-8fa9-331e37df3600"/><metamark function="marginal"
+               hand="#D_000076-013-000-hand02" rend="marginLeft"/>Glück aber hätten von den sechzig,
+            die der Saal fasse, ein Dutzend<lb xml:id="uuid_e759823b-fd7d-4d95-913c-71bd8aa93c9a"
+            />gefehlt. </p>
+         <p xml:id="uuid_f79db394-e1e4-49b0-b5e3-107a4438a870">
+            <lb xml:id="uuid_22bdd0e0-12a3-4903-9c4b-7b93d1c09f28"/>(Die sonstigen Bemerkungen über
+            meine Vorlesung, die sa<lb break="no" xml:id="uuid_c15c6ce9-0747-4855-9ffe-0b66c897241c"
+            />tirisch sein sollen, übergehe ich<subst hand="#D_000076-013-000-hand01">
+               <del hand="#D_000076-013-000-hand01">;</del>
+               <add hand="#D_000076-013-000-hand01">:</add>
+            </subst> ich lehne ab, einem Kritiker zu<lb
+               xml:id="uuid_138e2f88-7ca9-4e00-877f-bc7cc74cd5c8"/>antworten, der über ein Werk und
+            seine Darbietung sich lustig macht,<lb
+               xml:id="uuid_8e92b2c9-5c07-4dfb-84d1-5a15999e8d81"/>ohne es selber gehört zu haben.
+            Lediglich auf die Behauptung von Tat<lb break="no"
+               xml:id="uuid_8e1c537b-be00-4adb-a3cc-ac4e29edd0e5"/>sachen, die einer Berichtigung
+            würdig sind, will ich erwidern.) </p>
+         <p xml:id="uuid_081b38f7-d5e1-4afa-83c9-226b7445447a">
+            <lb xml:id="uuid_3dc1c994-52e3-485b-bbea-068b30560dd2"/>Die Stilisierung der oben
+            zitierten Sätze, die mir – in<lb xml:id="uuid_9ecaf951-ac8a-43c5-9d57-bd46fb5e6d4d"
+            />eigener Sache – eine Aktivität andichten, soll offenbar den Verdacht<lb
+               xml:id="uuid_1ef3b204-8c75-47cc-8edf-2a3b2cfbeef2"/>erwecken, ich hätte die in der
+               „<rs ref="#41265" type="work" subtype="pmb">Wiener Zeitung</rs>“ erschienene <rs
+               type="work">Bespre<lb break="no" xml:id="uuid_0896e3b9-7dff-431a-b45b-1b00039366e7"
+               />chung</rs> meiner Vorlesung selbst verfasst. Die Wahrheit ist, dass die Be<lb
+               break="no" xml:id="uuid_3699f423-c6ef-41cf-88c9-2936555808ec"/>sprechung nicht von
+            mir stammt, sondern von einem, dessen Name und<lb
+               xml:id="uuid_475e0e80-c50b-4640-8b92-ed9257bca81d"/><rs type="person">Person</rs>
+            Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Kraus</rs>
+            durchaus bekannt ist. </p>
+         <p xml:id="uuid_4a8b8d4f-1b94-431c-9ae4-4e94a0fbbcce">
+            <lb xml:id="uuid_d5ebc13e-9cc8-45ee-bfcf-1cbf49c6c2fa"/>Die Behauptung, der Saal fasse
+            sechzig Personen, ist ebenso<lb xml:id="uuid_c8e1bf00-952b-463c-9511-e54fdecf5f4f"
+            />falsch wie die andre, es hätten damals von den sechzig ein Dutzend<lb
+               xml:id="uuid_80f58a0c-7721-4ed2-8124-8ce8f1e125c2"/>gefehlt. Aus dem beigelegten <rs
+               type="work" subtype="legal-doc">Schreiben</rs> der „<rs ref="#53333"
+               type="institution">Wiener Urania</rs>“ vom<lb
+               xml:id="uuid_d755767b-2de8-4983-858c-5b74d86f882d"/>5. September 1935 ergibt sich,
+            dass der Saal 72 Sitzplätze und 28 Steh<lb break="no"
+               xml:id="uuid_be470a95-bc6c-427d-99bf-d08fe44f0832"/>plätze fasst und dass damals, bei
+            meiner Vorlesung des „<rs ref="#32047" type="work" subtype="pmb">Kaufmanns von<lb
+                  xml:id="uuid_061613c6-96f0-48a4-b5d5-e644155043c7"/>Venedig</rs>“, 86 Karten
+            abgesetzt waren. Dass sämtliche 72 Stehplätze<lb
+               xml:id="uuid_db4d3d28-a62e-40a8-9f9e-e7b4df211faa"/>verkauft und an der Abendkassa
+            schliesslich nur noch Stehplätze, von<lb
+               xml:id="uuid_8f93fb19-deca-4304-ab3f-77b0b1e8edea"/>denen also 14 abgesetzt wurden,
+            zu haben waren, weiss ich eben von<lb xml:id="uuid_665827c5-d469-4103-af9e-1cb4c442c9a6"
+            />jenem <rs type="person">Referenten</rs> der „<rs ref="#41265" type="work"
+               subtype="pmb">Wiener Zeitung</rs>“, der für sich und seine<lb
+               xml:id="uuid_bf38197a-9bca-40ac-a7b9-574798b634a5"/><rs type="person">Frau</rs> nur
+            noch Stehplatzkarten erhielt; sie hatten es nur der Protektion<lb
+               xml:id="uuid_160ce4a4-126b-4f4d-b372-34964f248ab9"/>des <rs type="person"
+               >Saaldieners</rs>, der noch Stühle beischaffte, zu danken, dass sie<lb
+               xml:id="uuid_d84e60c0-f23a-4a8f-a25b-533f3f01dfd7"/>doch noch sitzen konnten. </p>
+         <p xml:id="uuid_ed6f64d8-8ad8-406f-9638-76dd5f4baee8">
+            <lb xml:id="uuid_dd2e4e8e-6a50-4193-8d75-c00bcefe4590"/>In der Ende August 1935
+            erschienenen „<rs ref="#41244" type="work" subtype="pmb">Fackel</rs>“ heisst es, <pb
+               xml:id="D_000076-013-000_p002" facs="#D_000076-013-000-facs001-l002-p002" n="2"/>
+            <lb xml:id="uuid_fd3df5c7-560d-42de-a943-51c9fa293afa"/>ich bekunde „<quote
+               source="https://fackel.oeaw.ac.at/f/912,010"
+               xml:id="uuid_e0a914ba-c345-461d-9144-1dad0e5c9b98">neuerdings</quote>“ einen „<quote
+               source="https://fackel.oeaw.ac.at/f/912,010"
+               xml:id="uuid_f2ac583c-a2d6-454c-bb87-c3a797163f7d">polemischen Ehrgeiz</quote>“, den
+               man<lb xml:id="uuid_af519615-fc2b-4814-b07f-b8b98a9fa60e"/>mir gar nicht zugetraut
+            hätte. Wenn dies bedeuten soll, dass ich<lb
+               xml:id="uuid_50499851-674a-4b29-85aa-6f18af6ef616"/>diesen Ehrgeiz erst jetzt
+            betätige, so verweise ich darauf, dass die<lb
+               xml:id="uuid_1848d4ab-af87-45e7-bd9d-007b90401d07"/>„<rs ref="#41265" type="work"
+               subtype="pmb">Wiener Zeitung</rs>“ meine gegen die Zustände in Deutschland
+               gerichte<lb break="no" xml:id="uuid_8e608222-a78a-4660-a09e-7ea795d80c6b"/>ten
+            Polemiken, die meistens mit meinem vollen Namen gefertigt er<lb break="no"
+               xml:id="uuid_f676d535-d177-4501-bab0-5cf85d5fad2a"/>scheinen, schon seit April 1933
+            veröffentlicht, dass sie also viele<lb
+               xml:id="uuid_ea4969a3-4c3d-4687-a1e3-49cacc543c26"/>schon zu seiner Zeit brachte, da
+            Herrn <rs ref="https://pmb.acdh.oeaw.ac.at/entity/11988" type="person">Karl Kraus</rs>
+            nichts als sein<lb xml:id="uuid_0e0e987a-9567-4df3-b223-a2e43aa3b21e"/>„<quote
+               source="https://fackel.oeaw.ac.at/f/912,070"
+               xml:id="uuid_5cb81b7e-aa40-4cf0-8cc1-74f8b42dcfaf">stolz bekannte<subst
+                  hand="#D_000076-013-000-hand01">
+                  <del hand="#D_000076-013-000-hand01">n</del>
+                  <add hand="#D_000076-013-000-hand01">s</add>
+               </subst> Nichts</quote>“ einfiel. Als ihm dies einfiel, hat es wohl<lb
+               xml:id="uuid_c7045e9d-dd68-41aa-a655-3471470cb3f6"/>vieles unter sich begraben.
+            Schade! </p>
+         <p xml:id="uuid_11d4d9e3-1eff-4aaf-a891-e966ce1d4a22">
+            <lb xml:id="uuid_6983703a-ce97-4de4-8f9c-4fadf8332d78"/>Indem ich für die erbetene
+            Weiterleitung dieses Briefes be<lb break="no"
+               xml:id="uuid_6fea60ed-e01b-4ac2-b6f1-21583e2fa216"/>stens danke, zeichne ich</p>
+         <p xml:id="uuid_029a0e46-a1cb-496e-9ce7-2979c56fd16e"><lb
+               xml:id="uuid_fd46d3b7-e036-4db8-953c-50df478a54df"/>hochachtungsvoll<lb
+               xml:id="uuid_22d6f549-02a1-4a7b-89fc-5fb0206d0f25"/>Dr. <rs
+               ref="https://pmb.acdh.oeaw.ac.at/entity/16309" type="person">Flatter</rs>
+         </p>
+      </body>
+   </text>
+</TEI>

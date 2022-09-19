@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   next="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-006-000.xml"
+   prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000174-004-000.xml"
+   xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="D_000174-005-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Rolf Nürnberg</title>
+            <editor ref="#IL">Isabel Langkabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische
+                  Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthianystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                  Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL"
+               >https://id.acdh.oeaw.ac.at/legalkraus/D_000174-005-000.xml</idno>
+            <idno subtype="krausonline" type="URL"
+               >http://www.kraus.wienbibliothek.at/node/4322</idno>
+            <idno subtype="transkribus" type="ID">349058</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000174" type="collection">Karl Kraus
+               ca. Neues Wiener Journal</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000174-005-000-facs001" xml:id="D_000174-005-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000174-005-000-wit01"
+                        ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DSL"
+                        >Durchschlag</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1932-02-24">24. Februar 1932</date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/> 
+                  <settlement ref="#51"/> 
+               </address>
+               <date when-iso="1932-02-24">24. Februar 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#39265">Herrn | Rolf Nürnberg</persName>
+               <address>
+                  <street corresp="#56166">Tauentzinstrasse 13a</street>
+                  <settlement ref="#168">Berlin W</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject">Kraus – Wr Journal XIII</note>
+               <note type="dictation">Dr. S/Fa.</note>
+            </noteGrp>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term source="D_000174-005-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000174-005-000-wit01"
+               scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-07" who="#IL"/>
+         <change type="header_facsimile" when-iso="2021-10-11" who="#IL"/>
+         <change type="structure" when-iso="2021-10-01" who="#IL"/>
+         <change type="references" when-iso="2021-10-11" who="#IL"/>
+         <change type="typography" when-iso="021-10-07" who="#IL"/>
+         <change when-iso="2020-03-23T14:14:05.296Z" who="#IB">created by API</change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription of
+            Transkribus Document 349058. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000174-005-000-facs001">
+      <surfaceGrp xml:id="D_000174-005-000-facs001-l001">
+         <surface type="recto" xml:id="D_000174-005-000-facs001-l001-p001">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543587/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+         <surface type="verso" xml:id="D_000174-005-000-facs001-l001-p002">
+            
+            <graphic
+               url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2543588/full/full/0/default.jpg"
+               source="wienbibliothek"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000174-005-000_p001" facs="#D_000174-005-000-facs001-l001" n="1"/>
+         <p xml:id="uuid_a9306779-9eb5-4537-a5ff-06b68d6b0add">
+            <lb xml:id="uuid_fe024ffd-2193-4216-b829-7db8ea4c0cfa"/>Lieber Herr <rs ref="#39265"
+               type="person">Nürnberg</rs>! </p>
+         <p xml:id="uuid_7a1806b9-1eb6-48e0-a505-77fd3490a154">
+            <lb xml:id="uuid_46e58cd5-7459-4c8a-b1bf-e7642984b17b"/>Ich bestätige Ihnen mit bestem
+            Dank den<lb xml:id="uuid_eba3463b-5664-4c01-9886-61410c7acdcc"/>Empfang der drei Nummern
+            des ‚<rs ref="#60295" type="work" subtype="pmb">Berliner Herold</rs>‘ und bin mit<lb
+               xml:id="uuid_27376b1b-5b13-4604-994b-653e17c06207"/>besten Grüssen</p>
+         <p xml:id="uuid_93fdef89-f376-493e-8ab4-378967ed8a7a"><lb
+               xml:id="uuid_1db5d52a-280a-4c05-96ce-1c138c9d1526"/>Ihr ergebener </p>
+         <pb xml:id="D_000174-005-000_p002" facs="#D_000174-005-000-facs001-l001-p002" n="2"/>
+         <p xml:id="uuid_2df45a26-93bf-4f08-ad39-3a6c07e3ef48">
+            <lb xml:id="uuid_dcf38c4c-9a40-4a4c-89d2-fb1a34b87515"/><note resp="law-firm"
+               type="paratext">Betr. <rs ref="#11988" type="person">Kraus</rs> – <rs
+                  type="institution" ref="#29320">Neues Wr. Journal</rs> XIII<lb
+                  xml:id="uuid_f27414e5-42f4-472a-9882-fb0e1746196f"/>exp. 24.2.1932.</note></p>
+      </body>
+   </text>
+</TEI>

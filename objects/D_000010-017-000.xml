@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/odd/legalkraus_transcr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/schematron/legalkraus_transcr.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     next="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-018-000.xml"
+     prev="https://id.acdh.oeaw.ac.at/legalkraus/D_000010-016-000.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
+     xml:id="D_000010-017-000.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief Samek an Verlag Die Fackel</title>
+            <editor ref="#JK">Johannes Knüchel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Österreichische Akademie der Wissenschaften </name>
+               <address>
+                  <street>Sonnenfelsgasse 19</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Ludwig Boltzmann Institut für Digital History</name>
+               <address>
+                  <street>Hofburg, Batthyanystiege</street>
+                  <postCode>1010</postCode>
+                  <settlement>Wien</settlement>
+                  <country>Österreich</country>
+               </address>
+               <ref target="https://geschichte.lbg.ac.at">https://geschichte.lbg.ac.at</ref>
+            </publisher>
+            <publisher>
+               <name>Wienbibliothek im Rathaus</name>
+               <address>
+                  <street>Friedrich-Schmidt-Platz 1</street>
+                  <postCode>1010</postCode>
+                  <country>Wien</country>
+                  <settlement>Österreich</settlement>
+               </address>
+               <ref target="https://www.wienbibliothek.at">https://www.wienbibliothek.at</ref>
+            </publisher>
+            <pubPlace>Wien, Österreich</pubPlace>
+            <date>2022</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0">Creative Commons
+                        Namensnennung 4.0 International Lizenz </licence>
+            </availability>
+            <idno subtype="legalkraus" type="URL">https://id.acdh.oeaw.ac.at/legalkraus/D_000010-017-000.xml</idno>
+            <idno subtype="krausonline" type="URL">http://www.kraus.wienbibliothek.at/node/1616</idno>
+            <idno subtype="transkribus" type="ID">380526</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://id.acdh.oeaw.ac.at/legalkraus/C_000010" type="collection">Karl
+                    Kraus ca. Robert-Bühnen (Kammerspiele)</title>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness facs="#D_000010-017-000-facs001" xml:id="D_000010-017-000-wit01"/>
+            </listWit>
+            <msDesc>
+               <physDesc>
+                  <ab type="materiality">
+                     <objectType source="D_000010-017-000-wit01"
+                                 ref="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/M.T.DHN">Durchschlag mit handschriftlichen Annotationen</objectType>
+                  </ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#38909"/>
+               <address>
+                  <street corresp="#50493"/>
+                  <settlement ref="#51"/>
+               </address>
+               <date when-iso="1924-12-05">5. Dezember 1924</date>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="#43724">den | Verlag der „Fackel“</orgName>
+               <address>
+                  <street corresp="#50496">Hintere Zollamtsstrasse 3</street>
+                  <settlement ref="#53">Wien III.</settlement>
+               </address>
+               <date/>
+            </correspAction>
+            <noteGrp>
+               <note type="subject"/>
+               <note type="dictation">Kraus – Robertbühnen</note>
+            </noteGrp>
+         </correspDesc>
+         <creation>
+            <date subtype="produced" type="sortDate" when-iso="1924-12-05">5. Dezember 1924
+               </date>
+         </creation>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <handNotes>
+            <handNote cert="high"
+                      medium="pencil"
+                      resp="#JK"
+                      scribeRef="#38909"
+                      source="#D_000010-017-000-wit01"
+                      xml:id="D_000010-017-000-hand01"/>
+            <handNote cert="high"
+                      medium="black-ink"
+                      resp="#JK"
+                      scribeRef="#59765"
+                      source="#D_000010-017-000-wit01"
+                      xml:id="D_000010-017-000-hand02"/>
+         </handNotes>
+         <textClass>
+            <keywords>
+               <term source="D_000010-017-000-wit01">Brief</term>
+            </keywords>
+            <classCode source="D_000010-017-000-wit01"
+                       scheme="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/D.K.BRF">D.K.BRF</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="done">
+         <change type="intertexts" when-iso="2021-10-04" who="#JK"/>
+         <change type="typography" when-iso="2021-10-04" who="#JK"/>
+         <change type="references" when-iso="2021-10-04" who="#JK"/>
+         <change type="structure" when-iso="2021-10-04" who="#JK"/>
+         <change when-iso="2020-02-04T11:24:21.463Z" who="#IB">created by API</change>
+         <change when-iso="2020-02-04T11:31:42.384Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-02-04T11:31:43.623Z" who="#JM">Checked Images Wienbibliothek </change>
+         <change when-iso="2020-10-01T12:09:09.817Z" who="#IB">Replaced Text with Transcription
+                of Transkribus Document 380526. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="D_000010-017-000-facs001">
+      <surfaceGrp xml:id="D_000010-017-000-facs001-l001">
+         <surface type="recto" xml:id="D_000010-017-000-facs001-l001-p001">
+            
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540369/full/full/0/default.jpg"/>
+         </surface>
+         <surface type="verso" xml:id="D_000010-017-000-facs001-l001-p002">
+            
+            
+            <graphic ana="status:checked"
+                     source="wienbibliothek"
+                     url="https://www.digital.wienbibliothek.at/wbrobv02/i3f/v21/2540370/full/full/0/default.jpg"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <pb xml:id="D_000010-017-000_p001"
+             facs="#D_000010-017-000-facs001-l001-p001"
+             n="1"/>
+         <p xml:id="uuid_562b099b-4870-44fe-a6fe-7591138ce63d">
+            <lb xml:id="uuid_2a997546-457d-475f-aac8-94c65e94322d"/>Wie ich Ihnen bereits
+            telefonisch mitgeteilt habe,<lb xml:id="uuid_09a5641e-cdd8-45a6-9bd1-ac2cef18850b"/>hat
+               <rs ref="#12537" type="person">Herr Dr. <hi rend="spaced">Rober</hi>t</rs> nach
+            Einleitung des Exekutionsverfahrens,<lb
+               xml:id="uuid_b88f7032-436e-4387-8e84-11720c473067"/>nachdem ich dies seinem <rs
+               ref="#50854" type="person">Anwalt</rs> mitgeteilt habe, seine<lb
+               xml:id="uuid_fedee689-be32-4ec1-83ed-04206f78d9e6"/>Schuld samt Zinsen und Kosten
+            bezahlt. Daraufhin habe ich<lb xml:id="uuid_2dc21a96-ce80-4c5a-8312-72a478213a4a"/>die
+            Exekution zurückgenommen, sodass es zu einer Durchfüh<lb break="no"
+               xml:id="uuid_9ca90e06-6461-483c-bde7-b9504cdf5c67"/>rung derselben nicht mehr
+            gekommen ist. </p>
+         <p xml:id="uuid_497a3208-58ea-419b-9432-af4ee0205611">
+            <lb xml:id="uuid_1f9a5065-c8d3-43dd-a193-f9067e0d2e7c"/>Ich überweise an Sie:<lb xml:id="uuid_100b7eb4-6c6a-4c29-be1a-a70f251aaaec"/>Kaptial 9,716.– K<lb xml:id="uuid_b1fe50a3-02f5-4e18-89a6-144b92186290"/>10% Zinsen vom 7. Mai – 5.
+                Dez. 24 579.600.– K<lb xml:id="uuid_37e0f8b3-b475-4e8c-a693-84387122a51a"/>und die
+                nach Abzug der Barauslagen<lb xml:id="uuid_a58a148d-e93c-42f8-ab56-51615bc7106c"/>in
+                der Angelegenheit eingehobenen<lb xml:id="uuid_10fdb25c-016e-4e1f-ad53-8bc3b1fda416"/>Kosten von 1,261.000.– K<lb xml:id="uuid_cf1325ea-755b-45c8-9bd5-44a7ff1cf98e"/>11,556.700.– K </p>
+         <p xml:id="uuid_f2d1736d-fc89-4617-b3a2-28cc000a259f">
+            <lb xml:id="uuid_2c17e1b2-b69b-4683-80d8-0c952a8ea882"/>Ich bitte Sie die Kosten dem
+            gleichen Zwecke<lb xml:id="uuid_ec49bee5-33a1-4834-8c1c-f00613291d47"/>zuzuführen dem
+            die Hauptschuld samt <subst hand="#D_000010-017-000-hand01">
+               <del hand="#D_000010-017-000-hand01">Kosten</del>
+               <add hand="#D_000010-017-000-hand01">Zinsen</add>
+            </subst> von <rs ref="#11988" type="person">Herrn<lb
+                  xml:id="uuid_26ae707e-df34-47e2-9bed-3a1299795601"/><hi rend="spaced">Krau</hi>s</rs> zugedacht sind. </p>
+         <p xml:id="uuid_31ac2d37-4340-4e81-9ce4-4a0513171b12">
+            <lb xml:id="uuid_6a0f96fd-ecc5-4dbc-a851-44c128ea90aa"/>Ich zeichne<lb xml:id="uuid_499811db-ab2a-421d-b00a-2c95976bda5c"/>hochachtungsvoll </p>
+         <p xml:id="uuid_4c716a7a-97b7-467c-8031-ef8f704b31e7">
+            <lb xml:id="uuid_a2d8be29-1ea7-4d62-814d-8f45f5329657"/><note hand="#D_000010-017-000-hand02">Obigen Betrag<lb xml:id="uuid_8cfda281-4161-4153-bb0c-cf086c716e05"/>erhalten<lb xml:id="uuid_10f28d3e-fce6-4dbd-8e4a-f014fb51963a"/><rs ref="#59765" type="person">Emil Siegel</rs>
+            </note>
+         </p>
+         <pb xml:id="D_000010-017-000_p002"
+             facs="#D_000010-017-000-facs001-l001-p002"
+             n="2"/>
+         <p xml:id="uuid_58107b55-f177-4295-9999-7edfd387f34e">
+            <lb xml:id="uuid_2f710987-f4e2-4658-857e-3b10710aa05b"/><note resp="law-firm" type="paratext"><rs ref="#11988" type="person">Kraus</rs> – <rs ref="#37114" type="institution">Robert-Bühnen</rs>
+               <lb xml:id="uuid_79466b97-799f-440e-9e0b-77dc9ec0728d"/>5.XII.24 </note>
+         </p>
+      </body>
+   </text>
+</TEI>
