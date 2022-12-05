@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/other_odds/out/odd_collections.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
-     xml:id="C_000095.xml"
-     prev="https://id.acdh.oeaw.ac.at/C_000094.xml"
-     next="https://id.acdh.oeaw.ac.at/C_000096.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="C_000095.xml" prev="https://id.acdh.oeaw.ac.at/C_000094.xml" next="https://id.acdh.oeaw.ac.at/C_000096.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -37,8 +31,7 @@
                </event>
             </listEvent>
          </sourceDesc>
-      </fileDesc>
-      <textClass>
+      </fileDesc><profileDesc><abstract><p>Kraus erhielt ein Drohschreiben, in dem ihm schwere Körperverletzung angedroht wurde. Da er einen jungen Mann aus dem Umfeld antisemitischer Vereine als Täter vermutete, erstattete er Strafanzeige gegen unbekannte Täter und berichtete über Auffälligkeiten und Indizien. Die Ermittlungen führten zu nichts.</p></abstract><textClass>
          <keywords>
             <term>Strafrecht</term>
             <term>Privatanklagedelikt</term>
@@ -54,25 +47,23 @@
       </textClass>
       <particDesc>
          <listPerson>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK" sameAs="https://pmb.acdh.oeaw.ac.at/entity/11988">
                <persName>Karl Kraus</persName>
-               <ab type="keyword">Anklagender / Anklagende</ab>
+               <note type="keyword">Anklagender / Anklagende</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/38909">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV" sameAs="https://pmb.acdh.oeaw.ac.at/entity/38909">
                <persName>Oskar Samek</persName>
-               <ab type="keyword">Vertreter (Ankläger / Anklägerin)</ab>
+               <note type="keyword">Vertreter (Ankläger / Anklägerin)</note>
             </person>
          </listPerson>
-      </particDesc>
       <listOrg>
-         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER"
-              ref="https://pmb.acdh.oeaw.ac.at/entity/36842">
+         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER" sameAs="https://pmb.acdh.oeaw.ac.at/entity/36842">
             <orgName>Landesgericht für Strafsachen</orgName>
-            <ab type="keyword">Gerichtliche Institution</ab>
+            <note type="keyword">Gerichtliche Institution</note>
          </org>
       </listOrg>
+      </particDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when-iso="2020-01-31T11:25:58.591Z" resp="#IB">created by API</change>
       </revisionDesc>

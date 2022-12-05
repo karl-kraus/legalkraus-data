@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/other_odds/out/odd_collections.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
-     xml:id="C_000122.xml"
-     prev="https://id.acdh.oeaw.ac.at/C_000121.xml"
-     next="https://id.acdh.oeaw.ac.at/C_000123.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="C_000122.xml" prev="https://id.acdh.oeaw.ac.at/C_000121.xml" next="https://id.acdh.oeaw.ac.at/C_000123.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -106,8 +100,8 @@
                </event>
             </listEvent>
          </sourceDesc>
-      </fileDesc>
-      <textClass>
+      </fileDesc><profileDesc><abstract><p>Unter dem Titel „Karl der Goste“ hatte Otto Ernst Hesse in der Vossischen Zeitung einen Artikel veröffentlicht, der einige Unwahrheiten enthielt, die Kraus berichtigt wissen wollte. Hesse hatte sich auf Kraus’ Vortrag vom 9. Februar 1928 „Aus Redaktion und Irrenhaus“ bezogen, in dem Kraus Gedichte eines Schlossers aus einem Czernowitzer Irrenhaus als genial gepriesen hatte. Es stellte sich allerdings heraus, dass diese Gedichte höchstwahrscheinlich nicht von dem Schlosser stammten, sondern dass es sich um einen Plagiatsfall handelte. In weiterer Folge wurde auch Paul Zech die Urheberschaft an den Gedichten zugeschrieben. 
+Hesse machte sich nun in der Vossischen Zeitung über diesen Irrtum lustig und machte dabei auch verschiedene unwahre Bemerkungen, deren Berichtigung Kraus und Samek forderten. Die von Samek verfasste Berichtigung entsprach vorerst allerdings formal nicht dem deutschen Pressgesetz (122.6). Da auch die von Botho Laserstein entsprechend korrigierte Berichtigung nicht gebracht wurde, wurde Strafanzeige bei der Generalstaatsanwalt erstattet. Diese wollte strafrechtlich nicht einschreiten, da die Berichtigung selbst Äusserungen kritischen und polemischen Inhalts enthielt. Nach einer weiteren Korrektur der Berichtigung, musste die Vossische Zeitung diese schließlich bringen.</p></abstract><textClass>
          <keywords>
             <term>Strafrecht</term>
             <term>Pressrecht</term>
@@ -131,25 +125,23 @@
       </textClass>
       <particDesc>
          <listPerson>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK" sameAs="https://pmb.acdh.oeaw.ac.at/entity/11988">
                <persName>Karl Kraus</persName>
-               <ab type="keyword">Anklagender / Anklagende</ab>
+               <note type="keyword">Anklagender / Anklagende</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/38909">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV" sameAs="https://pmb.acdh.oeaw.ac.at/entity/38909">
                <persName>Oskar Samek</persName>
-               <ab type="keyword">Vertreter (Ankläger / Anklägerin)</ab>
+               <note type="keyword">Vertreter (Ankläger / Anklägerin)</note>
             </person>
          </listPerson>
-      </particDesc>
       <listOrg>
-         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER"
-              ref="https://pmb.acdh.oeaw.ac.at/entity/36832">
+         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER" sameAs="https://pmb.acdh.oeaw.ac.at/entity/36832">
             <orgName>Landgericht I Berlin</orgName>
-            <ab type="keyword">Gerichtliche Institution</ab>
+            <note type="keyword">Gerichtliche Institution</note>
          </org>
       </listOrg>
+      </particDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when-iso="2020-04-07T10:08:33.394Z" resp="#IB">created by API</change>
       </revisionDesc>

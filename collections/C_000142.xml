@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/other_odds/out/odd_collections.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
-     xml:id="C_000142.xml"
-     prev="https://id.acdh.oeaw.ac.at/C_000141.xml"
-     next="https://id.acdh.oeaw.ac.at/C_000143.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="C_000142.xml" prev="https://id.acdh.oeaw.ac.at/C_000141.xml" next="https://id.acdh.oeaw.ac.at/C_000143.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -133,8 +127,9 @@
                </event>
             </listEvent>
          </sourceDesc>
-      </fileDesc>
-      <textClass>
+      </fileDesc><profileDesc><abstract><p>Der Th. Knaur Nachf. Verlag (Berlin) war wiederholt an Karl Kraus herangetreten, da er Die letzten Tage der Menschheit verlegen wollte.
+Nachdem alle Details abgeklärt und die Vertragszusendung bereits mündlich zugesichert hatte, zog sich der Verlag plötzlich zurück und schickte keinen Vertrag zu. Kraus war der Ansicht, das sei aufgrund von politischen Rücksichtnahmen – vor allem gegenüber Deutschnationalen und „Wiener Faktoren“ – geschehen und klagte durch Samek am Handelsgericht Wien. Der vorbereitende Schriftsatz zur Verhandlung ist in Kraus’ Handschrift erhalten und lässt deutlich erkennen, wie stark Kraus auch an solch juristischen Dokumenten mitarbeitete (142.17) und wie die Zusammenarbeit mit Samek („Dr. S.“) funktionierte, dem Kraus die Stellen aufzeigte, zu denen er noch Stellung nehmen müsse.
+Die mündlichen Verhandlungen – ihr Verlauf und ihre Ergebnisse – wurden im Rückblick von den beiden Parteien sehr verschieden dargestellt. Heinrich Fischer wurde als Zeuge hinzugezogen. Schließlich einigte man sich auf einen Vergleich, in dem der Th. Knaur Nachf. Verlag die Kosten des Prozesses übernahm und Kraus auf eine Entschädigung für verpasste Möglichkeiten verzichtete.</p></abstract><textClass>
          <keywords>
             <term>Zivilrecht</term>
             <term>Streitige Zivilrechtssache</term>
@@ -152,35 +147,31 @@
       </textClass>
       <particDesc>
          <listPerson>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK" sameAs="https://pmb.acdh.oeaw.ac.at/entity/11988">
                <persName>Karl Kraus</persName>
-               <ab type="keyword">Anklagender / Anklagende</ab>
+               <note type="keyword">Anklagender / Anklagende</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/38909">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV" sameAs="https://pmb.acdh.oeaw.ac.at/entity/38909">
                <persName>Oskar Samek</persName>
-               <ab type="keyword">Vertreter (Ankläger / Anklägerin)</ab>
+               <note type="keyword">Vertreter (Ankläger / Anklägerin)</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AGV"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/43636">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AGV" sameAs="https://pmb.acdh.oeaw.ac.at/entity/43636">
                <persName>Alfred Seiller</persName>
-               <ab type="keyword">Vertreter (Angeklagter / Angeklagte)</ab>
+               <note type="keyword">Vertreter (Angeklagter / Angeklagte)</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.RIC"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/65174">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.RIC" sameAs="https://pmb.acdh.oeaw.ac.at/entity/65174">
                <persName>? Steiner</persName>
-               <ab type="keyword">Richter</ab>
+               <note type="keyword">Richter</note>
             </person>
          </listPerson>
-      </particDesc>
       <listOrg>
-         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER"
-              ref="https://pmb.acdh.oeaw.ac.at/entity/29591">
+         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER" sameAs="https://pmb.acdh.oeaw.ac.at/entity/29591">
             <orgName>Handelsgericht Wien</orgName>
-            <ab type="keyword">Gerichtliche Institution</ab>
+            <note type="keyword">Gerichtliche Institution</note>
          </org>
       </listOrg>
+      </particDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when-iso="2020-04-07T10:14:25.726Z" resp="#IB">created by API</change>
       </revisionDesc>

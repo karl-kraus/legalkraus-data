@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/other_odds/out/odd_collections.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
-     xml:id="C_000141.xml"
-     prev="https://id.acdh.oeaw.ac.at/C_000140.xml"
-     next="https://id.acdh.oeaw.ac.at/C_000142.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="C_000141.xml" prev="https://id.acdh.oeaw.ac.at/C_000140.xml" next="https://id.acdh.oeaw.ac.at/C_000142.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +25,7 @@
                </event>
             </listEvent>
          </sourceDesc>
-      </fileDesc>
-      <textClass>
+      </fileDesc><profileDesc><abstract><p>Die Akte beinhaltet eine Klage aufgrund einer nicht veröffentlichten Berichtigung, die wahrscheinlich eine Rezension zu Die Unüberwindlichen betraf. Der genaue Verlauf und der Ausgang sind aus der Aktenlage nicht ersichtlich.</p></abstract><textClass>
          <keywords>
             <term>Strafrecht</term>
             <term>Pressrecht</term>
@@ -52,25 +45,23 @@
       </textClass>
       <particDesc>
          <listPerson>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK" sameAs="https://pmb.acdh.oeaw.ac.at/entity/11988">
                <persName>Karl Kraus</persName>
-               <ab type="keyword">Anklagender / Anklagende</ab>
+               <note type="keyword">Anklagender / Anklagende</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/38969">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV" sameAs="https://pmb.acdh.oeaw.ac.at/entity/38969">
                <persName>Botho Laserstein</persName>
-               <ab type="keyword">Vertreter (Ankläger / Anklägerin)</ab>
+               <note type="keyword">Vertreter (Ankläger / Anklägerin)</note>
             </person>
          </listPerson>
-      </particDesc>
       <listOrg>
-         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER"
-              ref="https://pmb.acdh.oeaw.ac.at/entity/36832">
+         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER" sameAs="https://pmb.acdh.oeaw.ac.at/entity/36832">
             <orgName>Landgericht I Berlin</orgName>
-            <ab type="keyword">Gerichtliche Institution</ab>
+            <note type="keyword">Gerichtliche Institution</note>
          </org>
       </listOrg>
+      </particDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when-iso="2020-04-07T10:14:12.894Z" resp="#IB">created by API</change>
       </revisionDesc>

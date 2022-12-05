@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/other_odds/out/odd_collections.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
-     xml:id="C_000093.xml"
-     prev="https://id.acdh.oeaw.ac.at/C_000092.xml"
-     next="https://id.acdh.oeaw.ac.at/C_000094.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="C_000093.xml" prev="https://id.acdh.oeaw.ac.at/C_000092.xml" next="https://id.acdh.oeaw.ac.at/C_000094.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -64,8 +58,8 @@
                </event>
             </listEvent>
          </sourceDesc>
-      </fileDesc>
-      <textClass>
+      </fileDesc><profileDesc><abstract><p>Die Wiener Neuesten Nachrichten titelten am 18. September 1927 im Zusammenhang mit Kraus’ Plakatierung gegen Schober „Karl Kraus fordert…!! Der ‚Fackel‘- und Reklame-Kraus hat sich wieder einmal kräftig blamiert!“ 
+Oskar Samek und Kraus forderten die Berichtigung der im Artikel falsch dargestellten Tatsache, dass Kraus die Plakate „selbst angebracht“ habe. Die Berichtigung erschien nicht, also reichten Kraus und Samek Privatklage ein. Im folgenden Prozess wurden die Wiener Neuesten Nachrichten für schuldig befunden, obwohl sie sich auf das Wort „angeblich“ beriefen, das die „berichtigungsfähige Tatsache“ zu einer nicht berichtigungsfähigen „Ansicht“ mache.</p></abstract><textClass>
          <keywords>
             <term>Strafrecht</term>
             <term>Pressrecht</term>
@@ -87,35 +81,31 @@
       </textClass>
       <particDesc>
          <listPerson>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK" sameAs="https://pmb.acdh.oeaw.ac.at/entity/11988">
                <persName>Karl Kraus</persName>
-               <ab type="keyword">Anklagender / Anklagende</ab>
+               <note type="keyword">Anklagender / Anklagende</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/38909">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV" sameAs="https://pmb.acdh.oeaw.ac.at/entity/38909">
                <persName>Oskar Samek</persName>
-               <ab type="keyword">Vertreter (Ankläger / Anklägerin)</ab>
+               <note type="keyword">Vertreter (Ankläger / Anklägerin)</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANG"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/51590">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANG" sameAs="https://pmb.acdh.oeaw.ac.at/entity/51590">
                <persName>Ernst Holzmann</persName>
-               <ab type="keyword">Angeklagter / Angeklagte</ab>
+               <note type="keyword">Angeklagter / Angeklagte</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.RIC"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/51605">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.RIC" sameAs="https://pmb.acdh.oeaw.ac.at/entity/51605">
                <persName>Robert Kramer</persName>
-               <ab type="keyword">Richter</ab>
+               <note type="keyword">Richter</note>
             </person>
          </listPerson>
-      </particDesc>
       <listOrg>
-         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER"
-              ref="https://pmb.acdh.oeaw.ac.at/entity/50491">
+         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER" sameAs="https://pmb.acdh.oeaw.ac.at/entity/50491">
             <orgName>Strafbezirksgericht I</orgName>
-            <ab type="keyword">Gerichtliche Institution</ab>
+            <note type="keyword">Gerichtliche Institution</note>
          </org>
       </listOrg>
+      </particDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when-iso="2020-01-31T11:25:42.044Z" resp="#IB">created by API</change>
       </revisionDesc>

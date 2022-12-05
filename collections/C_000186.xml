@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/other_odds/out/odd_collections.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
-     xml:id="C_000186.xml"
-     prev="https://id.acdh.oeaw.ac.at/C_000185.xml"
-     next="https://id.acdh.oeaw.ac.at/C_000187.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="C_000186.xml" prev="https://id.acdh.oeaw.ac.at/C_000185.xml" next="https://id.acdh.oeaw.ac.at/C_000187.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -85,8 +79,8 @@
                </event>
             </listEvent>
          </sourceDesc>
-      </fileDesc>
-      <textClass>
+      </fileDesc><profileDesc><abstract><p>Aufgrund eines zweiten beleidigenden Artikels des Österreichischen Abendblatts (s. Akte 185), in dem Kraus als „nicht ganz reinrassige[r] Wiener Bolschewike[]“ und „berüchtigte[r] Wiener Kretzerich“ verunglimpft wurde (185.3), reichten Kraus und Samek nach Abschluss der ergebnislosen Voruntersuchungen Privatklage gegen den neuen verantwortlichen Redakteur Willy Marx ein.
+Hier lenkte sich nun allerdings der Verdacht, den Artikel geschrieben zu haben, auf Hans Békessy. Dieser war allerdings nicht greifbar, da er nach Budapest abgemeldet war. Der verantwortliche Redakteur Willy Marx wurde also verurteilt wie zuvor Alfred Kinast, allerdings betrug die Geldstrafe hier nur 100 Schilling. In beiden Fällen beschied Kraus auch Gnadengesuche positiv.</p></abstract><textClass>
          <keywords>
             <term>Strafrecht</term>
             <term>Privatanklagedelikt</term>
@@ -102,40 +96,35 @@
       </textClass>
       <particDesc>
          <listPerson>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK" sameAs="https://pmb.acdh.oeaw.ac.at/entity/11988">
                <persName>Karl Kraus</persName>
-               <ab type="keyword">Anklagender / Anklagende</ab>
+               <note type="keyword">Anklagender / Anklagende</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/38909">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV" sameAs="https://pmb.acdh.oeaw.ac.at/entity/38909">
                <persName>Oskar Samek</persName>
-               <ab type="keyword">Vertreter (Ankläger / Anklägerin)</ab>
+               <note type="keyword">Vertreter (Ankläger / Anklägerin)</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANG"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/51615">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANG" sameAs="https://pmb.acdh.oeaw.ac.at/entity/51615">
                <persName>Willy Marx</persName>
-               <ab type="keyword">Angeklagter / Angeklagte</ab>
+               <note type="keyword">Angeklagter / Angeklagte</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AGV"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/55835">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AGV" sameAs="https://pmb.acdh.oeaw.ac.at/entity/55835">
                <persName>Herbert Schreuer</persName>
-               <ab type="keyword">Vertreter (Angeklagter / Angeklagte)</ab>
+               <note type="keyword">Vertreter (Angeklagter / Angeklagte)</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.RIC"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/43614">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.RIC" sameAs="https://pmb.acdh.oeaw.ac.at/entity/43614">
                <persName>Josef Standhartinger</persName>
-               <ab type="keyword">Richter</ab>
+               <note type="keyword">Richter</note>
             </person>
          </listPerson>
-      </particDesc>
       <listOrg>
-         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER"
-              ref="https://pmb.acdh.oeaw.ac.at/entity/50491">
+         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER" sameAs="https://pmb.acdh.oeaw.ac.at/entity/50491">
             <orgName>Strafbezirksgericht I</orgName>
-            <ab type="keyword">Gerichtliche Institution</ab>
+            <note type="keyword">Gerichtliche Institution</note>
          </org>
       </listOrg>
+      </particDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when-iso="2020-04-07T10:47:07.083Z" resp="#IB">created by API</change>
       </revisionDesc>

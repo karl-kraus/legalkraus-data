@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/other_odds/out/odd_collections.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
-     xml:id="C_000004.xml"
-     prev="https://id.acdh.oeaw.ac.at/C_000003.xml"
-     next="https://id.acdh.oeaw.ac.at/C_000005.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="C_000004.xml" prev="https://id.acdh.oeaw.ac.at/C_000003.xml" next="https://id.acdh.oeaw.ac.at/C_000005.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -64,8 +58,7 @@
                </event>
             </listEvent>
          </sourceDesc>
-      </fileDesc>
-      <textClass>
+      </fileDesc><profileDesc><abstract><p>Das Neue 8 Uhr Blatt brachte die Falschmeldung, dass drei Bühnenwerke von Frank Wedekind, Egon Erwin Kisch und Karl Kraus – „Die letzte Nacht“ – von der Zensur verboten worden seien. Kraus und Samek forderten eine Berichtigung, die allerdings nicht gebracht wurde. Also klagte Samek den verantwortlichen Redakteur Friedrich Oppenheimer nach §§ 23, 24 des Pressegesetzes wegen Unvollständigkeit der Berichtigung. In der Hauptverhandlung am 10. Januar 1923 kam es zu einem Vergleich, wobei sich Friedrich Oppenheimer verpflichtete, die Berichtigung im korrekten Wortlaut zu drucken, einen Sühnebetrag an die Wiener Freiwillige Rettungsgesellschaft zu zahlen und die Gerichtskosten zu tragen. In einem Brief berichtete Samek Kraus von der Verhandlung und von seiner Skepsis dem Richter Christoph Höflmayr gegenüber – dieser hatte bereits Berichtigungsklagen durch Samek und Kraus abgelehnt.</p></abstract><textClass>
          <keywords>
             <term>Strafrecht</term>
             <term>Privatanklagedelikt</term>
@@ -81,35 +74,31 @@
       </textClass>
       <particDesc>
          <listPerson>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK" sameAs="https://pmb.acdh.oeaw.ac.at/entity/11988">
                <persName>Karl Kraus</persName>
-               <ab type="keyword">Anklagender / Anklagende</ab>
+               <note type="keyword">Anklagender / Anklagende</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/38909">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV" sameAs="https://pmb.acdh.oeaw.ac.at/entity/38909">
                <persName>Oskar Samek</persName>
-               <ab type="keyword">Vertreter (Ankläger / Anklägerin)</ab>
+               <note type="keyword">Vertreter (Ankläger / Anklägerin)</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANG"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/39270">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANG" sameAs="https://pmb.acdh.oeaw.ac.at/entity/39270">
                <persName>Friedrich Oppenheimer</persName>
-               <ab type="keyword">Angeklagter / Angeklagte</ab>
+               <note type="keyword">Angeklagter / Angeklagte</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.RIC"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/50480">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.RIC" sameAs="https://pmb.acdh.oeaw.ac.at/entity/50480">
                <persName>Christoph Höflmayr</persName>
-               <ab type="keyword">Richter</ab>
+               <note type="keyword">Richter</note>
             </person>
          </listPerson>
-      </particDesc>
       <listOrg>
-         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER"
-              ref="https://pmb.acdh.oeaw.ac.at/entity/50491">
+         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER" sameAs="https://pmb.acdh.oeaw.ac.at/entity/50491">
             <orgName>Strafbezirksgericht I</orgName>
-            <ab type="keyword">Gerichtliche Institution</ab>
+            <note type="keyword">Gerichtliche Institution</note>
          </org>
       </listOrg>
+      </particDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when-iso="2020-01-31T10:43:44.85Z" resp="#IB">created by API</change>
       </revisionDesc>

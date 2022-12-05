@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/other_odds/out/odd_collections.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
-     xml:id="C_000033.xml"
-     prev="https://id.acdh.oeaw.ac.at/C_000032.xml"
-     next="https://id.acdh.oeaw.ac.at/C_000034.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="C_000033.xml" prev="https://id.acdh.oeaw.ac.at/C_000032.xml" next="https://id.acdh.oeaw.ac.at/C_000034.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -58,8 +52,7 @@
                </event>
             </listEvent>
          </sourceDesc>
-      </fileDesc>
-      <textClass>
+      </fileDesc><profileDesc><abstract><p>Der Monarchist Stefan Padajaunig klagte Karl Kraus wegen Ehrenbeleidigung. Kraus hatte sich in einem Vortrag am 25. Juni 1925 über die Stellungnahme der Stunde für Padajaunig – der Kraus schon früher bedrängt hatte und dafür verurteilt worden war – lustig gemacht und sich abfällig über Padajaunig geäußert. Diese Ehrenbeleidigungsklage wurde nun zwar in der Hauptverhandlung wegen Verjährung abgewiesen, aber Stefan Padajaunig wurde bei dieser Gelegenheit verbal so ausfällig gegen Kraus, dass nun Kraus Padajaunig wegen Ehrenbeleidigung klagte. Die Hauptverhandlung in dieser Sache wurde für den 4. März 1926 anberaumt, aber der weitere Verlauf dieser Sache geht aus der Akte nicht hervor.</p></abstract><textClass>
          <keywords>
             <term>Strafrecht</term>
             <term>Privatanklagedelikt</term>
@@ -75,40 +68,35 @@
       </textClass>
       <particDesc>
          <listPerson>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/51633">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK" sameAs="https://pmb.acdh.oeaw.ac.at/entity/51633">
                <persName>Stefan Padajaunig</persName>
-               <ab type="keyword">Anklagender / Anklagende</ab>
+               <note type="keyword">Anklagender / Anklagende</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANG"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANG" sameAs="https://pmb.acdh.oeaw.ac.at/entity/11988">
                <persName>Karl Kraus</persName>
-               <ab type="keyword">Angeklagter / Angeklagte</ab>
+               <note type="keyword">Angeklagter / Angeklagte</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AGV"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/38909">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AGV" sameAs="https://pmb.acdh.oeaw.ac.at/entity/38909">
                <persName>Oskar Samek</persName>
-               <ab type="keyword">Vertreter (Angeklagter / Angeklagte)</ab>
+               <note type="keyword">Vertreter (Angeklagter / Angeklagte)</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/52523">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV" sameAs="https://pmb.acdh.oeaw.ac.at/entity/52523">
                <persName>Rudolf Reuterer</persName>
-               <ab type="keyword">Vertreter (Ankläger / Anklägerin)</ab>
+               <note type="keyword">Vertreter (Ankläger / Anklägerin)</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.RIC"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/65156">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.RIC" sameAs="https://pmb.acdh.oeaw.ac.at/entity/65156">
                <persName>Friedrich Weiß</persName>
-               <ab type="keyword">Richter</ab>
+               <note type="keyword">Richter</note>
             </person>
          </listPerson>
-      </particDesc>
       <listOrg>
-         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER"
-              ref="https://pmb.acdh.oeaw.ac.at/entity/36842">
+         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER" sameAs="https://pmb.acdh.oeaw.ac.at/entity/36842">
             <orgName>Landesgericht für Strafsachen</orgName>
-            <ab type="keyword">Gerichtliche Institution</ab>
+            <note type="keyword">Gerichtliche Institution</note>
          </org>
       </listOrg>
+      </particDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when-iso="2020-01-31T11:14:47.926Z" resp="#IB">created by API</change>
       </revisionDesc>

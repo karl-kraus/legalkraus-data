@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/other_odds/out/odd_collections.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
-     xml:id="C_000164.xml"
-     prev="https://id.acdh.oeaw.ac.at/C_000163.xml"
-     next="https://id.acdh.oeaw.ac.at/C_000165.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="C_000164.xml" prev="https://id.acdh.oeaw.ac.at/C_000163.xml" next="https://id.acdh.oeaw.ac.at/C_000165.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,8 +49,7 @@
                </event>
             </listEvent>
          </sourceDesc>
-      </fileDesc>
-      <textClass>
+      </fileDesc><profileDesc><abstract><p>In einem Artikel des Berliner Tageblatt wurde behauptet, dass Alfred Kerr nach dem Ersten Weltkrieg die erste deutsche Vorlesung an der Sorbonne gehalten habe. Karl Kraus hatte aber schon ein halbes Jahr davor Vorträge an der Sorbonne gehalten und verlangte eine Richtigstellung der falschen Behauptung. Als die Berichtigung nicht erschien, brachte Willy Katz etwa eine Woche später einen Strafantrag gegen das Berliner Tagblatt ein. Die Berichtigung erschien schließlich mit Kommentar erst am 28. Oktober 1931 – aufgrund des Kommentars verlangte Willy Katz wiederum eine Berichtigung (s. Akte 179).</p></abstract><textClass>
          <keywords>
             <term>Strafrecht</term>
             <term>Pressrecht</term>
@@ -80,30 +73,27 @@
       </textClass>
       <particDesc>
          <listPerson>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK" sameAs="https://pmb.acdh.oeaw.ac.at/entity/11988">
                <persName>Karl Kraus</persName>
-               <ab type="keyword">Anklagender / Anklagende</ab>
+               <note type="keyword">Anklagender / Anklagende</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/19200">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV" sameAs="https://pmb.acdh.oeaw.ac.at/entity/19200">
                <persName>Willy Katz</persName>
-               <ab type="keyword">Vertreter (Ankläger / Anklägerin)</ab>
+               <note type="keyword">Vertreter (Ankläger / Anklägerin)</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANG"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/47154">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANG" sameAs="https://pmb.acdh.oeaw.ac.at/entity/47154">
                <persName>Fred Hildenbrandt</persName>
-               <ab type="keyword">Angeklagter / Angeklagte</ab>
+               <note type="keyword">Angeklagter / Angeklagte</note>
             </person>
          </listPerson>
-      </particDesc>
       <listOrg>
-         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER"
-              ref="https://pmb.acdh.oeaw.ac.at/entity/36832">
+         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER" sameAs="https://pmb.acdh.oeaw.ac.at/entity/36832">
             <orgName>Landgericht I Berlin</orgName>
-            <ab type="keyword">Gerichtliche Institution</ab>
+            <note type="keyword">Gerichtliche Institution</note>
          </org>
       </listOrg>
+      </particDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when-iso="2020-04-07T10:38:06.319Z" resp="#IB">created by API</change>
       </revisionDesc>

@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/acdh-oeaw/legalkraus-documentation/master/other_odds/out/odd_collections.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:base="https://id.acdh.oeaw.ac.at/legalkraus"
-     xml:id="C_000154.xml"
-     prev="https://id.acdh.oeaw.ac.at/C_000153.xml"
-     next="https://id.acdh.oeaw.ac.at/C_000155.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/legalkraus" xml:id="C_000154.xml" prev="https://id.acdh.oeaw.ac.at/C_000153.xml" next="https://id.acdh.oeaw.ac.at/C_000155.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -76,8 +70,9 @@
                </event>
             </listEvent>
          </sourceDesc>
-      </fileDesc>
-      <textClass>
+      </fileDesc><profileDesc><abstract><p>Auch die Arbeiter-Zeitung berichtete von Kraus’ „Klage gegen die Berliner Volksbühne“ (s. Akte 136). In dem Artikel wurde behauptet, dass „das Werk ‚Die Unüberwindlichen‘ […] aus Rücksichtnahme auf die österreichische Gesandtschaft und das Polizeipräsidium nicht in den Abendspielplan aufgenommen worden“ sei.
+Das sei unwahr: „Wahr ist, dass vom Kläger Karl Kraus lediglich behauptet wurde, dass die Volksbühne die ‚Unüberwindlichen‘ auf Intervention der österreichischen Gesandtschaft nicht in den Abendspielplan aufgenommen hat“ (154.1).
+Der verantwortliche Redakteur Oskar Pollak veröffentlichte die verlangte Berichtigung nicht, also klagten ihn Kraus und Samek. Das Strafbezirksgericht verurteilte ihn zu einer hohen Strafzahlung und zur Veröffentlichung der Berichtigung.</p></abstract><textClass>
          <keywords>
             <term>Strafrecht</term>
             <term>Pressrecht</term>
@@ -97,40 +92,35 @@
       </textClass>
       <particDesc>
          <listPerson>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/11988">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANK" sameAs="https://pmb.acdh.oeaw.ac.at/entity/11988">
                <persName>Karl Kraus</persName>
-               <ab type="keyword">Anklagender / Anklagende</ab>
+               <note type="keyword">Anklagender / Anklagende</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/38909">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AKV" sameAs="https://pmb.acdh.oeaw.ac.at/entity/38909">
                <persName>Oskar Samek</persName>
-               <ab type="keyword">Vertreter (Ankläger / Anklägerin)</ab>
+               <note type="keyword">Vertreter (Ankläger / Anklägerin)</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANG"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/39331">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.ANG" sameAs="https://pmb.acdh.oeaw.ac.at/entity/39331">
                <persName>Oskar Pollak</persName>
-               <ab type="keyword">Angeklagter / Angeklagte</ab>
+               <note type="keyword">Angeklagter / Angeklagte</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AGV"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/39293">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.AGV" sameAs="https://pmb.acdh.oeaw.ac.at/entity/39293">
                <persName>Oswald Richter</persName>
-               <ab type="keyword">Vertreter (Angeklagter / Angeklagte)</ab>
+               <note type="keyword">Vertreter (Angeklagter / Angeklagte)</note>
             </person>
-            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.RIC"
-                    ref="https://pmb.acdh.oeaw.ac.at/entity/50480">
+            <person role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.P.RIC" sameAs="https://pmb.acdh.oeaw.ac.at/entity/50480">
                <persName>Christoph Höflmayr</persName>
-               <ab type="keyword">Richter</ab>
+               <note type="keyword">Richter</note>
             </person>
          </listPerson>
-      </particDesc>
       <listOrg>
-         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER"
-              ref="https://pmb.acdh.oeaw.ac.at/entity/50491">
+         <org role="https://vocabs.acdh.oeaw.ac.at/legalkraus/v1.0/B.I.GER" sameAs="https://pmb.acdh.oeaw.ac.at/entity/50491">
             <orgName>Strafbezirksgericht I</orgName>
-            <ab type="keyword">Gerichtliche Institution</ab>
+            <note type="keyword">Gerichtliche Institution</note>
          </org>
       </listOrg>
+      </particDesc>
+      </profileDesc>
       <revisionDesc status="draft">
          <change when-iso="2020-04-07T10:35:28.486Z" resp="#IB">created by API</change>
       </revisionDesc>
